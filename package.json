@@ -1,0 +1,9 @@
+{
+  "name": "estudio-ia",
+  "private": true,
+  "description": "Motor de vídeo HyperFrames (HTML → MP4) usado pelo Montador",
+  "dependencies": {
+    "gsap": "3.15.0",
+    "hyperframes": "0.8.223"
+  }
+}

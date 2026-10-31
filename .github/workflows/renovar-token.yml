@@ -1,0 +1,37 @@
+name: Renovar tokens do Instagram
+
+# O token de longa duração do Instagram vale 60 dias. Este job renova a cada ~30 dias.
+# Para gravar o token novo automaticamente, crie o secret GH_PAT (token pessoal com
+# permissão "Secrets: read and write" neste repositório). Sem ele, o job só estende a validade.
+
+on:
+  schedule:
+    - cron: "13 12 1 * *"   # dia 1 de cada mês
+  workflow_dispatch:
+
+jobs:
+  renovar:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        secret: [IG_TOKEN_BIBLICO, IG_TOKEN_ESPACO]
+    steps:
+      - name: Renovar ${{ matrix.secret }}
+        env:
+          TOKEN: ${{ secrets[matrix.secret] }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+          NOME: ${{ matrix.secret }}
+          REPO: ${{ github.repository }}
+        run: |
+          if [ -z "$TOKEN" ]; then echo "$NOME não configurado — pulando"; exit 0; fi
+          RESP=$(curl -sS -G "https://graph.instagram.com/refresh_access_token" \
+            --data-urlencode "grant_type=ig_refresh_token" --data-urlencode "access_token=$TOKEN")
+          NOVO=$(echo "$RESP" | jq -r '.access_token // empty')
+          if [ -z "$NOVO" ]; then echo "Falha ao renovar: $(echo "$RESP" | jq -c '.error // .')"; exit 1; fi
+          echo "::add-mask::$NOVO"
+          echo "Renovado. Expira em $(echo "$RESP" | jq -r '.expires_in') segundos."
+          if [ -n "$GH_TOKEN" ]; then
+            echo "$NOVO" | gh secret set "$NOME" --repo "$REPO"
+            echo "Secret $NOME atualizado."
+          fi

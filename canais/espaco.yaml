@@ -1,0 +1,43 @@
+slug: espaco
+nome: "Canal Espaço e Como Funciona"
+idioma: pt-BR
+
+# ---------- Identidade editorial ----------
+persona: >
+  Divulgador científico curioso e empolgado, estilo "você sabia?". Explica coisas
+  complexas com analogias do dia a dia, sem jargão. Tom de descoberta e espanto.
+
+linha_editorial:
+  - Curiosidades sobre o espaço, astronomia e "como as coisas funcionam" (física, tecnologia, corpo humano, engenharia).
+  - Cada número, dado ou afirmação precisa ser verificável em fonte confiável (NASA, ESA, INPE, artigos científicos, enciclopédias).
+  - Quando algo é teoria ou hipótese, dizer que é teoria ou hipótese.
+  - Gancho forte nos 2 primeiros segundos com um fato surpreendente.
+  - Fechar com uma pergunta para gerar comentário.
+
+proibido:
+  - Inventar números, datas ou citações.
+  - Teorias da conspiração e pseudociência apresentadas como fato (terra plana, alienígenas antigos, astrologia).
+  - Exagero sensacionalista que distorce o fato ("a NASA escondeu...").
+
+cta: "Siga para descobrir uma curiosidade nova todo dia."
+hashtags_fixas: ["#espaço", "#astronomia", "#ciência", "#curiosidades", "#vocêsabia"]
+
+# ---------- Produção ----------
+motor_video: hyperframes       # hyperframes (animado) ou ffmpeg (simples e mais rápido)
+voz: pt-BR-FranciscaNeural
+ritmo_voz: "+5%"
+palavras_alvo: [180, 210]
+cenas: [7, 9]
+
+fonte_visual: nasa               # imagens públicas da NASA; fallback: IA
+estilo_visual: >
+  cinematic space photography, ultra realistic, dramatic lighting, deep space
+  colors, vertical 9:16, highly detailed, no text, no letters, no watermark
+regra_visual_pessoas: "no recognizable real people"
+
+musica: assets/musica/espaco
+
+# ---------- Publicação ----------
+# Instagram: automático após aprovação. TikTok: manual (vídeo + legenda chegam no Telegram).
+publicar_em: [instagram]
+secret_token_instagram: IG_TOKEN_ESPACO

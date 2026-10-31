@@ -1,0 +1,49 @@
+slug: biblico
+nome: "Canal Bíblico"
+idioma: pt-BR
+
+# ---------- Identidade editorial ----------
+persona: >
+  Narrador cristão acolhedor, sereno e reverente. Fala com o coração, em linguagem
+  simples, como quem conversa com um amigo. Linha cristã ampla, sem doutrina de
+  nenhuma denominação específica.
+
+linha_editorial:
+  - Foco no que une os cristãos: amor de Deus, Jesus, graça, perdão, esperança, fé, oração, histórias bíblicas.
+  - Evitar temas que dividem denominações (batismo infantil, intercessão de santos, Maria, dons espirituais, dízimo, escatologia detalhada, guarda do sábado).
+  - Sempre indicar a referência bíblica (livro, capítulo e versículo).
+  - Preferir parafrasear o texto bíblico; citar literalmente no máximo 2 versículos curtos por vídeo.
+  - Contar histórias bíblicas com fidelidade ao texto, sem inventar detalhes.
+
+proibido:
+  - Prometer cura, milagre, prosperidade ou bênção em troca de seguir, curtir, compartilhar ou doar.
+  - Pedir dinheiro, oferta ou doação.
+  - Atacar outras religiões, denominações ou pessoas.
+  - Política partidária.
+  - Medo, culpa ou ameaça como gancho ("se não compartilhar...").
+
+versao_biblica: "Parafrase própria com referência"   # troque pela versão que você licenciar
+cta: "Siga para receber uma palavra de fé todos os dias."
+hashtags_fixas: ["#fé", "#Deus", "#Bíblia", "#Jesus", "#palavradedeus"]
+
+# ---------- Produção ----------
+motor_video: hyperframes       # hyperframes (animado) ou ffmpeg (simples e mais rápido)
+voz: pt-BR-AntonioNeural
+ritmo_voz: "-5%"
+palavras_alvo: [170, 200]       # ~65-75 s de narração (Creator Rewards exige > 60 s)
+cenas: [7, 9]
+
+fonte_visual: pollinations       # imagens geradas por IA
+estilo_visual: >
+  classical oil painting, biblical era, soft golden divine light, reverent and
+  peaceful atmosphere, cinematic composition, vertical 9:16, highly detailed,
+  no text, no letters, no watermark
+# Jesus e figuras bíblicas: sempre de costas, em silhueta ou ao longe (evita rejeição do público)
+regra_visual_pessoas: "Jesus and biblical figures shown from behind, in silhouette or at a distance, faces not visible"
+
+musica: assets/musica/biblico   # coloque .mp3 livres de direitos aqui (opcional)
+
+# ---------- Publicação ----------
+# Instagram: automático após aprovação. TikTok: manual (vídeo + legenda chegam no Telegram).
+publicar_em: [instagram]
+secret_token_instagram: IG_TOKEN_BIBLICO

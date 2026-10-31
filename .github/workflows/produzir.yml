@@ -1,0 +1,102 @@
+name: Produzir vídeos
+
+on:
+  schedule:
+    # Horários em UTC (Brasília = UTC-3): ~08:47 e ~16:47
+    - cron: "47 11 * * *"
+    - cron: "47 19 * * *"
+  workflow_dispatch:
+    inputs:
+      canal:
+        description: "Canal"
+        type: choice
+        options: [ambos, biblico, espaco]
+        default: ambos
+      pauta:
+        description: "Pauta específica (opcional — vazio usa a fila)"
+        required: false
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: produzir
+  cancel-in-progress: false
+
+jobs:
+  produzir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    strategy:
+      fail-fast: false
+      max-parallel: 1   # um por vez, para não conflitar ao salvar fila/histórico
+      matrix:
+        canal: ${{ fromJSON(inputs.canal == 'biblico' && '["biblico"]' || inputs.canal == 'espaco' && '["espaco"]' || '["biblico","espaco"]') }}
+    env:
+      GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      POLLINATIONS_API_KEY: ${{ secrets.POLLINATIONS_API_KEY }}
+      LLM_PROVEDORES: ${{ vars.LLM_PROVEDORES || 'groq,gemini,pollinations' }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar FFmpeg e fonte
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+          mkdir -p assets/fontes
+          [ -f assets/fontes/Montserrat.ttf ] || curl -sSfL -o assets/fontes/Montserrat.ttf \
+            "https://github.com/google/fonts/raw/main/ofl/montserrat/Montserrat%5Bwght%5D.ttf" || true
+
+      - run: pip install -r requirements.txt
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Instalar HyperFrames e navegador de renderização
+        run: |
+          npm ci --no-audit --no-fund
+          npx hyperframes browser ensure || echo "HYPERFRAMES_BROWSER_PATH=$(which google-chrome)" >> "$GITHUB_ENV"
+
+      - name: Produzir (${{ matrix.canal }})
+        env:
+          CANAL: ${{ matrix.canal }}
+          PAUTA: ${{ inputs.pauta }}
+        run: |
+          if [ -n "$PAUTA" ]; then
+            python -m estudio.produzir --canal "$CANAL" --pauta "$PAUTA"
+          else
+            python -m estudio.produzir --canal "$CANAL"
+          fi
+
+      - name: Guardar vídeo como artefato (fica 14 dias; a publicação baixa daqui)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: video-${{ matrix.canal }}-${{ github.run_id }}
+          path: |
+            saida/**/video.mp4
+            saida/**/roteiro.json
+            saida/**/post.txt
+          retention-days: 14
+          if-no-files-found: ignore
+
+      - name: Salvar fila de pautas e histórico
+        if: success()
+        run: |
+          git config user.name "estudio-ia[bot]"
+          git config user.email "estudio-ia@users.noreply.github.com"
+          git add pautas historico
+          git diff --cached --quiet && exit 0
+          git commit -m "chore(${{ matrix.canal }}): pauta consumida e histórico"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done
