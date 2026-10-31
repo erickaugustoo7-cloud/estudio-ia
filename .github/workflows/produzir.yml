@@ -15,6 +15,9 @@ on:
       pauta:
         description: "Pauta específica (opcional — vazio usa a fila)"
         required: false
+      roteiro:
+        description: "Roteiro pronto em roteiros/ (ex.: roteiros/meu.json) — pula Diretor/Roteirista/Revisor"
+        required: false
 
 permissions:
   contents: write
@@ -72,8 +75,11 @@ jobs:
         env:
           CANAL: ${{ matrix.canal }}
           PAUTA: ${{ inputs.pauta }}
+          ROTEIRO: ${{ inputs.roteiro }}
         run: |
-          if [ -n "$PAUTA" ]; then
+          if [ -n "$ROTEIRO" ]; then
+            python -m estudio.produzir --canal "$CANAL" --roteiro "$ROTEIRO"
+          elif [ -n "$PAUTA" ]; then
             python -m estudio.produzir --canal "$CANAL" --pauta "$PAUTA"
           else
             python -m estudio.produzir --canal "$CANAL"
