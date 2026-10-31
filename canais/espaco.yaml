@@ -26,7 +26,7 @@ hashtags_fixas: ["#espaço", "#astronomia", "#ciência", "#curiosidades", "#voc�
 motor_video: hyperframes       # hyperframes (animado) ou ffmpeg (simples e mais rápido)
 voz: pt-BR-FranciscaNeural
 ritmo_voz: "+5%"
-palavras_alvo: [180, 210]
+palavras_alvo: [195, 225]
 cenas: [7, 9]
 
 fonte_visual: nasa               # imagens públicas da NASA; fallback: IA
