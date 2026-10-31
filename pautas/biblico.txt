@@ -1,5 +1,4 @@
 # Uma pauta por linha. O Diretor consome de cima para baixo.
 # Linhas começando com # são ignoradas. Fila vazia = o Diretor cria pautas sozinho.
-A parábola do filho pródigo: o pai que corre
 Por que Jesus chorou? (João 11)
 O que significa "não andeis ansiosos" (Filipenses 4)
