@@ -1,5 +1,4 @@
 # Uma pauta por linha. O Diretor consome de cima para baixo.
 # Linhas começando com # são ignoradas. Fila vazia = o Diretor cria pautas sozinho.
-O que aconteceria se você caísse num buraco negro
 Como funciona o GPS do seu celular (e por que depende de Einstein)
 Por que a Lua sempre mostra a mesma face para a Terra
