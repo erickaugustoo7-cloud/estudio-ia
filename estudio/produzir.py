@@ -8,6 +8,7 @@ Uso:
 import argparse
 import json
 import os
+import re
 import subprocess
 from datetime import datetime
 from pathlib import Path
@@ -20,12 +21,15 @@ MARCA_INI, MARCA_FIM = "<!--DADOS", "DADOS-->"
 
 
 def montar_texto_post(canal: dict, roteiro: dict) -> str:
+    legenda = roteiro["legenda"].strip()
+    tags_na_legenda = re.findall(r"#\w+", legenda)
+    legenda = re.sub(r"\s*#\w+", "", legenda).strip()  # hashtags ficam só no bloco final
     tags = []
-    for t in canal["hashtags_fixas"] + roteiro.get("hashtags", []):
+    for t in canal["hashtags_fixas"] + tags_na_legenda + roteiro.get("hashtags", []):
         t = "#" + t.lstrip("#").replace(" ", "")
         if t.lower() not in [x.lower() for x in tags]:
             tags.append(t)
-    return f"{roteiro['legenda'].strip()}\n\n{' '.join(tags[:8])}"
+    return f"{legenda}\n\n{' '.join(tags[:8])}"
 
 
 def abrir_issue(canal, roteiro, texto_post, pasta, duracao, problemas, pauta, no_telegram) -> str:
