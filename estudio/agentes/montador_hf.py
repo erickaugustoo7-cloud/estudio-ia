@@ -128,7 +128,7 @@ tl.seek(0);
 
 
 def _preparar_musica(canal, destino: Path, dur: float) -> bool:
-    faixa = _musica(canal)
+    faixa = _musica(canal, destino.parent)
     if not faixa:
         return False
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-stream_loop", "-1", "-i", str(faixa),

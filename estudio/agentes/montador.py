@@ -90,10 +90,36 @@ def _clipe(imagem: Path, dur: float, saida: Path, i: int):
             "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", str(saida))
 
 
-def _musica(canal: dict) -> Path | None:
+# Acordes da trilha ambiente gerada (Hz). Original, sem direitos autorais.
+ACORDES = {
+    "biblico": [[130.81, 196.00, 261.63, 329.63], [110.00, 164.81, 220.00, 277.18],
+                [146.83, 220.00, 293.66, 369.99], [123.47, 185.00, 246.94, 311.13]],   # maiores, calorosos
+    "espaco": [[110.00, 164.81, 246.94, 329.63], [98.00, 146.83, 220.00, 293.66],
+               [87.31, 130.81, 196.00, 261.63], [103.83, 155.56, 233.08, 311.13]],    # suspensos, misteriosos
+}
+
+
+def _gerar_trilha(canal: dict, destino: Path, dur: float = 150) -> Path:
+    """Trilha ambiente sintetizada no FFmpeg: acorde sustentado com pulsação lenta e eco."""
+    acordes = ACORDES.get(canal.get("slug"), ACORDES["espaco"])
+    acorde = random.choice(acordes)
+    vel = random.uniform(0.07, 0.15)  # pulsação lenta
+    termos = "+".join(f"{0.22 / (k + 1):.3f}*sin(2*PI*{f}*t)" for k, f in enumerate(acorde))
+    expr = f"({termos})*(0.65+0.35*sin(2*PI*{vel:.3f}*t))"
+    _ffmpeg("-f", "lavfi", "-i", f"aevalsrc='{expr}':s=44100:d={dur}",
+            "-af", "lowpass=f=1800,aecho=0.8:0.85:900|1400:0.35|0.25,afade=t=in:d=3,volume=0.9",
+            "-c:a", "libmp3lame", "-q:a", "4", str(destino))
+    return destino
+
+
+def _musica(canal: dict, pasta_trabalho: Path | None = None) -> Path | None:
     pasta = RAIZ / canal.get("musica", "")
     faixas = sorted(pasta.glob("*.mp3")) if canal.get("musica") and pasta.is_dir() else []
-    return random.choice(faixas) if faixas else None
+    if faixas:
+        return random.choice(faixas)
+    if canal.get("trilha_gerada", True) and pasta_trabalho:
+        return _gerar_trilha(canal, pasta_trabalho / "trilha_gerada.mp3")
+    return None
 
 
 def montar(canal, imagens, tempos, narracao: Path, legendas: Path, pasta: Path) -> Path:
@@ -112,7 +138,7 @@ def montar(canal, imagens, tempos, narracao: Path, legendas: Path, pasta: Path) 
     final = pasta / "video.mp4"
     fontes = RAIZ / "assets" / "fontes"
     filtro_video = f"[0:v]ass={legendas.as_posix()}:fontsdir={fontes.as_posix()}[v]"
-    musica = _musica(canal)
+    musica = _musica(canal, pasta)
     args = ["-i", str(base), "-i", str(narracao)]
     if musica:
         args += ["-stream_loop", "-1", "-i", str(musica)]

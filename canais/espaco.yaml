@@ -23,6 +23,10 @@ cta: "Siga para descobrir uma curiosidade nova todo dia."
 hashtags_fixas: ["#espaço", "#astronomia", "#ciência", "#curiosidades", "#vocêsabia"]
 
 # ---------- Produção ----------
+vozes:                          # alterna a cada vídeo (a primeira que funcionar)
+  - pt-BR-FranciscaNeural
+  - pt-BR-ThalitaMultilingualNeural
+  - pt-BR-AntonioNeural
 motor_video: hyperframes       # hyperframes (animado) ou ffmpeg (simples e mais rápido)
 voz: pt-BR-FranciscaNeural
 ritmo_voz: "+5%"
@@ -35,7 +39,8 @@ estilo_visual: >
   colors, vertical 9:16, highly detailed, no text, no letters, no watermark
 regra_visual_pessoas: "no recognizable real people"
 
-musica: assets/musica/espaco
+musica: assets/musica/espaco   # .mp3 seus aqui têm prioridade; vazio = trilha ambiente gerada
+trilha_gerada: true
 
 # ---------- Publicação ----------
 # Instagram: automático após aprovação. TikTok: manual (vídeo + legenda chegam no Telegram).

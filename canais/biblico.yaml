@@ -27,6 +27,9 @@ cta: "Siga para receber uma palavra de fé todos os dias."
 hashtags_fixas: ["#fé", "#Deus", "#Bíblia", "#Jesus", "#palavradedeus"]
 
 # ---------- Produção ----------
+vozes:                          # alterna a cada vídeo (a primeira que funcionar)
+  - pt-BR-AntonioNeural
+  - pt-BR-ThalitaMultilingualNeural
 motor_video: hyperframes       # hyperframes (animado) ou ffmpeg (simples e mais rápido)
 voz: pt-BR-AntonioNeural
 ritmo_voz: "-5%"
@@ -41,7 +44,8 @@ estilo_visual: >
 # Jesus e figuras bíblicas: sempre de costas, em silhueta ou ao longe (evita rejeição do público)
 regra_visual_pessoas: "Jesus and biblical figures shown from behind, in silhouette or at a distance, faces not visible"
 
-musica: assets/musica/biblico   # coloque .mp3 livres de direitos aqui (opcional)
+musica: assets/musica/biblico   # .mp3 seus aqui têm prioridade; vazio = trilha ambiente gerada
+trilha_gerada: true
 
 # ---------- Publicação ----------
 # Instagram: automático após aprovação. TikTok: manual (vídeo + legenda chegam no Telegram).
