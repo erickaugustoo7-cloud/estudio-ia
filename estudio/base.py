@@ -16,9 +16,19 @@ def log(agente: str, msg: str) -> None:
     print(f"[{agente}] {msg}", flush=True)
 
 
+def _texto(item) -> str:
+    """Um item de lista do YAML com "texto: mais texto" vira dict; devolve como frase."""
+    if isinstance(item, dict):
+        return "; ".join(f"{k}: {v}" for k, v in item.items())
+    return str(item)
+
+
 def carregar_canal(slug: str) -> dict:
     with open(RAIZ / "canais" / f"{slug}.yaml", encoding="utf-8") as f:
-        return yaml.safe_load(f)
+        canal = yaml.safe_load(f)
+    for chave in ("linha_editorial", "proibido"):
+        canal[chave] = [_texto(i) for i in canal.get(chave, [])]
+    return canal
 
 
 # ---------------------------------------------------------------------------
