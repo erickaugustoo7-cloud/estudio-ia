@@ -1,6 +1,5 @@
 # Uma pauta por linha. O Diretor consome de cima para baixo.
 # Linhas começando com # são ignoradas. Fila vazia = o Diretor cria pautas sozinho.
-A história de Davi e Golias e o que ela ensina sobre medo
 O Salmo 23 explicado frase por frase
 A parábola do filho pródigo: o pai que corre
 Por que Jesus chorou? (João 11)
