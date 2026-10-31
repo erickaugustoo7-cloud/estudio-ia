@@ -50,6 +50,12 @@ def abrir_issue(canal, roteiro, texto_post, pasta, duracao, problemas, pauta, no
 {texto_post}
 ```
 
+### Narração (confira antes de aprovar)
+<details><summary>Ler o texto narrado</summary>
+
+{roteiro['narracao']}
+</details>
+
 ### Apontamentos do Revisor
 {avisos}
 
