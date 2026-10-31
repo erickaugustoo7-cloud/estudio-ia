@@ -1,4 +1,3 @@
 # Uma pauta por linha. O Diretor consome de cima para baixo.
 # Linhas começando com # são ignoradas. Fila vazia = o Diretor cria pautas sozinho.
-Por que Jesus chorou? (João 11)
 O que significa "não andeis ansiosos" (Filipenses 4)
