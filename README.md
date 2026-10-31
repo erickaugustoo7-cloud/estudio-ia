@@ -1,6 +1,6 @@
 # Estúdio IA — empresa de conteúdo operada por agentes
 
-Dois canais (📖 **Bíblico** e 🚀 **Espaço & Como Funciona**) produzidos por agentes de IA. Tudo roda no **GitHub Actions**, sem custo fixo: você alimenta pautas, recebe os vídeos no Telegram, aprova o Instagram com um toque e posta no TikTok manualmente.
+Dois canais (📖 **Mensageiro de Fé** — bíblico — e 🚀 **Curioso** — espaço e como as coisas funcionam) produzidos por agentes de IA. Tudo roda no **GitHub Actions**, sem custo fixo: você alimenta pautas, recebe os vídeos no Telegram, aprova o Instagram com um toque e posta no TikTok manualmente.
 
 ## Como funciona
 
