@@ -1,6 +1,5 @@
 # Uma pauta por linha. O Diretor consome de cima para baixo.
 # Linhas começando com # são ignoradas. Fila vazia = o Diretor cria pautas sozinho.
-Por que o céu é azul e o pôr do sol é laranja
 Como os astronautas dormem na Estação Espacial
 O que aconteceria se você caísse num buraco negro
 Como funciona o GPS do seu celular (e por que depende de Einstein)
