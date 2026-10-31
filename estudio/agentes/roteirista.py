@@ -8,7 +8,7 @@ FORMATO = """{
   "narracao": "texto corrido que será narrado, começando pelo gancho",
   "cenas": [
     {"trecho": "frase da narração que esta cena cobre (copie literalmente)",
-     "busca_nasa": "2-4 english keywords for NASA image search",
+     "busca_imagem": "2-4 english keywords to search a real photo or classic painting of this scene",
      "prompt_imagem": "english image prompt describing the scene"}
   ],
   "legenda": "legenda do post (2-4 linhas, com emoji moderado, termina com o CTA)",
