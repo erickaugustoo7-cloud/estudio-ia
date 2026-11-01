@@ -1,0 +1,62 @@
+{
+  "titulo": "O ladrão na cruz",
+  "gancho_tela": "Ele tinha só uma frase. Bastou.",
+  "narracao": "Um criminoso recebeu de Jesus a promessa mais bonita da Bíblia. E o motivo vai te surpreender. Era o dia da crucificação. Jesus estava na cruz entre dois malfeitores, um de cada lado. Um deles zombava: você não é o Cristo? Então salve a si mesmo e a nós. Mas o outro reagiu. Repreendeu o companheiro: você não teme a Deus? Nós estamos aqui com justiça, recebendo o que os nossos atos merecem. Mas este homem não fez nada de errado. Pense nisso. Ele não tinha mais tempo para mudar de vida. Não tinha nada para oferecer. Estava pregado, sem poder dar um passo. Tudo o que restava era uma frase. Então ele olhou para Jesus e disse: Jesus, lembre-se de mim quando entrar no seu reino. E a resposta veio na hora: eu garanto a você, hoje você estará comigo no paraíso. Ele não tinha obras para mostrar, só confiança em Jesus. Se você acha que já é tarde demais, que errou demais para recomeçar, lembre-se desse homem. Enquanto há fôlego, há esperança. Siga para receber uma palavra de fé todos os dias.",
+  "cenas": [
+    {
+      "trecho": "Um criminoso recebeu de Jesus a promessa mais bonita da Bíblia. E o motivo vai te surpreender.",
+      "busca_imagem": "three crosses Golgotha silhouette",
+      "prompt_imagem": "three crosses silhouetted on a hill against a dramatic dark golden sky, seen from far away, classical oil painting, reverent"
+    },
+    {
+      "trecho": "Era o dia da crucificação. Jesus estava na cruz entre dois malfeitores, um de cada lado.",
+      "busca_imagem": "crucifixion three crosses distance painting",
+      "prompt_imagem": "three wooden crosses on a rocky hill at midday under heavy clouds, small crowd at the base seen from behind, distant view, classical painting"
+    },
+    {
+      "trecho": "Um deles zombava: você não é o Cristo? Então salve a si mesmo e a nós.",
+      "busca_imagem": "dark storm sky Golgotha",
+      "prompt_imagem": "a dark stormy sky over a barren hill, harsh shadows, tense atmosphere, one cross in silhouette at the edge of the frame"
+    },
+    {
+      "trecho": "Mas o outro reagiu. Repreendeu o companheiro: você não teme a Deus? Nós estamos aqui com justiça, recebendo o que os nossos atos merecem. Mas este homem não fez nada de errado.",
+      "busca_imagem": "cross silhouette light breaking clouds",
+      "prompt_imagem": "a single cross silhouette with a thin ray of golden light breaking through dark clouds behind it, dramatic, classical oil painting"
+    },
+    {
+      "trecho": "Pense nisso. Ele não tinha mais tempo para mudar de vida. Não tinha nada para oferecer. Estava pregado, sem poder dar um passo. Tudo o que restava era uma frase.",
+      "busca_imagem": "hourglass sand dark",
+      "prompt_imagem": "an old hourglass with the last grains of sand falling, dim warm candlelight, dark background, symbolic"
+    },
+    {
+      "trecho": "Então ele olhou para Jesus e disse: Jesus, lembre-se de mim quando entrar no seu reino.",
+      "busca_imagem": "two crosses silhouette sunset",
+      "prompt_imagem": "two crosses side by side in silhouette against a deep orange sky, seen from far below, quiet and emotional"
+    },
+    {
+      "trecho": "E a resposta veio na hora: eu garanto a você, hoje você estará comigo no paraíso.",
+      "busca_imagem": "paradise garden light heaven",
+      "prompt_imagem": "a radiant peaceful garden bathed in brilliant golden heavenly light, soft mist, sense of paradise, classical painting"
+    },
+    {
+      "trecho": "Ele não tinha obras para mostrar, só confiança em Jesus. Se você acha que já é tarde demais, que errou demais para recomeçar, lembre-se desse homem.",
+      "busca_imagem": "person sitting alone regret dusk",
+      "prompt_imagem": "a person seen from behind sitting alone on a hill at dusk, head bowed, a warm light appearing on the horizon"
+    },
+    {
+      "trecho": "Enquanto há fôlego, há esperança. Siga para receber uma palavra de fé todos os dias.",
+      "busca_imagem": "sunrise hope walking",
+      "prompt_imagem": "a person seen from behind standing up and walking toward a bright golden sunrise over the hills, hopeful and new beginning"
+    }
+  ],
+  "legenda": "Ele não tinha mais tempo, nem nada para oferecer. Só uma frase: \"Jesus, lembre-se de mim.\" E a resposta foi: \"Hoje você estará comigo no paraíso.\" (Lucas 23:42-43) 🕊️ Nunca é tarde para recomeçar. Comente \"Lembra-te de mim\" e envie para alguém que acha que já é tarde demais. 🙏",
+  "hashtags": [
+    "#Lucas23",
+    "#recomeço",
+    "#graça",
+    "#Jesus"
+  ],
+  "fontes": [
+    "Lucas 23:32-43"
+  ]
+}
