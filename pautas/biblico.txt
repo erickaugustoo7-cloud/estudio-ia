@@ -1,6 +1,5 @@
 # Uma pauta por linha. O Diretor consome de cima para baixo.
 # Linhas começando com # são ignoradas. Fila vazia = o Diretor cria pautas sozinho.
-A mulher que tocou no manto de Jesus: fé no meio da multidão (Marcos 5:25-34)
 Pedro andando sobre as águas: o que aconteceu quando ele tirou os olhos de Jesus (Mateus 14:22-33)
 Quando Deus parece em silêncio: o Salmo 13 para dias difíceis
 José do Egito: do poço ao palácio, sem perder a fé (Gênesis 37-45)

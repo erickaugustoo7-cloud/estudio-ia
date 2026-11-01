@@ -1,0 +1,62 @@
+{
+  "titulo": "A mulher que tocou no manto",
+  "gancho_tela": "Ela tocou no manto e tudo mudou",
+  "narracao": "Você já se sentiu invisível no meio de uma multidão? Em Marcos, capítulo cinco, existe uma mulher que se sentia exatamente assim. Fazia doze anos que ela sofria com uma hemorragia. Já tinha passado por muitos médicos, gastado tudo o que tinha, e em vez de melhorar, só piorava. Um dia, ela ouviu falar de Jesus. Ele estava cercado de gente, a caminho da casa de um chefe da sinagoga chamado Jairo. Ela pensou: se eu apenas tocar nas roupas dele, serei curada. Chegou por trás, no meio do empurra-empurra, e tocou no manto. Na mesma hora, o sangramento parou. Jesus parou também. Virou para a multidão e perguntou: quem tocou nas minhas roupas? Os discípulos estranharam: com tanta gente te apertando, o senhor pergunta quem te tocou? Mas Jesus continuou olhando ao redor. Tremendo, a mulher se aproximou, caiu aos pés dele e contou toda a verdade. E Jesus disse: filha, a sua fé a curou. Vá em paz. Repare: ele chamou de filha alguém que vivia à margem. Para Deus, ninguém é só mais um na multidão. Siga para receber uma palavra de fé todos os dias.",
+  "cenas": [
+    {
+      "trecho": "Você já se sentiu invisível no meio de uma multidão? Em Marcos, capítulo cinco, existe uma mulher que se sentia exatamente assim.",
+      "busca_imagem": "woman alone crowd ancient",
+      "prompt_imagem": "a lonely woman in ancient robes seen from behind standing at the edge of a busy crowd in an ancient town, muted colors, classical oil painting"
+    },
+    {
+      "trecho": "Fazia doze anos que ela sofria com uma hemorragia. Já tinha passado por muitos médicos, gastado tudo o que tinha, e em vez de melhorar, só piorava.",
+      "busca_imagem": "ancient woman sorrow empty purse",
+      "prompt_imagem": "a tired woman in ancient robes seen from behind sitting on a stone step at dusk, an empty cloth purse beside her, melancholic warm light"
+    },
+    {
+      "trecho": "Um dia, ela ouviu falar de Jesus. Ele estava cercado de gente, a caminho da casa de um chefe da sinagoga chamado Jairo.",
+      "busca_imagem": "Jesus crowd street painting",
+      "prompt_imagem": "a large crowd of people in ancient robes pressing around a robed man seen from behind on a narrow stone street, golden afternoon light"
+    },
+    {
+      "trecho": "Ela pensou: se eu apenas tocar nas roupas dele, serei curada. Chegou por trás, no meio do empurra-empurra, e tocou no manto.",
+      "busca_imagem": "woman touching hem of garment painting",
+      "prompt_imagem": "close-up of a woman's hand reaching through a crowd to touch the hem of a flowing robe, soft divine light on the fabric, classical painting"
+    },
+    {
+      "trecho": "Na mesma hora, o sangramento parou. Jesus parou também. Virou para a multidão e perguntou: quem tocou nas minhas roupas?",
+      "busca_imagem": "Jesus turning crowd painting",
+      "prompt_imagem": "a robed man seen from behind stopping in the middle of a crowd, people around him frozen in surprise, a subtle glow around him"
+    },
+    {
+      "trecho": "Os discípulos estranharam: com tanta gente te apertando, o senhor pergunta quem te tocou? Mas Jesus continuou olhando ao redor.",
+      "busca_imagem": "disciples crowd ancient",
+      "prompt_imagem": "a few men in ancient robes looking confused in a dense crowd, seen from the side, warm dramatic light, classical oil painting"
+    },
+    {
+      "trecho": "Tremendo, a mulher se aproximou, caiu aos pés dele e contou toda a verdade.",
+      "busca_imagem": "woman kneeling feet Jesus painting",
+      "prompt_imagem": "a woman in ancient robes kneeling humbly at the feet of a robed man seen from behind, the crowd watching, golden light"
+    },
+    {
+      "trecho": "E Jesus disse: filha, a sua fé a curou. Vá em paz.",
+      "busca_imagem": "Jesus blessing woman light",
+      "prompt_imagem": "a robed man seen from behind gently extending his hand toward a kneeling woman, warm heavenly light falling on her face of relief"
+    },
+    {
+      "trecho": "Repare: ele chamou de filha alguém que vivia à margem. Para Deus, ninguém é só mais um na multidão. Siga para receber uma palavra de fé todos os dias.",
+      "busca_imagem": "woman walking peace sunrise",
+      "prompt_imagem": "a woman in ancient robes seen from behind walking peacefully along a road toward a bright golden sunrise, hopeful"
+    }
+  ],
+  "legenda": "Doze anos de sofrimento, uma multidão inteira, e Jesus parou por causa dela. 🕊️ \"Filha, a sua fé a curou. Vá em paz.\" (Marcos 5:34) Para Deus, você nunca é só mais um. Comente \"Eu sou visto por Deus\" e envie para alguém que se sente invisível. 🙏",
+  "hashtags": [
+    "#Marcos5",
+    "#fé",
+    "#Jesus",
+    "#históriasbíblicas"
+  ],
+  "fontes": [
+    "Marcos 5:21-34"
+  ]
+}
