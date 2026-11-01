@@ -1,6 +1,5 @@
 # Uma pauta por linha. O Diretor consome de cima para baixo.
 # Linhas começando com # são ignoradas. Fila vazia = o Diretor cria pautas sozinho.
-"Vinde a mim todos os cansados" — o convite de Jesus para quem está esgotado (Mateus 11:28-30)
 "Não temas, porque eu sou contigo" — Isaías 41:10 para dias de medo
 A mulher que tocou no manto de Jesus: fé no meio da multidão (Marcos 5:25-34)
 Pedro andando sobre as águas: o que aconteceu quando ele tirou os olhos de Jesus (Mateus 14:22-33)
