@@ -1,6 +1,5 @@
 # Uma pauta por linha. O Diretor consome de cima para baixo.
 # Linhas começando com # são ignoradas. Fila vazia = o Diretor cria pautas sozinho.
-Quando Deus parece em silêncio: o Salmo 13 para dias difíceis
 José do Egito: do poço ao palácio, sem perder a fé (Gênesis 37-45)
 Jó perdeu quase tudo e continuou confiando em Deus (Jó 1-2 e 42)
 Ana e a oração em silêncio que Deus ouviu (1 Samuel 1)
