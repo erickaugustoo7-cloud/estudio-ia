@@ -41,17 +41,24 @@ def _composicao(canal, titulo, imagens, tempos, palavras, dur, tem_musica) -> st
             f'data-duration="{_f(dur_cena)}" data-track-index="0" style="z-index:{i + 1}" />'
         )
         direcao = 3 if i % 2 == 0 else -3
-        anim.append(f'tl.fromTo("#c{i}",{{scale:1.0,xPercent:0}},{{scale:1.16,xPercent:{direcao},'
-                    f'duration:{_f(dur_cena)},ease:"none"}},{_f(inicio)});')
+        if i == 0:  # abertura com movimento imediato: zoom de impacto e depois o zoom lento
+            anim.append('tl.fromTo("#c0",{scale:1.35,xPercent:0},{scale:1.06,duration:1.1,ease:"power3.out"},0);')
+            anim.append(f'tl.to("#c0",{{scale:1.18,xPercent:{direcao},duration:{_f(max(0.5, dur_cena - 1.1))},'
+                        f'ease:"none"}},1.1);')
+        else:
+            anim.append(f'tl.fromTo("#c{i}",{{scale:1.0,xPercent:0}},{{scale:1.16,xPercent:{direcao},'
+                        f'duration:{_f(dur_cena)},ease:"none"}},{_f(inicio)});')
         if i > 0:
             anim.append(f'tl.fromTo("#c{i}",{{opacity:0}},{{opacity:1,duration:0.5,ease:"power1.inOut"}},{_f(inicio)});')
         inicio += d
 
     # ---- gancho animado na abertura ----
-    elems.append(f'<div id="gancho" class="clip" data-start="0" data-duration="3" data-track-index="2">'
+    # visível já no quadro 0 (é o que aparece na prévia do feed); pulsa uma vez e sai aos ~3 s
+    elems.append(f'<div id="gancho" class="clip" data-start="0" data-duration="3.2" data-track-index="2">'
                  f'<span>{html.escape(titulo.upper())}</span></div>')
-    anim.append('tl.fromTo("#gancho span",{opacity:0,scale:0.7,y:40},{opacity:1,scale:1,y:0,duration:0.45,ease:"back.out(1.8)"},0.1);')
-    anim.append('tl.to("#gancho span",{opacity:0,y:-30,duration:0.35,ease:"power2.in"},2.6);')
+    anim.append('tl.set("#gancho span",{opacity:1,scale:1},0);')
+    anim.append('tl.to("#gancho span",{scale:1.08,duration:0.18,ease:"power2.out",yoyo:true,repeat:1},0.25);')
+    anim.append('tl.to("#gancho span",{opacity:0,y:-30,duration:0.3,ease:"power2.in"},2.85);')
 
     # ---- legenda palavra a palavra ----
     blocos = blocos_legenda(palavras)
@@ -99,8 +106,9 @@ html,body{{width:1080px;height:1920px;overflow:hidden;background:{tema['fundo']}
 #veu{{position:absolute;inset:0;z-index:50;pointer-events:none;
   background:linear-gradient(180deg,rgba(0,0,0,.45) 0%,rgba(0,0,0,0) 22%,rgba(0,0,0,0) 52%,rgba(0,0,0,.7) 100%)}}
 #gancho{{position:absolute;left:60px;right:60px;top:260px;z-index:60;text-align:center}}
-#gancho span{{display:inline-block;font-family:{tema['fonte_titulo']};font-weight:800;font-size:76px;line-height:1.1;
-  color:#fff;text-shadow:0 6px 24px rgba(0,0,0,.85);letter-spacing:-0.01em}}
+#gancho span{{display:inline-block;font-family:{tema['fonte_titulo']};font-weight:900;font-size:84px;line-height:1.12;
+  color:#111;background:{tema['destaque']};padding:22px 34px;border-radius:22px;
+  box-shadow:0 14px 40px rgba(0,0,0,.6);letter-spacing:-0.01em;transform-origin:50% 50%}}
 .legenda{{position:absolute;left:50px;right:50px;top:1240px;z-index:70;text-align:center;
   font-weight:900;font-size:84px;line-height:1.15;color:#fff;
   -webkit-text-stroke:3px rgba(0,0,0,.9);paint-order:stroke fill;text-shadow:0 8px 22px rgba(0,0,0,.8)}}

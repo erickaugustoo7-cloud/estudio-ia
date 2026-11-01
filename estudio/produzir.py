@@ -125,7 +125,7 @@ def main():
     video = None
     if canal.get("motor_video", "hyperframes") == "hyperframes":
         try:
-            video = montador_hf.montar(canal, roteiro["titulo"], imagens, tempos, mp3, palavras, dur, pasta)
+            video = montador_hf.montar(canal, roteiro.get("gancho_tela") or roteiro["titulo"], imagens, tempos, mp3, palavras, dur, pasta)
         except Exception as e:  # noqa: BLE001 — qualquer falha cai no motor FFmpeg
             log("montador", f"HyperFrames falhou ({e}); usando FFmpeg")
             problemas.append("Render HyperFrames falhou — vídeo montado com o motor simples (FFmpeg).")

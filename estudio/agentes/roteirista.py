@@ -5,6 +5,7 @@ from estudio.base import llm_json, log
 
 FORMATO = """{
   "titulo": "título curto interno",
+  "gancho_tela": "texto grande na tela nos 3 primeiros segundos (máx. 7 palavras)",
   "narracao": "texto corrido que será narrado, começando pelo gancho",
   "cenas": [
     {"trecho": "frase da narração que esta cena cobre (copie literalmente)",
@@ -27,7 +28,13 @@ def escrever(canal: dict, pauta: str) -> dict:
         "Proibido:\n- " + "\n- ".join(canal["proibido"]) + "\n\n"
         "Regras de roteiro:\n"
         f"- Narração com {pmin} a {pmax} palavras (o vídeo PRECISA passar de 60 segundos).\n"
-        "- A primeira frase é o gancho: curta, surpreendente, faz a pessoa parar de rolar.\n"
+        "- GANCHO (o mais importante: 70% das pessoas decidem em 2 segundos se ficam):\n"
+        "  * A primeira frase narrada tem no máximo 10 palavras, fala direto com 'você' e cria curiosidade "
+        "ou identificação imediata (ex.: 'Se você acordou ansioso hoje, ouça isso.' / "
+        "'Você nunca mais vai olhar a Lua do mesmo jeito.').\n"
+        "  * Nunca comece com saudação, com o nome do canal ou repetindo o título.\n"
+        "  * gancho_tela: frase de até 7 palavras para a tela, complementa a fala (não a repete), "
+        "desperta curiosidade ou emoção. Sem emojis.\n"
         "- Frases curtas, ritmo falado, português do Brasil natural. Nada de listas ou emojis na narração.\n"
         "- Escreva números por extenso quando forem falados (\"trezentos mil\").\n"
         f"- Termine com: {canal['cta']}\n"
