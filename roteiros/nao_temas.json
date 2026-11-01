@@ -1,0 +1,62 @@
+{
+  "titulo": "Não temas, eu estou com você",
+  "gancho_tela": "Uma promessa para quando o medo vem",
+  "narracao": "Se o medo te acordou hoje, essa promessa é para você. Em Isaías, capítulo quarenta e um, versículo dez, Deus diz ao seu povo: não tenha medo, porque eu estou com você. Não se desespere, porque eu sou o seu Deus. Eu te fortaleço, eu te ajudo, eu te sustento com a minha mão direita. Essas palavras foram ditas ao povo de Israel num tempo de muita incerteza. Eles não sabiam como seria o amanhã. Talvez você também não saiba. Mas repare na ordem da promessa. Primeiro, Deus não diz que o problema vai sumir. Ele diz: eu estou com você. Antes da solução, vem a presença. Depois, ele faz três promessas: eu te fortaleço, para quando faltar força. Eu te ajudo, para quando você não souber o que fazer. E eu te sustento, para quando você achar que vai cair. A mão direita, na Bíblia, é símbolo de poder e de firmeza. É como se Deus dissesse: eu seguro você com a minha mão mais forte. Então hoje, quando o medo falar alto, responda com essa promessa: ele está comigo. Siga para receber uma palavra de fé todos os dias.",
+  "cenas": [
+    {
+      "trecho": "Se o medo te acordou hoje, essa promessa é para você.",
+      "busca_imagem": "dark room dawn light window",
+      "prompt_imagem": "a person seen from behind sitting alone in a dim room at dawn, a single ray of golden light entering through a window"
+    },
+    {
+      "trecho": "Em Isaías, capítulo quarenta e um, versículo dez, Deus diz ao seu povo: não tenha medo, porque eu estou com você. Não se desespere, porque eu sou o seu Deus.",
+      "busca_imagem": "ancient scroll Isaiah light",
+      "prompt_imagem": "an ancient parchment scroll unrolled on a stone table, lit by warm divine golden light, classical oil painting"
+    },
+    {
+      "trecho": "Eu te fortaleço, eu te ajudo, eu te sustento com a minha mão direita.",
+      "busca_imagem": "hand reaching light heaven",
+      "prompt_imagem": "a large luminous hand reaching down from bright clouds toward a small figure seen from behind on a rocky hill"
+    },
+    {
+      "trecho": "Essas palavras foram ditas ao povo de Israel num tempo de muita incerteza. Eles não sabiam como seria o amanhã. Talvez você também não saiba.",
+      "busca_imagem": "ancient people journey desert",
+      "prompt_imagem": "a group of people in ancient robes walking through a vast desert under a cloudy sky, seen from behind, uncertain journey"
+    },
+    {
+      "trecho": "Mas repare na ordem da promessa. Primeiro, Deus não diz que o problema vai sumir. Ele diz: eu estou com você. Antes da solução, vem a presença.",
+      "busca_imagem": "storm traveler not alone light",
+      "prompt_imagem": "a lone traveler seen from behind standing in a storm, while a soft warm light surrounds them, sense of presence"
+    },
+    {
+      "trecho": "Depois, ele faz três promessas: eu te fortaleço, para quando faltar força. Eu te ajudo, para quando você não souber o que fazer.",
+      "busca_imagem": "climbing mountain helping hand",
+      "prompt_imagem": "a robed figure seen from behind helping another climb a steep rocky path, golden hour light"
+    },
+    {
+      "trecho": "E eu te sustento, para quando você achar que vai cair.",
+      "busca_imagem": "person caught falling cliff",
+      "prompt_imagem": "a person seen from behind standing safely at the edge of a cliff, held steady by a warm glowing light, dramatic sky"
+    },
+    {
+      "trecho": "A mão direita, na Bíblia, é símbolo de poder e de firmeza. É como se Deus dissesse: eu seguro você com a minha mão mais forte.",
+      "busca_imagem": "strong hand holding small hand",
+      "prompt_imagem": "a strong hand gently holding a smaller hand, bathed in golden heavenly light, classical painting style"
+    },
+    {
+      "trecho": "Então hoje, quando o medo falar alto, responda com essa promessa: ele está comigo. Siga para receber uma palavra de fé todos os dias.",
+      "busca_imagem": "sunrise peace field",
+      "prompt_imagem": "a person seen from behind walking confidently into a wide field toward a radiant golden sunrise, peaceful and hopeful"
+    }
+  ],
+  "legenda": "Quando o medo falar alto, responda com isso: \"Não tema, porque eu estou com você.\" (Isaías 41:10) 🕊️ Antes da solução, Deus promete a presença. Comente \"Ele está comigo\" e envie para quem está com medo hoje. 🙏",
+  "hashtags": [
+    "#Isaías41",
+    "#nãotemas",
+    "#promessadeDeus",
+    "#bomdia"
+  ],
+  "fontes": [
+    "Isaías 41:10"
+  ]
+}
