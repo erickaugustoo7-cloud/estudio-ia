@@ -1,3 +1,2 @@
 # Uma pauta por linha. O Diretor consome de cima para baixo.
 # Linhas começando com # são ignoradas. Fila vazia = o Diretor cria pautas sozinho.
-Por que a Lua sempre mostra a mesma face para a Terra
