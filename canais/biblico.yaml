@@ -44,7 +44,7 @@ ritmo_voz: "-5%"
 palavras_alvo: [180, 210]       # ~65-75 s de narração (Creator Rewards exige > 60 s)
 cenas: [7, 9]
 
-fonte_visual: pollinations       # imagens geradas por IA
+fonte_visual: pollinations_estrito   # só imagens geradas por IA (sem banco de imagens por palavra-chave)
 # Dois estilos em teste A/B (sorteado a cada vídeo; o escolhido aparece na Issue)
 estilos_visuais:
   pintura: >

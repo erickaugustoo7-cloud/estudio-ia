@@ -128,6 +128,9 @@ def main():
             canal = {**canal, "estilo_visual": estilos[nome_estilo], "estilo_nome": nome_estilo}
             log("orquestrador", f"estilo visual: {nome_estilo}")
     imagens = visual.gerar_imagens(canal, roteiro["cenas"], pasta)
+    if visual.RESERVAS:
+        problemas.append(f"Cenas {', '.join(map(str, visual.RESERVAS))} não vieram da IA de imagem "
+                         "(foram repetidas ou de reserva) — confira antes de postar.")
     tempos = montador.tempos_das_cenas(roteiro["cenas"], palavras, dur)
     video = None
     if canal.get("motor_video", "hyperframes") == "hyperframes":

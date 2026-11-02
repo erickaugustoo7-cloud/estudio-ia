@@ -22,6 +22,8 @@ UA = {"User-Agent": "estudio-ia/1.0 (https://github.com/erickaugustoo7-cloud/est
 ORDEM = {
     "nasa": ["nasa", "pollinations", "commons"],
     "pollinations": ["pollinations", "commons"],
+    # bíblico: busca por palavra-chave no Commons trazia imagens fora do tema — melhor repetir a anterior
+    "pollinations_estrito": ["pollinations"],
     "commons": ["commons", "pollinations"],
 }
 
@@ -73,17 +75,25 @@ def _pollinations(cena: dict, destino: Path, usados: set, canal: dict, seed: int
     chave = os.getenv("POLLINATIONS_API_KEY")
     params = f"width=1080&height=1920&seed={seed}&nologo=true&model=flux"
     tentativas = []
-    if chave:
-        tentativas.append((f"https://gen.pollinations.ai/image/{q}?{params}", {"Authorization": f"Bearer {chave}"}))
-    tentativas.append((f"https://image.pollinations.ai/prompt/{q}?{params}", {}))  # anônimo, com limite
-    for url, headers in tentativas:
-        for espera in (0, 15):  # anônimo costuma dar 429: tenta de novo uma vez
+    if chave and not _SEM_SALDO:
+        tentativas.append((f"https://gen.pollinations.ai/image/{q}?{params}", {"Authorization": f"Bearer {chave}"}, (0,)))
+    # anônimo: limite de ~1 imagem por intervalo, então espera com paciência em vez de desistir
+    tentativas.append((f"https://image.pollinations.ai/prompt/{q}?{params}", {}, (0, 20, 40, 60)))
+    for url, headers, esperas in tentativas:
+        for espera in esperas:
             time.sleep(espera)
             ok, motivo = _baixar(url, destino, headers, timeout=150)
             if ok:
                 return True
             log("visual", f"pollinations: {motivo}")
+            if headers and motivo.startswith("HTTP 402"):
+                _SEM_SALDO.append(True)  # chave sem saldo: não insiste nela nas próximas cenas
+                log("visual", "chave Pollinations sem saldo (402) — usando o acesso anônimo")
+                break
     return False
+
+
+_SEM_SALDO: list = []
 
 
 def _commons(cena: dict, destino: Path, usados: set, **_) -> bool:
@@ -124,7 +134,11 @@ def _fundo(destino: Path, i: int) -> None:
 FONTES = {"nasa": _nasa, "pollinations": _pollinations, "commons": _commons}
 
 
+RESERVAS: list = []  # cenas que não vieram da fonte principal (aparecem na Issue)
+
+
 def gerar_imagens(canal: dict, cenas: list[dict], pasta: Path) -> list[Path]:
+    RESERVAS.clear()
     usados, imagens, anterior = set(), [], None
     seed_base = random.randint(1, 10**6)
     ordem = ORDEM.get(canal["fonte_visual"], ["pollinations", "commons"])
@@ -135,6 +149,8 @@ def gerar_imagens(canal: dict, cenas: list[dict], pasta: Path) -> list[Path]:
             if FONTES[nome](cena=cena, destino=destino, usados=usados, canal=canal, seed=seed_base + i):
                 fonte_usada = nome
                 break
+        if fonte_usada != ordem[0]:
+            RESERVAS.append(i + 1)
         if not fonte_usada and anterior:
             shutil.copy(anterior, destino)
             fonte_usada = "repetida"
