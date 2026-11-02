@@ -51,6 +51,8 @@ def escrever(canal: dict, pauta: str) -> dict:
         "- Frases curtas, ritmo falado, português do Brasil natural. Nada de listas ou emojis na narração.\n"
         "- Escreva números por extenso quando forem falados (\"trezentos mil\").\n"
         f"- Termine com: {canal['cta']}\n"
+        + (f"- LEGENDA DO POST: {canal['estilo_legenda'].strip()}\n" if canal.get("estilo_legenda") else "")
+        + 
         f"- Divida a narração em {cmin} a {cmax} cenas; os trechos, em ordem, devem cobrir a narração inteira.\n"
         f"- Regra visual: {canal['regra_visual_pessoas']}.\n"
         "Responda SOMENTE com JSON neste formato:\n" + FORMATO

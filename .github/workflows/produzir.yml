@@ -18,6 +18,9 @@ on:
       roteiro:
         description: "Roteiro pronto em roteiros/ (ex.: roteiros/meu.json) — pula Diretor/Roteirista/Revisor"
         required: false
+      estilo:
+        description: "Estilo visual (vazio = sorteio): pintura ou cinematico"
+        required: false
 
 permissions:
   contents: write
@@ -76,6 +79,7 @@ jobs:
           CANAL: ${{ matrix.canal }}
           PAUTA: ${{ inputs.pauta }}
           ROTEIRO: ${{ inputs.roteiro }}
+          ESTILO_VISUAL: ${{ inputs.estilo }}
         run: |
           if [ -n "$ROTEIRO" ]; then
             python -m estudio.produzir --canal "$CANAL" --roteiro "$ROTEIRO"

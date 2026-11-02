@@ -22,8 +22,16 @@ proibido:
   - Política partidária.
   - Medo, culpa ou ameaça como gancho ("se não compartilhar...").
 
+# Legenda do post no formato que mais engaja nos canais de referência: oração curta em 1ª pessoa
+estilo_legenda: >
+  A PRIMEIRA linha da legenda é uma oração curta em primeira pessoa, como quem fala com Deus
+  (ex.: "Senhor, me ajuda a não desistir 🙏", "Tira de mim essa angústia, Deus... 😭",
+  "Eu não sou mais o mesmo, Senhor ✝️"), ligada ao tema do vídeo, com no máximo 10 palavras.
+  Depois, em 1 linha, a referência bíblica. Por último, um convite para comentar "Amém"
+  ou salvar o vídeo. Nada de explicar o vídeo na legenda.
+
 versao_biblica: "Parafrase própria com referência"   # troque pela versão que você licenciar
-cta: "Siga para receber uma palavra de fé todos os dias."
+cta: "Salve este vídeo para ouvir de novo quando precisar, e siga para receber uma palavra de fé todos os dias."
 hashtags_fixas: ["#fé", "#Deus", "#Bíblia", "#Jesus", "#palavradedeus"]
 
 # ---------- Produção ----------
@@ -37,17 +45,17 @@ palavras_alvo: [180, 210]       # ~65-75 s de narração (Creator Rewards exige 
 cenas: [7, 9]
 
 fonte_visual: pollinations       # imagens geradas por IA
+# Dois estilos em teste A/B (sorteado a cada vídeo; o escolhido aparece na Issue)
+estilos_visuais:
+  pintura: >
+    classical oil painting, biblical era, soft golden divine light, reverent and
+    peaceful atmosphere, cinematic composition, vertical 9:16, highly detailed,
+    no text, no letters, no watermark
+  cinematico: >
+    dark moody cinematic photography, dramatic mountains, misty roads at night,
+    stormy sky with a single beam of light, lone silhouette, deep shadows, film grain,
+    muted desaturated colors, ultra realistic, vertical 9:16, no text, no letters, no watermark
 estilo_visual: >
   classical oil painting, biblical era, soft golden divine light, reverent and
   peaceful atmosphere, cinematic composition, vertical 9:16, highly detailed,
   no text, no letters, no watermark
-# Jesus e figuras bíblicas: sempre de costas, em silhueta ou ao longe (evita rejeição do público)
-regra_visual_pessoas: "Jesus and biblical figures shown from behind, in silhouette or at a distance, faces not visible"
-
-musica: assets/musica/biblico   # .mp3 seus aqui têm prioridade; vazio = trilha ambiente gerada
-trilha_gerada: true
-
-# ---------- Publicação ----------
-# Instagram: automático após aprovação. TikTok: manual (vídeo + legenda chegam no Telegram).
-publicar_em: [instagram]
-secret_token_instagram: IG_TOKEN_BIBLICO

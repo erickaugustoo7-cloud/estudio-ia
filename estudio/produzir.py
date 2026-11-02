@@ -8,6 +8,7 @@ Uso:
 import argparse
 import json
 import os
+import random
 import re
 import subprocess
 from datetime import datetime
@@ -41,7 +42,7 @@ def abrir_issue(canal, roteiro, texto_post, pasta, duracao, problemas, pauta, no
     avisos = "\n".join(f"- ⚠️ {p}" for p in problemas) or "- Nenhum"
     fontes = "\n".join(f"- {f}" for f in roteiro.get("fontes", [])) or "- —"
     corpo = f"""## 🎬 {roteiro['titulo']}
-**Canal:** {canal['nome']} · **Duração:** {duracao:.0f}s · **Pauta:** {pauta}
+**Canal:** {canal['nome']} · **Duração:** {duracao:.0f}s · **Estilo visual:** {canal.get('estilo_nome', 'padrão')} · **Pauta:** {pauta}
 
 ### ▶️ {onde}[Baixar pelo GitHub (artefato da execução)]({url_run})
 
@@ -120,6 +121,12 @@ def main():
     if dur < 61:
         problemas.append(f"Vídeo com {dur:.0f}s — abaixo de 1 minuto não conta no Creator Rewards do TikTok.")
 
+    estilos = canal.get("estilos_visuais") or {}
+    if estilos:
+        nome_estilo = os.getenv("ESTILO_VISUAL") or roteiro.get("estilo") or random.choice(sorted(estilos))
+        if nome_estilo in estilos:
+            canal = {**canal, "estilo_visual": estilos[nome_estilo], "estilo_nome": nome_estilo}
+            log("orquestrador", f"estilo visual: {nome_estilo}")
     imagens = visual.gerar_imagens(canal, roteiro["cenas"], pasta)
     tempos = montador.tempos_das_cenas(roteiro["cenas"], palavras, dur)
     video = None
@@ -139,7 +146,7 @@ def main():
     no_telegram = False
     if not a.sem_envio:
         no_telegram = publicador.telegram_video(
-            video, f"🎬 [{canal['nome']}] {roteiro['titulo']} · {dur:.0f}s", texto_post)
+            video, f"🎬 [{canal['nome']}] {roteiro['titulo']} · {dur:.0f}s · estilo {canal.get('estilo_nome', 'padrão')}", texto_post)
     if not a.sem_issue:
         link = abrir_issue(canal, roteiro, texto_post, pasta, dur, problemas, pauta, no_telegram)
         log("orquestrador", f"aguardando aprovação: {link}")
