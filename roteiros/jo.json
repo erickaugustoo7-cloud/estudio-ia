@@ -1,0 +1,69 @@
+{
+  "titulo": "Jó perdeu tudo em um dia",
+  "gancho_tela": "Ninguém esperava a reação dele",
+  "narracao": "Ele perdeu tudo em um único dia. O nome dele era Jó. E o que ele fez em seguida é uma das cenas mais fortes da Bíblia. Primeiro chegou um mensageiro: os bois e os jumentos tinham sido roubados. Antes que ele terminasse, chegou outro: um fogo tinha destruído as ovelhas. Depois outro: levaram os camelos. E então a pior notícia. Uma ventania derrubou a casa onde estavam os filhos dele. Nenhum sobreviveu. Agora repare no que Jó fez. Ele rasgou a roupa, se jogou no chão e adorou a Deus. E disse: o Senhor deu, o Senhor tirou. Bendito seja o nome do Senhor. Ele não fingiu que não doía. Ele chorou, sofreu, fez perguntas. Mas não soltou a mão de Deus. E o final dessa história, no capítulo quarenta e dois, mostra que Deus nunca tinha saído de perto dele. Jó foi restaurado, e os seus últimos dias foram mais abençoados do que os primeiros. Se hoje você está no seu pior dia, lembre-se de Jó. A dor não é o fim da sua história. Siga para receber uma palavra de fé todos os dias.",
+  "cenas": [
+    {
+      "trecho": "Ele perdeu tudo em um único dia.",
+      "busca_imagem": "man ruins sorrow painting",
+      "prompt_imagem": "a man in ancient robes seen from behind standing before the smoking ruins of a house at dusk, dramatic sky, classical oil painting"
+    },
+    {
+      "trecho": "O nome dele era Jó. E o que ele fez em seguida é uma das cenas mais fortes da Bíblia.",
+      "busca_imagem": "Job painting ancient",
+      "prompt_imagem": "an elderly man in ancient robes seen from behind sitting on the ground in a vast desolate landscape, a single ray of golden light falling on him"
+    },
+    {
+      "trecho": "Primeiro chegou um mensageiro: os bois e os jumentos tinham sido roubados.",
+      "busca_imagem": "ancient messenger running desert",
+      "prompt_imagem": "an ancient messenger running across a dusty field toward a tent at sunset, seen from afar, urgent atmosphere"
+    },
+    {
+      "trecho": "Antes que ele terminasse, chegou outro: um fogo tinha destruído as ovelhas. Depois outro: levaram os camelos.",
+      "busca_imagem": "fire field ancient storm",
+      "prompt_imagem": "fire falling from a dark sky over empty pastures, smoke rising, distant silhouettes of camels led away, dramatic classical painting"
+    },
+    {
+      "trecho": "E então a pior notícia. Uma ventania derrubou a casa onde estavam os filhos dele. Nenhum sobreviveu.",
+      "busca_imagem": "storm wind collapsed house",
+      "prompt_imagem": "a violent wind storm over a collapsed stone house in the desert, dust swirling, dark clouds, somber and tragic"
+    },
+    {
+      "trecho": "Agora repare no que Jó fez. Ele rasgou a roupa, se jogou no chão e adorou a Deus.",
+      "busca_imagem": "man kneeling worship ground light",
+      "prompt_imagem": "a man seen from behind kneeling with his face to the ground in worship, torn robe, warm light breaking through the clouds above him"
+    },
+    {
+      "trecho": "E disse: o Senhor deu, o Senhor tirou. Bendito seja o nome do Senhor.",
+      "busca_imagem": "light breaking clouds heaven",
+      "prompt_imagem": "golden heavenly light breaking through heavy storm clouds over a lonely kneeling figure in the distance, reverent"
+    },
+    {
+      "trecho": "Ele não fingiu que não doía. Ele chorou, sofreu, fez perguntas. Mas não soltou a mão de Deus.",
+      "busca_imagem": "man praying night stars",
+      "prompt_imagem": "an old man seen from behind sitting under a starry night sky, hands raised in prayer, quiet and emotional"
+    },
+    {
+      "trecho": "E o final dessa história, no capítulo quarenta e dois, mostra que Deus nunca tinha saído de perto dele. Jó foi restaurado, e os seus últimos dias foram mais abençoados do que os primeiros.",
+      "busca_imagem": "green fields family sunrise",
+      "prompt_imagem": "green fertile fields and grazing flocks at sunrise, an old man seen from behind surrounded by family, warm golden light, restoration"
+    },
+    {
+      "trecho": "Se hoje você está no seu pior dia, lembre-se de Jó. A dor não é o fim da sua história. Siga para receber uma palavra de fé todos os dias.",
+      "busca_imagem": "sunrise hope walking hill",
+      "prompt_imagem": "a person seen from behind standing on a hill watching a radiant sunrise after a storm, hopeful"
+    }
+  ],
+  "legenda": "Em um único dia, Jó perdeu tudo. E a reação dele foi: \"O Senhor deu, o Senhor tirou. Bendito seja o nome do Senhor.\" (Jó 1:21) 🕊️ A dor não é o fim da sua história. Comente \"Eu não solto a mão de Deus\" e envie para quem está passando por um dia difícil. 🙏",
+  "hashtags": [
+    "#Jó",
+    "#fénaadversidade",
+    "#esperança",
+    "#históriasbíblicas"
+  ],
+  "fontes": [
+    "Jó 1:13-22",
+    "Jó 2",
+    "Jó 42:10-12"
+  ]
+}
