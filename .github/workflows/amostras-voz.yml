@@ -17,12 +17,15 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+      - name: Liberar espaço em disco
+        run: sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL && df -h /
       - name: Instalar dependências
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
-          pip install -q edge-tts requests soundfile kokoro-onnx
-          pip install -q torch torchaudio --index-url https://download.pytorch.org/whl/cpu
-          pip install -q chatterbox-tts
+          pip install -q --no-cache-dir edge-tts requests soundfile kokoro-onnx
+          # PyTorch só para CPU (a versão com CUDA não cabe no disco do runner)
+          pip install -q --no-cache-dir --index-url https://download.pytorch.org/whl/cpu \
+            --extra-index-url https://pypi.org/simple chatterbox-tts
       - name: Baixar modelo Kokoro
         run: |
           mkdir -p modelos_kokoro && cd modelos_kokoro
