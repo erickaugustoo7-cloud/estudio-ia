@@ -1,7 +1,6 @@
 # Uma pauta por linha. O Diretor consome de cima para baixo.
 # Linhas começando com # são ignoradas. Fila vazia = o Diretor cria pautas sozinho.
 # Foco atual: Jesus como personagem principal, em momentos de emoção nos Evangelhos.
-Jesus tocou o leproso que ninguém tinha coragem de tocar (Marcos 1:40-42)
 "Nem eu te condeno": a mulher que ia ser apedrejada (João 8:1-11)
 Zaqueu: Jesus parou debaixo da árvore e chamou pelo nome (Lucas 19:1-10)
 A mulher que chorou aos pés de Jesus e foi perdoada (Lucas 7:36-50)

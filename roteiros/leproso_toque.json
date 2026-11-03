@@ -1,0 +1,65 @@
+{
+  "titulo": "Jesus tocou o leproso",
+  "gancho_tela": "O toque que ninguém tinha coragem",
+  "estilo": "pintura",
+  "narracao": "Jesus podia curar esse homem com uma palavra. Mas fez outra coisa. Ele tocou num leproso. Está em Marcos, capítulo um. Mas por que esse toque mudou tudo? Pela Lei, quem tinha lepra vivia isolado, longe de todos. Ninguém chegava perto. Ninguém encostava nele. Talvez fizesse anos que ninguém tocava nele. Um dia, esse homem se aproximou de Jesus, caiu de joelhos e implorou: se quiseres, podes me purificar. Repare: ele não duvidava do poder de Jesus. Duvidava se Jesus ia querer. E Jesus, cheio de compaixão, estendeu a mão e tocou nele. Antes da cura. Ainda com a lepra. E disse: quero, seja purificado. Na mesma hora, a lepra saiu dele. Mas o mais bonito está no fim do capítulo. O homem saiu contando para todo mundo. E Jesus já não podia entrar abertamente nas cidades. Ficava do lado de fora, em lugares desertos. O homem que vivia isolado voltou para o meio do povo. E Jesus foi quem ficou do lado de fora. Se você se sente sujo demais para chegar perto, ele não tem nojo de você. Ele estende a mão e diz: eu quero. Salve este vídeo para ouvir de novo quando precisar, e siga para receber uma palavra de fé todos os dias.",
+  "cenas": [
+    {
+      "trecho": "Jesus podia curar esse homem com uma palavra. Mas fez outra coisa.",
+      "busca_imagem": "",
+      "prompt_imagem": ""
+    },
+    {
+      "trecho": "Ele tocou num leproso. Está em Marcos, capítulo um. Mas por que esse toque mudou tudo?",
+      "busca_imagem": "outstretched hand light",
+      "prompt_imagem": "a robed hand reaching out toward a kneeling ragged figure on a dusty ancient road, seen from behind, warm golden light"
+    },
+    {
+      "trecho": "Pela Lei, quem tinha lepra vivia isolado, longe de todos. Ninguém chegava perto. Ninguém encostava nele.",
+      "busca_imagem": "lonely man outside city walls",
+      "prompt_imagem": "a lonely man in torn ragged robes seen from behind sitting outside ancient stone city walls, far from the people, dusty evening light"
+    },
+    {
+      "trecho": "Talvez fizesse anos que ninguém tocava nele. Um dia, esse homem se aproximou de Jesus, caiu de joelhos e implorou: se quiseres, podes me purificar.",
+      "busca_imagem": "man kneeling begging",
+      "prompt_imagem": "a man in ragged robes kneeling on a dirt road in the shadow, hands raised in pleading toward a robed figure seen from behind, golden afternoon light"
+    },
+    {
+      "trecho": "Repare: ele não duvidava do poder de Jesus. Duvidava se Jesus ia querer.",
+      "busca_imagem": "kneeling man head bowed",
+      "prompt_imagem": "close view of a kneeling man in shadow with his head bowed, bandaged hands clasped, soft golden rim light"
+    },
+    {
+      "trecho": "E Jesus, cheio de compaixão, estendeu a mão e tocou nele. Antes da cura. Ainda com a lepra. E disse: quero, seja purificado.",
+      "busca_imagem": "hand touching shoulder",
+      "prompt_imagem": "a robed figure seen from behind gently placing his hand on the shoulder of a kneeling ragged man, a shocked crowd at a distance, radiant golden light"
+    },
+    {
+      "trecho": "Na mesma hora, a lepra saiu dele. Mas o mais bonito está no fim do capítulo.",
+      "busca_imagem": "healed man looking at hands",
+      "prompt_imagem": "a man in simple robes seen from behind looking at his own clean hands in wonder, sunlight breaking through clouds over Galilean hills"
+    },
+    {
+      "trecho": "O homem saiu contando para todo mundo. E Jesus já não podia entrar abertamente nas cidades. Ficava do lado de fora, em lugares desertos.",
+      "busca_imagem": "lone figure desert hills",
+      "prompt_imagem": "a lone robed figure seen from behind walking in a quiet deserted wilderness outside a distant town at dusk, long shadows, golden sky"
+    },
+    {
+      "trecho": "O homem que vivia isolado voltou para o meio do povo. E Jesus foi quem ficou do lado de fora. Se você se sente sujo demais para chegar perto, ele não tem nojo de você. Ele estende a mão e diz: eu quero. Salve este vídeo para ouvir de novo quando precisar, e siga para receber uma palavra de fé todos os dias.",
+      "busca_imagem": "sunrise hope hills",
+      "prompt_imagem": "a person seen from behind walking into a crowded ancient village at sunrise, welcomed by people, warm hopeful golden light"
+    }
+  ],
+  "legenda": "Senhor, obrigado por não ter nojo de mim 😭🙏\nMarcos 1:40-45\nComente \"Amém\" e salve para ouvir de novo quando precisar.",
+  "hashtags": [
+    "#leproso",
+    "#compaixão",
+    "#toquedeJesus",
+    "#amordeDeus"
+  ],
+  "fontes": [
+    "Marcos 1:40-42 (o leproso de joelhos, 'se quiseres, podes purificar-me', Jesus cheio de compaixão estende a mão, toca e diz 'Quero. Seja purificado', a lepra o deixa imediatamente)",
+    "Marcos 1:45 (o homem espalha a notícia; Jesus não podia mais entrar publicamente nas cidades e ficava fora, em lugares solitários)",
+    "Levítico 13:45-46 (o leproso devia viver isolado, fora do acampamento)"
+  ]
+}
