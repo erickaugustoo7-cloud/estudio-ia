@@ -1,0 +1,63 @@
+{
+  "titulo": "Nem eu te condeno",
+  "gancho_tela": "Ninguém sabe o que ele escreveu",
+  "estilo": "pintura",
+  "narracao": "Jesus escreveu no chão. E, um por um, os acusadores foram embora. Está em João, capítulo oito. Mas o que ele disse à mulher, quando ficaram sozinhos, é ainda mais bonito. De madrugada, Jesus ensinava no templo. Então escribas e fariseus trouxeram uma mulher pega em adultério. Fizeram ela ficar em pé, no meio de todo mundo. E disseram: Moisés mandou apedrejar mulheres assim. E o senhor, o que diz? Era uma armadilha. Eles queriam um motivo para acusar Jesus. Mas Jesus se abaixou e começou a escrever na terra com o dedo. Eles insistiram. Então ele se levantou e disse: quem de vocês estiver sem pecado, seja o primeiro a atirar uma pedra. Um por um, foram saindo. Primeiro os mais velhos. Até que ficaram só Jesus e a mulher. Repare: o único ali sem pecado era ele. O único que podia atirar a pedra. Jesus se levantou e perguntou: mulher, onde estão eles? Ninguém te condenou? Ela respondeu: ninguém, Senhor. E Jesus disse: nem eu te condeno. Vá e não peque mais. Se você carrega a vergonha de um erro, ele não veio te apedrejar. Ele veio dizer: nem eu te condeno. Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias.",
+  "cenas": [
+    {
+      "trecho": "Jesus escreveu no chão. E, um por um, os acusadores foram embora.",
+      "busca_imagem": "",
+      "prompt_imagem": ""
+    },
+    {
+      "trecho": "Está em João, capítulo oito. Mas o que ele disse à mulher, quando ficaram sozinhos, é ainda mais bonito.",
+      "busca_imagem": "writing in dust finger",
+      "prompt_imagem": "a robed figure seen from behind crouching and writing with his finger in the dust of a stone temple courtyard at dawn, golden light"
+    },
+    {
+      "trecho": "De madrugada, Jesus ensinava no templo. Então escribas e fariseus trouxeram uma mulher pega em adultério.",
+      "busca_imagem": "ancient temple courtyard crowd",
+      "prompt_imagem": "a crowd of robed men in shadow dragging a woman in a simple veil into an ancient stone temple courtyard at early dawn, people seated around, warm golden light"
+    },
+    {
+      "trecho": "Fizeram ela ficar em pé, no meio de todo mundo. E disseram: Moisés mandou apedrejar mulheres assim. E o senhor, o que diz?",
+      "busca_imagem": "woman standing accused crowd",
+      "prompt_imagem": "a woman seen from behind standing alone in the middle of a circle of accusing robed men in an ancient temple courtyard, stones lying on the ground, dramatic golden light"
+    },
+    {
+      "trecho": "Era uma armadilha. Eles queriam um motivo para acusar Jesus. Mas Jesus se abaixou e começou a escrever na terra com o dedo.",
+      "busca_imagem": "hand writing in sand",
+      "prompt_imagem": "close view of a hand in a simple robe sleeve writing in the dust of a stone courtyard, shadows of standing men around, golden morning light"
+    },
+    {
+      "trecho": "Eles insistiram. Então ele se levantou e disse: quem de vocês estiver sem pecado, seja o primeiro a atirar uma pedra.",
+      "busca_imagem": "man standing before crowd",
+      "prompt_imagem": "a robed figure seen from behind standing up before a group of silent elders in long robes in an ancient temple courtyard, a stone on the ground, radiant golden light"
+    },
+    {
+      "trecho": "Um por um, foram saindo. Primeiro os mais velhos. Até que ficaram só Jesus e a mulher. Repare: o único ali sem pecado era ele. O único que podia atirar a pedra.",
+      "busca_imagem": "men walking away courtyard",
+      "prompt_imagem": "robed men seen from behind walking away one by one out of an ancient temple courtyard, only two small figures left in the center, long shadows, golden light"
+    },
+    {
+      "trecho": "Jesus se levantou e perguntou: mulher, onde estão eles? Ninguém te condenou? Ela respondeu: ninguém, Senhor. E Jesus disse: nem eu te condeno. Vá e não peque mais.",
+      "busca_imagem": "two figures empty courtyard",
+      "prompt_imagem": "a robed figure and a kneeling woman in a veil seen in silhouette in an empty ancient temple courtyard, soft rays of golden sunrise light"
+    },
+    {
+      "trecho": "Se você carrega a vergonha de um erro, ele não veio te apedrejar. Ele veio dizer: nem eu te condeno. Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias.",
+      "busca_imagem": "woman walking sunrise",
+      "prompt_imagem": "a woman in a simple veil seen from behind walking out of an ancient city gate toward a bright sunrise over hills, a dropped stone in the dust behind her, hopeful golden light"
+    }
+  ],
+  "legenda": "Senhor, obrigado por não me condenar 😭🙏\nJoão 8:1-11\nComente \"Amém\" e envie para alguém que precisa ouvir isso.",
+  "hashtags": [
+    "#nemeutecondeno",
+    "#perdão",
+    "#graçadeDeus",
+    "#Jesusteama"
+  ],
+  "fontes": [
+    "João 8:1-11 (NAA: de madrugada no templo; escribas e fariseus trazem mulher surpreendida em adultério; 'Moisés ordenou que sejam apedrejadas'; para terem de que o acusar; Jesus escreve na terra com o dedo; 'quem de vocês estiver sem pecado seja o primeiro a atirar uma pedra'; saem um por um, a começar pelos mais velhos; 'Ninguém condenou você?' 'Ninguém, Senhor!' 'Também eu não a condeno; vá e não peque mais')"
+  ]
+}
