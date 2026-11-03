@@ -42,6 +42,9 @@ vozes:                          # alterna a cada vídeo (a primeira que funciona
 motor_video: hyperframes       # hyperframes (animado) ou ffmpeg (simples e mais rápido)
 voz: pt-BR-AntonioNeural
 ritmo_voz: "-5%"
+ritmo_por_voz:                  # ajuste para os vídeos ficarem entre ~75 e 90 s
+  pt-BR-AntonioNeural: "+8%"
+  pt-BR-ThalitaMultilingualNeural: "-2%"
 palavras_alvo: [180, 210]       # ~65-75 s de narração (Creator Rewards exige > 60 s)
 cenas: [7, 9]
 

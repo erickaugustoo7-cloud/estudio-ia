@@ -45,10 +45,12 @@ def narrar(canal: dict, texto: str, pasta: Path) -> tuple[Path, list[dict], floa
     random.shuffle(vozes)
     if canal.get("voz") and canal["voz"] not in vozes:
         vozes.append(canal["voz"])  # voz principal sempre como reserva
-    ritmo = _variacao(canal.get("ritmo_voz", "+0%"), "%", 4)
+    por_voz = canal.get("ritmo_por_voz") or {}
     tom = _variacao(canal.get("tom_voz", "+0Hz"), "Hz", 3)
     erros = []
     for voz in vozes:
+        # cada voz tem seu ritmo base (o Antonio é naturalmente mais lento que a Thalita)
+        ritmo = _variacao(por_voz.get(voz, canal.get("ritmo_voz", "+0%")), "%", 2)
         try:
             palavras = asyncio.run(_sintetizar(texto, voz, ritmo, mp3, tom))
             if palavras:
