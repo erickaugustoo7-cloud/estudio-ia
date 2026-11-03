@@ -26,5 +26,9 @@
  {
   "titulo": "gravidade artificial em estações espaciais",
   "pauta": "Como funciona a gravidade artificial em estações espaciais: o que são centrifugas rotativas, como a força centrípeta cria 'peso' artificial, exemplos de projetos da NASA e ESA, e o que isso poderia mudar nas missões de longa duração. Inclua analogia com um parque de diversões giratório para explicar a sensação de peso, dados de rotação necessários (ex.: 2‑rpm para 1g em um raio de 100 m) e cite fontes como NASA’s Human Research Program e estudos da ESA sobre habitats rotativos. No final, pergunte: \"Se você pudesse viver em um habitat giratório no espaço, qual seria a primeira coisa que faria lá?\""
+ },
+ {
+  "titulo": "Relógios atômicos e a precisão do GPS",
+  "pauta": "Como funcionam os relógios atômicos: a ciência por trás da precisão de um bilionésimo de segundo e por que eles mantêm o GPS, a internet e até os smartphones sincronizados"
  }
 ]
