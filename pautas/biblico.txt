@@ -1,6 +1,15 @@
 # Uma pauta por linha. O Diretor consome de cima para baixo.
 # Linhas começando com # são ignoradas. Fila vazia = o Diretor cria pautas sozinho.
-Ana e a oração em silêncio que Deus ouviu (1 Samuel 1)
-Uma oração curta para dormir em paz (Salmo 4:8)
-"Tudo posso naquele que me fortalece": o que Paulo quis dizer de verdade (Filipenses 4:11-13)
-A ovelha perdida: Deus vai atrás de quem se afastou (Lucas 15:3-7)
+# Foco atual: Jesus como personagem principal, em momentos de emoção nos Evangelhos.
+Jesus tocou o leproso que ninguém tinha coragem de tocar (Marcos 1:40-42)
+"Nem eu te condeno": a mulher que ia ser apedrejada (João 8:1-11)
+Zaqueu: Jesus parou debaixo da árvore e chamou pelo nome (Lucas 19:1-10)
+A mulher que chorou aos pés de Jesus e foi perdoada (Lucas 7:36-50)
+Jesus no Getsêmani: a noite em que o suor virou gotas de sangue (Lucas 22:39-44)
+"Talita cumi": Jesus e a filha de Jairo (Marcos 5:21-43)
+Jesus lavou os pés de quem ia traí-lo (João 13:1-15)
+A samaritana: Jesus conversou com quem todos evitavam (João 4:1-30)
+Bartimeu: o cego que gritou mais alto e Jesus parou (Marcos 10:46-52)
+"Pai, perdoa-lhes": Jesus perdoando na cruz (Lucas 23:33-34)
+Tomé: Jesus mostrou as mãos a quem duvidou (João 20:24-29)
+Jesus acalmou a tempestade enquanto os discípulos gritavam (Marcos 4:35-41)
