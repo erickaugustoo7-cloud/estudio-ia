@@ -1,0 +1,66 @@
+{
+  "titulo": "Alegrem-se sempre — escrito por quem cantou na prisão (parte 3)",
+  "gancho_tela": "Parte 3: duas palavras quase impossíveis",
+  "estilo": "pintura",
+  "narracao": "Existem duas palavras na Bíblia que parecem impossíveis de obedecer. Alegrem-se sempre. Primeira Tessalonicenses, capítulo cinco, versículo dezesseis. Mas como ser feliz o tempo todo? Quem escreveu isso foi Paulo. E pouco antes, ele e Silas foram espancados com varas na cidade de Filipos. Jogaram os dois no fundo da prisão, com os pés presos no tronco. Feridos, no escuro, sem saber o que viria. E à meia-noite, Paulo e Silas estavam orando e cantando hinos a Deus. Os outros presos ouviam. De repente, um terremoto sacudiu a prisão. As portas se abriram e as correntes de todos se soltaram. E o carcereiro creu em Deus com toda a família. Depois, em Tessalônica, foi perseguido de novo e saiu escondido à noite. Mesmo assim, escreveu para aquela igreja: alegrem-se sempre, orem sem parar, deem graças em tudo. Paulo não falava de sorrir quando tudo vai bem. Falava de uma alegria que a prisão não conseguiu tirar, porque não depende do que acontece, mas de quem está com você. Se hoje está escuro aí dentro, faça o que Paulo fez: ore e cante, mesmo chorando. Deus ainda abre portas à meia-noite. Envie este vídeo para alguém que está passando por uma noite difícil, e siga para não perder a parte quatro.",
+  "cenas": [
+    {
+      "trecho": "Existem duas palavras na Bíblia que parecem impossíveis de obedecer.",
+      "busca_imagem": "open bible candle light",
+      "prompt_imagem": "an ancient open bible on a wooden table lit by a single candle in a dark room, warm golden glow, dust floating in the light"
+    },
+    {
+      "trecho": "Alegrem-se sempre. Primeira Tessalonicenses, capítulo cinco, versículo dezesseis. Mas como ser feliz o tempo todo?",
+      "busca_imagem": "ancient letter parchment",
+      "prompt_imagem": "an ancient parchment letter and a quill on a stone table beside an oil lamp, soft warm light, quiet and reverent"
+    },
+    {
+      "trecho": "Quem escreveu isso foi Paulo. E pouco antes, ele e Silas foram espancados com varas na cidade de Filipos.",
+      "busca_imagem": "ancient roman city crowd",
+      "prompt_imagem": "an angry crowd in an ancient roman city square at dusk, two robed men seen from behind being led away by soldiers, dramatic shadows"
+    },
+    {
+      "trecho": "Jogaram os dois no fundo da prisão, com os pés presos no tronco. Feridos, no escuro, sem saber o que viria.",
+      "busca_imagem": "ancient dungeon prison",
+      "prompt_imagem": "a dark ancient stone dungeon, two men in torn robes seen in silhouette sitting on the floor with feet locked in wooden stocks, a thin beam of moonlight"
+    },
+    {
+      "trecho": "E à meia-noite, Paulo e Silas estavam orando e cantando hinos a Deus. Os outros presos ouviam.",
+      "busca_imagem": "prisoners singing prison night",
+      "prompt_imagem": "two silhouetted men in a dark stone prison raising their heads in prayer and song, faint golden light around them, other prisoners in the shadows listening"
+    },
+    {
+      "trecho": "De repente, um terremoto sacudiu a prisão. As portas se abriram e as correntes de todos se soltaram. E o carcereiro creu em Deus com toda a família.",
+      "busca_imagem": "prison doors open light",
+      "prompt_imagem": "heavy ancient prison doors bursting open with dust and falling stones, broken iron chains on the floor, bright divine light pouring in"
+    },
+    {
+      "trecho": "Depois, em Tessalônica, foi perseguido de novo e saiu escondido à noite. Mesmo assim, escreveu para aquela igreja: alegrem-se sempre, orem sem parar, deem graças em tudo.",
+      "busca_imagem": "travelers night road ancient",
+      "prompt_imagem": "two robed travelers seen from behind leaving an ancient walled city on a road at night, starry sky, a lantern in hand"
+    },
+    {
+      "trecho": "Paulo não falava de sorrir quando tudo vai bem. Falava de uma alegria que a prisão não conseguiu tirar, porque não depende do que acontece, mas de quem está com você.",
+      "busca_imagem": "light through clouds heaven",
+      "prompt_imagem": "rays of golden heavenly light breaking through dark storm clouds over quiet hills, peaceful and comforting"
+    },
+    {
+      "trecho": "Se hoje está escuro aí dentro, faça o que Paulo fez: ore e cante, mesmo chorando. Deus ainda abre portas à meia-noite. Envie este vídeo para alguém que está passando por uma noite difícil, e siga para não perder a parte quatro.",
+      "busca_imagem": "sunrise hope hills",
+      "prompt_imagem": "a lone person seen from behind standing on a hill at the end of the night as a golden sunrise breaks the darkness, sense of hope"
+    }
+  ],
+  "legenda": "Senhor, me dá alegria mesmo na noite escura 🙏\n1 Tessalonicenses 5:16 — \"Alegrem-se sempre.\"\nComente \"Amém\" e envie para alguém que precisa dessa força hoje.",
+  "hashtags": [
+    "#AlegremseSempre",
+    "#PauloeSilas",
+    "#fé",
+    "#versiculododia"
+  ],
+  "fontes": [
+    "1 Tessalonicenses 5:16-18",
+    "1 Tessalonicenses 1:6",
+    "Atos 16:22-34 (Filipos: varas, tronco, cânticos à meia-noite, terremoto, carcereiro)",
+    "Atos 17:1-10 (Tessalônica: perseguição e saída à noite)"
+  ]
+}
