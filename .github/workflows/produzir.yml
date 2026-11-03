@@ -1,10 +1,12 @@
 name: Produzir vídeos
 
 on:
-  schedule:
-    # Horários em UTC (Brasília = UTC-3): ~08:47 e ~16:47
-    - cron: "47 11 * * *"
-    - cron: "47 19 * * *"
+  # Horários automáticos com os modelos gratuitos DESLIGADOS (03/11/2026): os roteiros agora são
+  # escritos e verificados por uma tarefa agendada do Claude (docs/MANUAL_ROTEIRISTA.md).
+  # Para religar: descomente as linhas abaixo.
+  # schedule:
+  #   - cron: "47 11 * * *"
+  #   - cron: "47 19 * * *"
   workflow_dispatch:
     inputs:
       canal:
