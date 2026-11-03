@@ -1,0 +1,31 @@
+name: Gerar aberturas (Bíblia)
+
+# Gera 4 opções de imagem de abertura e manda para o Telegram. Não altera a produção.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q requests
+      - run: python ferramentas/gerar_aberturas.py
+      - name: Salvar candidatas no repositório
+        run: |
+          git config user.name "estudio-ia[bot]"
+          git config user.email "estudio-ia@users.noreply.github.com"
+          git add assets/aberturas
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: candidatas de abertura"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done

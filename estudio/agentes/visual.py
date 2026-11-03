@@ -145,11 +145,15 @@ def gerar_imagens(canal: dict, cenas: list[dict], pasta: Path) -> list[Path]:
     for i, cena in enumerate(cenas):
         destino = pasta / f"cena_{i:02d}.jpg"
         fonte_usada = None
-        for nome in ordem:
+        fixa = cena.get("imagem")  # imagem escolhida a dedo (ex.: a abertura com a Bíblia)
+        if fixa and Path(fixa).is_file():
+            shutil.copy(fixa, destino)
+            fonte_usada = "fixa"
+        for nome in ([] if fonte_usada else ordem):
             if FONTES[nome](cena=cena, destino=destino, usados=usados, canal=canal, seed=seed_base + i):
                 fonte_usada = nome
                 break
-        if fonte_usada != ordem[0]:
+        if fonte_usada not in (ordem[0], "fixa"):
             RESERVAS.append(i + 1)
         if not fonte_usada and anterior:
             shutil.copy(anterior, destino)
