@@ -118,8 +118,7 @@ def main():
         por_seg = len(roteiro["narracao"].split()) / max(dur, 1)
         roteiro = roteirista.estender(canal, roteiro, int((64 - dur) * por_seg) + 10)
         (pasta / "roteiro.json").write_text(json.dumps(roteiro, ensure_ascii=False, indent=2), encoding="utf-8")
-        canal_voz = {**canal, "vozes": [roteiro["voz"]]} if roteiro.get("voz") else canal  # voz fixa no roteiro
-    mp3, palavras, dur = narrador.narrar(canal_voz, roteiro["narracao"], pasta)
+        mp3, palavras, dur = narrador.narrar(canal_voz, roteiro["narracao"], pasta)
     if dur < 61:
         problemas.append(f"Vídeo com {dur:.0f}s — abaixo de 1 minuto não conta no Creator Rewards do TikTok.")
 

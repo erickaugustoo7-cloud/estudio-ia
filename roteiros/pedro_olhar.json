@@ -1,53 +1,54 @@
 {
   "titulo": "O olhar de Jesus para Pedro",
-  "gancho_tela": "Ele não disse nada. Só olhou.",
+  "gancho_tela": "O olhar que partiu o coração",
   "estilo": "pintura",
-  "narracao": "Teve um dia em que Jesus não disse nada. Só olhou. E um homem desabou. Esse homem era Pedro. Está em Lucas, capítulo vinte e dois. Mas o que veio depois é ainda mais bonito. Pedro tinha jurado: Senhor, por você eu vou até a prisão e até a morte. E Jesus respondeu: antes que o galo cante, você vai me negar três vezes. Naquela mesma noite, Jesus foi preso. Pedro seguiu de longe e ficou perto de uma fogueira, no pátio. Uma criada disse: esse aí estava com ele. E Pedro negou. Depois, outra pessoa. Negou de novo. E na terceira vez: eu não sei do que você está falando. Enquanto ele ainda falava, o galo cantou. E Jesus, virando-se, olhou para Pedro. Pedro saiu dali e chorou amargamente. Quando Jesus ressuscitou, o anjo mandou avisar: digam aos discípulos, e a Pedro. Pelo nome, justamente quem tinha negado. Depois, na beira do mar, perto de outra fogueira, Jesus perguntou três vezes: Simão, você me ama? Três perguntas, para três negações. E a cada sim, devolveu a missão: cuide das minhas ovelhas. Jesus não desistiu de Pedro. E não desistiu de você. Se você acha que errou demais, ele ainda está te chamando pelo nome. Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias.",
+  "voz": "pt-BR-AntonioNeural",
+  "narracao": "Jesus não disse uma palavra. Só olhou. E um homem desabou. Esse homem era Pedro, o amigo mais corajoso de Jesus. Mas por que um olhar doeu tanto? Horas antes, Pedro tinha prometido: Senhor, eu vou com você até a prisão e até a morte. Jesus respondeu: antes que o galo cante, você vai me negar três vezes. Naquela noite, Jesus foi preso. Pedro seguiu de longe e se sentou perto de uma fogueira, no pátio. Três vezes alguém disse: você estava com ele. E três vezes Pedro negou: eu nem conheço esse homem. Na terceira, o galo cantou. Jesus se virou e olhou para Pedro. E Pedro saiu dali chorando amargamente. Lucas, capítulo vinte e dois. Mas não termina aí. Quando Jesus ressuscitou, o anjo mandou um recado: avisem os discípulos, e Pedro. Pelo nome. Dias depois, numa fogueira na beira do mar, Jesus perguntou três vezes: você me ama? Uma para cada negação. E devolveu a missão: cuide das minhas ovelhas. Aquele olhar não era de condenação. Era de quem já sabia, e amou mesmo assim. Se você acha que errou demais, Jesus ainda chama você pelo nome. Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias.",
   "cenas": [
     {
-      "trecho": "Teve um dia em que Jesus não disse nada. Só olhou. E um homem desabou.",
+      "trecho": "Jesus não disse uma palavra. Só olhou. E um homem desabou.",
       "busca_imagem": "",
       "prompt_imagem": ""
     },
     {
-      "trecho": "Esse homem era Pedro. Está em Lucas, capítulo vinte e dois. Mas o que veio depois é ainda mais bonito.",
+      "trecho": "Esse homem era Pedro, o amigo mais corajoso de Jesus. Mas por que um olhar doeu tanto?",
       "busca_imagem": "fisherman silhouette sea",
-      "prompt_imagem": "a rugged fisherman in ancient robes seen from behind standing by the Sea of Galilee at dusk, golden light on the water"
+      "prompt_imagem": "a strong fisherman in ancient robes seen from behind standing by the Sea of Galilee at dusk, golden light on the water"
     },
     {
-      "trecho": "Pedro tinha jurado: Senhor, por você eu vou até a prisão e até a morte. E Jesus respondeu: antes que o galo cante, você vai me negar três vezes.",
-      "busca_imagem": "last supper painting",
-      "prompt_imagem": "an ancient supper table lit by oil lamps, robed men seen from behind and in shadow, bread and wine, solemn warm light"
+      "trecho": "Horas antes, Pedro tinha prometido: Senhor, eu vou com você até a prisão e até a morte. Jesus respondeu: antes que o galo cante, você vai me negar três vezes.",
+      "busca_imagem": "last supper oil lamps",
+      "prompt_imagem": "an ancient supper table lit by oil lamps, robed men seen from behind and in shadow, bread and a cup of wine, solemn warm light"
     },
     {
-      "trecho": "Naquela mesma noite, Jesus foi preso. Pedro seguiu de longe e ficou perto de uma fogueira, no pátio.",
+      "trecho": "Naquela noite, Jesus foi preso. Pedro seguiu de longe e se sentou perto de uma fogueira, no pátio.",
       "busca_imagem": "courtyard fire night",
-      "prompt_imagem": "a man in ancient robes seen from behind warming his hands at a small fire in a stone courtyard at night, other shadowy figures around"
+      "prompt_imagem": "a man in ancient robes seen from behind sitting at a small fire in a stone courtyard at night among soldiers and servants, flickering firelight"
     },
     {
-      "trecho": "Uma criada disse: esse aí estava com ele. E Pedro negou. Depois, outra pessoa. Negou de novo. E na terceira vez: eu não sei do que você está falando.",
+      "trecho": "Três vezes alguém disse: você estava com ele. E três vezes Pedro negou: eu nem conheço esse homem.",
       "busca_imagem": "denial of Peter painting",
-      "prompt_imagem": "a servant girl pointing at a robed man by a fire in an ancient courtyard at night, the man turning away in fear, dramatic firelight"
+      "prompt_imagem": "a servant girl pointing at a robed man by a fire in an ancient courtyard at night, the man turning his face away in fear, dramatic shadows"
     },
     {
-      "trecho": "Enquanto ele ainda falava, o galo cantou. E Jesus, virando-se, olhou para Pedro. Pedro saiu dali e chorou amargamente.",
-      "busca_imagem": "man weeping night",
+      "trecho": "Na terceira, o galo cantou. Jesus se virou e olhou para Pedro. E Pedro saiu dali chorando amargamente. Lucas, capítulo vinte e dois.",
+      "busca_imagem": "man weeping dawn",
       "prompt_imagem": "silhouette of a man in ancient robes crouched against a stone wall at dawn, head in his hands, weeping, a rooster on the wall, cold blue and gold light"
     },
     {
-      "trecho": "Quando Jesus ressuscitou, o anjo mandou avisar: digam aos discípulos, e a Pedro. Pelo nome, justamente quem tinha negado.",
-      "busca_imagem": "empty tomb light",
+      "trecho": "Mas não termina aí. Quando Jesus ressuscitou, o anjo mandou um recado: avisem os discípulos, e Pedro. Pelo nome.",
+      "busca_imagem": "empty tomb sunrise",
       "prompt_imagem": "an empty ancient rock tomb with the stone rolled away at sunrise, brilliant divine light pouring out, peaceful garden"
     },
     {
-      "trecho": "Depois, na beira do mar, perto de outra fogueira, Jesus perguntou três vezes: Simão, você me ama? Três perguntas, para três negações. E a cada sim, devolveu a missão: cuide das minhas ovelhas.",
-      "busca_imagem": "breakfast fire beach",
-      "prompt_imagem": "two robed men seen from behind sitting by a small charcoal fire on a lakeshore at sunrise, fishing boat and nets nearby, warm hopeful light"
+      "trecho": "Dias depois, numa fogueira na beira do mar, Jesus perguntou três vezes: você me ama? Uma para cada negação. E devolveu a missão: cuide das minhas ovelhas.",
+      "busca_imagem": "charcoal fire beach fish",
+      "prompt_imagem": "two robed men seen from behind sitting by a small charcoal fire with fish on a lakeshore at sunrise, a fishing boat and nets nearby, warm hopeful light"
     },
     {
-      "trecho": "Jesus não desistiu de Pedro. E não desistiu de você. Se você acha que errou demais, ele ainda está te chamando pelo nome. Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias.",
+      "trecho": "Aquele olhar não era de condenação. Era de quem já sabia, e amou mesmo assim. Se você acha que errou demais, Jesus ainda chama você pelo nome. Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias.",
       "busca_imagem": "sunrise hope hills",
-      "prompt_imagem": "a lone person seen from behind standing on a hill watching a golden sunrise, peaceful and hopeful"
+      "prompt_imagem": "a lone person seen from behind standing on a hill watching a golden sunrise after a dark night, peaceful and hopeful"
     }
   ],
   "legenda": "Senhor, obrigado por não desistir de mim 😭🙏\nLucas 22:61 · João 21:15-17\nComente \"Amém\" e envie para alguém que acha que errou demais.",
@@ -58,10 +59,9 @@
     "#amordeDeus"
   ],
   "fontes": [
-    "Lucas 22:31-34, 54-62 (juramento, três negações, o galo, o olhar, o choro)",
+    "Lucas 22:31-34 (a promessa de Pedro e o aviso do galo)",
+    "Lucas 22:54-62 (a fogueira no pátio, as três negações, o olhar, o choro)",
     "Marcos 16:7 ('digam aos discípulos e a Pedro')",
-    "João 18:18 e 21:9 (as duas fogueiras)",
-    "João 21:15-17 (três vezes 'você me ama?', 'cuide das minhas ovelhas')"
-  ],
-  "voz": "pt-BR-AntonioNeural"
+    "João 21:9-17 (a fogueira com peixe, três vezes 'você me ama?', 'cuide das minhas ovelhas')"
+  ]
 }
