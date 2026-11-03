@@ -1,4 +1,4 @@
-"""Vídeos curtos (12–20 s): leão em movimento ao fundo + versículo aparecendo palavra por palavra.
+"""Vídeos curtos (9–20 s): leão em movimento ao fundo + versículo fixo na tela (ou palavra por palavra, com "revelar": true).
 
 Sem narração: trilha instrumental gerada. A imagem do leão é gerada por IA e animada
 (zoom lento, "respiração", brilho pulsando e partículas de luz) para parecer viva.
@@ -60,7 +60,8 @@ def _composicao(canal, r, dur) -> str:
     elems.append(f'<div id="particulas" class="clip" data-start="0" data-duration="{_f(dur)}" data-track-index="2">{"".join(pts)}</div>')
 
     # ---- faixa do gancho (visível no quadro 0, sai aos ~2,6 s) ----
-    if r.get("gancho_tela"):
+    revelar = r.get("revelar", False)  # padrão: versículo fixo desde o 1º quadro (melhor para curtos)
+    if revelar and r.get("gancho_tela"):
         elems.append(f'<div id="gancho" class="clip" data-start="0" data-duration="2.9" data-track-index="3">'
                      f'<span>{html.escape(r["gancho_tela"].upper())}</span></div>')
         anim.append('tl.to("#gancho span",{scale:1.06,duration:0.18,ease:"power2.out",yoyo:true,repeat:1},0.25);')
@@ -72,10 +73,11 @@ def _composicao(canal, r, dur) -> str:
     ref_html = f'<div id="ref">{html.escape(r["referencia"])}</div>'
     elems.append(f'<div id="verso" class="clip" data-start="0" data-duration="{_f(dur)}" data-track-index="4" '
                  f'style="font-size:{tam}px">{spans}{ref_html}</div>')
-    for j in range(len(palavras)):
+    for j in range(len(palavras) if revelar else 0):
         anim.append(f'tl.fromTo("#v{j}",{{opacity:0,y:18}},{{opacity:1,y:0,duration:0.35,ease:"power2.out"}},{_f(t0 + j * POR_PALAVRA)});')
     t_ref = t0 + len(palavras) * POR_PALAVRA + 0.2
-    anim.append(f'tl.fromTo("#ref",{{opacity:0,letterSpacing:"0.5em"}},{{opacity:1,letterSpacing:"0.22em",duration:0.8,ease:"power2.out"}},{_f(t_ref)});')
+    if revelar:
+        anim.append(f'tl.fromTo("#ref",{{opacity:0,letterSpacing:"0.5em"}},{{opacity:1,letterSpacing:"0.22em",duration:0.8,ease:"power2.out"}},{_f(t_ref)});')
 
     elems.append(f'<div id="assinatura" class="clip" data-start="0" data-duration="{_f(dur)}" data-track-index="5">'
                  f'{html.escape(canal["nome"])}</div>')
@@ -136,7 +138,11 @@ def produzir_curto(caminho: Path, sem_envio: bool, sem_issue: bool) -> None:
     pasta = SAIDA / f"curto_{caminho.stem}_{datetime.now():%Y%m%d_%H%M%S}"
     proj = pasta / "hf"
     proj.mkdir(parents=True)
-    dur = max(13.0, round(1.0 + len(r["versiculo"].split()) * POR_PALAVRA + 3.6, 2))
+    n = len(r["versiculo"].split())
+    if r.get("revelar", False):
+        dur = max(13.0, round(1.0 + n * POR_PALAVRA + 3.6, 2))
+    else:  # texto fixo: tempo de leitura folgado; ao terminar o TikTok repete (conta como visto até o fim)
+        dur = max(9.0, round(n * 0.32 + 3.5, 1))
 
     canal_img = {**canal, "estilo_visual": ESTILO_LEAO, "regra_visual_pessoas": "no people"}
     ok = visual._pollinations(cena={"prompt_imagem": r["prompt_leao"]}, destino=proj / "leao.jpg",
