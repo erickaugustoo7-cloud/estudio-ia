@@ -145,7 +145,9 @@ def gerar_imagens(canal: dict, cenas: list[dict], pasta: Path) -> list[Path]:
     for i, cena in enumerate(cenas):
         destino = pasta / f"cena_{i:02d}.jpg"
         fonte_usada = None
-        fixa = cena.get("imagem")  # imagem escolhida a dedo (ex.: a abertura com a Bíblia)
+        fixa = cena.get("imagem")  # imagem escolhida a dedo para a cena
+        if not fixa and i == 0:
+            fixa = canal.get("imagem_abertura")  # abertura fixa do canal (marca visual)
         if fixa and Path(fixa).is_file():
             shutil.copy(fixa, destino)
             fonte_usada = "fixa"
