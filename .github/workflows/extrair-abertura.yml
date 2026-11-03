@@ -1,0 +1,42 @@
+name: Extrair abertura de um vídeo
+
+# Baixa o vídeo de uma execução anterior e salva quadros da cena de abertura, para reaproveitar a imagem.
+on:
+  workflow_dispatch:
+    inputs:
+      run_id:
+        description: "ID da execução que produziu o vídeo"
+        required: true
+      ate:
+        description: "Até quantos segundos extrair"
+        default: "9"
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  extrair:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Baixar vídeo
+        run: |
+          gh run download ${{ inputs.run_id }} -D baixado
+          find baixado -name video.mp4 | head -1 > caminho.txt && cat caminho.txt
+      - name: Extrair quadros
+        run: |
+          mkdir -p assets/aberturas/quadros
+          ffmpeg -loglevel error -i "$(cat caminho.txt)" -t ${{ inputs.ate }} -vf fps=5 -q:v 2 assets/aberturas/quadros/q_%03d.jpg
+          ffmpeg -loglevel error -i "$(cat caminho.txt)" -t ${{ inputs.ate }} -vf "fps=5,scale=216:384,tile=9x5" -frames:v 1 assets/aberturas/quadros/mosaico.jpg
+          ls assets/aberturas/quadros | wc -l
+      - name: Salvar
+        run: |
+          git config user.name "estudio-ia[bot]"
+          git config user.email "estudio-ia@users.noreply.github.com"
+          git add assets/aberturas
+          git commit -qm "chore: quadros da abertura (run ${{ inputs.run_id }})"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done
