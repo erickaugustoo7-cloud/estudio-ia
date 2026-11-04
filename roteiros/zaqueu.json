@@ -1,0 +1,65 @@
+{
+  "titulo": "Zaqueu: Jesus chamou pelo nome",
+  "gancho_tela": "Ele só queria ver. Foi visto.",
+  "estilo": "pintura",
+  "narracao": "Jesus parou no meio da multidão e chamou um homem pelo nome. Esse homem era Zaqueu, em cima de uma árvore. Lucas, capítulo dezenove. Mas por que a cidade ficou revoltada? Zaqueu era rico, chefe dos cobradores de impostos em Jericó. Para o povo, um pecador. Zaqueu queria ver quem era Jesus. Mas era baixo, e a multidão não deixava. Então correu na frente e subiu numa figueira brava. Ele só queria ver. Mas Jesus chegou ali, olhou para cima e disse: Zaqueu, desce depressa, hoje preciso ficar na sua casa. E ele desceu correndo, cheio de alegria. O povo reclamou: ele foi se hospedar na casa de um pecador. Mas Zaqueu já não era o mesmo. Ele se levantou e disse: Senhor, dou metade dos meus bens aos pobres, e se extorqui alguém, devolvo quatro vezes mais. Jesus não exigiu nada. Primeiro veio o amor, depois a mudança. E Jesus disse que a salvação tinha chegado àquela casa. Pois o Filho do homem veio buscar e salvar o que estava perdido. Zaqueu subiu na árvore para procurar Jesus. Mas quem estava procurando era Jesus. Se você se sente pequeno ou julgado, Jesus sabe o seu nome. Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias.",
+  "cenas": [
+    {
+      "trecho": "Jesus parou no meio da multidão e chamou um homem pelo nome.",
+      "busca_imagem": "",
+      "prompt_imagem": ""
+    },
+    {
+      "trecho": "Esse homem era Zaqueu, em cima de uma árvore. Lucas, capítulo dezenove. Mas por que a cidade ficou revoltada?",
+      "busca_imagem": "man in tree crowd",
+      "prompt_imagem": "a small man in ancient robes seen from behind sitting among the branches of a large sycamore fig tree above a dusty crowded road, golden afternoon light"
+    },
+    {
+      "trecho": "Zaqueu era rico, chefe dos cobradores de impostos em Jericó. Para o povo, um pecador.",
+      "busca_imagem": "ancient tax collector table",
+      "prompt_imagem": "a wealthy man in fine ancient robes seen from behind at a table with coins and scrolls at a city gate of Jericho, people glaring at him from the shadows, warm dramatic light"
+    },
+    {
+      "trecho": "Zaqueu queria ver quem era Jesus. Mas era baixo, e a multidão não deixava.",
+      "busca_imagem": "crowd ancient street",
+      "prompt_imagem": "a dense crowd in ancient robes seen from behind filling a narrow stone street of an old city, a short man at the back unable to see over them, dust in golden light"
+    },
+    {
+      "trecho": "Então correu na frente e subiu numa figueira brava. Ele só queria ver.",
+      "busca_imagem": "sycamore tree road",
+      "prompt_imagem": "a man in ancient robes seen from behind climbing a large sycamore fig tree beside a road outside an ancient city, the crowd approaching in the distance, golden light"
+    },
+    {
+      "trecho": "Mas Jesus chegou ali, olhou para cima e disse: Zaqueu, desce depressa, hoje preciso ficar na sua casa. E ele desceu correndo, cheio de alegria.",
+      "busca_imagem": "looking up at tree",
+      "prompt_imagem": "a robed figure seen from behind standing under a great fig tree looking up into the branches, a crowd stopped around him, rays of golden sunlight through the leaves"
+    },
+    {
+      "trecho": "O povo reclamou: ele foi se hospedar na casa de um pecador. Mas Zaqueu já não era o mesmo.",
+      "busca_imagem": "crowd whispering shadows",
+      "prompt_imagem": "shadowy figures in ancient robes whispering and pointing outside the doorway of a stone house, warm lamplight glowing from inside, dusk"
+    },
+    {
+      "trecho": "Ele se levantou e disse: Senhor, dou metade dos meus bens aos pobres, e se extorqui alguém, devolvo quatro vezes mais. Jesus não exigiu nada. Primeiro veio o amor, depois a mudança. E Jesus disse que a salvação tinha chegado àquela casa.",
+      "busca_imagem": "ancient house meal lamps",
+      "prompt_imagem": "inside an ancient stone house lit by oil lamps, a man standing with open hands beside a table with bread, a pouch of coins spilling open, robed guests seen from behind and in shadow, warm golden light"
+    },
+    {
+      "trecho": "Pois o Filho do homem veio buscar e salvar o que estava perdido. Zaqueu subiu na árvore para procurar Jesus. Mas quem estava procurando era Jesus. Se você se sente pequeno ou julgado, Jesus sabe o seu nome. Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias.",
+      "busca_imagem": "sunrise path hope",
+      "prompt_imagem": "a lone person seen from behind standing on an ancient road at sunrise beside a great fig tree, a warm golden light ahead, peaceful and hopeful"
+    }
+  ],
+  "legenda": "Senhor, obrigado por me encontrar quando eu me escondia 🙏😭\nLucas 19:1-10\nComente \"Amém\" e envie para alguém que se sente pequeno demais para Deus.",
+  "hashtags": [
+    "#Zaqueu",
+    "#Jericó",
+    "#graça",
+    "#amordeDeus"
+  ],
+  "fontes": [
+    "Lucas 19:1-4 (Jericó, Zaqueu chefe dos publicanos, rico, baixo, a multidão, a figueira brava)",
+    "Lucas 19:5-7 ('Zaqueu, desça depressa, hoje preciso ficar na sua casa'; recebeu com alegria; o povo reclamou)",
+    "Lucas 19:8-10 (metade dos bens aos pobres, quatro vezes mais; 'hoje houve salvação nesta casa'; 'veio buscar e salvar o que estava perdido')"
+  ]
+}
