@@ -15,11 +15,11 @@ from pathlib import Path
 
 import requests
 
-from estudio.base import log
+from estudio.base import gemini_flash, log
 from estudio.agentes import visual
 
 API = "https://generativelanguage.googleapis.com/v1beta"
-MODELO = os.getenv("GEMINI_VISAO", "gemini-2.5-flash")
+MODELO = os.getenv("GEMINI_VISAO", "")
 
 PERGUNTA = """Você revisa imagens de um vídeo vertical. Canal: {canal}.
 Trecho narrado nesta cena: "{trecho}"
@@ -49,7 +49,7 @@ def _avaliar(chave, canal, cena, img) -> dict:
              "generationConfig": {"responseMimeType": "application/json", "temperature": 0.1}}
     for espera in (0, 20):
         time.sleep(espera)
-        r = requests.post(f"{API}/models/{MODELO}:generateContent", params={"key": chave}, json=corpo, timeout=90)
+        r = requests.post(f"{API}/models/{MODELO or gemini_flash()}:generateContent", params={"key": chave}, json=corpo, timeout=90)
         if r.ok:
             return json.loads(r.json()["candidates"][0]["content"]["parts"][0]["text"])
         if r.status_code != 429:
@@ -63,6 +63,7 @@ def revisar(canal: dict, cenas: list[dict], imagens: list[Path]) -> list[str]:
     if not chave or os.getenv("SEM_REVISAO_VISUAL"):
         return []
     avisos, trocadas = [], 0
+    log("revisor-visual", f"modelo {MODELO or gemini_flash()}")
     for i, (cena, img) in enumerate(zip(cenas, imagens)):
         if cena.get("imagem") or (i == 0 and canal.get("imagem_abertura")):
             continue  # imagem escolhida a dedo
