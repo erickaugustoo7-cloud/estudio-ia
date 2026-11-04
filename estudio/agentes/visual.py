@@ -99,7 +99,12 @@ _SEM_SALDO: list = []
 def _cloudflare(cena: dict, destino: Path, usados: set, canal: dict, seed: int) -> bool:
     """FLUX.2 [klein] no Cloudflare Workers AI — cota gratuita diária (~100+ imagens/dia)."""
     conta, token = os.getenv("CF_ACCOUNT_ID"), os.getenv("CF_API_TOKEN")
-    if not (conta and token) or _CF_ESGOTADO:
+    if not (conta and token):
+        if not _CF_AVISADO:
+            log("visual", "cloudflare: sem CF_ACCOUNT_ID/CF_API_TOKEN — pulando")
+            _CF_AVISADO.append(True)
+        return False
+    if _CF_ESGOTADO:
         return False
     prompt = f"{cena['prompt_imagem']}. {canal.get('regra_visual_pessoas', '')}. {canal['estilo_visual'].strip()}"
     modelo = os.getenv("CF_MODELO", "@cf/black-forest-labs/flux-2-klein-4b")
@@ -129,6 +134,7 @@ def _cloudflare(cena: dict, destino: Path, usados: set, canal: dict, seed: int) 
 
 
 _CF_ESGOTADO: list = []
+_CF_AVISADO: list = []
 
 
 def _commons(cena: dict, destino: Path, usados: set, **_) -> bool:
@@ -173,6 +179,7 @@ def gerar_uma(canal: dict, cena: dict, destino: Path, semente: int) -> bool:
     """Gera uma única imagem por IA (usado pelo revisor visual para refazer uma cena)."""
     for nome in ("cloudflare", "pollinations"):
         if nome in FONTES and FONTES[nome](cena=cena, destino=destino, usados=set(), canal=canal, seed=semente):
+            log("visual", f"imagem gerada ({nome})")
             return True
     return False
 
