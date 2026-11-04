@@ -1,48 +1,48 @@
 {
   "titulo": "Oração para dormir em paz",
-  "gancho_tela": "Ore isso antes de dormir",
+  "gancho_tela": "Ore comigo antes de dormir",
   "estilo": "pintura",
-  "narracao": "Se você vai dormir com o coração pesado hoje, fique até o fim. Jesus deixou uma frase para noites assim: deixo com vocês a minha paz. Está em João, capítulo catorze. Mas você sabe quando ele disse isso? Foi na última noite antes da cruz. Os discípulos estavam assustados. Jesus tinha acabado de dizer que ia partir. Ele sabia da traição, da prisão e da dor que vinham pela frente. E mesmo assim, quem acalmou foi ele. Ele disse: deixo com vocês a paz, a minha paz eu dou a vocês. Não se perturbe o coração de vocês, nem tenham medo. A paz de Jesus não depende de tudo dar certo. Ela chega no meio da noite difícil. Agora, feche os olhos e repita comigo. Senhor Jesus, eu te entrego este dia. Tudo o que deu certo e tudo o que doeu. Tira do meu coração a preocupação que eu não consigo carregar. Cuida de quem eu amo enquanto eu durmo. Me dá a tua paz, aquela que o mundo não dá. E me deixa acordar amanhã sabendo que tu estás comigo. Amém. Se você orou comigo, escreva Amém nos comentários. E envie para alguém que vai dormir preocupado hoje.",
+  "narracao": "Se você vai dormir com o coração pesado hoje, ore comigo agora. Feche os olhos e repita. E no final, eu te conto a frase que Jesus deixou para noites assim. Senhor Jesus, eu te entrego este dia. Tudo o que deu certo e tudo o que doeu. Tira do meu coração a preocupação que eu não consigo carregar. Cuida de quem eu amo enquanto eu durmo. Me dá a tua paz, aquela que o mundo não dá. E me deixa acordar amanhã sabendo que tu estás comigo. Amém. Sabe essa paz que você acabou de pedir? Jesus prometeu ela na noite mais difícil da vida dele. Foi na última noite antes da cruz. Os discípulos estavam assustados, e ele sabia da traição e da prisão que vinham pela frente. Mesmo assim, foi ele quem acalmou todos: deixo com vocês a paz, a minha paz eu dou a vocês. Não se perturbe o coração de vocês. João, capítulo catorze. Se você orou comigo, escreva Amém nos comentários. E envie para alguém que vai dormir preocupado hoje.",
   "cenas": [
     {
-      "trecho": "Se você vai dormir com o coração pesado hoje, fique até o fim.",
+      "trecho": "Se você vai dormir com o coração pesado hoje, ore comigo agora.",
       "busca_imagem": "",
       "prompt_imagem": ""
     },
     {
-      "trecho": "Jesus deixou uma frase para noites assim: deixo com vocês a minha paz. Está em João, capítulo catorze. Mas você sabe quando ele disse isso?",
-      "busca_imagem": "upper room oil lamp night",
-      "prompt_imagem": "an ancient upper room at night lit by a few oil lamps, a long wooden table, robed figures seen from behind in shadow, quiet and solemn"
-    },
-    {
-      "trecho": "Foi na última noite antes da cruz. Os discípulos estavam assustados. Jesus tinha acabado de dizer que ia partir.",
-      "busca_imagem": "disciples worried night",
-      "prompt_imagem": "a group of men in ancient robes sitting in shadow around a table at night, heads bowed with worry, flickering lamplight"
-    },
-    {
-      "trecho": "Ele sabia da traição, da prisão e da dor que vinham pela frente. E mesmo assim, quem acalmou foi ele.",
-      "busca_imagem": "Jesus silhouette window night",
-      "prompt_imagem": "silhouette of a robed man standing calmly by an arched window at night, moonlight on his shoulders, seen from behind, serene"
-    },
-    {
-      "trecho": "Ele disse: deixo com vocês a paz, a minha paz eu dou a vocês. Não se perturbe o coração de vocês, nem tenham medo.",
-      "busca_imagem": "peaceful light night sky",
-      "prompt_imagem": "soft golden light breaking through dark night clouds over quiet hills, deeply peaceful"
-    },
-    {
-      "trecho": "A paz de Jesus não depende de tudo dar certo. Ela chega no meio da noite difícil. Agora, feche os olhos e repita comigo.",
+      "trecho": "Feche os olhos e repita. E no final, eu te conto a frase que Jesus deixou para noites assim.",
       "busca_imagem": "candle bedside prayer",
       "prompt_imagem": "a single candle burning on a bedside table beside an open bible in a dark quiet bedroom, warm glow"
     },
     {
-      "trecho": "Senhor Jesus, eu te entrego este dia. Tudo o que deu certo e tudo o que doeu. Tira do meu coração a preocupação que eu não consigo carregar.",
+      "trecho": "Senhor Jesus, eu te entrego este dia. Tudo o que deu certo e tudo o que doeu.",
       "busca_imagem": "person praying bedside",
       "prompt_imagem": "a person seen from behind kneeling beside a bed in prayer at night, hands folded, soft moonlight from the window"
     },
     {
-      "trecho": "Cuida de quem eu amo enquanto eu durmo. Me dá a tua paz, aquela que o mundo não dá. E me deixa acordar amanhã sabendo que tu estás comigo. Amém.",
+      "trecho": "Tira do meu coração a preocupação que eu não consigo carregar. Cuida de quem eu amo enquanto eu durmo.",
       "busca_imagem": "house under stars night",
       "prompt_imagem": "a small quiet house with one warm lit window under a starry night sky, peaceful countryside"
+    },
+    {
+      "trecho": "Me dá a tua paz, aquela que o mundo não dá. E me deixa acordar amanhã sabendo que tu estás comigo. Amém.",
+      "busca_imagem": "peaceful light night sky",
+      "prompt_imagem": "soft golden light breaking through dark night clouds over quiet hills, deeply peaceful"
+    },
+    {
+      "trecho": "Sabe essa paz que você acabou de pedir? Jesus prometeu ela na noite mais difícil da vida dele.",
+      "busca_imagem": "upper room oil lamp night",
+      "prompt_imagem": "an ancient upper room at night lit by a few oil lamps, a long wooden table, robed figures seen from behind in shadow, quiet and solemn"
+    },
+    {
+      "trecho": "Foi na última noite antes da cruz. Os discípulos estavam assustados, e ele sabia da traição e da prisão que vinham pela frente.",
+      "busca_imagem": "disciples worried night",
+      "prompt_imagem": "a group of men in ancient robes sitting in shadow around a table at night, heads bowed with worry, flickering lamplight"
+    },
+    {
+      "trecho": "Mesmo assim, foi ele quem acalmou todos: deixo com vocês a paz, a minha paz eu dou a vocês. Não se perturbe o coração de vocês. João, capítulo catorze.",
+      "busca_imagem": "Jesus silhouette window night",
+      "prompt_imagem": "silhouette of a robed man standing calmly by an arched window at night, moonlight on his shoulders, seen from behind, serene"
     },
     {
       "trecho": "Se você orou comigo, escreva Amém nos comentários. E envie para alguém que vai dormir preocupado hoje.",

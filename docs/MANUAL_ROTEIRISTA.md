@@ -112,12 +112,17 @@ Exemplos aprovados: `roteiros/jesus_chorou.json`, `roteiros/ladrao_na_cruz.json`
 ## Formato "oração guiada com Jesus" (quando a pauta indicar)
 
 Indicado pelo Radar (04/11): orações em 2ª pessoa são o formato que mais viraliza e mais gera
-comentários no nicho em português. Estrutura (mesmas regras de tamanho, cenas e validação):
-1. Gancho pessoal, sem promessa nem "Deus mandou te dizer": ex. "Se você vai dormir com o coração
-   pesado hoje, fique até o fim."
-2. Mini-resposta com uma cena curta de Jesus ligada ao tema + referência (ex.: João 14:27).
-3. 2–3 frases sobre o que essa cena mostra de Jesus.
-4. Transição: "Agora, feche os olhos e repita comigo."
-5. Oração curta em 1ª pessoa (5–7 frases simples), sem pedir dinheiro, sem prometer cura/milagre.
-6. Fechamento: "Se você orou comigo, escreva Amém nos comentários." + seguir o perfil.
+comentários no nicho em português. **A oração vem PRIMEIRO** (decisão do Eric após assistir ao 1º
+teste: quem chega pelo gancho quer orar logo). A explicação vem depois, como recompensa prometida.
+Estrutura (mesmas regras de tamanho, cenas e validação):
+1. Gancho pessoal (cena 1), sem promessa nem "Deus mandou te dizer": ex. "Se você vai dormir com o
+   coração pesado hoje, ore comigo agora."
+2. Convite + loop aberto: "Feche os olhos e repita. E no final, eu te conto [a frase que Jesus
+   disse / o que Jesus fez] para [momentos assim]."
+3. Oração curta em 1ª pessoa (5–7 frases simples, 3 cenas), terminando em "Amém." Sem pedir
+   dinheiro, sem prometer cura/milagre.
+4. Ponte: "Sabe [isso] que você acabou de pedir? Jesus [prometeu/fez] isso…"
+5. A cena de Jesus (2–3 frases) + a referência bíblica.
+6. Fechamento: "Se você orou comigo, escreva Amém nos comentários." + enviar/salvar.
 Legenda: 1ª linha = a oração resumida; depois a referência; depois "Escreva Amém 🙏".
+Exemplo aprovado: `roteiros/oracao_dormir_paz.json`.
