@@ -40,9 +40,9 @@ vozes:                          # alterna a cada vídeo (a primeira que funciona
   - pt-BR-AntonioNeural
   - pt-BR-ThalitaMultilingualNeural
 # Voz: "gemini" (Gemini TTS, mais natural; cai para o Edge se falhar) ou "edge"
-tts: edge
+tts: gemini
 gemini_tts:
-  modelo: gemini-2.5-flash-preview-tts
+  modelo: gemini-3.8-flash-tts
   voz: Enceladus
   duracao_max: 90               # acima disso, acelera levemente (até 15%)
   estilo: >
