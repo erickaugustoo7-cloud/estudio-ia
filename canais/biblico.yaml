@@ -45,11 +45,8 @@ gemini_tts:
   modelo: gemini-3.8-flash-tts
   voz: Enceladus
   duracao_max: 90               # acima disso, acelera levemente (até 15%)
-  estilo: >
-    Leia em português do Brasil, como um narrador cristão acolhedor: voz calma, baixa e sincera,
-    ritmo natural e pausado, com pequenas pausas entre as frases, emoção contida, sem soar teatral.
-    Nas orações, fale com reverência, como quem conversa com Deus. Leia exatamente o texto, sem
-    acrescentar nem omitir palavras.
+  # tom da voz (metadado: não é narrado). Curto, como recomenda o Google.
+  estilo_curto: "calmo, acolhedor e reverente, em português do Brasil, ritmo pausado"
 motor_video: hyperframes       # hyperframes (animado) ou ffmpeg (simples e mais rápido)
 voz: pt-BR-AntonioNeural
 ritmo_voz: "-5%"

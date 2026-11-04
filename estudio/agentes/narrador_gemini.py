@@ -31,23 +31,55 @@ def _ffmpeg(*args):
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *args], check=True)
 
 
+def _interactions(chave, texto, cfg):
+    """Modelos 3.x: o campo de texto é lido literalmente; o tom vai em speech_metadata (não é narrado)."""
+    corpo = {"model": cfg["modelo"],
+             "input": [{"type": "user_input", "content": [{
+                 "type": "text", "text": texto,
+                 "annotations": [{"type": "speech_metadata", "style": cfg.get("estilo_curto", "")}]}]}],
+             "response_format": {"type": "audio"},
+             "generation_config": {"speech_config": [{"voice": cfg["voz"]}]}}
+    r = requests.post(f"{API}/interactions", headers={"x-goog-api-key": chave}, json=corpo, timeout=300)
+    if not r.ok:
+        return r, None
+    for passo in r.json().get("steps", []):
+        if passo.get("type") == "model_output":
+            for c in passo.get("content", []):
+                if c.get("type") == "audio":
+                    return r, base64.b64decode(c["data"])
+    return r, None
+
+
+def _generate_content(chave, texto, cfg):
+    """Modelos 2.5: só o texto, sem instruções (senão a voz lê a instrução em voz alta)."""
+    corpo = {"contents": [{"parts": [{"text": texto}]}],
+             "generationConfig": {"responseModalities": ["AUDIO"],
+                                  "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": cfg["voz"]}}}}}
+    r = requests.post(f"{API}/models/{cfg['modelo']}:generateContent", params={"key": chave}, json=corpo, timeout=300)
+    if not r.ok:
+        return r, None
+    pcm = base64.b64decode(r.json()["candidates"][0]["content"]["parts"][0]["inlineData"]["data"])
+    return r, ("pcm", pcm)
+
+
 def sintetizar(texto: str, cfg: dict, destino_wav: Path) -> None:
     chave = os.environ.get("GEMINI_API_KEY")
     if not chave:
         raise RuntimeError("GEMINI_API_KEY ausente")
-    corpo = {"contents": [{"parts": [{"text": cfg["estilo"].strip() + " Texto: " + texto}]}],
-             "generationConfig": {"responseModalities": ["AUDIO"],
-                                  "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": cfg["voz"]}}}}}
+    novo = not cfg["modelo"].startswith("gemini-2.")
     ultimo = ""
     for espera in (0, 30, 60):
         time.sleep(espera)
-        r = requests.post(f"{API}/models/{cfg['modelo']}:generateContent", params={"key": chave},
-                          json=corpo, timeout=300)
-        if r.ok:
-            dados = base64.b64decode(r.json()["candidates"][0]["content"]["parts"][0]["inlineData"]["data"])
-            pcm = destino_wav.with_suffix(".pcm")
-            pcm.write_bytes(dados)
-            _ffmpeg("-f", "s16le", "-ar", "24000", "-ac", "1", "-i", str(pcm), str(destino_wav))
+        r, audio = (_interactions if novo else _generate_content)(chave, texto, cfg)
+        if audio is not None:
+            if isinstance(audio, tuple):  # PCM cru (2.5)
+                pcm = destino_wav.with_suffix(".pcm")
+                pcm.write_bytes(audio[1])
+                _ffmpeg("-f", "s16le", "-ar", "24000", "-ac", "1", "-i", str(pcm), str(destino_wav))
+            else:  # WAV com cabeçalho (3.x)
+                bruto = destino_wav.with_suffix(".raw.wav")
+                bruto.write_bytes(audio)
+                _ffmpeg("-i", str(bruto), "-ac", "1", str(destino_wav))
             return
         ultimo = f"HTTP {r.status_code}: {r.text[:200]}"
         if r.status_code not in (429, 500, 503):
@@ -79,6 +111,9 @@ def alinhar(audio: Path, texto: str) -> tuple[list[dict], float]:
             tempos[bloco.a + k] = (w.start, w.end)
             casadas += 1
     cobertura = casadas / max(1, len(roteiro))
+    extras = (len(b) - casadas) / max(1, len(roteiro))  # palavras faladas que não estão no roteiro
+    if extras > 0.1:
+        raise RuntimeError(f"a voz falou {len(b) - casadas} palavras fora do roteiro (leu instrução ou improvisou)")
     # preenche as não casadas interpolando entre as vizinhas
     for i, t in enumerate(tempos):
         if t is None:
