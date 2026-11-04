@@ -153,8 +153,8 @@ def produzir_curto(caminho: Path, sem_envio: bool, sem_issue: bool) -> None:
 
     canal_img = {**canal, "estilo_visual": r.get("estilo_imagem", ESTILO_LEAO),
                  "regra_visual_pessoas": r.get("regra_pessoas", "no people")}
-    ok = visual._pollinations(cena={"prompt_imagem": r.get("prompt_imagem") or r["prompt_leao"]}, destino=proj / "leao.jpg",
-                              usados=set(), canal=canal_img, seed=random.randint(1, 10**6))
+    ok = visual.gerar_uma(canal_img, {"prompt_imagem": r.get("prompt_imagem") or r["prompt_leao"]},
+                          proj / "leao.jpg", semente=random.randint(1, 10**6))
     if not ok:
         raise RuntimeError("não foi possível gerar a imagem do leão")
     _gerar_trilha(canal, proj / "musica.mp3", dur + 1)
@@ -167,6 +167,8 @@ def produzir_curto(caminho: Path, sem_envio: bool, sem_issue: bool) -> None:
                     "--crf", "20", "--max-bitrate", "4000k", "--quiet"], cwd=proj, check=True,
                    env={**os.environ, "HYPERFRAMES_SKIP_SKILLS": "1", "HYPERFRAMES_TELEMETRY": "0"})
     shutil.copy(proj / "leao.jpg", pasta / "leao.jpg")
+    from estudio.agentes.montador import normalizar_volume
+    normalizar_volume(video)
 
     roteiro = {"titulo": r["titulo"], "narracao": f"(sem narração) {r['versiculo']} — {r['referencia']}",
                "legenda": r["legenda"], "hashtags": r.get("hashtags", []), "fontes": [r["referencia"]]}

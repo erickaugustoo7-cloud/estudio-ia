@@ -20,11 +20,11 @@ from estudio.base import log
 UA = {"User-Agent": "estudio-ia/1.0 (https://github.com/erickaugustoo7-cloud/estudio-ia)"}
 
 ORDEM = {
-    "nasa": ["nasa", "pollinations", "commons"],
-    "pollinations": ["pollinations", "commons"],
+    "nasa": ["nasa", "cloudflare", "pollinations", "commons"],
+    "pollinations": ["cloudflare", "pollinations", "commons"],
     # bíblico: busca por palavra-chave no Commons trazia imagens fora do tema — melhor repetir a anterior
-    "pollinations_estrito": ["pollinations"],
-    "commons": ["commons", "pollinations"],
+    "pollinations_estrito": ["cloudflare", "pollinations"],
+    "commons": ["commons", "cloudflare", "pollinations"],
 }
 
 
@@ -96,6 +96,41 @@ def _pollinations(cena: dict, destino: Path, usados: set, canal: dict, seed: int
 _SEM_SALDO: list = []
 
 
+def _cloudflare(cena: dict, destino: Path, usados: set, canal: dict, seed: int) -> bool:
+    """FLUX.2 [klein] no Cloudflare Workers AI — cota gratuita diária (~100+ imagens/dia)."""
+    conta, token = os.getenv("CF_ACCOUNT_ID"), os.getenv("CF_API_TOKEN")
+    if not (conta and token) or _CF_ESGOTADO:
+        return False
+    prompt = f"{cena['prompt_imagem']}. {canal.get('regra_visual_pessoas', '')}. {canal['estilo_visual'].strip()}"
+    modelo = os.getenv("CF_MODELO", "@cf/black-forest-labs/flux-2-klein-4b")
+    url = f"https://api.cloudflare.com/client/v4/accounts/{conta}/ai/run/{modelo}"
+    try:
+        r = requests.post(url, headers={"Authorization": f"Bearer {token}"}, timeout=120,
+                          files={"prompt": (None, prompt[:2000]), "width": (None, "1080"),
+                                 "height": (None, "1920"), "seed": (None, str(seed))})
+    except requests.RequestException as e:
+        log("visual", f"cloudflare: {type(e).__name__}")
+        return False
+    dados = None
+    if r.ok and r.headers.get("content-type", "").startswith("image"):
+        dados = r.content
+    elif r.ok:
+        img = (r.json().get("result") or {}).get("image")
+        if img:
+            import base64
+            dados = base64.b64decode(img)
+    if dados and len(dados) > 20_000:
+        destino.write_bytes(dados)
+        return True
+    log("visual", f"cloudflare: HTTP {r.status_code} {r.text[:160]}")
+    if r.status_code in (429, 402) or "neurons" in r.text.lower():
+        _CF_ESGOTADO.append(True)  # cota do dia acabou: segue com a Pollinations
+    return False
+
+
+_CF_ESGOTADO: list = []
+
+
 def _commons(cena: dict, destino: Path, usados: set, **_) -> bool:
     busca = cena.get("busca_imagem") or cena.get("busca_nasa") or cena.get("prompt_imagem", "")[:80]
     for termo in (f"{busca} painting", busca):
@@ -131,7 +166,15 @@ def _fundo(destino: Path, i: int) -> None:
                     "-frames:v", "1", str(destino)], check=True)
 
 
-FONTES = {"nasa": _nasa, "pollinations": _pollinations, "commons": _commons}
+FONTES = {"nasa": _nasa, "cloudflare": _cloudflare, "pollinations": _pollinations, "commons": _commons}
+
+
+def gerar_uma(canal: dict, cena: dict, destino: Path, semente: int) -> bool:
+    """Gera uma única imagem por IA (usado pelo revisor visual para refazer uma cena)."""
+    for nome in ("cloudflare", "pollinations"):
+        if nome in FONTES and FONTES[nome](cena=cena, destino=destino, usados=set(), canal=canal, seed=semente):
+            return True
+    return False
 
 
 RESERVAS: list = []  # cenas que não vieram da fonte principal (aparecem na Issue)
@@ -155,7 +198,7 @@ def gerar_imagens(canal: dict, cenas: list[dict], pasta: Path) -> list[Path]:
             if FONTES[nome](cena=cena, destino=destino, usados=usados, canal=canal, seed=seed_base + i):
                 fonte_usada = nome
                 break
-        if fonte_usada not in (ordem[0], "fixa"):
+        if fonte_usada in (None, "commons"):
             RESERVAS.append(i + 1)
         if not fonte_usada and anterior:
             shutil.copy(anterior, destino)

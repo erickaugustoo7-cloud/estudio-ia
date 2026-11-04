@@ -31,6 +31,18 @@ def tempos_das_cenas(cenas: list[dict], palavras: list[dict], dur_total: float) 
     return [max(1.0, f - i) for i, f in zip(inicios, fins)]
 
 
+def normalizar_volume(video: Path) -> None:
+    """Deixa o áudio no volume padrão das redes (-14 LUFS), sem mexer no vídeo."""
+    tmp = video.with_name("video_norm.mp4")
+    try:
+        _ffmpeg("-i", str(video), "-c:v", "copy", "-af", "loudnorm=I=-14:TP=-1.5:LRA=11",
+                "-c:a", "aac", "-b:a", "160k", str(tmp))
+        tmp.replace(video)
+        log("montador", "volume normalizado (-14 LUFS)")
+    except Exception as e:  # noqa: BLE001
+        log("montador", f"normalização de volume falhou ({e}); mantendo o original")
+
+
 # ---------------- legendas ----------------
 def _ts(s: float) -> str:
     h, s = divmod(max(0.0, s), 3600)

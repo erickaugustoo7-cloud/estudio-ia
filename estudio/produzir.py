@@ -16,7 +16,7 @@ from pathlib import Path
 
 from estudio.base import SAIDA, carregar_canal, log
 from estudio.agentes import (diretor, montador, montador_hf, narrador, publicador, revisor,
-                             roteirista, visual)
+                             revisor_visual, roteirista, visual)
 
 MARCA_INI, MARCA_FIM = "<!--DADOS", "DADOS-->"
 
@@ -129,6 +129,7 @@ def main():
             canal = {**canal, "estilo_visual": estilos[nome_estilo], "estilo_nome": nome_estilo}
             log("orquestrador", f"estilo visual: {nome_estilo}")
     imagens = visual.gerar_imagens(canal, roteiro["cenas"], pasta)
+    problemas += revisor_visual.revisar(canal, roteiro["cenas"], imagens)
     if visual.RESERVAS:
         problemas.append(f"Cenas {', '.join(map(str, visual.RESERVAS))} não vieram da IA de imagem "
                          "(foram repetidas ou de reserva) — confira antes de postar.")
@@ -144,6 +145,7 @@ def main():
         legendas = montador.gerar_legendas(palavras, pasta / "legendas.ass")
         video = montador.montar(canal, imagens, tempos, mp3, legendas, pasta)
 
+    montador.normalizar_volume(video)
     texto_post = montar_texto_post(canal, roteiro)
     (pasta / "post.txt").write_text(texto_post, encoding="utf-8")
 
