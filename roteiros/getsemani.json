@@ -1,0 +1,65 @@
+{
+  "titulo": "A noite em que o suor de Jesus parecia sangue",
+  "gancho_tela": "A oração mais difícil da vida dele",
+  "estilo": "pintura",
+  "narracao": "Teve uma noite em que o suor de Jesus parecia sangue. Foi a última noite antes da cruz. Está em Lucas, capítulo vinte e dois. Mas o que ele pediu a Deus ali diz muito sobre você. Como de costume, Jesus foi ao Monte das Oliveiras com os discípulos. Pediu a eles: orem para não cair em tentação. Se afastou um pouco, se ajoelhou e começou a orar. Ele sabia o que vinha: a traição e a cruz. E disse: Pai, se queres, afasta de mim este cálice. Contudo, não seja feita a minha vontade, mas a tua. Apareceu um anjo do céu para fortalecê-lo. E, angustiado, ele orou ainda mais intensamente. O suor caía no chão como gotas de sangue. Quando se levantou, encontrou os amigos dormindo, vencidos pela tristeza. Na hora mais pesada, ele orou sozinho. E ele não fugiu. Logo depois, chegaram para prendê-lo. E ele foi. Por amor. Por você. Se você está atravessando uma noite pesada, sem ninguém acordado do seu lado, Jesus conhece essa noite. E não deixa você sozinho. Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias.",
+  "cenas": [
+    {
+      "trecho": "Teve uma noite em que o suor de Jesus parecia sangue.",
+      "busca_imagem": "",
+      "prompt_imagem": ""
+    },
+    {
+      "trecho": "Foi a última noite antes da cruz. Está em Lucas, capítulo vinte e dois. Mas o que ele pediu a Deus ali diz muito sobre você.",
+      "busca_imagem": "Mount of Olives night",
+      "prompt_imagem": "an ancient olive grove on a hillside at night under a pale moon, the walls of Jerusalem faintly lit in the distance, deep blue and gold tones"
+    },
+    {
+      "trecho": "Como de costume, Jesus foi ao Monte das Oliveiras com os discípulos. Pediu a eles: orem para não cair em tentação.",
+      "busca_imagem": "disciples walking olive trees night",
+      "prompt_imagem": "a small group of men in ancient robes seen from behind walking up a stony path between old olive trees at night, one oil lamp glowing"
+    },
+    {
+      "trecho": "Se afastou um pouco, se ajoelhou e começou a orar.",
+      "busca_imagem": "kneeling prayer rock night",
+      "prompt_imagem": "a robed man seen from behind kneeling alone beside a large rock among olive trees at night, hands clasped, a faint golden light on his shoulders"
+    },
+    {
+      "trecho": "Ele sabia o que vinha: a traição e a cruz. E disse: Pai, se queres, afasta de mim este cálice. Contudo, não seja feita a minha vontade, mas a tua.",
+      "busca_imagem": "cup chalice dark rock",
+      "prompt_imagem": "a simple ancient clay cup resting on a rough rock in a dark olive garden, moonlight falling on it, solemn and symbolic"
+    },
+    {
+      "trecho": "Apareceu um anjo do céu para fortalecê-lo. E, angustiado, ele orou ainda mais intensamente. O suor caía no chão como gotas de sangue.",
+      "busca_imagem": "angel light garden night",
+      "prompt_imagem": "a kneeling robed figure in deep shadow, head bowed to the ground, a soft radiant angelic light descending through the olive branches above him"
+    },
+    {
+      "trecho": "Quando se levantou, encontrou os amigos dormindo, vencidos pela tristeza. Na hora mais pesada, ele orou sozinho.",
+      "busca_imagem": "men sleeping olive grove",
+      "prompt_imagem": "several men in ancient robes asleep on the ground under olive trees at night, wrapped in cloaks, one standing figure in silhouette looking at them"
+    },
+    {
+      "trecho": "E ele não fugiu. Logo depois, chegaram para prendê-lo. E ele foi. Por amor. Por você.",
+      "busca_imagem": "torches crowd night garden",
+      "prompt_imagem": "a distant line of torches approaching through an olive grove at night, a lone robed figure seen from behind standing still and calm to meet them"
+    },
+    {
+      "trecho": "Se você está atravessando uma noite pesada, sem ninguém acordado do seu lado, Jesus conhece essa noite. E não deixa você sozinho. Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias.",
+      "busca_imagem": "man window night dawn",
+      "prompt_imagem": "a man in simple clothes seen from behind sitting alone by a window at night, the first golden light of dawn appearing over the hills"
+    }
+  ],
+  "legenda": "Senhor, fica comigo nas minhas noites pesadas 🙏😭\nLucas 22:39-46\nComente \"Amém\" e envie para alguém que está passando por uma noite difícil.",
+  "hashtags": [
+    "#Getsêmani",
+    "#Lucas22",
+    "#oração",
+    "#amordeJesus"
+  ],
+  "fontes": [
+    "Lucas 22:39-46 (Monte das Oliveiras: 'orem para que não caiam em tentação', 'Pai, se queres, afasta de mim este cálice', o anjo, o suor como gotas de sangue, os discípulos dormindo de tristeza)",
+    "Lucas 22:47-54 (a chegada da multidão e a prisão)",
+    "Lucas 22:21-22 (a traição anunciada)"
+  ]
+}
