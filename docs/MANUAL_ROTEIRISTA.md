@@ -48,6 +48,16 @@ sem necessidade. Se algo fora do roteiro estiver quebrado, apenas relate no resu
   pedir dinheiro, medo ou culpa como gancho.
 - Parafraseie; cite literalmente no máximo 2 versículos curtos. Sempre diga a referência.
 
+## Perfil do público (TikTok, 28/10–03/11)
+
+- **73% de quem assiste e 79% dos seguidores são homens** — incomum no nicho (o topo do nicho em
+  português fala com mulheres). Os vídeos que mais funcionam mostram Jesus com homens que falharam,
+  lutaram ou foram restaurados (Pedro, o ladrão na cruz, o pai do filho pródigo, Zaqueu).
+- Priorize personagens e situações com que esse público se identifica: culpa, fracasso, recomeço,
+  ser pai, sustentar a família, coragem, ansiedade com trabalho e dinheiro (sem prometer prosperidade).
+- Nas orações guiadas, alterne temas universais (sono, ansiedade, saúde) com temas que falam com
+  homens ("oração do pai pela família", "para quem carrega o peso de sustentar a casa").
+
 ## Estrutura que retém (dados reais do canal)
 
 1. **Gancho (cena 1, só ele, ≤ 12 palavras):** loop aberto, fala com o mistério ou com "você".
