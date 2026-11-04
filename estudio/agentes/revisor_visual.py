@@ -65,7 +65,7 @@ def revisar(canal: dict, cenas: list[dict], imagens: list[Path]) -> list[str]:
     chave = os.getenv("GEMINI_API_KEY")
     if not chave or os.getenv("SEM_REVISAO_VISUAL"):
         return []
-    avisos, trocadas = [], 0
+    avisos, trocadas, falhas = [], 0, 0
     log("revisor-visual", f"modelo {MODELO or gemini_flash()}")
     for i, (cena, img) in enumerate(zip(cenas, imagens)):
         if cena.get("imagem") or (i == 0 and canal.get("imagem_abertura")):
@@ -74,6 +74,10 @@ def revisar(canal: dict, cenas: list[dict], imagens: list[Path]) -> list[str]:
             v = _avaliar(chave, canal, cena, img)
         except Exception as e:  # noqa: BLE001
             log("revisor-visual", f"cena {i + 1}: não revisada ({e})")
+            falhas += 1
+            if falhas >= 2:  # Gemini fora do ar: não atrasa o vídeo
+                avisos.append("Revisão visual não rodou (Gemini indisponível) — confira as imagens.")
+                break
             continue
         if v.get("ok", True):
             log("revisor-visual", f"cena {i + 1}: ok")
