@@ -66,7 +66,7 @@ sem necessidade. Se algo fora do roteiro estiver quebrado, apenas relate no resu
    - execuções das **04h e 17h**: "Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias."
    - execução das **10h**: "Salve este vídeo para ouvir de novo quando precisar, e siga para receber uma palavra de fé todos os dias."
 
-- **Tamanho: 185–215 palavras** (dá ~75–90 s; precisa passar de 60 s). Números por extenso
+- **Tamanho: 165–195 palavras** (dá ~75–90 s; precisa passar de 60 s). Números por extenso
   ("vinte e dois"). Sem emojis nem listas na narração.
 - **8 ou 9 cenas.** A cena 1 é só o gancho; a imagem dela é fixa (a Bíblia aberta do
   "Jesus chorou", configurada no canal) — deixe `busca_imagem` e `prompt_imagem` vazios nela.

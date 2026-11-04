@@ -8,7 +8,7 @@ for campo in ("titulo", "gancho_tela", "narracao", "cenas", "legenda", "hashtags
     if not r.get(campo):
         erros.append(f"falta o campo '{campo}'")
 palavras = len(r.get("narracao", "").split())
-pmin, pmax = (195, 225) if "--canal=espaco" in sys.argv else (185, 215)
+pmin, pmax = (195, 225) if "--canal=espaco" in sys.argv else (165, 195)
 if not pmin <= palavras <= pmax:
     erros.append(f"narração com {palavras} palavras (o alvo é {pmin}–{pmax})")
 junto = " ".join(c["trecho"] for c in r.get("cenas", []))
