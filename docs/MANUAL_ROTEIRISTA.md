@@ -108,3 +108,16 @@ courtyard at night, other shadowy figures around". O estilo é acrescentado auto
 ```
 
 Exemplos aprovados: `roteiros/jesus_chorou.json`, `roteiros/ladrao_na_cruz.json`, `roteiros/pedro_olhar.json`.
+
+## Formato "oração guiada com Jesus" (quando a pauta indicar)
+
+Indicado pelo Radar (04/11): orações em 2ª pessoa são o formato que mais viraliza e mais gera
+comentários no nicho em português. Estrutura (mesmas regras de tamanho, cenas e validação):
+1. Gancho pessoal, sem promessa nem "Deus mandou te dizer": ex. "Se você vai dormir com o coração
+   pesado hoje, fique até o fim."
+2. Mini-resposta com uma cena curta de Jesus ligada ao tema + referência (ex.: João 14:27).
+3. 2–3 frases sobre o que essa cena mostra de Jesus.
+4. Transição: "Agora, feche os olhos e repita comigo."
+5. Oração curta em 1ª pessoa (5–7 frases simples), sem pedir dinheiro, sem prometer cura/milagre.
+6. Fechamento: "Se você orou comigo, escreva Amém nos comentários." + seguir o perfil.
+Legenda: 1ª linha = a oração resumida; depois a referência; depois "Escreva Amém 🙏".
