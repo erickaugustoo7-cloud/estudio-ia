@@ -1,0 +1,65 @@
+{
+  "titulo": "Oração para começar o dia",
+  "gancho_tela": "Ore isso antes de começar o dia",
+  "estilo": "pintura",
+  "narracao": "Antes de pegar o celular para qualquer coisa hoje, ore isso. Jesus começava o dia assim. Está em Marcos, capítulo um: de madrugada, ainda escuro, ele saiu para orar. Mas por que justo nesse horário? Na noite anterior, a cidade inteira tinha se juntado na porta da casa onde ele estava. Ele curou muitos doentes até tarde da noite. No dia seguinte, todos iam procurar por ele de novo. E antes de qualquer pessoa, Jesus foi falar com o Pai, num lugar sozinho. Se o próprio Jesus começava o dia orando, imagina a gente. Agora, feche os olhos por um instante e repita comigo. Senhor Jesus, obrigado por mais um dia. Antes de qualquer coisa, eu te entrego este dia. Guia os meus passos, as minhas palavras e as minhas decisões. Me dá paciência com as pessoas e força para o que eu não consigo sozinho. Cuida da minha família e de todos que eu amo. Que hoje eu sinta que tu estás comigo, do começo ao fim. Amém. Se você orou comigo, escreva Amém nos comentários. E salve este vídeo para orar de novo amanhã cedo.",
+  "cenas": [
+    {
+      "trecho": "Antes de pegar o celular para qualquer coisa hoje, ore isso.",
+      "busca_imagem": "",
+      "prompt_imagem": ""
+    },
+    {
+      "trecho": "Jesus começava o dia assim. Está em Marcos, capítulo um: de madrugada, ainda escuro, ele saiu para orar. Mas por que justo nesse horário?",
+      "busca_imagem": "dawn village dark",
+      "prompt_imagem": "an ancient stone village before dawn, still dark with a faint glow on the horizon, a robed figure seen from behind walking away alone"
+    },
+    {
+      "trecho": "Na noite anterior, a cidade inteira tinha se juntado na porta da casa onde ele estava. Ele curou muitos doentes até tarde da noite.",
+      "busca_imagem": "crowd at door night",
+      "prompt_imagem": "a crowd of people in ancient robes gathered at the door of a small house at night, torches and lamplight, seen from behind"
+    },
+    {
+      "trecho": "No dia seguinte, todos iam procurar por ele de novo. E antes de qualquer pessoa, Jesus foi falar com o Pai, num lugar sozinho.",
+      "busca_imagem": "lone figure praying hill dawn",
+      "prompt_imagem": "silhouette of a robed man kneeling alone on a rocky hill at first light, praying, mist below"
+    },
+    {
+      "trecho": "Se o próprio Jesus começava o dia orando, imagina a gente. Agora, feche os olhos por um instante e repita comigo.",
+      "busca_imagem": "sunrise light rays",
+      "prompt_imagem": "the first golden rays of sunrise breaking over quiet hills, peaceful and hopeful"
+    },
+    {
+      "trecho": "Senhor Jesus, obrigado por mais um dia. Antes de qualquer coisa, eu te entrego este dia.",
+      "busca_imagem": "morning window light prayer",
+      "prompt_imagem": "a person seen from behind sitting by a window at sunrise, hands folded in prayer, warm morning light"
+    },
+    {
+      "trecho": "Guia os meus passos, as minhas palavras e as minhas decisões. Me dá paciência com as pessoas e força para o que eu não consigo sozinho.",
+      "busca_imagem": "path through field morning",
+      "prompt_imagem": "a winding dirt path through a golden field at sunrise, a lone person seen from behind starting to walk"
+    },
+    {
+      "trecho": "Cuida da minha família e de todos que eu amo. Que hoje eu sinta que tu estás comigo, do começo ao fim. Amém.",
+      "busca_imagem": "family house morning",
+      "prompt_imagem": "a small house with smoke from the chimney at sunrise, warm light in the windows, peaceful countryside"
+    },
+    {
+      "trecho": "Se você orou comigo, escreva Amém nos comentários. E salve este vídeo para orar de novo amanhã cedo.",
+      "busca_imagem": "sunrise hope hills",
+      "prompt_imagem": "a lone person seen from behind standing on a hill watching a bright golden sunrise, arms relaxed, hopeful"
+    }
+  ],
+  "legenda": "Senhor, eu te entrego o meu dia 🙏☀️\nMarcos 1:35\nSe você orou comigo, escreva Amém 🙏",
+  "hashtags": [
+    "#oraçãodamanhã",
+    "#bomdia",
+    "#Marcos1",
+    "#Jesus"
+  ],
+  "fontes": [
+    "Marcos 1:32-34 (a cidade reunida à porta à noite; muitos curados)",
+    "Marcos 1:35 ('de madrugada, ainda escuro, Jesus levantou-se, saiu e foi para um lugar deserto, e ali orava')",
+    "Marcos 1:36-37 ('todos te procuram')"
+  ]
+}
