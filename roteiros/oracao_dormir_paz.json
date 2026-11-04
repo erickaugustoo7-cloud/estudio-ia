@@ -1,0 +1,65 @@
+{
+  "titulo": "Oração para dormir em paz",
+  "gancho_tela": "Ore isso antes de dormir",
+  "estilo": "pintura",
+  "narracao": "Se você vai dormir com o coração pesado hoje, fique até o fim. Jesus deixou uma frase para noites assim: deixo com vocês a minha paz. Está em João, capítulo catorze. Mas você sabe quando ele disse isso? Foi na última noite antes da cruz. Os discípulos estavam assustados. Jesus tinha acabado de dizer que ia partir. Ele sabia da traição, da prisão e da dor que vinham pela frente. E mesmo assim, quem acalmou foi ele. Ele disse: deixo com vocês a paz, a minha paz eu dou a vocês. Não se perturbe o coração de vocês, nem tenham medo. A paz de Jesus não depende de tudo dar certo. Ela chega no meio da noite difícil. Agora, feche os olhos e repita comigo. Senhor Jesus, eu te entrego este dia. Tudo o que deu certo e tudo o que doeu. Tira do meu coração a preocupação que eu não consigo carregar. Cuida de quem eu amo enquanto eu durmo. Me dá a tua paz, aquela que o mundo não dá. E me deixa acordar amanhã sabendo que tu estás comigo. Amém. Se você orou comigo, escreva Amém nos comentários. E envie para alguém que vai dormir preocupado hoje.",
+  "cenas": [
+    {
+      "trecho": "Se você vai dormir com o coração pesado hoje, fique até o fim.",
+      "busca_imagem": "",
+      "prompt_imagem": ""
+    },
+    {
+      "trecho": "Jesus deixou uma frase para noites assim: deixo com vocês a minha paz. Está em João, capítulo catorze. Mas você sabe quando ele disse isso?",
+      "busca_imagem": "upper room oil lamp night",
+      "prompt_imagem": "an ancient upper room at night lit by a few oil lamps, a long wooden table, robed figures seen from behind in shadow, quiet and solemn"
+    },
+    {
+      "trecho": "Foi na última noite antes da cruz. Os discípulos estavam assustados. Jesus tinha acabado de dizer que ia partir.",
+      "busca_imagem": "disciples worried night",
+      "prompt_imagem": "a group of men in ancient robes sitting in shadow around a table at night, heads bowed with worry, flickering lamplight"
+    },
+    {
+      "trecho": "Ele sabia da traição, da prisão e da dor que vinham pela frente. E mesmo assim, quem acalmou foi ele.",
+      "busca_imagem": "Jesus silhouette window night",
+      "prompt_imagem": "silhouette of a robed man standing calmly by an arched window at night, moonlight on his shoulders, seen from behind, serene"
+    },
+    {
+      "trecho": "Ele disse: deixo com vocês a paz, a minha paz eu dou a vocês. Não se perturbe o coração de vocês, nem tenham medo.",
+      "busca_imagem": "peaceful light night sky",
+      "prompt_imagem": "soft golden light breaking through dark night clouds over quiet hills, deeply peaceful"
+    },
+    {
+      "trecho": "A paz de Jesus não depende de tudo dar certo. Ela chega no meio da noite difícil. Agora, feche os olhos e repita comigo.",
+      "busca_imagem": "candle bedside prayer",
+      "prompt_imagem": "a single candle burning on a bedside table beside an open bible in a dark quiet bedroom, warm glow"
+    },
+    {
+      "trecho": "Senhor Jesus, eu te entrego este dia. Tudo o que deu certo e tudo o que doeu. Tira do meu coração a preocupação que eu não consigo carregar.",
+      "busca_imagem": "person praying bedside",
+      "prompt_imagem": "a person seen from behind kneeling beside a bed in prayer at night, hands folded, soft moonlight from the window"
+    },
+    {
+      "trecho": "Cuida de quem eu amo enquanto eu durmo. Me dá a tua paz, aquela que o mundo não dá. E me deixa acordar amanhã sabendo que tu estás comigo. Amém.",
+      "busca_imagem": "house under stars night",
+      "prompt_imagem": "a small quiet house with one warm lit window under a starry night sky, peaceful countryside"
+    },
+    {
+      "trecho": "Se você orou comigo, escreva Amém nos comentários. E envie para alguém que vai dormir preocupado hoje.",
+      "busca_imagem": "sunrise hope hills",
+      "prompt_imagem": "a gentle golden sunrise over misty hills after a long night, hopeful and calm"
+    }
+  ],
+  "legenda": "Senhor, me dá a tua paz esta noite 🙏🌙\nJoão 14:27\nSe você orou comigo, escreva Amém 🙏",
+  "hashtags": [
+    "#oraçãodanoite",
+    "#paz",
+    "#João14",
+    "#Jesus"
+  ],
+  "fontes": [
+    "João 13:21-38 (a última noite: traição e negação anunciadas)",
+    "João 14:1-3 ('não se perturbe o coração de vocês'; Jesus diz que vai partir)",
+    "João 14:27 ('deixo com vocês a paz, a minha paz eu dou a vocês')"
+  ]
+}
