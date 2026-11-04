@@ -47,13 +47,16 @@ def _avaliar(chave, canal, cena, img) -> dict:
     corpo = {"contents": [{"parts": [{"inline_data": {"mime_type": "image/jpeg", "data": _miniatura(img)}},
                                      {"text": texto}]}],
              "generationConfig": {"responseMimeType": "application/json", "temperature": 0.1}}
-    for espera in (0, 20):
-        time.sleep(espera)
-        r = requests.post(f"{API}/models/{MODELO or gemini_flash()}:generateContent", params={"key": chave}, json=corpo, timeout=90)
-        if r.ok:
-            return json.loads(r.json()["candidates"][0]["content"]["parts"][0]["text"])
-        if r.status_code != 429:
-            break
+    modelos = [MODELO or gemini_flash(), "gemini-flash-latest", "gemini-flash-lite-latest"]
+    r = None
+    for modelo in dict.fromkeys(modelos):  # tenta o mais novo; se estiver sobrecarregado, outro
+        for espera in (0, 10, 25):
+            time.sleep(espera)
+            r = requests.post(f"{API}/models/{modelo}:generateContent", params={"key": chave}, json=corpo, timeout=90)
+            if r.ok:
+                return json.loads(r.json()["candidates"][0]["content"]["parts"][0]["text"])
+            if r.status_code not in (429, 500, 503):
+                break
     raise RuntimeError(f"HTTP {r.status_code}")
 
 
