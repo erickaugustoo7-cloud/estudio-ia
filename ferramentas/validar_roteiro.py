@@ -1,4 +1,4 @@
-"""Confere um roteiro feito à mão antes de produzir.  Uso: python ferramentas/validar_roteiro.py roteiros/x.json"""
+"""Confere um roteiro feito à mão antes de produzir.  Uso: python ferramentas/validar_roteiro.py roteiros/x.json [--canal=espaco]"""
 import json
 import sys
 
@@ -8,8 +8,9 @@ for campo in ("titulo", "gancho_tela", "narracao", "cenas", "legenda", "hashtags
     if not r.get(campo):
         erros.append(f"falta o campo '{campo}'")
 palavras = len(r.get("narracao", "").split())
-if not 185 <= palavras <= 215:
-    erros.append(f"narração com {palavras} palavras (o alvo é 185–215)")
+pmin, pmax = (195, 225) if "--canal=espaco" in sys.argv else (185, 215)
+if not pmin <= palavras <= pmax:
+    erros.append(f"narração com {palavras} palavras (o alvo é {pmin}–{pmax})")
 junto = " ".join(c["trecho"] for c in r.get("cenas", []))
 if junto != r.get("narracao"):
     erros.append("os trechos das cenas, juntados com espaço, não são idênticos à narração")

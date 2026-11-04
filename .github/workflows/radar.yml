@@ -1,0 +1,30 @@
+name: Radar (coletar tendências)
+
+# Coleta os Shorts mais vistos da semana no nicho de cada canal e salva em dados/radar/.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q requests
+      - run: python ferramentas/radar_coletar.py
+      - name: Salvar
+        run: |
+          git config user.name "estudio-ia[bot]"
+          git config user.email "estudio-ia@users.noreply.github.com"
+          git add dados/radar
+          git diff --cached --quiet && exit 0
+          git commit -m "radar: coleta $(date -u +%F)"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done

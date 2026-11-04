@@ -6,7 +6,9 @@ Siga à risca. Escreva tudo em português do Brasil.
 
 ## Passo a passo de cada execução
 
-1. Atualize o repositório (`git pull`). Leia `canais/biblico.yaml` e este manual.
+1. Atualize o repositório (`git pull`). Leia `canais/biblico.yaml`, este manual e, se existir,
+   `docs/radar/RADAR.md` (tendências da semana do Radar — use os ganchos e temas em alta que
+   combinem com o foco do canal; o foco em Jesus continua valendo).
 2. **Escolha a pauta:** a primeira linha não comentada de `pautas/biblico.txt`.
    Se a fila estiver vazia, crie uma pauta nova seguindo o foco abaixo, sem repetir
    nada que já exista em `roteiros/` ou em `historico/biblico.json`.

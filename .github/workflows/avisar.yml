@@ -1,0 +1,30 @@
+name: Avisar no Telegram
+
+# Envia uma mensagem de texto para o Telegram do Eric (usado pelo Radar para mandar o resumo).
+on:
+  workflow_dispatch:
+    inputs:
+      arquivo:
+        description: "Arquivo do repositório com o texto a enviar (ex.: docs/radar/ultimo_resumo.txt)"
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  avisar:
+    runs-on: ubuntu-latest
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Enviar
+        run: |
+          python3 - "${{ inputs.arquivo }}" <<'PY'
+          import os, sys, urllib.parse, urllib.request
+          texto = open(sys.argv[1], encoding="utf-8").read()[:4000]
+          dados = urllib.parse.urlencode({"chat_id": os.environ["TELEGRAM_CHAT_ID"], "text": texto,
+                                          "disable_web_page_preview": "true"}).encode()
+          urllib.request.urlopen(f"https://api.telegram.org/bot{os.environ['TELEGRAM_BOT_TOKEN']}/sendMessage", dados, timeout=30)
+          PY
