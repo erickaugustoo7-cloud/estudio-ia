@@ -39,6 +39,17 @@ hashtags_fixas: ["#fé", "#Deus", "#Bíblia", "#Jesus", "#palavradedeus"]
 vozes:                          # alterna a cada vídeo (a primeira que funcionar)
   - pt-BR-AntonioNeural
   - pt-BR-ThalitaMultilingualNeural
+# Voz: "gemini" (Gemini TTS, mais natural; cai para o Edge se falhar) ou "edge"
+tts: edge
+gemini_tts:
+  modelo: gemini-2.5-flash-preview-tts
+  voz: Enceladus
+  duracao_max: 90               # acima disso, acelera levemente (até 15%)
+  estilo: >
+    Leia em português do Brasil, como um narrador cristão acolhedor: voz calma, baixa e sincera,
+    ritmo natural e pausado, com pequenas pausas entre as frases, emoção contida, sem soar teatral.
+    Nas orações, fale com reverência, como quem conversa com Deus. Leia exatamente o texto, sem
+    acrescentar nem omitir palavras.
 motor_video: hyperframes       # hyperframes (animado) ou ffmpeg (simples e mais rápido)
 voz: pt-BR-AntonioNeural
 ritmo_voz: "-5%"

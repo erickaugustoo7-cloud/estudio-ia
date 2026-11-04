@@ -40,6 +40,12 @@ def _variacao(base: str, unidade: str, faixa: int) -> str:
 def narrar(canal: dict, texto: str, pasta: Path) -> tuple[Path, list[dict], float]:
     """Alterna entre as vozes do canal e varia levemente ritmo e tom a cada vídeo,
     para a narração não ficar idêntica à de canais automáticos que usam a mesma voz."""
+    if canal.get("tts") == "gemini" and canal.get("gemini_tts") and not canal.get("forcar_edge"):
+        try:
+            from estudio.agentes import narrador_gemini
+            return narrador_gemini.narrar(canal, texto, pasta, duracao)
+        except Exception as e:  # noqa: BLE001 — limite diário, erro ou alinhamento ruim
+            log("narrador", f"Gemini TTS indisponível ({e}); usando a voz do Edge")
     mp3 = pasta / "narracao.mp3"
     vozes = list(canal.get("vozes") or [canal["voz"]])
     random.shuffle(vozes)
