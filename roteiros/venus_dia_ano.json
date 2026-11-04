@@ -1,0 +1,64 @@
+{
+  "titulo": "O planeta onde o dia dura mais que o ano",
+  "gancho_tela": "O dia dura mais que o ano",
+  "narracao": "Existe um planeta onde o dia dura mais que o ano. É Vênus, o nosso vizinho. E isso nem é a coisa mais estranha sobre ele. Vênus gira tão devagar que leva duzentos e quarenta e três dias terrestres para girar uma vez em torno de si mesmo. Mas dá a volta no Sol em duzentos e vinte e cinco dias. Ou seja, o ano acaba antes de um único giro. E ele gira ao contrário da maioria dos planetas. Lá, o Sol nasce no oeste e se põe no leste. Agora vem a parte assustadora. Vênus é o planeta mais quente do Sistema Solar, com cerca de quatrocentos e setenta graus na superfície. Quente o bastante para derreter chumbo. Mesmo mais longe do Sol que Mercúrio. O culpado é a atmosfera, feita quase toda de gás carbônico, que prende o calor como uma estufa gigante. A pressão lá é cerca de noventa vezes maior que aqui, como estar a um quilômetro de profundidade no oceano. E as nuvens são feitas de ácido sulfúrico. Em mil novecentos e oitenta e dois, a sonda soviética Venera treze pousou lá e funcionou por apenas cento e vinte e sete minutos antes de ser vencida pelo calor. Você moraria num lugar onde o dia dura mais que o ano? Siga para descobrir uma curiosidade nova todo dia.",
+  "cenas": [
+    {
+      "trecho": "Existe um planeta onde o dia dura mais que o ano.",
+      "busca_imagem": "Venus planet",
+      "prompt_imagem": "the planet Venus glowing yellow in deep space, thick swirling clouds, dramatic lighting"
+    },
+    {
+      "trecho": "É Vênus, o nosso vizinho. E isso nem é a coisa mais estranha sobre ele.",
+      "busca_imagem": "Venus Earth comparison",
+      "prompt_imagem": "Venus and Earth side by side in space, Venus covered in pale yellow clouds"
+    },
+    {
+      "trecho": "Vênus gira tão devagar que leva duzentos e quarenta e três dias terrestres para girar uma vez em torno de si mesmo. Mas dá a volta no Sol em duzentos e vinte e cinco dias.",
+      "busca_imagem": "Venus orbit Sun",
+      "prompt_imagem": "Venus orbiting close to a blazing Sun, orbital path visible, cinematic space view"
+    },
+    {
+      "trecho": "Ou seja, o ano acaba antes de um único giro. E ele gira ao contrário da maioria dos planetas. Lá, o Sol nasce no oeste e se põe no leste.",
+      "busca_imagem": "Venus sunrise",
+      "prompt_imagem": "a dim orange sun rising through thick hazy clouds over a barren volcanic plain on Venus"
+    },
+    {
+      "trecho": "Agora vem a parte assustadora. Vênus é o planeta mais quente do Sistema Solar, com cerca de quatrocentos e setenta graus na superfície. Quente o bastante para derreter chumbo.",
+      "busca_imagem": "Venus surface Magellan",
+      "prompt_imagem": "glowing hot volcanic surface of Venus with lava flows under an orange sky"
+    },
+    {
+      "trecho": "Mesmo mais longe do Sol que Mercúrio. O culpado é a atmosfera, feita quase toda de gás carbônico, que prende o calor como uma estufa gigante.",
+      "busca_imagem": "Venus atmosphere clouds",
+      "prompt_imagem": "thick swirling clouds of Venus atmosphere seen from orbit, ultraviolet colors"
+    },
+    {
+      "trecho": "A pressão lá é cerca de noventa vezes maior que aqui, como estar a um quilômetro de profundidade no oceano. E as nuvens são feitas de ácido sulfúrico.",
+      "busca_imagem": "Venus clouds Akatsuki",
+      "prompt_imagem": "dense yellow sulfuric acid clouds of Venus, ominous and dramatic"
+    },
+    {
+      "trecho": "Em mil novecentos e oitenta e dois, a sonda soviética Venera treze pousou lá e funcionou por apenas cento e vinte e sete minutos antes de ser vencida pelo calor.",
+      "busca_imagem": "Venera lander",
+      "prompt_imagem": "a small spherical space probe lander resting on the rocky orange surface of Venus, harsh glowing atmosphere"
+    },
+    {
+      "trecho": "Você moraria num lugar onde o dia dura mais que o ano? Siga para descobrir uma curiosidade nova todo dia.",
+      "busca_imagem": "Venus crescent",
+      "prompt_imagem": "a thin glowing crescent of Venus against black space, stars in background"
+    }
+  ],
+  "legenda": "Em Vênus, um dia (243 dias terrestres) é mais longo que um ano (225 dias) — e o Sol nasce no oeste. 🪐🔥\nVocê aguentaria morar lá? Comenta aqui 👇",
+  "hashtags": [
+    "#Vênus",
+    "#planetas",
+    "#sistemasolar",
+    "#NASA"
+  ],
+  "fontes": [
+    "Space.com — The 5 strangest facts about Venus (rotação de 243 dias, ano de 224,7 dias, ~470 °C, pressão ~90x, ~1 km de profundidade)",
+    "NASA — Venus (rotação retrógrada, nuvens de ácido sulfúrico, atmosfera de CO2)",
+    "Venera 13 (1982): operou 127 minutos na superfície — Guinness World Records / NSSDC"
+  ]
+}

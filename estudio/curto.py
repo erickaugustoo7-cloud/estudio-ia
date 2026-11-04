@@ -39,7 +39,12 @@ def _composicao(canal, r, dur) -> str:
     # ---- leão: zoom lento + "respiração" + leve deriva ----
     elems.append(f'<div id="leao" class="clip" data-start="0" data-duration="{_f(dur)}" data-track-index="0">'
                  f'<img id="foto" src="leao.jpg" /></div>')
-    anim.append(f'tl.fromTo("#foto",{{scale:1.04,yPercent:0}},{{scale:1.2,yPercent:-2.5,duration:{_f(dur)},ease:"none"}},0);')
+    # movimento já no 1º quadro: zoom de impacto (0,9 s) e depois o zoom lento
+    anim.append('tl.fromTo("#foto",{scale:1.32,yPercent:0},{scale:1.06,duration:0.9,ease:"power3.out"},0);')
+    anim.append(f'tl.to("#foto",{{scale:1.2,yPercent:-2.5,duration:{_f(dur - 0.9)},ease:"none"}},0.9);')
+    # clarão dourado rápido na abertura
+    elems.append(f'<div id="clarao" class="clip" data-start="0" data-duration="1.2" data-track-index="2"></div>')
+    anim.append('tl.fromTo("#clarao",{opacity:0.75},{opacity:0,duration:0.9,ease:"power2.out"},0);')
     respiros = max(1, int(dur // 3.2))
     anim.append(f'tl.fromTo("#leao",{{scale:1}},{{scale:1.025,duration:1.6,ease:"sine.inOut",yoyo:true,repeat:{respiros * 2 - 1}}},0);')
 
@@ -96,6 +101,8 @@ html,body{{width:1080px;height:1920px;overflow:hidden;background:#000}}
 #root{{position:relative;width:1080px;height:1920px;overflow:hidden}}
 #leao{{position:absolute;inset:0;transform-origin:50% 40%}}
 #foto{{position:absolute;inset:0;width:1080px;height:1920px;object-fit:cover;transform-origin:50% 40%}}
+#clarao{{position:absolute;inset:0;z-index:8;pointer-events:none;
+  background:radial-gradient(ellipse 80% 50% at 50% 35%,rgba(255,220,150,.9),rgba(255,200,110,.25) 60%,rgba(0,0,0,0) 100%)}}
 #brilho{{position:absolute;inset:0;z-index:5;pointer-events:none;mix-blend-mode:screen;
   background:radial-gradient(ellipse 60% 35% at 50% 32%,rgba(255,196,90,.55),rgba(255,196,90,0) 70%)}}
 #veu{{position:absolute;inset:0;z-index:6;
@@ -144,8 +151,9 @@ def produzir_curto(caminho: Path, sem_envio: bool, sem_issue: bool) -> None:
     else:  # texto fixo: tempo de leitura folgado; ao terminar o TikTok repete (conta como visto até o fim)
         dur = max(9.0, round(n * 0.32 + 3.5, 1))
 
-    canal_img = {**canal, "estilo_visual": ESTILO_LEAO, "regra_visual_pessoas": "no people"}
-    ok = visual._pollinations(cena={"prompt_imagem": r["prompt_leao"]}, destino=proj / "leao.jpg",
+    canal_img = {**canal, "estilo_visual": r.get("estilo_imagem", ESTILO_LEAO),
+                 "regra_visual_pessoas": r.get("regra_pessoas", "no people")}
+    ok = visual._pollinations(cena={"prompt_imagem": r.get("prompt_imagem") or r["prompt_leao"]}, destino=proj / "leao.jpg",
                               usados=set(), canal=canal_img, seed=random.randint(1, 10**6))
     if not ok:
         raise RuntimeError("não foi possível gerar a imagem do leão")
