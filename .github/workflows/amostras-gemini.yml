@@ -2,6 +2,13 @@ name: Amostras de voz (Gemini)
 
 on:
   workflow_dispatch:
+    inputs:
+      modelo:
+        description: "Modelo TTS (vazio = automático)"
+        required: false
+      vozes:
+        description: "Vozes separadas por vírgula (vazio = as 5 padrão + a atual)"
+        required: false
 
 jobs:
   amostras:
@@ -9,6 +16,8 @@ jobs:
     timeout-minutes: 20
     env:
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      MODELO: ${{ inputs.modelo }}
+      VOZES: ${{ inputs.vozes }}
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
     steps:

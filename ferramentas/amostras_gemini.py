@@ -70,16 +70,20 @@ def telegram(arquivo, legenda):
 def main():
     SAIDA.mkdir(exist_ok=True)
     chave = os.environ["GEMINI_API_KEY"]
-    modelo = modelo_tts(chave)
+    modelo = os.getenv("MODELO") or modelo_tts(chave)
     print("usando", modelo)
-    ref = SAIDA / "0_atual_antonio.mp3"
-    edge(ref)
-    telegram(ref, "Voz ATUAL — Antonio (Edge)")
-    for i, (voz, desc) in enumerate(VOZES, 1):
+    vozes = VOZES
+    if os.getenv("VOZES"):
+        vozes = [(v, "") for v in os.environ["VOZES"].split(",")]
+    else:
+        ref = SAIDA / "0_atual_antonio.mp3"
+        edge(ref)
+        telegram(ref, "Voz ATUAL — Antonio (Edge)")
+    for i, (voz, desc) in enumerate(vozes, 1):
         destino = SAIDA / f"{i}_gemini_{voz}.mp3"
         try:
             if gemini(chave, modelo, voz, destino):
-                telegram(destino, f"Opção {i} — Gemini {voz} ({desc})")
+                telegram(destino, f"Gemini {voz} — modelo {modelo}" + (f" ({desc})" if desc else ""))
                 print("ok", voz)
         except Exception as e:  # noqa: BLE001
             print("falhou", voz, e)
