@@ -61,7 +61,12 @@ def alinhar(audio: Path, texto: str) -> tuple[list[dict], float]:
     from faster_whisper import WhisperModel
     if _WHISPER is None:
         _WHISPER = WhisperModel("small", device="cpu", compute_type="int8")
-    segs, _ = _WHISPER.transcribe(str(audio), language="pt", word_timestamps=True, vad_filter=False)
+    # decodifica com o FFmpeg (evita incompatibilidades do PyAV usado internamente pelo faster-whisper)
+    import numpy as np
+    bruto = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", str(audio), "-f", "f32le", "-ac", "1",
+                            "-ar", "16000", "-"], capture_output=True, check=True).stdout
+    amostras = np.frombuffer(bruto, dtype=np.float32)
+    segs, _ = _WHISPER.transcribe(amostras, language="pt", word_timestamps=True, vad_filter=False)
     reconhecidas = [w for s in segs for w in (s.words or [])]
     roteiro = texto.split()
     a = [_norm(w) for w in roteiro]
