@@ -1,0 +1,65 @@
+{
+  "titulo": "A mulher que chorou aos pés de Jesus",
+  "gancho_tela": "As lágrimas dela disseram tudo",
+  "estilo": "pintura",
+  "narracao": "Ela não disse nenhuma palavra. Mas Jesus ouviu tudo. Era uma mulher conhecida como pecadora. Está em Lucas, capítulo sete. Mas a frase que Jesus disse no final mudou tudo. Jesus jantava na casa de um fariseu, Simão. Uma mulher da cidade chegou com um frasco de alabastro cheio de perfume. Ela ficou atrás de Jesus, aos seus pés, e começou a chorar. As lágrimas molharam os pés dele. Ela enxugou com os cabelos, beijou e derramou o perfume. Simão pensou: se fosse profeta, saberia que tipo de mulher é essa. Jesus sabia. E contou uma história: dois homens deviam a um credor. Um devia quinhentos denários, outro, cinquenta. Nenhum podia pagar, e ele perdoou os dois. Qual amará mais? Simão disse: aquele que foi mais perdoado. Jesus se virou para a mulher: você não me deu água para os pés; ela lavou meus pés com lágrimas. Os muitos pecados dela foram perdoados, porque ela amou muito. E disse a ela: sua fé a salvou. Vá em paz. Ela chegou como pecadora e saiu em paz. Simão viu uma pecadora. Jesus viu alguém que amava muito. E é assim que ele olha para você. Salve este vídeo para ouvir de novo quando precisar, e siga para receber uma palavra de fé todos os dias.",
+  "cenas": [
+    {
+      "trecho": "Ela não disse nenhuma palavra. Mas Jesus ouviu tudo.",
+      "busca_imagem": "",
+      "prompt_imagem": ""
+    },
+    {
+      "trecho": "Era uma mulher conhecida como pecadora. Está em Lucas, capítulo sete. Mas a frase que Jesus disse no final mudou tudo.",
+      "busca_imagem": "woman alabaster jar shadow",
+      "prompt_imagem": "a woman in ancient robes seen from behind holding a small white alabaster jar, standing in a dark narrow stone street at dusk, warm lamplight from a doorway"
+    },
+    {
+      "trecho": "Jesus jantava na casa de um fariseu, Simão. Uma mulher da cidade chegou com um frasco de alabastro cheio de perfume.",
+      "busca_imagem": "ancient dinner oil lamps",
+      "prompt_imagem": "an ancient house interior with a low dinner table lit by oil lamps, robed men reclining at the table seen from behind and in shadow, a woman with a jar in the doorway, warm golden light"
+    },
+    {
+      "trecho": "Ela ficou atrás de Jesus, aos seus pés, e começou a chorar. As lágrimas molharam os pés dele.",
+      "busca_imagem": "woman weeping kneeling feet",
+      "prompt_imagem": "a woman in ancient robes seen from behind kneeling at the feet of a robed man reclining at a table, her head bowed, tears falling, soft golden lamplight"
+    },
+    {
+      "trecho": "Ela enxugou com os cabelos, beijou e derramou o perfume. Simão pensou: se fosse profeta, saberia que tipo de mulher é essa.",
+      "busca_imagem": "perfume poured feet",
+      "prompt_imagem": "close view of long dark hair and hands pouring perfume from an alabaster jar over bare feet on a stone floor, a stern man in rich robes watching in shadow in the background"
+    },
+    {
+      "trecho": "Jesus sabia. E contou uma história: dois homens deviam a um credor. Um devia quinhentos denários, outro, cinquenta. Nenhum podia pagar, e ele perdoou os dois. Qual amará mais?",
+      "busca_imagem": "ancient coins scroll table",
+      "prompt_imagem": "ancient silver coins and an unrolled scroll on a wooden table lit by an oil lamp, two robed figures in shadow nearby, warm reverent light"
+    },
+    {
+      "trecho": "Simão disse: aquele que foi mais perdoado. Jesus se virou para a mulher: você não me deu água para os pés; ela lavou meus pés com lágrimas.",
+      "busca_imagem": "robed man turning woman",
+      "prompt_imagem": "a robed man seen from behind turning toward a kneeling woman in a lamplit room, other guests in shadow at the table, dramatic golden light falling on the woman"
+    },
+    {
+      "trecho": "Os muitos pecados dela foram perdoados, porque ela amou muito. E disse a ela: sua fé a salvou. Vá em paz.",
+      "busca_imagem": "divine light woman kneeling",
+      "prompt_imagem": "a kneeling woman in ancient robes seen from behind lifting her head as a beam of soft divine golden light falls on her in a dim room, peaceful atmosphere"
+    },
+    {
+      "trecho": "Ela chegou como pecadora e saiu em paz. Simão viu uma pecadora. Jesus viu alguém que amava muito. E é assim que ele olha para você. Salve este vídeo para ouvir de novo quando precisar, e siga para receber uma palavra de fé todos os dias.",
+      "busca_imagem": "woman walking sunrise road",
+      "prompt_imagem": "a woman in ancient robes seen from behind walking away on a dirt road toward a golden sunrise over hills, light and peaceful, hopeful atmosphere"
+    }
+  ],
+  "legenda": "Senhor, eu também quero ouvir: vá em paz 😭🙏\nLucas 7:36-50\nComente \"Amém\" e salve para ouvir de novo quando precisar.",
+  "hashtags": [
+    "#perdão",
+    "#lágrimas",
+    "#graçadeDeus",
+    "#amordeDeus"
+  ],
+  "fontes": [
+    "Lucas 7:36-38 (jantar na casa do fariseu, a mulher pecadora, o frasco de alabastro, lágrimas, cabelos, beijos, perfume)",
+    "Lucas 7:39-43 (o pensamento de Simão e a parábola dos dois devedores: quinhentos e cinquenta denários)",
+    "Lucas 7:44-50 (água, beijo, perfume; 'os muitos pecados dela lhe foram perdoados, pois ela amou muito'; 'Sua fé a salvou; vá em paz')"
+  ]
+}
