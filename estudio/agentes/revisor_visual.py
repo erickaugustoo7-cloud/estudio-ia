@@ -50,9 +50,9 @@ def _avaliar(chave, canal, cena, img) -> dict:
     modelos = [MODELO or gemini_flash(), "gemini-flash-latest", "gemini-flash-lite-latest"]
     r = None
     for modelo in dict.fromkeys(modelos):  # tenta o mais novo; se estiver sobrecarregado, outro
-        for espera in (0, 10, 25):
+        for espera in (0, 8):
             time.sleep(espera)
-            r = requests.post(f"{API}/models/{modelo}:generateContent", params={"key": chave}, json=corpo, timeout=90)
+            r = requests.post(f"{API}/models/{modelo}:generateContent", params={"key": chave}, json=corpo, timeout=40)
             if r.ok:
                 return json.loads(r.json()["candidates"][0]["content"]["parts"][0]["text"])
             if r.status_code not in (429, 500, 503):
@@ -66,10 +66,14 @@ def revisar(canal: dict, cenas: list[dict], imagens: list[Path]) -> list[str]:
     if not chave or os.getenv("SEM_REVISAO_VISUAL"):
         return []
     avisos, trocadas, falhas = [], 0, 0
+    prazo = time.time() + 8 * 60  # a revisão nunca segura o vídeo por mais de ~8 minutos
     log("revisor-visual", f"modelo {MODELO or gemini_flash()}")
     for i, (cena, img) in enumerate(zip(cenas, imagens)):
         if cena.get("imagem") or (i == 0 and canal.get("imagem_abertura")):
             continue  # imagem escolhida a dedo
+        if time.time() > prazo:
+            avisos.append(f"Revisão visual parou na cena {i + 1} por tempo — confira as cenas seguintes.")
+            break
         try:
             v = _avaliar(chave, canal, cena, img)
         except Exception as e:  # noqa: BLE001

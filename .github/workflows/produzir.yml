@@ -35,7 +35,7 @@ concurrency:
 jobs:
   produzir:
     runs-on: ubuntu-latest
-    timeout-minutes: 50
+    timeout-minutes: 75
     strategy:
       fail-fast: false
       max-parallel: 1   # um por vez, para não conflitar ao salvar fila/histórico
@@ -59,9 +59,13 @@ jobs:
           python-version: "3.12"
           cache: pip
 
-      - name: Instalar FFmpeg e fonte
+      - name: Instalar FFmpeg (binário pronto, com cache — o apt-get às vezes leva 20+ min)
+        uses: FedericoCarboni/setup-ffmpeg@v3
+        with:
+          ffmpeg-version: release
+      - name: Fontes
         run: |
-          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+          fc-list | grep -qi dejavu || (sudo apt-get update -qq && sudo apt-get install -y -qq fonts-dejavu-core)
           mkdir -p assets/fontes
           [ -f assets/fontes/Montserrat.ttf ] || curl -sSfL -o assets/fontes/Montserrat.ttf \
             "https://github.com/google/fonts/raw/main/ofl/montserrat/Montserrat%5Bwght%5D.ttf" || true
