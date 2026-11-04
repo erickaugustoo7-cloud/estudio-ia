@@ -1,7 +1,6 @@
 # Uma pauta por linha. O Diretor consome de cima para baixo.
 # Linhas começando com # são ignoradas. Fila vazia = o Diretor cria pautas sozinho.
 # Radar 04/11
-Voyager 1 está prestes a ficar a um dia-luz da Terra — o objeto humano mais distante (conferir data e distância na NASA/JPL)
 O som mais grave do universo: o buraco negro do aglomerado de Perseu (sonificação da NASA — conferir a nota e as oitavas)
 Qual planeta você escolheria para morar por um ano? (formato escolha, fechar pedindo comentário)
 Como funciona o pneu do avião: por que é cheio de nitrogênio e o que ele aguenta (conferir números)

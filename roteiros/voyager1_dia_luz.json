@@ -1,0 +1,64 @@
+{
+  "titulo": "A Voyager 1 vai ficar a um dia-luz da Terra",
+  "gancho_tela": "Um dia inteiro só de luz",
+  "narracao": "A luz leva um dia inteiro para alcançar essa nave. É a Voyager um, que no dia dezoito de novembro chega a um dia-luz da Terra. E o mais incrível é que ela ainda está funcionando. Para comparar, a luz vai da Terra à Lua em pouco mais de um segundo. Do Sol até aqui, em cerca de oito minutos. Até a Voyager, são vinte e quatro horas. Quase vinte e seis bilhões de quilômetros. Ela foi lançada em mil novecentos e setenta e sete e viaja a cerca de sessenta e um mil quilômetros por hora. Em dois mil e doze, virou a primeira nave a entrar no espaço interestelar. Hoje, cada comando da NASA leva quase um dia para chegar lá. E a resposta, mais um dia para voltar. A energia vem do calor do plutônio, e ela perde cerca de quatro watts por ano. Por isso, a NASA já desligou a maioria dos instrumentos. Só dois de ciência continuam ligados. Ela ainda carrega um disco de ouro com saudações em cinquenta e cinco línguas e noventa minutos de música da Terra. Daqui a quarenta mil anos, vai passar perto de outra estrela. Se alguém de outro mundo achasse esse disco, que música você queria que tocasse primeiro? Siga para descobrir uma curiosidade nova todo dia.",
+  "cenas": [
+    {
+      "trecho": "A luz leva um dia inteiro para alcançar essa nave.",
+      "busca_imagem": "Voyager spacecraft",
+      "prompt_imagem": "the Voyager space probe with its large white dish antenna drifting alone in deep black space, faint distant Sun"
+    },
+    {
+      "trecho": "É a Voyager um, que no dia dezoito de novembro chega a um dia-luz da Terra. E o mais incrível é que ela ainda está funcionando.",
+      "busca_imagem": "Voyager 1 interstellar",
+      "prompt_imagem": "a lonely space probe far beyond the solar system, the Sun a tiny bright star behind it"
+    },
+    {
+      "trecho": "Para comparar, a luz vai da Terra à Lua em pouco mais de um segundo. Do Sol até aqui, em cerca de oito minutos.",
+      "busca_imagem": "Earth Moon distance",
+      "prompt_imagem": "Earth and the Moon in space with a beam of light crossing between them, cinematic"
+    },
+    {
+      "trecho": "Até a Voyager, são vinte e quatro horas. Quase vinte e seis bilhões de quilômetros.",
+      "busca_imagem": "Pale Blue Dot Voyager",
+      "prompt_imagem": "a tiny pale blue dot of Earth seen from billions of kilometers away, scattered sunlight rays"
+    },
+    {
+      "trecho": "Ela foi lançada em mil novecentos e setenta e sete e viaja a cerca de sessenta e um mil quilômetros por hora. Em dois mil e doze, virou a primeira nave a entrar no espaço interestelar.",
+      "busca_imagem": "Voyager 1 launch Titan",
+      "prompt_imagem": "a Titan rocket launching at dawn in 1977 with a bright plume of fire and smoke"
+    },
+    {
+      "trecho": "Hoje, cada comando da NASA leva quase um dia para chegar lá. E a resposta, mais um dia para voltar.",
+      "busca_imagem": "Deep Space Network antenna",
+      "prompt_imagem": "a giant radio dish antenna pointing at the starry night sky, glowing under the Milky Way"
+    },
+    {
+      "trecho": "A energia vem do calor do plutônio, e ela perde cerca de quatro watts por ano. Por isso, a NASA já desligou a maioria dos instrumentos. Só dois de ciência continuam ligados.",
+      "busca_imagem": "Voyager radioisotope thermoelectric generator",
+      "prompt_imagem": "close-up of an old space probe's instrument boom and power generator glowing faintly in cold space"
+    },
+    {
+      "trecho": "Ela ainda carrega um disco de ouro com saudações em cinquenta e cinco línguas e noventa minutos de música da Terra. Daqui a quarenta mil anos, vai passar perto de outra estrela.",
+      "busca_imagem": "Voyager Golden Record",
+      "prompt_imagem": "a golden record disc floating in space, reflecting starlight, engraved surface"
+    },
+    {
+      "trecho": "Se alguém de outro mundo achasse esse disco, que música você queria que tocasse primeiro? Siga para descobrir uma curiosidade nova todo dia.",
+      "busca_imagem": "Golden Record cover",
+      "prompt_imagem": "a golden disc drifting toward a distant bright star in deep space, stars in background"
+    }
+  ],
+  "legenda": "Em 18/11/2026, a Voyager 1 chega a um dia-luz da Terra: quase 26 bilhões de km, lançada em 1977. 🛰️✨\nQue música você colocaria no disco de ouro? Comenta aqui 👇",
+  "hashtags": [
+    "#Voyager1",
+    "#NASA",
+    "#espaçointerestelar",
+    "#sondaespacial"
+  ],
+  "fontes": [
+    "NASA Science — Voyager 1: What Is a Light-Day (18/11/2026, 5:16:07 EST; 25.902.068.356 km; ~61.000 km/h; luz Terra–Lua 1,3 s; Sol–Terra 8 min 20 s; Gliese 445 em 40.000 anos)",
+    "NASA Science — Voyager 1 (lançamento 5/9/1977; espaço interestelar em 25/8/2012; dois instrumentos de ciência ainda ligados; Disco de Ouro: 55 línguas, 90 minutos de música)",
+    "ScienceDaily / NASA JPL (maio 2026) — RTG de plutônio perde cerca de 4 W por ano; comandos levam cerca de 23 horas para chegar; LECP desligado em 17/4/2026"
+  ]
+}
