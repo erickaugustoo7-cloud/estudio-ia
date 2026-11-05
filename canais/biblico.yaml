@@ -76,6 +76,7 @@ estilo_visual: >
 
 musica: assets/musica/biblico   # .mp3 seus aqui têm prioridade; vazio = trilha ambiente gerada
 trilha_gerada: true
+musica_volume: 0.3          # trilha ~16 dB abaixo da voz (faixas normalizadas a -20 LUFS)
 
 # ---------- Publicação ----------
 # Instagram + Página do Facebook com a chave da Página (META_TOKEN_BIBLICO). TikTok: manual.
