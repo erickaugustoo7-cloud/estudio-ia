@@ -1,0 +1,67 @@
+{
+  "titulo": "Talita cumi: Jesus e a filha de Jairo",
+  "gancho_tela": "Quando disseram que tinha acabado",
+  "estilo": "pintura",
+  "narracao": "Disseram a um pai: sua filha morreu. E Jesus ignorou a notícia. Esse pai era Jairo. Marcos, capítulo cinco. Mas o que Jesus fez depois deixou todos atônitos. Jairo era dirigente da sinagoga. Mas se jogou aos pés de Jesus: minha filhinha está morrendo. Vem, põe as mãos sobre ela, para que viva. No caminho, a multidão apertava, e Jesus ainda parou para curar uma mulher. Chegou o recado: sua filha morreu. Não precisa mais incomodar o mestre. Jesus não fez caso e disse ao pai: Não tenha medo; tão somente creia. Na casa, todos choravam. Jesus disse: ela não morreu, está dormindo. E riram dele. Ele entrou só com o pai, a mãe e três discípulos. Segurou a mão da menina e disse: Talita cumi. Menina, eu ordeno a você, levante-se. E ela se levantou na hora e andou. Tinha doze anos. E mandou que dessem a ela algo para comer. Quando todos diziam que acabou, Jesus disse: não tenha medo. Se você carrega um peso que ninguém vê, ele ainda segura a sua mão. Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias.",
+  "cenas": [
+    {
+      "trecho": "Disseram a um pai: sua filha morreu. E Jesus ignorou a notícia.",
+      "busca_imagem": "",
+      "prompt_imagem": ""
+    },
+    {
+      "trecho": "Esse pai era Jairo. Marcos, capítulo cinco. Mas o que Jesus fez depois deixou todos atônitos.",
+      "busca_imagem": "father kneeling robes",
+      "prompt_imagem": "a man in fine ancient robes seen from behind kneeling in the dust of a crowded village road by the Sea of Galilee, golden afternoon light"
+    },
+    {
+      "trecho": "Jairo era dirigente da sinagoga. Mas se jogou aos pés de Jesus: minha filhinha está morrendo. Vem, põe as mãos sobre ela, para que viva.",
+      "busca_imagem": "synagogue leader pleading",
+      "prompt_imagem": "a respected man in ancient robes seen from behind prostrate on the ground before a robed figure in shadow, a lakeside crowd around them, warm golden light"
+    },
+    {
+      "trecho": "No caminho, a multidão apertava, e Jesus ainda parou para curar uma mulher.",
+      "busca_imagem": "crowd narrow street ancient",
+      "prompt_imagem": "a dense crowd of people in ancient robes seen from behind pressing through a narrow stone street, dust in the golden sunlight"
+    },
+    {
+      "trecho": "Chegou o recado: sua filha morreu. Não precisa mais incomodar o mestre.",
+      "busca_imagem": "messengers bad news",
+      "prompt_imagem": "two messengers in ancient robes in shadow approaching a man on a dusty road, the man's shoulders dropping in grief, dramatic low sun"
+    },
+    {
+      "trecho": "Jesus não fez caso e disse ao pai: Não tenha medo; tão somente creia.",
+      "busca_imagem": "man hope sunlight road",
+      "prompt_imagem": "silhouette of two robed men walking side by side on a dusty road toward a village house, a beam of golden light breaking through clouds"
+    },
+    {
+      "trecho": "Na casa, todos choravam. Jesus disse: ela não morreu, está dormindo. E riram dele. Ele entrou só com o pai, a mãe e três discípulos.",
+      "busca_imagem": "mourners ancient house",
+      "prompt_imagem": "mourners in ancient robes seen from behind wailing in the courtyard of a humble stone house, oil lamps, somber shadows"
+    },
+    {
+      "trecho": "Segurou a mão da menina e disse: Talita cumi. Menina, eu ordeno a você, levante-se. E ela se levantou na hora e andou. Tinha doze anos.",
+      "busca_imagem": "hand holding child hand",
+      "prompt_imagem": "a strong adult hand gently holding the small hand of a young girl lying on a simple mat in a dim stone room, warm divine light from a window, faces not visible"
+    },
+    {
+      "trecho": "E mandou que dessem a ela algo para comer. Quando todos diziam que acabou, Jesus disse: não tenha medo. Se você carrega um peso que ninguém vê, ele ainda segura a sua mão. Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias.",
+      "busca_imagem": "father daughter sunrise",
+      "prompt_imagem": "a father and his young daughter seen from behind, hand in hand, standing at the doorway of a stone house watching a golden sunrise, peaceful and hopeful"
+    }
+  ],
+  "legenda": "Senhor, segura a mão da minha família 🙏😭\nMarcos 5:36-42\nComente \"Amém\" e envie para um pai que precisa ouvir isso.",
+  "hashtags": [
+    "#Jesus",
+    "#TalitaCumi",
+    "#Jairo",
+    "#féemDeus"
+  ],
+  "fontes": [
+    "Marcos 5:22-24 (Jairo, dirigente da sinagoga, aos pés de Jesus: 'minha filhinha está morrendo', pede que imponha as mãos)",
+    "Marcos 5:25-34 (no caminho, a mulher curada)",
+    "Marcos 5:35-36 ('Sua filha morreu... não precisa mais incomodar o mestre'; 'Não tenha medo; tão somente creia')",
+    "Marcos 5:37-40 (Pedro, Tiago e João; choro na casa; 'não está morta, mas dorme'; riram dele; pai e mãe)",
+    "Marcos 5:41-43 ('Talita cumi', levantou-se e andou, doze anos, deem-lhe de comer)"
+  ]
+}
