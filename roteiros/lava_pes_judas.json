@@ -1,0 +1,68 @@
+{
+  "titulo": "Jesus lavou os pés de quem ia traí-lo",
+  "gancho_tela": "Ele sabia. E pegou a bacia.",
+  "estilo": "pintura",
+  "narracao": "Jesus lavou os pés de um homem que ia traí-lo. Esse homem era Judas. Está em João, capítulo treze. Mas por que Jesus fez isso, sabendo de tudo? Era a noite do último jantar com os discípulos. Jesus se levantou da mesa, tirou a capa e amarrou uma toalha na cintura. Derramou água numa bacia e começou a lavar os pés dos discípulos. Quando chegou em Pedro, ele travou: Senhor, vais lavar os meus pés? Nunca! Jesus respondeu: se eu não lavar, você não tem parte comigo. E Judas estava ali, na mesma mesa. O texto diz que Jesus sabia quem ia traí-lo. E pegou a bacia mesmo assim. Depois, voltou ao seu lugar e perguntou: vocês entendem o que eu fiz? Eu dei o exemplo. Façam o mesmo uns pelos outros. O versículo um responde: tendo amado os seus, amou-os até o fim. Se Jesus serviu assim quem ia traí-lo, imagine como ele olha para você, que chegou em casa cansado e cheio de falhas. Ele não desistiu de você. Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias.",
+  "cenas": [
+    {
+      "trecho": "Jesus lavou os pés de um homem que ia traí-lo.",
+      "busca_imagem": "",
+      "prompt_imagem": "a wooden basin of water and a folded linen towel on a stone floor lit by a single oil lamp, a robed figure kneeling in shadow, dramatic golden light against deep darkness"
+    },
+    {
+      "trecho": "Esse homem era Judas. Está em João, capítulo treze. Mas por que Jesus fez isso, sabendo de tudo?",
+      "busca_imagem": "judas supper shadow",
+      "prompt_imagem": "a lone robed man seen from behind sitting at the end of an ancient supper table in shadow, a small money bag at his belt, oil lamps glowing"
+    },
+    {
+      "trecho": "Era a noite do último jantar com os discípulos. Jesus se levantou da mesa, tirou a capa e amarrou uma toalha na cintura.",
+      "busca_imagem": "last supper towel",
+      "prompt_imagem": "an ancient upper room at night, a robed figure seen from behind rising from a low table, tying a linen towel around his waist, disciples in shadow, warm lamplight"
+    },
+    {
+      "trecho": "Derramou água numa bacia e começou a lavar os pés dos discípulos.",
+      "busca_imagem": "washing feet basin",
+      "prompt_imagem": "close view of hands pouring water from a clay jug into a wooden basin over dusty bare feet, ancient stone room, soft golden lamplight, no faces"
+    },
+    {
+      "trecho": "Quando chegou em Pedro, ele travou: Senhor, vais lavar os meus pés? Nunca! Jesus respondeu: se eu não lavar, você não tem parte comigo.",
+      "busca_imagem": "peter washing feet",
+      "prompt_imagem": "a strong fisherman in ancient robes seen in profile shadow pulling his feet back from a basin of water, a kneeling robed figure seen from behind, tense candlelit room"
+    },
+    {
+      "trecho": "E Judas estava ali, na mesma mesa. O texto diz que Jesus sabia quem ia traí-lo. E pegou a bacia mesmo assim.",
+      "busca_imagem": "judas shadow table",
+      "prompt_imagem": "a robed man seen from behind sitting apart in deep shadow at a supper table, a basin of water on the floor before him, a single beam of golden light"
+    },
+    {
+      "trecho": "Depois, voltou ao seu lugar e perguntou: vocês entendem o que eu fiz? Eu dei o exemplo. Façam o mesmo uns pelos outros.",
+      "busca_imagem": "last supper teaching",
+      "prompt_imagem": "a robed figure seen from behind seated again at the head of a low table, disciples around in silhouette listening, bread and wine, warm solemn light"
+    },
+    {
+      "trecho": "O versículo um responde: tendo amado os seus, amou-os até o fim.",
+      "busca_imagem": "basin towel dawn",
+      "prompt_imagem": "an empty basin and a damp linen towel left on the floor of an ancient room as dawn light enters through a window, quiet and holy atmosphere"
+    },
+    {
+      "trecho": "Se Jesus serviu assim quem ia traí-lo, imagine como ele olha para você, que chegou em casa cansado e cheio de falhas. Ele não desistiu de você. Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias.",
+      "busca_imagem": "man sunset doorstep",
+      "prompt_imagem": "a tired working man seen from behind sitting on the doorstep of a simple stone house at sunset, head bowed, warm golden light falling over his shoulders, peaceful and hopeful"
+    }
+  ],
+  "legenda": "Senhor, obrigado por me amar até o fim 😭🙏\nJoão 13:1-15\nComente \"Amém\" e envie para alguém que precisa sentir esse amor.",
+  "hashtags": [
+    "#Jesus",
+    "#lavapés",
+    "#Judas",
+    "#amordeDeus"
+  ],
+  "fontes": [
+    "João 13:1 ('tendo amado os seus... amou-os até o fim')",
+    "João 13:2-5 (o jantar, Judas, a toalha, a bacia, lavar os pés)",
+    "João 13:6-8 (a reação de Pedro)",
+    "João 13:11 (Jesus sabia quem iria traí-lo)",
+    "João 13:12-15 (voltou ao lugar, 'entendem o que fiz?', o exemplo)",
+    "João 13:26-30 (Judas à mesa, depois saiu)"
+  ]
+}

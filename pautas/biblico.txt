@@ -1,7 +1,6 @@
 # Uma pauta por linha. O Diretor consome de cima para baixo.
 # Linhas começando com # são ignoradas. Fila vazia = o Diretor cria pautas sozinho.
 # Foco atual: Jesus como personagem principal, em momentos de emoção nos Evangelhos.
-Jesus lavou os pés de quem ia traí-lo (João 13:1-15)
 A samaritana: Jesus conversou com quem todos evitavam (João 4:1-30)
 Bartimeu: o cego que gritou mais alto e Jesus parou (Marcos 10:46-52)
 "Pai, perdoa-lhes": Jesus perdoando na cruz (Lucas 23:33-34)
