@@ -1,0 +1,25 @@
+name: Teste Instagram (sem publicar)
+on:
+  workflow_dispatch:
+    inputs:
+      run_id:
+        required: true
+permissions:
+  actions: read
+  contents: read
+jobs:
+  t:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      META_TOKEN_BIBLICO: ${{ secrets.META_TOKEN_BIBLICO }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: FedericoCarboni/setup-ffmpeg@v3
+      - run: pip install -q requests pyyaml edge-tts
+      - run: |
+          gh run download ${{ inputs.run_id }} -D d
+          python -m ferramentas.teste_ig "$(find d -name video.mp4 | head -1)"
