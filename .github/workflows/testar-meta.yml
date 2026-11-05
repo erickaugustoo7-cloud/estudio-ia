@@ -27,5 +27,7 @@ jobs:
           ig = (me.get("instagram_business_account") or {}).get("id")
           if ig:
               print("cota de publicação IG (24h):", get(ig + "/content_publishing_limit", fields="quota_usage,config"))
+          for vid in ["1994559867887674", "2558610801301233"]:
+              print("vídeo", vid, get(vid, fields="status,privacy,published,views,permalink_url"))
           print("tipo:", d.get("type"), "| expira:", d.get("expires_at"), "| válida:", d.get("is_valid"), "| permissões:", ",".join(d.get("scopes", [])), dbg.get("erro", ""))
           PY
