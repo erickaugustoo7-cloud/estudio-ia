@@ -3,6 +3,10 @@ name: Radar (coletar tendências)
 # Coleta os Shorts mais vistos da semana no nicho de cada canal e salva em dados/radar/.
 on:
   workflow_dispatch:
+    inputs:
+      musicas:
+        description: "Coletar também as músicas religiosas em alta (sim/não)"
+        default: "sim"
 
 permissions:
   contents: write
@@ -20,6 +24,8 @@ jobs:
           python-version: "3.12"
       - run: pip install -q requests
       - run: python ferramentas/radar_coletar.py
+      - if: inputs.musicas != 'não'
+        run: python ferramentas/radar_musicas.py
       - name: Salvar
         run: |
           git config user.name "estudio-ia[bot]"
