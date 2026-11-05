@@ -1,0 +1,65 @@
+{
+  "titulo": "Oração da manhã para quem acordou cansado",
+  "gancho_tela": "Acordou cansado? Ore isso",
+  "estilo": "pintura",
+  "narracao": "Se você acordou cansado antes mesmo de o dia começar, ore comigo agora. Feche os olhos e repita. E no final, eu te conto o que Jesus fez numa manhã igual a essa. Senhor Jesus, antes de qualquer coisa, eu te entrego este dia. Tu conheces o peso que eu carrego e as contas que me preocupam. Me dá força para trabalhar com honestidade, e paciência com quem está do meu lado. Cuida da minha casa e de quem eu amo enquanto eu estiver fora. E se eu cansar no meio do caminho, me lembra que tu estás comigo. Amém. Sabe esse cansaço? Os discípulos também conheciam. Eles pescaram a noite inteira e não pegaram nada. Ao amanhecer, Jesus estava na praia. Mandou lançar a rede do lado direito, e ela veio tão cheia que eles mal conseguiam puxar. Quando chegaram à areia, ele já tinha preparado um fogo, com peixe e pão. E disse: venham comer. Está em João, capítulo vinte e um. Jesus conhece o seu cansaço antes de você dizer uma palavra. Se você orou comigo, escreva Amém nos comentários, e salve este vídeo para orar de novo amanhã cedo.",
+  "cenas": [
+    {
+      "trecho": "Se você acordou cansado antes mesmo de o dia começar, ore comigo agora.",
+      "busca_imagem": "",
+      "prompt_imagem": ""
+    },
+    {
+      "trecho": "Feche os olhos e repita. E no final, eu te conto o que Jesus fez numa manhã igual a essa.",
+      "busca_imagem": "dawn window light",
+      "prompt_imagem": "first light of dawn coming through a small window into a simple quiet room, a cup and an open bible on a wooden table"
+    },
+    {
+      "trecho": "Senhor Jesus, antes de qualquer coisa, eu te entrego este dia. Tu conheces o peso que eu carrego e as contas que me preocupam.",
+      "busca_imagem": "man praying sunrise",
+      "prompt_imagem": "a man seen from behind sitting on the edge of a bed at dawn, head bowed in prayer, warm light through the window"
+    },
+    {
+      "trecho": "Me dá força para trabalhar com honestidade, e paciência com quem está do meu lado. Cuida da minha casa e de quem eu amo enquanto eu estiver fora.",
+      "busca_imagem": "worker walking sunrise",
+      "prompt_imagem": "a man seen from behind walking to work on a dirt road at sunrise, small houses behind him, golden light"
+    },
+    {
+      "trecho": "E se eu cansar no meio do caminho, me lembra que tu estás comigo. Amém.",
+      "busca_imagem": "light rays clouds",
+      "prompt_imagem": "rays of golden morning light breaking through clouds over quiet hills, peaceful"
+    },
+    {
+      "trecho": "Sabe esse cansaço? Os discípulos também conheciam. Eles pescaram a noite inteira e não pegaram nada.",
+      "busca_imagem": "fishermen boat night",
+      "prompt_imagem": "tired fishermen in ancient robes seen from behind in a wooden boat on a dark lake before dawn, empty nets"
+    },
+    {
+      "trecho": "Ao amanhecer, Jesus estava na praia. Mandou lançar a rede do lado direito, e ela veio tão cheia que eles mal conseguiam puxar.",
+      "busca_imagem": "fishing net full fish",
+      "prompt_imagem": "ancient fishermen seen from behind pulling a net overflowing with fish into a wooden boat at sunrise, golden water"
+    },
+    {
+      "trecho": "Quando chegaram à areia, ele já tinha preparado um fogo, com peixe e pão. E disse: venham comer. Está em João, capítulo vinte e um.",
+      "busca_imagem": "charcoal fire beach fish",
+      "prompt_imagem": "a small charcoal fire with fish and bread on a lakeshore at sunrise, a robed figure seen from behind waiting, a boat arriving"
+    },
+    {
+      "trecho": "Jesus conhece o seu cansaço antes de você dizer uma palavra. Se você orou comigo, escreva Amém nos comentários, e salve este vídeo para orar de novo amanhã cedo.",
+      "busca_imagem": "sunrise hope hills",
+      "prompt_imagem": "a lone man seen from behind standing on a hill watching a bright golden sunrise, calm and hopeful"
+    }
+  ],
+  "legenda": "Senhor, me dá força para o dia de hoje 🙏☀️\nJoão 21:3-12\nSe você orou comigo, escreva Amém 🙏",
+  "hashtags": [
+    "#oraçãodamanhã",
+    "#bomdia",
+    "#João21",
+    "#Jesus"
+  ],
+  "fontes": [
+    "João 21:3 (pescaram a noite inteira e não pegaram nada)",
+    "João 21:4-6 (ao amanhecer, Jesus na praia; a rede do lado direito, cheia)",
+    "João 21:9-12 (o fogo com peixe e pão; 'venham comer')"
+  ]
+}
