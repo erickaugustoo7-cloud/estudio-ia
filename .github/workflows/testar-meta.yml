@@ -20,9 +20,12 @@ jobs:
                   return json.load(urllib.request.urlopen("https://graph.facebook.com/v23.0/" + path + "?" + urllib.parse.urlencode(p), timeout=30))
               except urllib.error.HTTPError as e:
                   return {"erro": e.read().decode()[:300]}
-          me = get("me", fields="id,name,instagram_business_account{username}")
+          me = get("me", fields="id,name,instagram_business_account{id,username}")
           print("Página:", me.get("name"), "| Instagram:", (me.get("instagram_business_account") or {}).get("username"), "|", me.get("erro", "ok"))
           dbg = get("debug_token", input_token=t)
           d = dbg.get("data", {})
+          ig = (me.get("instagram_business_account") or {}).get("id")
+          if ig:
+              print("cota de publicação IG (24h):", get(ig + "/content_publishing_limit", fields="quota_usage,config"))
           print("tipo:", d.get("type"), "| expira:", d.get("expires_at"), "| válida:", d.get("is_valid"), "| permissões:", ",".join(d.get("scopes", [])), dbg.get("erro", ""))
           PY
