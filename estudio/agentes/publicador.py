@@ -199,7 +199,7 @@ def _compativel(video: Path) -> Path:
     try:
         _sp.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(video),
                  "-c:v", "libx264", "-profile:v", "high", "-level", "4.1", "-preset", "fast", "-crf", "22",
-                 "-maxrate", "6M", "-bufsize", "12M", "-g", "60", "-keyint_min", "60", "-sc_threshold", "0",
+                 "-maxrate", os.getenv("IG_MAXRATE", "6M"), "-bufsize", "12M", "-g", "60", "-keyint_min", "60", "-sc_threshold", "0",
                  "-pix_fmt", "yuv420p", "-r", "30", "-c:a", "aac", "-b:a", "128k", "-ar", "48000", "-ac", "2",
                  "-movflags", "+faststart", str(saida)], check=True)
         log("publicador", f"vídeo recodificado para o padrão do Instagram ({saida.stat().st_size / 1e6:.1f} MB)")
@@ -230,7 +230,8 @@ def publicar(canal: dict, video: Path, texto: str, pular: set = frozenset(), fb_
                         try:
                             resultados[plat] = instagram_reel_meta(meta, ig_id, video, texto)
                         except requests.HTTPError as e:
-                            resultados[plat] = {"status": "failed", "errorMessage": f"{e}"}
+                            resultados[plat] = {"status": "failed", "errorMessage": f"{e} — {e.response.text[:200]}"}
+                        log("publicador", f"instagram direto: {resultados[plat]}")
                         fb_id = (resultados.get("facebook") or {}).get("video_id") or fb_video_id
                         if resultados[plat]["status"] != "published" and fb_id:
                             log("publicador", "instagram: envio direto falhou — usando o vídeo do Facebook")
