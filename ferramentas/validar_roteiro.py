@@ -22,7 +22,7 @@ if "parte" in r.get("gancho_tela", "").lower():
     erros.append("gancho_tela não deve ter 'Parte N' (vai só na legenda)")
 if r.get("cenas") and len(r["cenas"][0]["trecho"].split()) > 16:
     erros.append("a primeira cena deve conter só o gancho (frase curta)")
-for i, c in enumerate(r.get("cenas", [])[1:], 2):
+for i, c in enumerate(r.get("cenas", []), 1):
     if not c.get("prompt_imagem"):
         erros.append(f"cena {i} sem prompt_imagem")
 print(f"{palavras} palavras, {len(r.get('cenas', []))} cenas")

@@ -75,13 +75,13 @@ def _composicao(canal, r, dur) -> str:
     # ---- versículo palavra por palavra ----
     spans = " ".join(f'<span id="v{j}">{html.escape(p)}</span>' for j, p in enumerate(palavras))
     tam = 74 if len(palavras) <= 18 else 66 if len(palavras) <= 28 else 60
-    ref_html = f'<div id="ref">{html.escape(r["referencia"])}</div>'
+    ref_html = f'<div id="ref">{html.escape(r["referencia"])}</div>' if r.get("referencia") else ""
     elems.append(f'<div id="verso" class="clip" data-start="0" data-duration="{_f(dur)}" data-track-index="4" '
                  f'style="font-size:{tam}px">{spans}{ref_html}</div>')
     for j in range(len(palavras) if revelar else 0):
         anim.append(f'tl.fromTo("#v{j}",{{opacity:0,y:18}},{{opacity:1,y:0,duration:0.35,ease:"power2.out"}},{_f(t0 + j * POR_PALAVRA)});')
     t_ref = t0 + len(palavras) * POR_PALAVRA + 0.2
-    if revelar:
+    if revelar and r.get("referencia"):
         anim.append(f'tl.fromTo("#ref",{{opacity:0,letterSpacing:"0.5em"}},{{opacity:1,letterSpacing:"0.22em",duration:0.8,ease:"power2.out"}},{_f(t_ref)});')
 
     elems.append(f'<div id="assinatura" class="clip" data-start="0" data-duration="{_f(dur)}" data-track-index="5">'
@@ -156,7 +156,14 @@ def produzir_curto(caminho: Path, sem_envio: bool, sem_issue: bool) -> None:
     ok = visual.gerar_uma(canal_img, {"prompt_imagem": r.get("prompt_imagem") or r["prompt_leao"]},
                           proj / "leao.jpg", semente=random.randint(1, 10**6))
     if not ok:
-        raise RuntimeError("não foi possível gerar a imagem do leão")
+        raise RuntimeError("não foi possível gerar a imagem")
+    avisos = ["Vídeo curto (< 60 s): não conta para o Creator Rewards, serve para movimentar o perfil."]
+    try:  # revisão visual da imagem (texto escrito, deformação, fora do tema) — 1 nova tentativa
+        from estudio.agentes import revisor_visual
+        cena = {"trecho": r["versiculo"], "prompt_imagem": r.get("prompt_imagem") or r.get("prompt_leao", "")}
+        avisos += revisor_visual.revisar(canal_img, [cena], [proj / "leao.jpg"])
+    except Exception as e:  # noqa: BLE001
+        log("curto", f"revisão visual indisponível ({e})")
     _gerar_trilha(canal, proj / "musica.mp3", dur + 1)
     shutil.copy(RAIZ / "node_modules/gsap/dist/gsap.min.js", proj / "gsap.min.js")
     (proj / "index.html").write_text(_composicao(canal, r, dur), encoding="utf-8")
@@ -170,18 +177,18 @@ def produzir_curto(caminho: Path, sem_envio: bool, sem_issue: bool) -> None:
     from estudio.agentes.montador import normalizar_volume
     normalizar_volume(video)
 
-    roteiro = {"titulo": r["titulo"], "narracao": f"(sem narração) {r['versiculo']} — {r['referencia']}",
-               "legenda": r["legenda"], "hashtags": r.get("hashtags", []), "fontes": [r["referencia"]]}
+    ref = r.get("referencia") or "mensagem motivacional (texto próprio)"
+    roteiro = {"titulo": r["titulo"], "narracao": f"(sem narração) {r['versiculo']} — {ref}",
+               "legenda": r["legenda"], "hashtags": r.get("hashtags", []), "fontes": [ref]}
     (pasta / "roteiro.json").write_text(json.dumps(roteiro, ensure_ascii=False, indent=2), encoding="utf-8")
     texto_post = montar_texto_post(canal, roteiro)
     (pasta / "post.txt").write_text(texto_post, encoding="utf-8")
     no_telegram = False
     if not sem_envio:
-        no_telegram = publicador.telegram_video(video, f"🦁 [Curto] {r['titulo']} · {dur:.0f}s", texto_post)
+        no_telegram = publicador.telegram_video(video, f"✨ [Curto] {r['titulo']} · {dur:.0f}s", texto_post)
     if not sem_issue:
-        link = abrir_issue({**canal, "estilo_nome": "leão (curto)"}, roteiro, texto_post, pasta, dur,
-                           ["Vídeo curto (< 60 s): não conta para o Creator Rewards, serve para movimentar o perfil."],
-                           r["referencia"], no_telegram)
+        link = abrir_issue({**canal, "estilo_nome": "curto"}, roteiro, texto_post, pasta, dur,
+                           avisos, ref, no_telegram)
         log("curto", f"aguardando aprovação: {link}")
     log("curto", f"concluído: {video}")
 
@@ -192,8 +199,15 @@ def main():
     ap.add_argument("--sem-envio", action="store_true")
     ap.add_argument("--sem-issue", action="store_true")
     a = ap.parse_args()
+    falhas = []
     for c in a.roteiros:
-        produzir_curto(Path(c), a.sem_envio, a.sem_issue)
+        try:
+            produzir_curto(Path(c), a.sem_envio, a.sem_issue)
+        except Exception as e:  # noqa: BLE001 — um curto com problema não derruba o lote
+            log("curto", f"FALHOU {c}: {e}")
+            falhas.append(c)
+    if falhas:
+        raise SystemExit(f"{len(falhas)} curto(s) falharam: {', '.join(falhas)}")
 
 
 if __name__ == "__main__":

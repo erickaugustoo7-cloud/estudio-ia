@@ -73,14 +73,16 @@ sem necessidade. Se algo fora do roteiro estiver quebrado, apenas relate no resu
 4. **Revelação mais forte perto do fim** (prometida no começo).
 5. **Aplicação curta e pessoal** ("E não desistiu de você.").
 6. **Pedido final** (alterne para medir compartilhamentos):
-   - execuções das **04h e 17h**: "Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias."
-   - execução das **10h**: "Salve este vídeo para ouvir de novo quando precisar, e siga para receber uma palavra de fé todos os dias."
+   - execução das **05h** (vídeo da manhã): "Salve este vídeo para ouvir de novo quando precisar, e siga para receber uma palavra de fé todos os dias."
+   - execução das **17h** (vídeo da noite): "Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias."
+   - O vídeo da manhã pode ser uma oração para começar o dia ou uma história; o da noite, história ou oração da noite.
 
 - **Tamanho: 165–195 palavras** (dá ~75–90 s; precisa passar de 60 s). Números por extenso
   ("vinte e dois"). Sem emojis nem listas na narração.
-- **8 ou 9 cenas.** A cena 1 é só o gancho; a imagem dela é fixa (a Bíblia aberta do
-  "Jesus chorou", configurada no canal) — deixe `busca_imagem` e `prompt_imagem` vazios nela.
-  Nas outras, troque de imagem a cada 1–2 frases.
+- **8 ou 9 cenas.** A cena 1 é só o gancho e precisa da imagem MAIS FORTE do vídeo (é a capa no
+  feed): uma cena concreta, luminosa e com contraste, ligada ao gancho (ex.: uma vela acesa sobre uma
+  Bíblia aberta, um homem de costas diante de uma cruz ao pôr do sol, mãos estendidas para a luz).
+  Varie de vídeo para vídeo. Nas outras, troque de imagem a cada 1–2 frases.
 - **Os trechos das cenas, juntados com um espaço, devem ser idênticos à narração.**
 
 ## Imagens (prompt_imagem, em inglês)
