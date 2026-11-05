@@ -1,0 +1,45 @@
+name: Reenviar Instagram pendente
+
+# A API do Instagram às vezes recusa o envio por instabilidade da Meta. Esta rotina tenta de novo,
+# 3 vezes por dia, as Issues aprovadas em que o Facebook saiu e o Instagram falhou.
+on:
+  schedule:
+    - cron: "17 13,19,1 * * *"
+  workflow_dispatch:
+
+permissions:
+  issues: write
+  contents: read
+  actions: read
+
+concurrency:
+  group: reenviar-instagram
+
+jobs:
+  reenviar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      META_TOKEN_BIBLICO: ${{ secrets.META_TOKEN_BIBLICO }}
+      IG_TOKEN_BIBLICO: ${{ secrets.IG_TOKEN_BIBLICO }}
+      IG_TOKEN_ESPACO: ${{ secrets.IG_TOKEN_ESPACO }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - uses: FedericoCarboni/setup-ffmpeg@v3
+      - run: pip install -r requirements.txt
+      - name: Reenviar
+        run: |
+          for n in $(gh issue list --label aprovacao --state open --limit 50 --json number,comments \
+              -q '.[] | select([.comments[].body] | join(" ") | (contains("❌ **instagram**") and contains("✅ **facebook**"))) | .number'); do
+            echo "== Issue #$n"
+            python -m estudio.publicar --issue $n || true
+            sleep 60
+          done
