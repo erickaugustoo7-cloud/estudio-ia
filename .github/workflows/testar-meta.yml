@@ -1,0 +1,28 @@
+name: Testar chave da Meta
+on:
+  workflow_dispatch:
+jobs:
+  testar:
+    runs-on: ubuntu-latest
+    env:
+      META_TOKEN_BIBLICO: ${{ secrets.META_TOKEN_BIBLICO }}
+    steps:
+      - name: Conferir (não mostra a chave)
+        run: |
+          python3 - <<'PY'
+          import json, os, urllib.request, urllib.parse
+          t = os.environ.get("META_TOKEN_BIBLICO")
+          if not t:
+              print("SEM CHAVE"); raise SystemExit(1)
+          def get(path, **p):
+              p["access_token"] = t
+              try:
+                  return json.load(urllib.request.urlopen("https://graph.facebook.com/v23.0/" + path + "?" + urllib.parse.urlencode(p), timeout=30))
+              except urllib.error.HTTPError as e:
+                  return {"erro": e.read().decode()[:300]}
+          me = get("me", fields="id,name,instagram_business_account{username}")
+          print("Página:", me.get("name"), "| Instagram:", (me.get("instagram_business_account") or {}).get("username"), "|", me.get("erro", "ok"))
+          dbg = get("debug_token", input_token=t)
+          d = dbg.get("data", {})
+          print("tipo:", d.get("type"), "| expira:", d.get("expires_at"), "| válida:", d.get("is_valid"), "| permissões:", ",".join(d.get("scopes", [])), dbg.get("erro", ""))
+          PY
