@@ -1,0 +1,26 @@
+name: Diagnóstico de vídeo
+on:
+  workflow_dispatch:
+    inputs:
+      run_ids:
+        description: "IDs de execução separados por espaço"
+        required: true
+permissions:
+  actions: read
+  contents: read
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: FedericoCarboni/setup-ffmpeg@v3
+      - run: |
+          for id in ${{ inputs.run_ids }}; do
+            gh run download $id -D d_$id >/dev/null 2>&1 || { echo "sem artefato $id"; continue; }
+            for f in $(find d_$id -name video.mp4); do
+              echo "== $id $f $(stat -c%s $f) bytes"
+              ffprobe -v error -show_entries format=duration,bit_rate:stream=codec_name,profile,width,height,pix_fmt,r_frame_rate,sample_rate,channels,bit_rate,level -of compact $f
+            done
+          done
