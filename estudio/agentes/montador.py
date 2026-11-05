@@ -36,7 +36,7 @@ def normalizar_volume(video: Path) -> None:
     tmp = video.with_name("video_norm.mp4")
     try:
         _ffmpeg("-i", str(video), "-c:v", "copy", "-af", "loudnorm=I=-14:TP=-1.5:LRA=11",
-                "-c:a", "aac", "-b:a", "160k", str(tmp))
+                "-ar", "48000", "-c:a", "aac", "-b:a", "160k", str(tmp))  # loudnorm sobe para 96 kHz; Instagram aceita até 48
         tmp.replace(video)
         log("montador", "volume normalizado (-14 LUFS)")
     except Exception as e:  # noqa: BLE001

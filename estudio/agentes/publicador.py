@@ -165,7 +165,28 @@ def facebook_reel(token: str, page_id: str, video: Path, descricao: str) -> dict
     return {"status": "published", "publicUrl": f"https://www.facebook.com/reel/{vid}"}
 
 
+def _compativel(video: Path) -> Path:
+    """Garante áudio a 48 kHz (o Instagram recusa acima disso). Vídeo é copiado sem recodificar."""
+    import json as _j
+    import subprocess as _sp
+    try:
+        info = _j.loads(_sp.run(["ffprobe", "-v", "error", "-select_streams", "a:0", "-show_entries",
+                                  "stream=sample_rate", "-of", "json", str(video)],
+                                 capture_output=True, text=True, check=True).stdout)
+        taxa = int(info["streams"][0]["sample_rate"])
+    except Exception:  # noqa: BLE001
+        return video
+    if taxa <= 48000:
+        return video
+    saida = video.with_name("video_48k.mp4")
+    _sp.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(video), "-c:v", "copy", "-ar", "48000",
+             "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", str(saida)], check=True)
+    log("publicador", f"áudio convertido de {taxa} Hz para 48 kHz")
+    return saida
+
+
 def publicar(canal: dict, video: Path, texto: str, pular: set = frozenset()) -> dict:
+    video = _compativel(video)
     meta = os.getenv(canal.get("secret_token_meta", "") or "_")
     if meta:  # chave da Página: Instagram + Facebook com a mesma chave
         resultados = {}

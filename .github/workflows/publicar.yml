@@ -32,7 +32,8 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
-      - run: pip install -r requirements.txt
+      - uses: FedericoCarboni/setup-ffmpeg@v3
+      - run: pip install requests pyyaml
       - run: python -m estudio.publicar --issue ${{ github.event.issue.number }}
 
   rejeitar:
