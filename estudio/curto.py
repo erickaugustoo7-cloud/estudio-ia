@@ -192,6 +192,8 @@ def produzir_curto(caminho: Path, sem_envio: bool, sem_issue: bool) -> None:
         link = abrir_issue({**canal, "estilo_nome": "curto"}, roteiro, texto_post, pasta, dur,
                            avisos, ref, no_telegram)
         log("curto", f"aguardando aprovação: {link}")
+        if no_telegram and link:
+            publicador.telegram_mensagem(f"✅ Aprovar para Instagram e Facebook: {link}")
     log("curto", f"concluído: {video}")
 
 
