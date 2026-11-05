@@ -53,7 +53,9 @@ def main():
            f"❌ Não consegui baixar o vídeo (artefatos expiram em 14 dias). Detalhe: {e.stderr[:300]}")
         return
     video = next(destino.rglob(f"{dados['pasta']}/video.mp4"), None) or next(destino.rglob("video.mp4"))
-    res = publicador.publicar(canal, video, dados["texto_post"])
+    fb_ant = next((m.group(1) for c in info.get("comments", [])
+                   for m in [re.search(r"facebook\.com/reel/(\d+)", c.get("body", ""))] if m), None)
+    res = publicador.publicar(canal, video, dados["texto_post"], fb_video_id=fb_ant)
 
     linhas = ["## 📤 Resultado da publicação"]
     sucesso = True

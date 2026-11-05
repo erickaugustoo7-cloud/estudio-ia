@@ -131,25 +131,41 @@ def instagram_reel_meta(token: str, ig_id: str, video: Path, legenda: str) -> di
     c.raise_for_status()
     cont = c.json()
     dados = video.read_bytes()
-    uri = cont.get("uri") or f"https://rupload.facebook.com/ig-api-upload/v23.0/{cont['id']}"
-    # envio em partes (vídeos maiores que ~10 MB falhavam no envio único)
-    parte, offset = 4 * 1024 * 1024, 0
-    while offset < len(dados):
-        bloco = dados[offset:offset + parte]
-        for tentativa in range(3):
-            up = requests.post(uri, data=bloco, timeout=300, headers={
-                "Authorization": f"OAuth {token}", "offset": str(offset), "file_size": str(len(dados)),
-                "Content-Type": "application/octet-stream"})
-            if up.ok:
-                break
-            time.sleep(5)
-        up.raise_for_status()
-        offset += len(bloco)
+    up = requests.post(cont.get("uri") or f"https://rupload.facebook.com/ig-api-upload/v23.0/{cont['id']}",
+                       data=dados, timeout=600,
+                       headers={"Authorization": f"OAuth {token}", "offset": "0", "file_size": str(len(dados))})
+    up.raise_for_status()
     erro = _esperar_container(token, cont["id"])
     if erro:
         return {"status": "failed", "errorMessage": erro}
     pub = requests.post(f"{FB_API}/{ig_id}/media_publish", data={"creation_id": cont["id"], "access_token": token},
                         timeout=60)
+    if not pub.ok:
+        return {"status": "failed", "errorMessage": pub.text[:300]}
+    link = requests.get(f"{FB_API}/{pub.json()['id']}", params={"fields": "permalink", "access_token": token},
+                        timeout=30).json()
+    return {"status": "published", "publicUrl": link.get("permalink", "")}
+
+
+def instagram_reel_por_url(token: str, ig_id: str, fb_video_id: str, legenda: str) -> dict:
+    """Plano B: o Instagram baixa o vídeo do próprio Facebook (evita o envio direto, que falha em vídeos longos)."""
+    src = None
+    for _ in range(20):  # o Facebook pode levar alguns minutos para liberar o arquivo
+        src = requests.get(f"{FB_API}/{fb_video_id}", params={"fields": "source", "access_token": token},
+                           timeout=30).json().get("source")
+        if src:
+            break
+        time.sleep(15)
+    if not src:
+        return {"status": "failed", "errorMessage": "o Facebook não liberou o arquivo do vídeo"}
+    c = requests.post(f"{FB_API}/{ig_id}/media", timeout=60, data={
+        "media_type": "REELS", "video_url": src, "caption": legenda, "share_to_feed": "true", "access_token": token})
+    c.raise_for_status()
+    cid = c.json()["id"]
+    erro = _esperar_container(token, cid)
+    if erro:
+        return {"status": "failed", "errorMessage": erro}
+    pub = requests.post(f"{FB_API}/{ig_id}/media_publish", data={"creation_id": cid, "access_token": token}, timeout=60)
     if not pub.ok:
         return {"status": "failed", "errorMessage": pub.text[:300]}
     link = requests.get(f"{FB_API}/{pub.json()['id']}", params={"fields": "permalink", "access_token": token},
@@ -172,7 +188,7 @@ def facebook_reel(token: str, page_id: str, video: Path, descricao: str) -> dict
         "access_token": token})
     if not fim.ok:
         return {"status": "failed", "errorMessage": fim.text[:300]}
-    return {"status": "published", "publicUrl": f"https://www.facebook.com/reel/{vid}"}
+    return {"status": "published", "publicUrl": f"https://www.facebook.com/reel/{vid}", "video_id": vid}
 
 
 def _compativel(video: Path) -> Path:
@@ -195,7 +211,7 @@ def _compativel(video: Path) -> Path:
     return saida
 
 
-def publicar(canal: dict, video: Path, texto: str, pular: set = frozenset()) -> dict:
+def publicar(canal: dict, video: Path, texto: str, pular: set = frozenset(), fb_video_id: str | None = None) -> dict:
     video = _compativel(video)
     meta = os.getenv(canal.get("secret_token_meta", "") or "_")
     if meta:  # chave da Página: Instagram + Facebook com a mesma chave
@@ -204,15 +220,23 @@ def publicar(canal: dict, video: Path, texto: str, pular: set = frozenset()) -> 
             page_id, ig_id = meta_contas(meta)
         except requests.HTTPError as e:
             return {"meta": {"status": "failed", "errorMessage": f"chave da Página inválida — {e.response.text[:300]}"}}
-        for plat in canal["publicar_em"]:
-            if plat in pular:
-                continue
+        ordem = sorted([p for p in canal["publicar_em"] if p not in pular], key=lambda p: p != "facebook")
+        for plat in ordem:
             try:
-                if plat == "instagram":
-                    resultados[plat] = (instagram_reel_meta(meta, ig_id, video, texto) if ig_id else
-                                        {"status": "failed", "errorMessage": "Instagram não está ligado à Página"})
-                elif plat == "facebook":
+                if plat == "facebook":
                     resultados[plat] = facebook_reel(meta, page_id, video, texto)
+                elif plat == "instagram":
+                    if not ig_id:
+                        resultados[plat] = {"status": "failed", "errorMessage": "Instagram não está ligado à Página"}
+                    else:
+                        try:
+                            resultados[plat] = instagram_reel_meta(meta, ig_id, video, texto)
+                        except requests.HTTPError as e:
+                            resultados[plat] = {"status": "failed", "errorMessage": f"{e}"}
+                        fb_id = (resultados.get("facebook") or {}).get("video_id") or fb_video_id
+                        if resultados[plat]["status"] != "published" and fb_id:
+                            log("publicador", "instagram: envio direto falhou — usando o vídeo do Facebook")
+                            resultados[plat] = instagram_reel_por_url(meta, ig_id, fb_id, texto)
             except requests.HTTPError as e:
                 resultados[plat] = {"status": "failed", "errorMessage": f"{e} — {e.response.text[:300]}"}
             log("publicador", f"{plat}: {resultados[plat]['status']}")
