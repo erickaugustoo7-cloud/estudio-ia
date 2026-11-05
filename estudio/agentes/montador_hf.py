@@ -84,7 +84,7 @@ def _composicao(canal, titulo, imagens, tempos, palavras, dur, tem_musica) -> st
     # ---- áudio ----
     elems.append(f'<audio src="narracao.mp3" data-start="0" data-duration="{_f(dur)}" data-volume="1" data-track-index="5"></audio>')
     if tem_musica:
-        elems.append(f'<audio src="musica.mp3" data-start="0" data-duration="{_f(fim)}" data-volume="{canal.get('musica_volume', 0.3)}" '
+        elems.append(f'<audio src="musica.mp3" data-start="0" data-duration="{_f(fim)}" data-volume="{canal.get("musica_volume", 0.3)}" '
                      f'data-fade-in="1" data-fade-out="2" data-track-index="6"></audio>')
 
     fonte = ""
