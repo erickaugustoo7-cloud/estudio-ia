@@ -47,7 +47,8 @@ def _avaliar(chave, canal, cena, img) -> dict:
     corpo = {"contents": [{"parts": [{"inline_data": {"mime_type": "image/jpeg", "data": _miniatura(img)}},
                                      {"text": texto}]}],
              "generationConfig": {"responseMimeType": "application/json", "temperature": 0.1}}
-    modelos = [MODELO or gemini_flash(), "gemini-flash-latest", "gemini-flash-lite-latest"]
+    # o "lite" responde bem mais rápido e basta para checar tema/texto/deformações
+    modelos = [MODELO or "gemini-flash-lite-latest", gemini_flash(), "gemini-flash-latest"]
     r = None
     for modelo in dict.fromkeys(modelos):  # tenta o mais novo; se estiver sobrecarregado, outro
         for espera in (0, 8):
@@ -67,7 +68,7 @@ def revisar(canal: dict, cenas: list[dict], imagens: list[Path]) -> list[str]:
         return []
     avisos, trocadas, falhas = [], 0, 0
     prazo = time.time() + 8 * 60  # a revisão nunca segura o vídeo por mais de ~8 minutos
-    log("revisor-visual", f"modelo {MODELO or gemini_flash()}")
+    log("revisor-visual", f"modelo {MODELO or 'gemini-flash-lite-latest'} (reserva {gemini_flash()})")
     for i, (cena, img) in enumerate(zip(cenas, imagens)):
         if cena.get("imagem") or (i == 0 and canal.get("imagem_abertura")):
             continue  # imagem escolhida a dedo
@@ -83,6 +84,7 @@ def revisar(canal: dict, cenas: list[dict], imagens: list[Path]) -> list[str]:
                 avisos.append("Revisão visual não rodou (Gemini indisponível) — confira as imagens.")
                 break
             continue
+        falhas = 0  # só desiste após 2 falhas SEGUIDAS
         if v.get("ok", True):
             log("revisor-visual", f"cena {i + 1}: ok")
             time.sleep(4)  # respeita o limite gratuito por minuto
