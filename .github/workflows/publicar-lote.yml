@@ -1,0 +1,45 @@
+name: Publicar lote (escolhendo as plataformas)
+on:
+  workflow_dispatch:
+    inputs:
+      issues:
+        description: "Números das Issues separados por espaço"
+        required: true
+      plataformas:
+        description: "instagram, facebook ou instagram,facebook"
+        default: "facebook"
+      intervalo:
+        description: "Segundos entre uma publicação e outra"
+        default: "120"
+permissions:
+  issues: write
+  contents: read
+  actions: read
+concurrency:
+  group: publicar-lote
+jobs:
+  lote:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      META_TOKEN_BIBLICO: ${{ secrets.META_TOKEN_BIBLICO }}
+      IG_TOKEN_BIBLICO: ${{ secrets.IG_TOKEN_BIBLICO }}
+      IG_TOKEN_ESPACO: ${{ secrets.IG_TOKEN_ESPACO }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      PLATAFORMAS: ${{ inputs.plataformas }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - uses: FedericoCarboni/setup-ffmpeg@v3
+      - run: pip install -r requirements.txt
+      - run: |
+          for n in ${{ inputs.issues }}; do
+            echo "== #$n"; python -m estudio.publicar --issue $n || true
+            sleep ${{ inputs.intervalo }}
+          done

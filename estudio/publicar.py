@@ -4,6 +4,7 @@ Uso: python -m estudio.publicar --issue 12
 """
 import argparse
 import json
+import os
 import re
 import subprocess
 from pathlib import Path
@@ -39,6 +40,11 @@ def main():
         canal = {**canal, "publicar_em": [p for p in canal["publicar_em"] if p not in ja_feitas]}
         log("publicar", f"já publicadas antes: {', '.join(sorted(ja_feitas))}")
 
+    so = [x.strip() for x in os.getenv("PLATAFORMAS", "").split(",") if x.strip()]
+    if so:  # publicar só nas plataformas pedidas (ex.: PLATAFORMAS=facebook)
+        canal = {**canal, "publicar_em": [p for p in canal["publicar_em"] if p in so]}
+        log("publicar", f"somente: {', '.join(canal['publicar_em'])}")
+
     subprocess.run(["gh", "label", "create", "publicando", "--color", "C5DEF5", "--force"], capture_output=True)
     gh("issue", "edit", n, "--add-label", "publicando")
 
@@ -72,7 +78,9 @@ def main():
         publicador.telegram_mensagem("📤 Publicado!\n" + "\n".join(
             f"• {p}: {r.get('publicUrl', '')}" for p, r in res.items()) + "\nFalta só o TikTok (vídeo e legenda acima).")
     subprocess.run(["gh", "label", "create", "publicado", "--color", "0E8A16", "--force"], capture_output=True)
-    if sucesso:
+    if sucesso and so:
+        gh("issue", "edit", n, "--remove-label", "publicando", "--remove-label", "aprovado")
+    elif sucesso:
         gh("issue", "edit", n, "--add-label", "publicado", "--remove-label", "publicando")
         gh("issue", "close", n)
     else:
