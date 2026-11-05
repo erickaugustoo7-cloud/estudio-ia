@@ -10,10 +10,9 @@ _, ig = meta_contas(tok)
 src = Path(sys.argv[1])
 def ff(*a): subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *a], check=True)
 var = {
-    "30s": ["-i", str(src), "-t", "30", "-c:v", "libx264", "-crf", "23", "-c:a", "aac", "-ar", "48000", "-movflags", "+faststart"],
-    "55s": ["-i", str(src), "-t", "55", "-c:v", "libx264", "-crf", "23", "-c:a", "aac", "-ar", "48000", "-movflags", "+faststart"],
-    "completo_1M": ["-i", str(src), "-c:v", "libx264", "-b:v", "1M", "-maxrate", "1M", "-bufsize", "2M", "-c:a", "aac", "-ar", "48000", "-movflags", "+faststart"],
-    "completo_sem_audio": ["-i", str(src), "-an", "-c:v", "libx264", "-crf", "23", "-movflags", "+faststart"],
+    "55s_baixo": ["-i", str(src), "-t", "55", "-c:v", "libx264", "-b:v", "600k", "-maxrate", "600k", "-bufsize", "1200k", "-c:a", "aac", "-b:a", "96k", "-ar", "48000", "-movflags", "+faststart"],
+    "20s_alto": ["-i", str(src), "-t", "20", "-c:v", "libx264", "-b:v", "6M", "-maxrate", "6M", "-bufsize", "12M", "-c:a", "aac", "-ar", "48000", "-movflags", "+faststart"],
+    "completo_500k": ["-i", str(src), "-c:v", "libx264", "-b:v", "500k", "-maxrate", "500k", "-bufsize", "1M", "-c:a", "aac", "-b:a", "96k", "-ar", "48000", "-movflags", "+faststart"],
 }
 for nome, args in var.items():
     out = Path(f"v_{nome}.mp4"); ff(*args, str(out))
