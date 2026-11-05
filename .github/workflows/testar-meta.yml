@@ -28,6 +28,6 @@ jobs:
           if ig:
               print("cota de publicação IG (24h):", get(ig + "/content_publishing_limit", fields="quota_usage,config"))
           for vid in ["1994559867887674", "2558610801301233"]:
-              print("vídeo", vid, get(vid, fields="status,privacy,published,views,permalink_url"))
+              r = get(vid, fields="privacy,published,permalink_url,views"); print("vídeo", vid, r.get("privacy"), r.get("published"), r.get("views"), r.get("permalink_url"), r.get("erro",""))
           print("tipo:", d.get("type"), "| expira:", d.get("expires_at"), "| válida:", d.get("is_valid"), "| permissões:", ",".join(d.get("scopes", [])), dbg.get("erro", ""))
           PY
