@@ -15,7 +15,7 @@ concurrency:
 
 jobs:
   publicar:
-    if: github.event.label.name == 'aprovado' && contains(github.event.issue.labels.*.name, 'aprovacao')
+    if: github.event.label.name == 'aprovado' && !contains(github.event.issue.labels.*.name, 'publicado')
     runs-on: ubuntu-latest
     timeout-minutes: 30
     env:
