@@ -131,10 +131,20 @@ def instagram_reel_meta(token: str, ig_id: str, video: Path, legenda: str) -> di
     c.raise_for_status()
     cont = c.json()
     dados = video.read_bytes()
-    up = requests.post(cont.get("uri") or f"https://rupload.facebook.com/ig-api-upload/v23.0/{cont['id']}",
-                       data=dados, timeout=600,
-                       headers={"Authorization": f"OAuth {token}", "offset": "0", "file_size": str(len(dados))})
-    up.raise_for_status()
+    uri = cont.get("uri") or f"https://rupload.facebook.com/ig-api-upload/v23.0/{cont['id']}"
+    # envio em partes (vídeos maiores que ~10 MB falhavam no envio único)
+    parte, offset = 4 * 1024 * 1024, 0
+    while offset < len(dados):
+        bloco = dados[offset:offset + parte]
+        for tentativa in range(3):
+            up = requests.post(uri, data=bloco, timeout=300, headers={
+                "Authorization": f"OAuth {token}", "offset": str(offset), "file_size": str(len(dados)),
+                "Content-Type": "application/octet-stream"})
+            if up.ok:
+                break
+            time.sleep(5)
+        up.raise_for_status()
+        offset += len(bloco)
     erro = _esperar_container(token, cont["id"])
     if erro:
         return {"status": "failed", "errorMessage": erro}
