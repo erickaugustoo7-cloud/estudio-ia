@@ -128,7 +128,7 @@ comentários no nicho em português. **A oração vem PRIMEIRO** (decisão do Er
 teste: quem chega pelo gancho quer orar logo). A explicação vem depois, como recompensa prometida.
 Estrutura (mesmas regras de tamanho, cenas e validação):
 1. Gancho pessoal (cena 1), sem promessa nem "Deus mandou te dizer": ex. "Se você vai dormir com o
-   coração pesado hoje, ore comigo agora."
+   coração pesado hoje, faça essa oração comigo."
 2. Convite + loop aberto: "Feche os olhos e repita. E no final, eu te conto [a frase que Jesus
    disse / o que Jesus fez] para [momentos assim]."
 3. Oração curta em 1ª pessoa (5–7 frases simples, 3 cenas), terminando em "Amém." Sem pedir
@@ -137,4 +137,8 @@ Estrutura (mesmas regras de tamanho, cenas e validação):
 5. A cena de Jesus (2–3 frases) + a referência bíblica.
 6. Fechamento: "Se você orou comigo, escreva Amém nos comentários." + enviar/salvar.
 Legenda: 1ª linha = a oração resumida; depois a referência; depois "Escreva Amém 🙏".
+**Texto na tela (`gancho_tela`) das orações: sempre "Faça essa oração …"** (decisão do Eric — "Ore
+isso" soa seco e ficou ruim). Ex.: "Faça essa oração antes de dormir", "Faça essa oração ao
+acordar", "Faça essa oração pela sua família". Na narração, o convite segue o mesmo tom:
+"Faça essa oração comigo agora." / "Feche os olhos e faça essa oração comigo."
 Exemplo aprovado: `roteiros/oracao_dormir_paz.json`.

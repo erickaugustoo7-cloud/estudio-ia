@@ -1,11 +1,11 @@
 {
   "titulo": "Oração para dormir em paz",
-  "gancho_tela": "Ore comigo antes de dormir",
+  "gancho_tela": "Faça essa oração antes de dormir",
   "estilo": "pintura",
-  "narracao": "Se você vai dormir com o coração pesado hoje, ore comigo agora. Feche os olhos e repita. E no final, eu te conto a frase que Jesus deixou para noites assim. Senhor Jesus, eu te entrego este dia. Tudo o que deu certo e tudo o que doeu. Tira do meu coração a preocupação que eu não consigo carregar. Cuida de quem eu amo enquanto eu durmo. Me dá a tua paz, aquela que o mundo não dá. E me deixa acordar amanhã sabendo que tu estás comigo. Amém. Sabe essa paz que você acabou de pedir? Jesus prometeu ela na noite mais difícil da vida dele. Foi na última noite antes da cruz. Os discípulos estavam assustados, e ele sabia da traição e da prisão que vinham pela frente. Mesmo assim, foi ele quem acalmou todos: deixo com vocês a paz, a minha paz eu dou a vocês. Não se perturbe o coração de vocês. João, capítulo catorze. Se você orou comigo, escreva Amém nos comentários. E envie para alguém que vai dormir preocupado hoje.",
+  "narracao": "Se você vai dormir com o coração pesado hoje, faça essa oração comigo. Feche os olhos e repita. E no final, eu te conto a frase que Jesus deixou para noites assim. Senhor Jesus, eu te entrego este dia. Tudo o que deu certo e tudo o que doeu. Tira do meu coração a preocupação que eu não consigo carregar. Cuida de quem eu amo enquanto eu durmo. Me dá a tua paz, aquela que o mundo não dá. E me deixa acordar amanhã sabendo que tu estás comigo. Amém. Sabe essa paz que você acabou de pedir? Jesus prometeu ela na noite mais difícil da vida dele. Foi na última noite antes da cruz. Os discípulos estavam assustados, e ele sabia da traição e da prisão que vinham pela frente. Mesmo assim, foi ele quem acalmou todos: deixo com vocês a paz, a minha paz eu dou a vocês. Não se perturbe o coração de vocês. João, capítulo catorze. Se você orou comigo, escreva Amém nos comentários. E envie para alguém que vai dormir preocupado hoje.",
   "cenas": [
     {
-      "trecho": "Se você vai dormir com o coração pesado hoje, ore comigo agora.",
+      "trecho": "Se você vai dormir com o coração pesado hoje, faça essa oração comigo.",
       "busca_imagem": "",
       "prompt_imagem": ""
     },
