@@ -86,7 +86,7 @@ def _composicao(canal, r, dur) -> str:
 
     elems.append(f'<div id="assinatura" class="clip" data-start="0" data-duration="{_f(dur)}" data-track-index="5">'
                  f'{html.escape(canal["nome"])}</div>')
-    elems.append(f'<audio src="musica.mp3" data-start="0" data-duration="{_f(dur)}" data-volume="0.55" '
+    elems.append(f'<audio src="musica.mp3" data-start="0" data-duration="{_f(dur)}" data-volume="0.9" '
                  f'data-fade-in="0.8" data-fade-out="1.5" data-track-index="6"></audio>')
 
     return f"""<!doctype html>
@@ -164,7 +164,9 @@ def produzir_curto(caminho: Path, sem_envio: bool, sem_issue: bool) -> None:
         avisos += revisor_visual.revisar(canal_img, [cena], [proj / "leao.jpg"])
     except Exception as e:  # noqa: BLE001
         log("curto", f"revisão visual indisponível ({e})")
-    _gerar_trilha(canal, proj / "musica.mp3", dur + 1)
+    from estudio.agentes.montador_hf import _preparar_musica
+    if not _preparar_musica(canal, proj / "musica.mp3", dur + 1):  # faixa da Pixabay (normalizada)
+        _gerar_trilha(canal, proj / "musica.mp3", dur + 1)
     shutil.copy(RAIZ / "node_modules/gsap/dist/gsap.min.js", proj / "gsap.min.js")
     (proj / "index.html").write_text(_composicao(canal, r, dur), encoding="utf-8")
 
