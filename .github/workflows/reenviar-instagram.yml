@@ -6,6 +6,13 @@ on:
   schedule:
     - cron: "17 13,19,1 * * *"
   workflow_dispatch:
+    inputs:
+      issues:
+        description: "Opcional: Issues específicas (separadas por espaço)"
+        required: false
+      plataformas:
+        description: "Opcional: só estas plataformas (ex.: facebook)"
+        required: false
 
 permissions:
   issues: write
@@ -27,6 +34,8 @@ jobs:
       IG_TOKEN_ESPACO: ${{ secrets.IG_TOKEN_ESPACO }}
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      PLATAFORMAS: ${{ inputs.plataformas }}
+      ISSUES: ${{ inputs.issues }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -37,6 +46,10 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Reenviar
         run: |
+          if [ -n "$ISSUES" ]; then
+            for n in $ISSUES; do echo "== Issue #$n"; python -m estudio.publicar --issue $n || true; sleep 90; done
+            exit 0
+          fi
           for n in $(gh issue list --label aprovacao --state open --limit 50 --json number,comments \
               -q '.[] | select([.comments[].body] | join(" ") | (contains("❌ **instagram**") and contains("✅ **facebook**"))) | .number'); do
             echo "== Issue #$n"
