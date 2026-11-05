@@ -1,0 +1,26 @@
+name: Extrair capas (diagnóstico)
+on:
+  workflow_dispatch:
+    inputs:
+      pares:
+        required: true
+permissions:
+  contents: write
+  actions: read
+jobs:
+  c:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: FedericoCarboni/setup-ffmpeg@v3
+      - run: |
+          mkdir -p tmp_capas
+          for par in ${{ inputs.pares }}; do n=${par%%:*}; id=${par##*:}
+            gh run download $id -D d_$id >/dev/null 2>&1 || { echo "sem $n"; continue; }
+            f=$(find d_$id -name video.mp4 | head -1)
+            ffmpeg -loglevel error -y -ss 0.5 -i "$f" -frames:v 1 -vf scale=216:384 tmp_capas/c_$n.jpg
+          done
+          git config user.name "estudio-ia[bot]"; git config user.email "estudio-ia@users.noreply.github.com"
+          git add tmp_capas && git commit -qm "tmp: capas" && git push -q
