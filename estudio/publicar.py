@@ -67,8 +67,8 @@ def main():
     linhas.append("- 📱 **tiktok**: postagem manual com o vídeo do Telegram")
     gh("issue", "comment", n, "--body", "\n".join(linhas))
     if sucesso:
-        publicador.telegram_mensagem(f"📤 Instagram publicado: {res.get('instagram', {}).get('publicUrl', '')}\n"
-                                     "Falta só o TikTok (vídeo e legenda acima).")
+        publicador.telegram_mensagem("📤 Publicado!\n" + "\n".join(
+            f"• {p}: {r.get('publicUrl', '')}" for p, r in res.items()) + "\nFalta só o TikTok (vídeo e legenda acima).")
     subprocess.run(["gh", "label", "create", "publicado", "--color", "0E8A16", "--force"], capture_output=True)
     if sucesso:
         gh("issue", "edit", n, "--add-label", "publicado", "--remove-label", "publicando")

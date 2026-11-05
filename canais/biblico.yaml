@@ -73,3 +73,12 @@ estilo_visual: >
   classical oil painting, biblical era, soft golden divine light, reverent and
   peaceful atmosphere, cinematic composition, vertical 9:16, highly detailed,
   no text, no letters, no watermark
+
+musica: assets/musica/biblico   # .mp3 seus aqui têm prioridade; vazio = trilha ambiente gerada
+trilha_gerada: true
+
+# ---------- Publicação ----------
+# Instagram + Página do Facebook com a chave da Página (META_TOKEN_BIBLICO). TikTok: manual.
+publicar_em: [instagram, facebook]
+secret_token_meta: META_TOKEN_BIBLICO
+secret_token_instagram: IG_TOKEN_BIBLICO   # reserva (chave antiga só do Instagram)

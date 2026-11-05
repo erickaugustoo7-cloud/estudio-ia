@@ -99,7 +99,97 @@ def instagram_reel(token: str, video: Path, legenda: str) -> dict:
     return {"status": "published", "publicUrl": link.get("permalink", "")}
 
 
+# ---------------- Meta (chave da Página: publica no Instagram e na Página do Facebook) ----------------
+FB_API = "https://graph.facebook.com/v23.0"
+
+
+def meta_contas(token: str) -> tuple[str, str | None]:
+    """Com a chave da Página, descobre o ID da Página e o da conta do Instagram ligada a ela."""
+    r = requests.get(f"{FB_API}/me", params={"fields": "id,name,instagram_business_account",
+                                               "access_token": token}, timeout=30)
+    r.raise_for_status()
+    d = r.json()
+    return d["id"], (d.get("instagram_business_account") or {}).get("id")
+
+
+def _esperar_container(token, cont_id) -> str | None:
+    for _ in range(40):
+        time.sleep(15)
+        st = requests.get(f"{FB_API}/{cont_id}", params={"fields": "status_code,status", "access_token": token},
+                          timeout=30).json()
+        if st.get("status_code") == "FINISHED":
+            return None
+        if st.get("status_code") in ("ERROR", "EXPIRED"):
+            return st.get("status") or st.get("status_code")
+    return "Meta não terminou de processar em 10 min"
+
+
+def instagram_reel_meta(token: str, ig_id: str, video: Path, legenda: str) -> dict:
+    c = requests.post(f"{FB_API}/{ig_id}/media", timeout=60, data={
+        "media_type": "REELS", "upload_type": "resumable", "caption": legenda, "share_to_feed": "true",
+        "access_token": token})
+    c.raise_for_status()
+    cont = c.json()
+    dados = video.read_bytes()
+    up = requests.post(cont.get("uri") or f"https://rupload.facebook.com/ig-api-upload/v23.0/{cont['id']}",
+                       data=dados, timeout=600,
+                       headers={"Authorization": f"OAuth {token}", "offset": "0", "file_size": str(len(dados))})
+    up.raise_for_status()
+    erro = _esperar_container(token, cont["id"])
+    if erro:
+        return {"status": "failed", "errorMessage": erro}
+    pub = requests.post(f"{FB_API}/{ig_id}/media_publish", data={"creation_id": cont["id"], "access_token": token},
+                        timeout=60)
+    if not pub.ok:
+        return {"status": "failed", "errorMessage": pub.text[:300]}
+    link = requests.get(f"{FB_API}/{pub.json()['id']}", params={"fields": "permalink", "access_token": token},
+                        timeout=30).json()
+    return {"status": "published", "publicUrl": link.get("permalink", "")}
+
+
+def facebook_reel(token: str, page_id: str, video: Path, descricao: str) -> dict:
+    ini = requests.post(f"{FB_API}/{page_id}/video_reels", data={"upload_phase": "start", "access_token": token},
+                        timeout=60)
+    ini.raise_for_status()
+    vid = ini.json()["video_id"]
+    dados = video.read_bytes()
+    up = requests.post(ini.json().get("upload_url") or f"https://rupload.facebook.com/video-upload/v23.0/{vid}",
+                       data=dados, timeout=600,
+                       headers={"Authorization": f"OAuth {token}", "offset": "0", "file_size": str(len(dados))})
+    up.raise_for_status()
+    fim = requests.post(f"{FB_API}/{page_id}/video_reels", timeout=60, data={
+        "upload_phase": "finish", "video_id": vid, "video_state": "PUBLISHED", "description": descricao,
+        "access_token": token})
+    if not fim.ok:
+        return {"status": "failed", "errorMessage": fim.text[:300]}
+    return {"status": "published", "publicUrl": f"https://www.facebook.com/reel/{vid}"}
+
+
 def publicar(canal: dict, video: Path, texto: str, pular: set = frozenset()) -> dict:
+    meta = os.getenv(canal.get("secret_token_meta", "") or "_")
+    if meta:  # chave da Página: Instagram + Facebook com a mesma chave
+        resultados = {}
+        try:
+            page_id, ig_id = meta_contas(meta)
+        except requests.HTTPError as e:
+            return {"meta": {"status": "failed", "errorMessage": f"chave da Página inválida — {e.response.text[:300]}"}}
+        for plat in canal["publicar_em"]:
+            if plat in pular:
+                continue
+            try:
+                if plat == "instagram":
+                    resultados[plat] = (instagram_reel_meta(meta, ig_id, video, texto) if ig_id else
+                                        {"status": "failed", "errorMessage": "Instagram não está ligado à Página"})
+                elif plat == "facebook":
+                    resultados[plat] = facebook_reel(meta, page_id, video, texto)
+            except requests.HTTPError as e:
+                resultados[plat] = {"status": "failed", "errorMessage": f"{e} — {e.response.text[:300]}"}
+            log("publicador", f"{plat}: {resultados[plat]['status']}")
+        return resultados
+    return _publicar_ig_antigo(canal, video, texto, pular)
+
+
+def _publicar_ig_antigo(canal: dict, video: Path, texto: str, pular: set = frozenset()) -> dict:
     resultados = {}
     if "instagram" in canal["publicar_em"] and "instagram" not in pular:
         nome_secret = canal["secret_token_instagram"]

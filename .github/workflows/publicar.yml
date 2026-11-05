@@ -23,6 +23,7 @@ jobs:
       GH_REPO: ${{ github.repository }}
       IG_TOKEN_BIBLICO: ${{ secrets.IG_TOKEN_BIBLICO }}
       IG_TOKEN_ESPACO: ${{ secrets.IG_TOKEN_ESPACO }}
+      META_TOKEN_BIBLICO: ${{ secrets.META_TOKEN_BIBLICO }}
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
     steps:
