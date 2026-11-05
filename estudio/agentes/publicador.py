@@ -192,23 +192,21 @@ def facebook_reel(token: str, page_id: str, video: Path, descricao: str) -> dict
 
 
 def _compativel(video: Path) -> Path:
-    """Garante áudio a 48 kHz (o Instagram recusa acima disso). Vídeo é copiado sem recodificar."""
-    import json as _j
+    """Recodifica no padrão que o Instagram recomenda para Reels (H.264 High 4.1, GOP fechado de 2 s,
+    áudio AAC 48 kHz 128 kbps, moov no início). Os vídeos longos falhavam com o arquivo original."""
     import subprocess as _sp
+    saida = video.with_name("video_ig.mp4")
     try:
-        info = _j.loads(_sp.run(["ffprobe", "-v", "error", "-select_streams", "a:0", "-show_entries",
-                                  "stream=sample_rate", "-of", "json", str(video)],
-                                 capture_output=True, text=True, check=True).stdout)
-        taxa = int(info["streams"][0]["sample_rate"])
-    except Exception:  # noqa: BLE001
+        _sp.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(video),
+                 "-c:v", "libx264", "-profile:v", "high", "-level", "4.1", "-preset", "fast", "-crf", "22",
+                 "-maxrate", "6M", "-bufsize", "12M", "-g", "60", "-keyint_min", "60", "-sc_threshold", "0",
+                 "-pix_fmt", "yuv420p", "-r", "30", "-c:a", "aac", "-b:a", "128k", "-ar", "48000", "-ac", "2",
+                 "-movflags", "+faststart", str(saida)], check=True)
+        log("publicador", f"vídeo recodificado para o padrão do Instagram ({saida.stat().st_size / 1e6:.1f} MB)")
+        return saida
+    except Exception as e:  # noqa: BLE001
+        log("publicador", f"recodificação falhou ({e}); enviando o original")
         return video
-    if taxa <= 48000:
-        return video
-    saida = video.with_name("video_48k.mp4")
-    _sp.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(video), "-c:v", "copy", "-ar", "48000",
-             "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", str(saida)], check=True)
-    log("publicador", f"áudio convertido de {taxa} Hz para 48 kHz")
-    return saida
 
 
 def publicar(canal: dict, video: Path, texto: str, pular: set = frozenset(), fb_video_id: str | None = None) -> dict:
