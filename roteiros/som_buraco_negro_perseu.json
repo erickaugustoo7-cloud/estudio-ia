@@ -1,0 +1,65 @@
+{
+  "titulo": "A nota mais grave do universo vem de um buraco negro",
+  "gancho_tela": "O som de um buraco negro",
+  "narracao": "Existe um som no espaço que nenhum ouvido humano consegue escutar. Ele vem de um buraco negro gigante. E é a nota mais grave já encontrada no universo. Esse buraco negro fica no centro do aglomerado de galáxias de Perseu, a cerca de duzentos e quarenta milhões de anos-luz da Terra. Mas no espaço não existe som, certo? Quase. O espaço é quase todo vácuo, e o som precisa de algo para viajar. Só que esse aglomerado está mergulhado em gás muito quente. E esse gás carrega o som. Jatos do buraco negro empurram esse gás e criam ondas de pressão, como ondas numa piscina. Em dois mil e três, o telescópio Chandra, da NASA, flagrou essas ondas. A nota é um si bemol, cinquenta e sete oitavas abaixo do dó central do piano. Mais de um milhão de bilhões de vezes mais grave do que conseguimos ouvir. Em dois mil e vinte e dois, a NASA deixou o som mais de cem quatrilhões de vezes mais agudo. E finalmente deu para escutar: um zumbido grave e arrepiante. Os cientistas estimam que essa nota pode soar há cerca de dois bilhões e meio de anos. Você teria coragem de ouvir o som de um buraco negro? Siga para descobrir uma curiosidade nova todo dia.",
+  "cenas": [
+    {
+      "trecho": "Existe um som no espaço que nenhum ouvido humano consegue escutar.",
+      "busca_imagem": "Perseus cluster Chandra",
+      "prompt_imagem": "glowing purple and blue hot gas of a galaxy cluster in deep space, mysterious, cinematic"
+    },
+    {
+      "trecho": "Ele vem de um buraco negro gigante. E é a nota mais grave já encontrada no universo.",
+      "busca_imagem": "supermassive black hole illustration",
+      "prompt_imagem": "a supermassive black hole with a bright glowing accretion disk in deep space, dramatic lighting"
+    },
+    {
+      "trecho": "Esse buraco negro fica no centro do aglomerado de galáxias de Perseu, a cerca de duzentos e quarenta milhões de anos-luz da Terra.",
+      "busca_imagem": "Perseus galaxy cluster",
+      "prompt_imagem": "a huge cluster of galaxies with a giant bright galaxy at its center, deep space photography"
+    },
+    {
+      "trecho": "Mas no espaço não existe som, certo? Quase. O espaço é quase todo vácuo, e o som precisa de algo para viajar.",
+      "busca_imagem": "deep field galaxies Hubble",
+      "prompt_imagem": "vast empty black space with distant tiny galaxies, sense of silence and emptiness"
+    },
+    {
+      "trecho": "Só que esse aglomerado está mergulhado em gás muito quente. E esse gás carrega o som.",
+      "busca_imagem": "galaxy cluster hot gas X-ray",
+      "prompt_imagem": "a galaxy cluster wrapped in a glowing cloud of hot X-ray gas, purple haze, cinematic"
+    },
+    {
+      "trecho": "Jatos do buraco negro empurram esse gás e criam ondas de pressão, como ondas numa piscina.",
+      "busca_imagem": "NGC 1275 Chandra",
+      "prompt_imagem": "powerful jets from a black hole inflating giant bubbles in glowing gas, ripples spreading outward"
+    },
+    {
+      "trecho": "Em dois mil e três, o telescópio Chandra, da NASA, flagrou essas ondas. A nota é um si bemol, cinquenta e sete oitavas abaixo do dó central do piano. Mais de um milhão de bilhões de vezes mais grave do que conseguimos ouvir.",
+      "busca_imagem": "Chandra X-ray Observatory",
+      "prompt_imagem": "the Chandra X-ray space telescope orbiting above Earth, stars in background"
+    },
+    {
+      "trecho": "Em dois mil e vinte e dois, a NASA deixou o som mais de cem quatrilhões de vezes mais agudo. E finalmente deu para escutar: um zumbido grave e arrepiante. Os cientistas estimam que essa nota pode soar há cerca de dois bilhões e meio de anos.",
+      "busca_imagem": "Perseus sonification",
+      "prompt_imagem": "sound waves rippling through glowing cosmic gas around a black hole, concentric rings, eerie"
+    },
+    {
+      "trecho": "Você teria coragem de ouvir o som de um buraco negro? Siga para descobrir uma curiosidade nova todo dia.",
+      "busca_imagem": "black hole Event Horizon",
+      "prompt_imagem": "a dark black hole silhouette against a glowing ring of light in deep space"
+    }
+  ],
+  "legenda": "O buraco negro de Perseu emite um si bemol 57 oitavas abaixo do dó central — a nota mais grave já detectada. 🕳️🎵\nVocê teria coragem de ouvir? Comenta aqui 👇",
+  "hashtags": [
+    "#buraconegro",
+    "#NASA",
+    "#Chandra",
+    "#somdoespaço"
+  ],
+  "fontes": [
+    "NASA/Chandra (2022) — New NASA Black Hole Sonifications with a Remix: Perseus a ~240 milhões de anos-luz; si bemol pouco mais de 57 oitavas abaixo do dó central; som elevado 57 e 58 oitavas (144 e 288 quatrilhões de vezes); espaço é quase vácuo, mas o aglomerado tem gás que envolve centenas ou milhares de galáxias — https://chandra.harvard.edu/photo/2022/sonify5/",
+    "NASA/Chandra (2003) — Perseus Cluster: ondas sonoras detectadas em 2003; mais de um milhão de bilhões de vezes mais grave que o limite da audição humana; cavidades/bolhas e ondas que se espalham por centenas de milhares de anos-luz — https://chandra.harvard.edu/photo/2003/perseus/",
+    "Spaceflight Now / NASA (2003) — 'Chandra hears a black hole': nota mais grave já detectada de um objeto no universo; jatos do buraco negro; nota possivelmente constante por ~2,5 bilhões de anos — https://spaceflightnow.com/news/n0309/09blackhole/",
+    "Guinness World Records — Deepest note in the universe"
+  ]
+}
