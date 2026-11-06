@@ -318,10 +318,14 @@ def main():
         ass.write_text(montador.gerar_legendas([], ass).read_text())
     extra = ("Style: Topo,DejaVu Serif,70,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,-1,0,0,0,100,100,0,0,1,5,2,8,70,70,300,1\n"
              f"{ESTILO_ASSINATURA}\n"
+             "Style: Serie,DejaVu Sans,34,&H007AD2FF,&H007AD2FF,&H00000000,&H80000000,-1,0,0,0,100,100,5,0,1,3,1,8,70,70,170,1\n"
              "Style: Ref,DejaVu Serif,44,&H007AD2FF,&H007AD2FF,&H00000000,&H64000000,-1,0,0,0,100,100,6,0,1,4,2,2,70,70,330,1\n")
     t = ass.read_text().replace("\n[Events]", extra + "\n[Events]", 1)
     t += f"Dialogue: 1,{_ts(0)},{_ts(2.6)},Topo,,0,0,0,,{r.get('gancho_tela', r['titulo']).upper()}\n"
     t += f"Dialogue: 2,{_ts(0)},{_ts(total)},Sig,,0,0,0,,{canal['nome'].upper()}\n"  # assinatura do canal
+    if r.get("serie"):  # selo da série no topo durante todo o vídeo
+        selo = f"{r['serie']} · Parte {r['parte']}" if r.get("parte") else r["serie"]
+        t += f"Dialogue: 2,{_ts(0)},{_ts(total)},Serie,,0,0,0,,{selo.upper()}\n"
     if r.get("referencia"):
         t += f"Dialogue: 1,{_ts(max(0, total - 3.2))},{_ts(total)},Ref,,0,0,0,,{r['referencia'].upper()}\n"
     ass.write_text(t, encoding="utf-8")

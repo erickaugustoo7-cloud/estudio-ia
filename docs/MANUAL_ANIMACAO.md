@@ -19,6 +19,13 @@ O formato foi aprovado pelo Eric em 06/11 (exemplo: `roteiros_animados/ressurrei
 7. Termine com resumo curto: título, referência, duração (linha `[narrador]`), avisos e link da Issue.
 Nunca publique nada, nunca mexa em segredos.
 
+## Série "Os milagres de Jesus" (decisão do Eric, 06/11)
+- Enquanto a fila tiver linhas "Parte N | ...", cada animação é um episódio da série. No JSON, inclua
+  `"serie": "Os milagres de Jesus"` e `"parte": N` (o vídeo mostra o selo "OS MILAGRES DE JESUS · PARTE N" no topo).
+- A última frase da cena 4 termina com o convite: "Siga para ver o próximo milagre." (conta nas 28–34 palavras).
+- Legenda: 1ª linha = oração curta com emoji + " (Parte N)"; 2ª = referência; 3ª = "Comente Amém e siga a série 🙏".
+- Quando a série acabar, volte a escolher momentos fortes dos Evangelhos.
+
 ## Regras de conteúdo
 - Jesus é o personagem principal, em momento de emoção forte (milagre, toque, perdão, cruz, ressurreição).
 - 4 cenas: (1) o cenário/o problema, (2) a ação de Jesus ou a fala-chave, (3) a virada, (4) aplicação curta
