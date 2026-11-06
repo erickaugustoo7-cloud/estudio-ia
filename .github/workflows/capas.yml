@@ -15,6 +15,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: FedericoCarboni/setup-ffmpeg@v3
+        id: ff
+        continue-on-error: true
+      - uses: FedericoCarboni/setup-ffmpeg@v3  # 2ª tentativa (o download às vezes falha)
+        id: ff2
+        if: steps.ff.outcome == 'failure'
+        continue-on-error: true
+      - if: steps.ff.outcome == 'failure' && steps.ff2.outcome == 'failure'
+        run: sudo apt-get update -q && sudo apt-get install -y -q ffmpeg
       - run: |
           mkdir -p tmp_capas
           for par in ${{ inputs.pares }}; do n=${par%%:*}; id=${par##*:}

@@ -19,6 +19,14 @@ jobs:
         with:
           python-version: "3.12"
       - uses: FedericoCarboni/setup-ffmpeg@v3
+        id: ff
+        continue-on-error: true
+      - uses: FedericoCarboni/setup-ffmpeg@v3  # 2ª tentativa (o download às vezes falha)
+        id: ff2
+        if: steps.ff.outcome == 'failure'
+        continue-on-error: true
+      - if: steps.ff.outcome == 'failure' && steps.ff2.outcome == 'failure'
+        run: sudo apt-get update -q && sudo apt-get install -y -q ffmpeg
       - run: pip install -q requests pyyaml edge-tts
       - run: |
           gh run download ${{ inputs.run_id }} -D d
