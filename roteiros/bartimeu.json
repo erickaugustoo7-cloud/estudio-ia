@@ -1,0 +1,63 @@
+{
+  "titulo": "Bartimeu: o cego que gritou mais alto",
+  "gancho_tela": "A multidão mandou calar. Jesus parou.",
+  "estilo": "pintura",
+  "narracao": "Mandaram ele calar a boca. Ele gritou mais alto. E Jesus parou. Esse homem era Bartimeu, um mendigo cego. Está em Marcos, capítulo dez. Mas a pergunta que Jesus fez a ele surpreende. Jesus saía de Jericó com uma grande multidão. Bartimeu estava sentado à beira do caminho, pedindo esmola. Quando ouviu que era Jesus, começou a gritar: Jesus, Filho de Davi, tem misericórdia de mim! Muitos o repreendiam para que ficasse quieto. Mas ele gritava ainda mais. E Jesus parou. E disse: chamem o cego. Coragem, levante-se, ele está chamando você. Ele jogou a capa, deu um salto e foi até Jesus. Então Jesus perguntou: o que você quer que eu faça por você? Jesus sabia a resposta. Mas quis ouvir da boca dele. Mestre, que eu volte a ver. Vá, a sua fé o salvou. Na mesma hora, ele passou a ver. E seguiu Jesus pelo caminho. A multidão queria silêncio. Jesus queria ouvir a voz dele. Se o mundo mandou você se calar, continue clamando. Jesus ainda para por você. Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias.",
+  "cenas": [
+    {
+      "trecho": "Mandaram ele calar a boca. Ele gritou mais alto. E Jesus parou.",
+      "busca_imagem": "",
+      "prompt_imagem": "a blind beggar in ragged ancient robes seen from behind, sitting in the dust by a stone road, arms raised high toward a radiant golden light breaking over a dense crowd at the gates of an ancient city, dramatic contrast"
+    },
+    {
+      "trecho": "Esse homem era Bartimeu, um mendigo cego. Está em Marcos, capítulo dez. Mas a pergunta que Jesus fez a ele surpreende.",
+      "busca_imagem": "blind beggar roadside",
+      "prompt_imagem": "a poor blind man wrapped in a worn cloak sitting by a dusty roadside in shadow, an empty begging bowl at his feet, warm afternoon light on the stones"
+    },
+    {
+      "trecho": "Jesus saía de Jericó com uma grande multidão. Bartimeu estava sentado à beira do caminho, pedindo esmola.",
+      "busca_imagem": "ancient Jericho road crowd",
+      "prompt_imagem": "a large crowd in ancient robes seen from behind walking out of the stone gates of ancient Jericho along a dusty road lined with palm trees, golden light"
+    },
+    {
+      "trecho": "Quando ouviu que era Jesus, começou a gritar: Jesus, Filho de Davi, tem misericórdia de mim!",
+      "busca_imagem": "man crying out crowd",
+      "prompt_imagem": "silhouette of a ragged man by the roadside lifting his head and crying out toward a passing crowd, dust in the air, beams of golden light"
+    },
+    {
+      "trecho": "Muitos o repreendiam para que ficasse quieto. Mas ele gritava ainda mais. E Jesus parou.",
+      "busca_imagem": "crowd stops road",
+      "prompt_imagem": "an ancient crowd on a dusty road suddenly halted, figures in shadow turning around, one robed figure seen from behind standing still at the center in soft glowing light"
+    },
+    {
+      "trecho": "E disse: chamem o cego. Coragem, levante-se, ele está chamando você.",
+      "busca_imagem": "hand on shoulder ancient",
+      "prompt_imagem": "two men in ancient robes seen from behind bending down to a blind beggar sitting by the road, one hand on his shoulder, warm late afternoon light"
+    },
+    {
+      "trecho": "Ele jogou a capa, deu um salto e foi até Jesus. Então Jesus perguntou: o que você quer que eu faça por você?",
+      "busca_imagem": "cloak thrown on road",
+      "prompt_imagem": "a worn cloak lying abandoned in the dust of an ancient road, a man in silhouette leaping up and hurrying toward a robed figure bathed in golden light"
+    },
+    {
+      "trecho": "Jesus sabia a resposta. Mas quis ouvir da boca dele. Mestre, que eu volte a ver. Vá, a sua fé o salvou. Na mesma hora, ele passou a ver.",
+      "busca_imagem": "man sees light sunrise",
+      "prompt_imagem": "a man in ancient robes seen from behind standing before a robed figure, both in silhouette against a brilliant burst of golden sunlight, the man raising his hands in wonder"
+    },
+    {
+      "trecho": "E seguiu Jesus pelo caminho. A multidão queria silêncio. Jesus queria ouvir a voz dele. Se o mundo mandou você se calar, continue clamando. Jesus ainda para por você. Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias.",
+      "busca_imagem": "walking road sunset hills",
+      "prompt_imagem": "two figures in ancient robes seen from behind walking together on a winding road through golden hills at sunset, the crowd far behind, peaceful hopeful light"
+    }
+  ],
+  "legenda": "Senhor, ouve o meu clamor, eu não vou me calar 🙏😭\nMarcos 10:46-52\nComente \"Amém\" e envie para alguém que precisa continuar clamando.",
+  "hashtags": [
+    "#Bartimeu",
+    "#féemJesus",
+    "#oração",
+    "#milagresdeJesus"
+  ],
+  "fontes": [
+    "Marcos 10:46-52 (saída de Jericó, Bartimeu filho de Timeu à beira do caminho, o grito 'Filho de Davi, tem misericórdia de mim', a multidão mandando calar, 'chamem o cego', a capa lançada, 'o que você quer que eu faça?', 'Mestre, que eu volte a ver', 'a sua fé o salvou', seguiu Jesus pelo caminho)"
+  ]
+}
