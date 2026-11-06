@@ -228,36 +228,50 @@ def main():
     cenas, imgs, cenas_img, avisos = [], [], [], []
     estilo = r.get("estilo_imagem", ESTILO)
     fonte = r.get("fonte_imagem", os.getenv("FONTE_IMAGEM", "kaggle"))
-    opcoes = int(r.get("opcoes_imagem", 2))
+    opcoes = int(r.get("opcoes_imagem", 3))
     for c in r["cenas"]:
         cenas_img.append({**c, "prompt_imagem": f"2D cartoon animation style illustration: {c['prompt_imagem']}"})
     if fonte == "kaggle":
-        itens = [{"tipo": "imagem", "nome": f"img_{i}_{k}", "seed": semente + 100 * i + k,
-                  "prompt": f"{c['prompt_imagem']}. {REGRA}. {estilo}"}
-                 for i, c in enumerate(cenas_img) for k in range(opcoes)]
-        saida_img, rel_img = _rodar_kaggle(itens, pasta, "imagens")
-        log("wan", f"imagens: {rel_img[:200]}")
         from estudio.agentes.revisor_visual import _avaliar
         chave = os.getenv("GEMINI_API_KEY")
-        for i, c in enumerate(cenas_img):
-            cand = sorted(x for x in saida_img.rglob(f"img_{i}_*.*") if x.suffix.lower() in (".png", ".jpg", ".jpeg", ".webp"))
-            escolhida = None
-            for x in cand:
-                jpg = pasta / f"cena_{i}_{x.stem.split('_')[-1]}.jpg"
-                subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(x), "-q:v", "2", str(jpg)], check=True)
-                try:
-                    v = _avaliar(chave, canal_img, c, jpg) if chave else {"ok": True}
-                except Exception as e:  # noqa: BLE001
-                    v = {"ok": True, "motivo": f"revisão indisponível ({e})"}
-                log("wan", f"cena {i + 1} opção {x.stem[-1]}: {'ok' if v.get('ok') else 'reprovada'} {v.get('motivo', '')}")
-                if v.get("ok"):
-                    escolhida = jpg
-                    break
-                escolhida = escolhida or jpg
+        escolhidas, pendentes, prompts, motivos = {}, list(range(len(cenas_img))), {}, {}
+        reserva = {}
+        for rodada in (1, 2):  # 2ª rodada só para as cenas reprovadas, com prompt mais rígido
+            if not pendentes:
+                break
+            itens = []
+            for i in pendentes:
+                base_p = prompts.get(i) or cenas_img[i]["prompt_imagem"]
+                itens += [{"tipo": "imagem", "nome": f"img_{i}_r{rodada}{k}", "seed": semente + 100 * i + 10 * rodada + k,
+                           "prompt": f"{base_p}. {REGRA}. {estilo}"} for k in range(opcoes)]
+            saida_img, rel_img = _rodar_kaggle(itens, pasta, f"imagens{rodada}")
+            log("wan", f"imagens (rodada {rodada}): {rel_img[:200]}")
+            for i in list(pendentes):
+                cand = sorted(x for x in saida_img.rglob(f"img_{i}_r{rodada}*.*")
+                              if x.suffix.lower() in (".png", ".jpg", ".jpeg", ".webp"))
+                for x in cand:
+                    jpg = pasta / f"cena_{i}_{x.stem.split('_')[-1]}.jpg"
+                    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(x), "-q:v", "2", str(jpg)], check=True)
+                    try:
+                        v = _avaliar(chave, canal_img, cenas_img[i], jpg) if chave else {"ok": True}
+                    except Exception as e:  # noqa: BLE001
+                        v = {"ok": True, "motivo": f"revisão indisponível ({e})"}
+                    log("wan", f"cena {i + 1} {x.stem.split('_')[-1]}: {'ok' if v.get('ok') else 'reprovada'} {v.get('motivo', '')}")
+                    reserva.setdefault(i, jpg)
+                    if v.get("ok"):
+                        escolhidas[i] = jpg
+                        pendentes.remove(i)
+                        break
+                    motivos[i] = v.get("motivo", "")
+                    if v.get("novo_prompt"):
+                        prompts[i] = (f"2D cartoon animation style illustration: {v['novo_prompt']}. Everyone seen from behind, "
+                                      "backs turned to the viewer, no visible faces, no crowd")
+        for i in range(len(cenas_img)):
+            escolhida = escolhidas.get(i) or reserva.get(i)
             if not escolhida:
                 raise SystemExit(f"o Kaggle não gerou imagem para a cena {i + 1}")
-            if not v.get("ok"):
-                avisos.append(f"Cena {i + 1}: nenhuma opção passou na revisão ({v.get('motivo', '')}) — confira.")
+            if i not in escolhidas:
+                avisos.append(f"Cena {i + 1}: nenhuma opção passou na revisão ({motivos.get(i, '')}) — confira antes de aprovar.")
             img = pasta / f"cena_{i}.jpg"
             escolhida.replace(img)
             imgs.append(img)

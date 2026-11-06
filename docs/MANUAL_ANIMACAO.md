@@ -37,7 +37,7 @@ Nunca publique nada, nunca mexa em segredos.
 - Descreva só o essencial e **todas** as figuras que devem aparecer ("three women ... kneeling"), lugar e luz.
 - Sempre época bíblica: "first century Judea", "rock-cut tomb", "olive trees", "no modern objects".
 - Jesus: "a bearded man with long brown hair in a white robe seen from behind". Rostos nunca de frente.
-- Evite pedir multidão; se a cena precisa de povo, diga "a few people in the distance".
+- Evite pedir multidão; se a cena precisa de povo, diga "a few people in the distance". Prefira enquadramentos que naturalmente escondem rostos: Jesus de costas, mãos e objetos em primeiro plano (potes, pães, barco), figuras pequenas ao longe.
 - `prompt_movimento`: movimentos suaves do que está na imagem (roupa ao vento, luz, água, nuvens, câmera
   aproximando). Nunca peça mudança de pose, gente se curvando/levantando ou objetos surgindo.
 
