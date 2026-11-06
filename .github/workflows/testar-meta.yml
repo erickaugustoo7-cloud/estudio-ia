@@ -27,7 +27,15 @@ jobs:
           ig = (me.get("instagram_business_account") or {}).get("id")
           if ig:
               print("cota de publicação IG (24h):", get(ig + "/content_publishing_limit", fields="quota_usage,config"))
-          for vid in ["1994559867887674", "2558610801301233"]:
-              r = get(vid, fields="privacy,published,permalink_url,views"); print("vídeo", vid, r.get("privacy"), r.get("published"), r.get("views"), r.get("permalink_url"), r.get("erro",""))
+          print("app:", d.get("application"), d.get("app_id"))
+          rl = get(me.get("id", "me") + "/video_reels", fields="id,created_time,views,status,privacy", limit=12)
+          for v in rl.get("data", []):
+              print("reel", v.get("id"), v.get("created_time"), "views:", v.get("views"), "|", (v.get("status") or {}).get("video_status"),
+                    (v.get("status") or {}).get("publishing_phase", {}).get("status"), (v.get("privacy") or {}).get("value"))
+          print(rl.get("erro", ""))
+          for vid in ["1826745085229617"]:
+              r = get(vid, fields="privacy,published,permalink_url,views,status")
+              print("vídeo", vid, json.dumps(r)[:600])
+              print("insights", json.dumps(get(vid + "/video_insights"))[:900])
           print("tipo:", d.get("type"), "| expira:", d.get("expires_at"), "| válida:", d.get("is_valid"), "| permissões:", ",".join(d.get("scopes", [])), dbg.get("erro", ""))
           PY
