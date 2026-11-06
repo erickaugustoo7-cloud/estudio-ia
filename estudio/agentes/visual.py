@@ -69,6 +69,17 @@ def _nasa(cena: dict, destino: Path, usados: set, **_) -> bool:
     return False
 
 
+def _sem_marca(img_path: Path) -> None:
+    """Corta a faixa de baixo e as laterais (onde fica o selo do acesso anônimo) e volta ao tamanho original."""
+    tmp = img_path.with_name(img_path.stem + "_sm.jpg")
+    try:
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(img_path), "-vf",
+                        "crop=iw*0.92:ih*0.95:iw*0.04:0,scale=1080:1920", "-q:v", "2", str(tmp)], check=True)
+        tmp.replace(img_path)
+    except Exception as e:  # noqa: BLE001
+        log("visual", f"não consegui remover o selo ({e})")
+
+
 def _pollinations(cena: dict, destino: Path, usados: set, canal: dict, seed: int) -> bool:
     prompt = f"{cena['prompt_imagem']}. {canal.get('regra_visual_pessoas', '')}. {canal['estilo_visual'].strip()}"
     q = urllib.parse.quote(prompt[:900])
@@ -84,6 +95,8 @@ def _pollinations(cena: dict, destino: Path, usados: set, canal: dict, seed: int
             time.sleep(espera)
             ok, motivo = _baixar(url, destino, headers, timeout=150)
             if ok:
+                if not headers:
+                    _sem_marca(destino)  # o acesso anônimo põe um selo no canto inferior direito
                 return True
             log("visual", f"pollinations: {motivo}")
             if headers and motivo.startswith("HTTP 402"):
