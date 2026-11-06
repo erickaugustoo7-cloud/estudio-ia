@@ -1,0 +1,57 @@
+{
+  "titulo": "Jesus acalma a tempestade",
+  "gancho_tela": "Até o mar obedeceu",
+  "referencia": "Marcos 4:39",
+  "duracao_max": 20,
+  "cenas": [
+    {
+      "trecho": "O barco enchia de água, e os discípulos gritaram: Mestre, não te importas?",
+      "movimento": "balanco",
+      "efeitos": [
+        "ondas",
+        "chuva",
+        "relampago"
+      ],
+      "prompt_imagem": "a small wooden fishing boat tossed by huge dark waves in a violent storm at night on the sea of Galilee, frightened men in ancient robes holding the mast, lightning in the clouds"
+    },
+    {
+      "trecho": "Jesus se levantou e disse ao mar: Aquiete-se! Acalme-se!",
+      "movimento": "zoom_in",
+      "efeitos": [
+        "vento",
+        "chuva",
+        "ondas"
+      ],
+      "prompt_imagem": "a robed man seen from behind standing at the front of a wooden boat with one arm raised toward a raging stormy sea, his robe and hair blowing in the wind, dramatic clouds"
+    },
+    {
+      "trecho": "E o vento parou. Tudo ficou em completa calma.",
+      "movimento": "pan_dir",
+      "efeitos": [
+        "agua",
+        "luz"
+      ],
+      "prompt_imagem": "the same small wooden boat on a perfectly calm sea at dawn, storm clouds parting, golden sun rays breaking through, men in robes seen from behind looking at the sky in awe"
+    },
+    {
+      "trecho": "A tempestade que te assusta também obedece a ele. Marcos quatro.",
+      "movimento": "subir",
+      "efeitos": [
+        "agua",
+        "particulas",
+        "luz"
+      ],
+      "prompt_imagem": "a peaceful golden sunrise reflected on a calm sea, a small wooden boat in the distance, warm glowing sky, hopeful atmosphere"
+    }
+  ],
+  "legenda": "Senhor, acalma a tempestade dentro de mim 🌊🙏\nMarcos 4:39\nComente \"Amém\" se você crê que ele acalma o seu mar.",
+  "hashtags": [
+    "#Jesus",
+    "#tempestade",
+    "#Marcos4",
+    "#fé"
+  ],
+  "fontes": [
+    "Marcos 4:35-41"
+  ]
+}
