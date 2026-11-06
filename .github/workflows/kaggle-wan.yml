@@ -36,7 +36,7 @@ jobs:
       KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
       KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_TOKEN }}
       KAGGLE_MAQUINA: ${{ inputs.maquina }}
-      WAN_LIMITE_MIN: "160"
+      WAN_LIMITE_MIN: "165"
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

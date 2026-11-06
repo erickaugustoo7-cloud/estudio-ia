@@ -77,8 +77,8 @@ for i, c in enumerate(CENAS):
         img = TMP / f"cena_{i}.jpg"
         img.write_bytes(base64.b64decode(c["img"]))
         s = {"model_type": "ti2v_2_2_fastwan", "prompt": c["prompt"], "image_prompt_type": "S",
-             "image_start": str(img), "resolution": c.get("resolucao", "480x832"), "video_length": c.get("quadros", 97),
-             "num_inference_steps": 3, "guidance_scale": 1, "flow_shift": 3, "seed": c.get("seed", 42),
+             "image_start": str(img), "resolution": c.get("resolucao", "704x1280"), "video_length": c.get("quadros", 97),
+             "num_inference_steps": c.get("passos", 4), "guidance_scale": 1, "flow_shift": 3, "seed": c.get("seed", 42),
              "negative_prompt": c.get("negativo", "")}
     try:
         res = session.submit_task(s).result()
@@ -287,11 +287,14 @@ def main():
         except Exception as e:  # noqa: BLE001
             log("wan", f"revisão visual indisponível ({e})")
     for i, (c, img) in enumerate(zip(r["cenas"], imgs)):
-        peq = pasta / f"cena_{i}_480.jpg"  # o Wan anima em 480x832: manda a imagem já no tamanho (script menor)
-        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(img), "-vf", "scale=480:832", "-q:v", "4", str(peq)], check=True)
+        res_v = r.get("resolucao_video", os.getenv("WAN_RESOLUCAO", "704x1280"))  # 720p: rostos e mãos mais estáveis
+        peq = pasta / f"cena_{i}_wan.jpg"  # manda a imagem já no tamanho do Wan (script menor)
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(img), "-vf", f"scale={res_v.replace('x', ':')}",
+                        "-q:v", "3", str(peq)], check=True)
         movimento = _movimento(img, c.get("prompt_movimento") or c["prompt_imagem"])
         cenas.append({"img": base64.b64encode(peq.read_bytes()).decode(), "seed": semente + i,
-                      "quadros": _quadros(tempos[i] + 0.4),
+                      "quadros": _quadros(tempos[i] + 0.4), "resolucao": res_v,
+                      "passos": int(r.get("passos_video", os.getenv("WAN_PASSOS", "4"))),
                       "prompt": f"2D cartoon animation, smooth natural motion. {movimento}",
                       "negativo": ("extra people, new characters appearing, duplicated person, body splitting, extra limbs, "
                                    "morphing, bending over, sudden pose change, faces, text, watermark, distorted body, flicker")})
