@@ -4,26 +4,46 @@
   "referencia": "João 2:7",
   "serie": "Os milagres de Jesus",
   "parte": 1,
-  "duracao_max": 22,
+  "duracao_max": 60,
   "volume_musica": 0.12,
   "cenas": [
     {
-      "trecho": "Casamento em Caná. O vinho acabou.",
-      "prompt_imagem": "close-up of a festive wooden table at night in first century Judea, empty clay cups and a tipped-over empty clay wine jar, oil lamps and flowers, dark blurred silhouettes of guests far in the background",
-      "prompt_movimento": "the lamp flames flicker softly and the light dances on the table, a little dust floats in the air, slow camera push-in"
+      "trecho": "Um casamento em Caná da Galileia. A festa durava dias, mas o vinho acabou.",
+      "prompt_imagem": "close-up of a festive wooden table at night in first century Judea, empty clay cups and a tipped-over empty clay wine jar, oil lamps and flowers, nobody at the table",
+      "prompt_movimento": "the lamp flames flicker softly and the light dances on the empty cups, static camera"
     },
     {
-      "trecho": "Jesus disse: Encham os potes com água.",
-      "prompt_imagem": "close-up of six large stone water jars in a stone courtyard at night, the hands and arms of a servant pouring water from a clay pitcher into one jar, oil lamp light, no faces",
-      "prompt_movimento": "water flows from the clay pitcher into the stone jar with gentle splashes and ripples, lamp light flickers, slow camera push-in"
+      "trecho": "Naquela época, isso era uma vergonha enorme para os noivos.",
+      "prompt_imagem": "dark silhouettes of a young bride and groom seen from behind standing in a stone doorway at night, lit by a single oil lamp, festive courtyard far behind them, faces not visible",
+      "prompt_movimento": "the lamp flame flickers and the light trembles on the stone walls, the couple stays completely still, slow camera push-in"
     },
     {
-      "trecho": "A água virou o melhor vinho.",
-      "prompt_imagem": "close-up of a large stone jar filled to the brim with deep red wine glowing in warm lamp light, a simple clay cup dipping into it, stone courtyard, first century, no glass",
-      "prompt_movimento": "the surface of the red wine ripples gently and shimmers in the lamp light, a slow camera push-in"
+      "trecho": "Maria percebeu e disse aos servos: Façam tudo o que ele mandar.",
+      "prompt_imagem": "silhouette of a woman with a long head covering seen from behind in a stone courtyard at night, two servant silhouettes in front of her far away, oil lamps, faces not visible",
+      "prompt_movimento": "her head covering moves gently in the breeze, lamp light flickers, everyone stays still, static camera"
     },
     {
-      "trecho": "Ele cuida do que te falta. João dois. Siga para ver o próximo milagre.",
+      "trecho": "Ali havia seis enormes potes de pedra. Jesus mandou enchê-los de água.",
+      "prompt_imagem": "six large stone water jars standing in a row in a stone courtyard at night, oil lamp light, olive branches, no people",
+      "prompt_movimento": "lamp light flickers over the stone jars, a few moths fly near the lamp, slow camera pan along the jars"
+    },
+    {
+      "trecho": "E os servos encheram até a borda.",
+      "prompt_imagem": "close-up of a servant's hands and arms pouring water from a clay pitcher into a large stone jar filled to the brim, oil lamp light, no faces",
+      "prompt_movimento": "water flows from the clay pitcher into the stone jar with gentle splashes and ripples, slow camera push-in"
+    },
+    {
+      "trecho": "O mestre da festa provou e se espantou: o melhor vinho ficou para o fim.",
+      "prompt_imagem": "close-up of a large stone jar filled to the brim with deep red wine glowing in warm lamp light, a simple clay cup dipping into it, first century, no glass",
+      "prompt_movimento": "the surface of the red wine ripples gently and shimmers in the lamp light, slow camera push-in"
+    },
+    {
+      "trecho": "Foi o primeiro milagre de Jesus. João, capítulo dois.",
+      "prompt_imagem": "a bearded man with long brown hair in a white robe seen from behind, small in the frame, standing under a stone archway looking at a festive village courtyard at night with lanterns, faces not visible",
+      "prompt_movimento": "lanterns glow and sway gently, his robe moves slightly in the breeze, he stays completely still facing away, slow camera push-in"
+    },
+    {
+      "trecho": "Se ele cuidou de uma festa, imagine da sua vida. Siga para ver o próximo.",
       "prompt_imagem": "wide view of a first century village courtyard at night with hanging oil lanterns and olive trees, tiny distant dark silhouettes of people celebrating, starry sky, warm golden glow",
       "prompt_movimento": "lanterns sway gently in the breeze, stars twinkle, olive leaves move softly, slow camera pull-back"
     }

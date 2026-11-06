@@ -196,10 +196,10 @@ def _movimento(img: Path, desejado: str) -> str:
 
 
 def _quadros(seg: float) -> int:
-    """Wan 2.2 5B gera a 24 fps, com 4k+1 quadros; teto de 121 (~5 s)."""
+    """Wan 2.2 5B gera a 24 fps, com 4k+1 quadros; teto de 145 (~6 s)."""
     n = int(seg * 24) + 1
     n = n + (1 - n % 4) % 4
-    return max(49, min(121, n))
+    return max(49, min(145, n))
 
 
 def main():

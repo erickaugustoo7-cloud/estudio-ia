@@ -23,7 +23,7 @@ concurrency:
 jobs:
   wan:
     runs-on: ubuntu-latest
-    timeout-minutes: 175
+    timeout-minutes: 300
     env:
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -36,7 +36,7 @@ jobs:
       KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
       KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_TOKEN }}
       KAGGLE_MAQUINA: ${{ inputs.maquina }}
-      WAN_LIMITE_MIN: "165"
+      WAN_LIMITE_MIN: "170"
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
