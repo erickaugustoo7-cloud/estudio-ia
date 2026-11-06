@@ -34,6 +34,11 @@ Nunca publique nada, nunca mexa em segredos.
 - `gancho_tela`: até 6 palavras (aparece no 1º quadro). `referencia`: ex. "Marcos 4:39".
 
 ## Prompts de imagem (inglês)
+- **Nenhum rosto aparece, de ninguém** (decisão do Eric, 06/11: o vídeo deforma rostos). Conte o milagre pelos
+  OBJETOS e pelo AMBIENTE em close: mãos, potes, pães, redes, barco, água, luz, portas, lamparinas. Pessoas só como
+  silhuetas escuras de costas ou figuras minúsculas ao longe. Festa/multidão = mesa, lamparinas e silhuetas distantes.
+- Jesus, quando aparecer: figura de costas, parada, de preferência média/pequena no quadro (o vídeo às vezes vira
+  personagens grandes para a câmera).
 - Descreva só o essencial e **todas** as figuras que devem aparecer ("three women ... kneeling"), lugar e luz.
 - Sempre época bíblica: "first century Judea", "rock-cut tomb", "olive trees", "no modern objects".
 - Jesus: "a bearded man with long brown hair in a white robe seen from behind". Rostos nunca de frente.

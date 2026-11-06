@@ -23,8 +23,9 @@ from estudio.agentes import publicador, visual
 
 ESTILO = ("2D hand-drawn animated feature film still, cel-shaded cartoon illustration, clean soft outlines, "
           "painterly background, warm cinematic colors, vertical 9:16, no text, no watermark")
-REGRA = ("Jesus and all people only seen from behind, in silhouette or at a distance, faces never visible. "
-         "Only the characters described, no crowd, no extra people in the background")
+REGRA = ("Jesus and all people only seen from behind, as dark silhouettes or tiny figures far away, faces never visible. "
+         "Only the characters described, no crowd, no extra people in the background. "
+         "Strictly first century objects: clay and stone only, no glass cups, no bottles, nothing modern")
 SLUG = "estudio-animacao"
 # assinatura no rodapé, igual à dos outros vídeos (branca 70%, espaçada)
 ESTILO_ASSINATURA = ("Style: Sig,DejaVu Sans,30,&H4DFFFFFF,&H4DFFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,6,0,1,2,1,2,"
@@ -165,7 +166,8 @@ def _rodar_kaggle(cenas: list, pasta: Path, etapa: str = "video") -> tuple[Path,
 MOVIMENTO_PERGUNTA = """You write motion prompts for an image-to-video model (Wan 2.2) that animates THIS exact image.
 Desired feel for the scene: "{desejado}"
 Rules: describe ONLY elements that are clearly visible in the image; never add people, animals or objects that are not
-there; keep bodies and faces stable (no new poses, no bending, no splitting); prefer gentle natural motion: cloth and hair
+there; people must stay completely still and keep facing the same direction (never turning around, never looking at the
+camera, no head movement, no new poses, no bending, no splitting); prefer gentle natural motion: cloth and hair
 in the breeze, light and rays, clouds, water, leaves, particles, a slow camera push-in. One short English sentence, max 45 words.
 Answer only JSON: {{"movimento": "..."}}"""
 
@@ -297,7 +299,8 @@ def main():
                       "passos": int(r.get("passos_video", os.getenv("WAN_PASSOS", "4"))),
                       "prompt": f"2D cartoon animation, smooth natural motion. {movimento}",
                       "negativo": ("extra people, new characters appearing, duplicated person, body splitting, extra limbs, "
-                                   "morphing, bending over, sudden pose change, faces, text, watermark, distorted body, flicker")})
+                                   "morphing, bending over, sudden pose change, turning around, looking at the camera, head turning, "
+                                   "face appearing, faces, text, watermark, distorted body, flicker")})
 
     # 3) animação no Kaggle
     saida_vid, resumo = _rodar_kaggle(cenas, pasta, "video")

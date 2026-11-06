@@ -9,26 +9,34 @@
   "cenas": [
     {
       "trecho": "Casamento em Caná. O vinho acabou.",
-      "prompt_imagem": "a simple village wedding feast in a stone courtyard at dusk in first century Judea, a long wooden table with empty clay cups and an empty tipped wine jar in the foreground, oil lamps, a few people in ancient robes in the distance, olive trees, no modern objects",
-      "prompt_movimento": "oil lamp flames flicker softly, warm evening light, leaves of the olive trees move in the breeze, camera slowly pushes in toward the empty cups"
+      "prompt_imagem": "close-up of a festive wooden table at night in first century Judea, empty clay cups and a tipped-over empty clay wine jar, oil lamps and flowers, dark blurred silhouettes of guests far in the background",
+      "prompt_movimento": "the lamp flames flicker softly and the light dances on the table, a little dust floats in the air, slow camera push-in"
     },
     {
       "trecho": "Jesus disse: Encham os potes com água.",
-      "prompt_imagem": "a bearded man with long brown hair in a white robe seen from behind standing in a stone courtyard beside six large stone water jars, two servants in simple first century tunics in the background holding clay pitchers, warm lamp light, no modern objects",
-      "prompt_movimento": "his white robe moves gently in the breeze, lamp light flickers on the stone jars, camera slowly moves closer"
+      "prompt_imagem": "close-up of six large stone water jars in a stone courtyard at night, the hands and arms of a servant pouring water from a clay pitcher into one jar, oil lamp light, no faces",
+      "prompt_movimento": "water flows from the clay pitcher into the stone jar with gentle splashes and ripples, lamp light flickers, slow camera push-in"
     },
     {
       "trecho": "A água virou o melhor vinho.",
-      "prompt_imagem": "close view of large ancient stone jars filled to the brim with deep red wine glowing in warm golden lamp light, a clay cup beside them, stone courtyard of a first century Judean house, no modern objects",
-      "prompt_movimento": "the surface of the red wine ripples gently and shines, golden light glows warmly, soft dust particles float in the air, camera slowly pushes in"
+      "prompt_imagem": "close-up of a large stone jar filled to the brim with deep red wine glowing in warm lamp light, a simple clay cup dipping into it, stone courtyard, first century, no glass",
+      "prompt_movimento": "the surface of the red wine ripples gently and shimmers in the lamp light, a slow camera push-in"
     },
     {
       "trecho": "Ele cuida do que te falta. João dois. Siga para ver o próximo milagre.",
-      "prompt_imagem": "a warm wedding celebration in a first century Judean village courtyard at night seen from a distance, oil lamps and a few people in ancient robes far away, olive trees, starry sky, golden glow, no modern objects",
-      "prompt_movimento": "lamp lights twinkle and glow warmly, stars shimmer, olive leaves sway softly, camera slowly drifts upward"
+      "prompt_imagem": "wide view of a first century village courtyard at night with hanging oil lanterns and olive trees, tiny distant dark silhouettes of people celebrating, starry sky, warm golden glow",
+      "prompt_movimento": "lanterns sway gently in the breeze, stars twinkle, olive leaves move softly, slow camera pull-back"
     }
   ],
   "legenda": "Senhor, enche de novo o que falta em mim 🍷🙏 (Parte 1)\nJoão 2:1-11\nComente Amém e siga a série 🙏",
-  "hashtags": ["#Jesus", "#milagresdeJesus", "#Caná", "#João2", "#fé"],
-  "fontes": ["João 2:1-11"]
+  "hashtags": [
+    "#Jesus",
+    "#milagresdeJesus",
+    "#Caná",
+    "#João2",
+    "#fé"
+  ],
+  "fontes": [
+    "João 2:1-11"
+  ]
 }
