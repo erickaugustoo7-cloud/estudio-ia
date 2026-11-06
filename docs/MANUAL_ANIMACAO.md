@@ -8,7 +8,7 @@ O formato foi aprovado pelo Eric em 06/11 (exemplo: `roteiros_animados/ressurrei
 2. Pauta: a primeira linha não comentada de `pautas/animacoes.txt` (remova-a depois). Se vazia, escolha
    um momento forte dos Evangelhos com Jesus que ainda não exista em `roteiros_animados/`.
 3. Leia a passagem na web (NVI/ARA/NAA) e não invente nada: falas, nomes e ordem dos fatos conferidos.
-4. Escreva `roteiros_animados/<slug>.json` (formato abaixo) e confira:
+4. Leia docs/REGRAS_FIXAS.md. Escreva `roteiros_animados/<slug>.json` (formato abaixo), rode `python ferramentas/validar_animacao.py roteiros_animados/<slug>.json` até dar OK, e confira:
    `python -c "import json;r=json.load(open('roteiros_animados/<slug>.json'));print(sum(len(c['trecho'].split()) for c in r['cenas']))"`
    → **entre 120 e 150 palavras** no total, e cada cena com **6 a 16 palavras** (cada cena vira um clipe de até
    ~6 s; trecho maior que isso deixa o movimento em câmera lenta). Use `"duracao_max": 90`. Referência por extenso na penúltima cena; a última fica para a aplicação + convite.

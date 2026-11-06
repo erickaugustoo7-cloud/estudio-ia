@@ -19,23 +19,23 @@
     },
     {
       "trecho": "Naquela época, isso era uma vergonha enorme para os noivos.",
-      "prompt_imagem": "dark silhouettes of a young bride and groom standing in a stone doorway at night lit by a single oil lamp, festive courtyard far behind them, seen from behind, faces not visible, first century Judea, no modern objects",
-      "prompt_movimento": "the lamp flame flickers and light trembles on the stone walls, the couple stays completely still, slow camera push-in"
+      "prompt_imagem": "an empty decorated wedding canopy of white fabric and flowers in a stone courtyard at night, a single oil lamp, empty clay cups on a low table, first century Judea, 2D cartoon, no people, no faces, no modern objects",
+      "prompt_movimento": "the fabric of the canopy moves gently in the breeze, the lamp flame flickers, slow camera push-in"
     },
     {
       "trecho": "Maria foi até Jesus e disse: Eles não têm mais vinho.",
-      "prompt_imagem": "two silhouettes in a stone courtyard at night, a woman with a long head covering standing beside a bearded man with long hair in a white robe, both seen from behind, faces not visible, first century Judea, no modern objects, oil lamps",
-      "prompt_movimento": "their robes and her head covering move gently in the breeze, lamp light flickers, both stay completely still, static camera"
+      "prompt_imagem": "close-up of an empty clay wine jar lying on its side on a stone floor beside a burning oil lamp, a folded woven shawl resting on a wooden stool nearby, first century Judea, 2D cartoon, no people, no faces, no modern objects",
+      "prompt_movimento": "the lamp flame flickers and its light trembles on the empty jar, static camera"
     },
     {
       "trecho": "Jesus respondeu: A minha hora ainda não chegou.",
-      "prompt_imagem": "a bearded man with long brown hair in a white robe, small in the frame, standing under a stone archway at night looking at a festive courtyard with lanterns, seen from behind, faces not visible, first century Judea, no modern objects",
-      "prompt_movimento": "lanterns glow and sway gently, his robe moves slightly, he stays completely still facing away, slow camera push-in"
+      "prompt_imagem": "an empty stone archway at night opening onto a lantern-lit courtyard, crescent moon and stars above, first century Judea, 2D cartoon, no people, no faces, no modern objects",
+      "prompt_movimento": "stars twinkle softly, lanterns sway gently in the breeze, slow camera push-in"
     },
     {
       "trecho": "Mesmo assim, Maria disse aos servos: Façam tudo o que ele mandar.",
-      "prompt_imagem": "silhouette of a woman with a long head covering in a stone courtyard at night, two servant silhouettes in simple tunics in front of her, oil lamps, seen from behind, faces not visible, first century Judea, no modern objects",
-      "prompt_movimento": "her head covering moves gently in the breeze, lamp light flickers, everyone stays still, static camera"
+      "prompt_imagem": "a row of simple clay pitchers and folded linen towels on a stone ledge in a courtyard at night, oil lamp light, first century Judea, 2D cartoon, no people, no faces, no modern objects",
+      "prompt_movimento": "the lamp flame flickers, the edge of a towel moves slightly in the breeze, slow camera pan"
     },
     {
       "trecho": "Ali havia seis enormes potes de pedra, usados nas purificações dos judeus.",
@@ -59,8 +59,8 @@
     },
     {
       "trecho": "Foi o primeiro milagre de Jesus. E os discípulos creram nele. João, capítulo dois.",
-      "prompt_imagem": "a bearded man in a white robe and a few disciples as small silhouettes standing together at the edge of a lantern-lit courtyard at night, starry sky, seen from behind, faces not visible, first century Judea, no modern objects",
-      "prompt_movimento": "stars twinkle, lanterns glow, robes move slightly in the breeze, everyone stays still facing away, slow camera pull-back"
+      "prompt_imagem": "a stone courtyard at night with six large stone jars glowing with deep red wine, hanging lanterns, starry sky, first century Judea, 2D cartoon, no people, no faces, no modern objects",
+      "prompt_movimento": "the wine surfaces shimmer softly, lanterns glow and sway, stars twinkle, slow camera pull-back"
     },
     {
       "trecho": "Se ele cuidou de uma festa, imagine da sua vida. Siga para ver o próximo milagre.",
