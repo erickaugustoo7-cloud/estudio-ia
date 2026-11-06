@@ -1,0 +1,66 @@
+{
+  "titulo": "Qual planeta você escolheria para morar por um ano?",
+  "gancho_tela": "Um ano que dura 165 anos",
+  "narracao": "Um ano em Netuno dura cento e sessenta e cinco anos. Isso é mais que uma vida inteira. Então escolha bem onde passar um ano, porque num planeta ele acaba em menos de três meses. Opção um: Mercúrio. Lá, o ano dura só oitenta e oito dias terrestres. Você faria aniversário mais de quatro vezes no tempo de um ano aqui. Só que, de dia, a temperatura passa de quatrocentos graus. À noite, cai para cerca de cento e oitenta graus negativos. Opção dois: Marte. O ano dura seiscentos e oitenta e sete dias, quase o dobro do nosso. E o dia tem pouco mais de vinte e quatro horas e meia. Mas a temperatura média em Marte é de cerca de sessenta e cinco graus negativos. Muito mais frio que um freezer. Opção três: Júpiter. Um ano lá dura quase doze anos terrestres, e o dia tem só dez horas. Só tem um detalhe: Júpiter é um gigante de gás. Não existe chão para pisar. E Netuno é escuro, gelado e cheio de vento. Desde que foi descoberto, em mil oitocentos e quarenta e seis, ele completou uma única volta em torno do Sol, em dois mil e onze. Então, qual você escolheria para morar por um ano: Mercúrio, Marte, Júpiter ou Netuno? Comenta aqui. Siga para descobrir uma curiosidade nova todo dia.",
+  "cenas": [
+    {
+      "trecho": "Um ano em Netuno dura cento e sessenta e cinco anos.",
+      "busca_imagem": "Neptune Voyager 2",
+      "prompt_imagem": "the deep blue planet Neptune in dark space, faint clouds, dramatic lighting"
+    },
+    {
+      "trecho": "Isso é mais que uma vida inteira. Então escolha bem onde passar um ano, porque num planeta ele acaba em menos de três meses.",
+      "busca_imagem": "solar system planets",
+      "prompt_imagem": "the planets of the solar system lined up in deep space, cinematic view"
+    },
+    {
+      "trecho": "Opção um: Mercúrio. Lá, o ano dura só oitenta e oito dias terrestres. Você faria aniversário mais de quatro vezes no tempo de um ano aqui.",
+      "busca_imagem": "Mercury MESSENGER planet",
+      "prompt_imagem": "the small grey cratered planet Mercury close to a blazing Sun"
+    },
+    {
+      "trecho": "Só que, de dia, a temperatura passa de quatrocentos graus. À noite, cai para cerca de cento e oitenta graus negativos.",
+      "busca_imagem": "Mercury surface craters",
+      "prompt_imagem": "harsh cratered surface of Mercury, half in scorching sunlight and half in frozen darkness"
+    },
+    {
+      "trecho": "Opção dois: Marte. O ano dura seiscentos e oitenta e sete dias, quase o dobro do nosso. E o dia tem pouco mais de vinte e quatro horas e meia.",
+      "busca_imagem": "Mars globe Viking",
+      "prompt_imagem": "the red planet Mars seen from orbit, rusty deserts and canyons"
+    },
+    {
+      "trecho": "Mas a temperatura média em Marte é de cerca de sessenta e cinco graus negativos. Muito mais frio que um freezer.",
+      "busca_imagem": "Mars surface Curiosity",
+      "prompt_imagem": "frozen rocky red desert on Mars under a pale dusty sky, frost on the rocks"
+    },
+    {
+      "trecho": "Opção três: Júpiter. Um ano lá dura quase doze anos terrestres, e o dia tem só dez horas. Só tem um detalhe: Júpiter é um gigante de gás. Não existe chão para pisar.",
+      "busca_imagem": "Jupiter Juno clouds",
+      "prompt_imagem": "giant planet Jupiter with swirling colorful cloud bands and the Great Red Spot"
+    },
+    {
+      "trecho": "E Netuno é escuro, gelado e cheio de vento. Desde que foi descoberto, em mil oitocentos e quarenta e seis, ele completou uma única volta em torno do Sol, em dois mil e onze.",
+      "busca_imagem": "Neptune Great Dark Spot",
+      "prompt_imagem": "dark blue Neptune with streaks of white clouds and a dark storm, far from a tiny distant Sun"
+    },
+    {
+      "trecho": "Então, qual você escolheria para morar por um ano: Mercúrio, Marte, Júpiter ou Netuno? Comenta aqui. Siga para descobrir uma curiosidade nova todo dia.",
+      "busca_imagem": "planets montage",
+      "prompt_imagem": "Mercury, Mars, Jupiter and Neptune floating side by side in deep space, stars in background"
+    }
+  ],
+  "legenda": "Um ano dura 88 dias em Mercúrio, 687 em Marte, quase 12 anos terrestres em Júpiter e 165 anos em Netuno. 🪐\nQual você escolheria para morar por um ano? Comenta aqui 👇",
+  "hashtags": [
+    "#planetas",
+    "#sistemasolar",
+    "#Netuno",
+    "#NASA"
+  ],
+  "fontes": [
+    "NASA Space Place — All About Mercury (ano de 88 dias terrestres; até 800 °F de dia e -300 °F à noite): https://spaceplace.nasa.gov/all-about-mercury/en",
+    "NASA Space Place — All About Mars (ano de 687 dias; dia de 24,6 horas; média de -85 °F): https://spaceplace.nasa.gov/all-about-mars/en",
+    "NASA Space Place — All About Jupiter (ano de 11,8 anos terrestres; dia de 10 horas; sem superfície sólida): https://spaceplace.nasa.gov/all-about-jupiter/en",
+    "NASA Space Place — All About Neptune (ano de 165 anos terrestres; escuro, frio e muito ventoso): https://spaceplace.nasa.gov/all-about-neptune/en",
+    "NPR (12/07/2011) — For Neptune, it's been one year since its discovery (descoberto em 1846, 1ª órbita completa em 2011)"
+  ]
+}
