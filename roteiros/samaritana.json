@@ -1,0 +1,67 @@
+{
+  "titulo": "A samaritana: Jesus sabia tudo e ficou",
+  "gancho_tela": "Ele sabia de tudo. E ficou.",
+  "estilo": "pintura",
+  "narracao": "Jesus sabia todo o passado dela. Mesmo assim, pediu água a ela. Era uma samaritana, num poço ao meio-dia. João, capítulo quatro. Mas o que ela deixou para trás no final diz tudo. Jesus, cansado da viagem, sentou junto ao poço de Jacó. Ela chegou com o cântaro, e ele disse: me dê de beber. Ela estranhou: judeus não se davam com samaritanos. Mas Jesus disse: se você soubesse quem te pede, você pediria, e ele te daria água viva. Quem beber dessa água nunca mais terá sede. Ela pediu essa água. Então Jesus tocou na ferida: ela já tivera cinco maridos, e o homem de agora não era marido dela. Ele não a humilhou. Disse a verdade e continuou conversando. E revelou: eu sou o Messias, eu que estou falando com você. Ela deixou o cântaro e foi para a cidade: venham ver um homem que me disse tudo o que eu já fiz. E muitos creram em Jesus. Jesus conhece o seu passado inteiro. E mesmo assim fica para conversar com você. Salve este vídeo para ouvir de novo quando precisar, e siga para receber uma palavra de fé todos os dias.",
+  "cenas": [
+    {
+      "trecho": "Jesus sabia todo o passado dela. Mesmo assim, pediu água a ela.",
+      "busca_imagem": "stone well midday sun",
+      "prompt_imagem": "an ancient stone well glowing under a brilliant midday sun, a single clay water jar on its rim, a robed figure seen from behind seated in the shade beside it, dramatic contrast of light and shadow"
+    },
+    {
+      "trecho": "Era uma samaritana, num poço ao meio-dia. João, capítulo quatro. Mas o que ela deixou para trás no final diz tudo.",
+      "busca_imagem": "woman well noon samaria",
+      "prompt_imagem": "a woman in ancient robes seen from behind walking alone toward an old stone well under a blazing midday sun, dry hills of Samaria, long harsh shadows"
+    },
+    {
+      "trecho": "Jesus, cansado da viagem, sentou junto ao poço de Jacó.",
+      "busca_imagem": "tired traveler sitting well",
+      "prompt_imagem": "a weary robed traveler seen from behind sitting on the edge of an ancient stone well, dusty road and a distant town on the hill, warm golden sunlight"
+    },
+    {
+      "trecho": "Ela chegou com o cântaro, e ele disse: me dê de beber. Ela estranhou: judeus não se davam com samaritanos.",
+      "busca_imagem": "clay water jar well",
+      "prompt_imagem": "a clay water jar resting on the rim of an ancient stone well, a woman's silhouette and a seated robed man in shadow beside it, bright midday light"
+    },
+    {
+      "trecho": "Mas Jesus disse: se você soubesse quem te pede, você pediria, e ele te daria água viva. Quem beber dessa água nunca mais terá sede.",
+      "busca_imagem": "living water light",
+      "prompt_imagem": "clear water glittering with golden light as it is drawn up from a deep stone well, sunbeams falling into the darkness of the well"
+    },
+    {
+      "trecho": "Ela pediu essa água. Então Jesus tocou na ferida: ela já tivera cinco maridos, e o homem de agora não era marido dela.",
+      "busca_imagem": "woman head bowed shadow",
+      "prompt_imagem": "a woman in ancient robes seen from behind with her head bowed beside a stone well, a robed man sitting calmly in the shade nearby, quiet tension, golden light"
+    },
+    {
+      "trecho": "Ele não a humilhou. Disse a verdade e continuou conversando. E revelou: eu sou o Messias, eu que estou falando com você.",
+      "busca_imagem": "two figures talking well",
+      "prompt_imagem": "two robed figures seen in silhouette talking beside an ancient well, warm golden sunlight breaking through, peaceful and intimate atmosphere"
+    },
+    {
+      "trecho": "Ela deixou o cântaro e foi para a cidade: venham ver um homem que me disse tudo o que eu já fiz. E muitos creram em Jesus.",
+      "busca_imagem": "woman walking to town",
+      "prompt_imagem": "a woman in ancient robes seen from behind hurrying along a dusty path toward a hilltop town, an abandoned clay jar left by the well behind her, golden afternoon light"
+    },
+    {
+      "trecho": "Jesus conhece o seu passado inteiro. E mesmo assim fica para conversar com você. Salve este vídeo para ouvir de novo quando precisar, e siga para receber uma palavra de fé todos os dias.",
+      "busca_imagem": "sunrise well hills",
+      "prompt_imagem": "an ancient stone well on a hillside at sunrise, a lone clay jar beside it, soft golden light spreading over the valley, hopeful"
+    }
+  ],
+  "legenda": "Senhor, tu me conheces e mesmo assim me queres 🙏😭\nJoão 4:1-30\nComente \"Amém\" e salve para ouvir de novo quando precisar",
+  "hashtags": [
+    "#Jesus",
+    "#samaritana",
+    "#águaviva",
+    "#João4"
+  ],
+  "fontes": [
+    "João 4:5-9 (poço de Jacó, meio-dia, pedido de água, judeus e samaritanos)",
+    "João 4:10-15 (água viva, nunca mais terá sede)",
+    "João 4:16-18 (cinco maridos)",
+    "João 4:25-26 ('Eu sou o Messias, eu que estou falando com você')",
+    "João 4:27-30, 39 (o cântaro deixado, 'me disse tudo o que eu já fiz', muitos creram)"
+  ]
+}
