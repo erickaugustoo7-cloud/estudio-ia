@@ -32,6 +32,7 @@ jobs:
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
       KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
+      KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_TOKEN }}
       KAGGLE_MAQUINA: ${{ inputs.maquina }}
       WAN_LIMITE_MIN: "160"
     steps:
@@ -48,7 +49,8 @@ jobs:
       - run: pip install -r requirements.txt kaggle
       - name: Conferir segredos do Kaggle
         run: |
-          [ -n "$KAGGLE_USERNAME" ] && [ -n "$KAGGLE_KEY" ] || { echo "::error::Faltam os segredos KAGGLE_USERNAME / KAGGLE_KEY"; exit 1; }
+          echo "KAGGLE_USERNAME: ${KAGGLE_USERNAME:+definido} · KAGGLE_KEY: ${KAGGLE_KEY:+definido} · KAGGLE_API_TOKEN: ${KAGGLE_API_TOKEN:+definido}"
+          [ -n "$KAGGLE_USERNAME" ] && { [ -n "$KAGGLE_KEY" ] || [ -n "$KAGGLE_API_TOKEN" ]; } || { echo "::error::Faltam os segredos do Kaggle"; exit 1; }
           python -m kaggle kernels list --mine --page-size 1 >/dev/null && echo "login no Kaggle ok"
       - name: Animar
         run: python -m estudio.kaggle_wan ${{ inputs.roteiro }}
