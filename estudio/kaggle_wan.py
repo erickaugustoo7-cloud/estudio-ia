@@ -109,7 +109,9 @@ def main():
         if not visual.gerar_uma(canal_img, cena_img, img, semente + i):
             raise SystemExit(f"sem imagem para a cena {i + 1}")
         movimento = c.get("prompt_movimento") or c["prompt_imagem"]
-        cenas.append({"img": base64.b64encode(img.read_bytes()).decode(), "seed": semente + i,
+        peq = pasta / f"cena_{i}_480.jpg"  # o Wan anima em 480x832: manda a imagem já no tamanho (script menor)
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(img), "-vf", "scale=480:832", "-q:v", "4", str(peq)], check=True)
+        cenas.append({"img": base64.b64encode(peq.read_bytes()).decode(), "seed": semente + i,
                       "prompt": f"2D cartoon animation, smooth natural motion. {movimento}"})
     usuario = os.environ["KAGGLE_USERNAME"]
     kdir = pasta / "kernel"
@@ -121,7 +123,15 @@ def main():
         "kernel_type": "script", "is_private": True, "enable_gpu": True, "enable_internet": True,
         "machine_shape": os.getenv("KAGGLE_MAQUINA", "NvidiaTeslaT4"),
         "dataset_sources": [], "competition_sources": [], "kernel_sources": []}))
-    log("wan", _kaggle("kernels", "push", "-p", str(kdir)).strip())
+    meta = json.loads((kdir / "kernel-metadata.json").read_text())
+    log("wan", f"script: {(kdir / 'script.py').stat().st_size / 1024:.0f} KB")
+    try:
+        log("wan", _kaggle("kernels", "push", "-p", str(kdir)).strip())
+    except RuntimeError as e:  # tenta de novo sem escolher a GPU (o Kaggle escolhe a disponível)
+        log("wan", f"push recusado ({e}); tentando sem machine_shape")
+        meta.pop("machine_shape", None)
+        (kdir / "kernel-metadata.json").write_text(json.dumps(meta))
+        log("wan", _kaggle("kernels", "push", "-p", str(kdir)).strip())
 
     inicio = time.time()
     status = ""
