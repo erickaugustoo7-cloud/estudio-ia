@@ -12,7 +12,8 @@
         "chuva",
         "relampago"
       ],
-      "prompt_imagem": "a small open wooden fishing boat with one small sail tossed by huge dark waves in a violent storm at night on the sea of Galilee, frightened men in ancient robes holding the mast, lightning in the clouds"
+      "prompt_imagem": "a small open wooden fishing boat with one small sail tossed by huge dark waves in a violent storm at night on the sea of Galilee, frightened men in ancient robes holding the mast, lightning in the clouds",
+      "prompt_movimento": "the small boat rocks violently on huge crashing waves, rain pouring, lightning flashes, sails flapping in the wind"
     },
     {
       "trecho": "Jesus se levantou e disse ao mar: Aquiete-se! Acalme-se!",
@@ -22,7 +23,8 @@
         "chuva",
         "ondas"
       ],
-      "prompt_imagem": "a robed man seen from behind standing at the front of a wooden boat with one arm raised toward a raging stormy sea, his robe and hair blowing in the wind, dramatic clouds"
+      "prompt_imagem": "a robed man seen from behind standing at the front of a wooden boat with one arm raised toward a raging stormy sea, his robe and hair blowing in the wind, dramatic clouds",
+      "prompt_movimento": "the robed man raises his arm toward the storm, his robe and hair blowing strongly in the wind, waves crashing around the boat"
     },
     {
       "trecho": "E o vento parou. Tudo ficou em completa calma.",
@@ -31,7 +33,8 @@
         "agua",
         "luz"
       ],
-      "prompt_imagem": "the same small wooden boat on a perfectly calm sea at dawn, storm clouds parting, golden sun rays breaking through, men in robes seen from behind looking at the sky in awe"
+      "prompt_imagem": "the same small wooden boat on a perfectly calm sea at dawn, storm clouds parting, golden sun rays breaking through, men in robes seen from behind looking at the sky in awe",
+      "prompt_movimento": "the sea becomes calm and still, clouds slowly part and golden sun rays spread across the water, gentle ripples"
     },
     {
       "trecho": "A tempestade que te assusta também obedece a ele. Marcos quatro.",
@@ -41,7 +44,8 @@
         "particulas",
         "luz"
       ],
-      "prompt_imagem": "a peaceful golden sunrise reflected on a calm sea, a small wooden boat in the distance, warm glowing sky, hopeful atmosphere"
+      "prompt_imagem": "a peaceful golden sunrise reflected on a calm sea, a small wooden boat in the distance, warm glowing sky, hopeful atmosphere",
+      "prompt_movimento": "gentle golden sunrise light shimmering on calm water, the small boat drifts slowly, soft clouds moving"
     }
   ],
   "legenda": "Senhor, acalma a tempestade dentro de mim 🌊🙏\nMarcos 4:39\nComente \"Amém\" se você crê que ele acalma o seu mar.",

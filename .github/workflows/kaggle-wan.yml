@@ -1,0 +1,73 @@
+name: Animar com Wan 2.2 (Kaggle)
+
+on:
+  workflow_dispatch:
+    inputs:
+      roteiro:
+        description: "Roteiro em roteiros_animados/"
+        required: true
+        default: roteiros_animados/tempestade.json
+      maquina:
+        description: "GPU do Kaggle (NvidiaTeslaT4 ou NvidiaTeslaP100)"
+        required: false
+        default: NvidiaTeslaT4
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kaggle-wan
+  cancel-in-progress: false
+
+jobs:
+  wan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 175
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      POLLINATIONS_API_KEY: ${{ secrets.POLLINATIONS_API_KEY }}
+      CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+      CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
+      KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
+      KAGGLE_MAQUINA: ${{ inputs.maquina }}
+      WAN_LIMITE_MIN: "160"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - uses: FedericoCarboni/setup-ffmpeg@v3
+        id: ff
+        continue-on-error: true
+      - if: steps.ff.outcome == 'failure'
+        run: sudo apt-get update -q && sudo apt-get install -y -q ffmpeg
+      - run: pip install -r requirements.txt kaggle
+      - name: Conferir segredos do Kaggle
+        run: |
+          [ -n "$KAGGLE_USERNAME" ] && [ -n "$KAGGLE_KEY" ] || { echo "::error::Faltam os segredos KAGGLE_USERNAME / KAGGLE_KEY"; exit 1; }
+          python -m kaggle kernels list --mine --page-size 1 >/dev/null && echo "login no Kaggle ok"
+      - name: Animar
+        run: python -m estudio.kaggle_wan ${{ inputs.roteiro }}
+      - name: Guardar prévias (branch previas)
+        if: always()
+        run: |
+          mkdir -p /tmp/pv && cp saida/*/previa_*.jpg saida/*/kaggle_log.txt /tmp/pv/ 2>/dev/null || true
+          ls /tmp/pv | grep -q . || exit 0
+          git config user.name "estudio-bot"; git config user.email "estudio-bot@users.noreply.github.com"
+          git fetch origin previas && git checkout previas || git checkout --orphan previas
+          git rm -rq --cached . 2>/dev/null || true
+          mkdir -p previas/${{ github.run_id }} && cp /tmp/pv/* previas/${{ github.run_id }}/
+          git add previas && git commit -qm "prévias ${{ github.run_id }}" && git push -q origin previas || true
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: wan-${{ github.run_id }}
+          path: |
+            saida/**/video.mp4
+            saida/**/kaggle/**
+          retention-days: 7
+          if-no-files-found: ignore
