@@ -358,7 +358,7 @@ def main():
                              "only subtle light flicker and gentle breeze in cloth and leaves")}
             refazer.append(c2)
         saida_r, _ = _rodar_kaggle(refazer, pasta, "refazer")
-        for i in ruins:
+        for i in list(ruins):
             novo = next(saida_r.rglob(f"clipe_{i}.mp4"), None)
             if novo:
                 v = _checar_clipe(novo, r["cenas"][i].get("prompt_imagem", ""))
