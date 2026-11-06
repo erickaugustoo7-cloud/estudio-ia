@@ -1,6 +1,6 @@
 # Manual do roteirista — Animações (Mensageiro de Fé)
 
-Uma animação por execução: passagem bíblica em **desenho 2D animado, 35–50 s**, 6 a 8 cenas, narrada.
+Uma animação por execução: passagem bíblica em **desenho 2D animado, 55–75 s**, 10 a 12 cenas, narrada.
 O formato foi aprovado pelo Eric em 06/11 (exemplo: `roteiros_animados/ressurreicao.json`).
 
 ## Passo a passo
@@ -10,8 +10,8 @@ O formato foi aprovado pelo Eric em 06/11 (exemplo: `roteiros_animados/ressurrei
 3. Leia a passagem na web (NVI/ARA/NAA) e não invente nada: falas, nomes e ordem dos fatos conferidos.
 4. Escreva `roteiros_animados/<slug>.json` (formato abaixo) e confira:
    `python -c "import json;r=json.load(open('roteiros_animados/<slug>.json'));print(sum(len(c['trecho'].split()) for c in r['cenas']))"`
-   → **entre 70 e 100 palavras** no total, e cada cena com **6 a 16 palavras** (cada cena vira um clipe de até
-   ~6 s; trecho maior que isso deixa o movimento em câmera lenta). Use `"duracao_max": 60`. Referência por extenso na penúltima cena; a última fica para a aplicação + convite.
+   → **entre 120 e 150 palavras** no total, e cada cena com **6 a 16 palavras** (cada cena vira um clipe de até
+   ~6 s; trecho maior que isso deixa o movimento em câmera lenta). Use `"duracao_max": 90`. Referência por extenso na penúltima cena; a última fica para a aplicação + convite.
 5. Commit/push e dispare (REST, nunca GraphQL):
    `gh api repos/erickaugustoo7-cloud/estudio-ia/actions/workflows/kaggle-wan.yml/dispatches -X POST -f ref=main -f 'inputs[roteiro]=roteiros_animados/<slug>.json'`
 6. Acompanhe até terminar (~40 min; consulte a cada 1–2 min). Se falhar, leia o log
@@ -30,7 +30,7 @@ Nunca publique nada, nunca mexa em segredos.
 ## Regras de conteúdo
 - Jesus é o personagem principal, em momento de emoção forte (milagre, toque, perdão, cruz, ressurreição).
 - **Conte a história com contexto** (decisão do Eric, 06/11: a versão de 33 palavras ficou "pobre e sem contexto").
-  Estrutura em 6–8 cenas:
+  Estrutura em 10–12 cenas, com MAIS FALAS dos personagens tiradas do texto (decisão do Eric, 06/11):
   1. Onde e o que está acontecendo, com o problema já no gancho ("Um casamento em Caná. ... o vinho acabou.").
   2. Por que isso importava naquela época (costume, vergonha, doença, medo, distância) — o contexto que o público não sabe.
   3. Quem age e o que diz (fala curta do texto bíblico, com a referência conferida).
