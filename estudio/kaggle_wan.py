@@ -23,8 +23,12 @@ from estudio.agentes import publicador, visual
 
 ESTILO = ("2D hand-drawn animated feature film still, cel-shaded cartoon illustration, clean soft outlines, "
           "painterly background, warm cinematic colors, vertical 9:16, no text, no watermark")
-REGRA = "Jesus and all people only seen from behind, in silhouette or at a distance, faces never visible"
+REGRA = ("Jesus and all people only seen from behind, in silhouette or at a distance, faces never visible. "
+         "Only the characters described, no crowd, no extra people in the background")
 SLUG = "estudio-animacao"
+# assinatura no rodapé, igual à dos outros vídeos (branca 70%, espaçada)
+ESTILO_ASSINATURA = ("Style: Sig,DejaVu Sans,30,&H4DFFFFFF,&H4DFFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,6,0,1,2,1,2,"
+                     "70,70,110,1")
 
 SCRIPT_KAGGLE = r'''
 import base64, json, os, subprocess, sys, time
@@ -313,9 +317,11 @@ def main():
     else:
         ass.write_text(montador.gerar_legendas([], ass).read_text())
     extra = ("Style: Topo,DejaVu Serif,70,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,-1,0,0,0,100,100,0,0,1,5,2,8,70,70,300,1\n"
+             f"{ESTILO_ASSINATURA}\n"
              "Style: Ref,DejaVu Serif,44,&H007AD2FF,&H007AD2FF,&H00000000,&H64000000,-1,0,0,0,100,100,6,0,1,4,2,2,70,70,330,1\n")
     t = ass.read_text().replace("\n[Events]", extra + "\n[Events]", 1)
     t += f"Dialogue: 1,{_ts(0)},{_ts(2.6)},Topo,,0,0,0,,{r.get('gancho_tela', r['titulo']).upper()}\n"
+    t += f"Dialogue: 2,{_ts(0)},{_ts(total)},Sig,,0,0,0,,{canal['nome'].upper()}\n"  # assinatura do canal
     if r.get("referencia"):
         t += f"Dialogue: 1,{_ts(max(0, total - 3.2))},{_ts(total)},Ref,,0,0,0,,{r['referencia'].upper()}\n"
     ass.write_text(t, encoding="utf-8")
