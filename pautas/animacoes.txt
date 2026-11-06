@@ -1,6 +1,5 @@
 # Fila das animações — SÉRIE "Os milagres de Jesus" (use na ordem; a 1ª não comentada é usada e removida)
 # Formato da linha: Parte N | tema (referência)
-Parte 1 | A água vira vinho em Caná (João 2:1-11)
 Parte 2 | O paralítico descido pelo telhado (Marcos 2:1-12)
 Parte 3 | Jesus acalma a tempestade (Marcos 4:35-41)
 Parte 4 | A multiplicação dos pães e peixes (João 6:5-13)

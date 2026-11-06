@@ -1,0 +1,34 @@
+{
+  "titulo": "A água vira vinho em Caná",
+  "gancho_tela": "O vinho acabou na festa",
+  "referencia": "João 2:7",
+  "serie": "Os milagres de Jesus",
+  "parte": 1,
+  "duracao_max": 22,
+  "volume_musica": 0.12,
+  "cenas": [
+    {
+      "trecho": "Casamento em Caná. O vinho acabou.",
+      "prompt_imagem": "a simple village wedding feast in a stone courtyard at dusk in first century Judea, a long wooden table with empty clay cups and an empty tipped wine jar in the foreground, oil lamps, a few people in ancient robes in the distance, olive trees, no modern objects",
+      "prompt_movimento": "oil lamp flames flicker softly, warm evening light, leaves of the olive trees move in the breeze, camera slowly pushes in toward the empty cups"
+    },
+    {
+      "trecho": "Jesus disse: Encham os potes com água.",
+      "prompt_imagem": "a bearded man with long brown hair in a white robe seen from behind standing in a stone courtyard beside six large stone water jars, two servants in simple first century tunics in the background holding clay pitchers, warm lamp light, no modern objects",
+      "prompt_movimento": "his white robe moves gently in the breeze, lamp light flickers on the stone jars, camera slowly moves closer"
+    },
+    {
+      "trecho": "A água virou o melhor vinho.",
+      "prompt_imagem": "close view of large ancient stone jars filled to the brim with deep red wine glowing in warm golden lamp light, a clay cup beside them, stone courtyard of a first century Judean house, no modern objects",
+      "prompt_movimento": "the surface of the red wine ripples gently and shines, golden light glows warmly, soft dust particles float in the air, camera slowly pushes in"
+    },
+    {
+      "trecho": "Ele cuida do que te falta. João dois. Siga para ver o próximo milagre.",
+      "prompt_imagem": "a warm wedding celebration in a first century Judean village courtyard at night seen from a distance, oil lamps and a few people in ancient robes far away, olive trees, starry sky, golden glow, no modern objects",
+      "prompt_movimento": "lamp lights twinkle and glow warmly, stars shimmer, olive leaves sway softly, camera slowly drifts upward"
+    }
+  ],
+  "legenda": "Senhor, enche de novo o que falta em mim 🍷🙏 (Parte 1)\nJoão 2:1-11\nComente Amém e siga a série 🙏",
+  "hashtags": ["#Jesus", "#milagresdeJesus", "#Caná", "#João2", "#fé"],
+  "fontes": ["João 2:1-11"]
+}
