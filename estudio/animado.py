@@ -271,7 +271,8 @@ def produzir_animado(caminho: Path, sem_envio: bool, sem_issue: bool) -> Path:
     imagens = []
     for i, c in enumerate(cenas):
         destino = proj / f"cena_{i}.jpg"
-        if not visual.gerar_uma(canal_img, c, destino, semente + i):
+        c_img = {**c, "prompt_imagem": f"2D cartoon animation style illustration, hand-drawn animated movie frame: {c['prompt_imagem']}"}
+        if not visual.gerar_uma(canal_img, c_img, destino, semente + i):
             raise RuntimeError(f"não foi possível gerar a imagem da cena {i + 1}")
         imagens.append(destino)
     avisos = []
