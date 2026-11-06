@@ -195,6 +195,41 @@ def _movimento(img: Path, desejado: str) -> str:
     return desejado
 
 
+CLIPE_PERGUNTA = """These are 3 frames (start, middle, end) of a short animated clip for a Christian channel.
+Intended scene: "{cena}"
+Reject (ok=false) if ANY frame shows: a visible human face (front or profile) or a deformed/melted face or body,
+a person turning toward the camera, people or animals appearing that are not in the first frame, extra or melted limbs,
+modern objects (glass cups, bottles, electric lights), text or watermark, or heavy flicker/morphing between frames.
+Small dark silhouettes seen from behind are fine. Answer only JSON: {{"ok": true/false, "motivo": "curto, em português"}}"""
+
+
+def _checar_clipe(clipe: Path, cena: str) -> dict:
+    """O Gemini olha 3 quadros do clipe animado e reprova rostos, gente surgindo, deformações e objetos modernos."""
+    chave = os.getenv("GEMINI_API_KEY")
+    if not chave:
+        return {"ok": True}
+    try:
+        import requests
+        from estudio.agentes.revisor_visual import API
+        from estudio.base import gemini_flash
+        d = _dur(clipe)
+        partes = []
+        for k, frac in enumerate((0.1, 0.5, 0.92)):
+            q = clipe.with_name(f"{clipe.stem}_q{k}.jpg")
+            subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{d * frac:.2f}", "-i", str(clipe), "-frames:v", "1",
+                            "-vf", "scale=360:-1", "-q:v", "4", str(q)], check=True)
+            partes.append({"inline_data": {"mime_type": "image/jpeg", "data": base64.b64encode(q.read_bytes()).decode()}})
+        corpo = {"contents": [{"parts": partes + [{"text": CLIPE_PERGUNTA.format(cena=cena)}]}],
+                 "generationConfig": {"responseMimeType": "application/json", "temperature": 0}}
+        for modelo in dict.fromkeys([gemini_flash(), "gemini-flash-latest", "gemini-flash-lite-latest"]):
+            r = requests.post(f"{API}/models/{modelo}:generateContent", params={"key": chave}, json=corpo, timeout=60)
+            if r.ok:
+                return json.loads(r.json()["candidates"][0]["content"]["parts"][0]["text"])
+    except Exception as e:  # noqa: BLE001
+        log("wan", f"checagem do clipe falhou ({e})")
+    return {"ok": True}
+
+
 def _quadros(seg: float) -> int:
     """Wan 2.2 5B gera a 24 fps, com 4k+1 quadros; teto de 145 (~6 s)."""
     n = int(seg * 24) + 1
@@ -307,6 +342,32 @@ def main():
     clipes = sorted(saida_vid.rglob("clipe_*.mp4"), key=lambda c: int(c.stem.split("_")[1]))
     if len(clipes) != len(cenas):
         raise SystemExit(f"o Kaggle devolveu {len(clipes)} de {len(cenas)} clipes — veja o log acima")
+
+    # 3b) controle de qualidade do movimento: clipes reprovados são refeitos uma vez com câmera parada e movimento mínimo
+    ruins = {}
+    for i, cl in enumerate(clipes):
+        v = _checar_clipe(cl, r["cenas"][i].get("prompt_imagem", ""))
+        log("wan", f"clipe {i + 1}: {'ok' if v.get('ok') else 'reprovado'} {v.get('motivo', '')}")
+        if not v.get("ok"):
+            ruins[i] = v.get("motivo", "")
+    if ruins and os.getenv("WAN_REFAZER", "1") == "1":
+        refazer = []
+        for i in ruins:
+            c2 = {**cenas[i], "nome": f"clipe_{i}", "seed": cenas[i]["seed"] + 777,
+                  "prompt": ("2D cartoon animation, static camera, almost still image, everyone stays frozen facing away, "
+                             "only subtle light flicker and gentle breeze in cloth and leaves")}
+            refazer.append(c2)
+        saida_r, _ = _rodar_kaggle(refazer, pasta, "refazer")
+        for i in ruins:
+            novo = next(saida_r.rglob(f"clipe_{i}.mp4"), None)
+            if novo:
+                v = _checar_clipe(novo, r["cenas"][i].get("prompt_imagem", ""))
+                log("wan", f"clipe {i + 1} refeito: {'ok' if v.get('ok') else 'ainda reprovado'} {v.get('motivo', '')}")
+                clipes[i] = novo
+                if v.get("ok"):
+                    ruins.pop(i)
+    for i, motivo in ruins.items():
+        avisos.append(f"Clipe {i + 1} ainda com defeito: {motivo} — assista antes de aprovar.")
 
     # 4) montagem: cada clipe ajustado ao tempo da cena, transição suave, legenda, voz e música baixa
     X = 0.4
