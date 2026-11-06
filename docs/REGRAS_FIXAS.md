@@ -21,5 +21,6 @@ Antes de produzir qualquer vídeo, confira item por item. Se algum não for cump
    selo da série quando houver.
 
 ## Processo
-10. O roteiro é mostrado ao Eric e só vai para produção depois do OK dele (enquanto a série estiver em ajuste).
+10. Nada é publicado sem a aprovação do Eric (etiqueta "aprovado" na Issue). A rotina diária produz sozinha, mas só
+    depois de o roteiro passar pelo validador abaixo.
 11. Rodar `python ferramentas/validar_animacao.py roteiros_animados/<arquivo>.json` — tem que dar OK.
