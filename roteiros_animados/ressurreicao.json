@@ -6,24 +6,24 @@
   "volume_musica": 0.12,
   "cenas": [
     {
-      "trecho": "Era domingo de manhã, e a pedra do túmulo de Jesus tinha sido removida.",
-      "prompt_imagem": "an ancient rock-cut tomb in a garden at dawn, a huge round stone rolled away from the open entrance, bright golden light pouring out of the empty tomb, morning mist",
+      "trecho": "Domingo de manhã. A pedra do túmulo de Jesus tinha sido removida.",
+      "prompt_imagem": "an ancient tomb carved into a rock hillside in a garden at dawn, a huge round millstone rolled to the side of the open dark entrance, golden light glowing from inside, olive trees, first century Judea, no buildings",
       "prompt_movimento": "golden light rays pour out of the open tomb and grow brighter, morning mist drifts slowly, dust particles float in the light, camera slowly pushes in"
     },
     {
-      "trecho": "Um anjo disse às mulheres: Ele não está aqui. Ressuscitou, como tinha dito.",
-      "prompt_imagem": "a radiant angel made of white light sitting on the rolled-away stone of a tomb at dawn, three women in ancient robes and head coverings seen from behind kneeling in awe",
-      "prompt_movimento": "the angel glows and its white robe flows gently, soft light pulses, the women slowly bow their heads, leaves move in the breeze"
+      "trecho": "Um anjo disse às mulheres: Ele não está aqui. Ressuscitou!",
+      "prompt_imagem": "a radiant angel in a white robe made of light sitting on a large round stone beside a rock-cut tomb, three women in first century robes and head coverings in the foreground seen from behind, kneeling, dawn, olive trees",
+      "prompt_movimento": "the angel glows softly and its robe flutters, light pulses gently, the women stay still, leaves move in the breeze"
     },
     {
       "trecho": "Jesus venceu a morte.",
-      "prompt_imagem": "Jesus in a white robe seen from behind standing in a flowering garden at sunrise, arms slightly open, warm golden light surrounding him",
+      "prompt_imagem": "a bearded man with long brown hair in a white robe seen from behind standing in an olive garden at sunrise outside a rock tomb, arms slightly open, warm golden light around him, first century Judea",
       "prompt_movimento": "his white robe and hair move gently in the breeze, the sun rises behind the hills and light spreads, flowers sway softly"
     },
     {
-      "trecho": "E porque ele vive, você também tem esperança. Mateus vinte e oito.",
-      "prompt_imagem": "a bright sunrise over green hills and an empty tomb in the distance, three empty crosses far away on a hill, golden sky, peaceful and hopeful",
-      "prompt_movimento": "the sun rises and golden light spreads across the hills, clouds drift slowly, birds fly across the sky"
+      "trecho": "E porque ele vive, você tem esperança. Mateus vinte e oito.",
+      "prompt_imagem": "a bright sunrise over the hills of ancient Jerusalem with stone walls and olive trees, an open rock tomb in the foreground, golden sky, no modern objects",
+      "prompt_movimento": "the sun rises slowly and golden light spreads over the hills, clouds drift, a few birds fly far away"
     }
   ],
   "legenda": "Ele vive, e por isso eu tenho esperança 🙏✨\nMateus 28:6\nComente \"Ele vive\" se você crê.",

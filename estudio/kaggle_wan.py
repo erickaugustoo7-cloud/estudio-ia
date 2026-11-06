@@ -148,6 +148,37 @@ def _rodar_kaggle(cenas: list, pasta: Path) -> tuple[list[Path], str]:
     return clipes, rel.read_text() if rel else ""
 
 
+MOVIMENTO_PERGUNTA = """You write motion prompts for an image-to-video model (Wan 2.2) that animates THIS exact image.
+Desired feel for the scene: "{desejado}"
+Rules: describe ONLY elements that are clearly visible in the image; never add people, animals or objects that are not
+there; keep bodies and faces stable (no new poses, no bending, no splitting); prefer gentle natural motion: cloth and hair
+in the breeze, light and rays, clouds, water, leaves, particles, a slow camera push-in. One short English sentence, max 45 words.
+Answer only JSON: {{"movimento": "..."}}"""
+
+
+def _movimento(img: Path, desejado: str) -> str:
+    """O Gemini olha a ilustração pronta e descreve um movimento só com o que está nela (evita o Wan inventar gente)."""
+    chave = os.getenv("GEMINI_API_KEY")
+    if not chave:
+        return desejado
+    try:
+        import requests
+        from estudio.agentes.revisor_visual import API, _miniatura
+        from estudio.base import gemini_flash
+        corpo = {"contents": [{"parts": [{"inline_data": {"mime_type": "image/jpeg", "data": _miniatura(img)}},
+                                         {"text": MOVIMENTO_PERGUNTA.format(desejado=desejado)}]}],
+                 "generationConfig": {"responseMimeType": "application/json", "temperature": 0.2}}
+        for modelo in dict.fromkeys(["gemini-flash-lite-latest", gemini_flash(), "gemini-flash-latest"]):
+            r = requests.post(f"{API}/models/{modelo}:generateContent", params={"key": chave}, json=corpo, timeout=40)
+            if r.ok:
+                mov = json.loads(r.json()["candidates"][0]["content"]["parts"][0]["text"])["movimento"]
+                log("wan", f"movimento ({img.stem}): {mov}")
+                return mov
+    except Exception as e:  # noqa: BLE001
+        log("wan", f"prompt de movimento automático falhou ({e})")
+    return desejado
+
+
 def _quadros(seg: float) -> int:
     """Wan 2.2 5B gera a 24 fps, com 4k+1 quadros; teto de 121 (~5 s)."""
     n = int(seg * 24) + 1
@@ -180,19 +211,29 @@ def main():
 
     # 2) ilustrações
     semente = random.randint(1, 10**6)
-    cenas = []
+    cenas, imgs, cenas_img = [], [], []
     for i, c in enumerate(r["cenas"]):
         img = pasta / f"cena_{i}.jpg"
         cena_img = {**c, "prompt_imagem": f"2D cartoon animation style illustration: {c['prompt_imagem']}"}
         if not visual.gerar_uma(canal_img, cena_img, img, semente + i):
             raise SystemExit(f"sem imagem para a cena {i + 1}")
+        imgs.append(img)
+        cenas_img.append(cena_img)
+    avisos = []
+    try:  # o Gemini confere cada ilustração (tema, época, deformações) e refaz as ruins ANTES de gastar GPU
+        from estudio.agentes import revisor_visual
+        avisos += revisor_visual.revisar(canal_img, cenas_img, imgs)
+    except Exception as e:  # noqa: BLE001
+        log("wan", f"revisão visual indisponível ({e})")
+    for i, (c, img) in enumerate(zip(r["cenas"], imgs)):
         peq = pasta / f"cena_{i}_480.jpg"  # o Wan anima em 480x832: manda a imagem já no tamanho (script menor)
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(img), "-vf", "scale=480:832", "-q:v", "4", str(peq)], check=True)
-        movimento = c.get("prompt_movimento") or c["prompt_imagem"]
+        movimento = _movimento(img, c.get("prompt_movimento") or c["prompt_imagem"])
         cenas.append({"img": base64.b64encode(peq.read_bytes()).decode(), "seed": semente + i,
                       "quadros": _quadros(tempos[i] + 0.4),
                       "prompt": f"2D cartoon animation, smooth natural motion. {movimento}",
-                      "negativo": "extra people, new characters appearing, faces, text, watermark, distorted body"})
+                      "negativo": ("extra people, new characters appearing, duplicated person, body splitting, extra limbs, "
+                                   "morphing, bending over, sudden pose change, faces, text, watermark, distorted body, flicker")})
 
     # 3) animação no Kaggle
     clipes, resumo = _rodar_kaggle(cenas, pasta)
@@ -274,7 +315,7 @@ def main():
     (pasta / "post.txt").write_text(texto_post, encoding="utf-8")
     no_tg = publicador.telegram_video(video, f"🎨 [Animação Wan 2.2] {r['titulo']} · {total:.0f}s", texto_post)
     link = abrir_issue({**canal, "estilo_nome": "animação Wan 2.2"}, roteiro, texto_post, pasta, total,
-                       [f"Kaggle: {resumo[:300]}"], r.get("referencia", r["titulo"]), no_tg)
+                       avisos + [f"Kaggle: {resumo[:300]}"], r.get("referencia", r["titulo"]), no_tg)
     if no_tg and link:
         publicador.telegram_mensagem(f"✅ Aprovar para Instagram e Facebook: {link}")
     log("wan", f"concluído: {video} · {link}")
