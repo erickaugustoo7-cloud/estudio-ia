@@ -1,0 +1,44 @@
+{
+  "titulo": "Oração de 30 segundos ao acordar",
+  "gancho_tela": "Faça essa oração ao acordar",
+  "estilo": "pintura",
+  "duracao_max": 30,
+  "narracao": "Antes de pegar o celular hoje, faça essa oração comigo. Senhor Jesus, obrigado por mais um dia. Eu te entrego o meu trabalho e a minha família. Me dá força para o que eu não consigo sozinho, e paz para o que eu não controlo. Caminha comigo hoje. Amém. Jesus prometeu: eu estou com vocês todos os dias. Se você orou comigo, escreva Amém.",
+  "cenas": [
+    {
+      "trecho": "Antes de pegar o celular hoje, faça essa oração comigo.",
+      "busca_imagem": "",
+      "prompt_imagem": "a warm golden sunrise light coming through a bedroom window onto an open bible on a bedside table, early morning calm"
+    },
+    {
+      "trecho": "Senhor Jesus, obrigado por mais um dia. Eu te entrego o meu trabalho e a minha família.",
+      "busca_imagem": "",
+      "prompt_imagem": "a man seen from behind sitting on the edge of his bed with head bowed in prayer, soft morning light through the curtains"
+    },
+    {
+      "trecho": "Me dá força para o que eu não consigo sozinho, e paz para o que eu não controlo.",
+      "busca_imagem": "",
+      "prompt_imagem": "a man seen from behind standing at an open door looking at a golden sunrise over quiet hills"
+    },
+    {
+      "trecho": "Caminha comigo hoje. Amém.",
+      "busca_imagem": "",
+      "prompt_imagem": "a lone man seen from behind walking on a dirt road toward a bright sunrise, long shadow, morning mist"
+    },
+    {
+      "trecho": "Jesus prometeu: eu estou com vocês todos os dias. Se você orou comigo, escreva Amém.",
+      "busca_imagem": "",
+      "prompt_imagem": "rays of golden sunlight breaking through clouds over a wide valley at dawn, a small wooden cross on a hill in silhouette"
+    }
+  ],
+  "legenda": "Senhor, caminha comigo hoje ☀️🙏\nMateus 28:20\nSe você orou comigo, escreva Amém 🙏 e salve para orar amanhã de novo.",
+  "hashtags": [
+    "#oraçãodamanhã",
+    "#bomdia",
+    "#Mateus28",
+    "#Jesus"
+  ],
+  "fontes": [
+    "Mateus 28:20"
+  ]
+}

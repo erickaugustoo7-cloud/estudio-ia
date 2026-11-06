@@ -112,6 +112,8 @@ def main():
     (pasta / "roteiro.json").write_text(json.dumps(roteiro, ensure_ascii=False, indent=2), encoding="utf-8")
 
     canal_voz = {**canal, "vozes": [roteiro["voz"]]} if roteiro.get("voz") else canal  # voz fixa no roteiro
+    if roteiro.get("duracao_max") and canal_voz.get("gemini_tts"):  # formato curto (ex.: oração de 30 s)
+        canal_voz = {**canal_voz, "gemini_tts": {**canal_voz["gemini_tts"], "duracao_max": roteiro["duracao_max"]}}
     mp3, palavras, dur = narrador.narrar(canal_voz, roteiro["narracao"], pasta)
     if dur < 61 and not a.roteiro:
         # o Revisor pode ter encurtado: estende pelo ritmo real da voz e narra de novo (uma vez)
@@ -119,7 +121,7 @@ def main():
         roteiro = roteirista.estender(canal, roteiro, int((64 - dur) * por_seg) + 10)
         (pasta / "roteiro.json").write_text(json.dumps(roteiro, ensure_ascii=False, indent=2), encoding="utf-8")
         mp3, palavras, dur = narrador.narrar(canal_voz, roteiro["narracao"], pasta)
-    if dur < 61:
+    if dur < 61 and not roteiro.get("duracao_max"):
         problemas.append(f"Vídeo com {dur:.0f}s — abaixo de 1 minuto não conta no Creator Rewards do TikTok.")
 
     estilos = canal.get("estilos_visuais") or {}

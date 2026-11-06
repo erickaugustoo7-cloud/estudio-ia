@@ -8,14 +8,16 @@ for campo in ("titulo", "gancho_tela", "narracao", "cenas", "legenda", "hashtags
     if not r.get(campo):
         erros.append(f"falta o campo '{campo}'")
 palavras = len(r.get("narracao", "").split())
-pmin, pmax = (195, 225) if "--canal=espaco" in sys.argv else (165, 195)
+curto = "--curto" in sys.argv  # oração/vídeo de até 30 s
+pmin, pmax = (50, 68) if curto else (195, 225) if "--canal=espaco" in sys.argv else (165, 195)
 if not pmin <= palavras <= pmax:
     erros.append(f"narração com {palavras} palavras (o alvo é {pmin}–{pmax})")
 junto = " ".join(c["trecho"] for c in r.get("cenas", []))
 if junto != r.get("narracao"):
     erros.append("os trechos das cenas, juntados com espaço, não são idênticos à narração")
-if not 7 <= len(r.get("cenas", [])) <= 10:
-    erros.append(f"{len(r.get('cenas', []))} cenas (use 8 ou 9)")
+cmin, cmax = (4, 6) if curto else (7, 10)
+if not cmin <= len(r.get("cenas", [])) <= cmax:
+    erros.append(f"{len(r.get('cenas', []))} cenas (use {cmin}–{cmax})")
 if len(r.get("gancho_tela", "").split()) > 7:
     erros.append("gancho_tela com mais de 7 palavras")
 if "parte" in r.get("gancho_tela", "").lower():
