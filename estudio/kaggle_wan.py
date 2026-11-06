@@ -10,6 +10,7 @@ Precisa dos segredos KAGGLE_USERNAME e KAGGLE_KEY (conta com telefone verificado
 """
 import base64
 import json
+import re
 import os
 import random
 import subprocess
@@ -77,6 +78,12 @@ for i, c in enumerate(CENAS):
     else:  # animação com o Wan 2.2 FastWan
         img = TMP / f"cena_{i}.jpg"
         img.write_bytes(base64.b64decode(c["img"]))
+        try:
+            from PIL import Image
+            w, h = (int(x) for x in c.get("resolucao", "704x1280").split("x"))
+            Image.open(img).convert("RGB").resize((w, h), Image.LANCZOS).save(img, quality=95)
+        except Exception as e:
+            print("ampliar imagem:", e, flush=True)
         s = {"model_type": "ti2v_2_2_fastwan", "prompt": c["prompt"], "image_prompt_type": "S",
              "image_start": str(img), "resolution": c.get("resolucao", "704x1280"), "video_length": c.get("quadros", 97),
              "num_inference_steps": c.get("passos", 4), "guidance_scale": 1, "flow_shift": 3, "seed": c.get("seed", 42),
@@ -230,6 +237,21 @@ def _checar_clipe(clipe: Path, cena: str) -> dict:
     return {"ok": True}
 
 
+_SEM_GENTE = re.compile(r",?\s*\b(no people|nobody[^,.]*|no faces?|faces? (?:not|never) visible|no crowd|no extra people[^,.]*|"
+                        r"(?:tiny |small )?(?:distant )?(?:dark )?silhouettes? of [^,.]*|seen from behind|no modern objects|no glass)\b", re.I)
+
+
+def _prompt_imagem(base: str, estilo: str) -> str:
+    """O Z-Image não tem prompt negativo: escrever "no people" faz ele DESENHAR gente. Tira essas menções e descreve
+    a cena como vazia (natureza-morta/ambiente) quando não há mãos em cena."""
+    limpo = _SEM_GENTE.sub("", base).replace(" ,", ",").strip(" ,.")
+    if re.search(r"\bhands?\b|\barms?\b", limpo, re.I):
+        extra = "close-up framing on the hands and objects only, cropped at the wrists"
+    else:
+        extra = "empty deserted scene, still life, environment only"
+    return f"{limpo}. {extra}. Strictly first century objects of clay, stone, wood and cloth. {estilo}"
+
+
 def _quadros(seg: float) -> int:
     """Wan 2.2 5B gera a 24 fps, com 4k+1 quadros; teto de 145 (~6 s)."""
     n = int(seg * 24) + 1
@@ -280,7 +302,7 @@ def main():
             for i in pendentes:
                 base_p = prompts.get(i) or cenas_img[i]["prompt_imagem"]
                 itens += [{"tipo": "imagem", "nome": f"img_{i}_r{rodada}{k}", "seed": semente + 100 * i + 10 * rodada + k,
-                           "prompt": f"{base_p}. {REGRA}. {estilo}"} for k in range(opcoes)]
+                           "prompt": _prompt_imagem(base_p, estilo)} for k in range(opcoes)]
             saida_img, rel_img = _rodar_kaggle(itens, pasta, f"imagens{rodada}")
             log("wan", f"imagens (rodada {rodada}): {rel_img[:200]}")
             for i in list(pendentes):
@@ -326,8 +348,8 @@ def main():
     for i, (c, img) in enumerate(zip(r["cenas"], imgs)):
         res_v = r.get("resolucao_video", os.getenv("WAN_RESOLUCAO", "704x1280"))  # 720p: rostos e mãos mais estáveis
         peq = pasta / f"cena_{i}_wan.jpg"  # manda a imagem já no tamanho do Wan (script menor)
-        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(img), "-vf", f"scale={res_v.replace('x', ':')}",
-                        "-q:v", "3", str(peq)], check=True)
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(img), "-vf", "scale=480:832",
+                        "-q:v", "5", str(peq)], check=True)  # pacote leve (o Kaggle recusa script grande); o Wan amplia
         movimento = _movimento(img, c.get("prompt_movimento") or c["prompt_imagem"])
         cenas.append({"img": base64.b64encode(peq.read_bytes()).decode(), "seed": semente + i,
                       "quadros": _quadros(tempos[i] + 0.4), "resolucao": res_v,

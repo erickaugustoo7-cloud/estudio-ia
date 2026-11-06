@@ -7,7 +7,8 @@ Antes de produzir qualquer vídeo, confira item por item. Se algum não for cump
 2. **Pessoas não são o assunto da cena.** No máximo: mãos/braços em close, ou figuras minúsculas ao longe.
    Nada de "homem de costas", "mulher de véu", "casal", "discípulos" como figura principal — foi isso que gerou
    rostos e personagens virando para a câmera.
-3. A história é contada por **objetos e ambiente**: potes, mesa, lamparinas, pães, redes, barco, água, porta, estrada,
+3. Nos prompts de imagem NÃO escreva "no people", "nobody", "silhouettes" (o gerador desenha gente quando lê
+   essas palavras); descreva só o lugar e os objetos. A história é contada por **objetos e ambiente**: potes, mesa, lamparinas, pães, redes, barco, água, porta, estrada,
    céu, luz. Falas de personagens aparecem com uma imagem de ambiente/objeto ligada a elas.
 4. **Nada moderno**: sem vidro, garrafa, taça, luz elétrica, construção moderna. Só barro, pedra, madeira, tecido.
 5. Movimento só do ambiente: fogo, luz, água, vento em tecidos e folhas, câmera lenta. Nada de gente se mexendo.
