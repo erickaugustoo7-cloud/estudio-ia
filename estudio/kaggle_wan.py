@@ -65,23 +65,34 @@ from shared.api import init
 session = init(root=ROOT, output_dir=OUT, cli_args=["--attention", "sdpa", "--profile", "5"])
 rel = {}
 for i, c in enumerate(CENAS):
-    img = TMP / f"cena_{i}.jpg"
-    img.write_bytes(base64.b64decode(c["img"]))
     ini = time.time()
-    s = {"model_type": "ti2v_2_2_fastwan", "prompt": c["prompt"], "image_prompt_type": "S",
-         "image_start": str(img), "resolution": c.get("resolucao", "480x832"), "video_length": c.get("quadros", 97),
-         "num_inference_steps": 3, "guidance_scale": 1, "flow_shift": 3, "seed": c.get("seed", 42),
-         "negative_prompt": c.get("negativo", "")}
-    job = session.submit_task(s)
-    res = job.result()
+    if c.get("tipo") == "imagem":  # ilustração com o Z-Image Turbo (Apache 2.0)
+        s = {"model_type": c.get("modelo", "z_image"), "prompt": c["prompt"], "resolution": c.get("resolucao", "768x1344"),
+             "num_inference_steps": c.get("passos", 8), "guidance_scale": 0, "seed": c.get("seed", 42), "batch_size": 1}
+    else:  # animação com o Wan 2.2 FastWan
+        img = TMP / f"cena_{i}.jpg"
+        img.write_bytes(base64.b64decode(c["img"]))
+        s = {"model_type": "ti2v_2_2_fastwan", "prompt": c["prompt"], "image_prompt_type": "S",
+             "image_start": str(img), "resolution": c.get("resolucao", "480x832"), "video_length": c.get("quadros", 97),
+             "num_inference_steps": 3, "guidance_scale": 1, "flow_shift": 3, "seed": c.get("seed", 42),
+             "negative_prompt": c.get("negativo", "")}
+    try:
+        res = session.submit_task(s).result()
+    except Exception as e:
+        print(f"item {i}: exceção {e}", flush=True)
+        rel[i] = {"ok": False, "erro": str(e)[:300]}
+        continue
     arqs = [str(f) for f in getattr(res, "generated_files", [])]
-    print(f"cena {i}: ok={res.success} {time.time() - ini:.0f}s {arqs}", flush=True)
+    print(f"item {i} ({c.get('tipo', 'video')}): ok={res.success} {time.time() - ini:.0f}s {arqs}", flush=True)
     if not res.success:
         for e in res.errors:
             print("  erro:", e.message, flush=True)
+    nome = c.get("nome", f"clipe_{i}")
     for f in arqs:
-        if f.endswith(".mp4"):
-            Path(f).rename(OUT / f"clipe_{i}.mp4")
+        ext = Path(f).suffix.lower()
+        if ext in (".mp4", ".png", ".jpg", ".jpeg", ".webp"):
+            Path(f).rename(OUT / f"{nome}{ext}")
+            break
     rel[i] = {"ok": res.success, "segundos": round(time.time() - ini)}
 (OUT / "relatorio.json").write_text(json.dumps({"total_s": round(time.time() - t0), "cenas": rel}))
 print("FIM", json.dumps(rel), flush=True)
@@ -105,9 +116,9 @@ def _dur(arq: Path) -> float:
                                 capture_output=True, text=True).stdout.strip() or 0)
 
 
-def _rodar_kaggle(cenas: list, pasta: Path) -> tuple[list[Path], str]:
+def _rodar_kaggle(cenas: list, pasta: Path, etapa: str = "video") -> tuple[Path, str]:
     usuario = os.environ["KAGGLE_USERNAME"]
-    kdir = pasta / "kernel"
+    kdir = pasta / f"kernel_{etapa}"
     kdir.mkdir()
     pacote = base64.b64encode(json.dumps(cenas).encode()).decode()
     (kdir / "script.py").write_text(SCRIPT_KAGGLE.replace("__CENAS__", pacote), encoding="utf-8")
@@ -131,7 +142,7 @@ def _rodar_kaggle(cenas: list, pasta: Path) -> tuple[list[Path], str]:
         log("wan", f"{(time.time() - inicio) / 60:.0f} min — {status.strip()[-60:]}")
         if any(x in status.lower() for x in ("complete", "error", "cancel")):
             break
-    saida = pasta / "kaggle"
+    saida = pasta / f"kaggle_{etapa}"
     saida.mkdir()
     _kaggle("kernels", "output", f"{usuario}/{SLUG}", "-p", str(saida), check=False)
     for lg in saida.glob("*.log"):
@@ -140,12 +151,11 @@ def _rodar_kaggle(cenas: list, pasta: Path) -> tuple[list[Path], str]:
             texto = "".join(x.get("data", "") for x in json.loads(texto))
         except Exception:  # noqa: BLE001
             pass
-        (pasta / "kaggle_log.txt").write_text(texto)
+        (pasta / f"kaggle_log_{etapa}.txt").write_text(texto)
         print("\n".join(texto.splitlines()[-40:]))
-    clipes = sorted(saida.rglob("clipe_*.mp4"), key=lambda c: int(c.stem.split("_")[1]))
     rel = next(saida.rglob("relatorio.json"), None)
-    log("wan", f"status final: {status.strip()[-60:]} · {len(clipes)} clipe(s)")
-    return clipes, rel.read_text() if rel else ""
+    log("wan", f"status final: {status.strip()[-60:]} · {len(list(saida.rglob('*.*')))} arquivo(s)")
+    return saida, rel.read_text() if rel else ""
 
 
 MOVIMENTO_PERGUNTA = """You write motion prompts for an image-to-video model (Wan 2.2) that animates THIS exact image.
@@ -209,22 +219,55 @@ def main():
         tempos = montador.tempos_das_cenas(r["cenas"], palavras, dur)
         tempos[-1] += 0.8  # respiro no fim
 
-    # 2) ilustrações
+    # 2) ilustrações: Z-Image Turbo no Kaggle (2 opções por cena; o Gemini escolhe a que serve)
     semente = random.randint(1, 10**6)
-    cenas, imgs, cenas_img = [], [], []
-    for i, c in enumerate(r["cenas"]):
-        img = pasta / f"cena_{i}.jpg"
-        cena_img = {**c, "prompt_imagem": f"2D cartoon animation style illustration: {c['prompt_imagem']}"}
-        if not visual.gerar_uma(canal_img, cena_img, img, semente + i):
-            raise SystemExit(f"sem imagem para a cena {i + 1}")
-        imgs.append(img)
-        cenas_img.append(cena_img)
-    avisos = []
-    try:  # o Gemini confere cada ilustração (tema, época, deformações) e refaz as ruins ANTES de gastar GPU
-        from estudio.agentes import revisor_visual
-        avisos += revisor_visual.revisar(canal_img, cenas_img, imgs)
-    except Exception as e:  # noqa: BLE001
-        log("wan", f"revisão visual indisponível ({e})")
+    cenas, imgs, cenas_img, avisos = [], [], [], []
+    estilo = r.get("estilo_imagem", ESTILO)
+    fonte = r.get("fonte_imagem", os.getenv("FONTE_IMAGEM", "kaggle"))
+    opcoes = int(r.get("opcoes_imagem", 2))
+    for c in r["cenas"]:
+        cenas_img.append({**c, "prompt_imagem": f"2D cartoon animation style illustration: {c['prompt_imagem']}"})
+    if fonte == "kaggle":
+        itens = [{"tipo": "imagem", "nome": f"img_{i}_{k}", "seed": semente + 100 * i + k,
+                  "prompt": f"{c['prompt_imagem']}. {REGRA}. {estilo}"}
+                 for i, c in enumerate(cenas_img) for k in range(opcoes)]
+        saida_img, rel_img = _rodar_kaggle(itens, pasta, "imagens")
+        log("wan", f"imagens: {rel_img[:200]}")
+        from estudio.agentes.revisor_visual import _avaliar
+        chave = os.getenv("GEMINI_API_KEY")
+        for i, c in enumerate(cenas_img):
+            cand = sorted(x for x in saida_img.rglob(f"img_{i}_*.*") if x.suffix.lower() in (".png", ".jpg", ".jpeg", ".webp"))
+            escolhida = None
+            for x in cand:
+                jpg = pasta / f"cena_{i}_{x.stem.split('_')[-1]}.jpg"
+                subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(x), "-q:v", "2", str(jpg)], check=True)
+                try:
+                    v = _avaliar(chave, canal_img, c, jpg) if chave else {"ok": True}
+                except Exception as e:  # noqa: BLE001
+                    v = {"ok": True, "motivo": f"revisão indisponível ({e})"}
+                log("wan", f"cena {i + 1} opção {x.stem[-1]}: {'ok' if v.get('ok') else 'reprovada'} {v.get('motivo', '')}")
+                if v.get("ok"):
+                    escolhida = jpg
+                    break
+                escolhida = escolhida or jpg
+            if not escolhida:
+                raise SystemExit(f"o Kaggle não gerou imagem para a cena {i + 1}")
+            if not v.get("ok"):
+                avisos.append(f"Cena {i + 1}: nenhuma opção passou na revisão ({v.get('motivo', '')}) — confira.")
+            img = pasta / f"cena_{i}.jpg"
+            escolhida.replace(img)
+            imgs.append(img)
+    else:  # fontes antigas (Cloudflare/Pollinations) + revisão que refaz as ruins
+        for i, c in enumerate(cenas_img):
+            img = pasta / f"cena_{i}.jpg"
+            if not visual.gerar_uma(canal_img, c, img, semente + i):
+                raise SystemExit(f"sem imagem para a cena {i + 1}")
+            imgs.append(img)
+        try:
+            from estudio.agentes import revisor_visual
+            avisos += revisor_visual.revisar(canal_img, cenas_img, imgs)
+        except Exception as e:  # noqa: BLE001
+            log("wan", f"revisão visual indisponível ({e})")
     for i, (c, img) in enumerate(zip(r["cenas"], imgs)):
         peq = pasta / f"cena_{i}_480.jpg"  # o Wan anima em 480x832: manda a imagem já no tamanho (script menor)
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(img), "-vf", "scale=480:832", "-q:v", "4", str(peq)], check=True)
@@ -236,7 +279,8 @@ def main():
                                    "morphing, bending over, sudden pose change, faces, text, watermark, distorted body, flicker")})
 
     # 3) animação no Kaggle
-    clipes, resumo = _rodar_kaggle(cenas, pasta)
+    saida_vid, resumo = _rodar_kaggle(cenas, pasta, "video")
+    clipes = sorted(saida_vid.rglob("clipe_*.mp4"), key=lambda c: int(c.stem.split("_")[1]))
     if len(clipes) != len(cenas):
         raise SystemExit(f"o Kaggle devolveu {len(clipes)} de {len(cenas)} clipes — veja o log acima")
 

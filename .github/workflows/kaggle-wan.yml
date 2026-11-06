@@ -70,7 +70,7 @@ jobs:
       - name: Guardar prévias (branch previas)
         if: always()
         run: |
-          mkdir -p /tmp/pv && cp saida/*/previa_*.jpg saida/*/kaggle_log.txt /tmp/pv/ 2>/dev/null || true
+          mkdir -p /tmp/pv && cp saida/*/previa_*.jpg saida/*/kaggle_log_*.txt /tmp/pv/ 2>/dev/null || true
           ls /tmp/pv | grep -q . || exit 0
           git config user.name "estudio-bot"; git config user.email "estudio-bot@users.noreply.github.com"
           git fetch origin previas && git checkout previas || git checkout --orphan previas
