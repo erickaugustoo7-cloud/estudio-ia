@@ -1,0 +1,39 @@
+{
+  "titulo": "Ele ressuscitou",
+  "gancho_tela": "O túmulo estava vazio",
+  "referencia": "Mateus 28:6",
+  "duracao_max": 20,
+  "volume_musica": 0.12,
+  "cenas": [
+    {
+      "trecho": "Era domingo de manhã, e a pedra do túmulo de Jesus tinha sido removida.",
+      "prompt_imagem": "an ancient rock-cut tomb in a garden at dawn, a huge round stone rolled away from the open entrance, bright golden light pouring out of the empty tomb, morning mist",
+      "prompt_movimento": "golden light rays pour out of the open tomb and grow brighter, morning mist drifts slowly, dust particles float in the light, camera slowly pushes in"
+    },
+    {
+      "trecho": "Um anjo disse às mulheres: Ele não está aqui. Ressuscitou, como tinha dito.",
+      "prompt_imagem": "a radiant angel made of white light sitting on the rolled-away stone of a tomb at dawn, three women in ancient robes and head coverings seen from behind kneeling in awe",
+      "prompt_movimento": "the angel glows and its white robe flows gently, soft light pulses, the women slowly bow their heads, leaves move in the breeze"
+    },
+    {
+      "trecho": "Jesus venceu a morte.",
+      "prompt_imagem": "Jesus in a white robe seen from behind standing in a flowering garden at sunrise, arms slightly open, warm golden light surrounding him",
+      "prompt_movimento": "his white robe and hair move gently in the breeze, the sun rises behind the hills and light spreads, flowers sway softly"
+    },
+    {
+      "trecho": "E porque ele vive, você também tem esperança. Mateus vinte e oito.",
+      "prompt_imagem": "a bright sunrise over green hills and an empty tomb in the distance, three empty crosses far away on a hill, golden sky, peaceful and hopeful",
+      "prompt_movimento": "the sun rises and golden light spreads across the hills, clouds drift slowly, birds fly across the sky"
+    }
+  ],
+  "legenda": "Ele vive, e por isso eu tenho esperança 🙏✨\nMateus 28:6\nComente \"Ele vive\" se você crê.",
+  "hashtags": [
+    "#ressurreição",
+    "#Jesusvive",
+    "#Mateus28",
+    "#fé"
+  ],
+  "fontes": [
+    "Mateus 28:1-7"
+  ]
+}

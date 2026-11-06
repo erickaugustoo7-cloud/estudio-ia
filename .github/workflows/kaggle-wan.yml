@@ -14,6 +14,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: kaggle-wan
@@ -30,6 +31,7 @@ jobs:
       CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
       CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GH_TOKEN: ${{ github.token }}
       KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
       KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
       KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_TOKEN }}
@@ -47,6 +49,17 @@ jobs:
       - if: steps.ff.outcome == 'failure'
         run: sudo apt-get update -q && sudo apt-get install -y -q ffmpeg
       - run: pip install -r requirements.txt kaggle six
+      - name: Fontes
+        run: |
+          fc-list | grep -qi dejavu || (sudo apt-get update -qq && sudo apt-get install -y -qq fonts-dejavu-core)
+          mkdir -p assets/fontes
+          [ -f assets/fontes/Montserrat.ttf ] || curl -sSfL -o assets/fontes/Montserrat.ttf \
+            "https://github.com/google/fonts/raw/main/ofl/montserrat/Montserrat%5Bwght%5D.ttf" || true
+      - name: Cache do modelo de alinhamento (Whisper)
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: whisper-small-v1
       - name: Conferir segredos do Kaggle
         run: |
           echo "KAGGLE_USERNAME: ${KAGGLE_USERNAME:+definido} · KAGGLE_KEY: ${KAGGLE_KEY:+definido} · KAGGLE_API_TOKEN: ${KAGGLE_API_TOKEN:+definido}"
@@ -67,9 +80,10 @@ jobs:
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: wan-${{ github.run_id }}
+          name: video-biblico-${{ github.run_id }}
           path: |
             saida/**/video.mp4
-            saida/**/kaggle/**
-          retention-days: 7
+            saida/**/roteiro.json
+            saida/**/post.txt
+          retention-days: 14
           if-no-files-found: ignore

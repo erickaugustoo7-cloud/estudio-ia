@@ -70,7 +70,8 @@ for i, c in enumerate(CENAS):
     ini = time.time()
     s = {"model_type": "ti2v_2_2_fastwan", "prompt": c["prompt"], "image_prompt_type": "S",
          "image_start": str(img), "resolution": c.get("resolucao", "480x832"), "video_length": c.get("quadros", 97),
-         "num_inference_steps": 3, "guidance_scale": 1, "flow_shift": 3, "seed": c.get("seed", 42)}
+         "num_inference_steps": 3, "guidance_scale": 1, "flow_shift": 3, "seed": c.get("seed", 42),
+         "negative_prompt": c.get("negativo", "")}
     job = session.submit_task(s)
     res = job.result()
     arqs = [str(f) for f in getattr(res, "generated_files", [])]
@@ -94,36 +95,27 @@ def _kaggle(*args, check=True) -> str:
     return r.stdout + r.stderr
 
 
-def main():
-    caminho = Path(sys.argv[1])
-    r = json.loads(caminho.read_text(encoding="utf-8"))
-    canal = carregar_canal("biblico")
-    canal_img = {**canal, "estilo_visual": r.get("estilo_imagem", ESTILO), "regra_visual_pessoas": REGRA}
-    pasta = SAIDA / f"wan_{caminho.stem}_{datetime.now():%Y%m%d_%H%M%S}"
-    pasta.mkdir(parents=True)
-    semente = random.randint(1, 10**6)
-    cenas = []
-    for i, c in enumerate(r["cenas"]):
-        img = pasta / f"cena_{i}.jpg"
-        cena_img = {**c, "prompt_imagem": f"2D cartoon animation style illustration: {c['prompt_imagem']}"}
-        if not visual.gerar_uma(canal_img, cena_img, img, semente + i):
-            raise SystemExit(f"sem imagem para a cena {i + 1}")
-        movimento = c.get("prompt_movimento") or c["prompt_imagem"]
-        peq = pasta / f"cena_{i}_480.jpg"  # o Wan anima em 480x832: manda a imagem já no tamanho (script menor)
-        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(img), "-vf", "scale=480:832", "-q:v", "4", str(peq)], check=True)
-        cenas.append({"img": base64.b64encode(peq.read_bytes()).decode(), "seed": semente + i,
-                      "prompt": f"2D cartoon animation, smooth natural motion. {movimento}"})
+def _ts(t: float) -> str:
+    h, m = int(t // 3600), int(t % 3600 // 60)
+    return f"{h}:{m:02d}:{t % 60:05.2f}"
+
+
+def _dur(arq: Path) -> float:
+    return float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(arq)],
+                                capture_output=True, text=True).stdout.strip() or 0)
+
+
+def _rodar_kaggle(cenas: list, pasta: Path) -> tuple[list[Path], str]:
     usuario = os.environ["KAGGLE_USERNAME"]
     kdir = pasta / "kernel"
     kdir.mkdir()
     pacote = base64.b64encode(json.dumps(cenas).encode()).decode()
     (kdir / "script.py").write_text(SCRIPT_KAGGLE.replace("__CENAS__", pacote), encoding="utf-8")
-    (kdir / "kernel-metadata.json").write_text(json.dumps({
-        "id": f"{usuario}/{SLUG}", "title": SLUG, "code_file": "script.py", "language": "python",
-        "kernel_type": "script", "is_private": True, "enable_gpu": True, "enable_internet": True,
-        "machine_shape": os.getenv("KAGGLE_MAQUINA", "NvidiaTeslaT4"),
-        "dataset_sources": [], "competition_sources": [], "kernel_sources": []}))
-    meta = json.loads((kdir / "kernel-metadata.json").read_text())
+    meta = {"id": f"{usuario}/{SLUG}", "title": SLUG, "code_file": "script.py", "language": "python",
+            "kernel_type": "script", "is_private": True, "enable_gpu": True, "enable_internet": True,
+            "machine_shape": os.getenv("KAGGLE_MAQUINA", "NvidiaTeslaT4"),
+            "dataset_sources": [], "competition_sources": [], "kernel_sources": []}
+    (kdir / "kernel-metadata.json").write_text(json.dumps(meta))
     log("wan", f"script: {(kdir / 'script.py').stat().st_size / 1024:.0f} KB")
     try:
         log("wan", _kaggle("kernels", "push", "-p", str(kdir)).strip())
@@ -132,14 +124,12 @@ def main():
         meta.pop("machine_shape", None)
         (kdir / "kernel-metadata.json").write_text(json.dumps(meta))
         log("wan", _kaggle("kernels", "push", "-p", str(kdir)).strip())
-
-    inicio = time.time()
-    status = ""
+    inicio, status = time.time(), ""
     while time.time() - inicio < float(os.getenv("WAN_LIMITE_MIN", "150")) * 60:
         time.sleep(60)
         status = _kaggle("kernels", "status", f"{usuario}/{SLUG}", check=False)
-        log("wan", f"{(time.time() - inicio) / 60:.0f} min — {status.strip()[-90:]}")
-        if any(s in status.lower() for s in ("complete", "error", "cancel")):
+        log("wan", f"{(time.time() - inicio) / 60:.0f} min — {status.strip()[-60:]}")
+        if any(x in status.lower() for x in ("complete", "error", "cancel")):
             break
     saida = pasta / "kaggle"
     saida.mkdir()
@@ -151,24 +141,143 @@ def main():
         except Exception:  # noqa: BLE001
             pass
         (pasta / "kaggle_log.txt").write_text(texto)
-        print("\n".join(texto.splitlines()[-60:]))
-    clipes = sorted(saida.rglob("clipe_*.mp4"))
-    log("wan", f"status final: {status.strip()[-90:]} · {len(clipes)} clipe(s)")
-    if not clipes:
-        raise SystemExit("o Kaggle não devolveu clipes — veja o log acima")
-    lista = pasta / "lista.txt"
-    lista.write_text("".join(f"file '{c.resolve()}'\n" for c in clipes))
-    video = pasta / "video.mp4"
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", str(lista),
-                    "-vf", "scale=1080:1920:flags=lanczos", "-c:v", "libx264", "-crf", "20", "-pix_fmt", "yuv420p",
-                    "-an", str(video)], check=True)
-    for i, c in enumerate(clipes):
-        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", "2", "-i", str(c), "-frames:v", "1",
-                        "-vf", "scale=540:-1", str(pasta / f"previa_{i}.jpg")], check=False)
+        print("\n".join(texto.splitlines()[-40:]))
+    clipes = sorted(saida.rglob("clipe_*.mp4"), key=lambda c: int(c.stem.split("_")[1]))
     rel = next(saida.rglob("relatorio.json"), None)
-    resumo = rel.read_text() if rel else ""
-    publicador.telegram_video(video, f"🧪 [Teste Wan 2.2] {r['titulo']} — só animação, sem voz", resumo[:900])
-    log("wan", f"concluído: {video} {resumo}")
+    log("wan", f"status final: {status.strip()[-60:]} · {len(clipes)} clipe(s)")
+    return clipes, rel.read_text() if rel else ""
+
+
+def _quadros(seg: float) -> int:
+    """Wan 2.2 5B gera a 24 fps, com 4k+1 quadros; teto de 121 (~5 s)."""
+    n = int(seg * 24) + 1
+    n = n + (1 - n % 4) % 4
+    return max(49, min(121, n))
+
+
+def main():
+    from estudio.agentes import montador, narrador
+    from estudio.agentes.montador_hf import _preparar_musica
+    from estudio.produzir import abrir_issue, montar_texto_post
+
+    caminho = Path(sys.argv[1])
+    r = json.loads(caminho.read_text(encoding="utf-8"))
+    canal = carregar_canal("biblico")
+    canal_img = {**canal, "estilo_visual": r.get("estilo_imagem", ESTILO), "regra_visual_pessoas": REGRA}
+    pasta = SAIDA / f"wan_{caminho.stem}_{datetime.now():%Y%m%d_%H%M%S}"
+    pasta.mkdir(parents=True)
+    narrado = all(c.get("trecho") for c in r["cenas"]) and not r.get("sem_narracao")
+
+    # 1) narração primeiro: o tempo de cada cena define quantos quadros o Wan precisa gerar
+    tempos, palavras, dur, mp3 = [4.0] * len(r["cenas"]), [], 0.0, None
+    if narrado:
+        texto = " ".join(c["trecho"] for c in r["cenas"])
+        canal_voz = {**canal, "gemini_tts": {**canal["gemini_tts"], "duracao_max": r.get("duracao_max", 20)}} \
+            if canal.get("gemini_tts") else canal
+        mp3, palavras, dur = narrador.narrar(canal_voz, texto, pasta)
+        tempos = montador.tempos_das_cenas(r["cenas"], palavras, dur)
+        tempos[-1] += 0.8  # respiro no fim
+
+    # 2) ilustrações
+    semente = random.randint(1, 10**6)
+    cenas = []
+    for i, c in enumerate(r["cenas"]):
+        img = pasta / f"cena_{i}.jpg"
+        cena_img = {**c, "prompt_imagem": f"2D cartoon animation style illustration: {c['prompt_imagem']}"}
+        if not visual.gerar_uma(canal_img, cena_img, img, semente + i):
+            raise SystemExit(f"sem imagem para a cena {i + 1}")
+        peq = pasta / f"cena_{i}_480.jpg"  # o Wan anima em 480x832: manda a imagem já no tamanho (script menor)
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(img), "-vf", "scale=480:832", "-q:v", "4", str(peq)], check=True)
+        movimento = c.get("prompt_movimento") or c["prompt_imagem"]
+        cenas.append({"img": base64.b64encode(peq.read_bytes()).decode(), "seed": semente + i,
+                      "quadros": _quadros(tempos[i] + 0.4),
+                      "prompt": f"2D cartoon animation, smooth natural motion. {movimento}",
+                      "negativo": "extra people, new characters appearing, faces, text, watermark, distorted body"})
+
+    # 3) animação no Kaggle
+    clipes, resumo = _rodar_kaggle(cenas, pasta)
+    if len(clipes) != len(cenas):
+        raise SystemExit(f"o Kaggle devolveu {len(clipes)} de {len(cenas)} clipes — veja o log acima")
+
+    # 4) montagem: cada clipe ajustado ao tempo da cena, transição suave, legenda, voz e música baixa
+    X = 0.4
+    partes = []
+    for i, (cl, d) in enumerate(zip(clipes, tempos)):
+        alvo = d + (X if i < len(clipes) - 1 else 0)
+        fator = alvo / max(_dur(cl), 0.1)
+        out = pasta / f"parte_{i}.mp4"
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(cl), "-vf",
+                        f"setpts={fator:.4f}*PTS,fps=30,scale=1080:1920:flags=lanczos,format=yuv420p",
+                        "-t", f"{alvo:.3f}", "-an", "-c:v", "libx264", "-crf", "18", "-preset", "veryfast", str(out)], check=True)
+        partes.append((out, alvo))
+    ent, filtro, ant, off = [], [], "[0:v]", 0.0
+    for i, (pt, alvo) in enumerate(partes):
+        ent += ["-i", str(pt)]
+    for i in range(1, len(partes)):
+        off += partes[i - 1][1] - X
+        filtro.append(f"{ant}[{i}:v]xfade=transition=fade:duration={X}:offset={off:.3f}[x{i}]")
+        ant = f"[x{i}]"
+    base = pasta / "base.mp4"
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *ent, "-filter_complex", ";".join(filtro) or "null",
+                    "-map", ant if filtro else "0:v", "-c:v", "libx264", "-crf", "18", "-preset", "veryfast", str(base)], check=True)
+
+    ass = pasta / "legendas.ass"
+    total = _dur(base)
+    if narrado:
+        montador.gerar_legendas(palavras, ass)
+    else:
+        ass.write_text(montador.gerar_legendas([], ass).read_text())
+    extra = ("Style: Topo,DejaVu Serif,70,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,-1,0,0,0,100,100,0,0,1,5,2,8,70,70,300,1\n"
+             "Style: Ref,DejaVu Serif,44,&H007AD2FF,&H007AD2FF,&H00000000,&H64000000,-1,0,0,0,100,100,6,0,1,4,2,2,70,70,330,1\n")
+    t = ass.read_text().replace("\n[Events]", extra + "\n[Events]", 1)
+    t += f"Dialogue: 1,{_ts(0)},{_ts(2.6)},Topo,,0,0,0,,{r.get('gancho_tela', r['titulo']).upper()}\n"
+    if r.get("referencia"):
+        t += f"Dialogue: 1,{_ts(max(0, total - 3.2))},{_ts(total)},Ref,,0,0,0,,{r['referencia'].upper()}\n"
+    ass.write_text(t, encoding="utf-8")
+
+    musica = pasta / "musica.mp3"
+    tem_musica = _preparar_musica(canal, musica, total)
+    vol = r.get("volume_musica", 0.12)
+    video = pasta / "video.mp4"
+    cmd = ["ffmpeg", "-y", "-loglevel", "error", "-i", str(base)]
+    audio = []
+    if mp3:
+        cmd += ["-i", str(mp3)]
+        audio.append("[1:a]aresample=48000,apad[voz]")
+    if tem_musica:
+        cmd += ["-i", str(musica)]
+        k = 2 if mp3 else 1
+        audio.append(f"[{k}:a]aresample=48000,volume={vol},afade=t=in:d=0.8,afade=t=out:st={max(0, total - 1.8):.2f}:d=1.8[mus]")
+    if mp3 and tem_musica:
+        audio.append("[voz][mus]amix=inputs=2:duration=first:normalize=0[a]")
+    elif mp3:
+        audio.append("[voz]anull[a]")
+    elif tem_musica:
+        audio.append("[mus]anull[a]")
+    fontes = Path("assets/fontes").resolve()
+    vf = f"subtitles={ass}:fontsdir={fontes}"
+    cmd += ["-filter_complex", f"[0:v]{vf}[v];" + ";".join(audio), "-map", "[v]", "-map", "[a]", "-t", f"{total:.3f}",
+            "-c:v", "libx264", "-crf", "19", "-preset", "medium", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k",
+            "-movflags", "+faststart", str(video)]
+    subprocess.run(cmd, check=True)
+    montador.normalizar_volume(video)
+
+    t0 = 0.0
+    for i, d in enumerate(tempos):
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{t0 + d / 2:.2f}", "-i", str(video), "-frames:v", "1",
+                        "-vf", "scale=540:-1", str(pasta / f"previa_{i}.jpg")], check=False)
+        t0 += d
+    roteiro = {"titulo": r["titulo"], "narracao": " ".join(c.get("trecho", "") for c in r["cenas"]),
+               "legenda": r.get("legenda", r["titulo"]), "hashtags": r.get("hashtags", []), "fontes": r.get("fontes", [])}
+    (pasta / "roteiro.json").write_text(json.dumps(roteiro, ensure_ascii=False, indent=2), encoding="utf-8")
+    texto_post = montar_texto_post(canal, roteiro)
+    (pasta / "post.txt").write_text(texto_post, encoding="utf-8")
+    no_tg = publicador.telegram_video(video, f"🎨 [Animação Wan 2.2] {r['titulo']} · {total:.0f}s", texto_post)
+    link = abrir_issue({**canal, "estilo_nome": "animação Wan 2.2"}, roteiro, texto_post, pasta, total,
+                       [f"Kaggle: {resumo[:300]}"], r.get("referencia", r["titulo"]), no_tg)
+    if no_tg and link:
+        publicador.telegram_mensagem(f"✅ Aprovar para Instagram e Facebook: {link}")
+    log("wan", f"concluído: {video} · {link}")
 
 
 if __name__ == "__main__":
