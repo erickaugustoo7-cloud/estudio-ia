@@ -11,7 +11,7 @@
   "cenas": [
     {
       "trecho": "Na Babilônia, o rei Dario assinou uma lei: por trinta dias, ninguém poderia orar a outro deus.",
-      "prompt_imagem": "wide aerial view of the ancient city of Babylon at dusk, massive palace terraces and ziggurat, torches lit along the walls, golden haze",
+      "prompt_imagem": "wide aerial view of ancient Babylon at dusk, a huge mud-brick ziggurat, the blue glazed Ishtar Gate, Mesopotamian palace terraces with torches, golden haze",
       "prompt_movimento": "slow aerial camera glide forward over the city, torch flames flicker, haze drifts",
       "vazia": true
     },
@@ -23,7 +23,7 @@
     },
     {
       "trecho": "Por isso foi lançado na cova dos leões, e uma pedra fechou a entrada.",
-      "prompt_imagem": "a huge round stone sealing the dark entrance of an ancient rock pit at night, a clay wax royal seal on the stone, torches on the walls",
+      "prompt_imagem": "a huge round stone sealing the dark entrance of an ancient rock pit at night, a clay royal seal on the stone, torches on the rock walls",
       "prompt_movimento": "torch flames flicker and smoke drifts across the stone, slow camera push-in",
       "vazia": true
     },
@@ -47,13 +47,13 @@
     },
     {
       "trecho": "E Daniel respondeu: O meu Deus enviou o seu anjo, que fechou a boca dos leões.",
-      "prompt_imagem": "high-angle view down into a vast rocky cave pit, a bright beam of heavenly light from an opening above, a tiny distant kneeling man and a tiny winged angel of light beside him, many lions lying down calmly in a circle around them, dust glowing in the light",
+      "prompt_imagem": "high-angle view down into a vast dark rocky cave, a bright beam of heavenly light from above, a tiny distant kneeling man and a tiny winged angel of light at the center, lions lying down calmly in a circle",
       "prompt_movimento": "the beam of light glows and dust sparkles, the angel's wings open slowly, the lions lie still and calm, slow camera descent",
       "vazia": false
     },
     {
       "trecho": "Ele confiou, e Deus o guardou. Quem confia nele não fica sozinho na cova. Daniel, capítulo seis.",
-      "prompt_imagem": "view from deep inside a dark cave looking up toward a narrow bright opening of heavenly light, rock walls framing the light, dust floating",
+      "prompt_imagem": "view from deep inside a dark rocky cave looking up toward a narrow bright opening of heavenly light, dust floating in the beam",
       "prompt_movimento": "slow camera pull-back through the dark cave toward the darkness, the bright opening shrinks, dust floats in the light",
       "vazia": true
     }

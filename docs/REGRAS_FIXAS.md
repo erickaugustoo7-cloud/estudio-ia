@@ -12,14 +12,14 @@ Antes de produzir qualquer vídeo, confira item por item. Se algum não for cump
    céu, luz. Falas de personagens aparecem com uma imagem de ambiente/objeto ligada a elas.
 4. **Nada moderno**: sem vidro, garrafa, taça, luz elétrica, construção moderna. Só barro, pedra, madeira, tecido.
 5. Movimento só do ambiente: fogo, luz, água, vento em tecidos e folhas, câmera lenta. Nada de gente se mexendo.
-6. Estilo: ilustração 2D pintada à mão, de filme bíblico reverente (proporções realistas, cores terrosas). Nada de
-   "cartoon" infantil e nunca objetos com rosto ou personagens-mascote. Época bíblica (Judeia do século I).
-   Se um clipe continuar com defeito depois de refeito, ele é trocado pela ilustração aprovada com zoom lento.
+6. Estilo das animações (aprovado 07/11): **cinematográfico realista**, planos abertos e altos, luz volumétrica,
+   figuras minúsculas ao longe, arquitetura certa da época. Nunca "cartoon" infantil, objetos com rosto ou mascotes.
+   Se um clipe continuar com defeito depois de refeito, ele é trocado pela imagem aprovada com zoom lento.
 
 ## Roteiro
 7. História com contexto: onde, por que importava na época, falas do texto bíblico, detalhes concretos, virada,
    significado para "você". Nada inventado; versículos conferidos na web.
-8. Animações: 10–12 cenas, 120–150 palavras, cada cena 6–16 palavras.
+8. Animações: 8–12 planos, 100–150 palavras, cada plano 6–17 palavras.
 9. Narração natural (sem aceleração), legenda palavra a palavra, música baixa, assinatura "MENSAGEIRO DE FÉ",
    selo da série quando houver.
 

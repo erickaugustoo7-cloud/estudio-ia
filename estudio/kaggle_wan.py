@@ -22,11 +22,13 @@ from pathlib import Path
 from estudio.base import SAIDA, carregar_canal, log
 from estudio.agentes import publicador, visual
 
-ESTILO = ("hand-painted 2D background art from a reverent animated feature film about the Bible, painterly, "
-          "realistic proportions, soft outlines, warm cinematic lighting, muted earthy palette, vertical 9:16")
+ESTILO = ("cinematic photorealistic epic film still, dramatic volumetric god rays, floating dust particles, deep chiaroscuro, "
+          "muted earthy tones, vertical 9:16")
 REGRA = ("Jesus and all people only seen from behind, as dark silhouettes or tiny figures far away, faces never visible. "
          "Only the characters described, no crowd, no extra people in the background. "
-         "Strictly first century objects: clay and stone only, no glass cups, no bottles, nothing modern")
+         "Strictly first century objects: clay and stone only, no glass cups, no bottles, nothing modern. "
+         "Reject random objects that were not requested (bottles, potted plants, hanging lamps, furniture, statues) "
+         "and architecture from the wrong culture or period (for example Chinese pagodas in Babylon)")
 SLUG = "estudio-animacao"
 # assinatura no rodapé, igual à dos outros vídeos (branca 70%, espaçada)
 ESTILO_ASSINATURA = ("Style: Sig,DejaVu Sans,30,&H4DFFFFFF,&H4DFFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,6,0,1,2,1,2,"
@@ -289,7 +291,7 @@ def main():
     semente = random.randint(1, 10**6)
     cenas, imgs, cenas_img, avisos = [], [], [], []
     estilo = r.get("estilo_imagem", ESTILO)
-    prefixo_img = r.get("prefixo_imagem", "painterly 2D illustration:")
+    prefixo_img = r.get("prefixo_imagem", "cinematic photorealistic film still:")
     fonte = r.get("fonte_imagem", os.getenv("FONTE_IMAGEM", "kaggle"))
     opcoes = int(r.get("opcoes_imagem", 3))
     for c in r["cenas"]:
@@ -359,7 +361,7 @@ def main():
         cenas.append({"img": base64.b64encode(peq.read_bytes()).decode(), "seed": semente + i,
                       "quadros": _quadros(tempos[i] + 0.4), "resolucao": res_v,
                       "passos": int(r.get("passos_video", os.getenv("WAN_PASSOS", "4"))),
-                      "prompt": f"{r.get('prefixo_video', 'Hand-painted animated film scene, subtle ambient motion only.')} {movimento}",
+                      "prompt": f"{r.get('prefixo_video', 'Cinematic epic film shot, slow and subtle motion.')} {movimento}",
                       "negativo": ("extra people, new characters appearing, duplicated person, body splitting, extra limbs, "
                                    "morphing, bending over, sudden pose change, turning around, looking at the camera, head turning, "
                                    "face appearing, faces, cartoon face on objects, anthropomorphic objects, mascot, characters, "
@@ -382,7 +384,7 @@ def main():
         refazer = []
         for i in ruins:
             c2 = {**cenas[i], "nome": f"clipe_{i}", "seed": cenas[i]["seed"] + 777,
-                  "prompt": ("Hand-painted animated film scene, static camera, almost still image, "
+                  "prompt": ("Cinematic epic film shot, static camera, almost still image, "
                              "only subtle flicker of the lamp light and a gentle breeze in cloth and leaves")}
             refazer.append(c2)
         saida_r, _ = _rodar_kaggle(refazer, pasta, "refazer")

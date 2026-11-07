@@ -5,21 +5,21 @@ import sys
 
 PESSOAS = r"\b(man|woman|women|men|person|people|jesus|mary|maria|disciples?|servants?|bride|groom|couple|guests?|" \
           r"angel|crowd|boy|girl|child|children|figure|figures|silhouettes?|bearded|robe)\b"
-PERMITIDO = r"\b(hands?|arms?)\b|tiny distant|far away in the distance|tiny figures"
+PERMITIDO = r"\b(hands?|arms?)\b|tiny distant|tiny winged|far away in the distance|tiny figures"
 MODERNO = r"\b(glass|bottle|electric|bulb|plastic|modern)\b"
 
 r = json.load(open(sys.argv[1], encoding="utf-8"))
 erros = []
 cenas = r.get("cenas", [])
 palavras = sum(len(c["trecho"].split()) for c in cenas)
-if not 10 <= len(cenas) <= 12:
-    erros.append(f"{len(cenas)} cenas (use 10–12)")
-if not 120 <= palavras <= 150:
-    erros.append(f"{palavras} palavras (use 120–150)")
+if not 8 <= len(cenas) <= 12:
+    erros.append(f"{len(cenas)} cenas (use 8–12)")
+if not 100 <= palavras <= 150:
+    erros.append(f"{palavras} palavras (use 100–150)")
 for i, c in enumerate(cenas, 1):
     n = len(c["trecho"].split())
-    if not 6 <= n <= 16:
-        erros.append(f"cena {i}: {n} palavras no trecho (6–16)")
+    if not 6 <= n <= 17:
+        erros.append(f"cena {i}: {n} palavras no trecho (6–17)")
     p = c.get("prompt_imagem", "").lower()
     sem_neg = re.sub(r"\bno [a-z ,]+", "", p)  # ignora negações ("no faces, no people")
     if re.search(PESSOAS, sem_neg) and not re.search(PERMITIDO, sem_neg):

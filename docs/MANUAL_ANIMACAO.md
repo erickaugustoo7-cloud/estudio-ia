@@ -1,6 +1,8 @@
 # Manual do roteirista — Animações (Mensageiro de Fé)
 
-Uma animação por execução: passagem bíblica em **desenho 2D animado, 55–75 s**, 10 a 12 cenas, narrada.
+Uma animação por execução: passagem bíblica marcante em **estilo cinematográfico realista, 45–75 s**, 8 a 12 planos, narrada.
+**Modelo aprovado pelo Eric (07/11): `roteiros_animados/daniel_cova_leoes.json`** — copie os campos `estilo_imagem`,
+`prefixo_imagem`, `prefixo_video` e adapte só `epoca_imagem` à época/lugar da história.
 O formato foi aprovado pelo Eric em 06/11 (exemplo: `roteiros_animados/ressurreicao.json`).
 
 ## Passo a passo
@@ -10,7 +12,7 @@ O formato foi aprovado pelo Eric em 06/11 (exemplo: `roteiros_animados/ressurrei
 3. Leia a passagem na web (NVI/ARA/NAA) e não invente nada: falas, nomes e ordem dos fatos conferidos.
 4. Leia docs/REGRAS_FIXAS.md. Escreva `roteiros_animados/<slug>.json` (formato abaixo), rode `python ferramentas/validar_animacao.py roteiros_animados/<slug>.json` até dar OK, e confira:
    `python -c "import json;r=json.load(open('roteiros_animados/<slug>.json'));print(sum(len(c['trecho'].split()) for c in r['cenas']))"`
-   → **entre 120 e 150 palavras** no total, e cada cena com **6 a 16 palavras** (cada cena vira um clipe de até
+   → **entre 100 e 150 palavras** no total, e cada cena com **6 a 16 palavras** (cada cena vira um clipe de até
    ~6 s; trecho maior que isso deixa o movimento em câmera lenta). Use `"duracao_max": 90`. Referência por extenso na penúltima cena; a última fica para a aplicação + convite.
 5. Commit/push e dispare (REST, nunca GraphQL):
    `gh api repos/erickaugustoo7-cloud/estudio-ia/actions/workflows/kaggle-wan.yml/dispatches -X POST -f ref=main -f 'inputs[roteiro]=roteiros_animados/<slug>.json'`
@@ -40,6 +42,17 @@ Nunca publique nada, nunca mexa em segredos.
 - Detalhes concretos do próprio texto bíblico valem mais que adjetivos. Nada inventado.
 - Frases curtas, ritmo falado; no máximo 1 citação literal curta. Linha cristã ampla, sem doutrina de denominação.
 - `gancho_tela`: até 6 palavras (aparece no 1º quadro). `referencia`: ex. "Marcos 4:39".
+
+## Estilo cinematográfico (padrão — referência: vídeo "Daniel na cova dos leões" do @essenciadorein)
+- Planos ABERTOS e ALTOS: cidades vistas do alto, cavernas vistas de cima, paisagens amplas. Quando houver gente, ela é
+  minúscula ao longe ("a tiny distant kneeling man") e a cena leva `"vazia": false`; nas cenas sem gente, `"vazia": true`.
+- A luz conta a emoção: feixe de luz do céu, tochas, fumaça, poeira no ar, amanhecer, luar.
+- Arquitetura e objetos certos para a época, por nome: Babilônia = "mud-brick ziggurat, blue glazed Ishtar Gate,
+  Mesopotamian palace"; Judeia do séc. I = "first century Judea stone houses, olive trees"; Egito = "ancient Egyptian
+  temples and obelisks". Nunca só o nome da cidade.
+- Cada prompt com no máximo 3–4 elementos principais (lugar, luz, o objeto/figura central). Prompt longo faz o gerador
+  inventar objetos aleatórios (garrafas, plantas, luminárias).
+- Movimento: câmera lenta (descendo, aproximando, afastando), luz, fumaça, poeira, tecidos; animais podem se acomodar devagar.
 
 ## Prompts de imagem (inglês)
 - **Nenhum rosto aparece, de ninguém** (decisão do Eric, 06/11: o vídeo deforma rostos). Conte o milagre pelos
