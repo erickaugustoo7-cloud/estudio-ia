@@ -22,8 +22,8 @@ from pathlib import Path
 from estudio.base import SAIDA, carregar_canal, log
 from estudio.agentes import publicador, visual
 
-ESTILO = ("2D hand-drawn animated feature film still, cel-shaded cartoon illustration, clean soft outlines, "
-          "painterly background, warm cinematic colors, vertical 9:16, no text, no watermark")
+ESTILO = ("hand-painted 2D background art from a reverent animated feature film about the Bible, painterly, "
+          "realistic proportions, soft outlines, warm cinematic lighting, muted earthy palette, vertical 9:16")
 REGRA = ("Jesus and all people only seen from behind, as dark silhouettes or tiny figures far away, faces never visible. "
          "Only the characters described, no crowd, no extra people in the background. "
          "Strictly first century objects: clay and stone only, no glass cups, no bottles, nothing modern")
@@ -289,7 +289,7 @@ def main():
     fonte = r.get("fonte_imagem", os.getenv("FONTE_IMAGEM", "kaggle"))
     opcoes = int(r.get("opcoes_imagem", 3))
     for c in r["cenas"]:
-        cenas_img.append({**c, "prompt_imagem": f"2D cartoon animation style illustration: {c['prompt_imagem']}"})
+        cenas_img.append({**c, "prompt_imagem": f"painterly 2D illustration: {c['prompt_imagem']}"})
     if fonte == "kaggle":
         from estudio.agentes.revisor_visual import _avaliar
         chave = os.getenv("GEMINI_API_KEY")
@@ -323,8 +323,7 @@ def main():
                         break
                     motivos[i] = v.get("motivo", "")
                     if v.get("novo_prompt"):
-                        prompts[i] = (f"2D cartoon animation style illustration: {v['novo_prompt']}. Everyone seen from behind, "
-                                      "backs turned to the viewer, no visible faces, no crowd")
+                        prompts[i] = f"painterly 2D illustration: {v['novo_prompt']}"
         for i in range(len(cenas_img)):
             escolhida = escolhidas.get(i) or reserva.get(i)
             if not escolhida:
@@ -354,10 +353,11 @@ def main():
         cenas.append({"img": base64.b64encode(peq.read_bytes()).decode(), "seed": semente + i,
                       "quadros": _quadros(tempos[i] + 0.4), "resolucao": res_v,
                       "passos": int(r.get("passos_video", os.getenv("WAN_PASSOS", "4"))),
-                      "prompt": f"2D cartoon animation, smooth natural motion. {movimento}",
+                      "prompt": f"Hand-painted animated film scene, subtle ambient motion only. {movimento}",
                       "negativo": ("extra people, new characters appearing, duplicated person, body splitting, extra limbs, "
                                    "morphing, bending over, sudden pose change, turning around, looking at the camera, head turning, "
-                                   "face appearing, faces, text, watermark, distorted body, flicker")})
+                                   "face appearing, faces, cartoon face on objects, anthropomorphic objects, mascot, characters, "
+                                   "person entering, text, watermark, distorted body, flicker")})
 
     # 3) animação no Kaggle
     saida_vid, resumo = _rodar_kaggle(cenas, pasta, "video")
@@ -376,8 +376,8 @@ def main():
         refazer = []
         for i in ruins:
             c2 = {**cenas[i], "nome": f"clipe_{i}", "seed": cenas[i]["seed"] + 777,
-                  "prompt": ("2D cartoon animation, static camera, almost still image, everyone stays frozen facing away, "
-                             "only subtle light flicker and gentle breeze in cloth and leaves")}
+                  "prompt": ("Hand-painted animated film scene, static camera, almost still image, "
+                             "only subtle flicker of the lamp light and a gentle breeze in cloth and leaves")}
             refazer.append(c2)
         saida_r, _ = _rodar_kaggle(refazer, pasta, "refazer")
         for i in list(ruins):
@@ -389,7 +389,14 @@ def main():
                 if v.get("ok"):
                     ruins.pop(i)
     for i, motivo in ruins.items():
-        avisos.append(f"Clipe {i + 1} ainda com defeito: {motivo} — assista antes de aprovar.")
+        fixo = pasta / f"clipe_fixo_{i}.mp4"
+        seg = tempos[i] + 0.6
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-loop", "1", "-i", str(imgs[i]), "-vf",
+                        f"scale=1296:2304,zoompan=z='min(1+0.0009*on,1.12)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)'"
+                        f":d={int(seg * 30)}:s=1080x1920:fps=30", "-t", f"{seg:.2f}", "-c:v", "libx264", "-crf", "18",
+                        "-pix_fmt", "yuv420p", str(fixo)], check=True)
+        clipes[i] = fixo
+        log("wan", f"clipe {i + 1}: substituído pela ilustração aprovada com zoom lento ({motivo})")
 
     # 4) montagem: cada clipe ajustado ao tempo da cena, transição suave, legenda, voz e música baixa
     X = 0.4

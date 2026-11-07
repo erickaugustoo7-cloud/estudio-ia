@@ -12,7 +12,9 @@ Antes de produzir qualquer vídeo, confira item por item. Se algum não for cump
    céu, luz. Falas de personagens aparecem com uma imagem de ambiente/objeto ligada a elas.
 4. **Nada moderno**: sem vidro, garrafa, taça, luz elétrica, construção moderna. Só barro, pedra, madeira, tecido.
 5. Movimento só do ambiente: fogo, luz, água, vento em tecidos e folhas, câmera lenta. Nada de gente se mexendo.
-6. Estilo desenho 2D, época bíblica (Judeia do século I).
+6. Estilo: ilustração 2D pintada à mão, de filme bíblico reverente (proporções realistas, cores terrosas). Nada de
+   "cartoon" infantil e nunca objetos com rosto ou personagens-mascote. Época bíblica (Judeia do século I).
+   Se um clipe continuar com defeito depois de refeito, ele é trocado pela ilustração aprovada com zoom lento.
 
 ## Roteiro
 7. História com contexto: onde, por que importava na época, falas do texto bíblico, detalhes concretos, virada,
