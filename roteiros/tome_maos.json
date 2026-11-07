@@ -1,0 +1,66 @@
+{
+  "titulo": "Tomé: Jesus mostrou as mãos a quem duvidou",
+  "gancho_tela": "Ele duvidou. Jesus voltou mesmo assim.",
+  "estilo": "pintura",
+  "narracao": "Um homem duvidou de Jesus. E Jesus respondeu com as palavras dele. Esse homem era Tomé. Está em João, capítulo vinte. Mas como Jesus sabia o que ele disse? Na noite da ressurreição, os discípulos estavam trancados, com medo. Jesus apareceu no meio deles: paz seja com vocês. Mas Tomé não estava lá. Quando contaram, ele disse: se eu não vir as marcas dos pregos, e não puser o dedo nelas e a mão no lado dele, não vou acreditar. Oito dias depois, portas trancadas de novo. Dessa vez, Tomé estava junto. E Jesus apareceu. Então falou com Tomé: coloque aqui o seu dedo e veja as minhas mãos. Coloque a mão no meu lado. Pare de duvidar e creia. Eram as condições do próprio Tomé. Jesus ouviu cada uma. E Tomé respondeu: Senhor meu e Deus meu. Jesus não desprezou a dúvida dele. Foi até ela. E disse: felizes os que não viram e creram. Isso é sobre você. Se hoje a sua fé está fraca, Jesus vem até onde você está. Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias.",
+  "cenas": [
+    {
+      "trecho": "Um homem duvidou de Jesus. E Jesus respondeu com as palavras dele.",
+      "busca_imagem": "barred door light",
+      "prompt_imagem": "a single wooden door in an ancient stone wall at night, firmly barred with a heavy wooden beam, a brilliant beam of golden light bursting through the cracks around it, strong contrast, deep blue shadows"
+    },
+    {
+      "trecho": "Esse homem era Tomé. Está em João, capítulo vinte. Mas como Jesus sabia o que ele disse?",
+      "busca_imagem": "scroll oil lamp",
+      "prompt_imagem": "an ancient parchment scroll lying open on a rough wooden table beside a small burning clay oil lamp, warm glow in a dark stone room"
+    },
+    {
+      "trecho": "Na noite da ressurreição, os discípulos estavam trancados, com medo. Jesus apareceu no meio deles: paz seja com vocês.",
+      "busca_imagem": "upper room lamps",
+      "prompt_imagem": "a dim upper room of an ancient stone house at night, a heavy wooden door barred shut, clay oil lamps flickering on a low table, a soft warm light appearing in the middle of the room"
+    },
+    {
+      "trecho": "Mas Tomé não estava lá. Quando contaram, ele disse: se eu não vir as marcas dos pregos, e não puser o dedo nelas e a mão no lado dele, não vou acreditar.",
+      "busca_imagem": "iron nails wood",
+      "prompt_imagem": "three rough iron nails lying on a weathered wooden plank, harsh cold light, dust in the air, dark background"
+    },
+    {
+      "trecho": "Oito dias depois, portas trancadas de novo. Dessa vez, Tomé estava junto. E Jesus apareceu.",
+      "busca_imagem": "stone house dusk",
+      "prompt_imagem": "an ancient stone house in Jerusalem at dusk seen from a high wide angle, its wooden door closed, warm lamplight glowing from a small window, quiet empty street"
+    },
+    {
+      "trecho": "Então falou com Tomé: coloque aqui o seu dedo e veja as minhas mãos. Coloque a mão no meu lado. Pare de duvidar e creia.",
+      "busca_imagem": "hand golden light",
+      "prompt_imagem": "close-up of an open hand reaching forward in golden light, the sleeve of an ancient linen robe, warm glowing background, reverent classical oil painting"
+    },
+    {
+      "trecho": "Eram as condições do próprio Tomé. Jesus ouviu cada uma. E Tomé respondeu: Senhor meu e Deus meu.",
+      "busca_imagem": "oil lamp floor",
+      "prompt_imagem": "a clay oil lamp burning brightly on a stone floor, its light spreading across the dark room, a woven cloth dropped beside it"
+    },
+    {
+      "trecho": "Jesus não desprezou a dúvida dele. Foi até ela. E disse: felizes os que não viram e creram. Isso é sobre você.",
+      "busca_imagem": "road hills dawn",
+      "prompt_imagem": "a dirt road through the green hills of ancient Galilee leading toward a golden horizon at dawn, morning mist, hopeful light"
+    },
+    {
+      "trecho": "Se hoje a sua fé está fraca, Jesus vem até onde você está. Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias.",
+      "busca_imagem": "door opening light",
+      "prompt_imagem": "a heavy old wooden door slowly opening in a stone wall, warm golden sunlight pouring in onto a dusty floor, peaceful and hopeful"
+    }
+  ],
+  "legenda": "Senhor, fortalece a minha fé quando eu duvidar 🙏😭\nJoão 20:24-29\nComente \"Amém\" e envie para alguém que está com a fé fraca.",
+  "hashtags": [
+    "#Tomé",
+    "#dúvida",
+    "#ressurreição",
+    "#fé"
+  ],
+  "fontes": [
+    "João 20:19 (portas trancadas por medo; Jesus no meio deles: 'Paz seja convosco')",
+    "João 20:24-25 (Tomé não estava; 'Vimos o Senhor'; condições dos pregos, do dedo e do lado)",
+    "João 20:26-27 (oito dias depois, portas trancadas, Tomé presente; 'Põe aqui o dedo... não sejas incrédulo, mas crente')",
+    "João 20:28-29 ('Senhor meu e Deus meu!'; 'Bem-aventurados os que não viram e creram')"
+  ]
+}
