@@ -1,0 +1,63 @@
+{
+  "titulo": "Pai, perdoa-lhes",
+  "gancho_tela": "Ninguém ali tinha pedido perdão",
+  "estilo": "pintura",
+  "narracao": "Pregado na cruz, Jesus fez um pedido que ninguém esperava. Ele pediu perdão. Mas não para ele. Para os homens que tinham acabado de crucificá-lo. Está em Lucas, capítulo vinte e três. E o motivo que ele deu surpreende. Era um lugar chamado Caveira. Ali crucificaram Jesus entre dois criminosos, um de cada lado. E ali mesmo, Jesus orou: Pai, perdoa-lhes, porque não sabem o que fazem. Enquanto isso, os soldados dividiam as roupas dele, tirando a sorte. As autoridades zombavam: salvou os outros, que salve a si mesmo, se é o Cristo. Os soldados também riam dele. Ninguém ali tinha pedido perdão. E Jesus não esperou que eles merecessem. Ele mesmo apresentou a defesa deles. Esse é o mesmo Jesus que olha para os seus erros hoje. O que você fez, o que ainda pesa no seu peito. Se ele perdoou quem o pregou na cruz, ele não vai fechar a porta para você. Talvez o perdão que falta seja o seu, para alguém. Ou para você mesmo. Salve este vídeo para ouvir de novo quando precisar, e siga para receber uma palavra de fé todos os dias.",
+  "cenas": [
+    {
+      "trecho": "Pregado na cruz, Jesus fez um pedido que ninguém esperava.",
+      "busca_imagem": "cross sunrise golden light hill",
+      "prompt_imagem": "a single rough wooden cross on a hilltop against a blazing golden sky, dark storm clouds splitting open behind it, brilliant rays of light, strong contrast, reverent classical oil painting"
+    },
+    {
+      "trecho": "Ele pediu perdão. Mas não para ele. Para os homens que tinham acabado de crucificá-lo. Está em Lucas, capítulo vinte e três. E o motivo que ele deu surpreende.",
+      "busca_imagem": "wooden cross dark storm sky",
+      "prompt_imagem": "a rough wooden cross standing alone on a rocky hill under a heavy dark storm sky, a single beam of golden light falling on the wood, dramatic contrast"
+    },
+    {
+      "trecho": "Era um lugar chamado Caveira. Ali crucificaram Jesus entre dois criminosos, um de cada lado.",
+      "busca_imagem": "three crosses hill distance",
+      "prompt_imagem": "three wooden crosses on a barren rocky hill outside ancient stone city walls, seen from far away, dusty air, low grey clouds"
+    },
+    {
+      "trecho": "E ali mesmo, Jesus orou: Pai, perdoa-lhes, porque não sabem o que fazem.",
+      "busca_imagem": "crown of thorns wood light",
+      "prompt_imagem": "a crown of thorns resting on rough weathered wood, a soft beam of golden light falling on it from a stormy sky, dust in the air, quiet and sacred"
+    },
+    {
+      "trecho": "Enquanto isso, os soldados dividiam as roupas dele, tirando a sorte.",
+      "busca_imagem": "dice cloth robe stone ground",
+      "prompt_imagem": "a folded seamless woven robe and a few small ancient bone dice lying on dusty stones at the foot of a wooden post, harsh midday light"
+    },
+    {
+      "trecho": "As autoridades zombavam: salvou os outros, que salve a si mesmo, se é o Cristo. Os soldados também riam dele.",
+      "busca_imagem": "roman spears helmet dust",
+      "prompt_imagem": "ancient roman spears leaning against a rock beside a bronze helmet and a clay jar, dust in the air, cold shadows under a darkening sky"
+    },
+    {
+      "trecho": "Ninguém ali tinha pedido perdão. E Jesus não esperou que eles merecessem. Ele mesmo apresentou a defesa deles.",
+      "busca_imagem": "open scroll oil lamp",
+      "prompt_imagem": "an old parchment scroll lying open on a rough wooden table beside a small burning clay oil lamp, warm glow in a dark stone room"
+    },
+    {
+      "trecho": "Esse é o mesmo Jesus que olha para os seus erros hoje. O que você fez, o que ainda pesa no seu peito. Se ele perdoou quem o pregou na cruz, ele não vai fechar a porta para você.",
+      "busca_imagem": "old wooden door open light",
+      "prompt_imagem": "a heavy old wooden door slowly opening in a stone wall, warm golden light pouring out onto a dark dusty path"
+    },
+    {
+      "trecho": "Talvez o perdão que falta seja o seu, para alguém. Ou para você mesmo. Salve este vídeo para ouvir de novo quando precisar, e siga para receber uma palavra de fé todos os dias.",
+      "busca_imagem": "sunrise hills empty road",
+      "prompt_imagem": "a bright golden sunrise over quiet green hills of ancient Judea, an empty dirt road leading toward the light, morning mist, hopeful"
+    }
+  ],
+  "legenda": "Senhor, me ensina a perdoar como o Senhor perdoou 🙏😭\nLucas 23:33-34\nComente \"Amém\" e salve para ouvir de novo quando precisar.",
+  "hashtags": [
+    "#perdão",
+    "#cruz",
+    "#Lucas23",
+    "#amordeDeus"
+  ],
+  "fontes": [
+    "Lucas 23:33-37"
+  ]
+}
