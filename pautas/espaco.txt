@@ -1,5 +1,4 @@
 # Uma pauta por linha. O Diretor consome de cima para baixo.
 # Linhas começando com # são ignoradas. Fila vazia = o Diretor cria pautas sozinho.
 # Radar 04/11
-Como funciona o pneu do avião: por que é cheio de nitrogênio e o que ele aguenta (conferir números)
 O céu de novembro: a chuva de meteoros Leônidas e como ver do Brasil (conferir datas do pico)

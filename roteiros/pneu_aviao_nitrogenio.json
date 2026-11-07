@@ -1,0 +1,64 @@
+{
+  "titulo": "Por que o pneu do avião é cheio de nitrogênio",
+  "gancho_tela": "O pneu do avião não tem ar",
+  "narracao": "O pneu de um avião não é cheio de ar. É cheio de nitrogênio. E o motivo tem a ver com fogo. Na hora do pouso, o avião toca a pista a mais de duzentos quilômetros por hora. Os freios trabalham tanto que podem passar de trezentos e setenta graus. E a borracha do pneu pode pegar fogo. Com ar comum dentro, o oxigênio ajuda a queimar. Nos Estados Unidos, depois de casos de pneus superaquecidos que chegaram a explodir, uma regra de mil novecentos e oitenta e sete passou a exigir gás que não queima, como o nitrogênio. E tem mais. O nitrogênio usado é seco, sem a umidade do ar. Lá em cima, onde faz menos de cinquenta graus negativos, a pressão quase não muda. E que pressão! Cerca de duzentas libras por polegada quadrada, umas cinco a seis vezes a do pneu do seu carro. Cada pneu principal de um Boeing setecentos e sessenta e sete aguenta mais de vinte toneladas. E se mesmo assim esquentar demais? Dentro da roda existe um plugue de metal que derrete e esvazia o pneu devagar, antes que ele estoure. Você sabia que o pneu do avião era cheio de nitrogênio? Conta aqui nos comentários. Siga para descobrir uma curiosidade nova todo dia.",
+  "cenas": [
+    {
+      "trecho": "O pneu de um avião não é cheio de ar.",
+      "busca_imagem": "airplane landing gear tires",
+      "prompt_imagem": "close-up of a large commercial airliner landing gear with big black tires on a runway at sunset, cinematic"
+    },
+    {
+      "trecho": "É cheio de nitrogênio. E o motivo tem a ver com fogo.",
+      "busca_imagem": "jet tire nitrogen inflation",
+      "prompt_imagem": "a technician inflating a huge aircraft tire with a nitrogen tank in a hangar, dramatic lighting"
+    },
+    {
+      "trecho": "Na hora do pouso, o avião toca a pista a mais de duzentos quilômetros por hora. Os freios trabalham tanto que podem passar de trezentos e setenta graus.",
+      "busca_imagem": "airliner landing runway smoke",
+      "prompt_imagem": "a jet airliner touching down on a runway with tire smoke puffing from the wheels, motion blur"
+    },
+    {
+      "trecho": "E a borracha do pneu pode pegar fogo. Com ar comum dentro, o oxigênio ajuda a queimar.",
+      "busca_imagem": "aircraft brakes glowing hot",
+      "prompt_imagem": "glowing red-hot aircraft carbon brakes inside a wheel after landing, sparks, dark background"
+    },
+    {
+      "trecho": "Nos Estados Unidos, depois de casos de pneus superaquecidos que chegaram a explodir, uma regra de mil novecentos e oitenta e sete passou a exigir gás que não queima, como o nitrogênio.",
+      "busca_imagem": "aircraft wheel tire maintenance",
+      "prompt_imagem": "an aircraft tire and wheel assembly on a maintenance stand in a hangar, industrial, realistic"
+    },
+    {
+      "trecho": "E tem mais. O nitrogênio usado é seco, sem a umidade do ar. Lá em cima, onde faz menos de cinquenta graus negativos, a pressão quase não muda.",
+      "busca_imagem": "airliner cruising clouds",
+      "prompt_imagem": "a commercial jet cruising high above the clouds in a deep blue sky, icy atmosphere, cinematic"
+    },
+    {
+      "trecho": "E que pressão! Cerca de duzentas libras por polegada quadrada, umas cinco a seis vezes a do pneu do seu carro. Cada pneu principal de um Boeing setecentos e sessenta e sete aguenta mais de vinte toneladas.",
+      "busca_imagem": "Boeing 767 main landing gear",
+      "prompt_imagem": "a wide-body jet main landing gear with eight tires supporting the heavy aircraft on tarmac, low angle"
+    },
+    {
+      "trecho": "E se mesmo assim esquentar demais? Dentro da roda existe um plugue de metal que derrete e esvazia o pneu devagar, antes que ele estoure.",
+      "busca_imagem": "aircraft wheel hub close-up",
+      "prompt_imagem": "detailed close-up of a metal aircraft wheel hub with small bolts, technical, dramatic lighting"
+    },
+    {
+      "trecho": "Você sabia que o pneu do avião era cheio de nitrogênio? Conta aqui nos comentários. Siga para descobrir uma curiosidade nova todo dia.",
+      "busca_imagem": "airplane takeoff sunset",
+      "prompt_imagem": "a passenger jet taking off at golden hour, wheels just leaving the runway, silhouette, cinematic"
+    }
+  ],
+  "legenda": "O pneu do avião é cheio de nitrogênio, a cerca de 200 psi — 5 a 6 vezes a pressão do pneu do carro. ✈️\nVocê sabia disso? Comenta aqui 👇",
+  "hashtags": [
+    "#aviação",
+    "#avião",
+    "#nitrogênio",
+    "#comofunciona"
+  ],
+  "fontes": [
+    "Wikipedia — Aircraft tire: até 200 psi em aviões comerciais; nitrogênio seco para reduzir expansão/contração; exigência motivada por ao menos três casos de explosão de pneus superaquecidos com ar; FAA AD 87-08-09 (1987); plugues fusíveis que derretem e esvaziam o pneu de forma controlada — https://en.wikipedia.org/wiki/Aircraft_tire",
+    "AeroSavvy — Aircraft Wheels: pneu de carro ~30–40 psi; roda principal do 767-300 a 205 psi e carga máxima de ~51.000 lb (~23 t); nitrogênio reduz risco de fogo/explosão (14 CFR 25.733); borracha inflamável e freios muito quentes; plugues fusíveis podem derreter na faixa 5–6 da escala de temperatura (faixa 5 = 371–427 °C); pousos/decolagens a 140–200 mph — https://aerosavvy.com/aircraft-wheels/",
+    "SlashGear (2025) — The Reason Why Airplane Tires Are Filled With Nitrogen: mandato da FAA no fim dos anos 1980; nitrogênio não inflamável e seco; cerca de -65 °F (~-54 °C) a 36.000 pés; pouso a 130–160 mph — https://www.slashgear.com/1820852/airplane-tires-filled-with-nitrogen-reason"
+  ]
+}
