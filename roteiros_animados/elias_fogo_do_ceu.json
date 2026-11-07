@@ -1,0 +1,83 @@
+{
+  "estilo_imagem": "cinematic photorealistic epic film still, dramatic volumetric god rays, floating dust particles, deep chiaroscuro, ancient Babylon 6th century BC, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic epic film shot, slow and subtle motion.",
+  "duracao_max": 90,
+  "volume_musica": 0.14,
+  "titulo": "Elias e o fogo do céu",
+  "gancho_tela": "O Deus que responde com fogo",
+  "referencia": "1 Reis 18:38",
+  "epoca_imagem": "Ancient Israel, 9th century BC, rough stone, clay, wood and wool only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "Já fazia três anos sem chuva em Israel, e muitos seguiam o deus Baal.",
+      "prompt_imagem": "wide aerial view of cracked dry land and withered fields under a scorching sun, distant barren hills, heat haze",
+      "prompt_movimento": "heat haze shimmers over the cracked ground, dust drifts in the wind, slow aerial camera glide forward",
+      "vazia": true
+    },
+    {
+      "trecho": "No monte Carmelo, Elias desafiou quatrocentos e cinquenta profetas de Baal.",
+      "prompt_imagem": "wide aerial view of the rocky summit of Mount Carmel at noon above the sea, a huge tiny distant crowd gathered on the slopes",
+      "prompt_movimento": "clouds drift slowly over the summit, the sea glitters far below, slow aerial camera descent",
+      "vazia": false
+    },
+    {
+      "trecho": "Ele disse: Até quando vocês vão oscilar para um lado e para o outro?",
+      "prompt_imagem": "a tiny distant lone man in a robe standing on a high rock facing a vast tiny distant crowd on a mountaintop, dramatic sky",
+      "prompt_movimento": "wind moves the clouds quickly across the sky, dust blows across the rocks, slow camera push-in",
+      "vazia": false
+    },
+    {
+      "trecho": "O deus que responder com fogo, esse é Deus.",
+      "prompt_imagem": "two rough stone altars with stacked wood on a bare mountaintop under heavy ominous clouds",
+      "prompt_movimento": "dark clouds roll slowly over the altars, dust blows across the ground, static camera",
+      "vazia": true
+    },
+    {
+      "trecho": "Os profetas de Baal gritaram o dia inteiro. E ninguém respondeu.",
+      "prompt_imagem": "a pagan stone altar with cold wood on a mountaintop at sunset, tiny distant figures around it, long shadows",
+      "prompt_movimento": "the sun sinks slowly, long shadows stretch across the rocks, dust drifts, slow camera pull-back",
+      "vazia": false
+    },
+    {
+      "trecho": "Então Elias reconstruiu o altar com doze pedras e mandou encharcar tudo com água.",
+      "prompt_imagem": "an altar of twelve rough stones with wood soaked in water, a trench around it filled with water, evening light on a mountaintop",
+      "prompt_movimento": "water drips from the wood and ripples gently in the trench, evening light glows, slow camera push-in",
+      "vazia": true
+    },
+    {
+      "trecho": "E orou: Responde-me, ó Senhor, responde-me!",
+      "prompt_imagem": "a wet stone altar on a mountaintop under dark heavy storm clouds, a tiny distant man with arms raised beside it",
+      "prompt_movimento": "storm clouds swirl slowly overhead, a faint glow grows in the clouds, static camera",
+      "vazia": false
+    },
+    {
+      "trecho": "Então o fogo do Senhor caiu e queimou o holocausto, a lenha, as pedras e o chão.",
+      "prompt_imagem": "a massive pillar of fire falling from the dark sky onto a stone altar on a mountaintop, flames and sparks, the sky lit orange",
+      "prompt_movimento": "fire pours down from the sky and flames roar on the altar, sparks fly upward, smoke rises, slow camera pull-back",
+      "vazia": true
+    },
+    {
+      "trecho": "O povo se prostrou e gritou: O Senhor é Deus! O Senhor é Deus!",
+      "prompt_imagem": "wide aerial view of a mountaintop at night with a burning altar glowing orange, a huge tiny distant crowd kneeling all around",
+      "prompt_movimento": "the altar fire glows and flickers, smoke rises into the night sky, slow aerial camera pull-back",
+      "vazia": false
+    },
+    {
+      "trecho": "O mesmo Deus ainda responde a quem clama a ele. Primeiro livro dos Reis, capítulo dezoito.",
+      "prompt_imagem": "dark rain clouds rolling in from the sea over Mount Carmel at dusk, the first rain falling on dry land, golden light breaking through",
+      "prompt_movimento": "rain clouds roll in slowly, the first rain falls, golden light breaks through the clouds, slow camera glide",
+      "vazia": true
+    }
+  ],
+  "legenda": "Senhor, responde quando eu clamar 🔥🙏\n1 Reis 18:38\nComente \"O Senhor é Deus\" se você crê.",
+  "hashtags": [
+    "#Elias",
+    "#fogodocéu",
+    "#MonteCarmelo",
+    "#fé"
+  ],
+  "fontes": [
+    "1 Reis 18:20-45"
+  ]
+}
