@@ -1,0 +1,71 @@
+{
+  "titulo": "Daniel na cova dos leões",
+  "gancho_tela": "Ele orou mesmo proibido",
+  "referencia": "Daniel 6:22",
+  "duracao_max": 90,
+  "volume_musica": 0.14,
+  "estilo_imagem": "cinematic photorealistic epic film still, dramatic volumetric god rays, floating dust particles, deep chiaroscuro, ancient Babylon 6th century BC, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic epic film shot, slow and subtle motion.",
+  "epoca_imagem": "Ancient Babylon, 6th century BC, stone, clay, bronze and cloth only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "Na Babilônia, o rei Dario assinou uma lei: por trinta dias, ninguém poderia orar a outro deus.",
+      "prompt_imagem": "wide aerial view of the ancient city of Babylon at dusk, massive palace terraces and ziggurat, torches lit along the walls, golden haze",
+      "prompt_movimento": "slow aerial camera glide forward over the city, torch flames flicker, haze drifts",
+      "vazia": true
+    },
+    {
+      "trecho": "Mesmo assim, Daniel abriu a janela voltada para Jerusalém e orou, como sempre fazia.",
+      "prompt_imagem": "exterior night view of an ancient Babylonian stone house with one small open upper window glowing with warm oil lamp light, starry sky",
+      "prompt_movimento": "the warm window light flickers gently, stars twinkle, slow camera push-in toward the window",
+      "vazia": true
+    },
+    {
+      "trecho": "Por isso foi lançado na cova dos leões, e uma pedra fechou a entrada.",
+      "prompt_imagem": "a huge round stone sealing the dark entrance of an ancient rock pit at night, a clay wax royal seal on the stone, torches on the walls",
+      "prompt_movimento": "torch flames flicker and smoke drifts across the stone, slow camera push-in",
+      "vazia": true
+    },
+    {
+      "trecho": "Lá embaixo, na escuridão, os leões cercavam Daniel.",
+      "prompt_imagem": "high-angle view down into a vast dark rocky cave pit, a tiny distant kneeling man in a small circle of pale light, several lions in the shadows around him, torches on the rock walls, dust in the air",
+      "prompt_movimento": "dust floats slowly in the beam of light, torch flames flicker, the lions pace slowly in the shadows, slow camera descent",
+      "vazia": false
+    },
+    {
+      "trecho": "No palácio, o rei não conseguiu dormir a noite inteira.",
+      "prompt_imagem": "an empty royal bedchamber of an ancient Babylonian palace at night, a carved bed with untouched blankets, one oil lamp, moonlight through tall columns",
+      "prompt_movimento": "the lamp flame flickers, curtains move gently in the night breeze, moonlight shifts slowly, static camera",
+      "vazia": true
+    },
+    {
+      "trecho": "Ao amanhecer, correu até a cova e gritou: Daniel, o seu Deus pôde livrá-lo dos leões?",
+      "prompt_imagem": "the huge round stone at the entrance of a rock pit at sunrise, first golden rays of dawn breaking over the stone, mist on the ground",
+      "prompt_movimento": "golden dawn light grows brighter across the stone, mist drifts slowly, slow camera push-in",
+      "vazia": true
+    },
+    {
+      "trecho": "E Daniel respondeu: O meu Deus enviou o seu anjo, que fechou a boca dos leões.",
+      "prompt_imagem": "high-angle view down into a vast rocky cave pit, a bright beam of heavenly light from an opening above, a tiny distant kneeling man and a tiny winged angel of light beside him, many lions lying down calmly in a circle around them, dust glowing in the light",
+      "prompt_movimento": "the beam of light glows and dust sparkles, the angel's wings open slowly, the lions lie still and calm, slow camera descent",
+      "vazia": false
+    },
+    {
+      "trecho": "Ele confiou, e Deus o guardou. Quem confia nele não fica sozinho na cova. Daniel, capítulo seis.",
+      "prompt_imagem": "view from deep inside a dark cave looking up toward a narrow bright opening of heavenly light, rock walls framing the light, dust floating",
+      "prompt_movimento": "slow camera pull-back through the dark cave toward the darkness, the bright opening shrinks, dust floats in the light",
+      "vazia": true
+    }
+  ],
+  "legenda": "Senhor, me dá a fé de Daniel 🦁🙏\nDaniel 6:22\nComente \"Amém\" se você confia que Deus fecha a boca dos leões.",
+  "hashtags": [
+    "#Daniel",
+    "#covadosleões",
+    "#fé",
+    "#Deus"
+  ],
+  "fontes": [
+    "Daniel 6:6-23"
+  ]
+}

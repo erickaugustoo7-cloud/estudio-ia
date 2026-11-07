@@ -241,15 +241,18 @@ _SEM_GENTE = re.compile(r",?\s*\b(no people|nobody[^,.]*|no faces?|faces? (?:not
                         r"(?:tiny |small )?(?:distant )?(?:dark )?silhouettes? of [^,.]*|seen from behind|no modern objects|no glass)\b", re.I)
 
 
-def _prompt_imagem(base: str, estilo: str) -> str:
+def _prompt_imagem(base: str, estilo: str, vazia: bool = True,
+                   epoca: str = "Strictly first century objects of clay, stone, wood and cloth") -> str:
     """O Z-Image não tem prompt negativo: escrever "no people" faz ele DESENHAR gente. Tira essas menções e descreve
     a cena como vazia (natureza-morta/ambiente) quando não há mãos em cena."""
     limpo = _SEM_GENTE.sub("", base).replace(" ,", ",").strip(" ,.")
     if re.search(r"\bhands?\b|\barms?\b", limpo, re.I):
         extra = "close-up framing on the hands and objects only, cropped at the wrists"
-    else:
+    elif vazia:
         extra = "empty deserted scene, still life, environment only"
-    return f"{limpo}. {extra}. Strictly first century objects of clay, stone, wood and cloth. {estilo}"
+    else:  # cena aberta com figuras minúsculas ao longe (plano alto, estilo cinematográfico)
+        extra = "very wide high-angle establishing shot, every figure tiny and far away"
+    return f"{limpo}. {extra}. {epoca}. {estilo}"
 
 
 def _quadros(seg: float) -> int:
@@ -286,10 +289,11 @@ def main():
     semente = random.randint(1, 10**6)
     cenas, imgs, cenas_img, avisos = [], [], [], []
     estilo = r.get("estilo_imagem", ESTILO)
+    prefixo_img = r.get("prefixo_imagem", "painterly 2D illustration:")
     fonte = r.get("fonte_imagem", os.getenv("FONTE_IMAGEM", "kaggle"))
     opcoes = int(r.get("opcoes_imagem", 3))
     for c in r["cenas"]:
-        cenas_img.append({**c, "prompt_imagem": f"painterly 2D illustration: {c['prompt_imagem']}"})
+        cenas_img.append({**c, "prompt_imagem": f"{prefixo_img} {c['prompt_imagem']}"})
     if fonte == "kaggle":
         from estudio.agentes.revisor_visual import _avaliar
         chave = os.getenv("GEMINI_API_KEY")
@@ -302,7 +306,9 @@ def main():
             for i in pendentes:
                 base_p = prompts.get(i) or cenas_img[i]["prompt_imagem"]
                 itens += [{"tipo": "imagem", "nome": f"img_{i}_r{rodada}{k}", "seed": semente + 100 * i + 10 * rodada + k,
-                           "prompt": _prompt_imagem(base_p, estilo)} for k in range(opcoes)]
+                           "prompt": _prompt_imagem(base_p, estilo, cenas_img[i].get("vazia", True),
+                                                    r.get("epoca_imagem", "Strictly first century objects of clay, stone, wood and cloth"))}
+                          for k in range(opcoes)]
             saida_img, rel_img = _rodar_kaggle(itens, pasta, f"imagens{rodada}")
             log("wan", f"imagens (rodada {rodada}): {rel_img[:200]}")
             for i in list(pendentes):
@@ -323,7 +329,7 @@ def main():
                         break
                     motivos[i] = v.get("motivo", "")
                     if v.get("novo_prompt"):
-                        prompts[i] = f"painterly 2D illustration: {v['novo_prompt']}"
+                        prompts[i] = f"{prefixo_img} {v['novo_prompt']}"
         for i in range(len(cenas_img)):
             escolhida = escolhidas.get(i) or reserva.get(i)
             if not escolhida:
@@ -353,7 +359,7 @@ def main():
         cenas.append({"img": base64.b64encode(peq.read_bytes()).decode(), "seed": semente + i,
                       "quadros": _quadros(tempos[i] + 0.4), "resolucao": res_v,
                       "passos": int(r.get("passos_video", os.getenv("WAN_PASSOS", "4"))),
-                      "prompt": f"Hand-painted animated film scene, subtle ambient motion only. {movimento}",
+                      "prompt": f"{r.get('prefixo_video', 'Hand-painted animated film scene, subtle ambient motion only.')} {movimento}",
                       "negativo": ("extra people, new characters appearing, duplicated person, body splitting, extra limbs, "
                                    "morphing, bending over, sudden pose change, turning around, looking at the camera, head turning, "
                                    "face appearing, faces, cartoon face on objects, anthropomorphic objects, mascot, characters, "
