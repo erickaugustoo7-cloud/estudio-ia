@@ -342,6 +342,7 @@ def main():
             dur = _dur(mp3) or dur
         tempos = montador.tempos_das_cenas(r["cenas"], palavras, dur)
         tempos[-1] += 0.8  # respiro no fim
+        tempos[-1] += float(r.get("cauda_musical_min", 0)) * 60  # orações para dormir: só música no final
 
     # 2) ilustrações: Z-Image Turbo no Kaggle (2 opções por cena; o Gemini escolhe a que serve)
     semente = random.randint(1, 10**6)
@@ -567,6 +568,9 @@ def main():
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{t0 + d / 2:.2f}", "-i", str(video), "-frames:v", "1",
                         "-vf", "scale=540:-1", str(pasta / f"previa_{i}.jpg")], check=False)
         t0 += d
+    if horiz:  # miniatura do YouTube a partir da ilustração mais forte (sem legendas)
+        k = int(r.get("cena_capa", 0))
+        publicador.capa_youtube(imgs[min(k, len(imgs) - 1)], r.get("texto_capa") or [r["titulo"]], pasta / "thumb.jpg")
     roteiro = {"titulo": r["titulo"], "narracao": " ".join(c.get("trecho", "") for c in r["cenas"]),
                "legenda": r.get("legenda", r["titulo"]), "hashtags": r.get("hashtags", []), "fontes": r.get("fontes", []),
                "titulo_youtube": r.get("titulo_youtube"),
@@ -578,7 +582,8 @@ def main():
     link = abrir_issue({**canal, "estilo_nome": "animação Wan 2.2"}, roteiro, texto_post, pasta, total,
                        avisos + [f"Kaggle: {resumo[:300]}"], r.get("referencia", r["titulo"]), no_tg)
     if no_tg and link:
-        publicador.telegram_mensagem(f"✅ Aprovar para Instagram e Facebook: {link}")
+        destino = "YouTube" if total > 180 else "Instagram, Facebook e YouTube"
+        publicador.telegram_mensagem(f"✅ Aprovar ({destino}): {link}")
     log("wan", f"concluído: {video} · {link}")
 
 

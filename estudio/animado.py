@@ -317,7 +317,7 @@ def produzir_animado(caminho: Path, sem_envio: bool, sem_issue: bool) -> Path:
                            avisos, r.get("referencia", r["titulo"]), no_telegram)
         log("animado", f"aguardando aprovação: {link}")
         if no_telegram and link:
-            publicador.telegram_mensagem(f"✅ Aprovar para Instagram e Facebook: {link}")
+            publicador.telegram_mensagem(f"✅ Aprovar (Instagram, Facebook e YouTube): {link}")
     log("animado", f"concluído: {video}")
     return pasta
 

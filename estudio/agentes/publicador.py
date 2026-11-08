@@ -5,6 +5,7 @@
 - TikTok: o vídeo + legenda chegam no seu Telegram, prontos para salvar e postar no app (≈30 s).
 """
 import os
+import subprocess
 import time
 from pathlib import Path
 
@@ -226,6 +227,44 @@ def youtube_ativo() -> bool:
     return all(os.getenv(k) for k in ("YT_CLIENT_ID", "YT_CLIENT_SECRET", "YT_REFRESH_TOKEN"))
 
 
+FONTE_CAPA = "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf"
+
+
+def capa_youtube(origem: Path, linhas: list[str], destino: Path, segundo: float | None = None) -> Path | None:
+    """Miniatura 1280x720: imagem do filme escurecida à esquerda + título grande (dourado e branco).
+    `origem` pode ser uma imagem ou o próprio vídeo (pega um quadro sem a faixa das legendas)."""
+    try:
+        ent = ["-ss", f"{segundo:.1f}", "-i", str(origem), "-frames:v", "1"] if segundo is not None else ["-i", str(origem)]
+        recorte = "crop=iw*0.8:ih*0.8:iw*0.1:ih*0.02," if segundo is not None else ""  # evita as legendas do rodapé
+        filtros = [f"{recorte}scale=1280:720:force_original_aspect_ratio=increase,crop=1280:720",
+                   "eq=contrast=1.12:saturation=1.2:brightness=-0.03",
+                   "drawbox=x=0:y=0:w=760:h=720:color=black@0.42:t=fill"]
+        linhas = [x.upper() for x in linhas if x][:3]
+        tam = 132 if max(len(x) for x in linhas) <= 8 else 104 if max(len(x) for x in linhas) <= 12 else 80
+        y0 = 360 - len(linhas) * tam * 1.12 / 2
+        for k, txt in enumerate(linhas):
+            arq = destino.with_name(f"capa_linha{k}.txt")
+            arq.write_text(txt, encoding="utf-8")
+            cor = "0xFFD27A" if k == 0 else "white"
+            filtros.append(f"drawtext=fontfile={FONTE_CAPA}:textfile={arq}:fontsize={tam}:fontcolor={cor}:"
+                           f"borderw=7:bordercolor=black@0.85:shadowx=4:shadowy=4:x=60:y={y0 + k * tam * 1.12:.0f}")
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *ent, "-vf", ",".join(filtros), "-q:v", "2", str(destino)],
+                       check=True)
+        return destino
+    except Exception as e:  # noqa: BLE001
+        log("publicador", f"miniatura não gerada ({e})")
+        return None
+
+
+def _enviar_capa(auth: dict, video_id: str, capa: Path):
+    try:
+        r = requests.post(f"https://www.googleapis.com/upload/youtube/v3/thumbnails/set?videoId={video_id}",
+                          headers={**auth, "Content-Type": "image/jpeg"}, data=capa.read_bytes(), timeout=120)
+        log("publicador", f"miniatura do YouTube: {'ok' if r.ok else r.text[:200]}")
+    except Exception as e:  # noqa: BLE001
+        log("publicador", f"miniatura do YouTube falhou ({e})")
+
+
 def youtube_upload(video: Path, titulo: str, descricao: str, tags: list[str] | None = None,
                    agendar: str | None = None) -> dict:
     """Envia o vídeo ao canal (OAuth com refresh token). Vertical e até 3 min = Short; acima disso, vídeo normal."""
@@ -252,6 +291,18 @@ def youtube_upload(video: Path, titulo: str, descricao: str, tags: list[str] | N
     v = up.json()
     priv = v.get("status", {}).get("privacyStatus")
     url = f"https://youtu.be/{v['id']}"
+    capa = video.parent / "thumb.jpg"
+    if not capa.exists():  # vídeo longo sem capa pronta: gera uma a partir de um quadro do próprio filme
+        try:
+            dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0",
+                                        str(video)], capture_output=True, text=True).stdout or 0)
+        except Exception:  # noqa: BLE001
+            dur = 0
+        if dur > 180:
+            capa = capa_youtube(video, titulo.split("|")[0].strip().split(" ", 1) if len(titulo) > 12 else [titulo],
+                                video.parent / "thumb.jpg", segundo=dur * 0.12)
+    if capa and capa.exists():
+        _enviar_capa(auth, v["id"], capa)
     if priv != desejado:
         return {"status": "failed", "publicUrl": url,
                 "errorMessage": f"o YouTube deixou o vídeo como '{priv}' (app ainda não auditado) — publique pelo Studio"}

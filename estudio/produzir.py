@@ -158,7 +158,7 @@ def main():
     if not a.sem_issue:
         link = abrir_issue(canal, roteiro, texto_post, pasta, dur, problemas, pauta, no_telegram)
         log("orquestrador", f"aguardando aprovação: {link}")
-        publicador.telegram_mensagem(f"✅ Aprovar para Instagram e Facebook: {link}")
+        publicador.telegram_mensagem(f"✅ Aprovar (Instagram, Facebook e YouTube): {link}")
     if not a.roteiro:
         diretor.registrar_no_historico(canal["slug"], roteiro["titulo"], pauta)
     log("orquestrador", f"concluído em {pasta}")

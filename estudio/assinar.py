@@ -35,7 +35,7 @@ def main():
     link = abrir_issue({**canal, "estilo_nome": "animação Wan 2.2"}, roteiro, texto_post, pasta, total, [],
                        roteiro.get("fontes", [roteiro["titulo"]])[0], no_tg)
     if no_tg and link:
-        publicador.telegram_mensagem(f"✅ Aprovar para Instagram e Facebook: {link}")
+        publicador.telegram_mensagem(f"✅ Aprovar (Instagram, Facebook e YouTube): {link}")
     log("assinar", f"pronto: {link}")
 
 

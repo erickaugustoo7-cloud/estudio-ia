@@ -182,7 +182,7 @@ def produzir_curto(caminho: Path, sem_envio: bool, sem_issue: bool) -> None:
     ref = r.get("referencia") or "mensagem motivacional (texto próprio)"
     roteiro = {"titulo": r["titulo"], "narracao": f"(sem narração) {r['versiculo']} — {ref}",
                "legenda": r["legenda"], "hashtags": r.get("hashtags", []), "fontes": [ref],
-               "plataformas": r.get("plataformas", ["instagram", "facebook"])}  # versículo+imagem: fora do YouTube (risco)
+               "plataformas": r.get("plataformas", ["instagram", "facebook", "youtube"])}  # também vira Short no YouTube
     (pasta / "roteiro.json").write_text(json.dumps(roteiro, ensure_ascii=False, indent=2), encoding="utf-8")
     texto_post = montar_texto_post(canal, roteiro)
     (pasta / "post.txt").write_text(texto_post, encoding="utf-8")
@@ -194,7 +194,7 @@ def produzir_curto(caminho: Path, sem_envio: bool, sem_issue: bool) -> None:
                            avisos, ref, no_telegram)
         log("curto", f"aguardando aprovação: {link}")
         if no_telegram and link:
-            publicador.telegram_mensagem(f"✅ Aprovar para Instagram e Facebook: {link}")
+            publicador.telegram_mensagem(f"✅ Aprovar (Instagram, Facebook e YouTube): {link}")
     log("curto", f"concluído: {video}")
 
 

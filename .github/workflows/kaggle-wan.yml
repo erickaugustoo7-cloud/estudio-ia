@@ -85,5 +85,6 @@ jobs:
             saida/**/video.mp4
             saida/**/roteiro.json
             saida/**/post.txt
+            saida/**/thumb.jpg
           retention-days: 14
           if-no-files-found: ignore
