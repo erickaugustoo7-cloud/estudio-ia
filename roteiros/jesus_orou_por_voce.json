@@ -1,0 +1,66 @@
+{
+  "titulo": "Jesus orou por você antes de você nascer",
+  "gancho_tela": "Você já estava nessa oração",
+  "estilo": "pintura",
+  "narracao": "Na noite antes da cruz, Jesus fez uma oração por você. Está em João, capítulo dezessete. Mas como ele podia orar por alguém que nem tinha nascido? Era a última noite com os discípulos. Jesus sabia o que vinha: a traição, a prisão, a cruz. E mesmo assim, ele olhou para o céu e orou. Orou pelos amigos que estavam ali. Pediu ao Pai que os protegesse do Maligno. Então ele disse uma frase que atravessa os séculos: A minha oração não é apenas por eles. Peço também por aqueles que crerão em mim. Aqueles que iam crer depois, por meio da mensagem deles. Isso inclui você. Jesus pediu que fôssemos um com ele e com o Pai. E pediu algo ainda mais forte: que o mundo soubesse que o Pai ama você como ama o próprio Jesus. Depois dessa oração, ele saiu com os discípulos para um jardim. E ali foi preso. Antes de enfrentar a noite mais escura, Jesus pensou em você. Se hoje você se sente esquecido, lembre: você já estava na oração dele. Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias.",
+  "cenas": [
+    {
+      "trecho": "Na noite antes da cruz, Jesus fez uma oração por você.",
+      "busca_imagem": "praying silhouette starry night",
+      "prompt_imagem": "a robed man seen from behind kneeling on a rocky hillside at night, face lifted to a brilliant starry sky, a distant wooden cross silhouetted against a glowing golden horizon, strong contrast"
+    },
+    {
+      "trecho": "Está em João, capítulo dezessete. Mas como ele podia orar por alguém que nem tinha nascido?",
+      "busca_imagem": "open ancient scroll lamp",
+      "prompt_imagem": "an ancient open scroll on a wooden table lit by a single oil lamp at night, deep shadows, warm golden glow"
+    },
+    {
+      "trecho": "Era a última noite com os discípulos. Jesus sabia o que vinha: a traição, a prisão, a cruz.",
+      "busca_imagem": "last supper oil lamps",
+      "prompt_imagem": "an ancient upper room at night lit by oil lamps, robed men seen from behind and in shadow around a low table with bread and a cup, solemn warm light"
+    },
+    {
+      "trecho": "E mesmo assim, ele olhou para o céu e orou. Orou pelos amigos que estavam ali. Pediu ao Pai que os protegesse do Maligno.",
+      "busca_imagem": "man praying night sky",
+      "prompt_imagem": "a robed man seen from behind lifting his eyes to a starry night sky, his friends sitting in shadow around him, soft golden lamplight"
+    },
+    {
+      "trecho": "Então ele disse uma frase que atravessa os séculos: A minha oração não é apenas por eles. Peço também por aqueles que crerão em mim.",
+      "busca_imagem": "stars over ancient city",
+      "prompt_imagem": "a vast starry night sky over an ancient stone city with oil lamps glowing in distant windows, a robed silhouette on a terrace praying"
+    },
+    {
+      "trecho": "Aqueles que iam crer depois, por meio da mensagem deles. Isso inclui você.",
+      "busca_imagem": "candle open bible",
+      "prompt_imagem": "a single candle burning beside an open old Bible on a wooden table, a man's hands resting on the pages seen from behind, warm light in a dark room"
+    },
+    {
+      "trecho": "Jesus pediu que fôssemos um com ele e com o Pai. E pediu algo ainda mais forte: que o mundo soubesse que o Pai ama você como ama o próprio Jesus.",
+      "busca_imagem": "light breaking clouds",
+      "prompt_imagem": "golden divine light breaking through dark clouds over quiet hills at night, a small group of robed figures seen from behind looking up"
+    },
+    {
+      "trecho": "Depois dessa oração, ele saiu com os discípulos para um jardim. E ali foi preso.",
+      "busca_imagem": "olive garden night torches",
+      "prompt_imagem": "an olive grove at night, robed figures seen from behind walking among the trees, distant torches approaching through the darkness, moonlight"
+    },
+    {
+      "trecho": "Antes de enfrentar a noite mais escura, Jesus pensou em você. Se hoje você se sente esquecido, lembre: você já estava na oração dele. Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias.",
+      "busca_imagem": "man cross sunset",
+      "prompt_imagem": "a lone man seen from behind standing before a wooden cross on a hill at sunset, golden light, peaceful and hopeful"
+    }
+  ],
+  "legenda": "Senhor, obrigado por orar por mim 🙏😭\nJoão 17:20-23\nComente \"Amém\" e envie para alguém que se sente esquecido.",
+  "hashtags": [
+    "#oraçãodeJesus",
+    "#João17",
+    "#amordeDeus",
+    "#vocênãoestásó"
+  ],
+  "fontes": [
+    "João 17:1 (Jesus olhou para o céu e orou)",
+    "João 17:9-15 (orou pelos discípulos; 'que os protejas do Maligno')",
+    "João 17:20-23 ('A minha oração não é apenas por eles...'; que sejam um; 'os amaste como igualmente me amaste')",
+    "João 18:1-12 (saiu com os discípulos para um jardim do outro lado do Cedrom; a prisão)"
+  ]
+}
