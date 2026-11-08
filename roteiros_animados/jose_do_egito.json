@@ -1,0 +1,630 @@
+{
+ "titulo": "José do Egito",
+ "titulo_youtube": "JOSÉ DO EGITO | O Filme Bíblico (Gênesis 37–50)",
+ "gancho_tela": "Traído, vendido, esquecido",
+ "referencia": "Gênesis 50:20",
+ "formato": "horizontal",
+ "duracao_max": 999,
+ "volume_musica": 0.11,
+ "opcoes_imagem": 1,
+ "palavras_por_bloco": 260,
+ "plataformas": [
+  "youtube"
+ ],
+ "estilo_imagem": "cinematic photorealistic epic film still, dramatic volumetric god rays, floating dust particles, deep chiaroscuro, muted earthy tones, horizontal 16:9 widescreen",
+ "prefixo_imagem": "cinematic photorealistic film still:",
+ "prefixo_video": "Cinematic epic film shot, slow and subtle motion.",
+ "epoca_imagem": "Ancient Canaan and ancient Egypt around 1800 BC: goat-hair tents, stone, clay, wood, linen, bronze and gold only, Egyptian painted columns and mudbrick granaries, nothing modern",
+ "cenas": [
+  {
+   "trecho": "Ele foi traído pelos próprios irmãos, vendido como escravo e esquecido numa prisão.",
+   "prompt_imagem": "a broken iron shackle lying on the dusty stone floor of an ancient dungeon, one beam of light from a high window",
+   "vazia": true,
+   "prompt_movimento": "dust floats slowly in the beam of light, slow camera push-in",
+   "animar": true
+  },
+  {
+   "trecho": "Mas Deus estava escrevendo uma história que ninguém conseguia enxergar.",
+   "prompt_imagem": "a vast starry night sky over the dark desert hills of ancient Canaan, the Milky Way glowing",
+   "vazia": true,
+   "prompt_movimento": "stars twinkle softly, a faint meteor crosses the sky, very slow camera tilt up",
+   "animar": true
+  },
+  {
+   "trecho": "Esta é a história de José do Egito.",
+   "prompt_imagem": "the golden Nile river at sunrise, ancient Egyptian limestone temple and palm trees on the bank, mist on the water",
+   "vazia": true,
+   "prompt_movimento": "gentle ripples on the river, mist drifts, palm leaves sway in the breeze, slow camera glide forward",
+   "animar": true
+  },
+  {
+   "trecho": "Muito tempo atrás, em Canaã, vivia Jacó, um pastor que teve doze filhos.",
+   "prompt_imagem": "very wide high-angle view of a nomad camp of dark goat-hair tents in the green hills of ancient Canaan at dusk, flocks of sheep, cooking fires",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Entre todos eles, José era o mais amado, o filho da sua velhice.",
+   "prompt_imagem": "inside a goat-hair tent at night, a single clay oil lamp glowing on a woven rug, a wooden shepherd's staff leaning on the tent pole",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Jacó deu a ele uma túnica especial, longa e bonita, diferente de tudo o que os outros tinham.",
+   "prompt_imagem": "a long richly woven tunic with colorful stripes draped over a wooden frame inside a tent, warm lamp light, dust in the air",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "E isso fez crescer no coração dos irmãos um ciúme silencioso.",
+   "prompt_imagem": "ten plain brown wool cloaks hanging on pegs in a dim tent, in the background a single colorful striped tunic glowing in a beam of light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Um dia, José teve um sonho e contou a eles.",
+   "prompt_imagem": "a sleeping mat and a woolen blanket inside a tent at night, moonlight through the tent opening",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Eles estavam amarrando feixes de trigo no campo.",
+   "prompt_imagem": "a golden wheat field at harvest in ancient Canaan, tied sheaves of wheat standing in rows, warm afternoon light",
+   "vazia": true,
+   "prompt_movimento": "wheat stalks sway gently in the wind, slow camera pan across the field",
+   "animar": true
+  },
+  {
+   "trecho": "De repente, o feixe de José se levantou, e os feixes dos irmãos se curvaram diante dele.",
+   "prompt_imagem": "one tall sheaf of wheat standing upright in the center of a field, eleven smaller sheaves bowing around it in a circle, golden sunset light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Os irmãos responderam com raiva: você acha que vai reinar sobre nós?",
+   "prompt_imagem": "a clay jar knocked over and spilled on the ground beside a dying campfire at dusk, smoke rising",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Depois veio outro sonho: o sol, a lua e onze estrelas se curvavam diante dele.",
+   "prompt_imagem": "a dreamlike night sky with a glowing sun, a pale crescent moon and eleven bright stars arranged in an arc over dark hills",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Até o pai o repreendeu. Mas guardou aquilo no coração.",
+   "prompt_imagem": "an old wooden shepherd's staff and a worn leather pouch resting on a stone at dusk, soft golden light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Certo dia, os irmãos levaram os rebanhos para pastar longe de casa.",
+   "prompt_imagem": "very wide view of flocks of sheep moving across the dry hills of ancient Canaan, a few tiny distant shepherds far away, dust in the golden light",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Jacó então pediu a José que fosse ver como eles estavam.",
+   "prompt_imagem": "a lonely dirt path winding through the hills of Canaan toward the horizon, morning light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Quando os irmãos o viram de longe, disseram: Lá vem aquele sonhador!",
+   "prompt_imagem": "high-angle view of a rocky valley at Dothan, a tiny distant traveler in a colorful striped tunic walking alone on the far path",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "E começaram a planejar a morte dele.",
+   "prompt_imagem": "a dark empty pit dug into the rocky ground, harsh midday sun, long shadows, dry thorn bushes",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Rúben, o mais velho, tentou salvá-lo: não derramem sangue, joguem-no nesta cisterna.",
+   "prompt_imagem": "looking down into an old dry stone cistern in the desert, the bottom in deep shadow, a coil of rope on the edge",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Arrancaram a túnica de José e o jogaram no fundo do poço, que estava vazio, sem água.",
+   "prompt_imagem": "a colorful striped tunic lying torn on the dusty ground at the edge of a dry stone cistern",
+   "vazia": true,
+   "prompt_movimento": "dust blows slowly across the ground, the cloth edge flutters in the wind",
+   "animar": true
+  },
+  {
+   "trecho": "E depois se sentaram para comer, enquanto ele clamava lá embaixo.",
+   "prompt_imagem": "view from the bottom of a deep dry cistern looking up at a small circle of blue sky, rough stone walls",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Foi quando apareceu no horizonte uma caravana de mercadores a caminho do Egito.",
+   "prompt_imagem": "very wide view of a long caravan of camels loaded with bundles crossing desert dunes at sunset, all tiny and far away",
+   "vazia": false,
+   "prompt_movimento": "the caravan moves slowly along the dune, sand blows in the wind, slow camera pan",
+   "animar": true
+  },
+  {
+   "trecho": "Judá disse: o que ganharemos matando nosso irmão? Vamos vendê-lo.",
+   "prompt_imagem": "an open leather purse on a flat rock with silver pieces spilling out, harsh sunlight",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "E assim José foi vendido por vinte peças de prata.",
+   "prompt_imagem": "close-up of twenty small silver pieces stacked on a rough wooden board, dramatic light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Os irmãos mataram um bode e mancharam a túnica com sangue.",
+   "prompt_imagem": "a colorful striped tunic stained with dark red, lying on a flat stone beside a clay bowl, dim evening light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Levaram a túnica ao pai e perguntaram: veja, esta é a túnica do seu filho?",
+   "prompt_imagem": "a stained striped tunic laid on a woven mat at the entrance of a goat-hair tent at dusk",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Jacó a reconheceu e rasgou as próprias vestes. Chorou por José durante muitos dias.",
+   "prompt_imagem": "inside a dark tent, a torn brown cloak on the ground beside an extinguished clay oil lamp, a thin trail of smoke",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Ninguém conseguia consolá-lo.",
+   "prompt_imagem": "the empty tent camp of Canaan in grey rain at dusk, wet goat-hair tents, low clouds over the hills",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Enquanto isso, José chegava ao Egito como escravo.",
+   "prompt_imagem": "very wide aerial view of an ancient Egyptian city on the Nile, white limestone temples with painted columns, obelisks, palm groves, golden haze",
+   "vazia": true,
+   "prompt_movimento": "slow aerial glide forward over the city, haze drifts, the river sparkles",
+   "animar": true
+  },
+  {
+   "trecho": "Ele foi comprado por Potifar, um oficial do faraó, capitão da guarda.",
+   "prompt_imagem": "the courtyard of a wealthy ancient Egyptian house, painted lotus columns, a rectangular pool with lotus flowers, afternoon light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Mas a Bíblia diz algo poderoso: o Senhor estava com José.",
+   "prompt_imagem": "a beam of golden light falling through a high window onto a polished stone floor of an Egyptian house, dust particles",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Tudo o que ele fazia prosperava. E Potifar confiou a ele toda a sua casa.",
+   "prompt_imagem": "a heavy bronze key ring and a stack of papyrus scrolls on a cedar table in an ancient Egyptian storeroom full of jars",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Só que a mulher de Potifar passou a cobiçá-lo, dia após dia.",
+   "prompt_imagem": "an empty ancient Egyptian bedchamber with linen curtains, a carved wooden bed and an alabaster lamp, dim evening light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "José recusou: como poderia cometer tamanha maldade e pecar contra Deus?",
+   "prompt_imagem": "a doorway of an ancient Egyptian house opening onto a bright sunlit courtyard, linen curtains moving",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Um dia, ela o agarrou pelo manto. José fugiu e deixou o manto nas mãos dela.",
+   "prompt_imagem": "a white linen cloak lying crumpled on a stone floor near an open doorway, harsh light from outside",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Ela mentiu, e José foi lançado na prisão do rei.",
+   "prompt_imagem": "a heavy wooden door with bronze bolts at the entrance of an ancient stone prison, torches on the walls at night",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "De novo, injustiçado. De novo, sozinho.",
+   "prompt_imagem": "an empty dim stone prison cell with straw on the floor and a narrow high window, a single beam of moonlight",
+   "vazia": true,
+   "prompt_movimento": "dust floats slowly in the moonlight beam, very slow camera push-in",
+   "animar": true
+  },
+  {
+   "trecho": "Mas até ali o Senhor estava com ele, e o carcereiro confiou a José todos os presos.",
+   "prompt_imagem": "a ring of bronze keys hanging on a stone wall beside a burning torch in an ancient prison corridor",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Certa noite, dois oficiais do faraó tiveram sonhos estranhos: o copeiro e o padeiro.",
+   "prompt_imagem": "a golden wine cup and a basket of bread loaves resting on a stone ledge in a dark prison cell, oil lamp light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "José disse que as interpretações pertencem a Deus, e explicou os dois sonhos.",
+   "prompt_imagem": "an open papyrus scroll beside a burning clay oil lamp on a stone bench in the dark",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Em três dias, o copeiro voltou ao palácio, e o padeiro foi executado.",
+   "prompt_imagem": "a golden wine cup on a tray in a bright palace hall of ancient Egypt, painted columns, morning light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "José pediu: lembre-se de mim. Mas o copeiro se esqueceu dele.",
+   "prompt_imagem": "a burnt-out clay oil lamp on a stone ledge of a prison cell, a thin wisp of smoke, cold grey light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Passaram-se dois anos inteiros.",
+   "prompt_imagem": "a wall of a prison cell covered with many scratched tally marks, a beam of light moving across them",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Então o próprio faraó teve um sonho que ninguém conseguia entender.",
+   "prompt_imagem": "the empty throne room of an ancient Egyptian palace at night, a golden throne between painted columns, torches",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Sete vacas gordas saíam do rio Nilo, e depois sete vacas magras as devoravam.",
+   "prompt_imagem": "a dreamlike misty Nile riverbank at night, reeds and still dark water, an eerie pale light",
+   "vazia": true,
+   "prompt_movimento": "mist rolls slowly over the water, the reeds sway, slow camera glide along the river",
+   "animar": true
+  },
+  {
+   "trecho": "Sete espigas cheias de grãos, e depois sete espigas secas que as engoliam.",
+   "prompt_imagem": "seven full golden ears of grain beside seven dry withered ears on a dark background, dramatic light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Nenhum sábio do Egito soube explicar. Foi aí que o copeiro se lembrou de José.",
+   "prompt_imagem": "a long table with closed papyrus scrolls and unlit bronze lamps in an empty hall of Egyptian scribes",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Às pressas, tiraram José da prisão. Ele se barbeou, trocou de roupa e foi levado ao faraó.",
+   "prompt_imagem": "a bronze razor, a clay bowl of water and a folded white linen garment on a stone bench in morning light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "O faraó disse: ouvi dizer que você interpreta sonhos.",
+   "prompt_imagem": "very wide high-angle view of a grand Egyptian throne hall with towering painted columns, a tiny distant figure standing before the throne",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "E José respondeu: Isso não depende de mim, mas Deus dará ao faraó uma resposta favorável.",
+   "prompt_imagem": "a single beam of golden light falling from a high window onto the stone floor of the vast throne hall, dust in the air",
+   "vazia": true,
+   "prompt_movimento": "dust particles float slowly in the beam of light, slow camera push-in",
+   "animar": true
+  },
+  {
+   "trecho": "Os dois sonhos são um só: virão sete anos de fartura em toda a terra do Egito.",
+   "prompt_imagem": "vast green fertile fields along the Nile with abundant wheat and date palms, bright sunshine",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Depois deles, sete anos de fome tão terrível que a fartura será esquecida.",
+   "prompt_imagem": "cracked dry earth and dead stalks of grain under a harsh white sun, heat haze",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "José aconselhou: escolha um homem sábio e guarde a quinta parte das colheitas.",
+   "prompt_imagem": "rows of large round mudbrick granaries of ancient Egypt under a clear sky, wooden ladders against the walls",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "O faraó disse: não há ninguém tão sábio quanto você. Você governará a minha casa.",
+   "prompt_imagem": "a golden throne with lion arms in an empty Egyptian throne hall, a royal scepter lying across the seat",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Ele tirou o anel do dedo e o colocou na mão de José.",
+   "prompt_imagem": "close-up of hands exchanging a heavy golden royal signet ring, fine linen sleeves, warm light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Vestiu-o com linho fino e pôs em seu pescoço um colar de ouro.",
+   "prompt_imagem": "a broad Egyptian gold collar necklace with lapis inlays resting on folded fine white linen, warm torch light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "O escravo esquecido agora era o governador de todo o Egito. Ele tinha trinta anos.",
+   "prompt_imagem": "a gilded ancient Egyptian chariot with two horses standing in a palace courtyard, banners moving in the wind, golden dawn light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Nos sete anos de fartura, José armazenou trigo como a areia do mar, sem conseguir medir.",
+   "prompt_imagem": "a mountain of golden grain inside a huge mudbrick granary, sunlight beams through the roof openings",
+   "vazia": true,
+   "prompt_movimento": "grain trickles slowly down the pile, dust floats in the sunbeams",
+   "animar": true
+  },
+  {
+   "trecho": "Nesse tempo nasceram seus filhos, Manassés e Efraim. Deus o fez esquecer o sofrimento.",
+   "prompt_imagem": "two small woven baby baskets beside a window of an Egyptian house overlooking the Nile at sunset",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Então chegou a fome. E ela se espalhou por todas as terras.",
+   "prompt_imagem": "a dry riverbed and dead trees under a red dusty sky, abandoned clay jars on the cracked ground",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Gente de toda parte ia ao Egito comprar comida.",
+   "prompt_imagem": "very wide view of long lines of tiny distant travelers and donkeys approaching an Egyptian city gate across the desert",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Em Canaã, Jacó mandou dez filhos buscar trigo. Mas Benjamim, o caçula, ficou.",
+   "prompt_imagem": "ten empty sacks and ten saddled donkeys standing beside goat-hair tents at dawn in Canaan, dust in the light",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Chegando ao Egito, os irmãos se curvaram com o rosto em terra diante do governador.",
+   "prompt_imagem": "high-angle view of a vast Egyptian hall, ten tiny distant figures bowing low on the stone floor before a raised throne",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Era exatamente o sonho dos feixes. E eles não sabiam.",
+   "prompt_imagem": "a sheaf of golden wheat lying on the polished stone floor of an Egyptian palace, a beam of light on it",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "José os reconheceu na hora. Mas eles não o reconheceram.",
+   "prompt_imagem": "a tall Egyptian palace window with a linen curtain moving in the wind, harsh afternoon light and shadow",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Ele falou duro: vocês são espiões! E os prendeu por três dias.",
+   "prompt_imagem": "a bronze barred gate of an ancient Egyptian prison closing, torchlight, deep shadows",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Na prisão, os irmãos disseram entre si: estamos pagando pelo que fizemos ao nosso irmão.",
+   "prompt_imagem": "ten clay water bowls on the floor of a dim prison cell, a single beam of light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "José ouviu tudo, afastou-se e chorou.",
+   "prompt_imagem": "an empty dark corridor of an Egyptian palace, a burning torch on the wall, a fallen linen cloth on the floor",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Simeão ficou preso. Os outros voltaram com os sacos cheios de trigo.",
+   "prompt_imagem": "donkeys loaded with full grain sacks on a desert road at sunset, all tiny and far away",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "No caminho, descobriram que a prata estava de volta na boca de cada saco.",
+   "prompt_imagem": "an open grain sack with silver pieces shining on top of the wheat, warm evening light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "O medo tomou conta deles: o que é isto que Deus nos fez?",
+   "prompt_imagem": "a desert night camp with a dying fire and grain sacks, dark storm clouds gathering over the hills",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Jacó não queria deixar Benjamim partir. Mas a fome apertava cada vez mais.",
+   "prompt_imagem": "an almost empty clay grain jar on the floor of a tent, a few grains at the bottom, dim light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Judá deu a sua palavra: eu mesmo serei o fiador do menino.",
+   "prompt_imagem": "close-up of two hands clasped firmly in a pledge, rough wool sleeves, warm firelight",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "De volta ao Egito, foram levados à casa do governador para um banquete.",
+   "prompt_imagem": "a long low table in an ancient Egyptian banquet hall with bread, figs, grapes and clay wine jars, oil lamps glowing",
+   "vazia": true,
+   "prompt_movimento": "the oil lamp flames flicker gently, smoke curls upward, slow camera glide along the table",
+   "animar": true
+  },
+  {
+   "trecho": "Quando José viu Benjamim, o filho da sua mãe, saiu às pressas e chorou no seu quarto.",
+   "prompt_imagem": "an empty private chamber of an Egyptian house, a linen curtain and an alabaster lamp, night light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Na mesa, a porção de Benjamim foi cinco vezes maior que a dos outros.",
+   "prompt_imagem": "a large clay plate heaped with food among eleven small plates on a banquet table, lamp light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Na partida, José mandou esconder sua taça de prata no saco de Benjamim.",
+   "prompt_imagem": "an ornate silver cup half buried in the wheat of an open grain sack, a single beam of moonlight",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Os servos os alcançaram. Abriram saco por saco. E a taça estava com Benjamim.",
+   "prompt_imagem": "a row of opened grain sacks on a desert road, a silver cup shining on top of the last one, harsh morning sun",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Eles rasgaram as roupas e voltaram para a cidade.",
+   "prompt_imagem": "torn wool cloaks lying on a dusty road leading back toward a distant Egyptian city gate",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Então Judá, o mesmo que um dia sugeriu vender José, se ofereceu como escravo no lugar do irmão.",
+   "prompt_imagem": "a pair of worn leather sandals on the polished stone floor of an Egyptian throne hall, a beam of light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "José não conseguiu mais se conter. Mandou todos os egípcios saírem.",
+   "prompt_imagem": "tall bronze doors of an Egyptian palace hall closing, torches flickering, deep shadows",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "E chorou tão alto que até o palácio do faraó ouviu.",
+   "prompt_imagem": "the empty grand throne hall of Egypt at night, torches burning between painted columns, smoke rising",
+   "vazia": true,
+   "prompt_movimento": "torch flames flicker and smoke rises slowly, slow camera push-in",
+   "animar": true
+  },
+  {
+   "trecho": "Então disse: Eu sou José! Meu pai ainda está vivo?",
+   "prompt_imagem": "a golden signet ring resting on a folded colorful striped cloth on a stone table, warm light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Os irmãos ficaram tão pasmados que não conseguiam responder.",
+   "prompt_imagem": "a fallen clay cup and spilled wine on the stone floor of an Egyptian hall, still lamplight",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Cheguem mais perto. Eu sou José, seu irmão, aquele que vocês venderam ao Egito!",
+   "prompt_imagem": "twenty small silver pieces scattered on a polished stone floor in a beam of golden light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Agora, não se aflijam nem se recriminem por terem me vendido para cá...",
+   "prompt_imagem": "close-up of two hands resting gently on rough wool sleeves in an embrace, warm light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "pois foi para salvar vidas que Deus me enviou adiante de vocês.",
+   "prompt_imagem": "the golden granaries of Egypt full of grain at sunrise, light rays through the dust",
+   "vazia": true,
+   "prompt_movimento": "dust floats in the golden light rays, slow camera rise",
+   "animar": true
+  },
+  {
+   "trecho": "Os irmãos voltaram a Canaã com carroças carregadas, e deram a notícia: José está vivo!",
+   "prompt_imagem": "very wide view of a line of ox carts loaded with goods crossing the green hills of Canaan, all tiny and far away, golden light",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Jacó não acreditou. Mas quando viu as carroças, o seu espírito reviveu.",
+   "prompt_imagem": "an old wooden shepherd's staff leaning against a tent pole in bright morning light, a clay oil lamp lit again",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Ele partiu com toda a família rumo ao Egito.",
+   "prompt_imagem": "very wide aerial view of a long caravan of tents, flocks and carts crossing the desert toward the Nile at sunset, all tiny and far away",
+   "vazia": false,
+   "prompt_movimento": "the caravan moves slowly forward, dust rises in the golden light, slow aerial glide",
+   "animar": true
+  },
+  {
+   "trecho": "Em Gósen, José correu ao encontro do pai, o abraçou e chorou longamente.",
+   "prompt_imagem": "close-up of an old weathered hand holding a younger hand adorned with a golden ring, warm sunset light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Depois de vinte e dois anos, o sonho estava cumprido.",
+   "prompt_imagem": "the dreamlike night sky with a sun, a crescent moon and eleven bright stars over the green fields of Goshen",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Anos depois, Jacó morreu. E os irmãos tiveram medo de que José se vingasse.",
+   "prompt_imagem": "a burial cloth folded on a stone bench beside a single burning oil lamp, dim light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Mas José respondeu: Vocês planejaram o mal contra mim, mas Deus o tornou em bem,",
+   "prompt_imagem": "a beam of light breaking through dark clouds over the Nile valley at dawn",
+   "vazia": true,
+   "prompt_movimento": "clouds move slowly, light rays spread across the valley, slow camera push-in",
+   "animar": true
+  },
+  {
+   "trecho": "para que hoje fosse preservada a vida de muitos.",
+   "prompt_imagem": "lush green fields and full granaries along the Nile in golden evening light, birds flying far away",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "A cisterna, a escravidão, a prisão... nada foi desperdiçado nas mãos de Deus.",
+   "prompt_imagem": "an old dry cistern in the desert at sunset with a single green plant growing from its stones",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Talvez você esteja no seu poço agora. Deus não se esqueceu de você.",
+   "prompt_imagem": "a single clay oil lamp burning in the darkness, its warm flame steady",
+   "vazia": true,
+   "prompt_movimento": "the flame flickers gently, soft glow, very slow camera push-in",
+   "animar": true
+  },
+  {
+   "trecho": "Se esta história tocou o seu coração, escreva Amém nos comentários e se inscreva no Mensageiro de Fé.",
+   "prompt_imagem": "a vast starry sky over the Nile at night with the silhouette of palm trees, golden glow on the horizon",
+   "vazia": true,
+   "animar": false
+  }
+ ],
+ "legenda": "A história completa de José do Egito: o filho amado, traído pelos irmãos, vendido como escravo, preso injustamente e levantado por Deus para governar o Egito.\n\n\"Vocês planejaram o mal contra mim, mas Deus o tornou em bem.\" — Gênesis 50:20\n\nSe esta história tocou você, escreva \"Amém\" nos comentários e se inscreva no canal.",
+ "hashtags": [
+  "#JoséDoEgito",
+  "#FilmeBíblico",
+  "#HistóriasBíblicas",
+  "#Bíblia",
+  "#Fé"
+ ],
+ "fontes": [
+  "Gênesis 37–50 (NVI)"
+ ]
+}

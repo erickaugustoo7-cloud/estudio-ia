@@ -9,6 +9,7 @@ Uso:  python -m estudio.kaggle_wan roteiros_animados/tempestade.json
 Precisa dos segredos KAGGLE_USERNAME e KAGGLE_KEY (conta com telefone verificado).
 """
 import base64
+import shutil
 import json
 import re
 import os
@@ -35,7 +36,7 @@ ESTILO_ASSINATURA = ("Style: Sig,DejaVu Sans,30,&H4DFFFFFF,&H4DFFFFFF,&H00000000
                      "70,70,110,1")
 
 SCRIPT_KAGGLE = r'''
-import base64, json, os, subprocess, sys, time
+import base64, shutil, json, os, subprocess, sys, time
 from pathlib import Path
 t0 = time.time()
 def sh(cmd, **kw):
@@ -298,15 +299,38 @@ def main():
             grupos.append(atual)
             voz_bloco = {**canal_voz, "gemini_tts": {**canal_voz["gemini_tts"], "duracao_max": 999}} \
                 if canal_voz.get("gemini_tts") else canal_voz
-            partes, palavras, dur = [], [], 0.0
-            for k, g in enumerate(grupos):
-                sub = pasta / f"voz_{k:02d}"
-                sub.mkdir()
-                mp3k, palk, durk = narrador.narrar(voz_bloco, " ".join(c["trecho"] for c in g), sub)
-                palavras += [{**pw, "ini": pw["ini"] + dur, "fim": pw["fim"] + dur} for pw in palk]
-                partes.append(mp3k)
-                dur += durk
-                log("wan", f"voz bloco {k + 1}/{len(grupos)}: {durk:.1f}s")
+            def _blocos(cfg: dict, so_gemini: bool):
+                """Narra todos os blocos com a MESMA voz; se a Gemini falhar em um, recomeça tudo no Edge."""
+                partes, palavras, dur = [], [], 0.0
+                for k, g in enumerate(grupos):
+                    sub = pasta / f"voz_{k:02d}"
+                    shutil.rmtree(sub, ignore_errors=True)
+                    sub.mkdir()
+                    txt = " ".join(c["trecho"] for c in g)
+                    if so_gemini:
+                        from estudio.agentes import narrador_gemini
+                        for tent in range(1, 4):
+                            try:
+                                mp3k, palk, durk = narrador_gemini.narrar(cfg, txt, sub, narrador.duracao)
+                                break
+                            except Exception as e:  # noqa: BLE001
+                                log("wan", f"voz Gemini bloco {k + 1} tentativa {tent}/3 falhou ({e})")
+                                if tent == 3 or "429" in str(e) or "quota" in str(e).lower():
+                                    return None
+                    else:
+                        random.seed(4242)  # mesmo ritmo e tom em todos os blocos
+                        mp3k, palk, durk = narrador.narrar(cfg, txt, sub)
+                    palavras += [{**pw, "ini": pw["ini"] + dur, "fim": pw["fim"] + dur} for pw in palk]
+                    partes.append(mp3k)
+                    dur += durk
+                    log("wan", f"voz bloco {k + 1}/{len(grupos)}: {durk:.1f}s")
+                return partes, palavras, dur
+            res = _blocos(voz_bloco, True) if voz_bloco.get("tts") == "gemini" and voz_bloco.get("gemini_tts") else None
+            if res is None:
+                log("wan", "voz Gemini indisponível para o filme inteiro; narrando TUDO com uma única voz do Edge")
+                res = _blocos({**voz_bloco, "forcar_edge": True, "vozes": [voz_bloco["voz"]]}, False)
+                random.seed()
+            partes, palavras, dur = res
             lista_v = pasta / "voz_lista.txt"
             lista_v.write_text("".join(f"file '{x.resolve()}'\n" for x in partes))
             mp3 = pasta / "narracao.mp3"
@@ -318,6 +342,8 @@ def main():
 
     # 2) ilustrações: Z-Image Turbo no Kaggle (2 opções por cena; o Gemini escolhe a que serve)
     semente = random.randint(1, 10**6)
+    horiz = r.get("formato") == "horizontal"  # filmes longos do YouTube: 16:9
+    W, H = (1920, 1080) if horiz else (1080, 1920)
     cenas, imgs, cenas_img, avisos = [], [], [], []
     estilo = r.get("estilo_imagem", ESTILO)
     prefixo_img = r.get("prefixo_imagem", "cinematic photorealistic film still:")
@@ -337,6 +363,7 @@ def main():
             for i in pendentes:
                 base_p = prompts.get(i) or cenas_img[i]["prompt_imagem"]
                 itens += [{"tipo": "imagem", "nome": f"img_{i}_r{rodada}{k}", "seed": semente + 100 * i + 10 * rodada + k,
+                           "resolucao": "1344x768" if horiz else "768x1344",
                            "prompt": _prompt_imagem(base_p, estilo, cenas_img[i].get("vazia", True),
                                                     r.get("epoca_imagem", "Strictly first century objects of clay, stone, wood and cloth"))}
                           for k in range(opcoes)]
@@ -382,9 +409,9 @@ def main():
         except Exception as e:  # noqa: BLE001
             log("wan", f"revisão visual indisponível ({e})")
     for i, (c, img) in enumerate(zip(r["cenas"], imgs)):
-        res_v = r.get("resolucao_video", os.getenv("WAN_RESOLUCAO", "704x1280"))  # 720p: rostos e mãos mais estáveis
+        res_v = r.get("resolucao_video", "1280x704" if horiz else os.getenv("WAN_RESOLUCAO", "704x1280"))  # 720p: rostos e mãos mais estáveis
         peq = pasta / f"cena_{i}_wan.jpg"  # manda a imagem já no tamanho do Wan (script menor)
-        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(img), "-vf", "scale=480:832",
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(img), "-vf", "scale=832:480" if horiz else "scale=480:832",
                         "-q:v", "5", str(peq)], check=True)  # pacote leve (o Kaggle recusa script grande); o Wan amplia
         if not c.get("animar", True):
             continue  # cena parada: ilustração com movimento de câmera (sem GPU)
@@ -439,8 +466,8 @@ def main():
                ("1.12", f"(iw-iw/zoom)*on/{n}", "ih/2-(ih/zoom/2)"),
                ("1.12", f"(iw-iw/zoom)*(1-on/{n})", "ih/2-(ih/zoom/2)")][i % 4]
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-loop", "1", "-i", str(imgs[i]), "-vf",
-                        f"scale=1296:2304,zoompan=z='{mov[0]}':x='{mov[1]}':y='{mov[2]}'"
-                        f":d={n}:s=1080x1920:fps=30", "-t", f"{seg:.2f}", "-c:v", "libx264", "-crf", "18",
+                        f"scale={int(W * 1.2)}:{int(H * 1.2)},zoompan=z='{mov[0]}':x='{mov[1]}':y='{mov[2]}'"
+                        f":d={n}:s={W}x{H}:fps=30", "-t", f"{seg:.2f}", "-c:v", "libx264", "-crf", "18",
                         "-pix_fmt", "yuv420p", str(fixo)], check=True)
         return fixo
 
@@ -460,7 +487,7 @@ def main():
         fator = alvo / max(_dur(cl), 0.1)
         out = pasta / f"parte_{i}.mp4"
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(cl), "-vf",
-                        f"setpts={fator:.4f}*PTS,fps=30,scale=1080:1920:flags=lanczos,format=yuv420p",
+                        f"setpts={fator:.4f}*PTS,fps=30,scale={W}:{H}:flags=lanczos,format=yuv420p",
                         "-t", f"{alvo:.3f}", "-an", "-c:v", "libx264", "-crf", "18", "-preset", "veryfast", str(out)], check=True)
         partes.append((out, alvo))
     ent, filtro, ant, off = [], [], "[0:v]", 0.0
@@ -492,6 +519,11 @@ def main():
         t += f"Dialogue: 2,{_ts(0)},{_ts(total)},Serie,,0,0,0,,{selo.upper()}\n"
     if r.get("referencia"):
         t += f"Dialogue: 1,{_ts(max(0, total - 3.2))},{_ts(total)},Ref,,0,0,0,,{r['referencia'].upper()}\n"
+    if horiz:  # mesma identidade, posições e tamanhos ajustados para 16:9
+        t = (t.replace("PlayResX: 1080\nPlayResY: 1920", "PlayResX: 1920\nPlayResY: 1080")
+             .replace("Style: Base,Montserrat,82,", "Style: Base,Montserrat,62,").replace(",70,70,560,1", ",120,120,95,1")
+             .replace(",70,70,300,1", ",120,120,110,1").replace(",70,70,170,1", ",120,120,40,1")
+             .replace(",70,70,330,1", ",120,120,190,1").replace("6,0,1,2,1,2,70,70,110,1", "6,0,1,2,1,2,70,70,28,1"))
     ass.write_text(t, encoding="utf-8")
 
     musica = pasta / "musica.mp3"
