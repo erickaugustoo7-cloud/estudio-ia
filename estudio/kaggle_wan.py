@@ -209,7 +209,10 @@ CLIPE_PERGUNTA = """These are 3 frames (start, middle, end) of a short animated 
 Intended scene: "{cena}"
 Reject (ok=false) if ANY frame shows: a visible human face (front or profile) or a deformed/melted face or body,
 a person turning toward the camera, people or animals appearing that are not in the first frame, extra or melted limbs,
-modern objects (glass cups, bottles, electric lights), text or watermark, or heavy flicker/morphing between frames.
+ANY modern object anywhere in the frame (lamp posts, street lights, electric wires, paved or asphalt roads, phones,
+paper cards, glass cups, bottles, modern benches or tables, modern buildings or red tile roofs, cars),
+modern clothing (suits, jackets, jeans), crowds or lines of people not described in the scene,
+text or watermark, or heavy flicker/morphing between frames. Check corners and background carefully.
 Small dark silhouettes seen from behind are fine. Answer only JSON: {{"ok": true/false, "motivo": "curto, em português"}}"""
 
 
@@ -227,7 +230,7 @@ def _checar_clipe(clipe: Path, cena: str) -> dict:
         for k, frac in enumerate((0.1, 0.5, 0.92)):
             q = clipe.with_name(f"{clipe.stem}_q{k}.jpg")
             subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{d * frac:.2f}", "-i", str(clipe), "-frames:v", "1",
-                            "-vf", "scale=360:-1", "-q:v", "4", str(q)], check=True)
+                            "-vf", "scale=640:-1", "-q:v", "3", str(q)], check=True)
             partes.append({"inline_data": {"mime_type": "image/jpeg", "data": base64.b64encode(q.read_bytes()).decode()}})
         corpo = {"contents": [{"parts": partes + [{"text": CLIPE_PERGUNTA.format(cena=cena)}]}],
                  "generationConfig": {"responseMimeType": "application/json", "temperature": 0}}
@@ -237,7 +240,7 @@ def _checar_clipe(clipe: Path, cena: str) -> dict:
                 return json.loads(r.json()["candidates"][0]["content"]["parts"][0]["text"])
     except Exception as e:  # noqa: BLE001
         log("wan", f"checagem do clipe falhou ({e})")
-    return {"ok": True}
+    return {"ok": False, "motivo": "checagem indisponível — por segurança vira ilustração com movimento de câmera"}
 
 
 _SEM_GENTE = re.compile(r",?\s*\b(no people|nobody[^,.]*|no faces?|faces? (?:not|never) visible|no crowd|no extra people[^,.]*|"
@@ -355,8 +358,8 @@ def main():
         from estudio.agentes.revisor_visual import _avaliar
         chave = os.getenv("GEMINI_API_KEY")
         escolhidas, pendentes, prompts, motivos = {}, list(range(len(cenas_img))), {}, {}
-        reserva = {}
-        for rodada in (1, 2):  # 2ª rodada só para as cenas reprovadas, com prompt mais rígido
+        reserva = {}  # só imagens que ficaram SEM revisão (Gemini fora do ar), nunca as reprovadas
+        for rodada in (1, 2, 3):  # rodadas extras só para as cenas reprovadas, com o prompt corrigido pelo revisor
             if not pendentes:
                 break
             itens = []
@@ -366,7 +369,7 @@ def main():
                            "resolucao": "1344x768" if horiz else "768x1344",
                            "prompt": _prompt_imagem(base_p, estilo, cenas_img[i].get("vazia", True),
                                                     r.get("epoca_imagem", "Strictly first century objects of clay, stone, wood and cloth"))}
-                          for k in range(opcoes)]
+                          for k in range(opcoes if rodada == 1 else max(opcoes, 2))]
             saida_img, rel_img = _rodar_kaggle(itens, pasta, f"imagens{rodada}")
             log("wan", f"imagens (rodada {rodada}): {rel_img[:200]}")
             for i in list(pendentes):
@@ -376,11 +379,11 @@ def main():
                     jpg = pasta / f"cena_{i}_{x.stem.split('_')[-1]}.jpg"
                     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(x), "-q:v", "2", str(jpg)], check=True)
                     try:
-                        v = _avaliar(chave, canal_img, cenas_img[i], jpg) if chave else {"ok": True}
-                    except Exception as e:  # noqa: BLE001
-                        v = {"ok": True, "motivo": f"revisão indisponível ({e})"}
+                        v = _avaliar(chave, canal_img, cenas_img[i], jpg, rigoroso=True) if chave else {"ok": True}
+                    except Exception as e:  # noqa: BLE001 — sem revisão NÃO é aprovação
+                        v = {"ok": False, "motivo": f"revisão indisponível ({e})"}
+                        reserva.setdefault(i, jpg)
                     log("wan", f"cena {i + 1} {x.stem.split('_')[-1]}: {'ok' if v.get('ok') else 'reprovada'} {v.get('motivo', '')}")
-                    reserva.setdefault(i, jpg)
                     if v.get("ok"):
                         escolhidas[i] = jpg
                         pendentes.remove(i)
@@ -388,14 +391,20 @@ def main():
                     motivos[i] = v.get("motivo", "")
                     if v.get("novo_prompt"):
                         prompts[i] = f"{prefixo_img} {v['novo_prompt']}"
+        if not escolhidas:
+            raise SystemExit("nenhuma imagem passou na revisão — produção interrompida para não sair com erros")
         for i in range(len(cenas_img)):
             escolhida = escolhidas.get(i) or reserva.get(i)
-            if not escolhida:
-                raise SystemExit(f"o Kaggle não gerou imagem para a cena {i + 1}")
-            if i not in escolhidas:
-                avisos.append(f"Cena {i + 1}: nenhuma opção passou na revisão ({motivos.get(i, '')}) — confira antes de aprovar.")
+            if i not in escolhidas and escolhida:
+                avisos.append(f"Cena {i + 1}: imagem sem revisão (Gemini indisponível) — confira antes de aprovar.")
+            if not escolhida:  # reprovada em todas as rodadas: repete a cena aprovada mais próxima (com outro movimento)
+                j = min(escolhidas, key=lambda k: (abs(k - i), k > i))
+                escolhida = escolhidas[j]
+                cenas_img[i]["animar_bloqueado"] = True
+                avisos.append(f"Cena {i + 1}: nenhuma imagem passou ({motivos.get(i, '')}); usei a imagem da cena {j + 1}.")
+                log("wan", f"cena {i + 1}: reprovada em todas as rodadas → reaproveita a cena {j + 1}")
             img = pasta / f"cena_{i}.jpg"
-            escolhida.replace(img)
+            shutil.copy(escolhida, img)
             imgs.append(img)
     else:  # fontes antigas (Cloudflare/Pollinations) + revisão que refaz as ruins
         for i, c in enumerate(cenas_img):
@@ -413,7 +422,7 @@ def main():
         peq = pasta / f"cena_{i}_wan.jpg"  # manda a imagem já no tamanho do Wan (script menor)
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(img), "-vf", "scale=832:480" if horiz else "scale=480:832",
                         "-q:v", "5", str(peq)], check=True)  # pacote leve (o Kaggle recusa script grande); o Wan amplia
-        if not c.get("animar", True):
+        if not c.get("animar", True) or cenas_img[i].get("animar_bloqueado"):
             continue  # cena parada: ilustração com movimento de câmera (sem GPU)
         movimento = _movimento(img, c.get("prompt_movimento") or c["prompt_imagem"])
         cenas.append({"nome": f"clipe_{i}", "idx": i, "img": base64.b64encode(peq.read_bytes()).decode(), "seed": semente + i,

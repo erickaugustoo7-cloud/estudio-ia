@@ -34,31 +34,55 @@ A imagem serve para essa cena? Reprove somente se houver um problema claro:
 Responda só com JSON: {{"ok": true|false, "motivo": "curto", "novo_prompt": "prompt em inglês corrigido, se ok=false"}}"""
 
 
-def _miniatura(img: Path) -> str:
-    out = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", str(img), "-vf", "scale=432:-2",
+PERGUNTA_RIGOROSA = """Você é o controle de qualidade rigoroso de um filme bíblico cinematográfico. Canal: {canal}.
+Trecho narrado nesta cena: "{trecho}"
+Descrição pedida para a imagem: "{prompt}"
+Regras do canal: {regras}
+
+Examine a imagem inteira com atenção, incluindo cantos, fundo e horizonte, e responda a cada item:
+1. Há QUALQUER objeto moderno? Exemplos: poste de luz, luminária, fio elétrico, estrada asfaltada ou pavimentada,
+   cerca de arame, banco ou mesa de madeira moderna, celular, telefone, papel/cartão, garrafa, copo de vidro,
+   telhado vermelho de telha moderna, prédio, casa moderna, carro, roupa moderna (terno, jaqueta, calça jeans).
+2. Há rosto humano visível, ou pessoa grande/em primeiro plano como assunto (mãos são permitidas só se pedidas)?
+3. Há multidão, fila de pessoas ou gente que a descrição não pediu?
+4. A arquitetura e a paisagem são da época e do lugar bíblicos certos?
+5. Há corpo, mão ou objeto deformado, texto, letras ou marca d'água?
+6. A imagem representa o que a descrição pede (os elementos principais estão lá)?
+Se qualquer item 1–5 falhar, ou o 6 não for atendido, ok=false. Na dúvida, reprove.
+Responda só com JSON: {{"ok": true|false, "motivo": "curto, citando o item que falhou", "novo_prompt": "prompt em inglês corrigido e mais simples (sem mencionar pessoas que não devem aparecer), se ok=false"}}"""
+
+
+def _miniatura(img: Path, largura: int = 432) -> str:
+    out = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", str(img), "-vf", f"scale={largura}:-2",
                           "-q:v", "5", "-f", "mjpeg", "-"], capture_output=True, check=True).stdout
     return base64.b64encode(out).decode()
 
 
-def _avaliar(chave, canal, cena, img) -> dict:
-    texto = PERGUNTA.format(canal=canal["nome"], trecho=cena.get("trecho", ""),
+def _avaliar(chave, canal, cena, img, rigoroso=False) -> dict:
+    texto = (PERGUNTA_RIGOROSA if rigoroso else PERGUNTA).format(canal=canal["nome"], trecho=cena.get("trecho", ""),
                             prompt=cena.get("prompt_imagem", ""),
                             regras=canal.get("regra_visual_pessoas", "nenhuma"))
-    corpo = {"contents": [{"parts": [{"inline_data": {"mime_type": "image/jpeg", "data": _miniatura(img)}},
+    corpo = {"contents": [{"parts": [{"inline_data": {"mime_type": "image/jpeg", "data": _miniatura(img, 896 if rigoroso else 432)}},
                                      {"text": texto}]}],
              "generationConfig": {"responseMimeType": "application/json", "temperature": 0.1}}
     # o "lite" responde bem mais rápido e basta para checar tema/texto/deformações
     modelos = [MODELO or "gemini-flash-lite-latest", gemini_flash(), "gemini-flash-latest"]
+    if rigoroso:  # filmes: o modelo mais forte primeiro (o lite deixava passar poste, celular, terno)
+        modelos = [gemini_flash(), "gemini-flash-latest", "gemini-flash-lite-latest"]
     r = None
     for modelo in dict.fromkeys(modelos):  # tenta o mais novo; se estiver sobrecarregado, outro
         for espera in (0, 8):
             time.sleep(espera)
-            r = requests.post(f"{API}/models/{modelo}:generateContent", params={"key": chave}, json=corpo, timeout=40)
+            try:
+                r = requests.post(f"{API}/models/{modelo}:generateContent", params={"key": chave}, json=corpo,
+                                  timeout=90 if rigoroso else 40)
+            except requests.RequestException:
+                continue  # demorou: tenta de novo / outro modelo
             if r.ok:
                 return json.loads(r.json()["candidates"][0]["content"]["parts"][0]["text"])
             if r.status_code not in (429, 500, 503):
                 break
-    raise RuntimeError(f"HTTP {r.status_code}")
+    raise RuntimeError(f"HTTP {r.status_code}" if r is not None else "sem resposta do Gemini")
 
 
 def revisar(canal: dict, cenas: list[dict], imagens: list[Path]) -> list[str]:
