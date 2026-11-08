@@ -36,10 +36,22 @@ def telegram_video(video: Path, legenda_curta: str, texto_post: str) -> bool:
         log("publicador", "Telegram não configurado — pulando envio")
         return False
     tam_mb = video.stat().st_size / 1e6
-    if tam_mb > 49:  # limite da Bot API é 50 MB
-        log("publicador", f"vídeo com {tam_mb:.0f} MB — acima do limite do Telegram")
-        telegram_mensagem(f"{legenda_curta}\n⚠️ Vídeo com {tam_mb:.0f} MB, baixe pelo GitHub.")
-        return False
+    if tam_mb > 49:  # limite da Bot API é 50 MB: manda uma cópia comprimida (o original continua para publicar)
+        import subprocess
+        dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0",
+                                    str(video)], capture_output=True, text=True).stdout.strip() or 60)
+        kbps = max(800, int(44e6 * 8 / dur / 1000) - 160)
+        menor = video.with_name(video.stem + "_telegram.mp4")
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(video), "-c:v", "libx264", "-b:v", f"{kbps}k",
+                        "-maxrate", f"{kbps}k", "-bufsize", f"{2 * kbps}k", "-preset", "medium", "-c:a", "aac",
+                        "-b:a", "128k", "-movflags", "+faststart", str(menor)], check=False)
+        if menor.exists() and menor.stat().st_size / 1e6 <= 49:
+            log("publicador", f"vídeo com {tam_mb:.0f} MB — enviando cópia comprimida ({menor.stat().st_size / 1e6:.0f} MB)")
+            video = menor
+        else:
+            log("publicador", f"vídeo com {tam_mb:.0f} MB — acima do limite do Telegram")
+            telegram_mensagem(f"{legenda_curta}\n⚠️ Vídeo com {tam_mb:.0f} MB, baixe pelo GitHub.")
+            return False
     with open(video, "rb") as f:
         r = requests.post(
             f"https://api.telegram.org/bot{os.environ['TELEGRAM_BOT_TOKEN']}/sendVideo",

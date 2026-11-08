@@ -1,0 +1,41 @@
+name: Reenviar vídeo ao Telegram
+
+on:
+  workflow_dispatch:
+    inputs:
+      run_id:
+        description: "ID da execução que gerou o vídeo"
+        required: true
+      titulo:
+        description: "Título"
+        required: false
+        default: "Vídeo"
+
+permissions:
+  contents: read
+  issues: read
+  actions: read
+
+jobs:
+  reenviar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - uses: FedericoCarboni/setup-ffmpeg@v3
+        id: ff
+        continue-on-error: true
+      - if: steps.ff.outcome == 'failure'
+        run: sudo apt-get update -q && sudo apt-get install -y -q ffmpeg
+      - run: fc-list | grep -qi dejavu || (sudo apt-get update -qq && sudo apt-get install -y -qq fonts-dejavu-core)
+      - run: pip install -r requirements.txt
+      - run: gh run download ${{ inputs.run_id }} -n video-biblico-${{ inputs.run_id }} -D saida
+      - run: python -m estudio.reenviar_telegram "${{ inputs.titulo }}"
