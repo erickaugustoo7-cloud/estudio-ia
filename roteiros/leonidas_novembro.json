@@ -1,0 +1,66 @@
+{
+  "titulo": "Leônidas: a chuva de meteoros mais rápida do ano",
+  "gancho_tela": "Cem mil estrelas cadentes por hora",
+  "narracao": "Uma noite, o céu soltou mais de cem mil estrelas cadentes por hora. Foi em mil oitocentos e trinta e três, com as Leônidas. E elas voltam ao céu agora em novembro. Esses riscos de luz são poeira deixada pelo cometa Tempel-Tuttle, que dá uma volta no Sol a cada trinta e três anos. Todo novembro, a Terra atravessa esse rastro de poeira. E os grãos batem na atmosfera a cerca de setenta e um quilômetros por segundo. Nesse ritmo, daria para atravessar o Brasil de norte a sul em pouco mais de um minuto. É a chuva de meteoros anual mais rápida que existe. Antes de mil oitocentos e trinta e três, muita gente achava que estrelas cadentes eram fenômenos do próprio ar. Aquela tempestade ajudou a ciência a entender que elas vêm do espaço. Em mil novecentos e sessenta e seis, veio outra: cerca de quarenta meteoros por segundo. Este ano não há tempestade prevista, mas há espetáculo. O pico é nas madrugadas de dezessete e dezoito de novembro, com até quinze meteoros por hora num céu bem escuro. Do Brasil, olhe para o leste depois da meia-noite, até pouco antes do amanhecer. A Lua se põe por volta da meia-noite e não atrapalha. Você vai acordar de madrugada para ver? Siga para descobrir uma curiosidade nova todo dia.",
+  "cenas": [
+    {
+      "trecho": "Uma noite, o céu soltou mais de cem mil estrelas cadentes por hora.",
+      "busca_imagem": "Leonid meteor shower",
+      "prompt_imagem": "a sky full of hundreds of bright shooting stars streaking across a starry night, dramatic"
+    },
+    {
+      "trecho": "Foi em mil oitocentos e trinta e três, com as Leônidas. E elas voltam ao céu agora em novembro.",
+      "busca_imagem": "Leonid meteor",
+      "prompt_imagem": "a bright meteor streaking over a dark countryside landscape at night, milky stars"
+    },
+    {
+      "trecho": "Esses riscos de luz são poeira deixada pelo cometa Tempel-Tuttle, que dá uma volta no Sol a cada trinta e três anos.",
+      "busca_imagem": "comet tail dust",
+      "prompt_imagem": "a comet with a long glowing dust tail crossing deep space near the Sun"
+    },
+    {
+      "trecho": "Todo novembro, a Terra atravessa esse rastro de poeira. E os grãos batem na atmosfera a cerca de setenta e um quilômetros por segundo.",
+      "busca_imagem": "meteor atmosphere ISS",
+      "prompt_imagem": "a meteor burning up in Earth's atmosphere seen from orbit, glowing streak above the planet's limb"
+    },
+    {
+      "trecho": "Nesse ritmo, daria para atravessar o Brasil de norte a sul em pouco mais de um minuto. É a chuva de meteoros anual mais rápida que existe.",
+      "busca_imagem": "fireball meteor streak",
+      "prompt_imagem": "an extremely fast brilliant fireball meteor tearing across the night sky, long glowing trail"
+    },
+    {
+      "trecho": "Antes de mil oitocentos e trinta e três, muita gente achava que estrelas cadentes eram fenômenos do próprio ar. Aquela tempestade ajudou a ciência a entender que elas vêm do espaço.",
+      "busca_imagem": "meteor shower radiant",
+      "prompt_imagem": "many meteor trails radiating from a single point in a starry sky, long exposure"
+    },
+    {
+      "trecho": "Em mil novecentos e sessenta e seis, veio outra: cerca de quarenta meteoros por segundo. Este ano não há tempestade prevista, mas há espetáculo.",
+      "busca_imagem": "meteor storm night sky",
+      "prompt_imagem": "an intense meteor storm with dozens of streaks over a desert mountain at night"
+    },
+    {
+      "trecho": "O pico é nas madrugadas de dezessete e dezoito de novembro, com até quinze meteoros por hora num céu bem escuro.",
+      "busca_imagem": "Leo constellation meteors",
+      "prompt_imagem": "the constellation Leo in a dark starry sky with a few shooting stars"
+    },
+    {
+      "trecho": "Do Brasil, olhe para o leste depois da meia-noite, até pouco antes do amanhecer. A Lua se põe por volta da meia-noite e não atrapalha. Você vai acordar de madrugada para ver? Siga para descobrir uma curiosidade nova todo dia.",
+      "busca_imagem": "night sky shooting star",
+      "prompt_imagem": "a dark rural sky before dawn with a faint glow on the eastern horizon and a shooting star, no people"
+    }
+  ],
+  "legenda": "As Leônidas chegam a 71 km/s e têm pico nas madrugadas de 17 e 18 de novembro — do Brasil, olhe para o leste depois da meia-noite. ☄️\nVocê vai acordar para ver? Comenta aqui 👇",
+  "hashtags": [
+    "#Leônidas",
+    "#chuvademeteoros",
+    "#estrelacadente",
+    "#céudenovembro"
+  ],
+  "fontes": [
+    "NASA Science — Leonids (cometa 55P/Tempel-Tuttle, órbita de 33 anos, ~71 km/s, ativa de 6 a 30 nov 2026, tempestade de 1966 com milhares por minuto)",
+    "Wikipedia — Leonids (1833: mais de cem mil por hora; mudou o estudo dos meteoros, antes vistos como fenômeno atmosférico; 1966: mais de 40 por segundo; chuva anual mais rápida)",
+    "Space.com e Star Walk — Leônidas 2026 (pico 17–18 nov, ZHR 15, Lua em quarto crescente se pondo antes da madrugada, sem tempestade prevista)",
+    "AMS — 50 anos da tempestade de 1966 (até 40 meteoros por segundo)",
+    "Correio Braziliense (01/11/2026) — como ver do Brasil: depois da meia-noite até antes do amanhecer"
+  ]
+}

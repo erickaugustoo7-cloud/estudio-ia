@@ -1,4 +1,3 @@
 # Uma pauta por linha. O Diretor consome de cima para baixo.
 # Linhas começando com # são ignoradas. Fila vazia = o Diretor cria pautas sozinho.
 # Radar 04/11
-O céu de novembro: a chuva de meteoros Leônidas e como ver do Brasil (conferir datas do pico)
