@@ -1,0 +1,64 @@
+{
+  "titulo": "Jesus dormia, e o barco enchia de água",
+  "gancho_tela": "Ele estava no mesmo barco",
+  "estilo": "pintura",
+  "narracao": "Jesus estava dormindo. E o barco estava enchendo de água. Está em Marcos, capítulo quatro. Mas o que ele fez ao acordar mudou tudo. Era fim de tarde, e Jesus disse aos discípulos: vamos para o outro lado do lago. Vários deles eram pescadores. Então veio uma ventania forte. As ondas batiam no barco, e ele começou a se encher de água. E Jesus? Dormia na popa, com a cabeça num travesseiro. Os discípulos acordaram ele, desesperados: Mestre, não te importas se morrermos? Jesus se levantou. Repreendeu o vento e disse ao mar: Aquiete-se! Acalme-se! O vento parou. E tudo ficou calmo. Depois ele perguntou por que eles tinham tanto medo, e se ainda não tinham fé. E eles, cheios de temor, se perguntavam: quem é este, que até o vento e o mar lhe obedecem? Repare: Jesus não assistiu à tempestade de longe. Ele estava no mesmo barco. Talvez hoje o seu barco seja o trabalho, as contas, a família. Você não está sozinho nele. Jesus está no barco com você. Salve este vídeo para ouvir de novo quando precisar, e siga para receber uma palavra de fé todos os dias.",
+  "cenas": [
+    {
+      "trecho": "Jesus estava dormindo. E o barco estava enchendo de água.",
+      "busca_imagem": "boat storm lightning sea",
+      "prompt_imagem": "a small wooden fishing boat tossed by huge dark waves on a stormy lake at night, a bright bolt of lightning splitting the sky, water pouring over the side, a single warm lantern glowing inside the boat, strong contrast between golden lantern light and deep blue storm"
+    },
+    {
+      "trecho": "Está em Marcos, capítulo quatro. Mas o que ele fez ao acordar mudou tudo.",
+      "busca_imagem": "ancient scroll oil lamp",
+      "prompt_imagem": "an open ancient scroll on a wooden table lit by a small oil lamp, rain on a window behind it, warm golden light"
+    },
+    {
+      "trecho": "Era fim de tarde, e Jesus disse aos discípulos: vamos para o outro lado do lago. Vários deles eram pescadores.",
+      "busca_imagem": "sea of galilee boat sunset",
+      "prompt_imagem": "a group of robed men seen from behind pushing a wooden fishing boat into the calm Sea of Galilee at sunset, nets in the boat, other small boats nearby, golden evening light"
+    },
+    {
+      "trecho": "Então veio uma ventania forte. As ondas batiam no barco, e ele começou a se encher de água.",
+      "busca_imagem": "waves crashing wooden boat",
+      "prompt_imagem": "huge waves crashing over a small ancient wooden boat on a dark lake, robed men in silhouette bailing water and gripping the mast, wind tearing the sail, dramatic stormy sky"
+    },
+    {
+      "trecho": "E Jesus? Dormia na popa, com a cabeça num travesseiro.",
+      "busca_imagem": "man sleeping boat stern",
+      "prompt_imagem": "a robed man seen from behind lying asleep on a cushion at the stern of an ancient wooden boat, his face hidden in shadow, rain and spray around, a soft warm glow over him"
+    },
+    {
+      "trecho": "Os discípulos acordaram ele, desesperados: Mestre, não te importas se morrermos?",
+      "busca_imagem": "frightened men storm boat",
+      "prompt_imagem": "frightened fishermen in ancient robes seen from behind crouching toward the stern of a storm-tossed boat, reaching out to wake a sleeping man in shadow, lightning in the sky"
+    },
+    {
+      "trecho": "Jesus se levantou. Repreendeu o vento e disse ao mar: Aquiete-se! Acalme-se! O vento parou. E tudo ficou calmo.",
+      "busca_imagem": "calm sea after storm light",
+      "prompt_imagem": "a robed figure seen from behind standing in an ancient wooden boat with one arm raised toward the sea, dark storm clouds breaking open and golden light pouring onto suddenly calm water"
+    },
+    {
+      "trecho": "Depois ele perguntou por que eles tinham tanto medo, e se ainda não tinham fé. E eles, cheios de temor, se perguntavam: quem é este, que até o vento e o mar lhe obedecem?",
+      "busca_imagem": "men boat calm lake awe",
+      "prompt_imagem": "drenched fishermen in ancient robes in silhouette sitting in a boat on a perfectly still lake, looking toward a robed figure at the bow, mist rising, first stars and soft moonlight"
+    },
+    {
+      "trecho": "Repare: Jesus não assistiu à tempestade de longe. Ele estava no mesmo barco. Talvez hoje o seu barco seja o trabalho, as contas, a família. Você não está sozinho nele. Jesus está no barco com você. Salve este vídeo para ouvir de novo quando precisar, e siga para receber uma palavra de fé todos os dias.",
+      "busca_imagem": "boat calm water sunrise",
+      "prompt_imagem": "a small wooden boat resting on calm water at sunrise, two robed figures seen from behind sitting side by side in it, warm golden light breaking over the hills, peaceful and hopeful"
+    }
+  ],
+  "legenda": "Senhor, entra no meu barco e acalma a minha tempestade 🙏🌊\nMarcos 4:35-41\nComente \"Amém\" e salve para ouvir de novo quando a tempestade vier.",
+  "hashtags": [
+    "#tempestade",
+    "#ansiedade",
+    "#confieemDeus",
+    "#Evangelho"
+  ],
+  "fontes": [
+    "Marcos 4:35-41 (travessia ao entardecer, ventania, barco enchendo de água, Jesus dormindo na popa sobre um travesseiro, 'Mestre, não te importas se morrermos?', 'Aquiete-se! Acalme-se!', calma, 'por que vocês estão com tanto medo? Ainda não têm fé?', 'quem é este que até o vento e o mar lhe obedecem?')",
+    "Mateus 4:18-22 (discípulos pescadores)"
+  ]
+}

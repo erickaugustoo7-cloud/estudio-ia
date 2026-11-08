@@ -1,7 +1,6 @@
 # Uma pauta por linha. O Diretor consome de cima para baixo.
 # Linhas começando com # são ignoradas. Fila vazia = o Diretor cria pautas sozinho.
 # Foco atual: Jesus como personagem principal, em momentos de emoção nos Evangelhos.
-Jesus acalmou a tempestade enquanto os discípulos gritavam (Marcos 4:35-41)
 # Radar 04/11 — formato "oração guiada com Jesus" quando indicado (cena de Jesus + oração curta que a pessoa repete; CTA "escreva Amém")
 Jesus orou por você antes de você nascer (João 17:20-23)
 Se este vídeo chegou até você: Jesus parou no meio da multidão por uma só pessoa (Lucas 8:42-48)
