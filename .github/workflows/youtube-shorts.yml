@@ -1,0 +1,37 @@
+name: Shorts no YouTube
+
+on:
+  workflow_dispatch:
+    inputs:
+      issues:
+        description: "Issues dos vídeos já aprovados (ex.: 99,84,113)"
+        required: true
+      intervalo:
+        description: "Horas entre um Short e o próximo (0 = todos agora)"
+        default: "3"
+
+permissions:
+  issues: write
+  contents: read
+  actions: read
+
+jobs:
+  shorts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+      YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+      YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python -m estudio.youtube_shorts --issues "${{ inputs.issues }}" --intervalo "${{ inputs.intervalo }}"

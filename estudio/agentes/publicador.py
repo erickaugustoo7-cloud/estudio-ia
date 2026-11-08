@@ -226,7 +226,8 @@ def youtube_ativo() -> bool:
     return all(os.getenv(k) for k in ("YT_CLIENT_ID", "YT_CLIENT_SECRET", "YT_REFRESH_TOKEN"))
 
 
-def youtube_upload(video: Path, titulo: str, descricao: str, tags: list[str] | None = None) -> dict:
+def youtube_upload(video: Path, titulo: str, descricao: str, tags: list[str] | None = None,
+                   agendar: str | None = None) -> dict:
     """Envia o vídeo ao canal (OAuth com refresh token). Vertical e até 3 min = Short; acima disso, vídeo normal."""
     tok = requests.post("https://oauth2.googleapis.com/token", timeout=30, data={
         "client_id": os.environ["YT_CLIENT_ID"], "client_secret": os.environ["YT_CLIENT_SECRET"],
@@ -237,6 +238,10 @@ def youtube_upload(video: Path, titulo: str, descricao: str, tags: list[str] | N
                         "categoryId": "22", "defaultLanguage": "pt-BR", "defaultAudioLanguage": "pt-BR"},
             "status": {"privacyStatus": os.getenv("YT_PRIVACIDADE", "public"), "selfDeclaredMadeForKids": False,
                        "containsSyntheticMedia": True}}
+    desejado = meta["status"]["privacyStatus"]
+    if agendar:  # agendado: fica privado e o YouTube publica sozinho na hora marcada (ISO 8601, UTC)
+        meta["status"].update(privacyStatus="private", publishAt=agendar)
+        desejado = "private"
     ini = requests.post("https://www.googleapis.com/upload/youtube/v3/videos?uploadType=resumable&part=snippet,status",
                         headers={**auth, "X-Upload-Content-Type": "video/mp4",
                                  "X-Upload-Content-Length": str(video.stat().st_size)}, json=meta, timeout=60)
@@ -247,7 +252,7 @@ def youtube_upload(video: Path, titulo: str, descricao: str, tags: list[str] | N
     v = up.json()
     priv = v.get("status", {}).get("privacyStatus")
     url = f"https://youtu.be/{v['id']}"
-    if priv != os.getenv("YT_PRIVACIDADE", "public"):
+    if priv != desejado:
         return {"status": "failed", "publicUrl": url,
                 "errorMessage": f"o YouTube deixou o vídeo como '{priv}' (app ainda não auditado) — publique pelo Studio"}
     return {"status": "published", "publicUrl": url}
