@@ -15,10 +15,10 @@ on:
 permissions:
   contents: write
   issues: write
+  actions: write   # fila: consultar as outras execuções e se recolocar na fila
 
-concurrency:
-  group: kaggle-wan
-  cancel-in-progress: false
+# Sem "concurrency": o GitHub guarda só 1 execução pendente por grupo e cancelava as outras.
+# A fila é feita no primeiro passo (espera as execuções mais antigas terminarem).
 
 jobs:
   wan:
@@ -38,6 +38,23 @@ jobs:
       KAGGLE_MAQUINA: ${{ inputs.maquina }}
       WAN_LIMITE_MIN: "170"
     steps:
+      - name: Fila (uma produção por vez no Kaggle)
+        env:
+          GH_REPO: ${{ github.repository }}
+        run: |
+          inicio=$(date +%s)
+          while true; do
+            antes=$(gh api "repos/$GH_REPO/actions/workflows/kaggle-wan.yml/runs?per_page=30" \
+              --jq "[.workflow_runs[] | select(.id < ${{ github.run_id }} and (.status == \"in_progress\" or .status == \"queued\"))] | length")
+            [ "$antes" = "0" ] && break
+            if [ $(( $(date +%s) - inicio )) -gt 7200 ]; then
+              echo "esperando há 2 h — volto para o fim da fila"
+              gh api -X POST "repos/$GH_REPO/actions/workflows/kaggle-wan.yml/dispatches" -f ref=main \
+                -f "inputs[roteiro]=${{ inputs.roteiro }}" -f "inputs[maquina]=${{ inputs.maquina }}"
+              gh api -X POST "repos/$GH_REPO/actions/runs/${{ github.run_id }}/cancel"; sleep 120; exit 1
+            fi
+            echo "na fila: $antes produção(ões) antes desta"; sleep 120
+          done
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
