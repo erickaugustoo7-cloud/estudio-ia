@@ -283,7 +283,36 @@ def main():
         texto = " ".join(c["trecho"] for c in r["cenas"])
         canal_voz = {**canal, "gemini_tts": {**canal["gemini_tts"], "duracao_max": r.get("duracao_max", 20)}} \
             if canal.get("gemini_tts") else canal
-        mp3, palavras, dur = narrador.narrar(canal_voz, texto, pasta)
+        limite = int(r.get("palavras_por_bloco", 170))
+        if len(texto.split()) <= limite + 40:
+            mp3, palavras, dur = narrador.narrar(canal_voz, texto, pasta)
+        else:  # filme longo: a voz é gerada em blocos de cenas e emendada (cada pedido ao Gemini fica curto)
+            grupos, atual, n = [], [], 0
+            for c in r["cenas"]:
+                w = len(c["trecho"].split())
+                if atual and n + w > limite:
+                    grupos.append(atual)
+                    atual, n = [], 0
+                atual.append(c)
+                n += w
+            grupos.append(atual)
+            voz_bloco = {**canal_voz, "gemini_tts": {**canal_voz["gemini_tts"], "duracao_max": 999}} \
+                if canal_voz.get("gemini_tts") else canal_voz
+            partes, palavras, dur = [], [], 0.0
+            for k, g in enumerate(grupos):
+                sub = pasta / f"voz_{k:02d}"
+                sub.mkdir()
+                mp3k, palk, durk = narrador.narrar(voz_bloco, " ".join(c["trecho"] for c in g), sub)
+                palavras += [{**pw, "ini": pw["ini"] + dur, "fim": pw["fim"] + dur} for pw in palk]
+                partes.append(mp3k)
+                dur += durk
+                log("wan", f"voz bloco {k + 1}/{len(grupos)}: {durk:.1f}s")
+            lista_v = pasta / "voz_lista.txt"
+            lista_v.write_text("".join(f"file '{x.resolve()}'\n" for x in partes))
+            mp3 = pasta / "narracao.mp3"
+            subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", str(lista_v),
+                            "-c:a", "libmp3lame", "-q:a", "2", str(mp3)], check=True)
+            dur = _dur(mp3) or dur
         tempos = montador.tempos_das_cenas(r["cenas"], palavras, dur)
         tempos[-1] += 0.8  # respiro no fim
 
@@ -357,8 +386,10 @@ def main():
         peq = pasta / f"cena_{i}_wan.jpg"  # manda a imagem já no tamanho do Wan (script menor)
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(img), "-vf", "scale=480:832",
                         "-q:v", "5", str(peq)], check=True)  # pacote leve (o Kaggle recusa script grande); o Wan amplia
+        if not c.get("animar", True):
+            continue  # cena parada: ilustração com movimento de câmera (sem GPU)
         movimento = _movimento(img, c.get("prompt_movimento") or c["prompt_imagem"])
-        cenas.append({"img": base64.b64encode(peq.read_bytes()).decode(), "seed": semente + i,
+        cenas.append({"nome": f"clipe_{i}", "idx": i, "img": base64.b64encode(peq.read_bytes()).decode(), "seed": semente + i,
                       "quadros": _quadros(tempos[i] + 0.4), "resolucao": res_v,
                       "passos": int(r.get("passos_video", os.getenv("WAN_PASSOS", "4"))),
                       "prompt": f"{r.get('prefixo_video', 'Cinematic epic film shot, slow and subtle motion.')} {movimento}",
@@ -368,14 +399,17 @@ def main():
                                    "person entering, text, watermark, distorted body, flicker")})
 
     # 3) animação no Kaggle
-    saida_vid, resumo = _rodar_kaggle(cenas, pasta, "video")
-    clipes = sorted(saida_vid.rglob("clipe_*.mp4"), key=lambda c: int(c.stem.split("_")[1]))
-    if len(clipes) != len(cenas):
-        raise SystemExit(f"o Kaggle devolveu {len(clipes)} de {len(cenas)} clipes — veja o log acima")
+    por_idx = {c["idx"]: c for c in cenas}
+    clipes, resumo = {}, ""
+    if cenas:
+        saida_vid, resumo = _rodar_kaggle(cenas, pasta, "video")
+        clipes = {int(c.stem.split("_")[1]): c for c in saida_vid.rglob("clipe_*.mp4")}
+        if len(clipes) != len(cenas):
+            raise SystemExit(f"o Kaggle devolveu {len(clipes)} de {len(cenas)} clipes — veja o log acima")
 
     # 3b) controle de qualidade do movimento: clipes reprovados são refeitos uma vez com câmera parada e movimento mínimo
     ruins = {}
-    for i, cl in enumerate(clipes):
+    for i, cl in sorted(clipes.items()):
         v = _checar_clipe(cl, r["cenas"][i].get("prompt_imagem", ""))
         log("wan", f"clipe {i + 1}: {'ok' if v.get('ok') else 'reprovado'} {v.get('motivo', '')}")
         if not v.get("ok"):
@@ -383,7 +417,7 @@ def main():
     if ruins and os.getenv("WAN_REFAZER", "1") == "1":
         refazer = []
         for i in ruins:
-            c2 = {**cenas[i], "nome": f"clipe_{i}", "seed": cenas[i]["seed"] + 777,
+            c2 = {**por_idx[i], "nome": f"clipe_{i}", "seed": por_idx[i]["seed"] + 777,
                   "prompt": ("Cinematic epic film shot, static camera, almost still image, "
                              "only subtle flicker of the lamp light and a gentle breeze in cloth and leaves")}
             refazer.append(c2)
@@ -396,15 +430,27 @@ def main():
                 clipes[i] = novo
                 if v.get("ok"):
                     ruins.pop(i)
-    for i, motivo in ruins.items():
+    def _zoom(i: int, seg: float) -> Path:
+        """Ilustração com movimento de câmera suave (aproxima, afasta ou desliza), variando de cena para cena."""
         fixo = pasta / f"clipe_fixo_{i}.mp4"
-        seg = tempos[i] + 0.6
+        n = max(1, int(seg * 30))
+        mov = [("min(1+0.0010*on,1.15)", "iw/2-(iw/zoom/2)", "ih/2-(ih/zoom/2)"),
+               ("max(1.15-0.0010*on,1.0)", "iw/2-(iw/zoom/2)", "ih/2-(ih/zoom/2)"),
+               ("1.12", f"(iw-iw/zoom)*on/{n}", "ih/2-(ih/zoom/2)"),
+               ("1.12", f"(iw-iw/zoom)*(1-on/{n})", "ih/2-(ih/zoom/2)")][i % 4]
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-loop", "1", "-i", str(imgs[i]), "-vf",
-                        f"scale=1296:2304,zoompan=z='min(1+0.0009*on,1.12)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)'"
-                        f":d={int(seg * 30)}:s=1080x1920:fps=30", "-t", f"{seg:.2f}", "-c:v", "libx264", "-crf", "18",
+                        f"scale=1296:2304,zoompan=z='{mov[0]}':x='{mov[1]}':y='{mov[2]}'"
+                        f":d={n}:s=1080x1920:fps=30", "-t", f"{seg:.2f}", "-c:v", "libx264", "-crf", "18",
                         "-pix_fmt", "yuv420p", str(fixo)], check=True)
-        clipes[i] = fixo
+        return fixo
+
+    for i, motivo in ruins.items():
+        clipes[i] = _zoom(i, tempos[i] + 0.6)
         log("wan", f"clipe {i + 1}: substituído pela ilustração aprovada com zoom lento ({motivo})")
+    for i in range(len(r["cenas"])):
+        if i not in clipes:
+            clipes[i] = _zoom(i, tempos[i] + 0.6)
+    clipes = [clipes[i] for i in range(len(r["cenas"]))]
 
     # 4) montagem: cada clipe ajustado ao tempo da cena, transição suave, legenda, voz e música baixa
     X = 0.4
