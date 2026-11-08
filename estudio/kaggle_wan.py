@@ -346,7 +346,8 @@ def main():
             dur = _dur(mp3) or dur
         tempos = montador.tempos_das_cenas(r["cenas"], palavras, dur)
         tempos[-1] += 0.8  # respiro no fim
-        tempos[-1] += float(r.get("cauda_musical_min", 0)) * 60  # orações para dormir: só música no final
+    # orações para dormir: só música no final — feita à parte (imagem parada), não esticando a última cena
+    cauda = float(r.get("cauda_musical_min", 0) or 0) * 60
 
     # 2) ilustrações: Z-Image Turbo no Kaggle (2 opções por cena; o Gemini escolhe a que serve)
     semente = random.randint(1, 10**6)
@@ -514,7 +515,27 @@ def main():
         ant = f"[x{i}]"
     base = pasta / "base.mp4"
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *ent, "-filter_complex", ";".join(filtro) or "null",
-                    "-map", ant if filtro else "0:v", "-c:v", "libx264", "-crf", "18", "-preset", "veryfast", str(base)], check=True)
+                    "-map", ant if filtro else "0:v", "-c:v", "libx264", "-crf", "18", "-preset", "veryfast", "-video_track_timescale", "15360", str(base)], check=True)
+    if cauda > 0:  # final só com música: última ilustração parada, um pouco mais escura (codifica rápido)
+        escura, fim = pasta / "cauda.png", pasta / "cauda.mp4"
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(imgs[len(r["cenas"]) - 1]), "-vf",
+                        f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},eq=brightness=-0.12",
+                        str(escura)], check=True)
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-loop", "1", "-framerate", "30", "-i", str(escura),
+                        "-t", f"{cauda:.1f}", "-pix_fmt", "yuv420p", "-c:v", "libx264", "-tune", "stillimage",
+                        "-crf", "20", "-preset", "veryfast", "-video_track_timescale", "15360", str(fim)], check=True)
+        lista_c = pasta / "cauda_lista.txt"
+        lista_c.write_text(f"file '{base.resolve()}'\nfile '{fim.resolve()}'\n")
+        junto = pasta / "base_cauda.mp4"
+        juntar = ["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", str(lista_c)]
+        try:  # mesmo formato dos dois lados: junta sem recodificar
+            subprocess.run([*juntar, "-c", "copy", str(junto)], check=True)
+            assert abs(_dur(junto) - (_dur(base) + cauda)) < 3
+        except Exception:  # noqa: BLE001
+            subprocess.run([*juntar, "-c:v", "libx264", "-crf", "18", "-preset", "veryfast", "-pix_fmt", "yuv420p",
+                            "-r", "30", str(junto)], check=True)
+        junto.replace(base)
+        log("wan", f"cauda musical de {cauda / 60:.0f} min adicionada")
 
     ass = pasta / "legendas.ass"
     total = _dur(base)
@@ -563,7 +584,7 @@ def main():
     fontes = Path("assets/fontes").resolve()
     vf = f"subtitles={ass}:fontsdir={fontes}"
     cmd += ["-filter_complex", f"[0:v]{vf}[v];" + ";".join(audio), "-map", "[v]", "-map", "[a]", "-t", f"{total:.3f}",
-            "-c:v", "libx264", "-crf", "19", "-preset", "medium", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k",
+            "-c:v", "libx264", "-crf", "19", "-preset", "medium" if total < 600 else "veryfast", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k",
             "-movflags", "+faststart", str(video)]
     subprocess.run(cmd, check=True)
     montador.normalizar_volume(video)
