@@ -22,6 +22,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--issues", required=True)
     ap.add_argument("--intervalo", type=float, default=3, help="horas entre um Short e o próximo (0 = todos agora)")
+    ap.add_argument("--inicio", type=float, default=0, help="horas até o primeiro Short (0 = agora)")
     a = ap.parse_args()
     linhas, agora = [], datetime.now(timezone.utc)
     for k, n in enumerate(x.strip() for x in a.issues.split(",") if x.strip()):
@@ -38,14 +39,21 @@ def main():
         except subprocess.CalledProcessError as e:
             linhas.append(f"❌ #{n}: não consegui baixar o vídeo ({e.stderr[:120]})")
             continue
-        video = next(destino.rglob("video.mp4"))
+        # um artefato pode ter vários vídeos (lote de curtos): pega a pasta exata desta issue
+        video = next(destino.rglob(f"{dados['pasta']}/video.mp4"), None) if dados.get("pasta") else None
+        if not video:
+            achados = list(destino.rglob("video.mp4"))
+            if len(achados) != 1:
+                linhas.append(f"❌ #{n}: não achei o vídeo certo no artefato")
+                continue
+            video = achados[0]
         rot = video.parent / "roteiro.json"
         roteiro = json.loads(rot.read_text(encoding="utf-8")) if rot.exists() else {}
         titulo = (roteiro.get("titulo") or info["title"].split("] ", 1)[-1]).strip()
         titulo = f"{titulo} 🙏 #shorts"
         quando = None
-        if a.intervalo and k:
-            quando = (agora + timedelta(hours=a.intervalo * k)).strftime("%Y-%m-%dT%H:%M:%S.000Z")
+        if a.intervalo and (k or a.inicio):
+            quando = (agora + timedelta(hours=a.inicio + a.intervalo * k)).strftime("%Y-%m-%dT%H:%M:%S.000Z")
         try:
             r = publicador.youtube_upload(video, titulo, dados["texto_post"], roteiro.get("hashtags"), agendar=quando)
         except Exception as e:  # noqa: BLE001
