@@ -1,0 +1,29 @@
+name: teste-youtube
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  teste:
+    runs-on: ubuntu-latest
+    env:
+      YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+      YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+      YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+      YT_PRIVACIDADE: unlisted
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests pyyaml
+      - name: Vídeo de teste (5 s, não listado)
+        run: |
+          sudo apt-get -qq update >/dev/null && sudo apt-get -qq install -y ffmpeg >/dev/null
+          ffmpeg -loglevel error -f lavfi -i color=c=0x1b1a17:s=1280x720:d=5 -f lavfi -i anullsrc=r=48000:cl=stereo -t 5 \
+            -c:v libx264 -pix_fmt yuv420p -c:a aac -shortest teste.mp4
+          python - <<'PY'
+          from pathlib import Path
+          from estudio.agentes import publicador
+          r = publicador.youtube_upload(Path("teste.mp4"), "teste do publicador (pode apagar)", "Teste automático.", [])
+          print("RESULTADO:", r)
+          PY
