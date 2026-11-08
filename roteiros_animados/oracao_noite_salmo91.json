@@ -1,0 +1,187 @@
+{
+ "titulo": "Oração da noite: Salmo 91",
+ "titulo_youtube": "ORAÇÃO DA NOITE | Salmo 91 para Dormir em Paz e Protegido",
+ "gancho_tela": "Durma protegido",
+ "referencia": "Salmos 91",
+ "formato": "horizontal",
+ "duracao_max": 999,
+ "volume_musica": 0.22,
+ "opcoes_imagem": 1,
+ "palavras_por_bloco": 260,
+ "cauda_musical_min": 20,
+ "plataformas": [
+  "youtube"
+ ],
+ "cena_capa": 5,
+ "texto_capa": [
+  "SALMO 91",
+  "DURMA EM PAZ"
+ ],
+ "estilo_imagem": "cinematic photorealistic still, peaceful night atmosphere, soft moonlight, gentle glow, deep blue and warm gold tones, calm and serene, horizontal 16:9 widescreen",
+ "prefixo_imagem": "cinematic photorealistic peaceful still:",
+ "prefixo_video": "Cinematic peaceful night shot, very slow and gentle motion.",
+ "epoca_imagem": "Ancient Israel landscape, stone, clay, wood, wool and linen only, nothing modern, no electric lights",
+ "cenas": [
+  {
+   "trecho": "Antes de dormir, respire fundo. Solte os ombros, descanse as mãos. Este é o seu momento com Deus. Deixe o dia ficar para trás e venha comigo nesta oração, com as palavras do Salmo noventa e um, o salmo da proteção.",
+   "prompt_imagem": "a vast starry night sky over quiet dark hills, the Milky Way glowing softly, deep blue tones",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "O salmista começa com uma promessa: aquele que habita no abrigo do Altíssimo descansa à sombra do Todo-poderoso. Senhor, esta noite eu quero morar nesse abrigo. Não só visitar você quando estou com medo, mas permanecer debaixo da sua sombra, como quem volta para casa.",
+   "prompt_imagem": "an ancient stone house on a hill at night with one small window glowing with warm oil lamp light, stars above",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Pai, você conhece o meu dia inteiro. Sabe o que eu carreguei, o que eu falei e o que eu calei. Sabe das preocupações que vieram comigo até esta cama. Eu entrego cada uma delas nas suas mãos agora, uma por uma, porque as suas mãos são maiores que as minhas.",
+   "prompt_imagem": "a single clay oil lamp burning on a wooden table in a dark quiet room, warm soft glow",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Eu digo ao Senhor: tu és o meu refúgio e a minha fortaleza, o meu Deus, em quem confio. Não confio na minha força, nem no dinheiro, nem nas pessoas. Confio em você. Quando tudo à minha volta parece incerto, você continua firme como uma rocha.",
+   "prompt_imagem": "a massive ancient stone fortress on a rocky cliff under a starry sky, moonlight on the walls",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "O salmo diz que Deus nos livra do laço do caçador e da peste mortal. Senhor, livra a minha casa de todo mal. Livra a minha família das armadilhas que a gente nem enxerga. Guarda a nossa saúde, guarda as nossas saídas e as nossas chegadas.",
+   "prompt_imagem": "a quiet village of flat-roofed stone houses at night under the stars, a few warm windows glowing far away",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Ele te cobrirá com as suas penas, e debaixo das suas asas você encontrará refúgio. Que imagem linda, Pai. Como uma ave protege os filhotes no ninho, você me cobre esta noite. Eu me escondo debaixo das suas asas e descanso.",
+   "prompt_imagem": "large soft white feathers glowing gently in silver moonlight against a dark background, dreamy",
+   "vazia": true,
+   "animar": true,
+   "prompt_movimento": "the feathers drift very slowly in the air, soft glow, very slow camera push-in"
+  },
+  {
+   "trecho": "A sua fidelidade é escudo e muralha. Mesmo quando eu falho, você continua fiel. Mesmo quando eu esqueço de orar, você não se esquece de mim. Obrigado, Senhor, porque a sua fidelidade não depende da minha perfeição, mas do seu amor.",
+   "prompt_imagem": "an ancient bronze round shield leaning against a stone wall in warm lamplight, quiet night",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Você não temerá o pavor da noite, nem a flecha que voa de dia. Senhor, eu entrego a você os medos que aparecem quando a luz se apaga. A ansiedade, os pensamentos que não param, o coração acelerado. Acalma tudo dentro de mim.",
+   "prompt_imagem": "a calm still lake at night reflecting the full moon and the stars, mist on the water",
+   "vazia": true,
+   "animar": true,
+   "prompt_movimento": "mist drifts slowly over the still water, the moon reflection shimmers gently"
+  },
+  {
+   "trecho": "Nem a peste que anda na escuridão, nem a praga que destrói ao meio-dia. Eu declaro que a minha vida está guardada em você. Nenhum mal tem a última palavra sobre quem pertence a você. A última palavra é sempre sua.",
+   "prompt_imagem": "a dark olive grove under a starry sky, ancient twisted olive trees, silver moonlight between the branches",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Mil poderão cair ao seu lado, dez mil à sua direita, mas nada o atingirá. Pai, não é que nada difícil vai acontecer. É que, no meio de tudo, eu estou nas suas mãos. E nas suas mãos eu estou seguro.",
+   "prompt_imagem": "a lone ancient stone watchtower standing in a vast moonlit valley, stars above, deep calm",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Se você fizer do Altíssimo o seu abrigo, nenhum mal o atingirá, desgraça nenhuma chegará à sua tenda. Senhor, esta casa é sua. Este quarto é seu. Esta cama, este descanso, este sono, tudo eu consagro a você esta noite.",
+   "prompt_imagem": "a goat-hair tent glowing softly from inside with warm lamp light, in a quiet field under the stars",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Porque a seu respeito ele dará ordens aos seus anjos, para que o protejam em todos os seus caminhos. Obrigado, Pai, porque eu não durmo sozinho. Os seus anjos acampam ao redor dos que te temem. A minha casa está cercada pela sua proteção.",
+   "prompt_imagem": "a soft column of golden light descending from the starry sky onto a quiet hillside at night",
+   "vazia": true,
+   "animar": true,
+   "prompt_movimento": "the light glows and pulses very softly, stars twinkle, very slow camera tilt down"
+  },
+  {
+   "trecho": "Com as mãos eles o segurarão, para que você não tropece em alguma pedra. Senhor, segura os meus passos de amanhã. Onde eu ia tropeçar, me sustenta. Onde eu ia errar, me corrige com carinho. Onde eu ia desistir, me levanta.",
+   "prompt_imagem": "an old stone path winding through quiet hills under the moonlight, smooth worn stones",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Você pisará o leão e a cobra. Pai, eu entrego a você as batalhas que parecem grandes demais para mim. As dívidas, os conflitos, as doenças, as portas fechadas. Você já venceu. E eu descanso na sua vitória.",
+   "prompt_imagem": "a quiet desert landscape at night with large rocks and stars, a crescent moon low on the horizon",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Agora o próprio Deus fala no salmo: porque ele me ama, eu o resgatarei. Escuta isso: o Senhor diz que me ama. Não pelo que eu faço, mas porque eu me agarro a ele. Esta noite, eu me agarro a você, Pai.",
+   "prompt_imagem": "a warm sunrise glow beginning on the horizon behind dark hills, a few stars still visible above",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Eu o protegerei, pois conhece o meu nome. Senhor, eu conheço o seu nome. Você é o Pai que me criou, o Filho que me salvou, o Espírito que me consola. Em nome de Jesus, eu me deito em paz.",
+   "prompt_imagem": "an ancient stone altar with a small steady flame on a hilltop under the stars, peaceful",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Ele clamará a mim, e eu lhe darei resposta. Pai, tem orações minhas que ainda esperam resposta. Eu não desisto delas. Eu confio no seu tempo. Você ouve cada uma, mesmo as que eu só consegui chorar.",
+   "prompt_imagem": "a clay jar of water beside a small burning oil lamp on a stone windowsill, starry night outside",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Na angústia, estarei com ele. Não diz que a angústia nunca virá. Diz que você estará comigo dentro dela. Então, se amanhã for difícil, eu já sei: não vou atravessar sozinho. Você vai na frente, você vai do lado.",
+   "prompt_imagem": "a narrow river valley at night with a gentle stream flowing between rocks, moonlight on the water",
+   "vazia": true,
+   "animar": true,
+   "prompt_movimento": "the stream flows gently, moonlight sparkles on the water, slow camera glide along the river"
+  },
+  {
+   "trecho": "Eu o livrarei e o cobrirei de honra. Senhor, cura as minhas feridas de hoje. As palavras que me machucaram, as injustiças, as frustrações. Que eu acorde sem mágoa, com o coração leve, pronto para amar de novo.",
+   "prompt_imagem": "a field of white wildflowers under the moonlight swaying softly, stars above",
+   "vazia": true,
+   "animar": true,
+   "prompt_movimento": "the flowers sway gently in a soft night breeze, very slow camera pan"
+  },
+  {
+   "trecho": "Pai, eu também peço perdão. Pelo que eu falei sem pensar, pelo que eu deixei de fazer, pela fé que vacilou. Lava o meu coração. E me dá a graça de perdoar quem me feriu, para que eu durma livre.",
+   "prompt_imagem": "a quiet spring of clear water flowing into a stone basin at night, moonlight reflecting",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Eu entrego a você as pessoas que eu amo. Cada nome que vem ao meu coração agora. Cuida delas onde estiverem. Guarda o sono das crianças, a saúde dos mais velhos, o caminho de quem está longe.",
+   "prompt_imagem": "a peaceful sleeping village in a valley at night seen from far above, tiny warm windows and stars",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Com vida longa eu o satisfarei e lhe mostrarei a minha salvação. Obrigado, Senhor, pela vida que você me deu e pela salvação que eu recebi em Jesus. Amanhã é um novo dia, e as suas misericórdias se renovam a cada manhã.",
+   "prompt_imagem": "dark hills under a deep blue night sky with the first faint glow of dawn on the horizon",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Agora eu fecho os olhos. Eu entrego o meu corpo cansado, a minha mente agitada, o meu coração. Senhor, que o seu Espírito me envolva como um cobertor de paz. Que eu durma profundamente e acorde renovado.",
+   "prompt_imagem": "a woolen blanket folded on a simple wooden bed beside a softly glowing clay lamp, quiet night",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Em paz eu me deito e logo adormeço, pois só tu, Senhor, me fazes viver em segurança. Amém. Fique aqui um pouco mais, em silêncio. Deixe a música te levar ao descanso. Deus está cuidando de você.",
+   "prompt_imagem": "a vast peaceful starry night over a still lake and dark hills, soft deep blue tones",
+   "vazia": true,
+   "animar": true,
+   "prompt_movimento": "stars twinkle softly, mist drifts over the lake, very slow camera push-in"
+  }
+ ],
+ "legenda": "Ore comigo antes de dormir com as promessas do Salmo 91: Deus é o seu abrigo, a sua fortaleza, e cobre você debaixo das suas asas.\n\nDepois da oração, a música continua por 20 minutos para você adormecer em paz.\n\nEscreva \"Amém\" nos comentários e o nome de quem você quer entregar a Deus esta noite.",
+ "hashtags": [
+  "#Salmo91",
+  "#OraçãoDaNoite",
+  "#OraçãoParaDormir",
+  "#Oração",
+  "#Fé"
+ ],
+ "fontes": [
+  "Salmos 91; Salmos 4:8; Lamentações 3:22-23"
+ ]
+}
