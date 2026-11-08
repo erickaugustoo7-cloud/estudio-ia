@@ -7,7 +7,7 @@
   "titulo": "Elias e o fogo do céu",
   "gancho_tela": "O Deus que responde com fogo",
   "referencia": "1 Reis 18:38",
-  "epoca_imagem": "Ancient Israel, 9th century BC, rough stone, clay, wood and wool only, nothing modern",
+  "epoca_imagem": "Ancient Israel, 9th century BC, wild landscape without roads, rough stone, clay, wood and wool only, nothing modern, no lamp posts",
   "cenas": [
     {
       "trecho": "Já fazia três anos sem chuva em Israel, e muitos seguiam o deus Baal.",
@@ -17,7 +17,7 @@
     },
     {
       "trecho": "No monte Carmelo, Elias desafiou quatrocentos e cinquenta profetas de Baal.",
-      "prompt_imagem": "wide aerial view of the rocky summit of Mount Carmel at noon above the sea, a huge tiny distant crowd gathered on the slopes",
+      "prompt_imagem": "wide aerial view of the wild rocky summit of Mount Carmel at noon above the sea, only boulders and dry bushes, a huge tiny distant crowd gathered on the slopes",
       "prompt_movimento": "clouds drift slowly over the summit, the sea glitters far below, slow aerial camera descent",
       "vazia": false
     },
@@ -35,7 +35,7 @@
     },
     {
       "trecho": "Os profetas de Baal gritaram o dia inteiro. E ninguém respondeu.",
-      "prompt_imagem": "a pagan stone altar with cold wood on a mountaintop at sunset, tiny distant figures around it, long shadows",
+      "prompt_imagem": "a rough pagan stone altar with cold wood on a wild rocky mountaintop at sunset, bare rock and dry grass all around, tiny distant figures far away, long shadows",
       "prompt_movimento": "the sun sinks slowly, long shadows stretch across the rocks, dust drifts, slow camera pull-back",
       "vazia": false
     },
@@ -47,7 +47,7 @@
     },
     {
       "trecho": "E orou: Responde-me, ó Senhor, responde-me!",
-      "prompt_imagem": "a wet stone altar on a mountaintop under dark heavy storm clouds, a tiny distant man with arms raised beside it",
+      "prompt_imagem": "very wide shot from far away of a wet stone altar on a bare rocky mountaintop under dark heavy storm clouds, a tiny distant man with arms raised beside it, empty foreground of bare rock",
       "prompt_movimento": "storm clouds swirl slowly overhead, a faint glow grows in the clouds, static camera",
       "vazia": false
     },
