@@ -61,7 +61,13 @@ def main():
     video = next(destino.rglob(f"{dados['pasta']}/video.mp4"), None) or next(destino.rglob("video.mp4"))
     fb_ant = next((m.group(1) for c in info.get("comments", [])
                    for m in [re.search(r"facebook\.com/reel/(\d+)", c.get("body", ""))] if m), None)
-    res = publicador.publicar(canal, video, dados["texto_post"], fb_video_id=fb_ant)
+    rot = video.parent / "roteiro.json"
+    roteiro = json.loads(rot.read_text(encoding="utf-8")) if rot.exists() else {}
+    if roteiro.get("plataformas"):  # ex.: filme longo vai só para o YouTube
+        canal = {**canal, "publicar_em": [p for p in canal["publicar_em"] if p in roteiro["plataformas"]]}
+        log("publicar", f"plataformas do vídeo: {', '.join(canal['publicar_em'])}")
+    res = publicador.publicar(canal, video, dados["texto_post"], fb_video_id=fb_ant,
+                              titulo=roteiro.get("titulo_youtube") or roteiro.get("titulo", ""), tags=roteiro.get("hashtags"))
 
     linhas = ["## 📤 Resultado da publicação"]
     sucesso = True

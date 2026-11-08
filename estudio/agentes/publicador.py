@@ -221,7 +221,57 @@ def _compativel(video: Path) -> Path:
         return video
 
 
-def publicar(canal: dict, video: Path, texto: str, pular: set = frozenset(), fb_video_id: str | None = None) -> dict:
+# ---------------- YouTube ----------------
+def youtube_ativo() -> bool:
+    return all(os.getenv(k) for k in ("YT_CLIENT_ID", "YT_CLIENT_SECRET", "YT_REFRESH_TOKEN"))
+
+
+def youtube_upload(video: Path, titulo: str, descricao: str, tags: list[str] | None = None) -> dict:
+    """Envia o vídeo ao canal (OAuth com refresh token). Vertical e até 3 min = Short; acima disso, vídeo normal."""
+    tok = requests.post("https://oauth2.googleapis.com/token", timeout=30, data={
+        "client_id": os.environ["YT_CLIENT_ID"], "client_secret": os.environ["YT_CLIENT_SECRET"],
+        "refresh_token": os.environ["YT_REFRESH_TOKEN"], "grant_type": "refresh_token"})
+    tok.raise_for_status()
+    auth = {"Authorization": f"Bearer {tok.json()['access_token']}"}
+    meta = {"snippet": {"title": titulo[:100], "description": descricao[:4900], "tags": [t.lstrip("#") for t in (tags or [])][:15],
+                        "categoryId": "22", "defaultLanguage": "pt-BR", "defaultAudioLanguage": "pt-BR"},
+            "status": {"privacyStatus": os.getenv("YT_PRIVACIDADE", "public"), "selfDeclaredMadeForKids": False,
+                       "containsSyntheticMedia": True}}
+    ini = requests.post("https://www.googleapis.com/upload/youtube/v3/videos?uploadType=resumable&part=snippet,status",
+                        headers={**auth, "X-Upload-Content-Type": "video/mp4",
+                                 "X-Upload-Content-Length": str(video.stat().st_size)}, json=meta, timeout=60)
+    ini.raise_for_status()
+    with open(video, "rb") as f:
+        up = requests.put(ini.headers["Location"], headers={**auth, "Content-Type": "video/mp4"}, data=f, timeout=1800)
+    up.raise_for_status()
+    v = up.json()
+    priv = v.get("status", {}).get("privacyStatus")
+    url = f"https://youtu.be/{v['id']}"
+    if priv != os.getenv("YT_PRIVACIDADE", "public"):
+        return {"status": "failed", "publicUrl": url,
+                "errorMessage": f"o YouTube deixou o vídeo como '{priv}' (app ainda não auditado) — publique pelo Studio"}
+    return {"status": "published", "publicUrl": url}
+
+
+def publicar(canal: dict, video: Path, texto: str, pular: set = frozenset(), fb_video_id: str | None = None,
+             titulo: str = "", tags: list[str] | None = None) -> dict:
+    resultados_yt = {}
+    if "youtube" in canal["publicar_em"] and "youtube" not in pular:
+        if youtube_ativo():
+            try:
+                resultados_yt["youtube"] = youtube_upload(video, titulo or texto.splitlines()[0], texto, tags)
+            except requests.HTTPError as e:
+                resultados_yt["youtube"] = {"status": "failed", "errorMessage": f"{e} — {e.response.text[:300]}"}
+            log("publicador", f"youtube: {resultados_yt['youtube']['status']}")
+        else:
+            log("publicador", "youtube: segredos YT_* não configurados — pulando")
+        canal = {**canal, "publicar_em": [x for x in canal["publicar_em"] if x != "youtube"]}
+    if not canal["publicar_em"]:
+        return resultados_yt
+    return {**_publicar_meta(canal, video, texto, pular, fb_video_id), **resultados_yt}
+
+
+def _publicar_meta(canal: dict, video: Path, texto: str, pular: set = frozenset(), fb_video_id: str | None = None) -> dict:
     video = _compativel(video)
     meta = os.getenv(canal.get("secret_token_meta", "") or "_")
     if meta:  # chave da Página: Instagram + Facebook com a mesma chave

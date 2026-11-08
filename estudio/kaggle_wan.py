@@ -481,7 +481,9 @@ def main():
                         "-vf", "scale=540:-1", str(pasta / f"previa_{i}.jpg")], check=False)
         t0 += d
     roteiro = {"titulo": r["titulo"], "narracao": " ".join(c.get("trecho", "") for c in r["cenas"]),
-               "legenda": r.get("legenda", r["titulo"]), "hashtags": r.get("hashtags", []), "fontes": r.get("fontes", [])}
+               "legenda": r.get("legenda", r["titulo"]), "hashtags": r.get("hashtags", []), "fontes": r.get("fontes", []),
+               "titulo_youtube": r.get("titulo_youtube"),
+               "plataformas": r.get("plataformas") or (["youtube"] if total > 180 else None)}  # filme longo: só YouTube
     (pasta / "roteiro.json").write_text(json.dumps(roteiro, ensure_ascii=False, indent=2), encoding="utf-8")
     texto_post = montar_texto_post(canal, roteiro)
     (pasta / "post.txt").write_text(texto_post, encoding="utf-8")

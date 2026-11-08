@@ -181,7 +181,8 @@ def produzir_curto(caminho: Path, sem_envio: bool, sem_issue: bool) -> None:
 
     ref = r.get("referencia") or "mensagem motivacional (texto próprio)"
     roteiro = {"titulo": r["titulo"], "narracao": f"(sem narração) {r['versiculo']} — {ref}",
-               "legenda": r["legenda"], "hashtags": r.get("hashtags", []), "fontes": [ref]}
+               "legenda": r["legenda"], "hashtags": r.get("hashtags", []), "fontes": [ref],
+               "plataformas": r.get("plataformas", ["instagram", "facebook"])}  # versículo+imagem: fora do YouTube (risco)
     (pasta / "roteiro.json").write_text(json.dumps(roteiro, ensure_ascii=False, indent=2), encoding="utf-8")
     texto_post = montar_texto_post(canal, roteiro)
     (pasta / "post.txt").write_text(texto_post, encoding="utf-8")

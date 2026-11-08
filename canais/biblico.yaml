@@ -80,6 +80,6 @@ musica_volume: 0.3          # trilha ~16 dB abaixo da voz (faixas normalizadas a
 
 # ---------- Publicação ----------
 # Instagram + Página do Facebook com a chave da Página (META_TOKEN_BIBLICO). TikTok: manual.
-publicar_em: [instagram, facebook]
+publicar_em: [instagram, facebook, youtube]   # youtube só publica com os segredos YT_* configurados
 secret_token_meta: META_TOKEN_BIBLICO
 secret_token_instagram: IG_TOKEN_BIBLICO   # reserva (chave antiga só do Instagram)

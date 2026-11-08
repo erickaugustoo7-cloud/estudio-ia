@@ -24,6 +24,9 @@ jobs:
       IG_TOKEN_BIBLICO: ${{ secrets.IG_TOKEN_BIBLICO }}
       IG_TOKEN_ESPACO: ${{ secrets.IG_TOKEN_ESPACO }}
       META_TOKEN_BIBLICO: ${{ secrets.META_TOKEN_BIBLICO }}
+      YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+      YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+      YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
       IG_MAXRATE: ${{ vars.IG_MAXRATE || '2500k' }}
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
