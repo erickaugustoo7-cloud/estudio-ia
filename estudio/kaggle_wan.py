@@ -237,7 +237,10 @@ def _checar_clipe(clipe: Path, cena: str) -> dict:
         for modelo in dict.fromkeys([gemini_flash(), "gemini-flash-latest", "gemini-flash-lite-latest"]):
             r = requests.post(f"{API}/models/{modelo}:generateContent", params={"key": chave}, json=corpo, timeout=60)
             if r.ok:
-                return json.loads(r.json()["candidates"][0]["content"]["parts"][0]["text"])
+                v = json.loads(r.json()["candidates"][0]["content"]["parts"][0]["text"])
+                if isinstance(v, list):
+                    v = next((x for x in v if isinstance(x, dict)), {"ok": False})
+                return v
     except Exception as e:  # noqa: BLE001
         log("wan", f"checagem do clipe falhou ({e})")
     return {"ok": False, "motivo": "checagem indisponível — por segurança vira ilustração com movimento de câmera"}
@@ -276,7 +279,8 @@ def main():
     caminho = Path(sys.argv[1])
     r = json.loads(caminho.read_text(encoding="utf-8"))
     canal = carregar_canal("biblico")
-    canal_img = {**canal, "estilo_visual": r.get("estilo_imagem", ESTILO), "regra_visual_pessoas": REGRA}
+    canal_img = {**canal, "estilo_visual": r.get("estilo_imagem", ESTILO), "regra_visual_pessoas": REGRA,
+                 "epoca_imagem": r.get("epoca_imagem", "")}
     pasta = SAIDA / f"wan_{caminho.stem}_{datetime.now():%Y%m%d_%H%M%S}"
     pasta.mkdir(parents=True)
     narrado = all(c.get("trecho") for c in r["cenas"]) and not r.get("sem_narracao")
@@ -369,6 +373,7 @@ def main():
                 itens += [{"tipo": "imagem", "nome": f"img_{i}_r{rodada}{k}", "seed": semente + 100 * i + 10 * rodada + k,
                            "resolucao": "1344x768" if horiz else "768x1344",
                            "prompt": _prompt_imagem(base_p, estilo, cenas_img[i].get("vazia", True),
+                                                    cenas_img[i].get("epoca_imagem") or
                                                     r.get("epoca_imagem", "Strictly first century objects of clay, stone, wood and cloth"))}
                           for k in range(opcoes if rodada == 1 else max(opcoes, 2))]
             saida_img, rel_img = _rodar_kaggle(itens, pasta, f"imagens{rodada}")

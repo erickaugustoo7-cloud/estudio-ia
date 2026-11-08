@@ -37,6 +37,7 @@ Responda só com JSON: {{"ok": true|false, "motivo": "curto", "novo_prompt": "pr
 PERGUNTA_RIGOROSA = """Você é o controle de qualidade rigoroso de um filme bíblico cinematográfico. Canal: {canal}.
 Trecho narrado nesta cena: "{trecho}"
 Descrição pedida para a imagem: "{prompt}"
+Época e lugar desta cena: {epoca}
 Regras do canal: {regras}
 
 Examine a imagem inteira com atenção, incluindo cantos, fundo e horizonte, e responda a cada item:
@@ -45,10 +46,13 @@ Examine a imagem inteira com atenção, incluindo cantos, fundo e horizonte, e r
    telhado vermelho de telha moderna, prédio, casa moderna, carro, roupa moderna (terno, jaqueta, calça jeans).
 2. Há rosto humano visível, ou pessoa grande/em primeiro plano como assunto (mãos são permitidas só se pedidas)?
 3. Há multidão, fila de pessoas ou gente que a descrição não pediu?
-4. A arquitetura e a paisagem são da época e do lugar bíblicos certos?
+4. A arquitetura e a paisagem combinam com a época e o lugar DESTA cena (indicados acima)?
+   Ex.: colunas egípcias numa cena no Egito estão certas; num acampamento de pastores em Canaã, não.
 5. Há corpo, mão ou objeto deformado, texto, letras ou marca d'água?
 6. A imagem representa o que a descrição pede (os elementos principais estão lá)?
-Se qualquer item 1–5 falhar, ou o 6 não for atendido, ok=false. Na dúvida, reprove.
+Itens 1, 2, 3 e 5: na dúvida, reprove. Estátuas com rosto também contam como rosto.
+Itens 4 e 6: reprove só se estiver claramente errado (cultura ou época trocada, elemento principal ausente).
+Não exija nada além da descrição: a imagem não precisa contar a história inteira do trecho.
 Responda só com JSON: {{"ok": true|false, "motivo": "curto, citando o item que falhou", "novo_prompt": "prompt em inglês corrigido e mais simples (sem mencionar pessoas que não devem aparecer), se ok=false"}}"""
 
 
@@ -60,6 +64,7 @@ def _miniatura(img: Path, largura: int = 432) -> str:
 
 def _avaliar(chave, canal, cena, img, rigoroso=False) -> dict:
     texto = (PERGUNTA_RIGOROSA if rigoroso else PERGUNTA).format(canal=canal["nome"], trecho=cena.get("trecho", ""),
+                            epoca=cena.get("epoca_imagem") or canal.get("epoca_imagem", "a da narração"),
                             prompt=cena.get("prompt_imagem", ""),
                             regras=canal.get("regra_visual_pessoas", "nenhuma"))
     corpo = {"contents": [{"parts": [{"inline_data": {"mime_type": "image/jpeg", "data": _miniatura(img, 896 if rigoroso else 432)}},
@@ -79,7 +84,10 @@ def _avaliar(chave, canal, cena, img, rigoroso=False) -> dict:
             except requests.RequestException:
                 continue  # demorou: tenta de novo / outro modelo
             if r.ok:
-                return json.loads(r.json()["candidates"][0]["content"]["parts"][0]["text"])
+                v = json.loads(r.json()["candidates"][0]["content"]["parts"][0]["text"])
+                if isinstance(v, list):  # às vezes o Gemini devolve [ {...} ]
+                    v = next((x for x in v if isinstance(x, dict)), {"ok": False, "motivo": "resposta inválida"})
+                return v
             if r.status_code not in (429, 500, 503):
                 break
     raise RuntimeError(f"HTTP {r.status_code}" if r is not None else "sem resposta do Gemini")
