@@ -1,3 +1,9 @@
 # Uma pauta por linha. O Diretor consome de cima para baixo.
 # Linhas começando com # são ignoradas. Fila vazia = o Diretor cria pautas sozinho.
 # Radar 04/11
+# Radar 08/11
+O telescópio Swift da NASA caiu na Terra depois de 22 anos: o que ele descobriu e por que não deu para salvar (conferir data e local da reentrada)
+O X-59 da NASA: o avião supersônico em que o piloto não tem janela na frente — como ele enxerga (conferir o sistema de câmeras)
+Superlua de 24 de novembro e Marte colado em Júpiter na madrugada: o que ver no céu do Brasil (conferir datas e horários)
+Qual planeta tem mais luas? (formato ranking/palpite, fechar pedindo comentário — conferir números atualizados)
+Neste momento você está viajando pela galáxia a centenas de milhares de km/h — e não sente nada (conferir a velocidade do Sol em torno da Via Láctea)

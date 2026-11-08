@@ -1,78 +1,91 @@
-# Radar — 04/11/2026 (1ª edição)
+# Radar — 08/11/2026 (2ª edição)
 
-Fonte principal: YouTube Shorts mais vistos dos últimos 7 dias (API oficial, região BR), filtrados para
-português. É um espelho do que viraliza no TikTok no mesmo nicho — não são dados do TikTok.
-Amostra: 89 vídeos em português no nicho de fé e 69 em curiosidades/espaço.
+Fonte principal: YouTube Shorts mais vistos dos últimos 7 dias (API oficial, região BR) — 191 vídeos no
+nicho de fé e 183 em curiosidades/espaço; analisados só os em português e dentro do nicho (72 e ~25).
+É um espelho do que viraliza no TikTok no mesmo nicho — não são dados do TikTok.
+Complemento: notícias da semana (céu de novembro, NASA). Sem novos prints em `dados/metricas/`.
 
 ---
 
 ## Mensageiro de Fé
 
 ### Em alta
-1. **Oração guiada em 2ª pessoa, para uma necessidade concreta** — é o formato dominante e o que mais gera comentários.
-   - "O poder da oração" — 3,3 mi views (Priscila Ferreira)
-   - "Há uma oração especial esperando por você" — 2,8 mi views, **36 mil comentários** (Maria da Fé)
-   - "Oração contra doença", "Oração por tua saúde hoje", "A oração que traz paz para a sua casa" — 120–180 mil cada, milhares de comentários
-2. **"Mensagem para você"** — o vídeo se apresenta como recado pessoal.
-   - "Mulher, Deus escolheu você para receber esta mensagem!" — 432 mil views, 10 mil comentários
-3. **Série diária com data** — "Palavra… 3 de Novembro — direção de Deus para hoje" (118 mil, 3,7 mil comentários) e "Novembro vai trocar o caos por ordem!" (117 mil).
-4. **Curto de versículo / boa noite (11–16 s)** — "Salmo 118:17" (158 mil, 1,4 mil comentários), "Mensagem de boa noite / oração da noite" (209 mil).
-5. **Histórias bíblicas** aparecem menos no topo em português (ex.: "Mini Zaqueu", 1,4 mi, infantil). O nosso diferencial (Jesus em momentos de emoção) continua sem muita concorrência direta.
+1. **Oração guiada para "você" continua no topo** (igual a 04/11).
+   - "Há uma oração especial esperando por você" — 2,4 mi views, **29,5 mil comentários** (Maria da Fé) — https://www.youtube.com/shorts/5gFYbK6HhJc
+   - "Essa ORAÇÃO eu não posso deixar de fazer ao dormir…" — 724 mil, **17 s** (Lari Luz Divina) — https://www.youtube.com/shorts/f8ri-61NVxw
+2. **NOVO: onda do Salmo 91** — vários vídeos de 100–250 mil com milhares de comentários.
+   - "Deus está te livrando agora! Oração fortíssima do Salmo 91" — 250 mil, 3,4 mil coment. — https://www.youtube.com/shorts/f5zX4p96ihI
+   - "Ele foi liberto ao ler o Salmo 91" — 158 mil — https://www.youtube.com/shorts/EhlcDME8t7U
+3. **NOVO: curiosidades da Bíblia / da época de Jesus** (bom para o público masculino: tom de "fato", não de recado).
+   - "O número 3 na história de Jesus" — 565 mil, 135 s — https://www.youtube.com/shorts/ZuTWFMr-_go
+   - "Por que Elias recebeu ajuda de um anjo no deserto?" — 227 mil, **6,5 mil comentários** — https://www.youtube.com/shorts/sIhrZJnVToM
+   - "Como se fazia pão no tempo de Jesus?" — 226 mil; "Como se fazia um odre de vinho?" — 189 mil (DesmontandoABíblia)
+4. **"Mensagem para você / não passe por este vídeo"** segue forte, mas falando com mulheres.
+   - "Uma mulher que coloca Deus em primeiro lugar… não passará por este vídeo" — 900 mil, 14 mil coment. — https://www.youtube.com/shorts/ccDNfOzv4PQ
+5. **Curto de versículo / "Amém?" (11–17 s)** — "Salmo 118:17" 347 mil; "VOCÊ CRÊ NESSA PALAVRA? AMÉM?" 335 mil (14 s); "Mensagem de Boa Noite" (série diária, 70–145 mil cada).
+6. **Fora do português, mas é o maior formato do nicho:** edições cinematográficas "Moment Jesus saved them" (13,7 mi, 55 s) — Jesus aparecendo e salvando alguém no último segundo. Ideia para nós: cenas dos Evangelhos em que Jesus *literalmente* estende a mão (Pedro afundando).
 
 ### Ganchos que estão funcionando (adaptados ao canal)
-- "Se este vídeo chegou até você hoje, não passe sem ouvir."
-- "Existe uma oração que Jesus fez por você — e ela está na Bíblia."
-- "Feche os olhos por um minuto e repita comigo."
-- "Para quem vai dormir com o coração pesado hoje."
-- "[Dia] de novembro: uma palavra para o seu dia."
+- "Pedro estava afundando. Olha o que Jesus fez no último segundo."
+- "O número 3 aparece de novo e de novo na história de Jesus — e não é por acaso."
+- "Sabia que o diabo citou o Salmo 91 para Jesus? Veja a resposta dele."
+- "Homem que carrega o peso da casa: antes de dormir, repete comigo."
+- "Você crê nisso? Então escreve Amém."
 
 ### Duração e formato
-- Orações e mensagens fortes: 90–180 s no YouTube. No TikTok, manter **60–90 s** (Creator Rewards) e terminar pedindo "escreva Amém" / "escreva o nome de quem você quer que Deus cuide".
-- Curtos de versículo: **10–16 s**, texto fixo + som popular.
+- Neste ciclo a mediana dos 30 mais vistos caiu de ~125 s para **~70 s** e os curtos (≤ 20 s) passaram de 2 para 8 no top 30.
+- Manter os longos em **75–90 s** (Creator Rewards) e testar mais curtos de **12–17 s** (versículo + "Amém?").
+- Formato novo a testar: **"curiosidade bíblica com Jesus no centro"** (fato da época → o que Jesus fez/disse → aplicação ao homem de hoje).
 
 ### Evitar
-- Política e recados a autoridades (aparece muito no topo, mas é proibido no canal).
-- "Clique no link", promessas de milagre em troca de ação, "Deus mandou te dizer…" (afirmação que não podemos fazer).
-- Testemunhos sensacionalistas ("meu esposo morto me visita") e "palavra profética" — dividem denominações.
+- "Clique no link", "Palavra profética [data]" (série forte, mas é profecia — divide denominações), "Salmo de proteção de cada signo" (astrologia).
+- Ruído da semana: vídeos sobre o jogador Jesús de Miguel (futebol) e "POWER OF JESUS" com hashtags em massa (Índia) — não é nicho.
+- Política, promessas de milagre, testemunhos sensacionalistas (mantido de 04/11).
 
-### Recomendação nova
-Criar um **2º formato longo: "oração guiada com Jesus"** — 60–90 s, começa com uma cena de Jesus (ex.: Jesus dormindo no barco na tempestade) e vira uma oração curta em 1ª pessoa que a pessoa repete. Une o que viraliza (oração + "você" + comentário "Amém") com o nosso foco em Jesus.
+### O que perdeu força desde 04/11
+- "Série diária com data" e "Mulher, Deus escolheu você" caíram do topo (seguem, com menos views).
+- Histórias infantis (Mini Zaqueu) saíram do topo.
 
 ### 5 pautas sugeridas (adicionadas à fila)
-1. Oração para dormir em paz: "Deixo com vocês a minha paz" (João 14:27) — formato oração guiada
-2. Jesus orou por você antes de você nascer (João 17:20-23)
-3. Se este vídeo chegou até você: Jesus parou no meio da multidão por uma só pessoa (Lucas 8:42-48)
-4. Oração pela sua casa e sua família: "a paz seja nesta casa" (Lucas 10:5) — formato oração guiada
-5. Oração para quem está doente: "Senhor, se quiseres, podes me purificar" (Mateus 8:1-3) — formato oração guiada
+1. Pedro afundando no mar: Jesus estendeu a mão no último segundo (Mateus 14:28-31) — estilo "o momento em que Jesus salvou"
+2. Café da manhã na praia: Jesus preparou peixe na brasa para os discípulos que tinham desistido (João 21:1-13)
+3. O diabo citou o Salmo 91 para Jesus no deserto — e a resposta dele (Mateus 4:5-7; Salmo 91:11-12)
+4. Como era o pão no tempo de Jesus — e por que ele disse "Eu sou o pão da vida" (João 6:35) — curiosidade bíblica
+5. Oração do pai que sustenta a casa, antes de dormir: "vosso Pai sabe do que precisais" (Mateus 6:31-33) — formato oração guiada
 
 ---
 
 ## Curioso
 
 ### Em alta
-1. **Sons e buracos negros** — "Escute o maior som do universo" (3,6 mi), "O redemoinho que simula um buraco negro" (3,3 mi), "E se você entrasse num buraco negro?" (150 mil).
-2. **"Como funciona" de coisas do dia a dia/engenharia** — "Como funciona o pneu do avião" (2,6 mi), "Como funciona a caixa d'água" (455 mil), poço artesiano, usina nuclear, concreto protendido.
-3. **Escolha/comparação que pede comentário** — "Qual desses planetas você escolheria?" (809 mil, 1,8 mil comentários), "Qual planeta tem o dia mais longo?" (140 mil), "O verdadeiro tamanho dos planetas".
-4. **Eventos do momento no céu** — céu de novembro, Voyager 1 chegando perto de 1 "dia-luz" de distância da Terra (vídeos em espanhol com 240 mil — tema ainda sem versão forte em português).
-5. **"E se…?"** hipotéticos — Lua desaparecer, buraco negro perto da Terra.
+1. **Notícia espacial "caindo na Terra"** — o telescópio Swift da NASA reentrou na atmosfera (sobre a Indonésia) após ~22 anos em órbita; em espanhol, "La NASA perdió control de un telescopio…" teve 2,5 mi — https://www.youtube.com/shorts/dgoUXydUaT0 . Quase sem versão forte em português.
+2. **Aviões/engenharia da NASA** — "O X-59 da NASA: o piloto não tem janela na frente" — 1,05 mi, **8 s** — https://www.youtube.com/shorts/Sn_XY30uEHk (em inglês, 1,6 mi).
+3. **Céu de novembro** — "A SUPER LUA vai aparecer ao lado de 2 planetas" 218 mil — https://www.youtube.com/shorts/zFbc-L1UNF0 ; "Não perca essa chuva de meteoros" 451 mil; "4 planetas juntos no céu em novembro" 44 mil. Datas (imprensa, conferir): Marte e Júpiter a ~1° na madrugada de 15–16/11; Leônidas 17–18/11; **superlua 24/11**.
+4. **Escala/tamanho e buracos negros** — "Esse é o material mais raro de todo o Universo" 1,4 mi (82 s) — https://www.youtube.com/shorts/NYzXzioinMo ; "Olha o tamanho disso" 454 mil; "O que acontece se você cair em um buraco negro?" 167 mil.
+5. **Perguntas rápidas de ranking** (em inglês, loops de 6–7 s): "Which planet has the most moons?" 1,9 mi; "Our entire Solar System is racing through the galaxy" 5,3 mi.
 
 ### Ganchos que estão funcionando
-- "Escute isso: é o som de [algo] — e ele está [fato]."
-- "Você nunca mais vai olhar [objeto comum] do mesmo jeito."
-- "Qual desses você escolheria? A resposta certa vai te surpreender."
-- "E se [cenário] acontecesse hoje à noite?"
+- "Um telescópio da NASA acabou de cair na Terra. Isso é o que ele descobriu."
+- "O piloto deste avião não tem janela na frente. Então como ele pousa?"
+- "Neste exato momento você está viajando a [velocidade] — e não sente nada."
+- "Qual planeta tem mais luas? Chuta nos comentários antes do final."
+- "Dia [data], olhe para o céu antes do amanhecer."
 
 ### Duração e formato
-- Mediana dos mais vistos: ~55 s; muitos virais têm 30–45 s. Para o Creator Rewards, manter **65–80 s**, com o fato mais forte nos 5 primeiros segundos.
-- Escolha/comparação: terminar com pergunta direta ("qual você escolheria? comenta").
+- Mediana dos mais vistos em português: ~70 s (estável). Virais em inglês são loops de 6–8 s.
+- Manter **65–80 s** com o fato mais forte nos 3 primeiros segundos; terminar com pergunta.
 
 ### Evitar
-- Conteúdo de cultura pop/anime, finanças e leis com "como funciona" (fora do nicho).
-- Exagero tipo "a NASA advertiu" sem fonte.
+- Memes e cultura pop ("Esse cara tem que ser estudado pela NASA", Sonic, Fortnite, Minecraft), política (vídeo de Lula e foguete), "como funciona" de finanças/remédios.
+- "Planeta da morte vindo para a Terra" e vídeos VFX alarmistas — falsos.
+
+### O que perdeu força desde 04/11
+- Sons do universo ("o maior som do universo") e "como funciona" do dia a dia (pneu do avião) saíram do topo.
+- "Escolha um planeta" segue forte só em inglês (série "Choose a Planet to Survive 2 Years", ~400–550 mil cada).
 
 ### 5 pautas sugeridas (adicionadas à fila)
-1. Voyager 1 está prestes a ficar a um dia-luz da Terra — o objeto humano mais distante (conferir data e distância na NASA/JPL)
-2. O som mais grave do universo: o buraco negro do aglomerado de Perseu (sonificação da NASA, nota si bemol 57 oitavas abaixo do dó central — conferir)
-3. Qual planeta você escolheria para morar por um ano? (formato escolha, fechar pedindo comentário)
-4. Como funciona o pneu do avião: por que ele é cheio de nitrogênio e aguenta pousos a mais de 200 km/h (conferir números)
-5. O céu de novembro: a chuva de meteoros Leônidas e como ver do Brasil (conferir datas do pico)
+1. O telescópio Swift da NASA caiu na Terra depois de 22 anos: o que ele descobriu e por que não deu para salvar (conferir data e local da reentrada)
+2. O X-59 da NASA: o avião supersônico em que o piloto não tem janela na frente — como ele enxerga (conferir o sistema de câmeras)
+3. Superlua de 24 de novembro e Marte colado em Júpiter na madrugada: o que ver no céu do Brasil (conferir datas e horários)
+4. Qual planeta tem mais luas? (formato ranking/palpite, fechar pedindo comentário — conferir números atualizados)
+5. Neste momento você está viajando pela galáxia a centenas de milhares de km/h — e não sente nada (conferir a velocidade do Sol em torno da Via Láctea)
