@@ -237,19 +237,32 @@ def capa_youtube(origem: Path, linhas: list[str], destino: Path, segundo: float 
         ent = ["-ss", f"{segundo:.1f}", "-i", str(origem), "-frames:v", "1"] if segundo is not None else ["-i", str(origem)]
         recorte = "crop=iw*0.8:ih*0.8:iw*0.1:ih*0.02," if segundo is not None else ""  # evita as legendas do rodapé
         filtros = [f"{recorte}scale=1280:720:force_original_aspect_ratio=increase,crop=1280:720",
-                   "eq=contrast=1.12:saturation=1.2:brightness=-0.03",
-                   "drawbox=x=0:y=0:w=760:h=720:color=black@0.42:t=fill"]
+                   "eq=contrast=1.12:saturation=1.2:brightness=-0.03"]
         linhas = [x.upper() for x in linhas if x][:3]
-        tam = 132 if max(len(x) for x in linhas) <= 8 else 104 if max(len(x) for x in linhas) <= 12 else 80
-        y0 = 360 - len(linhas) * tam * 1.12 / 2
-        for k, txt in enumerate(linhas):
-            arq = destino.with_name(f"capa_linha{k}.txt")
-            arq.write_text(txt, encoding="utf-8")
-            cor = "0xFFD27A" if k == 0 else "white"
-            filtros.append(f"drawtext=fontfile={FONTE_CAPA}:textfile={arq}:fontsize={tam}:fontcolor={cor}:"
-                           f"borderw=7:bordercolor=black@0.85:shadowx=4:shadowy=4:x=60:y={y0 + k * tam * 1.12:.0f}")
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *ent, "-vf", ",".join(filtros), "-q:v", "2", str(destino)],
                        check=True)
+        # texto com Pillow (o ffmpeg do Actions não tem o filtro drawtext)
+        from PIL import Image, ImageDraw, ImageFont
+        img = Image.open(destino).convert("RGB")
+        sombra = Image.linear_gradient("L").rotate(90).resize((1280, 720))  # escuro à esquerda, some à direita
+        sombra = sombra.point(lambda v: int(max(0, v - 60) * 0.95))
+        img = Image.composite(Image.new("RGB", img.size, (0, 0, 0)), img, sombra)
+        d = ImageDraw.Draw(img)
+        tam = 132 if max(len(x) for x in linhas) <= 8 else 104 if max(len(x) for x in linhas) <= 12 else 80
+        try:
+            fonte = ImageFont.truetype(FONTE_CAPA, tam)
+        except OSError:
+            fonte = ImageFont.load_default(size=tam)
+        while max(d.textlength(x, font=fonte) for x in linhas) > 700 and tam > 50:  # cabe na faixa escura
+            tam -= 6
+            fonte = ImageFont.truetype(FONTE_CAPA, tam) if Path(FONTE_CAPA).exists() else ImageFont.load_default(size=tam)
+        y0 = 360 - len(linhas) * tam * 1.12 / 2
+        for k, txt in enumerate(linhas):
+            y = y0 + k * tam * 1.12
+            d.text((64, y + 4), txt, font=fonte, fill=(0, 0, 0))  # sombra
+            d.text((60, y), txt, font=fonte, fill=(255, 210, 122) if k == 0 else (255, 255, 255),
+                   stroke_width=7, stroke_fill=(0, 0, 0))
+        img.save(destino, quality=92)
         return destino
     except Exception as e:  # noqa: BLE001
         log("publicador", f"miniatura não gerada ({e})")

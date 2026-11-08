@@ -518,7 +518,7 @@ def main():
                     "-map", ant if filtro else "0:v", "-c:v", "libx264", "-crf", "18", "-preset", "veryfast", "-video_track_timescale", "15360", str(base)], check=True)
     if cauda > 0:  # final só com música: última ilustração parada, um pouco mais escura (codifica rápido)
         escura, fim = pasta / "cauda.png", pasta / "cauda.mp4"
-        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(imgs[len(r["cenas"]) - 1]), "-vf",
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(imgs[int(r.get("cena_cauda", len(r["cenas"]) - 1))]), "-vf",
                         f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},eq=brightness=-0.12",
                         str(escura)], check=True)
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-loop", "1", "-framerate", "30", "-i", str(escura),
