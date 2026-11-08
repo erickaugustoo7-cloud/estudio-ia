@@ -1,0 +1,98 @@
+{
+  "titulo": "O paralítico descido pelo telhado",
+  "gancho_tela": "Abriram o telhado por ele",
+  "referencia": "Marcos 2:5",
+  "serie": "Os milagres de Jesus",
+  "parte": 2,
+  "duracao_max": 90,
+  "volume_musica": 0.12,
+  "estilo_imagem": "cinematic photorealistic epic film still, dramatic volumetric god rays, floating dust particles, deep chiaroscuro, first century Galilee, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic epic film shot, slow and subtle motion.",
+  "epoca_imagem": "Capernaum on the Sea of Galilee, first century AD, Jewish village of black basalt stone houses with flat roofs of wooden beams, branches and packed clay, stone, clay, wood and linen only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "Em Cafarnaum, Jesus estava numa casa. Juntou tanta gente que não havia lugar nem na porta.",
+      "prompt_imagem": "wide high aerial view of first century Capernaum at morning, black basalt stone houses with flat clay roofs beside the Sea of Galilee, tiny distant figures packed around one house doorway, golden haze",
+      "prompt_movimento": "slow aerial camera glide forward over the village, morning haze drifts, lake water shimmers",
+      "vazia": false
+    },
+    {
+      "trecho": "Quatro homens chegaram carregando um amigo paralítico, deitado numa maca.",
+      "prompt_imagem": "a narrow dusty stone street of an ancient Galilean village seen from high above, tiny distant figures carrying a simple woven straw mat, long morning shadows",
+      "prompt_movimento": "dust floats in the sunbeams, long shadows shift slowly, slow camera descent",
+      "vazia": false
+    },
+    {
+      "trecho": "Naquela época, um paralítico dependia dos outros para tudo.",
+      "prompt_imagem": "an empty woven straw sleeping mat lying on the dusty ground beside a rough basalt stone wall at the edge of an ancient road, a worn clay begging bowl, harsh light",
+      "prompt_movimento": "dust drifts slowly across the road, light flickers through passing clouds, slow camera push-in",
+      "vazia": true
+    },
+    {
+      "trecho": "Não conseguiram passar pela multidão. Então subiram ao telhado.",
+      "prompt_imagem": "exterior of an ancient basalt stone house with an outside stone staircase leading up to a flat roof of wooden beams and packed clay, warm sunlight",
+      "prompt_movimento": "sunlight shifts slowly across the stone stairs, dust floats in the air, slow camera tilt upward toward the roof",
+      "vazia": true
+    },
+    {
+      "trecho": "Abriram um buraco bem acima de onde Jesus estava.",
+      "prompt_imagem": "close view of a flat ancient roof of wooden beams, branches and dried clay with a broken open hole, crumbling clay and dust, working hands at the edge of the hole",
+      "prompt_movimento": "dust and small pieces of dry clay fall slowly through the opening, sunlight beams through the dust, static camera",
+      "vazia": false
+    },
+    {
+      "trecho": "E desceram a maca com o homem, devagar, bem no meio da sala.",
+      "prompt_imagem": "high-angle view from the roof opening down into a dim stone room, a woven straw mat hanging on ropes being lowered, a bright beam of sunlight falling through the hole, dust in the air",
+      "prompt_movimento": "the mat descends slowly on the ropes, dust sparkles in the beam of light, slow camera descent",
+      "vazia": false
+    },
+    {
+      "trecho": "Vendo a fé deles, Jesus disse: Filho, os seus pecados estão perdoados.",
+      "prompt_imagem": "inside a dim ancient basalt stone room, a straw mat resting on the floor in a single bright column of sunlight from a hole in the roof, clay oil lamps on stone ledges",
+      "prompt_movimento": "the column of light glows brighter, dust floats gently, lamp flames flicker, slow camera push-in",
+      "vazia": true
+    },
+    {
+      "trecho": "Os mestres da lei pensaram: Quem pode perdoar pecados, a não ser somente Deus?",
+      "prompt_imagem": "dark corner of an ancient stone room, rolled parchment scrolls resting on a carved wooden bench, deep shadows, one clay oil lamp",
+      "prompt_movimento": "the lamp flame flickers and shadows move on the stone wall, slow camera pan",
+      "vazia": true
+    },
+    {
+      "trecho": "Jesus disse ao paralítico: Levante-se, pegue a sua maca e vá para casa.",
+      "prompt_imagem": "an ancient stone room floor where a rolled straw mat lies in a bright beam of heavenly light falling from a hole in the clay roof, dust glowing",
+      "prompt_movimento": "the heavenly light intensifies, glowing dust swirls gently upward, slow camera push-in",
+      "vazia": true
+    },
+    {
+      "trecho": "Ele se levantou, pegou a maca e saiu à vista de todos.",
+      "prompt_imagem": "wide high view of the doorway of an ancient basalt stone house opening onto a bright village street, tiny distant figure carrying a rolled mat walking away into the sunlight",
+      "prompt_movimento": "sunlight floods through the doorway, dust floats in the air, slow camera pull-back",
+      "vazia": false
+    },
+    {
+      "trecho": "Todos ficaram admirados e glorificaram a Deus: Nunca vimos nada igual! Marcos, capítulo dois.",
+      "prompt_imagem": "wide aerial view of ancient Capernaum by the Sea of Galilee at golden hour, dramatic sun rays breaking through clouds over the flat roofs and the lake",
+      "prompt_movimento": "sun rays sweep slowly over the village, clouds drift, the lake glitters, slow camera rise",
+      "vazia": true
+    },
+    {
+      "trecho": "Quando você não consegue chegar, a fé de amigos abre caminho. Siga para ver o próximo milagre.",
+      "prompt_imagem": "view from inside a dark stone room looking up through an open hole in a clay roof toward a bright sky full of heavenly light",
+      "prompt_movimento": "slow camera rise toward the bright opening, light rays spread, dust floats in the beams",
+      "vazia": true
+    }
+  ],
+  "legenda": "Senhor, coloca amigos de fé no meu caminho 🙌🙏 (Parte 2)\nMarcos 2:1-12\nComente Amém e siga a série 🙏",
+  "hashtags": [
+    "#Jesus",
+    "#milagresdeJesus",
+    "#Cafarnaum",
+    "#Marcos2",
+    "#fé"
+  ],
+  "fontes": [
+    "Marcos 2:1-12"
+  ]
+}
