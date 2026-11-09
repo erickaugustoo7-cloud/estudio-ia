@@ -74,6 +74,7 @@ estilo_visual: >
   peaceful atmosphere, cinematic composition, vertical 9:16, highly detailed,
   no text, no letters, no watermark
 
+musica_youtube: assets/musica/youtube   # só faixas da Biblioteca de áudio do YouTube (vazio = trilha gerada)
 musica: assets/musica/biblico   # .mp3 seus aqui têm prioridade; vazio = trilha ambiente gerada
 trilha_gerada: true
 musica_volume: 0.3          # trilha ~16 dB abaixo da voz (faixas normalizadas a -20 LUFS)

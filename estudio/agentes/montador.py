@@ -125,8 +125,11 @@ def _gerar_trilha(canal: dict, destino: Path, dur: float = 150) -> Path:
 
 
 def _musica(canal: dict, pasta_trabalho: Path | None = None) -> Path | None:
-    pasta = RAIZ / canal.get("musica", "")
-    faixas = sorted(pasta.glob("*.mp3")) if canal.get("musica") and pasta.is_dir() else []
+    # Canais que vão para o YouTube usam só faixas seguras (Biblioteca de áudio do YouTube) ou a trilha gerada:
+    # faixas da Pixabay podem estar no Content ID e bloquear o Short / desviar a receita do vídeo longo.
+    chave = "musica_youtube" if canal.get("musica_youtube") else "musica"
+    pasta = RAIZ / canal.get(chave, "")
+    faixas = sorted(pasta.glob("*.mp3")) if canal.get(chave) and pasta.is_dir() else []
     if faixas:
         return random.choice(faixas)
     if canal.get("trilha_gerada", True) and pasta_trabalho:
