@@ -65,25 +65,43 @@ def montar():
     log("fila", f"{len(entrou)} na fila; pulados: {', '.join(pulou) or 'nenhum'}")
 
 
-def publicar():
-    fila = [i for i in _issues("open", "fila") if not {l["name"] for l in i["labels"]} & {"publicado", "publicando"}]
-    por_canal: dict[str, dict] = {}
-    for i in sorted(fila, key=lambda x: -x["number"]):
-        canal = next((l["name"].split(":", 1)[1] for l in i["labels"] if l["name"].startswith("canal:")), "?")
-        por_canal.setdefault(canal, i)
-    for canal, i in por_canal.items():
-        n = str(i["number"])
-        log("fila", f"{canal}: publicando #{n} {i['title']}")
-        r = subprocess.run([sys.executable, "-m", "estudio.publicar", "--issue", n])
-        estado = json.loads(gh("issue", "view", n, "--json", "state"))["state"]
-        if estado != "OPEN":
-            continue  # publicado e fechado
-        # falhou em alguma rede: sai da fila para não travar os próximos (revisar depois)
-        gh("issue", "edit", n, "--remove-label", "fila", "--add-label", "fila-erro")
-        log("fila", f"#{n} com falha (código {r.returncode}) → fila-erro")
-    restantes = len(fila) - len(por_canal)
-    log("fila", f"restam {max(restantes, 0)} na fila")
+def _tentativas(n: str) -> int:
+    coms = json.loads(gh("issue", "view", n, "--json", "comments"))["comments"]
+    return sum("Resultado da publicação" in c.get("body", "") for c in coms)
 
+
+def _canal(i: dict) -> str:
+    return next((l["name"].split(":", 1)[1] for l in i["labels"] if l["name"].startswith("canal:")), "?")
+
+
+def _publicar_um(i: dict) -> bool:
+    n = str(i["number"])
+    log("fila", f"{_canal(i)}: publicando #{n} {i['title']}")
+    r = subprocess.run([sys.executable, "-m", "estudio.publicar", "--issue", n])
+    if json.loads(gh("issue", "view", n, "--json", "state"))["state"] != "OPEN":
+        gh("issue", "edit", n, "--remove-label", "fila", "--remove-label", "fila-erro")
+        return True
+    # falhou em alguma rede (Instagram instável, limite do YouTube…): vai para "fila-erro" e é tentado de novo
+    # nas próximas rodadas — só as redes que faltam, as que já saíram não repetem
+    gh("issue", "edit", n, "--remove-label", "fila", "--add-label", "fila-erro")
+    log("fila", f"#{n} com falha (código {r.returncode}) → fila-erro")
+    return False
+
+
+def publicar():
+    sem = {"publicado", "publicando"}
+    fila = [i for i in _issues("open", "fila") if not {l["name"] for l in i["labels"]} & sem]
+    erros = [i for i in _issues("open", "fila-erro") if not {l["name"] for l in i["labels"]} & sem]
+    novos: dict[str, dict] = {}
+    for i in sorted(fila, key=lambda x: -x["number"]):
+        novos.setdefault(_canal(i), i)
+    repetir: dict[str, dict] = {}
+    for i in sorted(erros, key=lambda x: x["number"]):  # 1 nova tentativa por canal, até 5 no total
+        if _canal(i) not in repetir and _tentativas(str(i["number"])) < 5:
+            repetir[_canal(i)] = i
+    for i in [*repetir.values(), *novos.values()]:
+        _publicar_um(i)
+    log("fila", f"restam {max(len(fila) - len(novos), 0)} na fila; {len(erros)} aguardando nova tentativa")
 
 if __name__ == "__main__":
     {"montar": montar, "publicar": publicar}[sys.argv[1]]()
