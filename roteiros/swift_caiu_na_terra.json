@@ -1,0 +1,65 @@
+{
+  "titulo": "O telescópio da NASA que acabou de cair na Terra",
+  "gancho_tela": "Caiu depois de 22 anos no espaço",
+  "narracao": "Um telescópio da NASA acabou de cair na Terra. Era o Swift, e ele caiu sobre a Indonésia. Mas o mais incrível é o que ele viu antes de cair. Lançado em dois mil e quatro, ele foi feito para durar só dois anos. Durou quase vinte e dois. A missão dele era caçar explosões de raios gama, os clarões mais violentos do Universo. Quando uma delas acontecia, o Swift apontava seus telescópios para o lugar certo em cerca de um minuto. Assim ele flagrou mais de duas mil dessas explosões e estudou mais de mil e quatrocentas supernovas. Em dois mil e nove, captou a luz de uma estrela que explodiu há cerca de treze bilhões de anos, quando o Universo ainda era um bebê. Só que o Swift não tinha motor. O Sol ficou mais agitado, o ar lá no alto inchou e começou a frear o telescópio, como um vento contra quem pedala. A NASA pagou trinta milhões de dólares a uma empresa para mandar um robô empurrá-lo mais para cima. Mas o robô perdeu o controle, e o resgate foi cancelado. No dia quatro de novembro, o Swift entrou na atmosfera sobre Sumatra, e a NASA esperava que quase tudo queimasse. Você acha que valia a pena tentar salvar ele? Siga para descobrir uma curiosidade nova todo dia.",
+  "cenas": [
+    {
+      "trecho": "Um telescópio da NASA acabou de cair na Terra.",
+      "busca_imagem": "Swift observatory",
+      "prompt_imagem": "NASA Swift space telescope satellite orbiting above Earth, solar panels, cinematic"
+    },
+    {
+      "trecho": "Era o Swift, e ele caiu sobre a Indonésia. Mas o mais incrível é o que ele viu antes de cair.",
+      "busca_imagem": "Swift satellite Earth",
+      "prompt_imagem": "a satellite glowing as it burns up re-entering Earth's atmosphere above tropical islands at dawn, fiery streak"
+    },
+    {
+      "trecho": "Lançado em dois mil e quatro, ele foi feito para durar só dois anos. Durou quase vinte e dois.",
+      "busca_imagem": "Swift Delta II launch",
+      "prompt_imagem": "a Delta II rocket launching at night from Cape Canaveral, bright exhaust plume"
+    },
+    {
+      "trecho": "A missão dele era caçar explosões de raios gama, os clarões mais violentos do Universo. Quando uma delas acontecia, o Swift apontava seus telescópios para o lugar certo em cerca de um minuto. Assim ele flagrou mais de duas mil dessas explosões e estudou mais de mil e quatrocentas supernovas.",
+      "busca_imagem": "gamma-ray burst illustration",
+      "prompt_imagem": "a gamma-ray burst, twin brilliant jets of light erupting from a collapsing star in deep space"
+    },
+    {
+      "trecho": "Em dois mil e nove, captou a luz de uma estrela que explodiu há cerca de treze bilhões de anos, quando o Universo ainda era um bebê.",
+      "busca_imagem": "early universe stars",
+      "prompt_imagem": "the young early universe with first stars and a distant brilliant stellar explosion, deep field"
+    },
+    {
+      "trecho": "Só que o Swift não tinha motor. O Sol ficou mais agitado, o ar lá no alto inchou e começou a frear o telescópio, como um vento contra quem pedala.",
+      "busca_imagem": "solar flare Sun",
+      "prompt_imagem": "the Sun erupting with a powerful solar flare, intense orange plasma loops"
+    },
+    {
+      "trecho": "A NASA pagou trinta milhões de dólares a uma empresa para mandar um robô empurrá-lo mais para cima. Mas o robô perdeu o controle, e o resgate foi cancelado.",
+      "busca_imagem": "satellite servicing robotic",
+      "prompt_imagem": "a small robotic spacecraft with a mechanical arm approaching a satellite in low Earth orbit"
+    },
+    {
+      "trecho": "No dia quatro de novembro, o Swift entrou na atmosfera sobre Sumatra, e a NASA esperava que quase tudo queimasse.",
+      "busca_imagem": "reentry fireball atmosphere",
+      "prompt_imagem": "a fireball of a spacecraft burning up high in the atmosphere, seen from orbit over the ocean"
+    },
+    {
+      "trecho": "Você acha que valia a pena tentar salvar ele? Siga para descobrir uma curiosidade nova todo dia.",
+      "busca_imagem": "Swift spacecraft",
+      "prompt_imagem": "a lone space telescope silhouetted against Earth's glowing horizon and stars"
+    }
+  ],
+  "legenda": "O telescópio Swift, da NASA, caiu sobre a Indonésia em 4/11 depois de quase 22 anos no espaço — e flagrou mais de 2.000 explosões de raios gama. 🔭🔥\nValia a pena tentar salvar? Comenta aqui 👇",
+  "hashtags": [
+    "#NASA",
+    "#telescópio",
+    "#Swift",
+    "#notíciasdoespaço"
+  ],
+  "fontes": [
+    "NASA — NASA's Swift Observatory Re-Entered Atmosphere (4/11/2026, 7:39 EST, North Sumatra; maior parte deveria queimar) — https://science.nasa.gov/blogs/swift/2026/11/02/nasas-swift-observatory-to-re-enter-atmosphere/",
+    "NASA — NASA's Swift Mission Ends Ahead of Re-Entry (arrasto por atividade solar, missão planejada para 2 anos, fim em 20/10) — https://science.nasa.gov/blogs/swift/2026/10/23/nasas-swift-mission-ends-ahead-of-re-entry/",
+    "Spaceflight Now — Swift reenters over Western Indonesia (lançado em 20/11/2004; sem motor; Katalyst LINK, US$ 30 milhões, perdeu controle, cancelado em 19/8; +2.000 GRBs, +1.400 supernovas; apontava em ~1 minuto) — https://spaceflightnow.com/2026/11/04/nasas-neil-gehrels-swift-observatory-reenters-over-western-indonesia/",
+    "Sky & Telescope / Science@NASA (2009) — GRB 090423, estrela que explodiu há ~13 bilhões de anos, detectada pelo Swift — https://skyandtelescope.org/astronomy-news/the-farthest-thing-ever-seen/"
+  ]
+}
