@@ -140,7 +140,8 @@ tl.seek(0);
 
 
 def produzir_curto(caminho: Path, sem_envio: bool, sem_issue: bool) -> None:
-    canal = carregar_canal("biblico")
+    # curtos usam a voz do Edge: a cota diária da Gemini fica para os vídeos do YouTube (filmes, orações, animações)
+    canal = {**carregar_canal("biblico"), "forcar_edge": os.getenv("CURTOS_GEMINI", "") != "1"}
     r = json.loads(caminho.read_text(encoding="utf-8"))
     pasta = SAIDA / f"curto_{caminho.stem}_{datetime.now():%Y%m%d_%H%M%S}"
     proj = pasta / "hf"

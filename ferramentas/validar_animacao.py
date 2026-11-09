@@ -12,16 +12,33 @@ r = json.load(open(sys.argv[1], encoding="utf-8"))
 erros = []
 cenas = r.get("cenas", [])
 palavras = sum(len(c["trecho"].split()) for c in cenas)
-if not 8 <= len(cenas) <= 12:
-    erros.append(f"{len(cenas)} cenas (use 8–12)")
-if not 100 <= palavras <= 150:
-    erros.append(f"{palavras} palavras (use 100–150)")
+oracao = bool(r.get("cauda_musical_min"))
+if r.get("formato") == "horizontal":  # vídeo longo do YouTube (docs/MANUAL_LONGOS.md)
+    lim_c, lim_p, lim_t, max_anim = ((18, 30), (800, 1100), (12, 55), 6) if oracao else \
+                                    ((60, 110), (900, 1400), (3, 30), 10)
+    for campo in ("titulo_youtube", "texto_capa", "cena_capa", "legenda", "hashtags"):
+        if not r.get(campo) and r.get(campo) != 0:
+            erros.append(f"falta o campo {campo}")
+    if r.get("plataformas") != ["youtube"]:
+        erros.append('plataformas deve ser ["youtube"]')
+    if len(r.get("titulo_youtube", "")) > 100:
+        erros.append("titulo_youtube com mais de 100 caracteres")
+    anim = sum(bool(c.get("animar")) for c in cenas)
+    if anim > max_anim:
+        erros.append(f"{anim} cenas animadas (máx. {max_anim}: o Kaggle demora; o resto ganha movimento de câmera)")
+else:
+    lim_c, lim_p, lim_t = (8, 12), (100, 150), (6, 17)
+if not lim_c[0] <= len(cenas) <= lim_c[1]:
+    erros.append(f"{len(cenas)} cenas (use {lim_c[0]}–{lim_c[1]})")
+if not lim_p[0] <= palavras <= lim_p[1]:
+    erros.append(f"{palavras} palavras (use {lim_p[0]}–{lim_p[1]})")
 for i, c in enumerate(cenas, 1):
     n = len(c["trecho"].split())
-    if not 6 <= n <= 17:
-        erros.append(f"cena {i}: {n} palavras no trecho (6–17)")
+    if not lim_t[0] <= n <= lim_t[1]:
+        erros.append(f"cena {i}: {n} palavras no trecho ({lim_t[0]}–{lim_t[1]})")
     p = c.get("prompt_imagem", "").lower()
     sem_neg = re.sub(r"\bno [a-z ,]+", "", p)  # ignora negações ("no faces, no people")
+    sem_neg = re.sub(r"silhouettes? of (the )?(palm|tree|hill|mountain|city|temple|pyramid|ship|boat|wall|tower)\w*", "", sem_neg)
     if re.search(PESSOAS, sem_neg) and not re.search(PERMITIDO, sem_neg):
         erros.append(f"cena {i}: pessoa como assunto da imagem → conte pela cena/objeto ({re.search(PESSOAS, sem_neg).group(0)})")
     if re.search(MODERNO, re.sub(r"\bno [a-z ]+", "", p)):
