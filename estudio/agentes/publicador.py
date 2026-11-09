@@ -333,6 +333,8 @@ def publicar(canal: dict, video: Path, texto: str, pular: set = frozenset(), fb_
                 resultados_yt["youtube"] = youtube_upload(video, titulo or texto.splitlines()[0], texto, tags)
             except requests.HTTPError as e:
                 resultados_yt["youtube"] = {"status": "failed", "errorMessage": f"{e} — {e.response.text[:300]}"}
+            except Exception as e:  # noqa: BLE001 — ex.: limite de envios; não pode derrubar as outras redes
+                resultados_yt["youtube"] = {"status": "failed", "errorMessage": str(e)[:400]}
             log("publicador", f"youtube: {resultados_yt['youtube']['status']}")
         else:
             log("publicador", "youtube: segredos YT_* não configurados — pulando")
