@@ -509,7 +509,7 @@ def main():
         log("wan", f"clipe {i + 1}: {'ok' if v.get('ok') else 'reprovado'} {v.get('motivo', '')}")
         if not v.get("ok"):
             ruins[i] = v.get("motivo", "")
-    if ruins and os.getenv("WAN_REFAZER", "1") == "1":
+    if ruins and os.getenv("WAN_REFAZER", "0" if horiz else "1") == "1":  # longo: direto para a ilustração (poupa ~35 min)
         refazer = []
         for i in ruins:
             c2 = {**por_idx[i], "nome": f"clipe_{i}", "seed": por_idx[i]["seed"] + 777,
@@ -635,11 +635,31 @@ def main():
         audio.append("[mus]anull[a]")
     fontes = Path("assets/fontes").resolve()
     vf = f"subtitles={ass}:fontsdir={fontes}"
-    cmd += ["-filter_complex", f"[0:v]{vf}[v];" + ";".join(audio), "-map", "[v]", "-map", "[a]", "-t", f"{total:.3f}",
-            "-c:v", "libx264", "-crf", "19", "-preset", "medium" if total < 600 else "veryfast", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k",
-            "-movflags", "+faststart", str(video)]
-    subprocess.run(cmd, check=True)
-    montador.normalizar_volume(video)
+    if total < 600:
+        cmd += ["-filter_complex", f"[0:v]{vf}[v];" + ";".join(audio), "-map", "[v]", "-map", "[a]", "-t", f"{total:.3f}",
+                "-c:v", "libx264", "-crf", "19", "-preset", "medium", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k",
+                "-movflags", "+faststart", str(video)]
+        subprocess.run(cmd, check=True)
+        montador.normalizar_volume(video)
+    else:
+        # Vídeo longo: imagem, áudio e junção em passos separados (num só passo o ffmpeg ficou sem memória
+        # ao juntar 27 min de vídeo e áudio e travou até o fim do prazo)
+        so_v, so_a = pasta / "final_v.mp4", pasta / "final_a.m4a"
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(base), "-vf", vf, "-an", "-t", f"{total:.3f}",
+                        "-c:v", "libx264", "-crf", "19", "-preset", "veryfast", "-pix_fmt", "yuv420p", str(so_v)],
+                       check=True, timeout=3600)
+        entradas = cmd[cmd.index(str(base)) + 1:]  # -i voz / -i música
+        entradas = [x.replace("[1:a]", "[0:a]") for x in entradas]
+        audio_a = [a.replace("[1:a]", "[0:a]" if mp3 else "[0:a]").replace("[2:a]", "[1:a]") for a in audio]
+        if not mp3:
+            audio_a = [a.replace("[1:a]", "[0:a]") for a in audio_a]
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *entradas,
+                        "-filter_complex", ";".join(audio_a) + ";[a]loudnorm=I=-14:TP=-1.5:LRA=11,aresample=48000[an]",
+                        "-map", "[an]", "-t", f"{total:.3f}", "-c:a", "aac", "-b:a", "160k", str(so_a)],
+                       check=True, timeout=1800)
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(so_v), "-i", str(so_a), "-map", "0:v", "-map", "1:a",
+                        "-c", "copy", "-shortest", "-movflags", "+faststart", str(video)], check=True, timeout=900)
+        log("wan", f"vídeo longo montado: {_dur(video) / 60:.1f} min")
 
     t0 = 0.0
     for i, d in enumerate(tempos):
