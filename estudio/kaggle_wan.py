@@ -392,18 +392,32 @@ def main():
                           for k in range(opcoes if rodada == 1 else max(opcoes, 2))]
             saida_img, rel_img = _rodar_kaggle(itens, pasta, f"imagens{rodada}")
             log("wan", f"imagens (rodada {rodada}): {rel_img[:200]}")
-            for i in list(pendentes):
+            def _revisar_cena(i):  # revisa as opções de uma cena (várias cenas em paralelo)
                 cand = sorted(x for x in saida_img.rglob(f"img_{i}_r{rodada}*.*")
                               if x.suffix.lower() in (".png", ".jpg", ".jpeg", ".webp"))
+                res = []
                 for x in cand:
                     jpg = pasta / f"cena_{i}_{x.stem.split('_')[-1]}.jpg"
                     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(x), "-q:v", "2", str(jpg)], check=True)
+                    t_rev = time.time()
                     try:
                         v = _avaliar(chave, canal_img, cenas_img[i], jpg, rigoroso=True) if chave else {"ok": True}
                     except Exception as e:  # noqa: BLE001 — sem revisão NÃO é aprovação
-                        v = {"ok": False, "motivo": f"revisão indisponível ({e})"}
+                        v = {"ok": False, "motivo": f"revisão indisponível ({e})", "_sem_revisao": True}
+                    log("wan", f"cena {i + 1} {x.stem.split('_')[-1]} ({time.time() - t_rev:.0f}s): "
+                               f"{'ok' if v.get('ok') else 'reprovada'} {v.get('motivo', '')}")
+                    res.append((jpg, v))
+                    if v.get("ok"):
+                        break
+                return i, res
+
+            from concurrent.futures import ThreadPoolExecutor
+            with ThreadPoolExecutor(max_workers=int(os.getenv("REVISAO_PARALELA", "4"))) as ex:
+                resultados = list(ex.map(_revisar_cena, list(pendentes)))
+            for i, res in resultados:
+                for jpg, v in res:
+                    if v.get("_sem_revisao"):
                         reserva.setdefault(i, jpg)
-                    log("wan", f"cena {i + 1} {x.stem.split('_')[-1]}: {'ok' if v.get('ok') else 'reprovada'} {v.get('motivo', '')}")
                     if v.get("ok"):
                         escolhidas[i] = jpg
                         pendentes.remove(i)

@@ -7,6 +7,7 @@ Sem GEMINI_API_KEY ou em caso de erro, o vídeo segue normalmente (a revisão é
 import base64
 import io
 import json
+import re
 import os
 import shutil
 import subprocess
@@ -78,9 +79,15 @@ def _avaliar(chave, canal, cena, img, rigoroso=False) -> dict:
     for modelo in dict.fromkeys(modelos):  # tenta o mais novo; se estiver sobrecarregado, outro
         for espera in (0, 8):
             time.sleep(espera)
+            c = corpo
+            if re.match(r"gemini-3", modelo):  # modelos 3.x pensam muito por padrão: checklist não precisa
+                c = {**corpo, "generationConfig": {**corpo["generationConfig"], "thinkingConfig": {"thinkingLevel": "low"}}}
             try:
-                r = requests.post(f"{API}/models/{modelo}:generateContent", params={"key": chave}, json=corpo,
+                r = requests.post(f"{API}/models/{modelo}:generateContent", params={"key": chave}, json=c,
                                   timeout=90 if rigoroso else 40)
+                if r.status_code == 400 and c is not corpo:  # modelo não aceita thinkingLevel: manda sem
+                    r = requests.post(f"{API}/models/{modelo}:generateContent", params={"key": chave}, json=corpo,
+                                      timeout=90 if rigoroso else 40)
             except requests.RequestException:
                 continue  # demorou: tenta de novo / outro modelo
             if r.ok:
