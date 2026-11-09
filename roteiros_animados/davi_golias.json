@@ -1,0 +1,82 @@
+{
+  "titulo": "Davi enfrenta Golias",
+  "gancho_tela": "Um pastor contra um gigante",
+  "referencia": "1 Samuel 17:45",
+  "duracao_max": 90,
+  "volume_musica": 0.14,
+  "estilo_imagem": "cinematic photorealistic epic film still, dramatic volumetric god rays, floating dust particles, deep chiaroscuro, ancient Israel 10th century BC, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic epic film shot, slow and subtle motion.",
+  "epoca_imagem": "Ancient Israel around 1000 BC, Iron Age, Valley of Elah in the Judean foothills, rocky hills, oak and terebinth trees, wool tents, bronze and iron weapons, leather, stone and wood only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "No vale de Elá, dois exércitos acampavam em colinas opostas, com o vale entre eles.",
+      "prompt_imagem": "wide aerial view of a rocky valley at dawn, two hills facing each other covered with wool tents and campfire smoke, a dry stream bed in the valley floor, golden haze",
+      "prompt_movimento": "slow aerial camera glide over the valley, campfire smoke rises, morning haze drifts",
+      "vazia": true
+    },
+    {
+      "trecho": "Por quarenta dias, de manhã e de tarde, o gigante filisteu Golias desafiava Israel.",
+      "prompt_imagem": "high-angle wide view of the empty valley floor, a tiny distant giant warrior in shining bronze armor holding a huge spear, long shadow on the dust, harsh afternoon sun",
+      "prompt_movimento": "dust blows across the valley floor, sunlight glints on bronze, slow camera descent",
+      "vazia": false
+    },
+    {
+      "trecho": "Naquela época, um duelo podia decidir a guerra: quem perdesse seria escravo do outro.",
+      "prompt_imagem": "a massive bronze spear and a huge round bronze shield planted in dusty ground, Philistine tents on the hill behind, dramatic clouds",
+      "prompt_movimento": "clouds move slowly, dust swirls at the base of the spear, slow camera push-in",
+      "vazia": true
+    },
+    {
+      "trecho": "Saul e todo o Israel tremiam de medo. Então chegou Davi, um jovem pastor.",
+      "prompt_imagem": "a quiet Israelite camp on a hillside at dusk, wool tents with dim campfires, a wooden shepherd's staff and a leather bag leaning against a rock in the foreground",
+      "prompt_movimento": "campfire flames flicker, tent cloth moves in the wind, slow camera push-in toward the staff",
+      "vazia": true
+    },
+    {
+      "trecho": "Ele escolheu cinco pedras lisas no riacho e as guardou na bolsa de pastor.",
+      "prompt_imagem": "close-up of a shallow clear stream over pebbles, a young hand picking up a smooth round stone, sunlight sparkling on the water",
+      "prompt_movimento": "the water flows and sparkles gently, light ripples on the stones, slow camera push-in",
+      "vazia": true
+    },
+    {
+      "trecho": "Golias o desprezou, porque viu que era só um rapaz.",
+      "prompt_imagem": "low-angle view up at a towering bronze helmet and bronze scale armor against a stormy sky, the top of a huge spear, dramatic god rays",
+      "prompt_movimento": "storm clouds roll slowly behind, light rays shift, slow camera tilt up",
+      "vazia": true
+    },
+    {
+      "trecho": "Davi disse: Você vem com espada; eu vou em nome do Senhor dos Exércitos.",
+      "prompt_imagem": "a leather shepherd's sling and five smooth stones resting on a flat rock, a bright beam of heavenly light breaking through clouds over the valley",
+      "prompt_movimento": "the beam of light grows brighter, dust sparkles in the light, slow camera push-in",
+      "vazia": true
+    },
+    {
+      "trecho": "Correu ao encontro dele, girou a funda, e a pedra atingiu o filisteu na testa.",
+      "prompt_imagem": "high-angle wide view of the valley floor, a tiny distant young shepherd running toward a tiny distant giant warrior in bronze armor, dust clouds, golden light",
+      "prompt_movimento": "dust clouds rise and drift, light shifts across the valley, slow camera glide forward",
+      "vazia": false
+    },
+    {
+      "trecho": "O gigante caiu com o rosto em terra. Davi venceu sem espada na mão.",
+      "prompt_imagem": "a huge bronze helmet lying in the dust of the valley, a small smooth stone beside it, a giant bronze shield fallen nearby, golden sunlight and settling dust",
+      "prompt_movimento": "dust settles slowly in the sunlight, light grows warmer, slow camera pull-back",
+      "vazia": true
+    },
+    {
+      "trecho": "A batalha é do Senhor. Primeiro Samuel, capítulo dezessete.",
+      "prompt_imagem": "wide aerial view of the Valley of Elah at sunset, the two hills and the stream bed, volumetric heavenly light pouring from the clouds",
+      "prompt_movimento": "slow aerial camera rise, sun rays sweep across the valley, clouds drift",
+      "vazia": true
+    },
+    {
+      "trecho": "O gigante que você enfrenta hoje não é maior que o seu Deus.",
+      "prompt_imagem": "a single smooth stone on a rock at the edge of a quiet stream, golden light from above, dust floating in the beam",
+      "prompt_movimento": "the stream flows gently, dust floats in the beam of light, slow camera push-in",
+      "vazia": true
+    }
+  ],
+  "legenda": "Senhor, a batalha é tua 🪨🙏\n1 Samuel 17:45-47\nComente \"Amém\" se o seu Deus é maior que o seu gigante.",
+  "hashtags": ["#Davi", "#Golias", "#fé", "#Deus"],
+  "fontes": ["1 Samuel 17:1-11", "1 Samuel 17:16", "1 Samuel 17:40-50"]
+}
