@@ -1,4 +1,5 @@
 name: Animar com Wan 2.2 (Kaggle)
+run-name: "Animar ${{ inputs.roteiro }}"
 
 on:
   workflow_dispatch:
