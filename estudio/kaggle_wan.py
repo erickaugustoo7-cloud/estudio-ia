@@ -143,13 +143,26 @@ def _rodar_kaggle(cenas: list, pasta: Path, etapa: str = "video") -> tuple[Path,
             "dataset_sources": [], "competition_sources": [], "kernel_sources": []}
     (kdir / "kernel-metadata.json").write_text(json.dumps(meta))
     log("wan", f"script: {(kdir / 'script.py').stat().st_size / 1024:.0f} KB")
-    try:
-        log("wan", _kaggle("kernels", "push", "-p", str(kdir)).strip())
-    except RuntimeError as e:  # tenta de novo sem escolher a GPU (o Kaggle escolhe a disponível)
-        log("wan", f"push recusado ({e}); tentando sem machine_shape")
-        meta.pop("machine_shape", None)
-        (kdir / "kernel-metadata.json").write_text(json.dumps(meta))
-        log("wan", _kaggle("kernels", "push", "-p", str(kdir)).strip())
+    # Se uma sessão anterior (ex.: produção cancelada no GitHub) ainda roda no Kaggle, o push é recusado (400):
+    # espera ela terminar antes de enviar.
+    for _ in range(45):
+        st = _kaggle("kernels", "status", f"{usuario}/{SLUG}", check=False).lower()
+        if not any(x in st for x in ("running", "queued")):
+            break
+        log("wan", f"sessão anterior ainda ativa no Kaggle ({st.strip()[-40:]}) — aguardando")
+        time.sleep(120)
+    for tentativa in range(6):
+        try:
+            log("wan", _kaggle("kernels", "push", "-p", str(kdir)).strip())
+            break
+        except RuntimeError as e:
+            if tentativa == 5:
+                raise
+            log("wan", f"push recusado ({str(e)[-200:]}); nova tentativa em 5 min")
+            if tentativa == 1:  # sem escolher a GPU (o Kaggle escolhe a disponível)
+                meta.pop("machine_shape", None)
+                (kdir / "kernel-metadata.json").write_text(json.dumps(meta))
+            time.sleep(300)
     inicio, status = time.time(), ""
     while time.time() - inicio < float(os.getenv("WAN_LIMITE_MIN", "150")) * 60:
         time.sleep(60)
