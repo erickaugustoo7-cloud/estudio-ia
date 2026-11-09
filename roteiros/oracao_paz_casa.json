@@ -1,0 +1,65 @@
+{
+  "titulo": "Oração pela sua casa",
+  "gancho_tela": "Faça essa oração pela sua família",
+  "estilo": "pintura",
+  "narracao": "Se você carrega o peso da sua casa, faça essa oração comigo. Feche os olhos e repita. E no final, eu te conto a primeira frase que Jesus mandou dizer ao entrar numa casa. Senhor Jesus, eu te entrego a minha casa. Cada pessoa que dorme debaixo deste teto. Onde tem briga, coloca a tua paz. Onde tem cansaço, dá descanso. Me ensina a ser firme e paciente com quem eu amo. E que ninguém aqui se sinta sozinho. Amém. Sabe essa paz que você acabou de pedir? Jesus mandou levar ela para dentro das casas. Ele enviou seus discípulos de dois em dois, para as cidades por onde ele ia passar. E deu uma ordem simples: ao entrarem numa casa, digam primeiro: paz seja nesta casa. Lucas, capítulo dez. E mandou que ficassem ali, comendo e bebendo à mesa daquela família. Antes de qualquer conversa, a primeira coisa era a paz. E hoje, essa paz pode começar com você. Se você orou comigo, escreva Amém nos comentários. Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias.",
+  "cenas": [
+    {
+      "trecho": "Se você carrega o peso da sua casa, faça essa oração comigo.",
+      "busca_imagem": "man doorway house sunset",
+      "prompt_imagem": "a man in ancient robes seen from behind standing at the open wooden door of a small stone house at sunset, warm golden light spilling out from inside, long shadows, strong contrast"
+    },
+    {
+      "trecho": "Feche os olhos e repita. E no final, eu te conto a primeira frase que Jesus mandou dizer ao entrar numa casa.",
+      "busca_imagem": "oil lamp doorway night",
+      "prompt_imagem": "a single oil lamp glowing on the stone threshold of an ancient house at dusk, the door half open, warm light inside"
+    },
+    {
+      "trecho": "Senhor Jesus, eu te entrego a minha casa. Cada pessoa que dorme debaixo deste teto.",
+      "busca_imagem": "man praying at night",
+      "prompt_imagem": "a man seen from behind kneeling in prayer in a dim ancient room at night, hands folded, a small lamp beside him, family sleeping in the shadows"
+    },
+    {
+      "trecho": "Onde tem briga, coloca a tua paz. Onde tem cansaço, dá descanso.",
+      "busca_imagem": "quiet house night window",
+      "prompt_imagem": "a small quiet house with one warm lit window under a starry night sky, peaceful village, soft moonlight"
+    },
+    {
+      "trecho": "Me ensina a ser firme e paciente com quem eu amo. E que ninguém aqui se sinta sozinho. Amém.",
+      "busca_imagem": "father family table lamp",
+      "prompt_imagem": "a father seen from behind sitting at a simple wooden table with his family in silhouette, a single oil lamp between them, warm golden glow"
+    },
+    {
+      "trecho": "Sabe essa paz que você acabou de pedir? Jesus mandou levar ela para dentro das casas.",
+      "busca_imagem": "ancient village road dusk",
+      "prompt_imagem": "a dusty road leading into an ancient village of stone houses at golden hour, warm light, peaceful"
+    },
+    {
+      "trecho": "Ele enviou seus discípulos de dois em dois, para as cidades por onde ele ia passar.",
+      "busca_imagem": "two travelers ancient road",
+      "prompt_imagem": "two men in ancient robes seen from behind walking together on a dirt road toward a distant village on a hill, golden afternoon light"
+    },
+    {
+      "trecho": "E deu uma ordem simples: ao entrarem numa casa, digam primeiro: paz seja nesta casa. Lucas, capítulo dez. E mandou que ficassem ali, comendo e bebendo à mesa daquela família.",
+      "busca_imagem": "travelers welcomed house",
+      "prompt_imagem": "two travelers in robes seen from behind being welcomed at the doorway of a humble stone house, a family in shadow inside around bread and a lamp"
+    },
+    {
+      "trecho": "Antes de qualquer conversa, a primeira coisa era a paz. E hoje, essa paz pode começar com você. Se você orou comigo, escreva Amém nos comentários. Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias.",
+      "busca_imagem": "house lamp window night peace",
+      "prompt_imagem": "an ancient stone house at night with warm lamplight glowing from the doorway, a calm starry sky above, deeply peaceful"
+    }
+  ],
+  "legenda": "Senhor, coloca a tua paz na minha casa 🙏🏠\nLucas 10:5\nSe você orou comigo, escreva Amém 🙏 e envie para quem você ama",
+  "hashtags": [
+    "#oraçãopelafamília",
+    "#paz",
+    "#Lucas10",
+    "#Jesus"
+  ],
+  "fontes": [
+    "Lucas 10:1 (Jesus envia os discípulos de dois em dois às cidades por onde ia passar)",
+    "Lucas 10:5 ('Ao entrarem numa casa, digam primeiro: Paz seja nesta casa!')",
+    "Lucas 10:7 ('Fiquem na mesma casa, comendo e bebendo do que eles tiverem')"
+  ]
+}

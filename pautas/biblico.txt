@@ -2,7 +2,6 @@
 # Linhas começando com # são ignoradas. Fila vazia = o Diretor cria pautas sozinho.
 # Foco atual: Jesus como personagem principal, em momentos de emoção nos Evangelhos.
 # Radar 04/11 — formato "oração guiada com Jesus" quando indicado (cena de Jesus + oração curta que a pessoa repete; CTA "escreva Amém")
-Oração pela sua casa e sua família: "a paz seja nesta casa" (Lucas 10:5) — formato oração guiada
 Oração para quem está doente: "Senhor, se quiseres, podes me purificar" (Mateus 8:1-3) — formato oração guiada
 # Radar 08/11 — curiosidade bíblica com Jesus no centro; "o momento em que Jesus salvou"; público ~75% homens
 Pedro afundando no mar: Jesus estendeu a mão no último segundo (Mateus 14:28-31) — estilo "o momento em que Jesus salvou"
