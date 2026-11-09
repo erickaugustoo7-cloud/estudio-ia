@@ -298,7 +298,8 @@ def youtube_upload(video: Path, titulo: str, descricao: str, tags: list[str] | N
     ini = requests.post("https://www.googleapis.com/upload/youtube/v3/videos?uploadType=resumable&part=snippet,status",
                         headers={**auth, "X-Upload-Content-Type": "video/mp4",
                                  "X-Upload-Content-Length": str(video.stat().st_size)}, json=meta, timeout=60)
-    ini.raise_for_status()
+    if not ini.ok:  # mostra o motivo que o YouTube devolveu (ex.: uploadLimitExceeded, invalidTags)
+        raise RuntimeError(f"YouTube {ini.status_code}: {ini.text[:600]}")
     with open(video, "rb") as f:
         up = requests.put(ini.headers["Location"], headers={**auth, "Content-Type": "video/mp4"}, data=f, timeout=1800)
     up.raise_for_status()
