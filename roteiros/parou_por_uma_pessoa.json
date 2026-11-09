@@ -1,0 +1,64 @@
+{
+  "titulo": "Jesus parou por uma só pessoa",
+  "gancho_tela": "No meio da multidão, ele parou",
+  "estilo": "pintura",
+  "narracao": "Jesus estava com pressa. Mesmo assim, ele parou por uma só pessoa. Era uma mulher que ninguém enxergava. Está em Lucas, capítulo oito. Mas por que parar logo ali? Um pai, Jairo, implorou que Jesus fosse à sua casa. A filha única dele, de uns doze anos, estava morrendo. No caminho, a multidão o apertava. No meio dela, uma mulher sofria de hemorragia fazia doze anos. Gastou tudo com médicos, e ninguém conseguiu curá-la. Ela chegou por trás e tocou na borda do manto. Na mesma hora, o sangramento parou. Jesus parou: quem me tocou? Pedro estranhou: Mestre, a multidão está te apertando. Mas Jesus insistiu: alguém me tocou. Sem ter como se esconder, ela veio tremendo, caiu aos pés dele e contou tudo, na frente de todos. E Jesus disse: filha, a sua fé a curou. Vá em paz. Ela já estava curada. Mas Jesus parou para que ela não fosse embora escondida, e para chamá-la de filha. Se você se sente invisível, Jesus não passa direto por você. Ele para. Salve este vídeo para ouvir de novo quando precisar, e siga para receber uma palavra de fé todos os dias.",
+  "cenas": [
+    {
+      "trecho": "Jesus estava com pressa. Mesmo assim, ele parou por uma só pessoa.",
+      "busca_imagem": "hand reaching robe light",
+      "prompt_imagem": "a woman's outstretched hand reaching through a dark crowd toward the glowing hem of a plain robe, a brilliant beam of golden sunlight falling on the hand, deep shadows around, strong contrast"
+    },
+    {
+      "trecho": "Era uma mulher que ninguém enxergava. Está em Lucas, capítulo oito. Mas por que parar logo ali?",
+      "busca_imagem": "woman cloak crowd behind",
+      "prompt_imagem": "a frail woman in a worn dark shawl seen from behind at the edge of a dense ancient crowd on a dusty road, golden afternoon light, she is small and unnoticed"
+    },
+    {
+      "trecho": "Um pai, Jairo, implorou que Jesus fosse à sua casa. A filha única dele, de uns doze anos, estava morrendo. No caminho, a multidão o apertava.",
+      "busca_imagem": "father kneeling ancient robes",
+      "prompt_imagem": "a desperate father in rich ancient robes seen from behind kneeling in the dust before a robed figure in shadow, a stone town by the Sea of Galilee, dramatic warm light"
+    },
+    {
+      "trecho": "No meio dela, uma mulher sofria de hemorragia fazia doze anos. Gastou tudo com médicos, e ninguém conseguiu curá-la.",
+      "busca_imagem": "poor woman empty purse",
+      "prompt_imagem": "a weary woman in ancient clothing seen from behind sitting alone in a bare stone room, an empty cloth purse on a wooden table, a single oil lamp"
+    },
+    {
+      "trecho": "Ela chegou por trás e tocou na borda do manto. Na mesma hora, o sangramento parou.",
+      "busca_imagem": "hand touching robe hem",
+      "prompt_imagem": "close-up of a woman's trembling hand reaching between people to touch the fringe of a plain robe, glowing golden light on the cloth, crowd in shadow"
+    },
+    {
+      "trecho": "Jesus parou: quem me tocou? Pedro estranhou: Mestre, a multidão está te apertando. Mas Jesus insistiu: alguém me tocou.",
+      "busca_imagem": "crowd stops road",
+      "prompt_imagem": "a robed man seen from behind standing still in the middle of a moving ancient crowd, everyone around him turning, a fisherman beside him gesturing, warm dramatic light"
+    },
+    {
+      "trecho": "Sem ter como se esconder, ela veio tremendo, caiu aos pés dele e contou tudo, na frente de todos.",
+      "busca_imagem": "woman kneeling crowd",
+      "prompt_imagem": "a woman in a dark shawl kneeling in the dust seen from behind before a robed figure in shadow, a circle of onlookers around, soft golden light falling on her"
+    },
+    {
+      "trecho": "E Jesus disse: filha, a sua fé a curou. Vá em paz. Ela já estava curada. Mas Jesus parou para que ela não fosse embora escondida, e para chamá-la de filha.",
+      "busca_imagem": "woman walking sunset peace",
+      "prompt_imagem": "a woman seen from behind walking upright down a road toward a warm golden sunset, her shawl lifted by the wind, peaceful and free"
+    },
+    {
+      "trecho": "Se você se sente invisível, Jesus não passa direto por você. Ele para. Salve este vídeo para ouvir de novo quando precisar, e siga para receber uma palavra de fé todos os dias.",
+      "busca_imagem": "man alone crowd light",
+      "prompt_imagem": "a lone man seen from behind standing still in a busy ancient marketplace while a beam of warm golden light falls only on him, everyone else blurred in motion"
+    }
+  ],
+  "legenda": "Senhor, obrigado por parar por mim 😭🙏\nLucas 8:42-48\nComente \"Amém\" e salve para ouvir de novo quando se sentir invisível.",
+  "hashtags": [
+    "#Jesus",
+    "#fé",
+    "#cura",
+    "#amordeDeus"
+  ],
+  "fontes": [
+    "Lucas 8:41-42 (Jairo aos pés de Jesus; a filha única de uns doze anos morrendo; a multidão apertava Jesus)",
+    "Lucas 8:43-48 (a mulher com hemorragia havia doze anos; gastou tudo com médicos; tocou na borda do manto; 'Quem me tocou?'; Pedro: 'Mestre, a multidão te aperta'; veio tremendo, caiu aos pés; 'Filha, a sua fé a curou. Vá em paz')"
+  ]
+}
