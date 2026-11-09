@@ -189,7 +189,8 @@ def instagram_reel_por_url(token: str, ig_id: str, fb_video_id: str, legenda: st
 def facebook_reel(token: str, page_id: str, video: Path, descricao: str) -> dict:
     ini = requests.post(f"{FB_API}/{page_id}/video_reels", data={"upload_phase": "start", "access_token": token},
                         timeout=60)
-    ini.raise_for_status()
+    if not ini.ok:  # mostra o motivo que o YouTube devolveu (ex.: uploadLimitExceeded, invalidTags)
+        raise RuntimeError(f"YouTube {ini.status_code}: {ini.text[:600]}")
     vid = ini.json()["video_id"]
     dados = video.read_bytes()
     up = requests.post(ini.json().get("upload_url") or f"https://rupload.facebook.com/video-upload/v23.0/{vid}",
