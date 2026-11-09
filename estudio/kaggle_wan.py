@@ -10,6 +10,7 @@ Precisa dos segredos KAGGLE_USERNAME e KAGGLE_KEY (conta com telefone verificado
 """
 import base64
 import shutil
+import hashlib
 import json
 import re
 import os
@@ -163,11 +164,20 @@ def _rodar_kaggle(cenas: list, pasta: Path, etapa: str = "video") -> tuple[Path,
                 meta.pop("machine_shape", None)
                 (kdir / "kernel-metadata.json").write_text(json.dumps(meta))
             time.sleep(300)
-    inicio, status = time.time(), ""
+    inicio, status, repush, na_fila = time.time(), "", 0, None
     while time.time() - inicio < float(os.getenv("WAN_LIMITE_MIN", "150")) * 60:
         time.sleep(60)
         status = _kaggle("kernels", "status", f"{usuario}/{SLUG}", check=False)
         log("wan", f"{(time.time() - inicio) / 60:.0f} min — {status.strip()[-60:]}")
+        if "queued" in status.lower():  # parado na fila do Kaggle: uma nova versão costuma destravar
+            na_fila = na_fila or time.time()
+            if time.time() - na_fila > 20 * 60 and repush < 3:
+                repush += 1
+                log("wan", f"20 min na fila do Kaggle — reenviando (tentativa {repush}/3)")
+                _kaggle("kernels", "push", "-p", str(kdir), check=False)
+                na_fila = time.time()
+        else:
+            na_fila = None
         if any(x in status.lower() for x in ("complete", "error", "cancel")):
             break
     saida = pasta / f"kaggle_{etapa}"
@@ -329,9 +339,24 @@ def main():
                     txt = " ".join(c["trecho"] for c in g)
                     if so_gemini:
                         from estudio.agentes import narrador_gemini
-                        for tent in range(1, 4):
+                        # cache da voz: refazer um vídeo não gasta de novo a cota diária da Gemini
+                        cache = Path(os.getenv("VOZ_CACHE", Path.home() / ".cache" / "estudio-voz"))
+                        chave_v = hashlib.sha1(json.dumps([cfg.get("gemini_tts"), cfg.get("voz"), txt],
+                                                          ensure_ascii=False, sort_keys=True).encode()).hexdigest()
+                        if (cache / f"{chave_v}.mp3").exists() and (cache / f"{chave_v}.json").exists():
+                            mp3k = sub / "voz.mp3"
+                            shutil.copy(cache / f"{chave_v}.mp3", mp3k)
+                            palk, durk = json.loads((cache / f"{chave_v}.json").read_text())
+                            log("wan", f"voz bloco {k + 1}: reaproveitada do cache (sem gastar cota)")
+                            tent = 0
+                        else:
+                            tent = 1
+                        for tent in range(tent, 4) if tent else ():
                             try:
                                 mp3k, palk, durk = narrador_gemini.narrar(cfg, txt, sub, narrador.duracao)
+                                cache.mkdir(parents=True, exist_ok=True)
+                                shutil.copy(mp3k, cache / f"{chave_v}.mp3")
+                                (cache / f"{chave_v}.json").write_text(json.dumps([palk, durk]))
                                 break
                             except Exception as e:  # noqa: BLE001
                                 log("wan", f"voz Gemini bloco {k + 1} tentativa {tent}/3 falhou ({e})")

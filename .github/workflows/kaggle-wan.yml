@@ -23,7 +23,7 @@ permissions:
 jobs:
   wan:
     runs-on: ubuntu-latest
-    timeout-minutes: 300
+    timeout-minutes: 355
     env:
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -82,8 +82,21 @@ jobs:
           echo "KAGGLE_USERNAME: ${KAGGLE_USERNAME:+definido} · KAGGLE_KEY: ${KAGGLE_KEY:+definido} · KAGGLE_API_TOKEN: ${KAGGLE_API_TOKEN:+definido}"
           [ -n "$KAGGLE_USERNAME" ] && { [ -n "$KAGGLE_KEY" ] || [ -n "$KAGGLE_API_TOKEN" ]; } || { echo "::error::Faltam os segredos do Kaggle"; exit 1; }
           python -m kaggle kernels list --mine --page-size 1 >/dev/null && echo "login no Kaggle ok"
+      - name: Cache da narração (refazer não gasta a cota da Gemini)
+        uses: actions/cache/restore@v4
+        with:
+          path: ~/.cache/estudio-voz
+          key: voz-${{ hashFiles(inputs.roteiro) }}-${{ github.run_id }}
+          restore-keys: voz-${{ hashFiles(inputs.roteiro) }}-
       - name: Animar
         run: python -m estudio.kaggle_wan ${{ inputs.roteiro }}
+      - name: Guardar a narração no cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: ~/.cache/estudio-voz
+          key: voz-${{ hashFiles(inputs.roteiro) }}-${{ github.run_id }}
+        continue-on-error: true
       - name: Guardar prévias (branch previas)
         if: always()
         run: |
