@@ -492,6 +492,16 @@ def main():
                                    "morphing, bending over, sudden pose change, turning around, looking at the camera, head turning, "
                                    "face appearing, faces, cartoon face on objects, anthropomorphic objects, mascot, characters, "
                                    "person entering, text, watermark, distorted body, flicker")})
+    # O Kaggle recusa (erro 400) script acima de ~1 MB: se as imagens somarem demais, comprime mais
+    for q in ("8", "12", "16", "22"):
+        if sum(len(c["img"]) for c in cenas) < 700_000:
+            break
+        for c in cenas:
+            peq = pasta / f"cena_{c['idx']}_wan.jpg"
+            subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(imgs[c["idx"]]), "-vf",
+                            "scale=832:480" if horiz else "scale=480:832", "-q:v", q, str(peq)], check=True)
+            c["img"] = base64.b64encode(peq.read_bytes()).decode()
+        log("wan", f"pacote de imagens comprimido (q={q}): {sum(len(c['img']) for c in cenas) // 1024} KB")
 
     # 3) animação no Kaggle
     por_idx = {c["idx"]: c for c in cenas}

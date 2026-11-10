@@ -67,7 +67,7 @@
     },
     {
       "trecho": "Você não temerá o pavor da noite, nem a flecha que voa de dia. Senhor, eu entrego a você os medos que aparecem quando a luz se apaga. A ansiedade, os pensamentos que não param, o coração acelerado. Acalma tudo dentro de mim.",
-      "prompt_imagem": "a calm still lake at night reflecting the full moon and the stars, mist on the water",
+      "prompt_imagem": "a calm still wilderness lake at night reflecting the full moon and the stars, mist on the water, dark empty shores, untouched nature",
       "vazia": true,
       "animar": true,
       "prompt_movimento": "mist drifts slowly over the still water, the moon reflection shimmers gently"
@@ -86,7 +86,7 @@
     },
     {
       "trecho": "Se você fizer do Altíssimo o seu abrigo, nenhum mal o atingirá, desgraça nenhuma chegará à sua tenda. Senhor, esta casa é sua. Este quarto é seu. Esta cama, este descanso, este sono, tudo eu consagro a você esta noite.",
-      "prompt_imagem": "a goat-hair tent glowing softly from inside with warm lamp light, in a quiet field under the stars",
+      "prompt_imagem": "a low black bedouin tent of dark woven goat hair with wooden poles, a faint warm glow at its open side, in a quiet field under the stars",
       "vazia": true,
       "animar": false
     },
@@ -123,7 +123,7 @@
     },
     {
       "trecho": "Ele clamará a mim, e eu lhe darei resposta. Pai, tem orações minhas que ainda esperam resposta. Eu não desisto delas. Eu confio no seu tempo. Você ouve cada uma, mesmo as que eu só consegui chorar.",
-      "prompt_imagem": "an open clay saucer oil lamp with a tiny flame beside a clay water jar on a rough stone windowsill, starry night outside",
+      "prompt_imagem": "a small shallow clay bowl oil lamp with a bare tiny flame on its rim, beside a clay water jar on a rough stone windowsill, starry night outside",
       "vazia": true,
       "animar": false
     },
