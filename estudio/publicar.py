@@ -23,7 +23,7 @@ def main():
     ap.add_argument("--issue", required=True)
     n = ap.parse_args().issue
 
-    info = json.loads(gh("issue", "view", n, "--json", "body,labels,state,comments"))
+    info = json.loads(gh("issue", "view", n, "--json", "body,labels,state,comments,createdAt"))
     etiquetas = {l["name"] for l in info["labels"]}
     if "publicado" in etiquetas or info["state"] != "OPEN":
         log("publicar", "issue já publicada ou fechada — nada a fazer (evita post duplicado)")
@@ -66,6 +66,14 @@ def main():
     if roteiro.get("plataformas"):  # ex.: filme longo vai só para o YouTube
         canal = {**canal, "publicar_em": [p for p in canal["publicar_em"] if p in roteiro["plataformas"]]}
         log("publicar", f"plataformas do vídeo: {', '.join(canal['publicar_em'])}")
+    # Vídeos feitos antes de 09/11/2026 09:15 UTC usam trilhas da Pixabay, que o Content ID do YouTube reivindica:
+    # com mais de 60 s o Short é bloqueado no mundo todo. Esses não vão para o YouTube (seguem para as outras redes).
+    if "youtube" in canal["publicar_em"] and info.get("createdAt", "9") < "2026-11-09T09:15:00Z":
+        dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0",
+                                    str(video)], capture_output=True, text=True).stdout.strip() or 0)
+        if dur > 60:
+            canal = {**canal, "publicar_em": [p for p in canal["publicar_em"] if p != "youtube"]}
+            log("publicar", f"música antiga (Pixabay) e {dur:.0f}s: fora do YouTube para não ser bloqueado")
     res = publicador.publicar(canal, video, dados["texto_post"], fb_video_id=fb_ant,
                               titulo=roteiro.get("titulo_youtube") or roteiro.get("titulo", ""), tags=roteiro.get("hashtags"))
 
