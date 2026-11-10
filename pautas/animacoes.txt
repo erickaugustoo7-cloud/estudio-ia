@@ -1,6 +1,5 @@
 # Fila das animações (estilo cinematográfico): alterna 'Parte N' da série Os milagres de Jesus e 'Marcante' (passagens marcantes, sem selo de série).
 # A primeira linha não comentada é usada e removida.
-Parte 3 | Jesus acalma a tempestade (Marcos 4:35-41)
 Marcante | Moisés e o mar Vermelho se abre (Êxodo 14:21-31)
 Parte 4 | A multiplicação dos pães e peixes (João 6:5-13)
 Parte 5 | Jesus anda sobre as águas e segura Pedro (Mateus 14:25-31)

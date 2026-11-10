@@ -1,0 +1,84 @@
+{
+  "titulo": "Jesus acalma a tempestade",
+  "gancho_tela": "Até o vento obedeceu",
+  "referencia": "Marcos 4:39",
+  "serie": "Os milagres de Jesus",
+  "parte": 3,
+  "duracao_max": 90,
+  "volume_musica": 0.12,
+  "estilo_imagem": "cinematic photorealistic epic film still, dramatic volumetric god rays, floating dust particles, deep chiaroscuro, first century Galilee, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic epic film shot, slow and subtle motion.",
+  "epoca_imagem": "Sea of Galilee, first century AD, small wooden fishing boats with one square linen sail, steep brown hills around the lake, wood, rope, stone and linen only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "Fim de tarde na Galileia. Jesus disse: Vamos para o outro lado do lago.",
+      "prompt_imagem": "wide aerial view of the Sea of Galilee at golden sunset, a small wooden fishing boat with one square sail leaving a stone harbor, a few other boats behind, hills around the lake",
+      "prompt_movimento": "slow aerial camera glide forward over the water, the sail moves gently in the breeze, golden light shimmers on the lake",
+      "vazia": true
+    },
+    {
+      "trecho": "O mar da Galileia fica entre montes, e ventos fortes descem de repente sobre a água.",
+      "prompt_imagem": "high wide view from the steep hills down to the Sea of Galilee, dark storm clouds pouring over the mountain ridges toward the lake, last light of dusk",
+      "prompt_movimento": "dark clouds roll slowly down the hills toward the lake, grass bends in the wind, slow camera push forward",
+      "vazia": true
+    },
+    {
+      "trecho": "Veio um forte vendaval. As ondas quebravam sobre o barco, que começava a encher.",
+      "prompt_imagem": "high-angle view of a small wooden fishing boat tossed by huge dark waves at night, water pouring over the side, torn square sail, lightning in the clouds",
+      "prompt_movimento": "the boat rocks on crashing waves, rain pours, lightning flashes, the sail flaps in the wind, slow camera descent",
+      "vazia": true
+    },
+    {
+      "trecho": "Vários discípulos eram pescadores. Conheciam aquele mar, e mesmo assim tiveram medo.",
+      "prompt_imagem": "close view inside a storm-tossed wooden boat at night, tangled fishing nets, wooden oars and seawater sloshing over the planks, lightning above",
+      "prompt_movimento": "seawater sloshes across the planks, the nets and oars shift with the rocking boat, rain falls, lightning flickers",
+      "vazia": true
+    },
+    {
+      "trecho": "E Jesus? Dormia na popa do barco, sobre um travesseiro.",
+      "prompt_imagem": "the stern of an ancient wooden fishing boat at night, a simple leather cushion on the wooden deck, wet rope coils, a flash of lightning in the dark sky",
+      "prompt_movimento": "rain drops fall on the cushion and deck, the boat rocks gently, lightning flickers, slow camera push-in",
+      "vazia": true
+    },
+    {
+      "trecho": "Eles o acordaram e gritaram: Mestre, não te importas se morrermos?",
+      "prompt_imagem": "very high aerial view of a tiny wooden boat in a vast black stormy sea at night, white foam of giant waves, tiny distant figures in the boat, lightning",
+      "prompt_movimento": "giant waves roll slowly around the tiny boat, lightning flashes in the clouds, slow aerial camera descent",
+      "vazia": false
+    },
+    {
+      "trecho": "Jesus se levantou, repreendeu o vento e disse ao mar: Aquiete-se! Acalme-se!",
+      "prompt_imagem": "wide high view of a small wooden boat on a stormy sea, a tiny distant standing figure at the bow, a beam of light breaking through the black clouds onto the boat",
+      "prompt_movimento": "the beam of light grows brighter, the waves begin to settle, clouds swirl slowly, slow camera push-in",
+      "vazia": false
+    },
+    {
+      "trecho": "O vento parou, e tudo ficou completamente calmo.",
+      "prompt_imagem": "wide aerial view of the Sea of Galilee perfectly calm like a mirror, a small wooden boat alone at the center, storm clouds parting, moonlight god rays on the water",
+      "prompt_movimento": "clouds part slowly and moonlight spreads across the still water, tiny ripples fade, slow aerial camera glide",
+      "vazia": true
+    },
+    {
+      "trecho": "Ele perguntou: Por que vocês estão com tanto medo? Ainda não têm fé?",
+      "prompt_imagem": "close view of the wet wooden planks of an ancient boat on calm water, a soaked fishing net and a still oar, soft moonlight reflections",
+      "prompt_movimento": "water drops fall slowly from the net, soft moonlight reflections shimmer on the wood, slow camera push-in",
+      "vazia": true
+    },
+    {
+      "trecho": "Apavorados, perguntavam: Quem é este, que até o vento e o mar lhe obedecem? Marcos, quatro.",
+      "prompt_imagem": "high wide view of a small wooden boat on a calm moonlit lake, tiny distant figures on board, hills around the lake, mist on the water",
+      "prompt_movimento": "mist drifts slowly over the still water, moonlight shimmers, slow camera pull-back and rise",
+      "vazia": false
+    },
+    {
+      "trecho": "Sua tempestade também obedece a ele. Siga para ver o próximo milagre.",
+      "prompt_imagem": "golden sunrise over the calm Sea of Galilee, a small wooden boat far away near the shore, warm god rays through soft clouds, hills around the lake",
+      "prompt_movimento": "golden sunlight spreads across the calm water, the boat drifts slowly, soft clouds move, slow camera rise",
+      "vazia": true
+    }
+  ],
+  "legenda": "Senhor, acalma a tempestade dentro de mim 🌊🙏 (Parte 3)\nMarcos 4:35-41\nComente Amém e siga a série 🙏",
+  "hashtags": ["#Jesus", "#milagresdeJesus", "#tempestade", "#Marcos4", "#fé"],
+  "fontes": ["Marcos 4:35-41"]
+}
