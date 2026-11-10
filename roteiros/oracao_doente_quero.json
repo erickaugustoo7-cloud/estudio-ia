@@ -1,0 +1,66 @@
+{
+  "titulo": "Oração para quem está doente",
+  "gancho_tela": "Faça essa oração por quem está doente",
+  "estilo": "pintura",
+  "narracao": "Se você ou quem você ama está doente, faça essa oração comigo. Feche os olhos e repita. E no final, eu te conto a primeira palavra que Jesus disse a um homem doente. Senhor Jesus, tu conheces esse corpo cansado e essa dor. Eu não sei o que vai acontecer, mas sei que tu estás aqui. Toca em mim e em quem eu amo, do jeito que só tu sabes tocar. Dá força para os dias difíceis. Tira o medo do meu coração. Seja feita a tua vontade, e que eu nunca me sinta sozinho. Amém. Sabe esse toque que você acabou de pedir? Jesus fez isso. Está em Mateus, capítulo oito. Um leproso se prostrou diante dele e disse: Senhor, se quiseres, podes me purificar. Pela Lei, quem tinha lepra vivia isolado, longe de todos. Mas Jesus estendeu a mão e tocou nele. E a primeira palavra que ele disse foi: quero. Ele não ficou de longe. E não fica de longe de você. Se você orou comigo, escreva Amém nos comentários. Salve este vídeo para ouvir de novo quando precisar, e siga para receber uma palavra de fé todos os dias.",
+  "cenas": [
+    {
+      "trecho": "Se você ou quem você ama está doente, faça essa oração comigo.",
+      "busca_imagem": "hand reaching golden light",
+      "prompt_imagem": "a weary man seen from behind sitting on the edge of a simple bed at dawn, one hand reaching toward a bright beam of golden sunlight pouring through a small stone window, dark room, strong contrast"
+    },
+    {
+      "trecho": "Feche os olhos e repita. E no final, eu te conto a primeira palavra que Jesus disse a um homem doente.",
+      "busca_imagem": "candle bible dawn",
+      "prompt_imagem": "a single lit oil lamp beside an open ancient scroll on a wooden table in a dim room at early dawn, warm golden glow, deep shadows"
+    },
+    {
+      "trecho": "Senhor Jesus, tu conheces esse corpo cansado e essa dor. Eu não sei o que vai acontecer, mas sei que tu estás aqui.",
+      "busca_imagem": "person praying bedside",
+      "prompt_imagem": "a person seen from behind kneeling beside a bed in prayer, hands folded, soft morning light from the window"
+    },
+    {
+      "trecho": "Toca em mim e em quem eu amo, do jeito que só tu sabes tocar. Dá força para os dias difíceis.",
+      "busca_imagem": "hand holding hand bed",
+      "prompt_imagem": "a man in ancient robes seen from behind sitting beside a sick loved one lying on a simple bed, gently holding their hand, lamplight in a stone room"
+    },
+    {
+      "trecho": "Tira o medo do meu coração. Seja feita a tua vontade, e que eu nunca me sinta sozinho. Amém.",
+      "busca_imagem": "sunrise light clouds",
+      "prompt_imagem": "soft golden sunlight breaking through dark clouds over quiet hills at sunrise, deeply peaceful"
+    },
+    {
+      "trecho": "Sabe esse toque que você acabou de pedir? Jesus fez isso. Está em Mateus, capítulo oito.",
+      "busca_imagem": "crowd descending mountain",
+      "prompt_imagem": "a large crowd in ancient robes seen from behind following a robed man down a grassy mountain path in golden afternoon light, Galilee"
+    },
+    {
+      "trecho": "Um leproso se prostrou diante dele e disse: Senhor, se quiseres, podes me purificar. Pela Lei, quem tinha lepra vivia isolado, longe de todos.",
+      "busca_imagem": "leper kneeling ancient road",
+      "prompt_imagem": "a ragged man wrapped in torn cloth kneeling on a dusty road with his face bowed to the ground, seen from the side in shadow, a robed figure standing before him, golden light"
+    },
+    {
+      "trecho": "Mas Jesus estendeu a mão e tocou nele. E a primeira palavra que ele disse foi: quero. Ele não ficou de longe. E não fica de longe de você.",
+      "busca_imagem": "hand touching shoulder light",
+      "prompt_imagem": "close view of a robed man's hand reaching out to touch the shoulder of a kneeling man in torn cloth, both in silhouette, warm golden light behind them"
+    },
+    {
+      "trecho": "Se você orou comigo, escreva Amém nos comentários. Salve este vídeo para ouvir de novo quando precisar, e siga para receber uma palavra de fé todos os dias.",
+      "busca_imagem": "sunrise hope hills",
+      "prompt_imagem": "a gentle golden sunrise over misty Galilean hills and a calm lake, hopeful and calm"
+    }
+  ],
+  "legenda": "Senhor, toca em mim e em quem eu amo 🙏❤️\nMateus 8:1-3\nSe você orou comigo, escreva Amém 🙏 e salve para orar de novo",
+  "hashtags": [
+    "#oraçãopelasaúde",
+    "#Mateus8",
+    "#Jesuscura",
+    "#oração"
+  ],
+  "fontes": [
+    "Mateus 8:1 (Jesus desce do monte, multidões o seguem)",
+    "Mateus 8:2 ('Senhor, se quiseres, podes purificar-me')",
+    "Mateus 8:3 (Jesus estendeu a mão, tocou nele e disse: 'Quero. Seja purificado!')",
+    "Levítico 13:45-46 (o leproso vivia isolado, fora do acampamento)"
+  ]
+}
