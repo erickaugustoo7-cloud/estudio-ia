@@ -19,6 +19,11 @@ if r.get("formato") == "horizontal":  # vídeo longo do YouTube (docs/MANUAL_LON
     for campo in ("titulo_youtube", "texto_capa", "cena_capa", "legenda", "hashtags"):
         if not r.get(campo) and r.get(campo) != 0:
             erros.append(f"falta o campo {campo}")
+    if not oracao and len(r.get("capitulos", [])) < 3:
+        erros.append("filme sem capitulos (mínimo 3) — veja docs/MANUAL_LONGOS.md")
+    for linha in r.get("texto_capa", []):
+        if len(linha.split()) > 3:
+            erros.append(f"texto_capa longo demais: '{linha}' (até 3 palavras por linha)")
     if r.get("plataformas") != ["youtube"]:
         erros.append('plataformas deve ser ["youtube"]')
     if len(r.get("titulo_youtube", "")) > 100:

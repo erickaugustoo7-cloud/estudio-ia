@@ -726,7 +726,58 @@
   ],
   "cena_capa": 18,
   "texto_capa": [
-    "JOSÉ",
-    "DO EGITO"
-  ]
+    "VENDIDO",
+    "PELOS IRMÃOS"
+  ],
+  "capitulos": [
+    {
+      "cena": 0,
+      "titulo": "Traído, vendido e esquecido"
+    },
+    {
+      "cena": 4,
+      "titulo": "O filho amado e os sonhos"
+    },
+    {
+      "cena": 16,
+      "titulo": "A cisterna e a caravana"
+    },
+    {
+      "cena": 28,
+      "titulo": "Escravo na casa de Potifar"
+    },
+    {
+      "cena": 36,
+      "titulo": "Na prisão: os sonhos do copeiro e do padeiro"
+    },
+    {
+      "cena": 44,
+      "titulo": "Os sonhos do faraó"
+    },
+    {
+      "cena": 52,
+      "titulo": "Governador do Egito"
+    },
+    {
+      "cena": 60,
+      "titulo": "Os irmãos chegam ao Egito"
+    },
+    {
+      "cena": 76,
+      "titulo": "A taça de prata"
+    },
+    {
+      "cena": 80,
+      "titulo": "Eu sou José"
+    },
+    {
+      "cena": 88,
+      "titulo": "Jacó vai ao Egito"
+    },
+    {
+      "cena": 92,
+      "titulo": "Deus tornou o mal em bem"
+    }
+  ],
+  "rodape_capa": "Filme completo · José do Egito"
 }

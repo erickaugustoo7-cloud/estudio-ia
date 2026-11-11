@@ -711,13 +711,38 @@ def main():
         t0 += d
     if horiz:  # miniatura do YouTube a partir da ilustração mais forte (sem legendas)
         k = int(r.get("cena_capa", 0))
-        publicador.capa_youtube(imgs[min(k, len(imgs) - 1)], r.get("texto_capa") or [r["titulo"]], pasta / "thumb.jpg")
+        publicador.capa_youtube(imgs[min(k, len(imgs) - 1)], r.get("texto_capa") or [r["titulo"]], pasta / "thumb.jpg",
+                                selo=r.get("selo_capa") or ("Oração para dormir" if cauda else "Filme bíblico"),
+                                rodape=r.get("rodape_capa") or (f"+{cauda / 60:.0f} min de música" if cauda else "Filme completo"))
     roteiro = {"titulo": r["titulo"], "narracao": " ".join(c.get("trecho", "") for c in r["cenas"]),
                "legenda": r.get("legenda", r["titulo"]), "hashtags": r.get("hashtags", []), "fontes": r.get("fontes", []),
                "titulo_youtube": r.get("titulo_youtube"),
                "plataformas": r.get("plataformas") or (["youtube"] if total > 180 else None)}  # filme longo: só YouTube
     (pasta / "roteiro.json").write_text(json.dumps(roteiro, ensure_ascii=False, indent=2), encoding="utf-8")
     texto_post = montar_texto_post(canal, roteiro)
+    if horiz:  # descrição do YouTube: resumo + capítulos (marcadores de tempo) + referência + convite + hashtags
+        def _mmss(seg):
+            seg = int(seg)
+            return f"{seg // 3600}:{seg % 3600 // 60:02d}:{seg % 60:02d}" if seg >= 3600 else f"{seg // 60}:{seg % 60:02d}"
+        inicio = [sum(tempos[:i]) for i in range(len(tempos))]
+        caps = [(inicio[min(int(c["cena"]), len(inicio) - 1)], c["titulo"]) for c in r.get("capitulos", [])]
+        if not caps and cauda:  # oração: início, oração, música
+            caps = [(0, "Antes de dormir: respire e entregue o dia"), (inicio[1] if len(inicio) > 1 else 15,
+                    f"Oração com {r.get('referencia', 'a Palavra')}"), (total - cauda, f"Música para dormir ({cauda / 60:.0f} min)")]
+        if caps and caps[0][0] > 0:
+            caps.insert(0, (0, "Início"))
+        legenda = re.sub(r"\s*#\w+", "", r.get("legenda", r["titulo"])).strip()
+        partes = [legenda]
+        if len(caps) >= 3:
+            partes.append("⏱️ Capítulos\n" + "\n".join(f"{_mmss(t)} {nome}" for t, nome in caps))
+        if r.get("referencia"):
+            partes.append(f"📖 Leitura bíblica: {r['referencia']}")
+        partes.append("🔔 Inscreva-se no Mensageiro de Fé e ative o sininho: toda noite uma nova oração para dormir "
+                      "e toda semana um filme bíblico completo.")
+        tags = [("#" + x.lstrip("#").replace(" ", "")) for x in r.get("hashtags", [])][:5]
+        if tags:
+            partes.append(" ".join(tags))
+        texto_post = "\n\n".join(partes)
     (pasta / "post.txt").write_text(texto_post, encoding="utf-8")
     no_tg = publicador.telegram_video(video, f"🎨 [Animação Wan 2.2] {r['titulo']} · {total:.0f}s", texto_post)
     link = abrir_issue({**canal, "estilo_nome": "animação Wan 2.2"}, roteiro, texto_post, pasta, total,

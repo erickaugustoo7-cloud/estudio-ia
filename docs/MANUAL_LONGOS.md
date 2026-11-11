@@ -32,6 +32,12 @@ Nunca publique nada, nunca mexa em segredos/tokens, não altere o código do sis
   Ex.: "ORAÇÃO DA NOITE | Salmo 23 para Dormir em Paz", "MOISÉS | O Filme Bíblico (Êxodo 1–14)".
 - `texto_capa`: 2 linhas curtas para a miniatura (ex.: ["SALMO 23", "DURMA EM PAZ"]); `cena_capa`: índice da cena
   com a imagem mais forte (sem texto, sem gente em destaque).
+- **Capa que faz clicar (sem mentir):** `texto_capa` = 2 linhas de 1 a 3 palavras com a emoção ou o conflito
+  (filme: "VENDIDO" / "PELOS IRMÃOS", "O MAR" / "SE ABRIU"; oração: "SALMO 23" / "DURMA EM PAZ", "ANSIEDADE?" / "ORE COMIGO").
+  O selo ("FILME BÍBLICO"/"ORAÇÃO PARA DORMIR") e o rodapé ("+20 min de música"/"Filme completo") entram sozinhos;
+  troque com `selo_capa` / `rodape_capa` se quiser.
+- **Filme: `capitulos`** = lista `{"cena": índice, "titulo": "..."}` (8–14 capítulos). Viram os marcadores de tempo da
+  descrição (o YouTube mostra como capítulos e isso aumenta o tempo assistido). Orações ganham capítulos automáticos.
 - `legenda` (descrição do YouTube: resumo, versículo-chave com referência e convite para comentar "Amém" e se inscrever),
   `hashtags` (5), `fontes`.
 

@@ -231,42 +231,73 @@ def youtube_ativo() -> bool:
 FONTE_CAPA = "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf"
 
 
-def capa_youtube(origem: Path, linhas: list[str], destino: Path, segundo: float | None = None) -> Path | None:
-    """Miniatura 1280x720: imagem do filme escurecida à esquerda + título grande (dourado e branco).
+FONTES_CAPA = Path(__file__).resolve().parents[2] / "assets" / "fontes"
+
+
+def _fonte(nome: str, tam: int):
+    from PIL import ImageFont
+    for f in (FONTES_CAPA / nome, Path(FONTE_CAPA)):
+        try:
+            return ImageFont.truetype(str(f), tam)
+        except OSError:
+            continue
+    return ImageFont.load_default(size=tam)
+
+
+def capa_youtube(origem: Path, linhas: list[str], destino: Path, segundo: float | None = None,
+                 selo: str = "", rodape: str = "") -> Path | None:
+    """Miniatura 1280x720 chamativa: imagem viva e contrastada, faixa escura à esquerda, selo colorido no topo,
+    título enorme (1ª linha dourada, demais brancas) com contorno grosso e brilho, e um rodapé curto (ex.: "20 MIN").
     `origem` pode ser uma imagem ou o próprio vídeo (pega um quadro sem a faixa das legendas)."""
     try:
+        from PIL import Image, ImageDraw, ImageFilter
         ent = ["-ss", f"{segundo:.1f}", "-i", str(origem), "-frames:v", "1"] if segundo is not None else ["-i", str(origem)]
         recorte = "crop=iw*0.8:ih*0.8:iw*0.1:ih*0.02," if segundo is not None else ""  # evita as legendas do rodapé
         filtros = [f"{recorte}scale=1280:720:force_original_aspect_ratio=increase,crop=1280:720",
-                   "eq=contrast=1.12:saturation=1.2:brightness=-0.03"]
-        linhas = [x.upper() for x in linhas if x][:3]
+                   "eq=contrast=1.18:saturation=1.35:brightness=0.02:gamma=1.05", "unsharp=5:5:0.8"]
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *ent, "-vf", ",".join(filtros), "-q:v", "2", str(destino)],
                        check=True)
-        # texto com Pillow (o ffmpeg do Actions não tem o filtro drawtext)
-        from PIL import Image, ImageDraw, ImageFont
         img = Image.open(destino).convert("RGB")
-        sombra = Image.linear_gradient("L").rotate(90).resize((1280, 720))  # escuro à esquerda, some à direita
-        sombra = sombra.point(lambda v: int(max(0, v - 60) * 0.95))
-        img = Image.composite(Image.new("RGB", img.size, (0, 0, 0)), img, sombra)
-        d = ImageDraw.Draw(img)
-        tam = 132 if max(len(x) for x in linhas) <= 8 else 104 if max(len(x) for x in linhas) <= 12 else 80
-        try:
-            fonte = ImageFont.truetype(FONTE_CAPA, tam)
-        except OSError:
-            fonte = ImageFont.load_default(size=tam)
-        while max(d.textlength(x, font=fonte) for x in linhas) > 700 and tam > 50:  # cabe na faixa escura
+        # faixa escura à esquerda (some até o meio) + vinheta leve
+        grad = Image.linear_gradient("L").rotate(90).resize((1280, 720)).point(lambda v: int(max(0, v - 40) * 1.05))
+        img = Image.composite(Image.new("RGB", img.size, (8, 6, 4)), img, grad)
+        linhas = [x.upper() for x in linhas if x][:3]
+        larg_max, x0 = 700, 56
+        tam = 172 if max(len(x) for x in linhas) <= 8 else 150 if max(len(x) for x in linhas) <= 11 else 118
+        fonte = _fonte("Anton-Regular.ttf", tam)
+        medir = ImageDraw.Draw(img)
+        while max(medir.textlength(x, font=fonte) for x in linhas) > larg_max and tam > 60:
             tam -= 6
-            fonte = ImageFont.truetype(FONTE_CAPA, tam) if Path(FONTE_CAPA).exists() else ImageFont.load_default(size=tam)
-        y0 = 360 - len(linhas) * tam * 1.12 / 2
+            fonte = _fonte("Anton-Regular.ttf", tam)
+        alt_l = int(tam * 1.08)
+        y0 = int(372 - len(linhas) * alt_l / 2)
+        # brilho atrás do texto
+        brilho = Image.new("L", img.size, 0)
+        db = ImageDraw.Draw(brilho)
         for k, txt in enumerate(linhas):
-            y = y0 + k * tam * 1.12
-            d.text((64, y + 4), txt, font=fonte, fill=(0, 0, 0))  # sombra
-            d.text((60, y), txt, font=fonte, fill=(255, 210, 122) if k == 0 else (255, 255, 255),
-                   stroke_width=7, stroke_fill=(0, 0, 0))
+            db.text((x0, y0 + k * alt_l), txt, font=fonte, fill=255 if k == 0 else 120)
+        brilho = brilho.filter(ImageFilter.GaussianBlur(22))
+        img = Image.composite(Image.new("RGB", img.size, (255, 170, 40)), img, brilho.point(lambda v: int(v * 0.55)))
+        d = ImageDraw.Draw(img)
+        for k, txt in enumerate(linhas):
+            y = y0 + k * alt_l
+            d.text((x0 + 6, y + 8), txt, font=fonte, fill=(0, 0, 0))  # sombra
+            d.text((x0, y), txt, font=fonte, fill=(255, 205, 60) if k == 0 else (255, 255, 255),
+                   stroke_width=max(6, tam // 18), stroke_fill=(0, 0, 0))
+        if selo:  # etiqueta no topo (ex.: ORAÇÃO PARA DORMIR / FILME BÍBLICO)
+            fs = _fonte("Montserrat-Black.ttf", 34)
+            w = int(d.textlength(selo.upper(), font=fs))
+            d.rounded_rectangle((x0 - 4, 34, x0 + w + 36, 92), radius=14, fill=(200, 24, 32))
+            d.text((x0 + 16, 44), selo.upper(), font=fs, fill=(255, 255, 255))
+        if rodape:  # informação curta embaixo (ex.: 20 MIN DE MÚSICA / FILME COMPLETO)
+            fr = _fonte("Montserrat-Black.ttf", 30)
+            w = int(d.textlength(rodape.upper(), font=fr))
+            d.rounded_rectangle((x0 - 4, 634, x0 + w + 32, 686), radius=12, fill=(0, 0, 0))
+            d.text((x0 + 14, 642), rodape.upper(), font=fr, fill=(255, 205, 60))
         img.save(destino, quality=92)
         return destino
     except Exception as e:  # noqa: BLE001
-        log("publicador", f"miniatura não gerada ({e})")
+        log("publicador", f"miniatura do YouTube não gerada: {e}")
         return None
 
 
