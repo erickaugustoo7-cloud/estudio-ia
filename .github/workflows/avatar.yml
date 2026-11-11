@@ -1,6 +1,10 @@
 name: Gerar foto de perfil
 on:
   workflow_dispatch:
+    inputs:
+      qual:
+        description: "avatar ou banner_yt"
+        default: avatar
 permissions:
   contents: write
 jobs:
@@ -15,8 +19,8 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -q requests pillow
-      - run: python ferramentas/gerar_avatar.py
+      - run: python ferramentas/gerar_${{ inputs.qual || 'avatar' }}.py
       - run: |
           git config user.name "estudio-bot"
           git config user.email "estudio-bot@users.noreply.github.com"
-          git add assets/perfil && git commit -qm "opções de foto de perfil" && git pull -q --rebase && git push -q
+          git add assets/perfil && git commit -qm "imagens de perfil" && git pull -q --rebase && git push -q
