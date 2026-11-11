@@ -84,7 +84,7 @@ def _pollinations(cena: dict, destino: Path, usados: set, canal: dict, seed: int
     prompt = f"{cena['prompt_imagem']}. {canal.get('regra_visual_pessoas', '')}. {canal['estilo_visual'].strip()}"
     q = urllib.parse.quote(prompt[:900])
     chave = os.getenv("POLLINATIONS_API_KEY")
-    params = f"width=1080&height=1920&seed={seed}&nologo=true&model=flux"
+    params = f"width={cena.get('largura', 1080)}&height={cena.get('altura', 1920)}&seed={seed}&nologo=true&model=flux"
     tentativas = []
     if chave and not _SEM_SALDO:
         tentativas.append((f"https://gen.pollinations.ai/image/{q}?{params}", {"Authorization": f"Bearer {chave}"}, (0,)))
@@ -124,8 +124,8 @@ def _cloudflare(cena: dict, destino: Path, usados: set, canal: dict, seed: int) 
     url = f"https://api.cloudflare.com/client/v4/accounts/{conta}/ai/run/{modelo}"
     try:
         r = requests.post(url, headers={"Authorization": f"Bearer {token}"}, timeout=120,
-                          files={"prompt": (None, prompt[:2000]), "width": (None, "1080"),
-                                 "height": (None, "1920"), "seed": (None, str(seed))})
+                          files={"prompt": (None, prompt[:2000]), "width": (None, str(cena.get("largura", 1080))),
+                                 "height": (None, str(cena.get("altura", 1920))), "seed": (None, str(seed))})
     except requests.RequestException as e:
         log("visual", f"cloudflare: {type(e).__name__}")
         return False

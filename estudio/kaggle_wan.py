@@ -465,17 +465,50 @@ def main():
             img = pasta / f"cena_{i}.jpg"
             shutil.copy(escolhida, img)
             imgs.append(img)
-    else:  # fontes antigas (Cloudflare/Pollinations) + revisão que refaz as ruins
-        for i, c in enumerate(cenas_img):
+    else:  # sem GPU: Cloudflare/Pollinations + revisão rigorosa (até 3 tentativas por cena), sem animação
+        from estudio.agentes.revisor_visual import _avaliar
+        from concurrent.futures import ThreadPoolExecutor
+        chave = os.getenv("GEMINI_API_KEY")
+        canal_sg = {**canal_img, "estilo_visual": estilo, "regra_visual_pessoas": canal_img.get("regra_visual_pessoas", "")}
+
+        def _cena_sem_gpu(i):
+            c = {**cenas_img[i], "largura": 1344 if horiz else 768, "altura": 768 if horiz else 1344,
+                 "prompt_imagem": _prompt_imagem(cenas_img[i]["prompt_imagem"], "", cenas_img[i].get("vazia", True),
+                                                 cenas_img[i].get("epoca_imagem") or canal_img.get("epoca_imagem", ""))}
+            motivo = ""
+            for tent in range(3):
+                bruta = pasta / f"cena_{i}_t{tent}.png"
+                if not visual.gerar_uma(canal_sg, c, bruta, semente + 100 * i + tent):
+                    continue
+                jpg = pasta / f"cena_{i}_t{tent}.jpg"
+                subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(bruta), "-q:v", "2", str(jpg)], check=True)
+                try:
+                    res = _avaliar(chave, canal_img, cenas_img[i], jpg, rigoroso=True) if chave else {"ok": True}
+                except Exception as e:  # noqa: BLE001
+                    res = {"ok": False, "motivo": f"revisão indisponível ({e})"}
+                log("wan", f"cena {i + 1} t{tent}: {'ok' if res.get('ok') else 'reprovada'} {res.get('motivo', '')}")
+                if res.get("ok"):
+                    return i, jpg, ""
+                motivo = res.get("motivo", "")
+                if res.get("novo_prompt"):
+                    c["prompt_imagem"] = _prompt_imagem(f"{prefixo_img} {res['novo_prompt']}", "", c.get("vazia", True),
+                                                        cenas_img[i].get("epoca_imagem") or canal_img.get("epoca_imagem", ""))
+            return i, None, motivo
+
+        with ThreadPoolExecutor(max_workers=3) as ex:
+            res_cenas = sorted(ex.map(_cena_sem_gpu, range(len(cenas_img))))
+        aprovadas = {i: jpg for i, jpg, _ in res_cenas if jpg}
+        if not aprovadas:
+            raise SystemExit("nenhuma imagem aprovada (Cloudflare/Pollinations) — veja o log")
+        for i, jpg, motivo in res_cenas:
+            if not jpg:
+                j = min(aprovadas, key=lambda k: (abs(k - i), k > i))
+                jpg = aprovadas[j]
+                avisos.append(f"Cena {i + 1}: nenhuma imagem passou ({motivo}); usei a imagem da cena {j + 1}.")
             img = pasta / f"cena_{i}.jpg"
-            if not visual.gerar_uma(canal_img, c, img, semente + i):
-                raise SystemExit(f"sem imagem para a cena {i + 1}")
+            shutil.copy(jpg, img)
             imgs.append(img)
-        try:
-            from estudio.agentes import revisor_visual
-            avisos += revisor_visual.revisar(canal_img, cenas_img, imgs)
-        except Exception as e:  # noqa: BLE001
-            log("wan", f"revisão visual indisponível ({e})")
+            cenas_img[i]["animar_bloqueado"] = True  # sem GPU: tudo com movimento de câmera
     for i, (c, img) in enumerate(zip(r["cenas"], imgs)):
         res_v = r.get("resolucao_video", "1280x704" if horiz else os.getenv("WAN_RESOLUCAO", "704x1280"))  # 720p: rostos e mãos mais estáveis
         peq = pasta / f"cena_{i}_wan.jpg"  # manda a imagem já no tamanho do Wan (script menor)

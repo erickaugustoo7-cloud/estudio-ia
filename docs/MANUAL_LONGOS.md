@@ -44,6 +44,8 @@ Nunca publique nada, nunca mexa em segredos/tokens, não altere o código do sis
   ganham movimento de câmera automático.
 
 ## Oração para dormir
+- **Sem GPU:** use `"fonte_imagem": "cloudflare"` (imagens no Cloudflare/Pollinations, revisão rigorosa, todas as cenas
+  com movimento de câmera e `"animar": false`). Assim a oração não depende da cota semanal do Kaggle.
 - Voz calma, em 1ª pessoa ("Senhor, esta noite..."), parafraseando um salmo ou promessa bíblica, versículo a versículo.
   Original, sem copiar orações prontas. Termina convidando a descansar e entregar a noite a Deus.
 - Imagens de noite, paz e natureza da época (céu estrelado, colinas, lago, oliveiras, lamparina de barro). Nada de

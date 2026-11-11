@@ -1,0 +1,171 @@
+{
+  "titulo": "Oração da noite: Salmo 23",
+  "titulo_youtube": "ORAÇÃO DA NOITE | Salmo 23 para Dormir em Paz — O Senhor é o Meu Pastor",
+  "gancho_tela": "Durma em paz",
+  "referencia": "Salmos 23",
+  "formato": "horizontal",
+  "duracao_max": 999,
+  "volume_musica": 0.22,
+  "opcoes_imagem": 1,
+  "palavras_por_bloco": 260,
+  "cauda_musical_min": 20,
+  "plataformas": [
+    "youtube"
+  ],
+  "cena_capa": 5,
+  "texto_capa": [
+    "SALMO 23",
+    "DURMA EM PAZ"
+  ],
+  "estilo_imagem": "cinematic photorealistic still, peaceful night atmosphere, soft moonlight, gentle glow, deep blue and warm gold tones, calm and serene, horizontal 16:9 widescreen",
+  "prefixo_imagem": "cinematic photorealistic peaceful still:",
+  "prefixo_video": "Cinematic peaceful night shot, very slow and gentle motion.",
+  "epoca_imagem": "Ancient Israel landscape, stone, clay, wood, wool and linen only, nothing modern, no electric lights",
+  "legenda": "Ore comigo antes de dormir com o Salmo 23: o Senhor é o meu pastor, e de nada terei falta.\n\nDepois da oração, a música continua por 20 minutos para você adormecer em paz.\n\nEscreva \"Amém\" nos comentários e o nome de quem você quer entregar a Deus esta noite.",
+  "hashtags": [
+    "#Salmo23",
+    "#OraçãoDaNoite",
+    "#OraçãoParaDormir",
+    "#Oração",
+    "#Fé"
+  ],
+  "fontes": [
+    "Salmos 23 (NVI); Salmos 4:8; João 10:11"
+  ],
+  "cena_cauda": 0,
+  "fonte_imagem": "cloudflare",
+  "cenas": [
+    {
+      "trecho": "Antes de dormir, respire fundo. Solte os ombros e descanse as mãos. Este é o seu momento com Deus. Deixe o dia ficar para trás e venha comigo nesta oração, com as palavras do Salmo vinte e três, o salmo do Bom Pastor.",
+      "prompt_imagem": "a vast starry night sky over quiet dark grassy hills, the Milky Way glowing softly, deep blue tones",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Davi era pastor antes de ser rei. Ele conhecia as noites no campo, o frio, o barulho dos lobos ao longe e o cuidado com cada ovelha. Por isso, quando escreveu sobre Deus, ele não escolheu a imagem de um rei distante. Escolheu um pastor.",
+      "prompt_imagem": "an empty stone sheepfold on a hillside at night under the full moon, low rough stone walls, wild grass",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "O Senhor é o meu pastor; de nada terei falta. Senhor, eu começo esta noite dizendo isso em voz baixa: tu és o meu pastor. Antes das contas, antes das preocupações, antes do que ficou por fazer hoje, eu digo que pertenço a ti.",
+      "prompt_imagem": "a wooden shepherd staff leaning against a rough stone wall under a starry night sky, soft moonlight",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Eu confesso que muitas vezes sinto que falta alguma coisa. Falta tempo, falta força, falta dinheiro, falta paciência. Mas a tua palavra diz que, contigo, de nada terei falta. Ensina o meu coração a descansar no que tu já me deste hoje.",
+      "prompt_imagem": "a simple clay bowl of bread and a clay water jar on a rough wooden table, warm faint glow, night",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Em verdes pastagens me faz repousar. Repousar, Senhor. Não correr, não provar nada para ninguém, não resolver tudo esta noite. Só repousar. Como a ovelha que deita na grama porque sabe que o pastor está acordado por ela.",
+      "prompt_imagem": "a peaceful green meadow on gentle hills under the moonlight, soft grass swaying, stars above, untouched nature",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Conduz-me a águas tranquilas. Eu entrego a ti a agitação da minha mente. Os pensamentos que giram, as conversas que repito, os medos do amanhã. Leva o meu coração para perto das tuas águas calmas e deixa que ele fique em silêncio.",
+      "prompt_imagem": "a calm still wilderness lake at night reflecting the moon and the stars, mist on the water, dark empty shores",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Restaura-me o vigor. Tu conheces o meu cansaço, Senhor. O cansaço do corpo e o cansaço da alma, aquele que o sono sozinho não resolve. Enquanto eu durmo, restaura o que se gastou em mim. Devolve a minha força, devolve a minha alegria.",
+      "prompt_imagem": "a small clear spring of water flowing between smooth stones in a quiet valley at night, moonlight on the water",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Guia-me nas veredas da justiça por amor do teu nome. Se hoje eu andei por caminhos errados, se falei o que não devia, se deixei de fazer o bem, eu te peço perdão. Coloca os meus pés de novo no teu caminho.",
+      "prompt_imagem": "an ancient stone footpath winding through quiet hills under the full moon, low stone walls on each side",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E quando eu não souber para onde ir amanhã, guia-me tu. Não preciso enxergar a estrada inteira. Basta saber que o Pastor vai na frente e que cada passo meu está dentro da tua direção.",
+      "prompt_imagem": "a narrow mountain trail at night disappearing over a ridge toward a soft glow on the horizon, stars above",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Mesmo quando eu andar por um vale de trevas e morte, não temerei perigo algum, pois tu estás comigo. Senhor, tu sabes que vale eu estou atravessando. Uma doença, uma perda, uma angústia que eu não conto para ninguém.",
+      "prompt_imagem": "a deep dark rocky valley at night with steep cliffs, a thin silver line of moonlight touching the stones",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Repara que Davi não diz que não haverá vale. Ele diz que não está sozinho no vale. Essa é a promessa para esta noite: o escuro não é o fim da história, e tu estás comigo dentro dele.",
+      "prompt_imagem": "a single soft beam of moonlight falling into a dark rocky ravine, dust glowing in the light, night",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "A tua vara e o teu cajado me protegem. A vara do pastor afastava os animais selvagens; o cajado puxava a ovelha de volta quando ela se perdia. Protege a minha casa desta noite, Senhor, e puxa de volta o meu coração quando ele se afastar de ti.",
+      "prompt_imagem": "a shepherd rod and a curved wooden staff resting on a flat rock beside a low stone wall, moonlit night",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Eu coloco debaixo da tua proteção cada pessoa que mora comigo. Os que estão dormindo no quarto ao lado, os que estão longe, os que eu amo e não sei como ajudar. Guarda cada um com o teu cuidado de pastor.",
+      "prompt_imagem": "a quiet ancient village of stone houses at night, a few small windows glowing with warm oil lamp light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Preparas um banquete para mim à vista dos meus inimigos. Mesmo quando há conflito ao meu redor, tu preparas uma mesa. Eu não preciso brigar esta noite. Eu me sento à tua mesa e deixo que tu cuides da minha defesa.",
+      "prompt_imagem": "a long rustic wooden table with clay bowls, bread and a clay jug, under an olive tree at night, warm faint glow",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Unges a minha cabeça com óleo. Os pastores passavam óleo nas feridas das ovelhas e as protegiam dos insetos. Senhor, passa o teu óleo nas feridas que eu carrego. As palavras que me machucaram, as decepções, as lembranças que doem.",
+      "prompt_imagem": "a small clay jar of olive oil beside a folded linen cloth on a stone ledge, soft warm light, night",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E o meu cálice transborda. Quando eu olho com calma para este dia, eu vejo que recebi mais do que mereço. Obrigado pelo ar que respirei, pelo alimento, pelas pessoas, pelo cuidado que eu nem percebi.",
+      "prompt_imagem": "a simple clay cup filled to the brim with water on a rough stone surface under the stars, gentle reflection",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Sei que a bondade e a fidelidade me acompanharão todos os dias da minha vida. Não só nos dias bons. Todos os dias. Amanhã, quando eu acordar, a tua bondade já vai estar lá, esperando por mim.",
+      "prompt_imagem": "the first soft glow of dawn on the horizon over quiet dark hills, a few stars still in the sky",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Que bonito pensar que a tua bondade me segue, Senhor. Eu não preciso correr atrás dela. Ela vem atrás de mim, como o pastor que conta as ovelhas uma por uma e não dorme enquanto falta alguma.",
+      "prompt_imagem": "a quiet hillside meadow at night with scattered white stones like a resting flock, moonlight, untouched nature",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E voltarei à casa do Senhor enquanto eu viver. Esta noite eu volto para ti. Entrego o meu corpo para descansar, a minha mente para silenciar e o meu coração para ser guardado.",
+      "prompt_imagem": "an ancient stone house with an open wooden door and warm faint light inside, a quiet path leading to it, starry night",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Agora deixe a respiração ficar lenta. Inspire devagar e diga no coração: o Senhor é o meu pastor. Solte o ar devagar e diga: de nada terei falta. Mais uma vez, sem pressa.",
+      "prompt_imagem": "a wide starry night sky over a calm lake and dark hills, soft deep blue tones, very peaceful",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Senhor, eu me deito em paz e logo pego no sono, porque só tu me fazes viver em segurança. Eu entrego esta noite em tuas mãos. Cuida de mim enquanto eu durmo, e me acorda amanhã com o coração renovado.",
+      "prompt_imagem": "a simple wooden bed with a wool blanket beside an open clay saucer oil lamp with a tiny flame, stone wall, quiet night",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Em nome de Jesus, o Bom Pastor que deu a vida pelas ovelhas, eu oro. Amém. Fique agora em silêncio. A música vai continuar por alguns minutos para você adormecer em paz.",
+      "prompt_imagem": "a vast starry night sky over still dark hills and a quiet lake, the Milky Way glowing softly",
+      "vazia": true,
+      "animar": false
+    }
+  ]
+}
