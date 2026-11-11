@@ -64,7 +64,14 @@ jobs:
       - uses: FedericoCarboni/setup-ffmpeg@v3
         id: ff
         continue-on-error: true
-      - if: steps.ff.outcome == 'failure'
+        timeout-minutes: 5
+      - uses: FedericoCarboni/setup-ffmpeg@v3  # 2ª tentativa (o download às vezes falha)
+        id: ff2
+        if: steps.ff.outcome == 'failure'
+        continue-on-error: true
+        timeout-minutes: 5
+      - if: steps.ff.outcome == 'failure' && steps.ff2.outcome == 'failure'
+        timeout-minutes: 10   # o apt já travou 50 min: com limite, falha rápido
         run: sudo apt-get update -q && sudo apt-get install -y -q ffmpeg
       - run: pip install -r requirements.txt kaggle six
       - name: Fontes
