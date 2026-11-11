@@ -46,3 +46,5 @@ trilha_gerada: true
 # Instagram: automático após aprovação. TikTok: manual (vídeo + legenda chegam no Telegram).
 publicar_em: [instagram]
 secret_token_instagram: IG_TOKEN_ESPACO
+# Fila de publicação pausada até a chave da Página do Meta (META_TOKEN_ESPACO) ser renovada.
+fila_pausada: true

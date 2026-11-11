@@ -99,8 +99,19 @@ def publicar():
     for i in sorted(erros, key=lambda x: x["number"]):  # 1 nova tentativa por canal, até 5 no total
         if _canal(i) not in repetir and _tentativas(str(i["number"])) < 5:
             repetir[_canal(i)] = i
+    from estudio.base import carregar_canal
+    pausados = set()
+    for c in {*repetir, *novos}:
+        try:
+            if carregar_canal(c).get("fila_pausada"):
+                pausados.add(c)
+        except Exception:  # noqa: BLE001
+            pass
+    if pausados:
+        log("fila", f"canais pausados (fila_pausada no canais/*.yaml): {', '.join(sorted(pausados))}")
     for i in [*repetir.values(), *novos.values()]:
-        _publicar_um(i)
+        if _canal(i) not in pausados:
+            _publicar_um(i)
     log("fila", f"restam {max(len(fila) - len(novos), 0)} na fila; {len(erros)} aguardando nova tentativa")
 
 if __name__ == "__main__":
