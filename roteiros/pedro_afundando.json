@@ -1,0 +1,63 @@
+{
+  "titulo": "Pedro afundando: a mão de Jesus",
+  "gancho_tela": "Primeiro a mão. Depois a pergunta.",
+  "estilo": "pintura",
+  "narracao": "Um homem afundando no mar gritou só três palavras. Esse homem era Pedro. Está em Mateus, capítulo catorze. Mas repare no que Jesus fez antes de falar. Era madrugada. O barco dos discípulos estava longe da terra, batido pelas ondas, com o vento contra. Jesus tinha ficado sozinho no monte, orando. E então veio até eles andando sobre o mar. Eles gritaram de medo: é um fantasma! Jesus disse: coragem, sou eu, não tenham medo. Pedro respondeu: Senhor, se é você, mande que eu vá até você sobre as águas. Jesus disse: venha. E Pedro saiu do barco e andou sobre as águas, em direção a Jesus. Mas, quando reparou no vento, teve medo. E começou a afundar. Então gritou: Senhor, salva-me! E no mesmo instante Jesus estendeu a mão e o segurou. Só depois falou: homem de pequena fé, por que você duvidou? Quando subiram no barco, o vento parou. Repare: primeiro a mão, depois a pergunta. Talvez hoje você esteja afundando em dívidas, culpa ou cansaço. Três palavras bastam. Ele ainda estende a mão. Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias.",
+  "cenas": [
+    {
+      "trecho": "Um homem afundando no mar gritou só três palavras.",
+      "busca_imagem": "",
+      "prompt_imagem": "a desperate hand reaching up out of dark stormy sea waves at night, a single shaft of golden light breaking through the storm clouds onto the hand, dramatic high contrast"
+    },
+    {
+      "trecho": "Esse homem era Pedro. Está em Mateus, capítulo catorze. Mas repare no que Jesus fez antes de falar.",
+      "busca_imagem": "fisherman silhouette boat sea",
+      "prompt_imagem": "a strong fisherman in ancient robes seen from behind standing in a small wooden boat on the Sea of Galilee, dark clouds gathering, last golden light on the water"
+    },
+    {
+      "trecho": "Era madrugada. O barco dos discípulos estava longe da terra, batido pelas ondas, com o vento contra.",
+      "busca_imagem": "ancient boat storm night",
+      "prompt_imagem": "a small ancient fishing boat tossed by high waves far from shore before dawn, robed men in silhouette straining at the oars against the wind, cold moonlight and spray"
+    },
+    {
+      "trecho": "Jesus tinha ficado sozinho no monte, orando. E então veio até eles andando sobre o mar. Eles gritaram de medo: é um fantasma!",
+      "busca_imagem": "figure walking on water night",
+      "prompt_imagem": "a distant robed figure in silhouette walking on the surface of a stormy lake before dawn, soft light around him, frightened men in a boat in the foreground seen from behind"
+    },
+    {
+      "trecho": "Jesus disse: coragem, sou eu, não tenham medo. Pedro respondeu: Senhor, se é você, mande que eu vá até você sobre as águas. Jesus disse: venha.",
+      "busca_imagem": "man boat edge looking sea",
+      "prompt_imagem": "a fisherman in ancient robes seen from behind gripping the side of a wooden boat, looking out across dark waves toward a calm robed silhouette standing on the water, first hint of dawn"
+    },
+    {
+      "trecho": "E Pedro saiu do barco e andou sobre as águas, em direção a Jesus. Mas, quando reparou no vento, teve medo. E começou a afundar.",
+      "busca_imagem": "man sinking waves storm",
+      "prompt_imagem": "a man in ancient robes seen from behind, having stepped out of a boat, sinking waist deep into churning dark waves, wind whipping his cloak, a calm robed silhouette standing on the water ahead, dramatic storm light"
+    },
+    {
+      "trecho": "Então gritou: Senhor, salva-me! E no mesmo instante Jesus estendeu a mão e o segurou.",
+      "busca_imagem": "hand reaching rescue water",
+      "prompt_imagem": "close view of a strong hand in an ancient sleeve firmly grasping the wrist of a man sinking in dark waves, golden light breaking through storm clouds above, faces not visible"
+    },
+    {
+      "trecho": "Só depois falou: homem de pequena fé, por que você duvidou? Quando subiram no barco, o vento parou.",
+      "busca_imagem": "calm lake boat dawn",
+      "prompt_imagem": "a small wooden boat resting on a suddenly calm lake at sunrise, robed men in silhouette, the storm clouds parting, peaceful golden reflections on still water"
+    },
+    {
+      "trecho": "Repare: primeiro a mão, depois a pergunta. Talvez hoje você esteja afundando em dívidas, culpa ou cansaço. Três palavras bastam. Ele ainda estende a mão. Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias.",
+      "busca_imagem": "man shore sunrise hope",
+      "prompt_imagem": "a lone man in ancient robes seen from behind standing on a lakeshore at sunrise after a storm, one hand open at his side, warm golden light over calm water, hopeful"
+    }
+  ],
+  "legenda": "Senhor, salva-me, segura a minha mão 🙏😭\nMateus 14:28-31\nComente \"Amém\" e envie para alguém que está afundando hoje.",
+  "hashtags": [
+    "#Pedro",
+    "#andarsobreaságuas",
+    "#fénomedo",
+    "#Jesussalva"
+  ],
+  "fontes": [
+    "Mateus 14:22-33 (o barco longe da terra, o vento contra, Jesus sozinho no monte orando, andando sobre o mar, 'é um fantasma', 'coragem, sou eu', Pedro anda, reparou no vento, começou a afundar, 'Senhor, salva-me', no mesmo instante estendeu a mão, 'por que você duvidou?', o vento parou)"
+  ]
+}
