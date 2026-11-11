@@ -1,0 +1,66 @@
+{
+  "titulo": "O avião da NASA sem janela na frente",
+  "gancho_tela": "O piloto voa sem janela na frente",
+  "narracao": "O piloto deste avião da NASA não tem janela na frente. Ele enxerga o caminho por uma tela. E o motivo dessa escolha é ainda mais curioso. É o X cinquenta e nove, um avião supersônico de cerca de trinta metros. Quase um terço disso é só o nariz. Esse nariz gigante espalha as ondas de choque para que não se juntem no famoso estrondo sônico. Mas a cabine fica baixa, sem lugar para um para-brisa. A solução foi uma janela virtual. Duas câmeras externas filmam a frente, e a imagem aparece num monitor quatro K. Por cima do vídeo, o sistema ainda mostra dados do terreno e informações de voo, como uma realidade aumentada. O objetivo? Voar a cerca de mil e quinhentos quilômetros por hora, a uns dezessete quilômetros de altura. E, no chão, o estrondo virar só um baque suave, como uma porta de carro batendo. Desde mil novecentos e setenta e três, voos supersônicos civis sobre terra são proibidos nos Estados Unidos por causa do barulho. O X cinquenta e nove voou pela primeira vez em outubro de dois mil e vinte e cinco, e a NASA planeja passar sobre cidades e perguntar aos moradores o que ouviram. Você teria coragem de pilotar um avião olhando só por uma tela? Siga para descobrir uma curiosidade nova todo dia.",
+  "cenas": [
+    {
+      "trecho": "O piloto deste avião da NASA não tem janela na frente.",
+      "busca_imagem": "X-59 aircraft",
+      "prompt_imagem": "a sleek futuristic supersonic experimental jet with an extremely long pointed nose and no front cockpit window, flying above desert, cinematic"
+    },
+    {
+      "trecho": "Ele enxerga o caminho por uma tela. E o motivo dessa escolha é ainda mais curioso.",
+      "busca_imagem": "X-59 cockpit",
+      "prompt_imagem": "inside a fighter-style cockpit, a large high resolution monitor in front of the pilot seat showing a live camera view of a runway, no recognizable people"
+    },
+    {
+      "trecho": "É o X cinquenta e nove, um avião supersônico de cerca de trinta metros. Quase um terço disso é só o nariz.",
+      "busca_imagem": "X-59 QueSST hangar",
+      "prompt_imagem": "side view of a long slender supersonic jet in a hangar, its needle-like nose taking up a third of the aircraft"
+    },
+    {
+      "trecho": "Esse nariz gigante espalha as ondas de choque para que não se juntem no famoso estrondo sônico. Mas a cabine fica baixa, sem lugar para um para-brisa.",
+      "busca_imagem": "X-59 nose shock waves",
+      "prompt_imagem": "visualization of shock waves spreading from the long nose of a supersonic jet, schlieren style, blue tones"
+    },
+    {
+      "trecho": "A solução foi uma janela virtual. Duas câmeras externas filmam a frente, e a imagem aparece num monitor quatro K.",
+      "busca_imagem": "eXternal Vision System X-59",
+      "prompt_imagem": "close-up of a small aircraft camera mounted on the nose of a jet, with a cockpit monitor showing its live feed"
+    },
+    {
+      "trecho": "Por cima do vídeo, o sistema ainda mostra dados do terreno e informações de voo, como uma realidade aumentada.",
+      "busca_imagem": "X-59 external vision display",
+      "prompt_imagem": "augmented reality cockpit display with flight data symbols overlaid on a live view of the horizon and terrain"
+    },
+    {
+      "trecho": "O objetivo? Voar a cerca de mil e quinhentos quilômetros por hora, a uns dezessete quilômetros de altura. E, no chão, o estrondo virar só um baque suave, como uma porta de carro batendo.",
+      "busca_imagem": "X-59 flight Edwards",
+      "prompt_imagem": "supersonic jet flying high above the clouds at dusk, curvature of the horizon visible, dramatic lighting"
+    },
+    {
+      "trecho": "Desde mil novecentos e setenta e três, voos supersônicos civis sobre terra são proibidos nos Estados Unidos por causa do barulho. O X cinquenta e nove voou pela primeira vez em outubro de dois mil e vinte e cinco, e a NASA planeja passar sobre cidades e perguntar aos moradores o que ouviram.",
+      "busca_imagem": "X-59 first flight",
+      "prompt_imagem": "experimental jet taking off from a desert runway at sunrise, small town visible in the distance"
+    },
+    {
+      "trecho": "Você teria coragem de pilotar um avião olhando só por uma tela? Siga para descobrir uma curiosidade nova todo dia.",
+      "busca_imagem": "X-59 sunset",
+      "prompt_imagem": "silhouette of a long-nosed supersonic jet against a glowing orange sunset sky"
+    }
+  ],
+  "legenda": "O X-59 da NASA voa a Mach 1,4 (~1.500 km/h) e o piloto não tem para-brisa: enxerga por duas câmeras e um monitor 4K. ✈️\nVocê pilotaria olhando só por uma tela? Comenta aqui 👇",
+  "hashtags": [
+    "#X59",
+    "#NASA",
+    "#aviação",
+    "#supersônico"
+  ],
+  "fontes": [
+    "NASA — QueSST: The Aircraft (99,7 pés de comprimento; nariz ≈ 1/3 do avião; Mach 1,4 = 925 mph a 55.000 pés; 'gentle thump'; voos sobre comunidades)",
+    "NASA — NASA Completes Tests of X-59 eXternal Vision System (cabine baixa, sem janela frontal; monitor 4K como 'janela')",
+    "AIAA/AIN (30/07/2020) e NASA Spinoff 'Flying Not Quite Blind' — duas câmeras externas, imagem sobreposta a dados do terreno, monitor 4K ≈ 4x HD",
+    "AIAA/Aviation Week (29/10/2025) — primeiro voo em 28/10/2025, de Palmdale para a Base Edwards",
+    "MiGFlug (jun/2026) e Wikipedia X-59 QueSST — baque de ~75 EPNdB, comparado a porta de carro; proibição de voo supersônico civil sobre terra nos EUA desde 1973"
+  ]
+}

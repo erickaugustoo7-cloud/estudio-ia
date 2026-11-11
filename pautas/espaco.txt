@@ -2,7 +2,6 @@
 # Linhas começando com # são ignoradas. Fila vazia = o Diretor cria pautas sozinho.
 # Radar 04/11
 # Radar 08/11
-O X-59 da NASA: o avião supersônico em que o piloto não tem janela na frente — como ele enxerga (conferir o sistema de câmeras)
 Superlua de 24 de novembro e Marte colado em Júpiter na madrugada: o que ver no céu do Brasil (conferir datas e horários)
 Qual planeta tem mais luas? (formato ranking/palpite, fechar pedindo comentário — conferir números atualizados)
 Neste momento você está viajando pela galáxia a centenas de milhares de km/h — e não sente nada (conferir a velocidade do Sol em torno da Via Láctea)
