@@ -1,0 +1,25 @@
+name: Testar clone de voz (Chatterbox)
+on:
+  workflow_dispatch:
+jobs:
+  clone:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - run: |
+          pip install -q torch==2.6.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cpu
+          pip install -q chatterbox-tts demucs requests
+      - run: python ferramentas/clonar_voz.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: amostras-clone
+          path: amostras_clone/*.mp3
