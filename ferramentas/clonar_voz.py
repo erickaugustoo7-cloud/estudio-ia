@@ -40,20 +40,24 @@ def main():
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", "6", "-t", "20", "-i", str(voz), "-ac", "1", "-ar", "24000",
                     "-af", "highpass=f=70,loudnorm=I=-18", str(ref)], check=True)
     telegram(ref, "Referência: sua voz separada da música (20 s)")
-    # 3) clone
+    # 3) clone — teste de expressividade: mais emoção (exaggeration) e ritmo mais solto (cfg menor),
+    #    falando o parágrafo inteiro de uma vez (frase a frase soa robótico)
     import torchaudio as ta
     from chatterbox.mtl_tts import ChatterboxMultilingualTTS
     modelo = ChatterboxMultilingualTTS.from_pretrained(device="cpu")
-    for nome, texto in TEXTOS:
-        for ex in (0.5, 0.35):  # exagero/emoção: 0.5 padrão, 0.35 mais calmo
-            wav = modelo.generate(texto, language_id="pt", audio_prompt_path=str(ref), exaggeration=ex, cfg_weight=0.4)
-            destino = SAIDA / f"clone_{nome}_{int(ex * 100)}.wav"
-            ta.save(str(destino), wav, modelo.sr)
-            mp3 = destino.with_suffix(".mp3")
-            subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(destino), "-q:a", "2", str(mp3)], check=True)
-            telegram(mp3, f"Clone da sua voz — {nome} (emoção {ex})")
-            print("ok", mp3)
-
+    texto = os.getenv("TEXTO_CLONE") or (
+        "Senhor... eu chego aqui cansado hoje. Tu sabes o peso que eu carreguei, as coisas que eu não contei pra ninguém. "
+        "Mas esta noite, eu escolho confiar em ti. Cuida da minha casa, cuida de quem eu amo. "
+        "E me ensina a descansar, de verdade, nos teus braços. Em nome de Jesus. Amém.")
+    for ex, cfg in ((0.5, 0.3), (0.7, 0.3), (0.9, 0.25), (0.6, 0.5)):
+        wav = modelo.generate(texto, language_id="pt", audio_prompt_path=str(ref), exaggeration=ex, cfg_weight=cfg,
+                              temperature=0.85)
+        destino = SAIDA / f"clone_emocao{int(ex * 100)}_ritmo{int(cfg * 100)}.wav"
+        ta.save(str(destino), wav, modelo.sr)
+        mp3 = destino.with_suffix(".mp3")
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(destino), "-q:a", "2", str(mp3)], check=True)
+        telegram(mp3, f"Teste de emoção — emoção {ex} · ritmo {cfg} (parágrafo inteiro)")
+        print("ok", mp3)
 
 if __name__ == "__main__":
     main()
