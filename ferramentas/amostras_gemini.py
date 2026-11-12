@@ -19,6 +19,8 @@ ESTILO = ("Leia em português do Brasil, como um narrador cristão acolhedor con
           "voz calma, baixa e sincera, ritmo pausado, com pequenas pausas entre as frases, sem soar teatral. Texto: ")
 VOZES = [("Algieba", "masculina, suave"), ("Enceladus", "masculina, sussurrada/íntima"),
          ("Charon", "masculina, grave"), ("Sulafat", "feminina, calorosa"), ("Vindemiatrix", "feminina, gentil")]
+TEXTO = os.getenv("TEXTO_AMOSTRA") or TEXTO
+ESTILO = os.getenv("ESTILO_AMOSTRA") or ESTILO
 SAIDA = Path("amostras_gemini")
 API = "https://generativelanguage.googleapis.com/v1beta"
 
