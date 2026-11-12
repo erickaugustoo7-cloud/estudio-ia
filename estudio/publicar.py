@@ -74,6 +74,12 @@ def main():
         if dur > 60:
             canal = {**canal, "publicar_em": [p for p in canal["publicar_em"] if p != "youtube"]}
             log("publicar", f"música antiga (Pixabay) e {dur:.0f}s: fora do YouTube para não ser bloqueado")
+    # Curtos de versículo sobre imagem (pasta "curto_*"): o Instagram marcou a conta por "conteúdo não original"
+    # (12/11/2026) por causa deles, e no YouTube o mesmo modelo repetido é o motivo nº 1 de recusa na monetização.
+    # Esses vão só para o Facebook (e TikTok manual). Histórias, salmos com voz do Eric e orações seguem normais.
+    if str(dados.get("pasta", "")).startswith("curto_"):
+        canal = {**canal, "publicar_em": [p for p in canal["publicar_em"] if p not in ("instagram", "youtube")]}
+        log("publicar", "curto de versículo: fora do Instagram e do YouTube (originalidade)")
     res = publicador.publicar(canal, video, dados["texto_post"], fb_video_id=fb_ant,
                               titulo=roteiro.get("titulo_youtube") or roteiro.get("titulo", ""), tags=roteiro.get("hashtags"))
 
