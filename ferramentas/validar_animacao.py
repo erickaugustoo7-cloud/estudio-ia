@@ -13,7 +13,9 @@ erros = []
 cenas = r.get("cenas", [])
 palavras = sum(len(c["trecho"].split()) for c in cenas)
 oracao = bool(r.get("cauda_musical_min"))
-if r.get("tipo") == "salmo":  # Salmos narrados: texto bíblico corrido sobre poucas imagens (1–2 min)
+if r.get("tipo") == "historia":  # história narrada com a voz do Eric, sem GPU (70–90 s)
+    lim_c, lim_p, lim_t = (7, 12), (140, 240), (6, 40)
+elif r.get("tipo") == "salmo":  # Salmos narrados: texto bíblico corrido sobre poucas imagens (1–2 min)
     lim_c, lim_p, lim_t = (3, 8), (120, 420), (8, 120)
 elif r.get("formato") == "horizontal":  # vídeo longo do YouTube (docs/MANUAL_LONGOS.md)
     lim_c, lim_p, lim_t, max_anim = ((18, 30), (800, 1100), (12, 55), 6) if oracao else \

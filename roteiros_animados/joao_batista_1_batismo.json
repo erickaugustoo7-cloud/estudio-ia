@@ -1,0 +1,89 @@
+{
+  "titulo": "O batismo de Jesus no Jordão",
+  "gancho_tela": "Os céus se abriram",
+  "referencia": "Mateus 3:1-17; João 1:29",
+  "serie": "João Batista",
+  "parte": 1,
+  "tipo": "historia",
+  "voz": "eric",
+  "fonte_imagem": "cloudflare",
+  "duracao_max": 120,
+  "volume_musica": 0.12,
+  "estilo_imagem": "cinematic photorealistic epic film still, golden hour, dramatic volumetric god rays, ancient Judea 1st century, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic slow subtle motion.",
+  "epoca_imagem": "Ancient Judea, 1st century, Jordan river, stone, clay, wool and linen only, nothing modern",
+  "legenda": "Os céus se abriram no Jordão 🕊️\nMateus 3:16-17 (Almeida)\nEscreva \"Amém\" se você crê que é filho amado de Deus.",
+  "hashtags": [
+    "#JoãoBatista",
+    "#BatismoDeJesus",
+    "#Jesus",
+    "#Bíblia",
+    "#Fé"
+  ],
+  "fontes": [
+    "Mateus 3:1-17; João 1:29 — Almeida (domínio público)"
+  ],
+  "cenas": [
+    {
+      "trecho": "No deserto da Judeia, um homem vestido de pelos de camelo gritava às margens do rio Jordão.",
+      "prompt_imagem": "the Judean wilderness at dawn, barren golden hills and a winding green river valley below, soft mist, untouched land",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Ele comia gafanhotos e mel silvestre, e multidões desciam de Jerusalém para ouvi-lo.",
+      "prompt_imagem": "a long line of tiny distant travelers in robes walking down a dusty desert path toward a river valley, warm morning light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Era João Batista. E a mensagem dele era uma só: Voz do que clama no deserto: Preparai o caminho do Senhor.",
+      "prompt_imagem": "a high rock ledge above the Jordan river valley at dawn, dramatic golden light, a rough camel-hair cloak and a wooden staff lying on the rock",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Ele batizava no rio quem confessava os seus pecados. Até que, um dia, um homem de Nazaré entrou na fila.",
+      "prompt_imagem": "the shallow Jordan river with reeds and smooth stones, gentle current sparkling in the sunlight, a few tiny figures far away",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "João olhou para ele e disse: Eis o Cordeiro de Deus, que tira o pecado do mundo.",
+      "prompt_imagem": "a small white lamb standing alone on a grassy riverbank of the Jordan, soft golden backlight, peaceful",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "João tentou impedir: Eu careço de ser batizado por ti, e vens tu a mim?",
+      "prompt_imagem": "the Jordan river seen from a high bank at golden hour, reeds swaying, calm water reflecting the sky, tiny distant ripples in the middle of the river",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Jesus respondeu: Deixa por agora, porque assim nos convém cumprir toda a justiça.",
+      "prompt_imagem": "ripples spreading on calm river water at golden hour, reflections of the sky and reeds, close view of the water",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E quando Jesus saiu da água, os céus se abriram.",
+      "prompt_imagem": "the sky opening above a river valley, brilliant beams of light breaking through dark clouds, dramatic and holy",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "O Espírito de Deus desceu como pomba. E uma voz do céu disse: Este é o meu Filho amado, em quem me comprazo.",
+      "prompt_imagem": "a white dove descending through a shaft of golden light over a calm river, radiant sky, soft glowing particles",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "O mesmo Deus que falou no Jordão te chama de filho hoje. Se você crê nisso, escreva Amém. E siga para ver o que João fez depois.",
+      "prompt_imagem": "a wooden cross on a hilltop above the Jordan valley at sunset, golden rays of light, untouched nature",
+      "vazia": true,
+      "animar": false
+    }
+  ]
+}
