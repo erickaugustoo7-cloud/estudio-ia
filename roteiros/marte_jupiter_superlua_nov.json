@@ -1,0 +1,67 @@
+{
+  "titulo": "Marte e Júpiter colados no céu (e a superlua de novembro)",
+  "gancho_tela": "Marte e Júpiter quase encostados",
+  "narracao": "Na próxima semana, Marte e Júpiter vão parecer encostados no céu. Mas é ilusão: Júpiter está quatro vezes mais longe. E no fim do mês ainda vem uma superlua. Nas madrugadas de quinze e dezesseis de novembro, olhe para o lado leste do céu antes do amanhecer. Eles vão estar a pouco mais de um grau de distância, mais ou menos a largura do seu dedo mindinho com o braço esticado. O ponto mais brilhante é Júpiter. O mais fraco e alaranjado é Marte. Ali perto fica Regulus, a estrela mais brilhante da constelação de Leão. Agora a parte que engana os olhos. Marte está a cerca de cento e noventa e cinco milhões de quilômetros da Terra. Júpiter, a quase setecentos e noventa milhões. Eles só parecem juntos porque estão na mesma direção, como dois postes de uma rua vistos de longe. Depois vem a superlua. No dia vinte e quatro de novembro, a Lua cheia acontece a cerca de trezentos e sessenta mil quilômetros daqui, bem mais perto que a média. Ela fica cerca de seis por cento maior e treze por cento mais brilhante que uma Lua cheia comum. E a superlua de dezembro vai ser ainda maior, a maior do ano. Você vai acordar cedo para ver Marte e Júpiter? Siga para descobrir uma curiosidade nova todo dia.",
+  "cenas": [
+    {
+      "trecho": "Na próxima semana, Marte e Júpiter vão parecer encostados no céu.",
+      "busca_imagem": "Mars Jupiter conjunction",
+      "prompt_imagem": "two bright planets very close together in a dark pre-dawn sky above a quiet horizon, one golden white and one orange"
+    },
+    {
+      "trecho": "Mas é ilusão: Júpiter está quatro vezes mais longe. E no fim do mês ainda vem uma superlua.",
+      "busca_imagem": "Jupiter Juno",
+      "prompt_imagem": "giant planet Jupiter with banded clouds in deep space, a small red planet far in the foreground"
+    },
+    {
+      "trecho": "Nas madrugadas de quinze e dezesseis de novembro, olhe para o lado leste do céu antes do amanhecer.",
+      "busca_imagem": "planets dawn sky",
+      "prompt_imagem": "pre-dawn eastern sky with deep blue gradient, bright planets above city rooftops silhouette"
+    },
+    {
+      "trecho": "Eles vão estar a pouco mais de um grau de distância, mais ou menos a largura do seu dedo mindinho com o braço esticado. O ponto mais brilhante é Júpiter. O mais fraco e alaranjado é Marte.",
+      "busca_imagem": "Jupiter Hubble",
+      "prompt_imagem": "person silhouette with arm outstretched toward two bright points of light in the night sky, starry background"
+    },
+    {
+      "trecho": "Ali perto fica Regulus, a estrela mais brilhante da constelação de Leão. Agora a parte que engana os olhos.",
+      "busca_imagem": "Leo constellation stars",
+      "prompt_imagem": "starfield of the constellation Leo with a bright blue-white star, deep night sky"
+    },
+    {
+      "trecho": "Marte está a cerca de cento e noventa e cinco milhões de quilômetros da Terra. Júpiter, a quase setecentos e noventa milhões.",
+      "busca_imagem": "Mars Hubble",
+      "prompt_imagem": "the red planet Mars in space with Earth small and distant, dramatic lighting"
+    },
+    {
+      "trecho": "Eles só parecem juntos porque estão na mesma direção, como dois postes de uma rua vistos de longe.",
+      "busca_imagem": "solar system planets orbits",
+      "prompt_imagem": "perspective view of the solar system showing Earth, Mars and Jupiter aligned along one line of sight"
+    },
+    {
+      "trecho": "Depois vem a superlua. No dia vinte e quatro de novembro, a Lua cheia acontece a cerca de trezentos e sessenta mil quilômetros daqui, bem mais perto que a média. Ela fica cerca de seis por cento maior e treze por cento mais brilhante que uma Lua cheia comum.",
+      "busca_imagem": "supermoon rising",
+      "prompt_imagem": "huge bright full moon rising over a horizon at dusk, warm golden glow"
+    },
+    {
+      "trecho": "E a superlua de dezembro vai ser ainda maior, a maior do ano. Você vai acordar cedo para ver Marte e Júpiter? Siga para descobrir uma curiosidade nova todo dia.",
+      "busca_imagem": "full Moon",
+      "prompt_imagem": "detailed full moon glowing in a black sky, crisp craters"
+    }
+  ],
+  "legenda": "15 e 16/11 antes do amanhecer: Marte e Júpiter a ~1° no céu. 24/11: superlua a ~360 mil km. 🔭🌕\nVocê vai acordar cedo para ver? Comenta aqui 👇",
+  "hashtags": [
+    "#superlua",
+    "#Júpiter",
+    "#Marte",
+    "#céudenovembro"
+  ],
+  "fontes": [
+    "BBC Sky at Night — Mars and Jupiter, November 2026 (14–17/11 ~1°; Mars mag +0,7, Jupiter mag −2,0; Regulus, Leão)",
+    "whenthecurveslineup.com — Jupiter–Mars conjunction near Regulus, 16/11/2026 (1,2°, antes do amanhecer)",
+    "Sky-Tonight — Mars–Jupiter close approach 2026-11-16 (1,19°; Marte 1,3067 UA ≈ 195,5 mi km; Júpiter 5,2662 UA ≈ 787,8 mi km)",
+    "Star Walk — Lua do Castor, 24/11/2026 14:53 UTC (11:53 BRT), ~360.768 km, ~6,5% maior e 13,5% mais brilhante; maior de 2026 é 24/12",
+    "Catraca Livre — Lua cheia de novembro de 2026 (24/11, 11h53 de Brasília)",
+    "Diário do Grande ABC — superlua de dezembro será a maior de 2026"
+  ]
+}
