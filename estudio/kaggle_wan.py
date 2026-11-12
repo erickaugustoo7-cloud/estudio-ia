@@ -274,7 +274,9 @@ _SEM_GENTE = re.compile(r",?\s*\b(no people|nobody[^,.]*|no faces?|faces? (?:not
 
 
 def _prompt_imagem(base: str, estilo: str, vazia: bool = True,
-                   epoca: str = "Strictly first century objects of clay, stone, wood and cloth") -> str:
+                   epoca: str = "Strictly first century objects of clay, stone, wood and cloth", moderno: bool = False) -> str:
+    if moderno:  # novela: a descrição já traz os personagens; só junta lugar/época e estilo
+        return f"{base.strip(' ,.')}. {epoca}. {estilo}"
     """O Z-Image não tem prompt negativo: escrever "no people" faz ele DESENHAR gente. Tira essas menções e descreve
     a cena como vazia (natureza-morta/ambiente) quando não há mãos em cena."""
     limpo = _SEM_GENTE.sub("", base).replace(" ,", ",").strip(" ,.")
@@ -304,6 +306,8 @@ def main():
     canal = carregar_canal("biblico")
     canal_img = {**canal, "estilo_visual": r.get("estilo_imagem", ESTILO), "regra_visual_pessoas": REGRA,
                  "epoca_imagem": r.get("epoca_imagem", "")}
+    if r.get("moderno"):  # novela cristã de hoje: rostos permitidos, personagens fixos, ambiente moderno
+        canal_img.update({"moderno": True, "regra_visual_pessoas": r.get("personagens_regra", "")})
     pasta = SAIDA / f"wan_{caminho.stem}_{datetime.now():%Y%m%d_%H%M%S}"
     pasta.mkdir(parents=True)
     narrado = all(c.get("trecho") for c in r["cenas"]) and not r.get("sem_narracao")
@@ -477,7 +481,8 @@ def main():
         def _cena_sem_gpu(i):
             c = {**cenas_img[i], "largura": 1344 if horiz else 768, "altura": 768 if horiz else 1344,
                  "prompt_imagem": _prompt_imagem(cenas_img[i]["prompt_imagem"], "", cenas_img[i].get("vazia", True),
-                                                 cenas_img[i].get("epoca_imagem") or canal_img.get("epoca_imagem", ""))}
+                                                 cenas_img[i].get("epoca_imagem") or canal_img.get("epoca_imagem", ""),
+                                                 moderno=bool(canal_img.get("moderno")))}
             motivo = ""
             for tent in range(3):
                 bruta = pasta / f"cena_{i}_t{tent}.png"
@@ -495,7 +500,8 @@ def main():
                 motivo = res.get("motivo", "")
                 if res.get("novo_prompt"):
                     c["prompt_imagem"] = _prompt_imagem(f"{prefixo_img} {res['novo_prompt']}", "", c.get("vazia", True),
-                                                        cenas_img[i].get("epoca_imagem") or canal_img.get("epoca_imagem", ""))
+                                                        cenas_img[i].get("epoca_imagem") or canal_img.get("epoca_imagem", ""),
+                                                        moderno=bool(canal_img.get("moderno")))
             return i, None, motivo
 
         with ThreadPoolExecutor(max_workers=3) as ex:

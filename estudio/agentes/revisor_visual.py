@@ -63,8 +63,23 @@ def _miniatura(img: Path, largura: int = 432) -> str:
     return base64.b64encode(out).decode()
 
 
+PERGUNTA_NOVELA = """Você é o controle de qualidade de uma novela cristã ilustrada passada no Brasil de hoje. Canal: {canal}.
+Trecho narrado nesta cena: "{trecho}"
+Descrição pedida para a imagem: "{prompt}"
+Época e lugar: {epoca}
+Personagens e regras: {regras}
+Responda com rigor, item por item:
+1. Rostos, mãos ou corpos deformados (olhos tortos, dedos a mais, membros fundidos)? Se houver, reprove.
+2. Texto, letras, logotipos ou marcas d'água na imagem? Se houver, reprove.
+3. Os personagens pedidos aparecem e combinam com a descrição (idade, gênero, cabelo, roupa)? Reprove só se estiver claramente errado.
+4. A cena mostra o que o trecho conta (lugar, ação, emoção)? Reprove só se estiver claramente diferente.
+5. Algo impróprio para um canal cristão familiar (sensualidade, violência gráfica, símbolos de outras religiões em destaque)? Se houver, reprove.
+Responda só JSON: {{"ok": true/false, "motivo": "curto, em português", "novo_prompt": "prompt corrigido em inglês, se reprovou"}}"""
+
+
 def _avaliar(chave, canal, cena, img, rigoroso=False) -> dict:
-    texto = (PERGUNTA_RIGOROSA if rigoroso else PERGUNTA).format(canal=canal["nome"], trecho=cena.get("trecho", ""),
+    modelo_pergunta = PERGUNTA_NOVELA if canal.get("moderno") else (PERGUNTA_RIGOROSA if rigoroso else PERGUNTA)
+    texto = modelo_pergunta.format(canal=canal["nome"], trecho=cena.get("trecho", ""),
                             epoca=cena.get("epoca_imagem") or canal.get("epoca_imagem", "a da narração"),
                             prompt=cena.get("prompt_imagem", ""),
                             regras=canal.get("regra_visual_pessoas", "nenhuma"))

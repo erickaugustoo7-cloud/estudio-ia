@@ -13,7 +13,14 @@ erros = []
 cenas = r.get("cenas", [])
 palavras = sum(len(c["trecho"].split()) for c in cenas)
 oracao = bool(r.get("cauda_musical_min"))
-if r.get("tipo") == "historia":  # história narrada com a voz do Eric, sem GPU (70–90 s)
+novela = bool(r.get("moderno"))
+if r.get("tipo") == "novela":  # novela cristã de hoje: personagens fixos com rosto, gancho no começo e "siga" no fim
+    lim_c, lim_p, lim_t = (8, 14), (150, 260), (6, 40)
+    if not r.get("personagens_regra"):
+        erros.append("novela sem personagens_regra (ficha visual fixa dos personagens)")
+    if "sig" not in (r["cenas"][-1]["trecho"].lower() if r.get("cenas") else ""):
+        erros.append("última cena precisa pedir para seguir (ex.: 'Siga para ver a parte 2')")
+elif r.get("tipo") == "historia":  # história narrada com a voz do Eric, sem GPU (70–90 s)
     lim_c, lim_p, lim_t = (7, 12), (140, 240), (6, 40)
 elif r.get("tipo") == "salmo":  # Salmos narrados: texto bíblico corrido sobre poucas imagens (1–2 min)
     lim_c, lim_p, lim_t = (3, 8), (120, 420), (8, 120)
@@ -48,9 +55,9 @@ for i, c in enumerate(cenas, 1):
     p = c.get("prompt_imagem", "").lower()
     sem_neg = re.sub(r"\bno [a-z ,]+", "", p)  # ignora negações ("no faces, no people")
     sem_neg = re.sub(r"silhouettes? of (the )?(palm|tree|hill|mountain|city|temple|pyramid|ship|boat|wall|tower)\w*", "", sem_neg)
-    if re.search(PESSOAS, sem_neg) and not re.search(PERMITIDO, sem_neg):
+    if not novela and re.search(PESSOAS, sem_neg) and not re.search(PERMITIDO, sem_neg):
         erros.append(f"cena {i}: pessoa como assunto da imagem → conte pela cena/objeto ({re.search(PESSOAS, sem_neg).group(0)})")
-    if re.search(MODERNO, re.sub(r"\bno [a-z ]+", "", p)):
+    if not novela and re.search(MODERNO, re.sub(r"\bno [a-z ]+", "", p)):
         erros.append(f"cena {i}: objeto moderno no prompt")
     m = (c.get("prompt_movimento") or "").lower()
     if re.search(r"\b(turns?|walks?|raises?|bows?|looks? at|kneel|stands? up|sits? down)\b", m):
