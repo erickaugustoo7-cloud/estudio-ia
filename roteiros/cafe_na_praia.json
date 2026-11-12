@@ -1,0 +1,64 @@
+{
+  "titulo": "O café da manhã que Jesus preparou",
+  "gancho_tela": "Ele ressuscitou e foi fazer café",
+  "estilo": "pintura",
+  "narracao": "Depois de ressuscitar, Jesus preparou o café da manhã para homens derrotados. Um deles era Pedro. Está em João, capítulo vinte e um. Mas por que Jesus fez isso, em vez de cobrar deles? Pedro tinha negado Jesus três vezes. E mesmo depois da ressurreição, ele voltou para a vida de antes. Disse aos amigos: eu vou pescar. Pescaram a noite inteira. Nada. Ao amanhecer, um homem na praia disse: lancem a rede do lado direito do barco. Eles lançaram, e a rede veio tão cheia que não conseguiam puxar. Um discípulo disse: é o Senhor! Pedro não esperou o barco. Vestiu a roupa e se jogou no mar. Na areia, já tinha uma fogueira, com peixe e pão. E Jesus disse: venham comer. Pegou o pão e deu a eles, e fez o mesmo com o peixe. Nenhuma bronca. Nenhum sermão. Antes de falar do erro, Jesus cuidou da fome deles. Se você acordou se sentindo um fracasso, Jesus não te espera com o dedo apontado. Ele te espera com a mesa posta. Salve este vídeo para ouvir de novo quando precisar, e siga para receber uma palavra de fé todos os dias.",
+  "cenas": [
+    {
+      "trecho": "Depois de ressuscitar, Jesus preparou o café da manhã para homens derrotados.",
+      "busca_imagem": "",
+      "prompt_imagem": "a small charcoal fire glowing on a pebbled lakeshore at dawn, fish and bread warming on the coals, a calm sea and a lone fishing boat in the misty golden distance, strong contrast of warm firelight and cool blue morning"
+    },
+    {
+      "trecho": "Um deles era Pedro. Está em João, capítulo vinte e um. Mas por que Jesus fez isso, em vez de cobrar deles?",
+      "busca_imagem": "fisherman silhouette dawn sea",
+      "prompt_imagem": "a strong fisherman in ancient robes seen from behind standing at the bow of a wooden boat on the Sea of Galilee before dawn, head lowered, dim blue light"
+    },
+    {
+      "trecho": "Pedro tinha negado Jesus três vezes. E mesmo depois da ressurreição, ele voltou para a vida de antes. Disse aos amigos: eu vou pescar.",
+      "busca_imagem": "fishing boat night lantern",
+      "prompt_imagem": "several men in ancient robes seen from behind pushing a wooden fishing boat into a dark lake at night, a single oil lantern, nets in their hands"
+    },
+    {
+      "trecho": "Pescaram a noite inteira. Nada.",
+      "busca_imagem": "empty fishing net night",
+      "prompt_imagem": "tired fishermen in shadow pulling up an empty net from dark water at night, a lantern on the boat, weary posture, cold moonlight"
+    },
+    {
+      "trecho": "Ao amanhecer, um homem na praia disse: lancem a rede do lado direito do barco. Eles lançaram, e a rede veio tão cheia que não conseguiam puxar.",
+      "busca_imagem": "net full of fish dawn",
+      "prompt_imagem": "fishermen in ancient robes seen from behind straining to haul a net overflowing with silver fish over the side of a wooden boat at sunrise, a distant figure standing on the shore in silhouette"
+    },
+    {
+      "trecho": "Um discípulo disse: é o Senhor! Pedro não esperou o barco. Vestiu a roupa e se jogou no mar.",
+      "busca_imagem": "man jumping into sea",
+      "prompt_imagem": "a man in ancient robes seen from behind leaping from a wooden boat into the shimmering lake toward a shore lit by golden sunrise, splashing water"
+    },
+    {
+      "trecho": "Na areia, já tinha uma fogueira, com peixe e pão. E Jesus disse: venham comer. Pegou o pão e deu a eles, e fez o mesmo com o peixe.",
+      "busca_imagem": "breakfast fire beach bread fish",
+      "prompt_imagem": "robed men seen from behind and in shadow sitting around a small charcoal fire on a beach at sunrise, bread being shared from hand to hand, fish on the coals, warm intimate light"
+    },
+    {
+      "trecho": "Nenhuma bronca. Nenhum sermão. Antes de falar do erro, Jesus cuidou da fome deles.",
+      "busca_imagem": "hands sharing bread",
+      "prompt_imagem": "close view of weathered hands receiving a piece of bread near a glowing fire on a lakeshore, morning light, no faces visible"
+    },
+    {
+      "trecho": "Se você acordou se sentindo um fracasso, Jesus não te espera com o dedo apontado. Ele te espera com a mesa posta. Salve este vídeo para ouvir de novo quando precisar, e siga para receber uma palavra de fé todos os dias.",
+      "busca_imagem": "sunrise lake hope",
+      "prompt_imagem": "a lone man seen from behind walking along a quiet lakeshore toward a small fire and a bright golden sunrise, peaceful and hopeful"
+    }
+  ],
+  "legenda": "Senhor, obrigado por me esperar com a mesa posta 🙏😭\nJoão 21:1-13\nComente \"Amém\" e salve para ouvir de novo quando precisar.",
+  "hashtags": [
+    "#Pedro",
+    "#recomeço",
+    "#perdão",
+    "#amordeDeus"
+  ],
+  "fontes": [
+    "João 21:1-14 (a pesca no mar de Tiberíades, 'é o Senhor', Pedro se lança ao mar, a fogueira com peixe e pão, 'venham comer')",
+    "Lucas 22:54-62 (as três negações de Pedro)"
+  ]
+}
