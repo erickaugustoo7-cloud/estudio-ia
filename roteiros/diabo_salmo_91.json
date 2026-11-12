@@ -1,0 +1,67 @@
+{
+  "titulo": "O diabo citou o Salmo 91 para Jesus",
+  "gancho_tela": "Ele usou um versículo. Jesus respondeu.",
+  "estilo": "pintura",
+  "narracao": "O diabo já citou a Bíblia. E citou para Jesus. Foi o Salmo noventa e um. Está em Mateus, capítulo quatro. Mas repare no que Jesus respondeu. Jesus estava no deserto havia quarenta dias, jejuando, e teve fome. O diabo o levou a Jerusalém, à parte mais alta do templo. E disse: se você é o Filho de Deus, jogue-se daqui para baixo. Pois está escrito que os anjos o segurarão com as mãos, para que você não tropece em nenhuma pedra. Repare no começo: se você é o Filho de Deus. Pouco antes, no batismo, uma voz do céu tinha dito: este é o meu Filho amado. Agora o diabo queria que Jesus provasse isso. Pulando. Jesus não pulou. Não discutiu. Respondeu: também está escrito: não ponha à prova o Senhor, o seu Deus. E o final? Quando o diabo foi embora, os anjos vieram e serviram Jesus. Ele não precisou pular para ser cuidado. Talvez alguém diga para você: se você é homem mesmo, prove. Você não precisa pular. Deus já disse quem você é. Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias.",
+  "cenas": [
+    {
+      "trecho": "O diabo já citou a Bíblia. E citou para Jesus.",
+      "busca_imagem": "",
+      "prompt_imagem": "a lone robed figure seen from behind standing at the edge of the highest stone parapet of an ancient temple, a vast drop below, the city of Jerusalem glowing in golden sunset light, a dark shadowy figure looming behind him, dramatic high contrast"
+    },
+    {
+      "trecho": "Foi o Salmo noventa e um. Está em Mateus, capítulo quatro. Mas repare no que Jesus respondeu.",
+      "busca_imagem": "ancient scroll candle open",
+      "prompt_imagem": "an ancient open scroll of Hebrew scripture lying on a stone ledge, lit by a single oil lamp, a shadowy hand pointing at the text, deep darkness around, warm golden glow"
+    },
+    {
+      "trecho": "Jesus estava no deserto havia quarenta dias, jejuando, e teve fome. O diabo o levou a Jerusalém, à parte mais alta do templo.",
+      "busca_imagem": "desert man alone dusk",
+      "prompt_imagem": "a lone man in simple ancient robes seen from behind walking through a barren rocky desert at dusk, exhausted, long shadow on the sand, distant hills under a burning orange sky"
+    },
+    {
+      "trecho": "E disse: se você é o Filho de Deus, jogue-se daqui para baixo. Pois está escrito que os anjos o segurarão com as mãos, para que você não tropece em nenhuma pedra.",
+      "busca_imagem": "temple height city below",
+      "prompt_imagem": "view from the dizzying top of an ancient stone temple wall looking down at tiny courtyards and crowds far below, a robed silhouette at the edge, a dark cloaked figure whispering beside him, golden evening light"
+    },
+    {
+      "trecho": "Repare no começo: se você é o Filho de Deus. Pouco antes, no batismo, uma voz do céu tinha dito: este é o meu Filho amado.",
+      "busca_imagem": "river light heaven",
+      "prompt_imagem": "a robed figure seen from behind standing waist deep in a river, heavens opening above with radiant golden light streaming down, a dove descending in the light, people on the bank in shadow"
+    },
+    {
+      "trecho": "Agora o diabo queria que Jesus provasse isso. Pulando.",
+      "busca_imagem": "edge cliff shadow figure",
+      "prompt_imagem": "a robed silhouette standing calm and still at the edge of a high stone ledge at sunset, a menacing dark shadow stretching across the stones toward him, wind in his cloak"
+    },
+    {
+      "trecho": "Jesus não pulou. Não discutiu. Respondeu: também está escrito: não ponha à prova o Senhor, o seu Deus.",
+      "busca_imagem": "man turning away dark",
+      "prompt_imagem": "a robed figure seen from behind turning away from the edge of the temple top, firm and peaceful, the dark figure shrinking back into shadow, golden light falling on the path ahead"
+    },
+    {
+      "trecho": "E o final? Quando o diabo foi embora, os anjos vieram e serviram Jesus. Ele não precisou pular para ser cuidado.",
+      "busca_imagem": "angels light desert",
+      "prompt_imagem": "a robed man seen from behind sitting on a rock in the desert at dawn, luminous winged figures in soft golden light approaching to serve him with bread and water, peaceful warm glow"
+    },
+    {
+      "trecho": "Talvez alguém diga para você: se você é homem mesmo, prove. Você não precisa pular. Deus já disse quem você é. Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias.",
+      "busca_imagem": "man sunset hope cross",
+      "prompt_imagem": "a man in ancient robes seen from behind standing on a hilltop at sunset, shoulders relaxed, looking toward a warm golden horizon, calm and confident"
+    }
+  ],
+  "legenda": "Senhor, eu não preciso provar nada, eu sou teu 🙏\nMateus 4:5-7 · Salmo 91:11-12\nComente \"Amém\" e envie para alguém que está sendo testado hoje.",
+  "hashtags": [
+    "#Salmo91",
+    "#tentação",
+    "#Jesusnodeserto",
+    "#identidade"
+  ],
+  "fontes": [
+    "Mateus 4:1-2 (levado ao deserto, jejuou quarenta dias, teve fome)",
+    "Mateus 4:5-7 (o Diabo o levou à cidade santa — Jerusalém, em Lucas 4:9, à parte mais alta do templo; 'Se és o Filho de Deus, joga-te daqui para baixo'; cita o salmo; 'Também está escrito: Não ponha à prova o Senhor, o seu Deus')",
+    "Salmo 91:11-12 (anjos; com as mãos eles o segurarão; para que você não tropece em alguma pedra)",
+    "Mateus 3:17 (no batismo, voz do céu: 'Este é o meu Filho amado')",
+    "Mateus 4:11 (o Diabo o deixou, e os anjos vieram e o serviram)"
+  ]
+}
