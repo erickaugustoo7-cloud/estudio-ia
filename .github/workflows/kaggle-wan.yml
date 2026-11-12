@@ -90,6 +90,19 @@ jobs:
           echo "KAGGLE_USERNAME: ${KAGGLE_USERNAME:+definido} · KAGGLE_KEY: ${KAGGLE_KEY:+definido} · KAGGLE_API_TOKEN: ${KAGGLE_API_TOKEN:+definido}"
           [ -n "$KAGGLE_USERNAME" ] && { [ -n "$KAGGLE_KEY" ] || [ -n "$KAGGLE_API_TOKEN" ]; } || { echo "::error::Faltam os segredos do Kaggle"; exit 1; }
           python -m kaggle kernels list --mine --page-size 1 >/dev/null && echo "login no Kaggle ok"
+      - name: Voz do Eric (Chatterbox) — instala só quando o roteiro pede
+        run: |
+          if grep -q '"voz": *"eric"' "${{ inputs.roteiro }}"; then
+            pip install -q torch==2.6.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cpu
+            pip install -q chatterbox-tts demucs
+          fi
+      - name: Cache do modelo de voz clonada
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/estudio-voz-clone
+            ~/.cache/torch
+          key: voz-clone-v1
       - name: Cache da narração (refazer não gasta a cota da Gemini)
         uses: actions/cache/restore@v4
         with:

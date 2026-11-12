@@ -315,7 +315,10 @@ def main():
         canal_voz = {**canal, "gemini_tts": {**canal["gemini_tts"], "duracao_max": r.get("duracao_max", 20)}} \
             if canal.get("gemini_tts") else canal
         limite = int(r.get("palavras_por_bloco", 170))
-        if len(texto.split()) <= limite + 40:
+        if r.get("voz") == "eric":  # voz do próprio Eric (clone autorizado), sem gastar cota da Gemini
+            from estudio.agentes import narrador_clone
+            mp3, palavras, dur = narrador_clone.narrar(texto, pasta, narrador.duracao)
+        elif len(texto.split()) <= limite + 40:
             mp3, palavras, dur = narrador.narrar(canal_voz, texto, pasta)
         else:  # filme longo: a voz é gerada em blocos de cenas e emendada (cada pedido ao Gemini fica curto)
             grupos, atual, n = [], [], 0

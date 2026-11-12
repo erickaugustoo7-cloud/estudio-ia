@@ -1,0 +1,64 @@
+{
+  "titulo": "Salmo 139 — Deus te conhece por inteiro",
+  "gancho_tela": "Deus te conhece por inteiro",
+  "referencia": "Salmos 139:1-14",
+  "serie": "Salmos narrados",
+  "tipo": "salmo",
+  "voz": "eric",
+  "fonte_imagem": "cloudflare",
+  "duracao_max": 180,
+  "volume_musica": 0.12,
+  "estilo_imagem": "cinematic photorealistic landscape, golden hour light, soft volumetric rays, peaceful and reverent, rich warm colors, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic slow subtle motion.",
+  "epoca_imagem": "untouched nature, no buildings, no modern objects",
+  "legenda": "Salmo 139 🙏 Tu me sondaste, e me conheces.\nSalmos 139:1-14 (Almeida)\nEscreva \"Amém\" se você crê que Deus te conhece e te ama por inteiro.",
+  "hashtags": [
+    "#Salmo139",
+    "#Salmos",
+    "#PalavraDeDeus",
+    "#Fé",
+    "#Oração"
+  ],
+  "fontes": [
+    "Salmos 139:1-14 — Almeida (tradução de domínio público)"
+  ],
+  "cenas": [
+    {
+      "trecho": "Salmo cento e trinta e nove. Ouça com calma, e deixe essa Palavra falar com você.",
+      "prompt_imagem": "a vast golden sunrise over layered misty mountains, rays of light through the clouds, untouched nature",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Senhor, tu me sondaste, e me conheces. Tu sabes o meu assentar e o meu levantar; de longe entendes o meu pensamento. Cercas o meu andar e o meu deitar; e conheces todos os meus caminhos. Não havendo ainda palavra alguma na minha língua, eis que logo, ó Senhor, tudo conheces. Tu me cercaste por detrás e por diante, e puseste sobre mim a tua mão. Tal ciência é para mim maravilhosíssima; tão alta que não a posso atingir.",
+      "prompt_imagem": "a rocky mountain summit at golden sunrise above a sea of clouds, warm light, soft wind in the grass",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Para onde me irei do teu espírito, ou para onde fugirei da tua face? Se subir ao céu, lá tu estás; se fizer no Seol a minha cama, eis que tu ali estás também. Se tomar as asas da alva, se habitar nas extremidades do mar, até ali a tua mão me guiará e a tua destra me susterá.",
+      "prompt_imagem": "a calm sea at dawn stretching to the horizon, first light reflecting on the water, soft clouds, untouched nature",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Se disser: decerto que as trevas me encobrirão; então a noite será luz à roda de mim. Nem ainda as trevas me encobrem de ti; mas a noite resplandece como o dia; as trevas e a luz são para ti a mesma coisa.",
+      "prompt_imagem": "a deep starry night sky over dark quiet hills, a soft beam of silver light breaking through the clouds",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Pois possuíste o meu interior; entreteceste-me no ventre de minha mãe. Eu te louvarei, porque de um modo assombroso e tão maravilhoso fui feito; maravilhosas são as tuas obras, e a minha alma o sabe muito bem.",
+      "prompt_imagem": "a peaceful green valley at golden sunset with wildflowers and a small stream, warm glowing light, untouched nature",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Deus te conhece por inteiro, e mesmo assim te ama. Se essa Palavra falou com você, escreva Amém e compartilhe com alguém que precisa ouvir isso hoje.",
+      "prompt_imagem": "a wooden cross on a rocky hilltop silhouetted against a glowing golden sunset sky with rays of light",
+      "vazia": true,
+      "animar": false
+    }
+  ]
+}
