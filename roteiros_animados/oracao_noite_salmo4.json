@@ -1,0 +1,195 @@
+{
+  "titulo": "Oração da noite: Salmo 4",
+  "titulo_youtube": "ORE ISSO ANTES DE DORMIR | Salmo 4 — Em Paz me Deito e Logo Pego no Sono",
+  "gancho_tela": "Durma em paz",
+  "referencia": "Salmos 4",
+  "formato": "horizontal",
+  "duracao_max": 999,
+  "volume_musica": 0.22,
+  "opcoes_imagem": 1,
+  "palavras_por_bloco": 260,
+  "cauda_musical_min": 20,
+  "plataformas": [
+    "youtube"
+  ],
+  "cena_capa": 6,
+  "texto_capa": [
+    "EM PAZ",
+    "ME DEITO"
+  ],
+  "estilo_imagem": "cinematic photorealistic still, peaceful night atmosphere, soft moonlight, gentle glow, deep blue and warm gold tones, calm and serene, horizontal 16:9 widescreen",
+  "prefixo_imagem": "cinematic photorealistic peaceful still:",
+  "prefixo_video": "Cinematic peaceful night shot, very slow and gentle motion.",
+  "epoca_imagem": "Ancient Israel landscape, stone, clay, wood, wool and linen only, nothing modern, no electric lights",
+  "legenda": "Ore comigo antes de dormir com o Salmo 4: \"Em paz me deito e logo pego no sono, porque só tu, Senhor, me fazes viver em segurança\" (Salmos 4:8, NVI).\n\nDepois da oração, a música continua por 20 minutos para você adormecer em paz.\n\nEscreva \"Amém\" nos comentários se você vai dormir em paz esta noite.",
+  "hashtags": [
+    "#Salmo4",
+    "#OraçãoParaDormir",
+    "#OraçãoDaNoite",
+    "#Oração",
+    "#Fé"
+  ],
+  "fontes": [
+    "Salmos 4:1,3,4,6-8 (NVI)"
+  ],
+  "cena_cauda": 0,
+  "fonte_imagem": "cloudflare",
+  "cenas": [
+    {
+      "trecho": "Antes de fechar os olhos, fique um pouco aqui. Respire fundo. Solte o ar devagar. Esta noite nós vamos orar com o Salmo quatro, a oração que Davi fez antes de dormir, num dia em que tudo parecia contra ele.",
+      "prompt_imagem": "a calm starry night sky over dark quiet hills, the Milky Way glowing softly, deep blue tones",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Davi estava cercado de problemas. Pessoas falando mal dele, decisões difíceis, o coração apertado. E mesmo assim, no fim do dia, ele escreveu: em paz me deito e logo pego no sono.",
+      "prompt_imagem": "an ancient stone city wall at night under the moon, quiet empty watchtower, soft silver light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Responde-me quando clamo, ó Deus. Senhor, eu começo esta noite exatamente assim. Eu clamo a ti. Não tenho palavras bonitas, só um coração cansado que precisa da tua resposta.",
+      "prompt_imagem": "a small open clay saucer oil lamp with a tiny flame on a rough stone ledge, darkness around, warm glow",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Dá-me alívio da minha angústia. Tu conheces a angústia que eu carrego hoje. Aquele assunto que volta na cabeça, a conversa que não terminou bem, o medo do que vem amanhã.",
+      "prompt_imagem": "a narrow dark valley at night with a thin silver stream reflecting moonlight between rocks",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Talvez hoje alguém tenha te machucado com palavras. Talvez você tenha machucado alguém. Davi também passou por isso. E ele não fingiu que estava tudo bem. Ele levou tudo a Deus antes de dormir. Faça o mesmo agora: conte a Ele, em silêncio, o que mais pesou no seu dia.",
+      "prompt_imagem": "a quiet path of stones winding through dark hills under the moon, soft silver light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Tem misericórdia de mim e ouve a minha oração. Eu não venho pelos meus méritos, Senhor. Venho pela tua misericórdia, que é maior do que os meus erros de hoje.",
+      "prompt_imagem": "soft moonlight breaking through dark clouds over quiet hills, rays of silver light falling on the grass",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Davi lembrou que o Senhor separa para si aquele que lhe é fiel. Isso quer dizer que tu me conheces pelo nome. Eu não sou um número na tua lista. Eu sou teu.",
+      "prompt_imagem": "a single olive tree on a hilltop under a sky full of stars, gentle wind, peaceful night",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Quando vocês ficarem irados, não pequem; ao deitar-se, reflitam nisso e aquietem-se. Senhor, se hoje eu senti raiva, eu entrego essa raiva a ti. Não quero dormir com ela.",
+      "prompt_imagem": "a still lake at night reflecting the moon perfectly, no ripples, dark shores, total calm",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Aquieta o meu coração. Aquieta a minha mente. Desliga o barulho que ficou de hoje: as notificações, as cobranças, as vozes que me disseram que eu não sou suficiente.",
+      "prompt_imagem": "a quiet meadow at night with fireflies glowing softly in the tall grass, stars above",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Agora respire de novo, devagar. Inspire contando até quatro. Segure um pouco. E solte o ar, deixando o peso do dia sair junto com ele.",
+      "prompt_imagem": "a wide starry night sky over a calm lake and dark hills, soft deep blue tones, very peaceful",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Inspire de novo, bem devagar, e diga no coração: o Senhor está aqui. Solte o ar e diga: eu não estou sozinho. Mais uma vez, sem pressa. O Senhor está aqui. Eu não estou sozinho. Deixe essas palavras descerem até o fundo do peito, onde mora a preocupação.",
+      "prompt_imagem": "gentle mist moving over a still lake at night, stars reflected on the water",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Muitos perguntam: quem nos fará ver o bem? Talvez você também tenha perguntado isso hoje. Mas Davi respondeu: faze resplandecer sobre nós a luz do teu rosto, Senhor.",
+      "prompt_imagem": "the first soft glow of light on the horizon over dark hills, a few stars still shining",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Senhor, faz brilhar a tua luz sobre a minha casa. Sobre o meu quarto, sobre a minha cama, sobre cada pessoa que mora comigo e sobre quem eu amo e está longe.",
+      "prompt_imagem": "a quiet ancient village of stone houses at night, small windows glowing with warm oil lamp light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Encheste o meu coração de alegria, alegria maior do que a daqueles que têm fartura de trigo e de vinho. A alegria que vem de ti não depende do que aconteceu hoje.",
+      "prompt_imagem": "a golden wheat field swaying under a full moon, soft silver light, gentle breeze",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Obrigado pelo que eu tenho. Pela comida que comi, pelo ar que respirei, pelas pessoas que cruzaram o meu caminho. Obrigado até pelas coisas que eu nem percebi.",
+      "prompt_imagem": "a simple rustic wooden table with bread, a clay jug and a clay cup under an olive tree at night, warm faint glow",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Senhor, eu te apresento também as pessoas que estão sofrendo esta noite. Quem está num hospital, quem perdeu alguém, quem está sem emprego, quem não tem com quem conversar. Coloca a tua mão sobre cada uma delas, do mesmo jeito que tu cuidas de mim.",
+      "prompt_imagem": "a field of white wildflowers under the full moon, quiet hills in the distance",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Eu entrego a ti o meu trabalho, as minhas contas, a minha saúde e a minha família. Tudo o que eu não consigo resolver esta noite, eu deixo nas tuas mãos.",
+      "prompt_imagem": "an open hand-woven basket left on a stone step at night, moonlight, quiet courtyard",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E se amanhã for difícil, eu sei que tu já estás lá. Tu não dormes. Enquanto eu descanso, tu continuas cuidando de mim.",
+      "prompt_imagem": "a lone watchtower of stone on a hill at night under the stars, a small fire glowing at its base",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Em paz me deito e logo pego no sono, porque só tu, Senhor, me fazes viver em segurança. Esse é o versículo desta noite. Repita no coração: em paz me deito.",
+      "prompt_imagem": "a simple wooden bed with a wool blanket beside an open clay saucer oil lamp with a tiny flame, stone wall, quiet night",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Davi dormiu em paz não porque os problemas acabaram, mas porque ele sabia quem estava acordado por ele. O mesmo Deus que guardava Davi guarda você agora. Ele vê a sua casa, conhece o seu nome e sabe exatamente do que você precisa amanhã.",
+      "prompt_imagem": "a shepherd's stone shelter on a hillside at night with a small fire glowing inside, stars above",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Só tu me fazes viver em segurança. Não o dinheiro, não as portas trancadas, não as pessoas fortes. Só tu.",
+      "prompt_imagem": "a strong ancient stone house with a heavy wooden door closed at night, moonlight on the stones",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Agora deixe o corpo pesar sobre a cama. Solte o rosto, solte os ombros, solte as mãos. Não precisa fazer mais nada hoje.",
+      "prompt_imagem": "a calm sea at night under the moon, slow small waves reaching a quiet sandy shore",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Senhor, guarda os meus sonhos. Afasta de mim o medo e a ansiedade. Que o teu Espírito fique comigo a noite inteira.",
+      "prompt_imagem": "a vast starry sky over still dark hills, a soft beam of moonlight touching the grass",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Se a sua mente quiser voltar para as preocupações, não brigue com ela. Apenas volte para o versículo: em paz me deito e logo pego no sono. Repita quantas vezes precisar, como quem segura a mão de alguém no escuro, até o sono chegar.",
+      "prompt_imagem": "a soft beam of moonlight entering a quiet stone room through a small window, peaceful night",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E quando eu acordar, que a primeira coisa que eu sinta seja a tua presença, e que a tua misericórdia já esteja me esperando.",
+      "prompt_imagem": "the first light of dawn over quiet hills and a calm lake, soft pink and gold colors",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Em nome de Jesus, eu me deito em paz. Amém. Fique agora em silêncio. A música vai continuar por alguns minutos para você adormecer tranquilo.",
+      "prompt_imagem": "a vast starry night sky over still dark hills and a quiet lake, the Milky Way glowing softly",
+      "vazia": true,
+      "animar": false
+    }
+  ]
+}
