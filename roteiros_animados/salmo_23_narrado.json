@@ -1,0 +1,64 @@
+{
+  "titulo": "Salmo 23 — O Senhor é o meu pastor",
+  "gancho_tela": "O Senhor é o meu pastor",
+  "referencia": "Salmos 23:1-6",
+  "serie": "Salmos narrados",
+  "tipo": "salmo",
+  "voz": "eric",
+  "fonte_imagem": "cloudflare",
+  "duracao_max": 180,
+  "volume_musica": 0.12,
+  "estilo_imagem": "cinematic photorealistic landscape, golden hour light, soft volumetric rays, peaceful and reverent, rich warm colors, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic slow subtle motion.",
+  "epoca_imagem": "untouched nature, no buildings, no modern objects",
+  "legenda": "Salmo 23 🙏 O Senhor é o meu pastor; nada me faltará.\nSalmos 23:1-6 (Almeida)\nEscreva \"Amém\" se o Senhor é o seu pastor, e envie a alguém que está passando pelo vale.",
+  "hashtags": [
+    "#Salmo23",
+    "#Salmos",
+    "#PalavraDeDeus",
+    "#Fé",
+    "#Oração"
+  ],
+  "fontes": [
+    "Salmos 23:1-6 — Almeida (tradução de domínio público)"
+  ],
+  "cenas": [
+    {
+      "trecho": "Salmo vinte e três. Davi foi pastor de ovelhas antes de ser rei. Respire fundo, e ouça com calma o que ele escreveu.",
+      "prompt_imagem": "soft golden sunrise over rolling green hills and wild grass, light mist in the valleys, untouched nature",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "O Senhor é o meu pastor; nada me faltará. Deitar-me faz em pastos verdejantes; guia-me mansamente a águas tranquilas.",
+      "prompt_imagem": "a lush green meadow beside a calm clear stream at golden hour, gentle breeze moving the grass, warm light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Refrigera a minha alma; guia-me nas veredas da justiça por amor do seu nome.",
+      "prompt_imagem": "a narrow stone path winding through green hills toward warm morning light, wildflowers along the way, untouched nature",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Ainda que eu ande pelo vale da sombra da morte, não temerei mal algum, porque tu estás comigo; a tua vara e o teu cajado me consolam.",
+      "prompt_imagem": "a deep shadowed rocky valley with steep cliffs, a single beam of golden light breaking through and lighting the path ahead",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Preparas uma mesa perante mim na presença dos meus inimigos; unges com óleo a minha cabeça, o meu cálice transborda. Certamente que a bondade e a misericórdia me seguirão todos os dias da minha vida, e habitarei na casa do Senhor por longos dias.",
+      "prompt_imagem": "a rough wooden table on a quiet hillside at sunset with a clay cup, a small clay oil jar and bread, warm glowing light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Nenhum vale é escuro demais para o Bom Pastor. Se você crê nisso, escreva Amém e mande este salmo para alguém que precisa de paz hoje.",
+      "prompt_imagem": "a wooden cross on a grassy hilltop silhouetted against a glowing golden sunset sky with rays of light",
+      "vazia": true,
+      "animar": false
+    }
+  ]
+}
