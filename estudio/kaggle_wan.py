@@ -296,6 +296,107 @@ def _quadros(seg: float) -> int:
     return max(49, min(145, n))
 
 
+def _norm(w: str) -> str:
+    return re.sub(r"[^\wà-ú]", "", w.lower())
+
+
+def _short_isca(r, canal, imgs, tempos, palavras, mp3, pasta) -> None:
+    """Short vertical de 8–20 s com o trecho mais forte da oração longa (mesma voz, mesmas ilustrações),
+    para ser ligado à oração pelo "Vídeo relacionado" do YouTube: o Short traz gente, a oração gera as horas."""
+    from estudio.produzir import abrir_issue, montar_texto_post
+    from estudio.agentes import montador
+    from estudio.agentes.montador_hf import _preparar_musica
+    cfg = r["short_isca"]
+    cenas = [int(c) for c in cfg["cenas"]]
+    a, b = min(cenas), max(cenas)
+    ini, fim = sum(tempos[:a]), sum(tempos[:b + 1])
+    if cfg.get("trecho") and palavras:  # recorta só a frase pedida dentro dessas cenas
+        alvo = [_norm(w) for w in cfg["trecho"].split() if _norm(w)]
+        jan = [p for p in palavras if ini - 0.3 <= p["ini"] < fim + 0.3]
+        ws = [_norm(p["texto"]) for p in jan]
+        for k in range(len(ws) - len(alvo) + 1):
+            if ws[k:k + len(alvo)] == alvo:
+                ini, fim = jan[k]["ini"] - 0.15, jan[k + len(alvo) - 1]["fim"] + 0.1
+                break
+        else:
+            log("wan", "short isca: trecho não encontrado na fala; usando as cenas inteiras")
+    ini = max(0.0, ini)
+    dur = fim - ini + 1.2  # respiro no fim (ajuda o vídeo a "dar a volta")
+    out = pasta / f"isca_{pasta.name}"
+    out.mkdir(exist_ok=True)
+    W2, H2 = 1080, 1920
+    # imagem: fundo desfocado da própria ilustração + ilustração inteira no centro com zoom lento
+    partes, t = [], ini
+    for i in range(a, b + 1):
+        seg = min(sum(tempos[:i + 1]), fim) - max(sum(tempos[:i]), ini)
+        if i == b:
+            seg += 1.2
+        if seg <= 0.2:
+            continue
+        n, pt = int(seg * 30) + 1, out / f"p{i}.mp4"
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-loop", "1", "-framerate", "30", "-i", str(imgs[i]),
+                        "-filter_complex",
+                        f"[0:v]split[a][b];[a]scale={W2}:{H2}:force_original_aspect_ratio=increase,crop={W2}:{H2},"
+                        f"boxblur=28:2,eq=brightness=-0.18[bg];[b]scale=1400:-2,zoompan=z='min(1+0.0009*on,1.10)'"
+                        f":x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d={n}:s=1080x608:fps=30[fg];"
+                        "[bg][fg]overlay=0:(H-h)/2-60,format=yuv420p[v]", "-map", "[v]", "-t", f"{seg:.3f}",
+                        "-c:v", "libx264", "-crf", "19", "-preset", "veryfast", "-r", "30", str(pt)], check=True)
+        partes.append(pt)
+    lista = out / "lista.txt"
+    lista.write_text("".join(f"file '{x.resolve()}'\n" for x in partes))
+    base = out / "base.mp4"
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", str(lista),
+                    "-c:v", "libx264", "-crf", "19", "-preset", "veryfast", "-pix_fmt", "yuv420p", str(base)], check=True)
+    # legenda palavra a palavra (mesma identidade dos curtos) + título no topo + convite no fim
+    ass = out / "legendas.ass"
+    pal = [{**p, "ini": p["ini"] - ini, "fim": p["fim"] - ini} for p in palavras if ini - 0.05 <= p["ini"] < fim]
+    montador.gerar_legendas(pal, ass)
+    extra = ("Style: Topo,DejaVu Serif,74,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,-1,0,0,0,100,100,0,0,1,5,2,8,70,70,330,1\n"
+             "Style: Cta,Montserrat,46,&H007AD2FF,&H007AD2FF,&H00000000,&H96000000,-1,0,0,0,100,100,1,0,3,14,0,2,90,90,250,1\n"
+             f"{ESTILO_ASSINATURA}\n")
+    tx = ass.read_text().replace("\n[Events]", extra + "\n[Events]", 1)
+    tx += f"Dialogue: 1,{_ts(0)},{_ts(dur)},Topo,,0,0,0,,{cfg.get('texto_topo', r['titulo']).upper()}\n"
+    tx += f"Dialogue: 2,{_ts(0)},{_ts(dur)},Sig,,0,0,0,,{canal['nome'].upper()}\n"
+    tx += f"Dialogue: 3,{_ts(max(0, dur - 3.5))},{_ts(dur)},Cta,,0,0,0,,{cfg.get('cta', '▶ ORAÇÃO COMPLETA NO VÍDEO ABAIXO')}\n"
+    ass.write_text(tx, encoding="utf-8")
+    musica = out / "musica.mp3"
+    tem_musica = _preparar_musica(canal, musica, dur)
+    vol = r.get("volume_musica", 0.12)
+    cmd = ["ffmpeg", "-y", "-loglevel", "error", "-i", str(base), "-ss", f"{ini:.3f}", "-t", f"{dur:.3f}", "-i", str(mp3)]
+    aud = f"[1:a]aresample=48000,apad,afade=t=out:st={max(0, dur - 0.6):.2f}:d=0.6[voz]"
+    if tem_musica:
+        cmd += ["-i", str(musica)]
+        aud += (f";[2:a]aresample=48000,volume={vol},afade=t=in:d=0.5,afade=t=out:st={max(0, dur - 1):.2f}:d=1[mus]"
+                ";[voz][mus]amix=inputs=2:duration=first:normalize=0[a]")
+    else:
+        aud += ";[voz]anull[a]"
+    video = out / "video.mp4"
+    cmd += ["-filter_complex", f"[0:v]subtitles={ass}:fontsdir={Path('assets/fontes').resolve()}[v];{aud}",
+            "-map", "[v]", "-map", "[a]", "-t", f"{dur:.3f}", "-c:v", "libx264", "-crf", "19", "-preset", "medium",
+            "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", str(video)]
+    subprocess.run(cmd, check=True)
+    montador.normalizar_volume(video)
+    titulo = cfg.get("titulo") or cfg.get("texto_topo", r["titulo"]).capitalize()
+    tags = cfg.get("hashtags") or r.get("hashtags", [])[:3]
+    rot = {"titulo": f"Short isca · {titulo}", "titulo_youtube": f"{titulo} 🙏 #shorts"[:100],
+           "narracao": " ".join(p["texto"] for p in pal),
+           "legenda": cfg.get("legenda") or (f"{titulo}. A oração completa para dormir está no vídeo relacionado. "
+                                             "Escreva Amém e inscreva-se para orarmos juntos toda noite."),
+           "hashtags": tags, "fontes": r.get("fontes", []), "plataformas": ["youtube"]}
+    (out / "roteiro.json").write_text(json.dumps(rot, ensure_ascii=False, indent=2), encoding="utf-8")
+    texto = montar_texto_post(canal, rot)
+    (out / "post.txt").write_text(texto, encoding="utf-8")
+    d = _dur(video)
+    log("wan", f"short isca montado: {d:.1f}s")
+    no_tg = publicador.telegram_video(video, f"🎯 [Short isca] {titulo} · {d:.0f}s", texto)
+    aviso = (f"Depois de publicar, no YouTube Studio: Editar este Short → Vídeo relacionado → escolha a oração "
+             f"\"{r.get('titulo_youtube', r['titulo'])}\". É isso que leva quem assistiu o Short para as horas.")
+    link = abrir_issue({**canal, "estilo_nome": "short isca da oração"}, rot, texto, out, d, [aviso],
+                       r.get("referencia", r["titulo"]), no_tg)
+    if no_tg and link:
+        publicador.telegram_mensagem(f"🎯 Short isca da oração (publique DEPOIS da oração e ligue o vídeo relacionado): {link}")
+
+
 def main():
     from estudio.agentes import montador, narrador
     from estudio.agentes.montador_hf import _preparar_musica
@@ -760,6 +861,12 @@ def main():
         destino = "YouTube" if total > 180 else "Instagram, Facebook e YouTube"
         publicador.telegram_mensagem(f"✅ Aprovar ({destino}): {link}")
     log("wan", f"concluído: {video} · {link}")
+    if r.get("short_isca") and mp3:
+        try:
+            _short_isca(r, canal, imgs, tempos, palavras, mp3, pasta)
+        except Exception as e:  # noqa: BLE001 — o Short é um extra: nunca derruba a oração já entregue
+            log("wan", f"short isca falhou: {e}")
+            publicador.telegram_mensagem(f"⚠️ O Short isca de \"{r['titulo']}\" falhou: {str(e)[:200]}")
 
 
 if __name__ == "__main__":

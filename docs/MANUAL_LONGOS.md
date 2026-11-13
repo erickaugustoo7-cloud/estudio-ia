@@ -7,7 +7,7 @@ Meta do Eric (09/11): monetizar rápido — 1.000 inscritos e 4.000 horas assist
 - **Quarta e sábado: FILME bíblico** (12–20 min). Pauta: primeira linha não comentada de `pautas/filmes.txt`.
   Modelo aprovado: `roteiros_animados/jose_do_egito.json`.
 - **Demais dias: ORAÇÃO PARA DORMIR** (~7 min de oração + 20 min só de música). Pauta: primeira linha não comentada de
-  `pautas/oracoes_longas.txt`. Modelo aprovado: `roteiros_animados/oracao_noite_salmo91.json`.
+  `pautas/oracoes_longas.txt`. Modelo aprovado: `roteiros_animados/oracao_noite_pedidos_salmo121.json`.
 - Remova a linha usada da pauta. Se a pauta acabar, escolha um tema novo que ainda não exista em `roteiros_animados/`.
 
 ## Passo a passo
@@ -50,6 +50,11 @@ Nunca publique nada, nunca mexa em segredos/tokens, não altere o código do sis
   ganham movimento de câmera automático.
 
 ## Oração para dormir
+- **Short isca (obrigatório):** `"short_isca": {"cenas": [i], "texto_topo": "DEUS NÃO DORME", "titulo": "...", "hashtags": [...]}`.
+  Escolha a cena (ou 2 seguidas) com a frase mais forte e consoladora, 12–45 palavras (Short de 8–20 s; Shorts curtos
+  são assistidos várias vezes — "Em paz me deito" teve 156% de retenção). Opcional: `"trecho"` = cópia exata de parte
+  da cena para recortar só aquela frase. O sistema monta o Short vertical com a mesma voz e as mesmas imagens e abre
+  uma Issue separada; o Eric publica depois da oração e liga o Short a ela em "Vídeo relacionado".
 - **Convite para se inscrever (falado):** numa das 3 últimas cenas, ANTES do "Amém" final, uma frase curta como
   "Se esta oração te ajudou, inscreva-se no canal para orarmos juntos toda noite." (o validador cobra "inscreva").
 - **Sem GPU:** use `"fonte_imagem": "cloudflare"` (imagens no Cloudflare/Pollinations, revisão rigorosa, todas as cenas

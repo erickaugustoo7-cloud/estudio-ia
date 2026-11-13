@@ -39,6 +39,22 @@ elif r.get("formato") == "horizontal":  # vídeo longo do YouTube (docs/MANUAL_L
             erros.append(f"texto_capa longo demais: '{linha}' (até 3 palavras por linha)")
     if oracao and not any("inscreva" in c["trecho"].lower() for c in cenas[-3:]):
         erros.append("oração sem convite falado para se inscrever nas 3 últimas cenas (ex.: 'inscreva-se no canal')")
+    if oracao:  # Short isca: trecho forte da oração, ligado a ela pelo "Vídeo relacionado" (MANUAL_LONGOS.md)
+        isca = r.get("short_isca") or {}
+        ids = isca.get("cenas") or []
+        if not ids:
+            erros.append('falta short_isca {"cenas": [i], "texto_topo": "...", "titulo": "..."} (Short que leva à oração)')
+        elif any(not (0 <= int(x) < len(cenas)) for x in ids) or max(ids) - min(ids) > 1:
+            erros.append("short_isca.cenas: índices inválidos (no máximo 2 cenas seguidas)")
+        else:
+            texto = isca.get("trecho") or " ".join(cenas[int(x)]["trecho"] for x in range(min(ids), max(ids) + 1))
+            if isca.get("trecho") and isca["trecho"] not in " ".join(cenas[int(x)]["trecho"] for x in
+                                                                   range(min(ids), max(ids) + 1)):
+                erros.append("short_isca.trecho precisa ser cópia exata de parte dessas cenas")
+            if not 12 <= len(texto.split()) <= 45:
+                erros.append(f"short_isca: {len(texto.split())} palavras (use 12–45, Short de 8–20 s)")
+            if len(isca.get("texto_topo", "").split()) > 4 or not isca.get("texto_topo"):
+                erros.append("short_isca.texto_topo: 1 a 4 palavras")
     if r.get("plataformas") != ["youtube"]:
         erros.append('plataformas deve ser ["youtube"]')
     if len(r.get("titulo_youtube", "")) > 100:

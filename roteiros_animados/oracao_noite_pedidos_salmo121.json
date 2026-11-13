@@ -186,5 +186,17 @@
       "vazia": true,
       "animar": false
     }
-  ]
+  ],
+  "short_isca": {
+    "cenas": [
+      7
+    ],
+    "texto_topo": "Deus não dorme",
+    "titulo": "Deus não dorme enquanto você dorme",
+    "hashtags": [
+      "salmo121",
+      "oracao",
+      "deusnaodorme"
+    ]
+  }
 }
