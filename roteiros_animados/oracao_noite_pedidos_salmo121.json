@@ -1,0 +1,190 @@
+{
+  "titulo": "Oração da noite de hoje: Salmo 121 com pedidos de oração",
+  "titulo_youtube": "ORAÇÃO DA NOITE DE HOJE | Salmo 121 — Escreva Seu Pedido de Oração",
+  "gancho_tela": "Durma em paz",
+  "referencia": "Salmos 121",
+  "formato": "horizontal",
+  "duracao_max": 999,
+  "volume_musica": 0.22,
+  "opcoes_imagem": 1,
+  "palavras_por_bloco": 260,
+  "cauda_musical_min": 20,
+  "plataformas": [
+    "youtube"
+  ],
+  "cena_capa": 2,
+  "texto_capa": [
+    "DEUS NÃO",
+    "DORME"
+  ],
+  "estilo_imagem": "cinematic photorealistic still, peaceful night atmosphere, soft moonlight, gentle glow, deep blue and warm gold tones, calm and serene, horizontal 16:9 widescreen",
+  "prefixo_imagem": "cinematic photorealistic peaceful still:",
+  "prefixo_video": "Cinematic peaceful night shot, very slow and gentle motion.",
+  "epoca_imagem": "Ancient Israel landscape, stone, clay, wood, wool and linen only, nothing modern, no electric lights",
+  "legenda": "Escreva o seu pedido de oração nos comentários 🙏 Nós vamos orar por você.\n\n\"O protetor de Israel não dormirá; ele está sempre alerta\" (Salmos 121:4, NVI). Ore comigo antes de dormir com o Salmo 121.\n\nDepois da oração, a música continua por 20 minutos para você adormecer em paz.",
+  "hashtags": [
+    "#OraçãoDaNoite",
+    "#PedidoDeOração",
+    "#Salmo121",
+    "#OraçãoParaDormir",
+    "#Fé"
+  ],
+  "fontes": [
+    "Salmos 121 (NVI)"
+  ],
+  "cena_cauda": 0,
+  "fonte_imagem": "cloudflare",
+  "rodape_capa": "Escreva seu pedido",
+  "cenas": [
+    {
+      "trecho": "Boa noite. Antes de começarmos, deixe aqui nos comentários o seu pedido de oração. Pode ser uma palavra, um nome, uma situação. Nós vamos orar juntos por cada pedido. Agora respire fundo, e venha comigo. Esta é a nossa oração da noite de hoje.",
+      "prompt_imagem": "a calm starry night sky over dark quiet hills, the Milky Way glowing softly, deep blue tones",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Esta noite nós vamos orar com o Salmo cento e vinte e um. Um salmo que os peregrinos cantavam subindo para Jerusalém, cansados da estrada, olhando para os montes ao longe.",
+      "prompt_imagem": "a long ancient road winding through hills toward distant mountains at dusk, first stars appearing",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Imagine aqueles peregrinos. Dias de caminhada, pés doendo, poeira, medo de ladrões na estrada. E no fim do dia, em vez de reclamar, eles levantavam os olhos e cantavam. Talvez o seu dia também tenha sido uma estrada longa. Então faça como eles: levante os olhos agora.",
+      "prompt_imagem": "a group of tiny distant travelers resting around a small campfire on a hillside at night, stars above",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Elevo os meus olhos para os montes; de onde me vem o socorro? O meu socorro vem do Senhor, que fez os céus e a terra.",
+      "prompt_imagem": "majestic dark mountains under a starry sky, moonlight on the peaks, untouched nature",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Senhor, eu levanto os meus olhos para ti esta noite. Não para as minhas contas, não para os meus problemas, não para o que as pessoas disseram de mim. Para ti, que fizeste os céus e a terra.",
+      "prompt_imagem": "a lone olive tree on a hilltop under the full moon, stars above, silver light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Se tu fizeste o céu inteiro, tu consegues cuidar daquilo que está tirando o meu sono. Nada é grande demais para ti.",
+      "prompt_imagem": "a vast night sky full of stars over a quiet desert, the Milky Way bright and clear",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Ele não permitirá que você tropece; o seu protetor se manterá alerta. Senhor, guarda os meus passos amanhã. Não me deixe cair nas armadilhas, nas más decisões, nas palavras que machucam.",
+      "prompt_imagem": "an ancient stone footpath through quiet hills at night under the moon, low stone walls on each side",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Sim, o protetor de Israel não dormirá; ele está sempre alerta. Esta é a frase mais bonita para quem vai dormir: Deus não dorme. Quando eu fecho os olhos, Ele continua acordado.",
+      "prompt_imagem": "a lone watchtower of stone on a hill at night under the stars, a small fire glowing at its base",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Quantas noites você passou acordado tentando segurar tudo sozinho? Pensando, calculando, imaginando o pior. Hoje você pode soltar. Quem cuida do universo inteiro está cuidando também do seu quarto, da sua cama e de cada pessoa que você ama.",
+      "prompt_imagem": "a calm sea at night under the moon, slow small waves reaching a quiet sandy shore",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Agora vamos orar pelos pedidos que chegaram. Por quem pediu oração pela saúde: Senhor, toca nesses corpos cansados, dá força aos que estão no hospital e paz aos que esperam um resultado.",
+      "prompt_imagem": "a quiet stone house at night with a single warm window lit, an olive tree beside it",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Por quem pediu oração pela família: Senhor, guarda os casamentos, os filhos que estão longe, os filhos que se afastaram de ti. Traz de volta para casa quem precisa voltar.",
+      "prompt_imagem": "a quiet ancient village of stone houses at night, small windows glowing with warm oil lamp light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Por quem pediu oração pelo trabalho e pelas finanças: Senhor, abre portas que ninguém pode fechar. Dá emprego a quem procura, sabedoria a quem precisa decidir e provisão para cada casa.",
+      "prompt_imagem": "a heavy wooden door of a stone house slightly open with warm light coming out, moonlit street",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Por quem pediu oração pela alma, pela tristeza, pela ansiedade: Senhor, consola quem está chorando esta noite. Que ninguém se sinta sozinho. Que a tua presença encha esses quartos.",
+      "prompt_imagem": "a soft beam of moonlight entering a quiet stone room through a small window, peaceful night",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E pelos pedidos que ninguém teve coragem de escrever, que ficaram só no coração: Senhor, tu conheces cada um. Responde também esses.",
+      "prompt_imagem": "a small open clay saucer oil lamp with a tiny flame on a rough stone ledge, darkness around, warm glow",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Por quem pediu oração por um vício, por uma luta que esconde de todo mundo: Senhor, quebra essas correntes. Dá força para resistir amanhã, e cerca essa pessoa de gente que a ajude a ficar de pé.",
+      "prompt_imagem": "a broken old iron chain lying on a stone floor in a beam of moonlight",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "O Senhor é o seu protetor; como sombra que o protege, ele está à sua direita. O sol não o ferirá de dia, nem a lua de noite.",
+      "prompt_imagem": "the shade of a large olive tree on a moonlit hillside, silver light filtering through the leaves",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Por quem perdeu alguém e sente a falta todos os dias: Senhor, abraça esse coração. Transforma a saudade em lembrança doce e a dor em esperança, porque em ti a morte não tem a última palavra.",
+      "prompt_imagem": "a quiet garden with olive trees at night, a single small lamp glowing on a stone wall",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "A sombra fica sempre do seu lado, aonde você for. Assim é Deus. Ele não fica longe esperando você melhorar. Ele está à sua direita, agora, neste quarto.",
+      "prompt_imagem": "a peaceful green meadow on gentle hills under the moonlight, soft grass swaying, stars above",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "O Senhor o protegerá de todo o mal, protegerá a sua vida. Eu entrego a ti a minha casa esta noite, Senhor. Cada porta, cada janela, cada pessoa que dorme aqui.",
+      "prompt_imagem": "a strong ancient stone house with a heavy wooden door closed at night, moonlight on the stones",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Respire fundo. Inspire e diga no coração: o meu socorro vem do Senhor. Solte o ar e diga: Ele não dorme. Mais uma vez, devagar.",
+      "prompt_imagem": "a still lake at night reflecting the moon perfectly, mist on the water, dark empty shores",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "O Senhor protegerá a sua saída e a sua chegada, desde agora e para sempre. Quando eu sair amanhã, tu vais comigo. Quando eu voltar, tu estarás me esperando.",
+      "prompt_imagem": "the first faint glow of dawn far away on the horizon over dark hills, stars still shining",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Volte aos comentários amanhã e veja os pedidos dos outros. Ore por alguém que você nem conhece. É assim que a gente se torna uma família de oração.",
+      "prompt_imagem": "a field of white wildflowers under the full moon, quiet hills in the distance",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Senhor, eu me deito agora debaixo da tua proteção. Guarda os meus sonhos, afasta o medo, e me acorda amanhã com o coração cheio de fé.",
+      "prompt_imagem": "a simple wooden bed with a wool blanket beside an open clay saucer oil lamp with a tiny flame, stone wall, quiet night",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Talvez amanhã os problemas ainda estejam lá. Mas você não vai enfrentá-los sozinho, e não vai enfrentá-los cansado. Porque esta noite você entregou tudo nas mãos de quem nunca dorme e nunca se cansa. E se acordar no meio da noite, repita baixinho: o meu socorro vem do Senhor. Ele está aqui.",
+      "prompt_imagem": "the first light of dawn over quiet hills and a calm lake, soft pink and gold colors",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Em nome de Jesus, amém. Fique agora em silêncio. A música vai continuar por alguns minutos. E não se esqueça: escreva o seu pedido aqui embaixo. Nós vamos orar por você.",
+      "prompt_imagem": "a vast starry night sky over still dark hills and a quiet lake, the Milky Way glowing softly",
+      "vazia": true,
+      "animar": false
+    }
+  ]
+}
