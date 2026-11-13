@@ -1,0 +1,66 @@
+{
+  "titulo": "O planeta que tem quase trezentas luas",
+  "gancho_tela": "Quase 300 luas num só planeta",
+  "narracao": "Um único planeta tem quase trezentas luas. É Saturno. E a maior dessas luas é maior que um planeta inteiro. Pela contagem da NASA de junho de dois mil e vinte e seis, Saturno tem duzentas e noventa e três luas confirmadas. Júpiter, o segundo colocado, tem cento e quinze. Somando as luas de todos os outros planetas, Saturno ainda ganha com folga. E a Terra? Só uma. Mercúrio e Vênus não têm nenhuma. Mas por que tantas? A maioria das luas de Saturno é minúscula, com poucos quilômetros de diâmetro. Em dois mil e vinte e cinco, astrônomos anunciaram cento e vinte e oito luas novas de uma vez só. A explicação mais aceita pelos pesquisadores é que elas seriam pedaços de luas antigas, capturadas por Saturno e quebradas em colisões violentas. Agora, a gigante. Titã é maior que o planeta Mercúrio. É a única lua do Sistema Solar com uma atmosfera densa. E é o único mundo além da Terra com lagos e mares na superfície. Só que de metano e etano líquidos, a cerca de cento e setenta e nove graus negativos. Lá, chove metano. E a contagem não parou: luas novas continuam aparecendo a cada ano. Antes de ver isso, qual planeta você achava que tinha mais luas? Siga para descobrir uma curiosidade nova todo dia.",
+  "cenas": [
+    {
+      "trecho": "Um único planeta tem quase trezentas luas.",
+      "busca_imagem": "Saturn Cassini",
+      "prompt_imagem": "the planet Saturn with its rings surrounded by many tiny glowing moons in deep space, dramatic lighting"
+    },
+    {
+      "trecho": "É Saturno. E a maior dessas luas é maior que um planeta inteiro.",
+      "busca_imagem": "Saturn rings Cassini",
+      "prompt_imagem": "Saturn and its rings seen from close orbit, a large hazy orange moon in the foreground"
+    },
+    {
+      "trecho": "Pela contagem da NASA de junho de dois mil e vinte e seis, Saturno tem duzentas e noventa e três luas confirmadas. Júpiter, o segundo colocado, tem cento e quinze.",
+      "busca_imagem": "Jupiter Juno",
+      "prompt_imagem": "Jupiter and Saturn side by side in space, each with tiny moons around them"
+    },
+    {
+      "trecho": "Somando as luas de todos os outros planetas, Saturno ainda ganha com folga. E a Terra? Só uma. Mercúrio e Vênus não têm nenhuma.",
+      "busca_imagem": "solar system planets",
+      "prompt_imagem": "the planets of the solar system lined up, Earth with its single moon, Mercury and Venus alone"
+    },
+    {
+      "trecho": "Mas por que tantas? A maioria das luas de Saturno é minúscula, com poucos quilômetros de diâmetro. Em dois mil e vinte e cinco, astrônomos anunciaram cento e vinte e oito luas novas de uma vez só.",
+      "busca_imagem": "Saturn small moon Cassini",
+      "prompt_imagem": "a tiny irregular potato-shaped moon drifting in space with Saturn far in the background"
+    },
+    {
+      "trecho": "A explicação mais aceita pelos pesquisadores é que elas seriam pedaços de luas antigas, capturadas por Saturno e quebradas em colisões violentas.",
+      "busca_imagem": "asteroid collision",
+      "prompt_imagem": "two rocky moons colliding in space near Saturn, fragments scattering, cinematic"
+    },
+    {
+      "trecho": "Agora, a gigante. Titã é maior que o planeta Mercúrio. É a única lua do Sistema Solar com uma atmosfera densa.",
+      "busca_imagem": "Titan Cassini",
+      "prompt_imagem": "Saturn's moon Titan, a hazy orange world with thick atmosphere, Saturn in the background"
+    },
+    {
+      "trecho": "E é o único mundo além da Terra com lagos e mares na superfície. Só que de metano e etano líquidos, a cerca de cento e setenta e nove graus negativos. Lá, chove metano.",
+      "busca_imagem": "Titan lakes Cassini radar",
+      "prompt_imagem": "dark methane lakes on the frozen orange surface of Titan under a hazy sky with methane rain"
+    },
+    {
+      "trecho": "E a contagem não parou: luas novas continuam aparecendo a cada ano. Antes de ver isso, qual planeta você achava que tinha mais luas? Siga para descobrir uma curiosidade nova todo dia.",
+      "busca_imagem": "Saturn backlit Cassini",
+      "prompt_imagem": "Saturn backlit by the Sun, glowing rings, tiny moons scattered around, deep space"
+    }
+  ],
+  "legenda": "Saturno tem 293 luas confirmadas (NASA, jun/2026) — Júpiter tem 115 e a Terra só 1. 🪐\nQual planeta você chutaria? Comenta aqui 👇",
+  "hashtags": [
+    "#Saturno",
+    "#Titã",
+    "#luas",
+    "#NASA"
+  ],
+  "fontes": [
+    "NASA Space Place — How Many Moons Does Each Planet Have? (Saturno 293 em jun/2026, Júpiter 115, Urano 29, Netuno 16; Mercúrio e Vênus 0, Terra 1, Marte 2) — https://spaceplace.nasa.gov/how-many-moons/en/",
+    "NASA APOD 11/08/2026 — Six Moons of Saturn (293 luas; maioria pequenas e irregulares) — https://science.nasa.gov/image-article/apod/apod-2026-august-11-six-moons-of-saturn/",
+    "UBC News, 11/03/2025 — 128 novas luas de Saturno; poucos km; provavelmente fragmentos de luas capturadas quebradas por colisões — https://news.ubc.ca/2025/03/saturn-128-new-moons/",
+    "NASA — Titan Facts (maior que Mercúrio; única lua com atmosfera densa; lagos e mares de metano/etano; chuva de metano; ~-179 °C) — https://science.nasa.gov/saturn/moons/titan/facts/",
+    "Space.com, 20/03/2026 — novas luas de Júpiter e Saturno continuam sendo descobertas — https://www.space.com/astronomy/saturn/astronomers-keep-finding-new-moons-of-jupiter-and-saturn"
+  ]
+}

@@ -2,5 +2,4 @@
 # Linhas começando com # são ignoradas. Fila vazia = o Diretor cria pautas sozinho.
 # Radar 04/11
 # Radar 08/11
-Qual planeta tem mais luas? (formato ranking/palpite, fechar pedindo comentário — conferir números atualizados)
 Neste momento você está viajando pela galáxia a centenas de milhares de km/h — e não sente nada (conferir a velocidade do Sol em torno da Via Láctea)
