@@ -20,7 +20,9 @@ if r.get("tipo") == "novela":  # novela cristã de hoje: personagens fixos com r
         erros.append("novela sem personagens_regra (ficha visual fixa dos personagens)")
     if "sig" not in (r["cenas"][-1]["trecho"].lower() if r.get("cenas") else ""):
         erros.append("última cena precisa pedir para seguir (ex.: 'Siga para ver a parte 2')")
-elif r.get("tipo") == "historia":  # história narrada com a voz do Eric, sem GPU (70–90 s)
+elif r.get("tipo") in ("salmo", "historia") and "sig" not in (r["cenas"][-1]["trecho"].lower() if r.get("cenas") else ""):
+    erros.append("última cena precisa convidar a seguir (ex.: 'Siga o Mensageiro de Fé para ouvir um salmo por dia')")
+if r.get("tipo") == "historia":  # história narrada com a voz do Eric, sem GPU (70–90 s)
     lim_c, lim_p, lim_t = (7, 12), (140, 240), (6, 40)
 elif r.get("tipo") == "salmo":  # Salmos narrados: texto bíblico corrido sobre poucas imagens (1–2 min)
     lim_c, lim_p, lim_t = (3, 8), (120, 420), (8, 120)
@@ -35,6 +37,8 @@ elif r.get("formato") == "horizontal":  # vídeo longo do YouTube (docs/MANUAL_L
     for linha in r.get("texto_capa", []):
         if len(linha.split()) > 3:
             erros.append(f"texto_capa longo demais: '{linha}' (até 3 palavras por linha)")
+    if oracao and not any("inscreva" in c["trecho"].lower() for c in cenas[-3:]):
+        erros.append("oração sem convite falado para se inscrever nas 3 últimas cenas (ex.: 'inscreva-se no canal')")
     if r.get("plataformas") != ["youtube"]:
         erros.append('plataformas deve ser ["youtube"]')
     if len(r.get("titulo_youtube", "")) > 100:

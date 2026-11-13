@@ -50,6 +50,8 @@ Nunca publique nada, nunca mexa em segredos/tokens, não altere o código do sis
   ganham movimento de câmera automático.
 
 ## Oração para dormir
+- **Convite para se inscrever (falado):** numa das 3 últimas cenas, ANTES do "Amém" final, uma frase curta como
+  "Se esta oração te ajudou, inscreva-se no canal para orarmos juntos toda noite." (o validador cobra "inscreva").
 - **Sem GPU:** use `"fonte_imagem": "cloudflare"` (imagens no Cloudflare/Pollinations, revisão rigorosa, todas as cenas
   com movimento de câmera e `"animar": false`). Assim a oração não depende da cota semanal do Kaggle.
 - Voz calma, em 1ª pessoa ("Senhor, esta noite..."), parafraseando um salmo ou promessa bíblica, versículo a versículo.

@@ -13,7 +13,8 @@ marcou como "conteúdo não original" em 12/11/2026. Originalidade é a priorida
    `"fonte_imagem": "cloudflare"`, `"serie": "Salmos narrados"`, estilo e prefixos) e escreva
    `roteiros_animados/salmo_<numero>_narrado.json`:
    - cena 1: abertura curta ("Salmo 23. Ouça com calma…"), última cena: fecho curto e original convidando a
-     comentar "Amém" e compartilhar — varie as palavras a cada salmo;
+     comentar "Amém" e **terminando com o convite para seguir**: "Siga o Mensageiro de Fé para ouvir um salmo
+     por dia" (o validador cobra "siga") — varie as outras palavras a cada salmo;
    - 4–7 cenas no total, 180–320 palavras (o validador aceita 120–420), trechos por blocos de versículos;
    - imagens de natureza/luz que combinem com cada bloco (monte, mar, deserto, céu estrelado, vale, campo, rio,
      cruz no fim), sem rosto, pessoas só minúsculas ao longe ou nenhuma (`"vazia": true`), nada moderno;
