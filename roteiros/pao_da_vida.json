@@ -1,0 +1,65 @@
+{
+  "titulo": "O pão dos pobres nas mãos de Jesus",
+  "gancho_tela": "O pão mais simples da mesa",
+  "estilo": "pintura",
+  "narracao": "O pão que Jesus multiplicou era o pão dos pobres. Eram cinco pães de cevada, nas mãos de um rapaz. Está em João, capítulo seis. Mas o que Jesus disse no dia seguinte é ainda mais forte. Naquele tempo, o pão estava em toda refeição. O grão era moído à mão, entre duas pedras. A cevada era o pão mais simples, da mesa de quem tinha pouco. Era isso que aquele rapaz tinha. Jesus deu graças e repartiu. Cerca de cinco mil homens comeram até ficarem satisfeitos. E ainda sobraram doze cestos. No dia seguinte, a multidão foi atrás dele de barco. E Jesus foi sincero: vocês me procuram porque comeram até se fartar. Então ele disse a frase que muda tudo: Eu sou o pão da vida. Quem vem a mim nunca terá fome. Pense nisso. Pão era o que um homem suava o dia inteiro para pôr na mesa. E Jesus diz: o que você mais precisa sou eu. Se hoje você acordou cansado de correr atrás do sustento, comece o dia nele. Salve este vídeo para ouvir de novo quando precisar, e siga para receber uma palavra de fé todos os dias.",
+  "cenas": [
+    {
+      "trecho": "O pão que Jesus multiplicou era o pão dos pobres.",
+      "busca_imagem": "barley bread loaves light",
+      "prompt_imagem": "five small round rustic barley loaves and two small fish in a woven basket on rough wood, a single strong beam of golden morning light from above, deep dark background, dramatic contrast"
+    },
+    {
+      "trecho": "Eram cinco pães de cevada, nas mãos de um rapaz. Está em João, capítulo seis. Mas o que Jesus disse no dia seguinte é ainda mais forte.",
+      "busca_imagem": "boy basket bread hillside",
+      "prompt_imagem": "a young boy in ancient robes seen from behind holding a small basket with bread, standing on a grassy hillside by the Sea of Galilee, crowd in the distance, golden light"
+    },
+    {
+      "trecho": "Naquele tempo, o pão estava em toda refeição. O grão era moído à mão, entre duas pedras.",
+      "busca_imagem": "ancient grinding stone flour",
+      "prompt_imagem": "hands of a woman in ancient robes grinding grain on a stone hand mill in a humble stone house, flat round dough baking on hot stones over a small fire, warm firelight"
+    },
+    {
+      "trecho": "A cevada era o pão mais simples, da mesa de quem tinha pouco. Era isso que aquele rapaz tinha.",
+      "busca_imagem": "barley field sunrise",
+      "prompt_imagem": "a golden barley field at sunrise in ancient Galilee, a small stone village in the distance, soft mist"
+    },
+    {
+      "trecho": "Jesus deu graças e repartiu. Cerca de cinco mil homens comeram até ficarem satisfeitos. E ainda sobraram doze cestos.",
+      "busca_imagem": "feeding five thousand painting",
+      "prompt_imagem": "a vast crowd seated on green grass on a hillside by a lake, a robed man seen from behind raising bread toward the sky, disciples carrying baskets, golden evening light"
+    },
+    {
+      "trecho": "No dia seguinte, a multidão foi atrás dele de barco. E Jesus foi sincero: vocês me procuram porque comeram até se fartar.",
+      "busca_imagem": "ancient fishing boats Galilee",
+      "prompt_imagem": "small wooden fishing boats crowded with people crossing the Sea of Galilee toward a lakeside town at morning, seen from behind, calm water"
+    },
+    {
+      "trecho": "Então ele disse a frase que muda tudo: Eu sou o pão da vida. Quem vem a mim nunca terá fome.",
+      "busca_imagem": "Capernaum synagogue light",
+      "prompt_imagem": "a robed man seen from behind standing in a stone synagogue doorway at Capernaum, a crowd listening in the shadows, beam of golden light falling on him"
+    },
+    {
+      "trecho": "Pense nisso. Pão era o que um homem suava o dia inteiro para pôr na mesa. E Jesus diz: o que você mais precisa sou eu.",
+      "busca_imagem": "worker evening bread table",
+      "prompt_imagem": "a tired working man in ancient robes seen from behind sitting at a simple wooden table at dusk, one loaf of bread before him, an oil lamp glowing"
+    },
+    {
+      "trecho": "Se hoje você acordou cansado de correr atrás do sustento, comece o dia nele. Salve este vídeo para ouvir de novo quando precisar, e siga para receber uma palavra de fé todos os dias.",
+      "busca_imagem": "sunrise man hills",
+      "prompt_imagem": "a man seen from behind standing at the door of a stone house looking at a golden sunrise over the hills of Galilee, hopeful morning light"
+    }
+  ],
+  "legenda": "Senhor, sê o meu pão de cada dia 🍞🙏\nJoão 6:35\nComente \"Amém\" e salve para ouvir de novo quando precisar.",
+  "hashtags": [
+    "#pãodavida",
+    "#João6",
+    "#Jesus",
+    "#curiosidadesbiblicas"
+  ],
+  "fontes": [
+    "João 6:5-15",
+    "João 6:22-26",
+    "João 6:35"
+  ]
+}
