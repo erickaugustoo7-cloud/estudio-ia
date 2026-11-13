@@ -25,7 +25,7 @@
   ],
   "cenas": [
     {
-      "trecho": "Salmo vinte e três. Davi foi pastor de ovelhas antes de ser rei. Respire fundo, e ouça com calma o que ele escreveu.",
+      "trecho": "Salmo vinte e três. Davi foi pastor de ovelhas antes de ser rei. Ele conhecia as noites no campo e o cuidado com cada ovelha, por isso chamou Deus de pastor. Respire fundo, aquiete o coração e ouça com calma esta Palavra.",
       "prompt_imagem": "soft golden sunrise over rolling green hills and wild grass, light mist in the valleys, untouched nature",
       "vazia": true,
       "animar": false
@@ -55,7 +55,7 @@
       "animar": false
     },
     {
-      "trecho": "Nenhum vale é escuro demais para o Bom Pastor. Se você crê nisso, escreva Amém e mande este salmo para alguém que precisa de paz hoje.",
+      "trecho": "Nenhum vale é escuro demais para o Bom Pastor. Ele vai à sua frente e não solta a sua mão. Se você crê nisso, escreva Amém e mande este salmo para alguém que precisa de paz hoje.",
       "prompt_imagem": "a wooden cross on a grassy hilltop silhouetted against a glowing golden sunset sky with rays of light",
       "vazia": true,
       "animar": false
