@@ -6,7 +6,6 @@
   "parte": 1,
   "tipo": "novela",
   "moderno": true,
-  "fonte_imagem": "cloudflare",
   "duracao_max": 120,
   "volume_musica": 0.12,
   "estilo_imagem": "cinematic semi-realistic digital painting, emotional drama, warm soft light, gentle film grain, modern Brazil, vertical 9:16",
@@ -40,13 +39,13 @@
     },
     {
       "trecho": "Ana viu tudo pela janela. Mas esperou ele entrar.",
-      "prompt_imagem": "ANA, a 37-year-old Brazilian woman, long curly dark brown hair tied back, warm brown skin, small gold cross necklace, light blue nurse scrubs looking through a kitchen window with a worried face, warm kitchen light behind her, blue tiles",
+      "prompt_imagem": "ANA, a 37-year-old Brazilian woman, long curly dark brown hair tied back, warm brown skin, small gold cross necklace, light blue nurse scrubs standing at a kitchen window looking outside with a worried face, warm kitchen light, blue tiles behind her",
       "vazia": false,
       "animar": false
     },
     {
       "trecho": "No jantar, ele sorriu. Disse que estava tudo bem. Mentiu pela primeira vez em dezoito anos de casamento.",
-      "prompt_imagem": "a family dinner at a small wooden table with a checkered tablecloth, MARCOS, a 40-year-old Brazilian man, short black hair greying at the temples, short dark beard, brown skin, tired kind eyes, navy blue polo shirt forcing a smile, ANA, a 37-year-old Brazilian woman, long curly dark brown hair tied back, warm brown skin, small gold cross necklace, light blue nurse scrubs watching him silently, simple Brazilian kitchen with blue tiles",
+      "prompt_imagem": "MARCOS, a 40-year-old Brazilian man, short black hair greying at the temples, short dark beard, brown skin, tired kind eyes, navy blue polo shirt sitting at a small wooden kitchen table with a checkered tablecloth and a plate of rice and beans, forcing a smile, simple Brazilian kitchen with blue tiles, warm evening light",
       "vazia": false,
       "animar": false
     },
@@ -64,7 +63,7 @@
     },
     {
       "trecho": "Foi aí que ele viu o bilhete de Ana na geladeira: As misericórdias do Senhor se renovam cada manhã.",
-      "prompt_imagem": "a handwritten note stuck with a magnet on an old white refrigerator door, soft night light, simple Brazilian kitchen",
+      "prompt_imagem": "an old white refrigerator door with a small yellow paper note held by a magnet, the note seen from far so no letters are readable, night kitchen light",
       "vazia": false,
       "animar": false
     },
@@ -86,5 +85,6 @@
       "vazia": false,
       "animar": false
     }
-  ]
+  ],
+  "opcoes_imagem": 2
 }
