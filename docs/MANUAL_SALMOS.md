@@ -18,7 +18,7 @@ marcou como "conteúdo não original" em 12/11/2026. Originalidade é a priorida
    - 4–7 cenas no total, 180–320 palavras (o validador aceita 120–420), trechos por blocos de versículos;
    - imagens de natureza/luz que combinem com cada bloco (monte, mar, deserto, céu estrelado, vale, campo, rio,
      cruz no fim), sem rosto, pessoas só minúsculas ao longe ou nenhuma (`"vazia": true`), nada moderno;
-   - `titulo` = "Salmo N — frase-chave"; `gancho_tela` = a frase-chave; `legenda` com o versículo-chave, a
+   - `titulo` = **curiosidade ou dor real, não o nome do salmo** (dados de 13/11: "Salmo 23 — O Senhor é o meu pastor" teve 87% de retenção mas só 73 views; histórias com gancho tiveram 600+). Ex.: "O salmo que Davi escreveu fugindo para salvar a vida (Salmo 3)", "Por que o Salmo 23 fala do vale da sombra da morte". `gancho_tela` = 2–5 palavras de curiosidade ("DAVI ESTAVA FUGINDO"); a 1ª frase narrada (antes do texto bíblico) conta em 1 linha o contexto que prende; `legenda` com o versículo-chave, a
      referência "(Almeida)" e um convite; `hashtags` (5); `fontes` com a referência.
 4. `python ferramentas/validar_animacao.py roteiros_animados/<arquivo>.json` até dar **OK**. Sem OK, não produza.
 5. Commit/push (autor estudio-bot, e-mail estudio-bot@users.noreply.github.com) e dispare `kaggle-wan.yml` pela
