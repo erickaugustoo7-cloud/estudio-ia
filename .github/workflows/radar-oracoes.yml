@@ -1,0 +1,21 @@
+name: Radar de orações (YouTube)
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q requests
+      - run: python ferramentas/radar_oracoes.py
+      - run: |
+          git config user.name "estudio-bot"; git config user.email "estudio-bot@users.noreply.github.com"
+          git add dados/radar && git commit -qm "radar de orações" && git pull -q --rebase && git push -q || true
