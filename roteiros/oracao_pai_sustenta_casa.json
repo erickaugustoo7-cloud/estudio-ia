@@ -1,0 +1,66 @@
+{
+  "titulo": "Oração do pai que sustenta a casa",
+  "gancho_tela": "Faça essa oração pela sua família",
+  "estilo": "pintura",
+  "narracao": "Se você carrega o sustento da casa, faça essa oração comigo. Feche os olhos e repita. No final, eu te conto o que Jesus disse sobre o amanhã. Senhor Jesus, eu chego cansado. Tu sabes das contas e do que eu não consegui resolver. Eu te entrego a minha família. Cuida de cada pessoa que depende de mim enquanto eu durmo. Me dá força para trabalhar amanhã com honestidade. E tira do meu peito o medo de faltar. Amém. Sabe esse medo de faltar? Jesus falou dele no alto de um monte. Ele mandou olhar para os pássaros do céu, que não plantam nem colhem, e disse que o Pai alimenta eles. Vocês não valem muito mais? Então disse: não fiquem preocupados com o que vão comer ou vestir. O Pai de vocês, que está no céu, sabe que vocês precisam de tudo isso. E não se preocupem com o amanhã. Mateus, capítulo seis. Hoje à noite, você pode descansar. Ele sabe do que a sua casa precisa. Se você orou comigo, escreva Amém nos comentários. Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias.",
+  "cenas": [
+    {
+      "trecho": "Se você carrega o sustento da casa, faça essa oração comigo.",
+      "busca_imagem": "man silhouette lit window night",
+      "prompt_imagem": "a man in ancient robes seen from behind standing at the doorway of a small stone house at night, one warm lamp glowing inside, a vast starry sky above, strong golden light against deep blue shadows"
+    },
+    {
+      "trecho": "Feche os olhos e repita. No final, eu te conto o que Jesus disse sobre o amanhã.",
+      "busca_imagem": "oil lamp wooden table night",
+      "prompt_imagem": "a small clay oil lamp burning on a rough wooden table in a dark humble room at night, a few coins and a piece of bread beside it, warm glow, deep shadows"
+    },
+    {
+      "trecho": "Senhor Jesus, eu chego cansado. Tu sabes das contas e do que eu não consegui resolver.",
+      "busca_imagem": "tired man sitting night",
+      "prompt_imagem": "a tired working man seen from behind sitting on a low wooden bench at night, shoulders bowed, his tools resting at his feet, faint lamplight"
+    },
+    {
+      "trecho": "Eu te entrego a minha família. Cuida de cada pessoa que depende de mim enquanto eu durmo.",
+      "busca_imagem": "family sleeping house night",
+      "prompt_imagem": "a humble ancient home at night seen from the doorway, sleeping figures under blankets in soft shadow, a man silhouetted watching over them, gentle moonlight"
+    },
+    {
+      "trecho": "Me dá força para trabalhar amanhã com honestidade. E tira do meu peito o medo de faltar. Amém.",
+      "busca_imagem": "man praying hands light",
+      "prompt_imagem": "a man seen from behind kneeling in prayer on a stone floor, rough working hands folded, a soft beam of golden light falling over him in a dark room"
+    },
+    {
+      "trecho": "Sabe esse medo de faltar? Jesus falou dele no alto de um monte.",
+      "busca_imagem": "crowd hillside galilee",
+      "prompt_imagem": "a large crowd in ancient robes seated on a green hillside by the sea of Galilee, seen from behind, a robed figure standing in the distance on the slope, warm afternoon light"
+    },
+    {
+      "trecho": "Ele mandou olhar para os pássaros do céu, que não plantam nem colhem, e disse que o Pai alimenta eles. Vocês não valem muito mais?",
+      "busca_imagem": "birds flying golden sky",
+      "prompt_imagem": "a flock of small birds flying over golden wheat fields and hills at sunset, a robed figure seen from behind on a hillside looking up at the sky"
+    },
+    {
+      "trecho": "Então disse: não fiquem preocupados com o que vão comer ou vestir. O Pai de vocês, que está no céu, sabe que vocês precisam de tudo isso. E não se preocupem com o amanhã. Mateus, capítulo seis.",
+      "busca_imagem": "jesus teaching hillside silhouette",
+      "prompt_imagem": "silhouette of a robed man standing on a hillside teaching, arm gently raised, seen from behind against a glowing golden sky, listeners in shadow below"
+    },
+    {
+      "trecho": "Hoje à noite, você pode descansar. Ele sabe do que a sua casa precisa. Se você orou comigo, escreva Amém nos comentários. Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias.",
+      "busca_imagem": "peaceful house stars night",
+      "prompt_imagem": "a small peaceful house with one warm lit window resting under a calm starry night sky, quiet hills around, deeply serene"
+    }
+  ],
+  "legenda": "Senhor, cuida da minha casa enquanto eu durmo 🙏\nMateus 6:31-34\nSe você orou comigo, escreva Amém 🙏 e envie para um pai que precisa ouvir isso",
+  "hashtags": [
+    "#oraçãodanoite",
+    "#paidefamília",
+    "#Mateus6",
+    "#ansiedade"
+  ],
+  "fontes": [
+    "Mateus 5:1-2 (vendo as multidões, Jesus subiu ao monte e passou a ensinar)",
+    "Mateus 6:26 (as aves do céu não semeiam nem colhem, e o Pai celestial as alimenta; vocês não valem muito mais?)",
+    "Mateus 6:31-32 (não se preocupem com o que comer, beber ou vestir; o Pai de vocês, que está no céu, sabe que vocês precisam de tudo isso)",
+    "Mateus 6:33-34 ('busquem em primeiro lugar o Reino de Deus'; não se preocupem com o amanhã)"
+  ]
+}
