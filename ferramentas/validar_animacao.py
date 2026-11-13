@@ -16,6 +16,10 @@ oracao = bool(r.get("cauda_musical_min"))
 novela = bool(r.get("moderno"))
 if r.get("tipo") == "novela":  # novela cristã de hoje: personagens fixos com rosto, gancho no começo e "siga" no fim
     lim_c, lim_p, lim_t = (8, 14), (150, 260), (6, 40)
+    for c in r.get("cenas", []):  # novela com falas: toda fala precisa de uma voz definida
+        q = (c.get("personagem") or "Narrador").split(" (")[0]
+        if c.get("personagem") and q != "Narrador" and q not in r.get("vozes", {}):
+            erros.append(f"personagem '{q}' sem voz em \"vozes\"")
     if not r.get("personagens_regra"):
         erros.append("novela sem personagens_regra (ficha visual fixa dos personagens)")
     if "sig" not in (r["cenas"][-1]["trecho"].lower() if r.get("cenas") else ""):

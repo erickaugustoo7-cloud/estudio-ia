@@ -397,6 +397,85 @@ def _short_isca(r, canal, imgs, tempos, palavras, mp3, pasta) -> None:
         publicador.telegram_mensagem(f"🎯 Short isca da oração (publique DEPOIS da oração e ligue o vídeo relacionado): {link}")
 
 
+def _narrar_dialogo(r, canal_voz, pasta, narrador):
+    """Novela com falas: cada cena tem "personagem" (padrão Narrador). Narrador = voz Gemini do canal (todas as
+    falas dele num único pedido, recortadas por cena — gasta 1 da cota diária); personagens = vozes Edge
+    (grátis, sem limite) com tom/ritmo próprios, definidas em r["vozes"]. Devolve mp3, palavras, dur, tempos."""
+    import asyncio
+    vozes = r.get("vozes", {})
+    cenas = r["cenas"]
+    quem = [c.get("personagem") or "Narrador" for c in cenas]
+    seg = {}  # índice da cena -> (mp3, palavras relativas, duração)
+    narr = [i for i, q in enumerate(quem) if q.lower() == "narrador"]
+    if narr:
+        txt = " ".join(cenas[i]["trecho"] for i in narr)
+        sub = pasta / "voz_narrador"
+        sub.mkdir(exist_ok=True)
+        try:
+            if not (canal_voz.get("tts") == "gemini" and canal_voz.get("gemini_tts")):
+                raise RuntimeError("sem Gemini")
+            from estudio.agentes import narrador_gemini
+            cache = Path(os.getenv("VOZ_CACHE", Path.home() / ".cache" / "estudio-voz"))
+            chave = hashlib.sha1(json.dumps([canal_voz.get("gemini_tts"), "dialogo", txt], ensure_ascii=False,
+                                            sort_keys=True).encode()).hexdigest()
+            if (cache / f"{chave}.mp3").exists():
+                mp3n = sub / "voz.mp3"
+                shutil.copy(cache / f"{chave}.mp3", mp3n)
+                paln, durn = json.loads((cache / f"{chave}.json").read_text())
+            else:
+                cfg = {**canal_voz, "gemini_tts": {**canal_voz["gemini_tts"], "duracao_max": 999}}
+                mp3n, paln, durn = narrador_gemini.narrar(cfg, txt, sub, narrador.duracao)
+                cache.mkdir(parents=True, exist_ok=True)
+                shutil.copy(mp3n, cache / f"{chave}.mp3")
+                (cache / f"{chave}.json").write_text(json.dumps([paln, durn]))
+            # recorta a fala do narrador cena a cena pelo tempo das palavras
+            cont = [len(cenas[i]["trecho"].split()) for i in narr]
+            tot, n, acum, cortes = sum(cont), len(paln), 0, [0.0]
+            for c in cont[:-1]:
+                acum += c
+                k = min(n - 1, round(acum / tot * n))
+                cortes.append(max(0.0, paln[k]["ini"] - 0.08))
+            cortes.append(durn)
+            for j, i in enumerate(narr):
+                a, b = cortes[j], cortes[j + 1]
+                out = sub / f"n{i:02d}.mp3"
+                subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(mp3n), "-ss", f"{a:.3f}", "-to", f"{b:.3f}",
+                                "-c:a", "libmp3lame", "-q:a", "2", str(out)], check=True)
+                pw = [{**p, "ini": p["ini"] - a, "fim": p["fim"] - a} for p in paln if a <= p["ini"] < b]
+                seg[i] = (out, pw, narrador.duracao(out))
+            log("wan", f"narrador: voz Gemini ({len(narr)} falas num só pedido)")
+        except Exception as e:  # noqa: BLE001 — sem cota: narrador no Edge, voz grave e pausada
+            log("wan", f"narrador sem Gemini ({e}); usando Edge")
+            vozes = {**vozes, "Narrador": vozes.get("Narrador_reserva",
+                                                     {"voz": "pt-BR-AntonioNeural", "tom": "-10Hz", "ritmo": "-8%"})}
+    for i, q in enumerate(quem):
+        if i in seg:
+            continue
+        v = vozes.get(q) or vozes.get(q.split(" (")[0]) or {"voz": "pt-BR-AntonioNeural"}
+        out = pasta / f"fala_{i:02d}.mp3"
+        pw = asyncio.run(narrador._sintetizar(cenas[i]["trecho"], v["voz"], v.get("ritmo", "+0%"), out, v.get("tom", "+0Hz")))
+        seg[i] = (out, pw, narrador.duracao(out))
+    # junta tudo com uma pausa curta entre as falas (mais longa quando muda de quem fala)
+    lista, palavras, tempos, t = [], [], [], 0.0
+    sil = pasta / "pausa.mp3"
+    for i in range(len(cenas)):
+        mp3i, pw, d = seg[i]
+        pausa = 0.45 if i + 1 < len(cenas) and quem[i + 1] != quem[i] else 0.25
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "lavfi", "-i", "anullsrc=r=24000:cl=mono",
+                        "-t", f"{pausa:.2f}", "-c:a", "libmp3lame", "-q:a", "2", str(sil.with_name(f"pausa_{i}.mp3"))], check=True)
+        lista += [mp3i, sil.with_name(f"pausa_{i}.mp3")]
+        palavras += [{**p, "ini": p["ini"] + t, "fim": p["fim"] + t} for p in pw]
+        tempos.append(d + pausa)
+        t += d + pausa
+    lst = pasta / "dialogo_lista.txt"
+    lst.write_text("".join(f"file '{x.resolve()}'\n" for x in lista))
+    mp3 = pasta / "narracao.mp3"
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", str(lst),
+                    "-ar", "24000", "-ac", "1", "-c:a", "libmp3lame", "-q:a", "2", str(mp3)], check=True)
+    log("wan", f"diálogo montado: {len(cenas)} falas, {t:.1f}s, vozes: {', '.join(sorted(set(quem)))}")
+    return mp3, palavras, narrador.duracao(mp3), tempos
+
+
 def main():
     from estudio.agentes import montador, narrador
     from estudio.agentes.montador_hf import _preparar_musica
@@ -420,7 +499,10 @@ def main():
         canal_voz = {**canal, "gemini_tts": {**canal["gemini_tts"], "duracao_max": r.get("duracao_max", 20)}} \
             if canal.get("gemini_tts") else canal
         limite = int(r.get("palavras_por_bloco", 170))
-        if r.get("voz") == "eric":  # voz do próprio Eric (clone autorizado), sem gastar cota da Gemini
+        dialogo = any(c.get("personagem") for c in r["cenas"])
+        if dialogo:  # novela com falas: narrador + vozes dos personagens
+            mp3, palavras, dur, tempos_dialogo = _narrar_dialogo(r, canal_voz, pasta, narrador)
+        elif r.get("voz") == "eric":  # voz do próprio Eric (clone autorizado), sem gastar cota da Gemini
             from estudio.agentes import narrador_clone
             mp3, palavras, dur = narrador_clone.narrar(texto, pasta, narrador.duracao)
         elif len(texto.split()) <= limite + 40:
@@ -490,7 +572,7 @@ def main():
             subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", str(lista_v),
                             "-c:a", "libmp3lame", "-q:a", "2", str(mp3)], check=True)
             dur = _dur(mp3) or dur
-        tempos = montador.tempos_das_cenas(r["cenas"], palavras, dur)
+        tempos = tempos_dialogo if dialogo else montador.tempos_das_cenas(r["cenas"], palavras, dur)
         tempos[-1] += 0.8  # respiro no fim
     # orações para dormir: só música no final — feita à parte (imagem parada), não esticando a última cena
     cauda = float(r.get("cauda_musical_min", 0) or 0) * 60

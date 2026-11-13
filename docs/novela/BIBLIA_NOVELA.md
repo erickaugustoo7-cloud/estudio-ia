@@ -5,6 +5,14 @@ encontra Deus no dia a dia — no fim de cada arco, vem a bênção. Episódios 
 (voz Gemini) com falas curtas dos personagens entre aspas. Todo episódio: GANCHO forte na 1ª frase, conflito,
 virada, CLIFFHANGER no fim e "Siga para ver a parte N+1".
 
+## Formato (desde 13/11): animação 3D com falas
+- Estilo: `"estilo_imagem": "3D animated feature film still, expressive stylized characters, soft global illumination, warm cinematic light, detailed modern Brazilian setting, vertical 9:16"` — nunca citar estúdio, marca ou personagem existente. Nada de política nem logotipos.
+- Cada cena tem `"personagem"` (Narrador, Marcos, Ana, Lucas, Dona Cida; "Ana (voz lendo)" também vale) e `"trecho"` = a fala.
+  Vozes em `"vozes"`: Marcos `pt-BR-AntonioNeural` (-3Hz), Ana `pt-BR-FranciscaNeural`, Lucas `pt-BR-AntonioNeural` (+28Hz, +10%),
+  Dona Cida `pt-BR-ThalitaMultilingualNeural` (-18Hz, -10%). Narrador = voz Gemini do canal (1 pedido por episódio).
+- Quase todas as cenas `"animar": true` com `prompt_movimento` (gesto e expressão: chorar, apontar, abraçar). A boca não sincroniza.
+- **O Eric revisa o roteiro antes de produzir** (doc de roteiro → só produz com "pode produzir").
+
 ## Personagens fixos (use a ficha EXATA em todo prompt em que o personagem aparece)
 - **Marcos (40)** — pai, motorista de entrega há 12 anos, orgulhoso, se afastou da igreja.
   Ficha: "MARCOS, a 40-year-old Brazilian man, short black hair greying at the temples, short dark beard, brown skin, tired kind eyes, navy blue polo shirt"
