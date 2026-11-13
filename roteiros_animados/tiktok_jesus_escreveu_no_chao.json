@@ -1,0 +1,68 @@
+{
+  "titulo": "O que Jesus escreveu no chão?",
+  "gancho_tela": "Ninguém sabe o quê",
+  "referencia": "João 8:1-11",
+  "serie": "O que quase ninguém sabe",
+  "tipo": "tiktok",
+  "fonte_imagem": "kaggle",
+  "opcoes_imagem": 2,
+  "duracao_max": 40,
+  "volume_musica": 0.12,
+  "plataformas": [
+    "facebook"
+  ],
+  "estilo_imagem": "cinematic photorealistic epic film still, golden hour, dramatic volumetric god rays, ancient Judea 1st century, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic slow subtle motion.",
+  "epoca_imagem": "Ancient Jerusalem, 1st century, stone courtyard, dust, clay and linen only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "Jesus escreveu no chão duas vezes. E ninguém sabe o quê.",
+      "prompt_imagem": "close-up of a hand writing with one finger in the dust of an ancient stone courtyard, warm morning light",
+      "vazia": false,
+      "animar": true,
+      "prompt_movimento": "the finger slowly draws a line in the dust, fine dust drifting in the light"
+    },
+    {
+      "trecho": "Trouxeram uma mulher pega em adultério. Queriam apedrejá-la.",
+      "prompt_imagem": "rough stones lying on the dusty ground of an ancient temple courtyard, long dramatic shadows",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Ele escreveu na terra e disse: quem não tem pecado atire a primeira pedra.",
+      "prompt_imagem": "a single rough stone dropped on the dusty ground, close-up, golden light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Um por um, dos mais velhos aos mais novos, todos foram embora.",
+      "prompt_imagem": "wide ancient Jerusalem temple courtyard at dawn, tiny distant figures walking away far away in the distance",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "A Bíblia não conta o que Ele escreveu. Só o que disse: vá e não peque mais.",
+      "prompt_imagem": "wind blowing fine dust across smooth sandy ground, soft golden rays, empty and calm",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Siga o Mensageiro de Fé para mais do que quase ninguém sabe.",
+      "prompt_imagem": "ancient stone courtyard empty at sunrise, warm god rays through the dust",
+      "vazia": true,
+      "animar": false
+    }
+  ],
+  "legenda": "Jesus escreveu no chão duas vezes, e a Bíblia não conta o quê (João 8:6-8). O que você acha que Ele escreveu? Comente 👇",
+  "hashtags": [
+    "#Jesus",
+    "#Bíblia",
+    "#Fé",
+    "#OQueQuaseNinguémSabe",
+    "#Cristão"
+  ],
+  "fontes": [
+    "João 8:1-11 — Almeida (domínio público)"
+  ]
+}

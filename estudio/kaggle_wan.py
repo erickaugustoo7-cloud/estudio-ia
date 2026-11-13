@@ -854,11 +854,13 @@ def main():
             partes.append(" ".join(tags))
         texto_post = "\n\n".join(partes)
     (pasta / "post.txt").write_text(texto_post, encoding="utf-8")
-    no_tg = publicador.telegram_video(video, f"🎨 [Animação Wan 2.2] {r['titulo']} · {total:.0f}s", texto_post)
+    rotulo = "📱 [TikTok — poste à mão]" if r.get("tipo") == "tiktok" else "🎨 [Animação Wan 2.2]"
+    no_tg = publicador.telegram_video(video, f"{rotulo} {r['titulo']} · {total:.0f}s", texto_post)
     link = abrir_issue({**canal, "estilo_nome": "animação Wan 2.2"}, roteiro, texto_post, pasta, total,
                        avisos + [f"Kaggle: {resumo[:300]}"], r.get("referencia", r["titulo"]), no_tg)
     if no_tg and link:
-        destino = "YouTube" if total > 180 else "Instagram, Facebook e YouTube"
+        destino = ", ".join(x.capitalize() for x in r["plataformas"]) if r.get("plataformas") else \
+            ("YouTube" if total > 180 else "Instagram, Facebook e YouTube")
         publicador.telegram_mensagem(f"✅ Aprovar ({destino}): {link}")
     log("wan", f"concluído: {video} · {link}")
     if r.get("short_isca") and mp3:

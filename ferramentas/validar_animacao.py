@@ -20,9 +20,22 @@ if r.get("tipo") == "novela":  # novela cristã de hoje: personagens fixos com r
         erros.append("novela sem personagens_regra (ficha visual fixa dos personagens)")
     if "sig" not in (r["cenas"][-1]["trecho"].lower() if r.get("cenas") else ""):
         erros.append("última cena precisa pedir para seguir (ex.: 'Siga para ver a parte 2')")
+elif r.get("tipo") == "tiktok":  # curto do TikTok (docs/MANUAL_TIKTOK.md)
+    if "sig" not in (r["cenas"][-1]["trecho"].lower() if r.get("cenas") else ""):
+        erros.append("última cena precisa pedir para seguir (ex.: 'Siga para mais')")
+    if sum(bool(c.get("animar")) for c in r.get("cenas", [])) > 1:
+        erros.append("TikTok: no máximo 1 cena animada (a do gancho)")
+    if r.get("plataformas") != ["facebook"]:
+        erros.append('TikTok: plataformas deve ser ["facebook"] (TikTok é postado à mão; Instagram e YouTube ficam de fora)')
+    if len(r.get("gancho_tela", "").split()) > 5 or not r.get("gancho_tela"):
+        erros.append("TikTok: gancho_tela de 1 a 5 palavras")
 elif r.get("tipo") in ("salmo", "historia") and "sig" not in (r["cenas"][-1]["trecho"].lower() if r.get("cenas") else ""):
     erros.append("última cena precisa convidar a seguir (ex.: 'Siga o Mensageiro de Fé para ouvir um salmo por dia')")
-if r.get("tipo") == "historia":  # história narrada com a voz do Eric, sem GPU (70–90 s)
+if r.get("tipo") == "novela":
+    pass  # limites já definidos acima
+elif r.get("tipo") == "tiktok":  # 15–30 s: gancho falado, 1 virada, convite a seguir
+    lim_c, lim_p, lim_t = (4, 7), (35, 75), (4, 22)
+elif r.get("tipo") == "historia":  # história narrada com a voz do Eric, sem GPU (70–90 s)
     lim_c, lim_p, lim_t = (7, 12), (140, 240), (6, 40)
 elif r.get("tipo") == "salmo":  # Salmos narrados: texto bíblico corrido sobre poucas imagens (1–2 min)
     lim_c, lim_p, lim_t = (3, 8), (120, 420), (8, 120)
