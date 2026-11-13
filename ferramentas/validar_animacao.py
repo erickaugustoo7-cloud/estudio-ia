@@ -15,7 +15,8 @@ palavras = sum(len(c["trecho"].split()) for c in cenas)
 oracao = bool(r.get("cauda_musical_min"))
 novela = bool(r.get("moderno"))
 if r.get("tipo") == "novela":  # novela cristã de hoje: personagens fixos com rosto, gancho no começo e "siga" no fim
-    lim_c, lim_p, lim_t = (8, 14), (150, 260), (6, 40)
+    dialogo = any(c.get("personagem") for c in r.get("cenas", []))
+    lim_c, lim_p, lim_t = ((8, 20), (140, 260), (2, 40)) if dialogo else ((8, 14), (150, 260), (6, 40))
     for c in r.get("cenas", []):  # novela com falas: toda fala precisa de uma voz definida
         q = (c.get("personagem") or "Narrador").split(" (")[0]
         if c.get("personagem") and q != "Narrador" and q not in r.get("vozes", {}):
@@ -97,7 +98,7 @@ for i, c in enumerate(cenas, 1):
     if not novela and re.search(MODERNO, re.sub(r"\bno [a-z ]+", "", p)):
         erros.append(f"cena {i}: objeto moderno no prompt")
     m = (c.get("prompt_movimento") or "").lower()
-    if re.search(r"\b(turns?|walks?|raises?|bows?|looks? at|kneel|stands? up|sits? down)\b", m):
+    if not novela and re.search(r"\b(turns?|walks?|raises?|bows?|looks? at|kneel|stands? up|sits? down)\b", m):
         erros.append(f"cena {i}: movimento de pessoa no prompt_movimento")
 print("OK" if not erros else "PROBLEMAS:\n- " + "\n- ".join(erros))
 sys.exit(1 if erros else 0)

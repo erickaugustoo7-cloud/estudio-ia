@@ -1,6 +1,6 @@
 {
   "titulo": "Encontrando Deus no dia a dia — Ep. 1: O dia em que Marcos perdeu tudo",
-  "gancho_tela": "Ele não teve coragem de abrir a porta",
+  "gancho_tela": "Ele não teve coragem de contar",
   "referencia": "Lamentações 3:22-23",
   "serie": "Encontrando Deus no dia a dia",
   "parte": 1,
@@ -8,11 +8,164 @@
   "moderno": true,
   "duracao_max": 120,
   "volume_musica": 0.12,
-  "estilo_imagem": "cinematic semi-realistic digital painting, emotional drama, warm soft light, gentle film grain, modern Brazil, vertical 9:16",
-  "prefixo_imagem": "cinematic semi-realistic digital painting:",
-  "prefixo_video": "Cinematic slow subtle motion.",
-  "epoca_imagem": "present-day Brazil, simple working-class neighborhood on the outskirts of São Paulo",
-  "personagens_regra": "Same characters in every scene, exactly as described. Natural, well-drawn faces and hands, no deformities, no text",
+  "opcoes_imagem": 2,
+  "estilo_imagem": "3D animated feature film still, expressive stylized characters, soft global illumination, warm cinematic light, detailed modern Brazilian setting, vertical 9:16",
+  "prefixo_imagem": "3D animated feature film still:",
+  "prefixo_video": "3D animated film, expressive character animation.",
+  "epoca_imagem": "present-day Brazil, simple working-class neighborhood on the outskirts of São Paulo, no logos, no political symbols",
+  "personagens_regra": "Same characters in every scene, exactly as described. Natural, well-drawn faces and hands, no deformities, no text, no logos",
+  "vozes": {
+    "Marcos": {
+      "voz": "pt-BR-AntonioNeural",
+      "tom": "-3Hz",
+      "ritmo": "+0%"
+    },
+    "Ana": {
+      "voz": "pt-BR-FranciscaNeural",
+      "tom": "+0Hz",
+      "ritmo": "+0%"
+    },
+    "Lucas": {
+      "voz": "pt-BR-AntonioNeural",
+      "tom": "+28Hz",
+      "ritmo": "+10%"
+    },
+    "Dona Cida": {
+      "voz": "pt-BR-ThalitaMultilingualNeural",
+      "tom": "-18Hz",
+      "ritmo": "-10%"
+    }
+  },
+  "cenas": [
+    {
+      "personagem": "Narrador",
+      "trecho": "Doze anos de empresa. E Marcos foi demitido por uma mensagem no celular.",
+      "prompt_imagem": "MARCOS, a 40-year-old Brazilian man, short black hair greying at the temples, short dark beard, brown skin, tired kind eyes, navy blue polo shirt sitting in an old parked car at night, phone light on his face, looking at a dismissal paper in his hand",
+      "vazia": false,
+      "animar": true,
+      "prompt_movimento": "his eyes fill with tears and he lowers his head slowly"
+    },
+    {
+      "personagem": "Marcos",
+      "trecho": "Como é que eu vou contar isso pra Ana? O que eu faço, Deus?",
+      "prompt_imagem": "MARCOS, a 40-year-old Brazilian man, short black hair greying at the temples, short dark beard, brown skin, tired kind eyes, navy blue polo shirt inside the same old car at night, forehead resting on the steering wheel",
+      "vazia": false,
+      "animar": true,
+      "prompt_movimento": "he closes his eyes and takes a deep breath, shoulders rising and falling"
+    },
+    {
+      "personagem": "Narrador",
+      "trecho": "Ele chegou em casa com uma caixa de papelão… e ficou parado no portão. Observando cada movimento.",
+      "prompt_imagem": "MARCOS, a 40-year-old Brazilian man, short black hair greying at the temples, short dark beard, brown skin, tired kind eyes, navy blue polo shirt standing in front of the small blue gate of a simple house at dusk, holding a cardboard box, sad and discouraged face",
+      "vazia": false,
+      "animar": true,
+      "prompt_movimento": "he looks at the house, hesitates and wipes the tears from his eyes with one hand"
+    },
+    {
+      "personagem": "Ana",
+      "trecho": "Amor! Chegou cedo hoje… está tudo bem?",
+      "prompt_imagem": "ANA, a 37-year-old Brazilian woman, long curly dark brown hair tied back, warm brown skin, small gold cross necklace, light blue nurse scrubs opening the front door of a simple Brazilian house, smiling warmly",
+      "vazia": false,
+      "animar": true,
+      "prompt_movimento": "she opens the door and waves with a smile"
+    },
+    {
+      "personagem": "Marcos",
+      "trecho": "Nada de mais. Só foi um dia cansativo.",
+      "prompt_imagem": "MARCOS, a 40-year-old Brazilian man, short black hair greying at the temples, short dark beard, brown skin, tired kind eyes, navy blue polo shirt at the front door hiding a cardboard box behind his back",
+      "vazia": false,
+      "animar": true,
+      "prompt_movimento": "he forces a smile"
+    },
+    {
+      "personagem": "Narrador",
+      "trecho": "Foi a primeira mentira em dezoito anos de casamento.",
+      "prompt_imagem": "close-up of MARCOS, a 40-year-old Brazilian man, short black hair greying at the temples, short dark beard, brown skin, tired kind eyes, navy blue polo shirt, his smile fading, eyes filling with tears",
+      "vazia": false,
+      "animar": true,
+      "prompt_movimento": "the smile slowly disappears and he takes a deep breath"
+    },
+    {
+      "personagem": "Ana",
+      "trecho": "Lucas, vem jantar, a comida está pronta.",
+      "prompt_imagem": "ANA, a 37-year-old Brazilian woman, long curly dark brown hair tied back, warm brown skin, small gold cross necklace, light blue nurse scrubs in a small simple Brazilian kitchen with blue wall tiles, wooden table with a red checkered tablecloth with rice and beans on the table, LUCAS, a 16-year-old Brazilian boy, light brown skin, short curly black hair, grey hoodie, headphones around his neck walking past in the background",
+      "vazia": false,
+      "animar": true,
+      "prompt_movimento": "she points to the empty chair at the table"
+    },
+    {
+      "personagem": "Lucas",
+      "trecho": "Tô sem fome.",
+      "prompt_imagem": "LUCAS, a 16-year-old Brazilian boy, light brown skin, short curly black hair, grey hoodie, headphones around his neck walking down a hallway toward his bedroom door, sulky face",
+      "vazia": false,
+      "animar": true,
+      "prompt_movimento": "he turns his back and slams the bedroom door"
+    },
+    {
+      "personagem": "Marcos",
+      "trecho": "Volta aqui, agora!",
+      "prompt_imagem": "MARCOS, a 40-year-old Brazilian man, short black hair greying at the temples, short dark beard, brown skin, tired kind eyes, navy blue polo shirt standing up from the kitchen table, angry face, small simple Brazilian kitchen with blue wall tiles, wooden table with a red checkered tablecloth",
+      "vazia": false,
+      "animar": true,
+      "prompt_movimento": "he slaps the table with his hand and stands up"
+    },
+    {
+      "personagem": "Ana",
+      "trecho": "Marcos. Deixa pra lá.",
+      "prompt_imagem": "ANA, a 37-year-old Brazilian woman, long curly dark brown hair tied back, warm brown skin, small gold cross necklace, light blue nurse scrubs gently holding the arm of MARCOS, a 40-year-old Brazilian man, short black hair greying at the temples, short dark beard, brown skin, tired kind eyes, navy blue polo shirt in the small simple Brazilian kitchen with blue wall tiles, wooden table with a red checkered tablecloth",
+      "vazia": false,
+      "animar": true,
+      "prompt_movimento": "she holds his arm tenderly and shakes her head"
+    },
+    {
+      "personagem": "Narrador",
+      "trecho": "De madrugada, Marcos ficou sozinho na cozinha. Luz, aluguel, escola. Nada fechava.",
+      "prompt_imagem": "MARCOS, a 40-year-old Brazilian man, short black hair greying at the temples, short dark beard, brown skin, tired kind eyes, navy blue polo shirt alone at the kitchen table late at night, unpaid bills spread out, weak hanging light bulb, rain on the window and a lightning flash outside",
+      "vazia": false,
+      "animar": true,
+      "prompt_movimento": "he puts his hands on his head and messes up his hair"
+    },
+    {
+      "personagem": "Narrador",
+      "trecho": "Até que ele viu o bilhete da Ana na geladeira.",
+      "prompt_imagem": "an old white refrigerator in a dark kitchen at night with a small yellow paper note held by a magnet, the note seen from far so no letters are readable, rain on the window",
+      "vazia": true,
+      "animar": true,
+      "prompt_movimento": "slow push-in toward the yellow note, lightning flickers"
+    },
+    {
+      "personagem": "Ana (voz lendo)",
+      "trecho": "As misericórdias do Senhor se renovam cada manhã.",
+      "prompt_imagem": "MARCOS, a 40-year-old Brazilian man, short black hair greying at the temples, short dark beard, brown skin, tired kind eyes, navy blue polo shirt holding a small yellow paper note in a dark kitchen, the note seen from the back so no letters are visible",
+      "vazia": false,
+      "animar": true,
+      "prompt_movimento": "his eyes fill with tears"
+    },
+    {
+      "personagem": "Marcos",
+      "trecho": "Deus… se o Senhor ainda me escuta… eu não sei mais o que fazer.",
+      "prompt_imagem": "MARCOS, a 40-year-old Brazilian man, short black hair greying at the temples, short dark beard, brown skin, tired kind eyes, navy blue polo shirt in a dark kitchen looking up toward the ceiling, rain on the window and lightning flashes",
+      "vazia": false,
+      "animar": true,
+      "prompt_movimento": "he cries silently and covers his face with his hands"
+    },
+    {
+      "personagem": "Narrador",
+      "trecho": "Nesse exato momento… três batidas na porta. Meia-noite e quarenta.",
+      "prompt_imagem": "a simple wooden front door seen from inside a dark house at night, a shadow of someone through the gap under the door, MARCOS, a 40-year-old Brazilian man, short black hair greying at the temples, short dark beard, brown skin, tired kind eyes, navy blue polo shirt in the foreground turning his head",
+      "vazia": false,
+      "animar": true,
+      "prompt_movimento": "he turns his head, startled, eyes wide open"
+    },
+    {
+      "personagem": "Narrador",
+      "trecho": "Quem estaria lá fora àquela hora? Siga para ver a parte dois.",
+      "prompt_imagem": "DONA CIDA, a 70-year-old Brazilian woman, white hair in a bun, round glasses, floral dress and beige cardigan, holding an old worn leather Bible standing outside a small blue gate at night under a streetlight, holding a white envelope and her Bible",
+      "vazia": false,
+      "animar": true,
+      "prompt_movimento": "she gives a kind mysterious smile"
+    }
+  ],
   "legenda": "Ep. 1 — O dia em que Marcos perdeu tudo 💔\nAs misericórdias do Senhor se renovam cada manhã (Lamentações 3:22-23).\nQuem você acha que bateu na porta? Comenta aqui 👇 e siga para ver a parte 2.",
   "hashtags": [
     "#EncontrandoDeusNoDiaADia",
@@ -23,68 +176,5 @@
   ],
   "fontes": [
     "Lamentações 3:22-23 — Almeida (domínio público)"
-  ],
-  "cenas": [
-    {
-      "trecho": "Marcos chegou em casa com uma caixa de papelão nas mãos. E não teve coragem de abrir a porta.",
-      "prompt_imagem": "MARCOS, a 40-year-old Brazilian man, short black hair greying at the temples, short dark beard, brown skin, tired kind eyes, navy blue polo shirt standing alone in front of the small blue gate of a simple house at dusk, holding a cardboard box, sad face",
-      "vazia": false,
-      "animar": false
-    },
-    {
-      "trecho": "Doze anos de empresa. Demitido numa terça-feira, por mensagem.",
-      "prompt_imagem": "close-up of MARCOS, a 40-year-old Brazilian man, short black hair greying at the temples, short dark beard, brown skin, tired kind eyes, navy blue polo shirt sitting in a parked old car at night, looking at his phone screen with a shocked expression, dashboard light on his face",
-      "vazia": false,
-      "animar": false
-    },
-    {
-      "trecho": "Ana viu tudo pela janela. Mas esperou ele entrar.",
-      "prompt_imagem": "ANA, a 37-year-old Brazilian woman, long curly dark brown hair tied back, warm brown skin, small gold cross necklace, light blue nurse scrubs standing at a kitchen window looking outside with a worried face, warm kitchen light, blue tiles behind her",
-      "vazia": false,
-      "animar": false
-    },
-    {
-      "trecho": "No jantar, ele sorriu. Disse que estava tudo bem. Mentiu pela primeira vez em dezoito anos de casamento.",
-      "prompt_imagem": "MARCOS, a 40-year-old Brazilian man, short black hair greying at the temples, short dark beard, brown skin, tired kind eyes, navy blue polo shirt sitting at a small wooden kitchen table with a checkered tablecloth and a plate of rice and beans, forcing a smile, simple Brazilian kitchen with blue tiles, warm evening light",
-      "vazia": false,
-      "animar": false
-    },
-    {
-      "trecho": "Lucas chegou depois da meia-noite. Bateu a porta do quarto sem dizer nada.",
-      "prompt_imagem": "LUCAS, a 16-year-old Brazilian boy, light brown skin, short curly black hair, grey hoodie walking down a dark hallway toward a bedroom door, headphones around his neck, angry face, dim light",
-      "vazia": false,
-      "animar": false
-    },
-    {
-      "trecho": "Marcos ficou sozinho na cozinha, olhando as contas em cima da mesa. Luz, aluguel, escola. Nada fechava.",
-      "prompt_imagem": "MARCOS, a 40-year-old Brazilian man, short black hair greying at the temples, short dark beard, brown skin, tired kind eyes, navy blue polo shirt sitting alone at a kitchen table at night with unpaid bills and a calculator, head in his hands, single warm lamp",
-      "vazia": false,
-      "animar": false
-    },
-    {
-      "trecho": "Foi aí que ele viu o bilhete de Ana na geladeira: As misericórdias do Senhor se renovam cada manhã.",
-      "prompt_imagem": "an old white refrigerator door with a small yellow paper note held by a magnet, the note seen from far so no letters are readable, night kitchen light",
-      "vazia": false,
-      "animar": false
-    },
-    {
-      "trecho": "Ele sussurrou: Deus, se o Senhor ainda me escuta, eu não sei mais o que fazer.",
-      "prompt_imagem": "MARCOS, a 40-year-old Brazilian man, short black hair greying at the temples, short dark beard, brown skin, tired kind eyes, navy blue polo shirt with tears in his eyes, looking up toward the ceiling in a dark kitchen, moonlight from the window, emotional",
-      "vazia": false,
-      "animar": false
-    },
-    {
-      "trecho": "Nesse exato momento, alguém bateu na porta. Três batidas. Era meia-noite e quarenta.",
-      "prompt_imagem": "a simple wooden front door of a Brazilian house at night seen from inside, warm light leaking under the door, a shadow of someone outside",
-      "vazia": false,
-      "animar": false
-    },
-    {
-      "trecho": "Quem estaria do lado de fora àquela hora? Siga para ver a parte dois de Encontrando Deus no dia a dia.",
-      "prompt_imagem": "DONA CIDA, a 70-year-old Brazilian woman, white hair in a bun, round glasses, floral dress and beige cardigan, holding an old worn leather Bible standing outside a small blue gate at night under a streetlight, holding a white envelope and her old Bible, kind mysterious smile",
-      "vazia": false,
-      "animar": false
-    }
-  ],
-  "opcoes_imagem": 2
+  ]
 }
