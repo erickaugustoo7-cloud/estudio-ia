@@ -1,0 +1,189 @@
+{
+  "titulo": "Oração da noite: para quem está ansioso",
+  "titulo_youtube": "ORAÇÃO DA NOITE PARA QUEM ESTÁ ANSIOSO | Entregue Tudo a Deus e Durma em Paz",
+  "gancho_tela": "Durma em paz",
+  "referencia": "Filipenses 4:6-7; Mateus 11:28; 1 Pedro 5:7; Mateus 6:34",
+  "formato": "horizontal",
+  "duracao_max": 999,
+  "volume_musica": 0.22,
+  "opcoes_imagem": 1,
+  "palavras_por_bloco": 260,
+  "cauda_musical_min": 20,
+  "plataformas": [
+    "youtube"
+  ],
+  "cena_capa": 0,
+  "texto_capa": [
+    "ANSIOSO?",
+    "DURMA EM PAZ"
+  ],
+  "estilo_imagem": "cinematic photorealistic still, peaceful night atmosphere, soft moonlight, gentle glow, deep blue and warm gold tones, calm and serene, horizontal 16:9 widescreen",
+  "prefixo_imagem": "cinematic photorealistic peaceful still:",
+  "prefixo_video": "Cinematic peaceful night shot, very slow and gentle motion.",
+  "epoca_imagem": "Ancient Israel landscape, stone, clay, wood, wool and linen only, nothing modern, no electric lights",
+  "legenda": "Se a sua cabeça não para hoje, ore comigo antes de dormir. \"Não andem ansiosos por coisa alguma… e a paz de Deus, que excede todo o entendimento, guardará o coração e a mente de vocês em Cristo Jesus\" (Filipenses 4:6-7, NVI).\n\nDepois da oração, a música continua por 20 minutos para você adormecer em paz.\n\nEscreva \"Amém\" e o que você entregou a Deus esta noite.",
+  "hashtags": [
+    "#OraçãoParaDormir",
+    "#Ansiedade",
+    "#OraçãoDaNoite",
+    "#Filipenses4",
+    "#Fé"
+  ],
+  "fontes": [
+    "Filipenses 4:6-7; Mateus 11:28; 1 Pedro 5:7; Mateus 6:34 (NVI)"
+  ],
+  "cena_cauda": 0,
+  "fonte_imagem": "cloudflare",
+  "cenas": [
+    {
+      "trecho": "Se a sua cabeça não para hoje, se o coração está acelerado e o sono não vem, fique aqui comigo. Esta oração é para você. Não precisa fazer nada além de respirar e ouvir.",
+      "prompt_imagem": "a calm starry night sky over dark quiet hills, the Milky Way glowing softly, deep blue tones",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Comece soltando o ar devagar. Mais devagar do que você acha que precisa. Agora inspire contando até quatro, segure um pouco, e solte contando até seis. Mais uma vez. O seu corpo está aprendendo que agora pode descansar.",
+      "prompt_imagem": "a still lake at night reflecting the moon perfectly, mist on the water, dark empty shores",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Jesus conhecia a ansiedade do coração humano. Ele olhou para pessoas cansadas e preocupadas e disse: Venham a mim, todos os que estão cansados e sobrecarregados, e eu darei descanso a vocês.",
+      "prompt_imagem": "a quiet hillside path at night leading toward a soft warm glow on the horizon, stars above",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Talvez você tenha passado o dia inteiro sendo forte para todo mundo. Resolvendo, respondendo, segurando a casa. E agora, no silêncio do quarto, tudo o que você guardou resolve aparecer. Está tudo bem. Deus não se assusta com o que você sente. Ele espera exatamente por esse momento para cuidar de você.",
+      "prompt_imagem": "a quiet stone courtyard at night with a single bench and an olive tree, moonlight on the stones",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Senhor, eu venho cansado. Venho sobrecarregado. Carregando coisas que nem consigo explicar. Eu aceito o teu convite esta noite. Eu venho a ti.",
+      "prompt_imagem": "a small open clay saucer oil lamp with a tiny flame on a rough stone ledge, darkness around, warm glow",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Tu conheces cada pensamento que está girando na minha mente agora. As contas, a saúde, o trabalho, as pessoas que eu amo, o medo do que pode acontecer amanhã. Nada disso te pega de surpresa.",
+      "prompt_imagem": "a narrow dark valley at night with a thin silver stream reflecting moonlight between rocks",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "O apóstolo Paulo escreveu de dentro de uma prisão: Não andem ansiosos por coisa alguma, mas em tudo, pela oração e súplicas, e com ação de graças, apresentem seus pedidos a Deus.",
+      "prompt_imagem": "a heavy ancient stone wall with a small barred window letting in a beam of moonlight",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Então, Senhor, eu apresento os meus pedidos agora. Um por um. Eu tiro do meu peito e coloco nas tuas mãos.",
+      "prompt_imagem": "an open hand-woven basket resting on a stone step at night, moonlight, quiet courtyard",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Pense no primeiro peso que está com você hoje. Dê um nome a ele, em silêncio. E diga: Senhor, isso eu entrego a ti. Eu não consigo resolver isso esta noite, mas tu consegues.",
+      "prompt_imagem": "a single olive tree on a hilltop under a sky full of stars, gentle wind, peaceful night",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Agora pense no segundo. Aquele que aperta o coração quando você deita. Entregue também. Senhor, isso também é teu. Cuida disso enquanto eu durmo.",
+      "prompt_imagem": "a calm sea at night under the moon, slow small waves reaching a quiet sandy shore",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Talvez exista um terceiro peso, uma pessoa. Alguém que você ama e não consegue ajudar, ou alguém que te machucou. Diga o nome dela em silêncio e entregue também. Senhor, eu coloco essa pessoa debaixo do teu cuidado. Faz por ela o que eu não consigo fazer.",
+      "prompt_imagem": "two small clay oil lamps burning side by side on a stone windowsill under a starry sky",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E a promessa vem logo depois: e a paz de Deus, que excede todo o entendimento, guardará o coração e a mente de vocês em Cristo Jesus.",
+      "prompt_imagem": "soft moonlight breaking through dark clouds over quiet hills, rays of silver light falling on the grass",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Guardará. É como um soldado de guarda na porta da sua mente. Os pensamentos ruins podem bater, mas a paz de Deus está de vigia. Você pode descansar.",
+      "prompt_imagem": "a lone watchtower of stone on a hill at night under the stars, a small fire glowing at its base",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Uma paz que excede o entendimento. Talvez nada tenha mudado lá fora. Mas aqui dentro, Deus pode colocar uma paz que não faz sentido. É essa paz que eu peço agora, Senhor.",
+      "prompt_imagem": "a field of white wildflowers under the full moon, quiet hills in the distance",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Respire de novo. Inspire e diga no coração: eu entrego. Solte o ar e diga: tu cuidas. Eu entrego. Tu cuidas. Sem pressa.",
+      "prompt_imagem": "gentle mist moving over a still lake at night, stars reflected on the water",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Pedro também conhecia a ansiedade. Ele afundou no mar quando olhou para o vento. E anos depois ele escreveu: Lancem sobre ele toda a sua ansiedade, porque ele tem cuidado de vocês.",
+      "prompt_imagem": "dark sea waves at night under a stormy sky with a break of moonlight on the water",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Toda a sua ansiedade. Não só um pedaço. Toda. Porque ele tem cuidado de você. Você não é um peso para Deus. Você é amado por Ele.",
+      "prompt_imagem": "the storm clouds parting over a calm sea at night, the full moon shining through",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "A ansiedade sempre tenta te convencer de que você está sozinho e de que tudo depende de você. Mas não é verdade. Você tem um Pai que vê, que ouve e que se importa. Ele conhece o caminho que você ainda não enxerga e já preparou o que você vai precisar amanhã.",
+      "prompt_imagem": "a winding stone path through quiet hills at night lit by moonlight, disappearing over a gentle ridge",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Senhor, eu também tenho medo do amanhã. Mas Jesus disse: não se preocupem com o amanhã, pois o amanhã se preocupará consigo mesmo. Basta a cada dia o seu próprio mal.",
+      "prompt_imagem": "the first faint glow of dawn far away on the horizon over dark hills, stars still shining",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Então eu não vou viver o dia de amanhã esta noite. Amanhã tu já estarás lá antes de mim. Hoje eu só preciso descansar.",
+      "prompt_imagem": "a simple wooden bed with a wool blanket beside an open clay saucer oil lamp with a tiny flame, stone wall, quiet night",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Se a sua mente quiser voltar para as preocupações, tudo bem. Não brigue com ela. Apenas volte para a frase: tu cuidas de mim. Como quem segura a mão de alguém no escuro.",
+      "prompt_imagem": "a soft beam of moonlight entering a quiet stone room through a small window, peaceful night",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Senhor, acalma o meu coração. Desacelera a minha respiração. Solta a tensão dos meus ombros, do meu rosto, das minhas mãos. Que o meu corpo sinta que está seguro.",
+      "prompt_imagem": "a quiet meadow at night with fireflies glowing softly in the tall grass, stars above",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Imagine agora que você está deitado num campo tranquilo, debaixo de um céu cheio de estrelas. O vento é suave. Ninguém está te cobrando nada. E o Bom Pastor está sentado ao seu lado, cuidando da noite inteira enquanto você descansa.",
+      "prompt_imagem": "a peaceful green meadow on gentle hills under the moonlight, soft grass swaying, stars above",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E abençoa as pessoas que estão ansiosas como eu esta noite. Quem está esperando um resultado de exame, quem perdeu o emprego, quem está com um filho longe. Dá a elas a tua paz também.",
+      "prompt_imagem": "a quiet ancient village of stone houses at night, small windows glowing with warm oil lamp light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Em nome de Jesus, eu recebo a tua paz. Amém. Agora fique em silêncio. A música vai continuar por alguns minutos para você adormecer tranquilo.",
+      "prompt_imagem": "a vast starry night sky over still dark hills and a quiet lake, the Milky Way glowing softly",
+      "vazia": true,
+      "animar": false
+    }
+  ]
+}
