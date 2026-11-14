@@ -1,0 +1,65 @@
+{
+  "titulo": "Você está viajando a 828 mil km/h agora",
+  "gancho_tela": "828 mil km/h e você nem sente",
+  "narracao": "Agora mesmo, você viaja a mais de oitocentos mil quilômetros por hora. É o Sol carregando a Terra em volta da nossa galáxia. E o motivo de você não sentir nada é ainda mais curioso. A Terra gira em torno de si mesma, e na linha do Equador isso dá cerca de mil seiscentos e setenta quilômetros por hora. Ao mesmo tempo, ela corre em volta do Sol a uns cento e sete mil quilômetros por hora. E o Sol, com tudo isso, gira em torno do centro da Via Láctea a cerca de oitocentos e vinte e oito mil quilômetros por hora. Nessa velocidade, você iria de São Paulo ao Rio em menos de dois segundos, ou chegaria à Lua em menos de meia hora. A galáxia é tão grande que uma volta leva cerca de duzentos e trinta milhões de anos. Da última vez que passamos por este ponto, os primeiros dinossauros estavam começando a surgir. Desde que nasceu, o Sol completou só umas vinte voltas. Então por que a gente não sente nada? Porque o corpo só percebe mudanças de velocidade, não a velocidade em si. É como num avião em voo tranquilo: a água fica parada no copo. E tudo ao redor viaja junto. Qual dessas velocidades mais te impressionou? Siga para descobrir uma curiosidade nova todo dia.",
+  "cenas": [
+    {
+      "trecho": "Agora mesmo, você viaja a mais de oitocentos mil quilômetros por hora.",
+      "busca_imagem": "Milky Way galaxy",
+      "prompt_imagem": "the Milky Way galaxy seen from above, glowing spiral arms, a small bright marker near the edge representing the Sun"
+    },
+    {
+      "trecho": "É o Sol carregando a Terra em volta da nossa galáxia. E o motivo de você não sentir nada é ainda mais curioso.",
+      "busca_imagem": "Earth from space",
+      "prompt_imagem": "planet Earth floating in deep space with the Milky Way band glowing behind it"
+    },
+    {
+      "trecho": "A Terra gira em torno de si mesma, e na linha do Equador isso dá cerca de mil seiscentos e setenta quilômetros por hora.",
+      "busca_imagem": "Earth rotation equator",
+      "prompt_imagem": "planet Earth rotating, sunlight terminator line crossing the equator, cinematic orbital view"
+    },
+    {
+      "trecho": "Ao mesmo tempo, ela corre em volta do Sol a uns cento e sete mil quilômetros por hora.",
+      "busca_imagem": "Earth orbit Sun",
+      "prompt_imagem": "Earth orbiting the blazing Sun, visible orbital path, cinematic space view"
+    },
+    {
+      "trecho": "E o Sol, com tudo isso, gira em torno do centro da Via Láctea a cerca de oitocentos e vinte e oito mil quilômetros por hora. Nessa velocidade, você iria de São Paulo ao Rio em menos de dois segundos, ou chegaria à Lua em menos de meia hora.",
+      "busca_imagem": "Milky Way center",
+      "prompt_imagem": "the bright dusty center of the Milky Way galaxy, dense star clouds, dramatic deep space colors"
+    },
+    {
+      "trecho": "A galáxia é tão grande que uma volta leva cerca de duzentos e trinta milhões de anos. Da última vez que passamos por este ponto, os primeiros dinossauros estavam começando a surgir.",
+      "busca_imagem": "Milky Way spiral arms",
+      "prompt_imagem": "a vast spiral galaxy with a long curved orbital path traced around its glowing core"
+    },
+    {
+      "trecho": "Desde que nasceu, o Sol completou só umas vinte voltas.",
+      "busca_imagem": "Sun solar dynamics observatory",
+      "prompt_imagem": "the Sun glowing with solar flares against black space, ultra detailed"
+    },
+    {
+      "trecho": "Então por que a gente não sente nada? Porque o corpo só percebe mudanças de velocidade, não a velocidade em si. É como num avião em voo tranquilo: a água fica parada no copo. E tudo ao redor viaja junto.",
+      "busca_imagem": "Earth atmosphere limb",
+      "prompt_imagem": "thin blue layer of Earth's atmosphere seen from orbit, oceans and clouds below, calm and serene"
+    },
+    {
+      "trecho": "Qual dessas velocidades mais te impressionou? Siga para descobrir uma curiosidade nova todo dia.",
+      "busca_imagem": "Milky Way night sky",
+      "prompt_imagem": "the Milky Way arching over a dark landscape at night, countless stars, no people"
+    }
+  ],
+  "legenda": "O Sol carrega a Terra em volta da Via Láctea a ~828 mil km/h — e uma volta leva ~230 milhões de anos. 🌌\nQual dessas velocidades mais te impressionou? Comenta aqui 👇",
+  "hashtags": [
+    "#ViaLáctea",
+    "#velocidade",
+    "#sistemasolar",
+    "#NASA"
+  ],
+  "fontes": [
+    "NASA StarChild — velocidade média do Sol na galáxia de 828.000 km/h; ~230 milhões de anos por volta; Sol a ~28 mil anos-luz do centro (https://starchild.gsfc.nasa.gov/docs/StarChild/questions/question18.html)",
+    "Space.com — How fast is Earth moving? (rotação ~1.670 km/h no Equador; órbita ~107.000 km/h; ~230 milhões de anos por volta na galáxia)",
+    "Wikipedia — Galactic year (230 km/s = 828.000 km/h; Sol e Terra nasceram há ~20 anos galácticos)",
+    "NHM (Natural History Museum) — The Triassic period: the rise of the dinosaurs (primeiros dinossauros no Triássico, ~230–245 milhões de anos). Cálculos: SP–Rio ~360 km ÷ 230 km/s ≈ 1,6 s; Terra–Lua 384.400 km ÷ 828.000 km/h ≈ 28 min; primeiros dinossauros ~230–245 milhões de anos atrás"
+  ]
+}
