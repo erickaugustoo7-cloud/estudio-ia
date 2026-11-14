@@ -1,0 +1,65 @@
+{
+  "titulo": "O salmo que o diabo citou para tentar Jesus no deserto (Salmo 91)",
+  "gancho_tela": "O DIABO CITOU ESTE SALMO",
+  "referencia": "Salmos 91:1-11",
+  "serie": "Salmos narrados",
+  "tipo": "salmo",
+  "voz": "eric",
+  "fonte_imagem": "cloudflare",
+  "duracao_max": 180,
+  "volume_musica": 0.12,
+  "estilo_imagem": "cinematic photorealistic landscape, golden hour light, soft volumetric rays, peaceful and reverent, rich warm colors, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic slow subtle motion.",
+  "epoca_imagem": "untouched nature, no buildings, no modern objects",
+  "legenda": "Salmo 91 🙏 Aquele que habita no esconderijo do Altíssimo, à sombra do Onipotente descansará.\nSalmos 91:1-11 (Almeida)\nEscreva \"Amém\" e envie este salmo para alguém que precisa se sentir guardado hoje.",
+  "hashtags": [
+    "#Salmo91",
+    "#Salmos",
+    "#PalavraDeDeus",
+    "#Fé",
+    "#Proteção"
+  ],
+  "fontes": [
+    "Salmos 91:1-11 — Almeida (tradução de domínio público)",
+    "Mateus 4:5-7 e Lucas 4:9-12 — o tentador cita Salmos 91:11-12 e Jesus responde com Deuteronômio 6:16"
+  ],
+  "cenas": [
+    {
+      "trecho": "Salmo noventa e um. Este salmo era tão conhecido que, no deserto, até o diabo o citou para tentar Jesus. Mas a promessa dele é para quem habita perto de Deus. Ouça com calma.",
+      "prompt_imagem": "a vast golden desert at sunrise with high rocky cliffs and long soft shadows, warm light rays through thin clouds, untouched nature",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Aquele que habita no esconderijo do Altíssimo, à sombra do Onipotente descansará. Direi do Senhor: Ele é o meu Deus, o meu refúgio, a minha fortaleza, e nele confiarei.",
+      "prompt_imagem": "a sheltered cleft in a massive rock mountain at golden hour, warm light at the entrance, soft wind moving wild grass, untouched nature",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Porque ele te livrará do laço do passarinheiro e da peste perniciosa. Ele te cobrirá com as suas penas, e debaixo das suas asas estarás seguro; a sua verdade é escudo e broquel.",
+      "prompt_imagem": "a bird nest high on a rocky ledge under a great outstretched wing of an eagle, warm sunrise light, wide mountain valley below",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Não temerás espanto noturno, nem seta que voe de dia, nem peste que ande na escuridão, nem mortandade que assole ao meio-dia. Mil cairão ao teu lado, e dez mil, à tua direita, mas tu não serás atingido.",
+      "prompt_imagem": "a deep starry night sky over a quiet dark valley, a soft beam of silver light shining on a small safe path between the hills",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Somente com os teus olhos olharás e verás a recompensa dos ímpios. Porque tu, ó Senhor, és o meu refúgio! O Altíssimo é a tua habitação. Nenhum mal te sucederá, nem praga alguma chegará à tua tenda. Porque aos seus anjos dará ordem a teu respeito, para te guardarem em todos os teus caminhos.",
+      "prompt_imagem": "a simple woven goat-hair tent alone in a peaceful green valley at dawn, golden light rays falling from the clouds over it, untouched nature",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Jesus não pulou do alto para provar nada. Respondeu com a Palavra e venceu. Você não precisa testar a Deus para estar guardado: basta habitar perto dele. Se você crê, escreva Amém. E siga o Mensageiro de Fé para ouvir um salmo por dia.",
+      "prompt_imagem": "a wooden cross on a rocky hilltop silhouetted against a glowing golden sunset sky with rays of light",
+      "vazia": true,
+      "animar": false
+    }
+  ]
+}
