@@ -1,0 +1,165 @@
+{
+  "titulo": "Encontrando Deus no dia a dia — Ep. 2: A visita de Dona Cida",
+  "gancho_tela": "Quem bateu à meia-noite?",
+  "referencia": "Salmo 23:1",
+  "serie": "Encontrando Deus no dia a dia",
+  "parte": 2,
+  "tipo": "novela",
+  "moderno": true,
+  "duracao_max": 120,
+  "volume_musica": 0.12,
+  "opcoes_imagem": 2,
+  "estilo_imagem": "3D animated feature film still, expressive stylized characters, soft global illumination, warm cinematic light, detailed modern Brazilian setting, vertical 9:16",
+  "prefixo_imagem": "3D animated feature film still:",
+  "prefixo_video": "3D animated film, expressive character animation.",
+  "epoca_imagem": "present-day Brazil, simple working-class neighborhood on the outskirts of São Paulo, no logos, no political symbols",
+  "personagens_regra": "Same characters in every scene, exactly as described. Natural, well-drawn faces and hands, no deformities, no text, no logos. Plain blank envelopes and papers, never any writing. Night scenes must be dark",
+  "vozes": {
+    "Marcos": {
+      "voz": "pt-BR-AntonioNeural",
+      "tom": "-3Hz",
+      "ritmo": "+0%"
+    },
+    "Ana": {
+      "voz": "pt-BR-FranciscaNeural",
+      "tom": "+0Hz",
+      "ritmo": "+0%"
+    },
+    "Lucas": {
+      "voz": "pt-BR-AntonioNeural",
+      "tom": "+28Hz",
+      "ritmo": "+10%"
+    },
+    "Dona Cida": {
+      "voz": "pt-BR-ThalitaMultilingualNeural",
+      "tom": "-18Hz",
+      "ritmo": "-10%"
+    }
+  },
+  "legenda": "Ep. 2 — A visita de Dona Cida ✉️\nO Senhor é o meu pastor, nada me faltará (Salmo 23:1).\nO que você acha que tem dentro do envelope? Comenta aqui 👇 e siga para ver a parte 3.",
+  "hashtags": [
+    "#EncontrandoDeusNoDiaADia",
+    "#novelacristã",
+    "#fé",
+    "#Deus",
+    "#família"
+  ],
+  "fontes": [
+    "Salmo 23:1 — Almeida (domínio público)"
+  ],
+  "cenas": [
+    {
+      "personagem": "Narrador",
+      "trecho": "Meia-noite e quarenta. Marcos abriu a porta… e era Dona Cida, a vizinha da frente.",
+      "prompt_imagem": "MARCOS, a 40-year-old Brazilian man, short black hair greying at the temples, short dark beard, brown skin, tired kind eyes, navy blue polo shirt opening a simple wooden front door from inside, DONA CIDA, a 70-year-old Brazilian woman, white hair in a bun, round glasses, floral dress and beige cardigan, holding an old worn leather Bible standing on the doorstep, at night, dark scene lit only by a warm streetlight and soft rain, deep blue night shadows",
+      "vazia": false,
+      "animar": true,
+      "prompt_movimento": "the door slowly opens and light falls on her face"
+    },
+    {
+      "personagem": "Dona Cida",
+      "trecho": "Desculpa a hora, meu filho. Deus não me deixou dormir enquanto eu não viesse aqui.",
+      "prompt_imagem": "close-up of DONA CIDA, a 70-year-old Brazilian woman, white hair in a bun, round glasses, floral dress and beige cardigan, holding an old worn leather Bible at a front door, also holding a plain blank white envelope, at night, dark scene lit only by a warm streetlight and soft rain, deep blue night shadows",
+      "vazia": false,
+      "animar": true,
+      "prompt_movimento": "she smiles tenderly and nods"
+    },
+    {
+      "personagem": "Marcos",
+      "trecho": "Aconteceu alguma coisa, Dona Cida?",
+      "prompt_imagem": "MARCOS, a 40-year-old Brazilian man, short black hair greying at the temples, short dark beard, brown skin, tired kind eyes, navy blue polo shirt standing at the open front door with a dark house behind him, confused face, at night, dark scene lit only by a warm streetlight and soft rain, deep blue night shadows",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "personagem": "Dona Cida",
+      "trecho": "Aconteceu com você. Eu vi a caixa no portão.",
+      "prompt_imagem": "DONA CIDA, a 70-year-old Brazilian woman, white hair in a bun, round glasses, floral dress and beige cardigan, holding an old worn leather Bible with a serious and loving expression, streetlight reflecting on her round glasses, at night, dark scene lit only by a warm streetlight and soft rain, deep blue night shadows",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "personagem": "Narrador",
+      "trecho": "Marcos gelou. Ninguém sabia. Nem a Ana.",
+      "prompt_imagem": "close-up of MARCOS, a 40-year-old Brazilian man, short black hair greying at the temples, short dark beard, brown skin, tired kind eyes, navy blue polo shirt, shocked face lit by the streetlight, at night, dark scene lit only by a warm streetlight and soft rain, deep blue night shadows",
+      "vazia": false,
+      "animar": true,
+      "prompt_movimento": "his eyes widen and he swallows hard"
+    },
+    {
+      "personagem": "Dona Cida",
+      "trecho": "Isso aqui é pra você. Não abre agora. Só quando precisar.",
+      "prompt_imagem": "DONA CIDA, a 70-year-old Brazilian woman, white hair in a bun, round glasses, floral dress and beige cardigan, holding an old worn leather Bible holding out a plain blank sealed white envelope with nothing written on it toward the viewer, at night, dark scene lit only by a warm streetlight and soft rain, deep blue night shadows",
+      "vazia": false,
+      "animar": true,
+      "prompt_movimento": "she slowly holds out the envelope"
+    },
+    {
+      "personagem": "Marcos",
+      "trecho": "Não precisa, Dona Cida. Eu dou conta sozinho.",
+      "prompt_imagem": "MARCOS, a 40-year-old Brazilian man, short black hair greying at the temples, short dark beard, brown skin, tired kind eyes, navy blue polo shirt at the door gently pushing back a plain blank white envelope with his hand, proud face, at night, dark scene lit only by a warm streetlight and soft rain, deep blue night shadows",
+      "vazia": false,
+      "animar": true,
+      "prompt_movimento": "he gently pushes the envelope back and shakes his head"
+    },
+    {
+      "personagem": "Narrador",
+      "trecho": "O orgulho falou mais alto. Doze anos sustentando a casa… e agora aceitar ajuda?",
+      "prompt_imagem": "MARCOS, a 40-year-old Brazilian man, short black hair greying at the temples, short dark beard, brown skin, tired kind eyes, navy blue polo shirt standing in the doorway with arms crossed, strong shadows, at night, dark scene lit only by a warm streetlight and soft rain, deep blue night shadows",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "personagem": "Dona Cida",
+      "trecho": "Não é esmola, filho. É Deus cuidando de você pelas minhas mãos.",
+      "prompt_imagem": "DONA CIDA, a 70-year-old Brazilian woman, white hair in a bun, round glasses, floral dress and beige cardigan, holding an old worn leather Bible smiling softly, holding her Bible against her chest, at night, dark scene lit only by a warm streetlight and soft rain, deep blue night shadows",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "personagem": "Dona Cida",
+      "trecho": "Lembra: o Senhor é o meu pastor, nada me faltará.",
+      "prompt_imagem": "close-up of the wrinkled hands of DONA CIDA, a 70-year-old Brazilian woman, white hair in a bun, round glasses, floral dress and beige cardigan, holding an old worn leather Bible resting on the worn leather cover of her Bible, at night, dark scene lit only by a warm streetlight and soft rain, deep blue night shadows",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "personagem": "Narrador",
+      "trecho": "Ela deixou o envelope na caixa de correio e foi embora devagar, debaixo da chuva fina.",
+      "prompt_imagem": "DONA CIDA, a 70-year-old Brazilian woman, white hair in a bun, round glasses, floral dress and beige cardigan, holding an old worn leather Bible walking away slowly down a dark street of simple houses holding an umbrella, seen from behind, street lights on, at night, dark scene lit only by a warm streetlight and soft rain, deep blue night shadows",
+      "vazia": false,
+      "animar": true,
+      "prompt_movimento": "she walks slowly away under the umbrella, raindrops falling"
+    },
+    {
+      "personagem": "Ana",
+      "trecho": "Marcos? Quem era a essa hora?",
+      "prompt_imagem": "ANA, a 37-year-old Brazilian woman, long curly dark brown hair tied back, warm brown skin, small gold cross necklace, wearing a light blue bathrobe over nightclothes sleepy in a dark hallway of a simple house at night, dim warm light from a doorway",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "personagem": "Marcos",
+      "trecho": "Ninguém, amor. Engano. Volta a dormir.",
+      "prompt_imagem": "MARCOS, a 40-year-old Brazilian man, short black hair greying at the temples, short dark beard, brown skin, tired kind eyes, navy blue polo shirt quickly closing a wooden front door from inside a dark house at night",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "personagem": "Narrador",
+      "trecho": "Segunda mentira. Mas o que Marcos não sabia… é que alguém tinha visto tudo.",
+      "prompt_imagem": "LUCAS, a 16-year-old Brazilian teenage boy with a teenage face and a faint mustache, tall and thin, light brown skin, short curly black hair, grey hoodie peeking through the gap of his half-open bedroom door into a dark hallway at night, phone light on his face",
+      "vazia": false,
+      "animar": true,
+      "prompt_movimento": "he opens the door just a little and watches silently"
+    },
+    {
+      "personagem": "Narrador",
+      "trecho": "E o que tinha dentro daquele envelope ia mudar a vida dessa família. Siga para ver a parte três.",
+      "prompt_imagem": "a plain blank white envelope sticking out of a small mailbox on a blue metal gate, at night, dark scene lit only by a warm streetlight and soft rain, deep blue night shadows",
+      "vazia": true,
+      "animar": true,
+      "prompt_movimento": "raindrops fall and the streetlight flickers softly"
+    }
+  ]
+}
