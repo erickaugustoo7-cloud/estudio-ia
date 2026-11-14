@@ -1,0 +1,66 @@
+{
+  "titulo": "O homem que nenhuma corrente segurava",
+  "gancho_tela": "Jesus não fugiu dele",
+  "estilo": "pintura",
+  "narracao": "Um homem que nenhuma corrente conseguia segurar correu na direção de Jesus. Ele morava entre os túmulos. Marcos, capítulo cinco. Mas o pedido de Jesus no final é o que mais emociona. Assim que Jesus desceu do barco, esse homem veio ao encontro dele. Muitas vezes o amarraram com correntes, e ele arrebentava todas. Dia e noite, gritava pelos montes e se feria com pedras. Qualquer um teria ido embora. Jesus ficou, perguntou o nome dele e o libertou do que o atormentava. Depois, o povo da cidade viu o homem sentado, vestido e em perfeito juízo. Ele implorou para ir junto. Jesus não deixou: vá para casa, para os seus, e conte quanto o Senhor fez por você e como teve compaixão de você. Ele foi, e contou por toda a Decápolis o que Jesus tinha feito. Jesus não só libertou aquele homem. Devolveu ele para a família. Se você sente que perdeu o controle da própria vida, Jesus não foge de você. Ele quer te levar de volta para casa. Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias.",
+  "cenas": [
+    {
+      "trecho": "Um homem que nenhuma corrente conseguia segurar correu na direção de Jesus.",
+      "busca_imagem": "broken chains tombs light",
+      "prompt_imagem": "broken heavy iron chains lying on rocks at the entrance of ancient hillside rock tombs, a lone robed man seen from behind running down the slope toward a small boat on a lakeshore, brilliant golden sunrise breaking through dark clouds, strong contrast"
+    },
+    {
+      "trecho": "Ele morava entre os túmulos. Marcos, capítulo cinco. Mas o pedido de Jesus no final é o que mais emociona.",
+      "busca_imagem": "ancient rock tombs hillside",
+      "prompt_imagem": "ancient rock-cut tombs on a rugged hillside above a lake at dusk, a ragged man sitting in the shadow of a tomb entrance seen from behind, cold blue and gold light"
+    },
+    {
+      "trecho": "Assim que Jesus desceu do barco, esse homem veio ao encontro dele.",
+      "busca_imagem": "boat shore galilee",
+      "prompt_imagem": "an ancient wooden fishing boat pulled onto a rocky shore of the Sea of Galilee, robed men seen from behind stepping onto the beach, a distant figure running down from the hills, morning light"
+    },
+    {
+      "trecho": "Muitas vezes o amarraram com correntes, e ele arrebentava todas. Dia e noite, gritava pelos montes e se feria com pedras.",
+      "busca_imagem": "man chains night mountains",
+      "prompt_imagem": "silhouette of a tormented man in torn robes on a rocky mountainside at night, broken chains hanging from his wrists, arms raised to a stormy moonlit sky, dramatic shadows"
+    },
+    {
+      "trecho": "Qualquer um teria ido embora. Jesus ficou, perguntou o nome dele e o libertou do que o atormentava.",
+      "busca_imagem": "jesus healing man shore",
+      "prompt_imagem": "a robed figure seen from behind standing calmly on a lakeshore before a kneeling man in rags, a beam of warm golden light falling on the kneeling man, dark clouds parting"
+    },
+    {
+      "trecho": "Depois, o povo da cidade viu o homem sentado, vestido e em perfeito juízo.",
+      "busca_imagem": "villagers gathering shore",
+      "prompt_imagem": "a crowd of villagers in ancient robes seen from behind arriving on a hillside by the lake, looking at a calm man sitting clothed in a clean cloak beside a robed figure, soft afternoon light"
+    },
+    {
+      "trecho": "Ele implorou para ir junto. Jesus não deixou: vá para casa, para os seus, e conte quanto o Senhor fez por você e como teve compaixão de você.",
+      "busca_imagem": "boat departing lake man",
+      "prompt_imagem": "a man in a clean cloak seen from behind standing on the shore with one hand reaching toward a departing fishing boat with robed figures, calm lake, golden evening light"
+    },
+    {
+      "trecho": "Ele foi, e contou por toda a Decápolis o que Jesus tinha feito.",
+      "busca_imagem": "ancient village road walking",
+      "prompt_imagem": "a man in ancient robes seen from behind walking on a dusty road toward a small stone village with lit windows at sunset, a family waiting at a doorway in silhouette"
+    },
+    {
+      "trecho": "Jesus não só libertou aquele homem. Devolveu ele para a família. Se você sente que perdeu o controle da própria vida, Jesus não foge de você. Ele quer te levar de volta para casa. Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias.",
+      "busca_imagem": "father embracing family doorway",
+      "prompt_imagem": "a man seen from behind embracing his family at the doorway of a humble ancient stone house, warm lamplight spilling out into the evening, peaceful and hopeful"
+    }
+  ],
+  "legenda": "Senhor, me traz de volta para casa 🙏😭\nMarcos 5:1-20\nComente \"Amém\" e envie para alguém que precisa voltar para casa.",
+  "hashtags": [
+    "#Jesus",
+    "#libertação",
+    "#recomeço",
+    "#família"
+  ],
+  "fontes": [
+    "Marcos 5:1-5 (chegada de barco, o homem dos sepulcros, as correntes, gritos e pedras)",
+    "Marcos 5:9 (Jesus pergunta o nome)",
+    "Marcos 5:14-15 (o povo vê o homem sentado, vestido e em perfeito juízo)",
+    "Marcos 5:18-20 (pede para ir junto; 'vá para casa, para os seus'; anuncia em Decápolis; todos se admiram)"
+  ]
+}
