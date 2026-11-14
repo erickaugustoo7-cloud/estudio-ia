@@ -1,0 +1,82 @@
+>> nvidia-smi
+Sat Nov 14 10:01:22 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.178.04             Driver Version: 580.178.04     CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  Tesla T4                       Off |   00000000:00:04.0 Off |                    0 |
+| N/A   59C    P8             11W /   70W |       0MiB /  15360MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+|   1  Tesla T4                       Off |   00000000:00:05.0 Off |                    0 |
+| N/A   51C    P8             10W /   70W |       0MiB /  15360MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+
+>> git clone -q --depth 1 https://github.com/deepbeepmeep/Wan2GP.git /kaggle/temp/Wan2GP
+>> apt-get update -qq && apt-get install -y -qq --no-install-recommends ffmpeg libglib2.0-0 libgl1 libportaudio2
+>> /usr/bin/python3 -m pip install -q -r /kaggle/temp/Wan2GP/requirements.txt -c /kaggle/temp/constraints.txt
+instalação ok em 205s
+[1m[93m*********************** WanGP v19.292 - Copyright (c) 2024-2026 DeepBeepMeep ***********************[0m
+[1m[95m****** Memory Management for the GPU Poor (mmgp 4.6.2) - Copyright (c) 2024-2026 DeepBeepMeep ******[0m
+[RAM] MMGP RAM Allocator: the RAM of freed CPU tensors goes back to the system
+[VRAM] MMGP Optimized VRAM Allocator, spilling into RAM when VRAM is full
+[WanGP][Triton] Preparing _smoke_add_one_kernel (compiling, please wait)...
+[WanGP][Triton] Compiled _smoke_add_one_kernel [fp32] in 2177 ms; configuration: num_warps=4 num_stages=3.
+[WanGP][Triton] Preparing _smoke_block_pointer_kernel (compiling, please wait)...
+[WanGP][Triton] Compiled _smoke_block_pointer_kernel [fp32 N=129] in 53 ms; configuration: num_warps=4 num_stages=3.
+Switching to FP16 models when possible as GPU architecture doesn't support optimed BF16 Kernels
+Flax classes are deprecated and will be removed in Diffusers v1.0.0. We recommend migrating to PyTorch classes or pinning your version of Diffusers.
+Flax classes are deprecated and will be removed in Diffusers v1.0.0. We recommend migrating to PyTorch classes or pinning your version of Diffusers.
+[INT8] Backend: Comfy Kitchen CUDA (setting: auto).
+[FP8] Backend: Triton; block-scaled weights: Triton (16-bit activations) (setting: auto; FP8 tensor cores need an RTX 40xx or later GPU).
+Powered by WanGP v19.292 - a DeepBeepMeep Production
+ZImageTurbo_quanto_bf16_int8.safetensors:   0%|          | 0.00/6.89G [00:00<?, ?B/s]ZImageTurbo_quanto_bf16_int8.safetensors:   0%|          | 0.00/6.89G [00:00<?, ?B/s]ZImageTurbo_quanto_bf16_int8.safetensors:   0%|          | 0.00/6.89G [00:00<?, ?B/s]ZImageTurbo_quanto_bf16_int8.safetensors:   0%|          | 0.00/6.89G [00:00<?, ?B/s]ZImageTurbo_quanto_bf16_int8.safetensors:   0%|          | 0.00/6.89G [00:00<?, ?B/s]ZImageTurbo_quanto_bf16_int8.safetensors:   0%|          | 0.00/6.89G [00:00<?, ?B/s]ZImageTurbo_quanto_bf16_int8.safetensors:   0%|          | 366k/6.89G [00:00<31:31, 3.64MB/s]ZImageTurbo_quanto_bf16_int8.safetensors:   0%|          | 3.18M/6.89G [00:00<06:23, 18.0MB/s]ZImageTurbo_quanto_bf16_int8.safetensors:   1%|          | 50.2M/6.89G [00:01<01:26, 79.0MB/s]ZImageTurbo_quanto_bf16_int8.safetensors:   4%|▍         | 281M/6.89G [00:01<00:18, 359MB/s]  ZImageTurbo_quanto_bf16_int8.safetensors:   5%|▌         | 365M/6.89G [00:01<00:17, 376MB/s]ZImageTurbo_quanto_bf16_int8.safetensors:   9%|▉         | 616M/6.89G [00:02<00:15, 398MB/s]ZImageTurbo_quanto_bf16_int8.safetensors:  11%|█         | 768M/6.89G [00:02<00:11, 525MB/s]ZImageTurbo_quanto_bf16_int8.safetensors:  12%|█▏        | 845M/6.89G [00:02<00:12, 489MB/s]ZImageTurbo_quanto_bf16_int8.safetensors:  15%|█▌        | 1.04G/6.89G [00:03<00:11, 490MB/s]ZImageTurbo_quanto_bf16_int8.safetensors:  18%|█▊        | 1.24G/6.89G [00:03<00:11, 493MB/s]ZImageTurbo_quanto_bf16_int8.safetensors:  19%|█▉        | 1.31G/6.89G [00:03<00:12, 458MB/s]ZImageTurbo_quanto_bf16_int8.safetensors:  23%|██▎       | 1.59G/6.89G [00:03<00:07, 754MB/s]ZImageTurbo_quanto_bf16_int8.safetensors:  26%|██▌       | 1.79G/6.89G [00:04<00:07, 722MB/s]ZImageTurbo_quanto_bf16_int8.safetensors:  28%|██▊       | 1.92G/6.89G [00:04<00:07, 629MB/s]ZImageTurbo_quanto_bf16_int8.safetensors:  32%|███▏      | 2.19G/6.89G [00:04<00:05, 797MB/s]ZImageTurbo_quanto_bf16_int8.safetensors:  35%|███▍      | 2.39G/6.89G [00:04<00:05, 849MB/s]ZImageTurbo_quanto_bf16_int8.safetensors:  37%|███▋      | 2.53G/6.89G [00:04<00:04, 924MB/s]ZImageTurbo_quanto_bf16_int8.safetensors:  39%|███▊      | 2.66G/6.89G [00:05<00:07, 576MB/s]ZImageTurbo_quanto_bf16_int8.safetensors:  41%|████      | 2.79G/6.89G [00:05<00:06, 594MB/s]ZImageTurbo_quanto_bf16_int8.safetensors:  44%|████▍     | 3.06G/6.89G [00:05<00:05, 762MB/s]ZImageTurbo_quanto_bf16_int8.safetensors:  47%|████▋     | 3.26G/6.89G [00:05<00:04, 806MB/s]ZImageTurbo_quanto_bf16_int8.safetensors:  51%|█████▏    | 3.53G/6.89G [00:06<00:04, 739MB/s]ZImageTurbo_quanto_bf16_int8.safetensors:  54%|█████▍    | 3.73G/6.89G [00:06<00:04, 650MB/s]ZImageTurbo_quanto_bf16_int8.safetensors:  56%|█████▌    | 3.87G/6.89G [00:07<00:05, 591MB/s]ZImageTurbo_quanto_bf16_int8.safetensors:  61%|██████    | 4.20G/6.89G [00:08<00:06, 397MB/s]ZImageTurbo_quanto_bf16_int8.safetensors:  67%|██████▋   | 4.60G/6.89G [00:16<00:23, 96.5MB/s]ZImageTurbo_quanto_bf16_int8.safetensors:  90%|█████████ | 6.21G/6.89G [00:17<00:02, 301MB/s] ZImageTurbo_quanto_bf16_int8.safetensors: 100%|██████████| 6.89G/6.89G [00:17<00:00, 405MB/s]ZImageTurbo_quanto_bf16_int8.safetensors: 100%|██████████| 6.89G/6.89G [00:18<00:00, 382MB/s]
+Qwen3/tokenizer.json:   0%|          | 0.00/11.4M [00:00<?, ?B/s]Qwen3/tokenizer.json:   0%|          | 0.00/11.4M [00:00<?, ?B/s]Qwen3/tokenizer.json:   0%|          | 0.00/11.4M [00:00<?, ?B/s]Qwen3/tokenizer.json:   0%|          | 0.00/11.4M [00:00<?, ?B/s]Qwen3/tokenizer.json:   0%|          | 0.00/11.4M [00:00<?, ?B/s]Qwen3/tokenizer.json:   0%|          | 0.00/11.4M [00:00<?, ?B/s]Qwen3/tokenizer.json:   0%|          | 0.00/11.4M [00:00<?, ?B/s]Qwen3/tokenizer.json:   0%|          | 0.00/11.4M [00:00<?, ?B/s]Qwen3/tokenizer.json:   0%|          | 0.00/11.4M [00:00<?, ?B/s]Qwen3/tokenizer.json: 100%|██████████| 11.4M/11.4M [00:00<00:00, 114MB/s]Qwen3/tokenizer.json: 100%|██████████| 11.4M/11.4M [00:06<00:00, 1.65MB/s]
+tokenizer_config.json:   0%|          | 0.00/9.73k [00:00<?, ?B/s]tokenizer_config.json: 100%|██████████| 9.73k/9.73k [00:00<00:00, 25.9MB/s]
+vocab.json:   0%|          | 0.00/2.78M [00:00<?, ?B/s]vocab.json: 100%|██████████| 2.78M/2.78M [00:00<00:00, 70.9MB/s]
+config.json:   0%|          | 0.00/726 [00:00<?, ?B/s]config.json: 100%|██████████| 726/726 [00:00<00:00, 4.20MB/s]
+merges.txt:   0%|          | 0.00/1.67M [00:00<?, ?B/s]merges.txt: 100%|██████████| 1.67M/1.67M [00:00<00:00, 134MB/s]
+ZImageTurbo_VAE_bf16_config.json:   0%|          | 0.00/805 [00:00<?, ?B/s]ZImageTurbo_VAE_bf16_config.json: 100%|██████████| 805/805 [00:00<00:00, 4.35MB/s]
+ZImageTurbo_VAE_bf16.safetensors:   0%|          | 0.00/168M [00:00<?, ?B/s]ZImageTurbo_VAE_bf16.safetensors:   0%|          | 0.00/168M [00:00<?, ?B/s]ZImageTurbo_VAE_bf16.safetensors:   0%|          | 0.00/168M [00:00<?, ?B/s]ZImageTurbo_VAE_bf16.safetensors:   0%|          | 0.00/168M [00:00<?, ?B/s]ZImageTurbo_VAE_bf16.safetensors:   0%|          | 0.00/168M [00:00<?, ?B/s]ZImageTurbo_VAE_bf16.safetensors:   0%|          | 0.00/168M [00:00<?, ?B/s]ZImageTurbo_VAE_bf16.safetensors:   0%|          | 0.00/168M [00:00<?, ?B/s]ZImageTurbo_VAE_bf16.safetensors:   0%|          | 0.00/168M [00:00<?, ?B/s]ZImageTurbo_VAE_bf16.safetensors:   0%|          | 0.00/168M [00:00<?, ?B/s]ZImageTurbo_VAE_bf16.safetensors:   0%|          | 0.00/168M [00:00<?, ?B/s]ZImageTurbo_VAE_bf16.safetensors:   0%|          | 0.00/168M [00:01<?, ?B/s]ZImageTurbo_VAE_bf16.safetensors:  40%|████      | 67.1M/168M [00:01<00:00, 668MB/s]ZImageTurbo_VAE_bf16.safetensors: 100%|██████████| 168M/168M [00:01<00:00, 545MB/s] ZImageTurbo_VAE_bf16.safetensors: 100%|██████████| 168M/168M [00:08<00:00, 20.7MB/s]
+ZImageTurbo_scheduler_config.json:   0%|          | 0.00/173 [00:00<?, ?B/s]ZImageTurbo_scheduler_config.json: 100%|██████████| 173/173 [00:00<00:00, 1.04MB/s]
+Loading Model 'ckpts/ZImageTurbo_quanto_bf16_int8.safetensors' ...
+Qwen3/qwen3_quanto_bf16_int8.safetensors:   0%|          | 0.00/4.41G [00:00<?, ?B/s]Qwen3/qwen3_quanto_bf16_int8.safetensors:   0%|          | 0.00/4.41G [00:00<?, ?B/s]Qwen3/qwen3_quanto_bf16_int8.safetensors:   0%|          | 0.00/4.41G [00:00<?, ?B/s]Qwen3/qwen3_quanto_bf16_int8.safetensors:   0%|          | 0.00/4.41G [00:00<?, ?B/s]Qwen3/qwen3_quanto_bf16_int8.safetensors:   0%|          | 0.00/4.41G [00:00<?, ?B/s]Qwen3/qwen3_quanto_bf16_int8.safetensors:   0%|          | 0.00/4.41G [00:00<?, ?B/s]Qwen3/qwen3_quanto_bf16_int8.safetensors:   0%|          | 0.00/4.41G [00:00<?, ?B/s]Qwen3/qwen3_quanto_bf16_int8.safetensors:   0%|          | 191k/4.41G [00:00<38:43, 1.90MB/s]Qwen3/qwen3_quanto_bf16_int8.safetensors:   3%|▎         | 134M/4.41G [00:01<00:21, 199MB/s] Qwen3/qwen3_quanto_bf16_int8.safetensors:   6%|▌         | 256M/4.41G [00:01<00:11, 376MB/s]Qwen3/qwen3_quanto_bf16_int8.safetensors:   8%|▊         | 336M/4.41G [00:02<00:24, 164MB/s]Qwen3/qwen3_quanto_bf16_int8.safetensors:  18%|█▊        | 778M/4.41G [00:02<00:07, 509MB/s]Qwen3/qwen3_quanto_bf16_int8.safetensors:  30%|██▉       | 1.32G/4.41G [00:03<00:05, 557MB/s]Qwen3/qwen3_quanto_bf16_int8.safetensors:  33%|███▎      | 1.46G/4.41G [00:03<00:04, 612MB/s]Qwen3/qwen3_quanto_bf16_int8.safetensors:  39%|███▉      | 1.72G/4.41G [00:04<00:04, 628MB/s]Qwen3/qwen3_quanto_bf16_int8.safetensors:  45%|████▌     | 1.99G/4.41G [00:04<00:02, 823MB/s]Qwen3/qwen3_quanto_bf16_int8.safetensors:  51%|█████     | 2.26G/4.41G [00:04<00:03, 650MB/s]Qwen3/qwen3_quanto_bf16_int8.safetensors:  54%|█████▍    | 2.39G/4.41G [00:04<00:03, 652MB/s]Qwen3/qwen3_quanto_bf16_int8.safetensors:  60%|██████    | 2.66G/4.41G [00:05<00:02, 790MB/s]Qwen3/qwen3_quanto_bf16_int8.safetensors:  65%|██████▍   | 2.86G/4.41G [00:05<00:01, 941MB/s]Qwen3/qwen3_quanto_bf16_int8.safetensors:  74%|███████▍  | 3.27G/4.41G [00:06<00:01, 589MB/s]Qwen3/qwen3_quanto_bf16_int8.safetensors:  79%|███████▊  | 3.47G/4.41G [00:06<00:01, 606MB/s]Qwen3/qwen3_quanto_bf16_int8.safetensors:  85%|████████▍ | 3.74G/4.41G [00:07<00:01, 454MB/s]Qwen3/qwen3_quanto_bf16_int8.safetensors:  88%|████████▊ | 3.87G/4.41G [00:15<00:06, 81.7MB/s]Qwen3/qwen3_quanto_bf16_int8.safetensors:  99%|█████████▉| 4.38G/4.41G [00:15<00:00, 150MB/s] Qwen3/qwen3_quanto_bf16_int8.safetensors: 100%|██████████| 4.41G/4.41G [00:16<00:00, 274MB/s]
+Loading Text Encoder 'ckpts/Qwen3/qwen3_quanto_bf16_int8.safetensors' ...
+[1m[95m******************* Applying MMGP Memory Profile 5 - VerylowRAM_LowVRAM (v4.6.2) *******************[0m
+Async loading plan for model 'transformer' : base size of 0.91 MB will be preloaded with a 172.63 MB async circular shuttle, prefetch window 1
+Hooked to model 'text_encoder' (Qwen3ForCausalLM)
+Async loading plan for model 'text_encoder' : base size of 0.37 MB will be preloaded with a 96.31 MB async circular shuttle, prefetch window 1
+Hooked to model 'vae' (AutoencoderKL)
+Staging ring of 518.3 MB for the blocks that are not pinned (largest 172.8 MB)
+Encoding Text Prompt:   0%|          | 0/36 [00:00<?, ?it/s]Encoding Text Prompt:   3%|▎         | 1/36 [00:01<01:02,  1.79s/it]Encoding Text Prompt:  58%|█████▊    | 21/36 [00:02<00:01, 13.01it/s]                                                                       0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:05<00:35,  5.89s/it] 29%|██▊       | 2/7 [00:10<00:25,  5.07s/it] 43%|████▎     | 3/7 [00:15<00:19,  4.95s/it] 57%|█████▋    | 4/7 [00:20<00:14,  4.93s/it] 71%|███████▏  | 5/7 [00:25<00:09,  4.95s/it] 86%|████████▌ | 6/7 [00:30<00:04,  4.99s/it]100%|██████████| 7/7 [00:35<00:00,  5.03s/it]100%|██████████| 7/7 [00:35<00:00,  5.08s/it]
+[Kernels] BF16 Convolution: WanGP Triton (fast).
+[WanGP][Triton] Preparing _to_fp16_kernel (compiling, please wait)...
+[WanGP][Triton] Compiled _to_fp16_kernel [i16/fp16/i32 n=dynamic] in 126 ms; configuration: num_warps=4 num_stages=3.
+[WanGP][Triton] Preparing _to_fp16_kernel (compiling, please wait)...
+[WanGP][Triton] Compiled _to_fp16_kernel [i16/fp16 n=dynamic] in 64 ms; configuration: num_warps=4 num_stages=3.
+[WanGP][Triton] Preparing _to_bf16_kernel (compiling, please wait)...
+[WanGP][Triton] Compiled _to_bf16_kernel [fp16/i16/i32 n=dynamic] in 154 ms; configuration: num_warps=4 num_stages=3.
+Image file saved to Path: /kaggle/working/clipes/2026-11-14-10h07m54s_seed702029_cinematic photorealistic film still calm Sea of Galilee at sunrise, wooden boat resting on the shor.jpg
+item 0 (imagem): ok=True 113s ['/kaggle/working/clipes/2026-11-14-10h07m54s_seed702029_cinematic photorealistic film still calm Sea of Galilee at sunrise, wooden boat resting on the shor.jpg']
+VAE Decoding:   0%|          | 0/1 [00:00<?, ?tiles/s]                                                      VAE Decoding:   0%|          | 0/1 [00:00<?, ?tiles/s]VAE Decoding: 100%|██████████| 1/1 [00:06<00:00,  6.80s/tiles]                                                                0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:05<00:31,  5.29s/it] 29%|██▊       | 2/7 [00:10<00:25,  5.15s/it] 43%|████▎     | 3/7 [00:15<00:21,  5.33s/it] 57%|█████▋    | 4/7 [00:21<00:16,  5.48s/it] 71%|███████▏  | 5/7 [00:27<00:11,  5.64s/it] 86%|████████▌ | 6/7 [00:33<00:05,  5.80s/it]100%|██████████| 7/7 [00:39<00:00,  5.92s/it]100%|██████████| 7/7 [00:40<00:00,  5.73s/it]
+Image file saved to Path: /kaggle/working/clipes/2026-11-14-10h08m38s_seed702030_cinematic photorealistic film still calm Sea of Galilee at sunrise, wooden boat resting on the shor.jpg
+item 1 (imagem): ok=True 44s ['/kaggle/working/clipes/2026-11-14-10h08m38s_seed702030_cinematic photorealistic film still calm Sea of Galilee at sunrise, wooden boat resting on the shor.jpg']
+FIM {"0": {"ok": true, "segundos": 113}, "1": {"ok": true, "segundos": 44}}
+VAE Decoding:   0%|          | 0/1 [00:00<?, ?tiles/s]VAE Decoding: 100%|██████████| 1/1 [00:01<00:00,  1.61s/tiles]                                                              /usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+  cells[i][c] = re.sub('\\\\\|', '|', cell)
+/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+  text = re.sub(r'_', '\_', text) # Escape underscores in display text
+[NbConvertApp] Converting notebook __script__.ipynb to html
+[NbConvertApp] Writing 301263 bytes to __results__.html
