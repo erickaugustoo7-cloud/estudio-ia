@@ -1,0 +1,94 @@
+{
+  "titulo": "O salmo que Jesus gritou na cruz",
+  "gancho_tela": "Jesus gritou um salmo na cruz",
+  "referencia": "Mateus 27:46",
+  "duracao_max": 90,
+  "volume_musica": 0.14,
+  "estilo_imagem": "cinematic photorealistic epic film still, dramatic volumetric god rays, floating dust particles, deep chiaroscuro, first century Judea, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic epic film shot, slow and subtle motion.",
+  "epoca_imagem": "First century Judea, Jerusalem around 30 AD, limestone city walls, rocky hill outside the gate, olive trees, stone, wood, clay and cloth only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "Fora dos muros de Jerusalém, ao meio-dia, Jesus está na cruz, e trevas cobrem a terra.",
+      "prompt_imagem": "wide high aerial view of a rocky hill outside the limestone walls of first century Jerusalem, three tiny distant wooden crosses on the hilltop, black clouds swallowing the midday sun",
+      "prompt_movimento": "dark clouds roll slowly over the sun, the light fades, slow aerial camera glide toward the hill",
+      "vazia": true
+    },
+    {
+      "trecho": "Por três horas, até a hora nona, o céu não clareou.",
+      "prompt_imagem": "wide view of the stone rooftops and walls of first century Jerusalem under a heavy dark sky at midday, a few oil lamps glowing in small windows, dust in the air",
+      "prompt_movimento": "heavy clouds drift slowly, lamp flames flicker in the windows, dust floats, slow camera push-in",
+      "vazia": true
+    },
+    {
+      "trecho": "Então Jesus gritou em alta voz: Eli, Eli, lamá sabactâni?",
+      "prompt_imagem": "low-angle view from the rocky ground up toward the top of a rough wooden cross against a dark stormy sky, a single thin beam of pale light breaking through the clouds",
+      "prompt_movimento": "storm clouds churn slowly, the thin beam of light trembles, wind blows dust across the rocks, slow camera push-in",
+      "vazia": true
+    },
+    {
+      "trecho": "Quer dizer: Deus meu, Deus meu, por que me desamparaste?",
+      "prompt_imagem": "vast dark sky over a desolate rocky hill, three tiny distant wooden crosses as small shapes on the horizon, a faint crack of light in the clouds",
+      "prompt_movimento": "clouds move slowly, the faint light flickers in the sky, slow camera pull-back",
+      "vazia": true
+    },
+    {
+      "trecho": "Alguns ali pensaram que ele chamava Elias. Mas aquelas palavras eram muito mais antigas.",
+      "prompt_imagem": "an ancient parchment scroll partly unrolled on a rough stone ledge, Hebrew letters in dark ink, a clay oil lamp beside it, dim warm light in a dark stone room",
+      "prompt_movimento": "the lamp flame flickers, warm light dances over the letters, dust floats, slow camera push-in",
+      "vazia": true
+    },
+    {
+      "trecho": "Era a primeira linha do Salmo vinte e dois, escrito por Davi cerca de mil anos antes.",
+      "prompt_imagem": "an old wooden lyre resting against a stone wall in an ancient Israelite palace room at dusk, a clay lamp and a rolled scroll on a wooden table, golden light through a small window",
+      "prompt_movimento": "golden dusk light shifts slowly through the window, the lamp flame flickers, dust floats in the beam",
+      "vazia": true
+    },
+    {
+      "trecho": "O mesmo salmo diz: traspassaram-me as mãos e os pés.",
+      "prompt_imagem": "close-up of three rough iron nails and a wooden mallet lying on dark rocky ground at the foot of a wooden beam, grey storm light",
+      "prompt_movimento": "wind blows dust slowly across the stones, grey light flickers, very slow camera push-in",
+      "vazia": true
+    },
+    {
+      "trecho": "E também: repartem as minhas vestes, e sobre a minha túnica deitam sortes.",
+      "prompt_imagem": "a seamless woven linen tunic folded on a flat rock, small ancient bone dice scattered beside it, dark rocky ground, dim stormy light",
+      "prompt_movimento": "the cloth edges ripple in the wind, dust drifts across the rock, slow camera descent",
+      "vazia": true
+    },
+    {
+      "trecho": "Aos pés da cruz, os soldados fizeram exatamente isso.",
+      "prompt_imagem": "high-angle view of the foot of a rough wooden cross on a rocky hill, a few tiny figures far away in the distance crouched in a small circle on the ground, dark sky, dust in the air",
+      "prompt_movimento": "dust swirls slowly in the wind, dark clouds drift, slow camera descent from above",
+      "vazia": false
+    },
+    {
+      "trecho": "Mas o salmo termina dizendo que Deus ouviu o seu clamor. Mateus, capítulo vinte e sete.",
+      "prompt_imagem": "wide view of a rocky hill outside first century Jerusalem, the dark clouds parting, a great beam of golden heavenly light falling over three tiny distant wooden crosses",
+      "prompt_movimento": "the clouds part slowly, the golden beam of light grows brighter, dust sparkles, slow camera push-in",
+      "vazia": true
+    },
+    {
+      "trecho": "Quando faltar palavra na sua dor, ore a Palavra. Deus escuta. Siga para mais.",
+      "prompt_imagem": "an ancient open scroll on a stone ledge lit by a soft beam of morning light, olive branches outside a small window, first century Judea",
+      "prompt_movimento": "morning light grows softly over the scroll, olive leaves move in the breeze, slow camera pull-back",
+      "vazia": true
+    }
+  ],
+  "legenda": "Senhor, quando faltar palavra, que eu ore a tua Palavra 🙏✝️\nMateus 27:46 · Salmo 22:1\nComente \"Amém\" se você crê que Deus ouve o seu clamor.",
+  "hashtags": [
+    "#Jesus",
+    "#Salmo22",
+    "#cruz",
+    "#Bíblia",
+    "#fé"
+  ],
+  "fontes": [
+    "Mateus 27:35-50",
+    "Salmo 22:1",
+    "Salmo 22:16-18",
+    "Salmo 22:24",
+    "João 19:23-24"
+  ]
+}
