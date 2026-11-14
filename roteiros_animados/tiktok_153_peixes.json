@@ -1,0 +1,68 @@
+{
+  "titulo": "Por que a Bíblia conta 153 peixes?",
+  "gancho_tela": "Exatamente 153",
+  "referencia": "João 21:1-11",
+  "serie": "O que quase ninguém sabe",
+  "tipo": "tiktok",
+  "fonte_imagem": "kaggle",
+  "opcoes_imagem": 2,
+  "duracao_max": 40,
+  "volume_musica": 0.12,
+  "plataformas": [
+    "facebook"
+  ],
+  "estilo_imagem": "cinematic photorealistic epic film still, dawn, dramatic volumetric god rays, Sea of Galilee 1st century, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic slow subtle motion.",
+  "epoca_imagem": "Sea of Galilee, 1st century, wooden fishing boat, linen nets, clay and wood only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "A Bíblia contou os peixes de uma pesca. Exatamente cento e cinquenta e três.",
+      "prompt_imagem": "close-up of a heavy linen fishing net full of silver fish being pulled out of dark water at dawn, water dripping",
+      "vazia": false,
+      "animar": true,
+      "prompt_movimento": "the full net slowly rises from the water, drops falling and glistening in the dawn light"
+    },
+    {
+      "trecho": "Os discípulos pescaram a noite toda e nada apanharam.",
+      "prompt_imagem": "an empty wooden fishing boat on the calm Sea of Galilee at night, folded empty net, faint moonlight",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "De manhã, Jesus disse da praia: lançai a rede para a banda direita do barco.",
+      "prompt_imagem": "wide shot of the shore of the Sea of Galilee at sunrise, a small coal fire on the pebbles, tiny distant figure far away",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "A rede encheu tanto que não conseguiam puxá-la.",
+      "prompt_imagem": "wooden boat side with a bulging net full of fish straining against the hull, splashing water, golden light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "João anotou: cento e cinquenta e três grandes peixes; e, sendo tantos, não se rompeu a rede.",
+      "prompt_imagem": "many large fish piled on wet pebbles beside an intact linen net on the shore, warm morning rays",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Siga o Mensageiro de Fé para mais do que quase ninguém sabe.",
+      "prompt_imagem": "calm Sea of Galilee at sunrise, wooden boat resting on the shore, god rays over the water",
+      "vazia": true,
+      "animar": false
+    }
+  ],
+  "legenda": "Depois de uma noite sem nada, a rede veio com 153 grandes peixes e não se rompeu (João 21:11). Você já viu Deus mudar tudo depois de uma noite difícil? Comente 👇",
+  "hashtags": [
+    "#Jesus",
+    "#Bíblia",
+    "#Fé",
+    "#OQueQuaseNinguémSabe",
+    "#Cristão"
+  ],
+  "fontes": [
+    "João 21:1-11 — Almeida Revista e Corrigida (domínio público)"
+  ]
+}
