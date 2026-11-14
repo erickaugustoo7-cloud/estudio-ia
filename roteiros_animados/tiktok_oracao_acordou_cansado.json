@@ -1,0 +1,68 @@
+{
+  "titulo": "Oração para quem acordou cansado",
+  "gancho_tela": "Acordou sem forças?",
+  "referencia": "Isaías 40:29-31",
+  "serie": "Oração de 20 segundos",
+  "tipo": "tiktok",
+  "fonte_imagem": "kaggle",
+  "opcoes_imagem": 2,
+  "duracao_max": 40,
+  "volume_musica": 0.12,
+  "plataformas": [
+    "facebook"
+  ],
+  "estilo_imagem": "cinematic photorealistic epic film still, soft dawn light, dramatic volumetric god rays, ancient Judea hill country, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic slow subtle motion.",
+  "epoca_imagem": "Ancient Judea, stone house, clay oil lamps, linen and wood only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "Você acordou cansado antes mesmo de o dia começar? Ore comigo agora.",
+      "prompt_imagem": "a small clay oil lamp with a flickering flame on a rough wooden windowsill of an ancient stone house, pale blue dawn outside",
+      "vazia": true,
+      "animar": true,
+      "prompt_movimento": "the small flame flickers gently, a linen curtain sways softly in the morning breeze"
+    },
+    {
+      "trecho": "Senhor, eu acordei sem forças. Tu conheces o meu cansaço.",
+      "prompt_imagem": "a rumpled linen blanket on a simple wooden bed in a dim ancient stone room, first light through a small window",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "A tua Palavra diz: Ele dá força ao cansado.",
+      "prompt_imagem": "an old parchment scroll partly unrolled on a wooden table, warm ray of sunrise light falling across it",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Os que esperam no Senhor renovarão as suas forças. Eu espero em ti.",
+      "prompt_imagem": "sunrise breaking over the hills of Judea, golden god rays through morning mist, wide high view",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Faz-me correr e não me cansar, andar e não me fatigar. Amém.",
+      "prompt_imagem": "a great eagle soaring high above rocky Judean mountains in golden morning light, tiny in the vast sky",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Siga o Mensageiro de Fé para orar comigo todos os dias.",
+      "prompt_imagem": "an ancient dirt road winding through green hills at sunrise, warm god rays, calm and peaceful",
+      "vazia": true,
+      "animar": false
+    }
+  ],
+  "legenda": "Para quem acordou sem forças hoje: \"Ele dá força ao cansado\" (Isaías 40:29). Por quem você quer que eu ore? Comente 👇",
+  "hashtags": [
+    "#Oração",
+    "#Fé",
+    "#Deus",
+    "#Bíblia",
+    "#Cristão"
+  ],
+  "fontes": [
+    "Isaías 40:29-31 — Almeida Atualizada (domínio público)"
+  ]
+}
