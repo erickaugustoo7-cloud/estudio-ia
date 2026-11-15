@@ -1,0 +1,66 @@
+{
+  "titulo": "A estrela em que uma colherzinha pesa um Everest",
+  "gancho_tela": "Uma colher pesa um Everest",
+  "narracao": "Uma colherzinha desta estrela pesaria tanto quanto o Monte Everest. É uma estrela de nêutrons. E o peso nem é a coisa mais absurda nela. Ela nasce quando uma estrela com oito a vinte e cinco vezes a massa do Sol explode numa supernova, e o núcleo desaba sobre si mesmo. O resultado é uma bola com mais massa que o Sol inteiro, espremida em cerca de vinte quilômetros de diâmetro. O tamanho de uma cidade. A gravidade é tão forte que a superfície fica quase lisa. Em dois mil e vinte e um, pesquisadores da Universidade de Southampton calcularam que as maiores montanhas de lá teriam só uma fração de milímetro de altura. E elas giram. A mais rápida já descoberta dá setecentas e dezesseis voltas por segundo. Num piscar de olhos, ela já girou dezenas de vezes. Elas também são os ímãs mais fortes do universo. O campo magnético de uma estrela de nêutrons comum é trilhões de vezes mais forte que o da Terra. E existe um tipo, o magnetar, ainda mil vezes mais forte. Em dois mil e quatro, um deles soltou, em um décimo de segundo, mais energia do que o Sol emitiu nos últimos cem mil anos. Qual desses fatos te deixou de queixo caído? Conta nos comentários. Siga para descobrir uma curiosidade nova todo dia.",
+  "cenas": [
+    {
+      "trecho": "Uma colherzinha desta estrela pesaria tanto quanto o Monte Everest.",
+      "busca_imagem": "neutron star illustration",
+      "prompt_imagem": "a tiny glowing blue-white neutron star in deep space, intense light, dramatic cinematic view"
+    },
+    {
+      "trecho": "É uma estrela de nêutrons. E o peso nem é a coisa mais absurda nela.",
+      "busca_imagem": "pulsar neutron star",
+      "prompt_imagem": "a spinning neutron star with bright beams of light shooting from its poles, deep space"
+    },
+    {
+      "trecho": "Ela nasce quando uma estrela com oito a vinte e cinco vezes a massa do Sol explode numa supernova, e o núcleo desaba sobre si mesmo.",
+      "busca_imagem": "Crab Nebula supernova",
+      "prompt_imagem": "a massive star exploding in a brilliant supernova, shockwave of glowing gas expanding into space"
+    },
+    {
+      "trecho": "O resultado é uma bola com mais massa que o Sol inteiro, espremida em cerca de vinte quilômetros de diâmetro. O tamanho de uma cidade.",
+      "busca_imagem": "neutron star size city",
+      "prompt_imagem": "a small glowing neutron star hovering above a city skyline at night for scale, cinematic"
+    },
+    {
+      "trecho": "A gravidade é tão forte que a superfície fica quase lisa. Em dois mil e vinte e um, pesquisadores da Universidade de Southampton calcularam que as maiores montanhas de lá teriam só uma fração de milímetro de altura.",
+      "busca_imagem": "neutron star surface",
+      "prompt_imagem": "extreme close-up of the smooth glowing surface of a neutron star, intense heat and light"
+    },
+    {
+      "trecho": "E elas giram. A mais rápida já descoberta dá setecentas e dezesseis voltas por segundo. Num piscar de olhos, ela já girou dezenas de vezes.",
+      "busca_imagem": "Terzan 5 globular cluster",
+      "prompt_imagem": "a rapidly spinning pulsar with twin light beams sweeping through a dense star cluster"
+    },
+    {
+      "trecho": "Elas também são os ímãs mais fortes do universo. O campo magnético de uma estrela de nêutrons comum é trilhões de vezes mais forte que o da Terra.",
+      "busca_imagem": "neutron star magnetic field",
+      "prompt_imagem": "a neutron star surrounded by glowing twisted magnetic field lines, deep space"
+    },
+    {
+      "trecho": "E existe um tipo, o magnetar, ainda mil vezes mais forte. Em dois mil e quatro, um deles soltou, em um décimo de segundo, mais energia do que o Sol emitiu nos últimos cem mil anos.",
+      "busca_imagem": "magnetar SGR 1806-20",
+      "prompt_imagem": "a magnetar unleashing a gigantic flash of energy, blinding burst of light in deep space"
+    },
+    {
+      "trecho": "Qual desses fatos te deixou de queixo caído? Conta nos comentários. Siga para descobrir uma curiosidade nova todo dia.",
+      "busca_imagem": "Crab pulsar Chandra",
+      "prompt_imagem": "a glowing pulsar at the center of a colorful nebula, stars in background, awe-inspiring"
+    }
+  ],
+  "legenda": "Uma colher de chá de estrela de nêutrons pesaria tanto quanto o Monte Everest — e a mais rápida gira 716 vezes por segundo. 🌟\nQual fato te deixou de queixo caído? Comenta aqui 👇",
+  "hashtags": [
+    "#estreladenêutrons",
+    "#pulsar",
+    "#magnetar",
+    "#NASA"
+  ],
+  "fontes": [
+    "NASA Science — What's Inside a Dead Star? (colher de chá = Monte Everest; ~1,4 massa solar; nasce de estrelas de ~8 a 25 massas solares; ímãs mais fortes do universo)",
+    "NASA Imagine the Universe — Neutron Stars/Pulsars (~20 km de diâmetro; campo magnético trilhões de vezes o da Terra; magnetar mais 1000x; SGR 1806-20 liberou em 0,1 s mais energia que o Sol em 100 mil anos)",
+    "Royal Astronomical Society / Univ. de Southampton (NAM 2021), via Astronomy Now — montanhas com fração de milímetro",
+    "PSR J1748-2446ad — 716 rotações por segundo (Hessels et al., Science 2006; Wikipedia)",
+    "NASA Swift / Space.com — explosão gigante do magnetar SGR 1806-20 em 27/12/2004"
+  ]
+}
