@@ -1,18 +1,18 @@
-📡 RADAR — 08/11
+📡 RADAR — 15/11
 Base: Shorts mais vistos da semana no YouTube BR, em português + notícias.
 
 🕊️ MENSAGEIRO DE FÉ
-1. Oração guiada segue no topo (2,4 mi e 29 mil coment.).
-2. NOVO: onda do Salmo 91 (vários com 100–250 mil).
-3. NOVO: curiosidades da Bíblia ("o número 3 na história de Jesus" 565 mil; Elias e o anjo, 6,5 mil coment.).
-Curtos de 12–17 s voltaram a subir.
-Pautas: Pedro afundando (Mt 14), café na praia (Jo 21), Salmo 91 no deserto (Mt 4), pão no tempo de Jesus (Jo 6:35), oração do pai que sustenta a casa (Mt 6:31-33).
+1. Curiosidade bíblica no topo ("por que judeu não come porco" 436 mil; vinho no tempo de Jesus 391 mil).
+2. NOVO: recado seco de 7–17 s ("Só com jejum e oração" 809 mil).
+3. Salmo 91 estável; "E se Jesus aparecesse hoje?" 1,7 mil coment.
+Longos agora ~98 s.
+Pautas: Emaús (Lc 24), "eu tinha fome" (Mt 25), alimentos puros (Mc 7), rainha de Sabá (Mt 12:42), Advento 29/11 (Mc 13:33-37).
 
 🪐 CURIOSO
-1. Telescópio Swift da NASA caiu na Terra (2,5 mi em espanhol, pouco em português).
-2. X-59: o piloto sem janela na frente (1 mi).
-3. Céu de novembro: superlua 24/11, Marte e Júpiter 15–16/11.
-Pautas: Swift, X-59, superlua + planetas, planeta com mais luas, viajando pela galáxia.
+1. Céu de novembro (586 mil): Leônidas 17–18/11, Voyager 1 a 1 dia-luz em 18/11 (roteiro pronto: publicar!).
+2. Física do dia a dia: "nunca tocamos em nada" (338 mil).
+3. Pedra do espaço que caiu no Brasil (168 mil); comparações de tamanho entre planetas.
+Pautas: pedra do espaço no Brasil, nunca tocamos em nada, planetas entre Terra e Lua, noite escura (Olbers), Starship voo 15.
 
-Evitar: "clique no link", profecias com data, signos, memes/VFX alarmistas.
+Evitar: "Jesus disfarçado dá carro", profecias com data, VFX "planeta da morte", negação da Lua.
 Relatório: docs/radar/RADAR.md
