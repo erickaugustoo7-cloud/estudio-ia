@@ -1,0 +1,76 @@
+{
+  "titulo": "O homem que Jesus chamou de raposa",
+  "gancho_tela": "Jesus chamou um rei de raposa",
+  "referencia": "Lucas 13:32",
+  "duracao_max": 90,
+  "volume_musica": 0.14,
+  "estilo_imagem": "cinematic photorealistic epic film still, dramatic volumetric god rays, floating dust particles, deep chiaroscuro, first century Judea, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic epic film shot, slow and subtle motion.",
+  "epoca_imagem": "First century Galilee and Judea around 30 AD, limestone villages, Herodian stone fortresses and palaces, olive trees, rocky hills, stone, wood, clay and cloth only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "Jesus seguia de aldeia em aldeia rumo a Jerusalém, ensinando pelo caminho.",
+      "prompt_imagem": "wide high aerial view of a dusty road winding through Galilean hills and olive groves, tiny distant figures walking far away in the distance, golden afternoon light",
+      "prompt_movimento": "slow aerial camera glide forward along the road, dust drifts in the golden light, olive leaves sway",
+      "vazia": false
+    },
+    {
+      "trecho": "Então alguns fariseus chegaram com um aviso: saia daqui, porque Herodes quer matar você.",
+      "prompt_imagem": "an ancient limestone village gate at dusk, long shadows across the dusty road, warm volumetric light and dust in the air",
+      "prompt_movimento": "dust floats slowly through the light beams, shadows lengthen, slow camera push-in toward the gate",
+      "vazia": true
+    },
+    {
+      "trecho": "Não era ameaça vazia. Herodes Antipas governava a Galileia e já mandara decapitar João Batista.",
+      "prompt_imagem": "a Herodian stone fortress palace on top of a desert mountain at dusk, torches burning on high walls, dark stormy sky",
+      "prompt_movimento": "torch flames flicker, storm clouds roll slowly over the fortress, slow camera push-in",
+      "vazia": true
+    },
+    {
+      "trecho": "Jesus respondeu: Vão dizer a essa raposa: hoje e amanhã expulso demônios e curo enfermos.",
+      "prompt_imagem": "a humble first century village courtyard at evening, a simple straw mat, a clay water jar and a burning oil lamp on stone steps, warm light",
+      "prompt_movimento": "the oil lamp flame flickers, warm light pulses gently on the stone, slow camera push-in",
+      "vazia": true
+    },
+    {
+      "trecho": "E no terceiro dia terminarei. Importa caminhar hoje, amanhã e depois.",
+      "prompt_imagem": "a stone road climbing through rocky Judean hills at sunrise, rays of light breaking over the ridges, mist in the valleys",
+      "prompt_movimento": "sunrise light grows brighter over the hills, mist drifts slowly in the valleys, slow camera glide forward",
+      "vazia": true
+    },
+    {
+      "trecho": "Ele chamou de raposa o homem mais poderoso da Galileia: astuto, mas sem poder sobre Deus.",
+      "prompt_imagem": "a red fox on a rocky ledge at sunset, far below a Herodian stone palace in a valley, dry grass, golden haze",
+      "prompt_movimento": "the fox's fur and the dry grass move in the wind, golden haze drifts, slow camera pull-back",
+      "vazia": true
+    },
+    {
+      "trecho": "E disse mais: não se espera que um profeta morra fora de Jerusalém.",
+      "prompt_imagem": "wide aerial view of first century Jerusalem at dusk, limestone city walls and the Herodian Temple with golden light, olive trees on the hills",
+      "prompt_movimento": "slow aerial camera glide toward the city, golden light shimmers on the Temple, haze drifts",
+      "vazia": true
+    },
+    {
+      "trecho": "Tempos depois, Herodes finalmente viu Jesus, e esperava assistir a algum milagre.",
+      "prompt_imagem": "an empty Herodian palace hall in Jerusalem, tall stone columns, a carved wooden throne, burning torches and red cloth curtains, volumetric light",
+      "prompt_movimento": "torch flames flicker, the red curtains move gently, dust floats in the light, slow camera push-in toward the throne",
+      "vazia": true
+    },
+    {
+      "trecho": "Fez muitas perguntas. Mas Jesus não lhe respondeu nada. Lucas, capítulo treze e vinte e três.",
+      "prompt_imagem": "high-angle view of a vast Herodian palace hall, a tiny distant figure in white standing alone in a single beam of light, torches along the stone columns",
+      "prompt_movimento": "the beam of light glows softly, dust sparkles in it, torch flames flicker, slow camera descent",
+      "vazia": false
+    },
+    {
+      "trecho": "Nenhuma ameaça encurta o que Deus começou na sua vida. Siga para mais.",
+      "prompt_imagem": "a dusty road at sunrise leading through Judean hills into bright rays of heavenly light, olive trees along the way",
+      "prompt_movimento": "the rays of light grow brighter, dust floats in the beams, slow camera glide forward along the road",
+      "vazia": true
+    }
+  ],
+  "legenda": "Senhor, que nenhuma ameaça me tire do teu caminho 🦊🙏\nLucas 13:31-33 · Lucas 23:8-9\nComente \"Amém\" se você crê que ninguém interrompe o plano de Deus.",
+  "hashtags": ["#Jesus", "#Herodes", "#Bíblia", "#fé", "#oquequaseninguémsabe"],
+  "fontes": ["Lucas 13:22", "Lucas 13:31-33", "Marcos 6:16-28", "Lucas 23:8-9"]
+}
