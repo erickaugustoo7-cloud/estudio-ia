@@ -1,0 +1,68 @@
+{
+  "titulo": "Oração para quem está esperando uma resposta de Deus",
+  "gancho_tela": "Deus ainda não respondeu?",
+  "referencia": "Salmo 27:13-14",
+  "serie": "Oração de 20 segundos",
+  "tipo": "tiktok",
+  "fonte_imagem": "kaggle",
+  "opcoes_imagem": 2,
+  "duracao_max": 40,
+  "volume_musica": 0.12,
+  "plataformas": [
+    "facebook"
+  ],
+  "estilo_imagem": "cinematic photorealistic epic film still, soft dawn light, dramatic volumetric god rays, ancient Judea hill country, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic slow subtle motion.",
+  "epoca_imagem": "Ancient Judea, stone house, clay oil lamps, linen and wood only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "Você pediu a Deus e a resposta ainda não chegou? Ore comigo agora.",
+      "prompt_imagem": "a small clay oil lamp burning on a rough stone windowsill of an ancient house at night, first faint glow of dawn on the distant hills",
+      "vazia": true,
+      "animar": true,
+      "prompt_movimento": "the small flame flickers gently, a linen curtain sways softly in the night breeze"
+    },
+    {
+      "trecho": "Senhor, eu estou esperando. Tu sabes quanto tempo já faz.",
+      "prompt_imagem": "an empty ancient dirt road winding between olive trees toward the horizon in pale blue dawn light, wide high view",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Mas eu creio que hei de ver a tua bondade na terra dos viventes.",
+      "prompt_imagem": "golden sunrise breaking over the hills of Judea, volumetric god rays through morning mist, wide high view",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "A tua Palavra diz: espera pelo Senhor; anima-te, e fortalece o teu coração.",
+      "prompt_imagem": "an old parchment scroll partly unrolled on a rough wooden table, warm ray of sunrise light falling across it",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Então eu descanso e espero em ti. Amém.",
+      "prompt_imagem": "a calm lake at sunrise surrounded by quiet hills, mirror-like water, soft golden light, peaceful",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Siga o Mensageiro de Fé para orar comigo todos os dias.",
+      "prompt_imagem": "ancient stone courtyard with a clay water jar in warm morning light, god rays through the dust, calm and peaceful",
+      "vazia": true,
+      "animar": false
+    }
+  ],
+  "legenda": "Para quem está esperando uma resposta de Deus: \"Espera pelo Senhor; anima-te, e fortalece o teu coração\" (Salmo 27:14). O que você está esperando de Deus? Comente 👇",
+  "hashtags": [
+    "#Oração",
+    "#Fé",
+    "#Deus",
+    "#Bíblia",
+    "#Cristão"
+  ],
+  "fontes": [
+    "Salmo 27:13-14 — Almeida Atualizada (domínio público)"
+  ]
+}
