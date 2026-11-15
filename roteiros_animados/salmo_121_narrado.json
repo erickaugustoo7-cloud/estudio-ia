@@ -1,0 +1,65 @@
+{
+  "titulo": "A canção que os peregrinos cantavam na estrada perigosa para Jerusalém (Salmo 121)",
+  "gancho_tela": "CANTADO NA ESTRADA PERIGOSA",
+  "referencia": "Salmos 121:1-8",
+  "serie": "Salmos narrados",
+  "tipo": "salmo",
+  "voz": "eric",
+  "fonte_imagem": "cloudflare",
+  "duracao_max": 180,
+  "volume_musica": 0.12,
+  "estilo_imagem": "cinematic photorealistic landscape, golden hour light, soft volumetric rays, peaceful and reverent, rich warm colors, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic slow subtle motion.",
+  "epoca_imagem": "untouched nature, no buildings, no modern objects",
+  "legenda": "Salmo 121 🙏 O meu socorro vem do Senhor, que fez o céu e a terra.\nSalmos 121:1-8 (Almeida)\nEscreva \"Amém\" e mande este salmo para alguém que está numa estrada difícil.",
+  "hashtags": [
+    "#Salmo121",
+    "#Salmos",
+    "#PalavraDeDeus",
+    "#Fé",
+    "#Socorro"
+  ],
+  "fontes": [
+    "Salmos 121:1-8 — Almeida (tradução de domínio público)",
+    "Título do salmo: Cântico dos degraus (de romagem), cantado pelos peregrinos que subiam a Jerusalém para as festas"
+  ],
+  "cenas": [
+    {
+      "trecho": "Salmo cento e vinte e um. Os peregrinos cantavam este salmo subindo a pé para Jerusalém, por estradas longas e perigosas entre os montes, com sol forte de dia e frio à noite. Ouça com calma.",
+      "prompt_imagem": "an ancient dusty stone path winding up through rugged golden hills at sunrise, distant mountains in soft haze, untouched nature",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Levantarei os meus olhos para os montes, de onde vem o meu socorro. O meu socorro vem do Senhor, que fez o céu e a terra.",
+      "prompt_imagem": "majestic layered mountains under a vast sky at golden dawn, rays of light breaking through the clouds over the peaks",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Não deixará vacilar o teu pé; aquele que te guarda não tosquenejará. Eis que não tosquenejará nem dormirá o guarda de Israel.",
+      "prompt_imagem": "a deep starry night sky over quiet dark hills and a rocky mountain trail, a soft silver glow on the horizon",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "O Senhor é quem te guarda; o Senhor é a tua sombra à tua direita. O sol não te molestará de dia, nem a lua de noite.",
+      "prompt_imagem": "a large old olive tree casting cool shade on a sunlit rocky hillside under a bright sky, a pale moon faintly visible, untouched nature",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "O Senhor te guardará de todo o mal; guardará a tua alma. O Senhor guardará a tua entrada e a tua saída, desde agora e para sempre.",
+      "prompt_imagem": "a peaceful green valley with a gentle river at golden sunset, warm glowing light over the hills, untouched nature",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Os peregrinos não sabiam o que iam encontrar na estrada, mas sabiam quem não dorme. Talvez a sua estrada hoje seja um hospital, uma dívida ou uma saudade. Ela também tem um guarda acordado. Se você crê, escreva Amém. E siga o Mensageiro de Fé para ouvir um salmo por dia.",
+      "prompt_imagem": "a wooden cross on a rocky hilltop silhouetted against a glowing golden sunrise sky with rays of light",
+      "vazia": true,
+      "animar": false
+    }
+  ]
+}
