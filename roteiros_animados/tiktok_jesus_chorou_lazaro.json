@@ -1,0 +1,68 @@
+{
+  "titulo": "Por que Jesus chorou?",
+  "gancho_tela": "Ele sabia o final",
+  "referencia": "João 11:1-44",
+  "serie": "O que quase ninguém sabe",
+  "tipo": "tiktok",
+  "fonte_imagem": "kaggle",
+  "opcoes_imagem": 2,
+  "duracao_max": 40,
+  "volume_musica": 0.12,
+  "plataformas": [
+    "facebook"
+  ],
+  "estilo_imagem": "cinematic photorealistic epic film still, golden hour, dramatic volumetric god rays, ancient Judea 1st century, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic slow subtle motion.",
+  "epoca_imagem": "Ancient Bethany village near Jerusalem, 1st century, limestone, rock-cut tombs, olive trees, clay and linen only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "Jesus sabia que ia ressuscitar Lázaro. Mesmo assim, Ele chorou.",
+      "prompt_imagem": "ancient rock-cut tomb in a limestone hillside sealed by a large round stone, olive trees, warm late afternoon light",
+      "vazia": true,
+      "animar": true,
+      "prompt_movimento": "slow push-in toward the sealed stone, dust drifting in the golden light, olive leaves moving in the wind"
+    },
+    {
+      "trecho": "Antes de ir, Ele disse: Lázaro, o nosso amigo, dorme, mas vou despertá-lo.",
+      "prompt_imagem": "dusty stone road winding through the Judean hills toward a small distant village, sunrise, long shadows",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Em Betânia, viu Maria chorando, e os que vinham com ela também choravam.",
+      "prompt_imagem": "close-up of hands holding a folded linen cloth beside a clay oil lamp, dim warm light inside a stone house",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "E a Bíblia diz só isto: Jesus chorou. João onze, trinta e cinco.",
+      "prompt_imagem": "single drop of water falling on a dusty limestone rock, extreme close-up, soft golden rays",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Disseram: vede como o amava. Ele sabia o final, e chorou junto.",
+      "prompt_imagem": "olive trees on a hillside at sunset, warm volumetric light through the branches, calm and quiet",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Siga o Mensageiro de Fé para mais do que quase ninguém sabe.",
+      "prompt_imagem": "the round stone of an ancient tomb rolled aside, bright light pouring out of the opening, dawn",
+      "vazia": true,
+      "animar": false
+    }
+  ],
+  "legenda": "Jesus sabia que ia ressuscitar Lázaro, e mesmo assim chorou (João 11:35). Por que você acha que Ele chorou? Comente 👇",
+  "hashtags": [
+    "#Jesus",
+    "#Bíblia",
+    "#Fé",
+    "#OQueQuaseNinguémSabe",
+    "#Cristão"
+  ],
+  "fontes": [
+    "João 11:1-44 — Almeida (domínio público); citações: 11:11, 11:35, 11:36"
+  ]
+}
