@@ -1,0 +1,209 @@
+{
+  "formato": "horizontal",
+  "duracao_max": 999,
+  "volume_musica": 0.22,
+  "opcoes_imagem": 1,
+  "palavras_por_bloco": 260,
+  "cauda_musical_min": 20,
+  "plataformas": [
+    "youtube"
+  ],
+  "estilo_imagem": "cinematic photorealistic still, peaceful night atmosphere, soft moonlight, gentle glow, deep blue and warm gold tones, calm and serene, horizontal 16:9 widescreen",
+  "prefixo_imagem": "cinematic photorealistic peaceful still:",
+  "prefixo_video": "Cinematic peaceful night shot, very slow and gentle motion.",
+  "epoca_imagem": "Ancient Israel landscape, stone, clay, wood, wool and linen only, nothing modern, no electric lights",
+  "fonte_imagem": "cloudflare",
+  "titulo": "Oração da noite: Venham a mim os cansados (Mateus 11:28-30)",
+  "titulo_youtube": "ORAÇÃO DA NOITE PARA OS CANSADOS | Mateus 11:28 — Entregue o Peso do Dia e Durma em Paz",
+  "gancho_tela": "Entregue o peso",
+  "referencia": "Mateus 11:25-30",
+  "cena_capa": 9,
+  "texto_capa": [
+    "CANSADO?",
+    "VENHA A MIM"
+  ],
+  "rodape_capa": "+20 min de música",
+  "legenda": "Deixe nos comentários, numa palavra, o peso que você está carregando hoje 🙏 Nós vamos orar por você.\n\n\"Venham a mim todos os que estão cansados e sobrecarregados, e eu darei descanso a vocês\" (Mateus 11:28, NVI). Ore comigo antes de dormir com o convite de Jesus em Mateus 11:28-30.\n\nDepois da oração, a música continua por 20 minutos para você adormecer em paz. Comente \"Amém\" e inscreva-se para orarmos juntos toda noite.",
+  "hashtags": [
+    "#OraçãoDaNoite",
+    "#OraçãoParaDormir",
+    "#Mateus11",
+    "#VenhamAMim",
+    "#Fé"
+  ],
+  "fontes": [
+    "Mateus 11:25,28-30 (NVI)",
+    "Jeremias 6:16 (NVI)"
+  ],
+  "cena_cauda": 0,
+  "cenas": [
+    {
+      "trecho": "Boa noite. Se o seu dia foi pesado, você está no lugar certo. Deixe nos comentários o peso que você está carregando hoje, numa palavra só. Nós vamos orar por você. Agora respire fundo e venha comigo.",
+      "prompt_imagem": "a calm starry night sky over dark quiet hills, the Milky Way glowing softly, deep blue tones",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Esta noite nós vamos orar com as palavras de Jesus em Mateus, capítulo onze. Um convite curto, de três versículos, feito para gente cansada. Talvez feito exatamente para você, nesta hora.",
+      "prompt_imagem": "an ancient stone road through quiet hills at dusk, first stars appearing above distant mountains",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Pouco antes, Jesus tinha orado em voz alta: Eu te louvo, Pai, Senhor do céu e da terra. E disse que o Pai revela essas coisas aos simples. Não aos que têm tudo resolvido. Aos simples, aos pequenos.",
+      "prompt_imagem": "the Sea of Galilee at twilight, calm water, gentle hills on the far shore, soft purple sky",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Então ele se virou para as pessoas e disse: Venham a mim todos os que estão cansados e sobrecarregados, e eu darei descanso a vocês.",
+      "prompt_imagem": "warm golden lamplight spilling from an open wooden door of an ancient stone house at night",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Repare que ele não disse: venham os fortes, os que oram bonito, os que nunca erram. Ele disse: todos os cansados. Se você está cansado esta noite, o convite tem o seu nome.",
+      "prompt_imagem": "a lone olive tree on a hilltop under the full moon, stars above, silver light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Senhor Jesus, eu venho a ti agora. Venho do jeito que estou, com o corpo cansado e a cabeça cheia. Não preciso arrumar nada antes de chegar. Tu me chamaste assim mesmo.",
+      "prompt_imagem": "a small open clay saucer oil lamp with a tiny flame on a rough stone ledge, darkness around, warm glow",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Eu trago o peso do trabalho de hoje. As tarefas que ficaram pela metade, as cobranças, as contas que não fecham. Eu coloco tudo isso diante de ti, porque sozinho eu não consigo carregar.",
+      "prompt_imagem": "an old wooden cart resting beside a stone wall at night, moonlight on the rough wood",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Eu trago o peso das palavras. O que disseram de mim, o que eu disse e me arrependi, as conversas que ainda ecoam na minha mente. Senhor, cala esse barulho dentro de mim.",
+      "prompt_imagem": "a still lake at night reflecting the moon perfectly, mist on the water, dark empty shores",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E eu trago o peso do amanhã. A preocupação com o que ainda nem aconteceu, os cenários que eu imagino deitado no escuro. Senhor, eu não preciso resolver o amanhã esta noite. Tu já estás lá.",
+      "prompt_imagem": "a dark quiet valley at night under a sky full of stars, a thin river shining in the moonlight",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Depois Jesus continua: Tomem sobre vocês o meu jugo e aprendam de mim, porque sou manso e humilde de coração.",
+      "prompt_imagem": "an ancient wooden ox yoke resting on a low stone wall at dusk, a quiet ploughed field behind it",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Naquele tempo, todo mundo sabia o que era um jugo. Uma peça de madeira posta sobre o pescoço dos bois, para que puxassem o arado juntos. O peso era dividido. Ninguém puxava sozinho.",
+      "prompt_imagem": "two oxen far away in a wide ploughed field at sunset, tiny in the distance, golden light over the hills",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "É isso que Jesus oferece. Ele não promete uma vida sem trabalho e sem luta. Ele promete caminhar ao seu lado, debaixo do mesmo jugo, carregando a parte mais pesada.",
+      "prompt_imagem": "a long furrowed field under a soft evening sky, an old wooden plough left at the end of the row",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Senhor, eu aceito o teu jugo esta noite. Ensina-me a andar no teu ritmo, manso e humilde. Tira de mim a pressa, a necessidade de controlar tudo e de provar alguma coisa para todo mundo.",
+      "prompt_imagem": "a peaceful green meadow on gentle hills under the moonlight, soft grass swaying, stars above",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E vocês encontrarão descanso para a alma. Jesus usa aqui as palavras de uma promessa antiga, do profeta Jeremias: perguntem pelo bom caminho e sigam-no, e a alma de vocês encontrará descanso.",
+      "prompt_imagem": "an ancient stone footpath through quiet hills at night under the moon, low stone walls on each side",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Repare: não é só descanso para o corpo. É descanso para a alma. Você pode dormir oito horas e acordar cansado, porque o peso estava por dentro. É esse peso que Jesus quer tirar hoje.",
+      "prompt_imagem": "a soft beam of moonlight entering a quiet stone room through a small window, peaceful night",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Agora vamos orar pelos pesos que chegaram nos comentários. Por quem carrega uma doença, no corpo ou na família: Senhor, sustenta esses corpos cansados, dá força a quem cuida e paz a quem espera um resultado.",
+      "prompt_imagem": "a quiet stone house at night with a single warm window lit, an olive tree beside it",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Por quem carrega a casa nas costas, os filhos, os pais idosos, as dívidas: Senhor, divide esse fardo. Manda ajuda, manda provisão, manda gente boa no caminho dessas famílias.",
+      "prompt_imagem": "a quiet ancient village of stone houses at night, small windows glowing with warm oil lamp light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Por quem carrega uma culpa antiga, um erro que não consegue esquecer: Senhor, lembra essa pessoa de que tu és manso e humilde de coração. Tu não esmagas quem já está caído. Tu levantas.",
+      "prompt_imagem": "the shade of a large olive tree on a moonlit hillside, silver light filtering through the leaves",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Por quem está cansado de tentar, de esperar, de ser forte para todo mundo: Senhor, deixa essa pessoa descansar em ti esta noite. Ela não precisa segurar tudo. Renova as forças de quem já não aguenta mais.",
+      "prompt_imagem": "gentle mist over a quiet river valley at night, moonlight on the water, olive trees on the banks",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E por quem carrega um peso que não contou para ninguém, nem aqui nos comentários: Senhor, tu conheces esse fardo. Toca nesse coração agora, em silêncio.",
+      "prompt_imagem": "a field of white wildflowers under the full moon, quiet hills in the distance",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Pois o meu jugo é suave, e o meu fardo é leve. Leve não porque a vida ficou fácil, mas porque agora são dois carregando.",
+      "prompt_imagem": "an ancient wooden ox yoke lying in soft grass under moonlight, smooth worn wood, stars above",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Respire fundo. Inspire e diga no coração: Jesus, eu venho a ti. Solte o ar devagar e diga: eu te entrego o meu fardo. Mais uma vez, bem devagar.",
+      "prompt_imagem": "a calm sea at night under the moon, slow small waves reaching a quiet sandy shore",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Solte os ombros. Solte a testa. Solte as mãos. O que não terminou hoje pode esperar até amanhã. Quem cuida de você não larga o jugo enquanto você dorme.",
+      "prompt_imagem": "a simple wooden bed with a wool blanket beside an open clay saucer oil lamp with a tiny flame, stone wall, quiet night",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Senhor, eu me deito agora no teu descanso. Guarda o meu sono, guarda a minha casa e cada pessoa que eu amo. E amanhã, quando eu levantar, que eu volte a caminhar ao teu lado.",
+      "prompt_imagem": "the first faint glow of dawn far away on the horizon over dark hills, stars still shining",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Talvez amanhã o trabalho ainda esteja lá, e os problemas também. Mas você não vai puxar sozinho. E se acordar no meio da noite, repita baixinho: venham a mim os cansados. Ele está falando com você.",
+      "prompt_imagem": "the first light of dawn over quiet hills and a calm lake, soft pink and gold colors",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Se esta oração te ajudou, inscreva-se no canal para orarmos juntos toda noite. Em nome de Jesus, amém. Fique agora em silêncio. A música vai continuar por alguns minutos para você descansar.",
+      "prompt_imagem": "a vast starry night sky over still dark hills and a quiet lake, the Milky Way glowing softly",
+      "vazia": true,
+      "animar": false
+    }
+  ],
+  "short_isca": {
+    "cenas": [
+      20
+    ],
+    "texto_topo": "Seu fardo é leve",
+    "titulo": "Jesus divide o seu fardo — Mateus 11:30",
+    "hashtags": [
+      "mateus11",
+      "oracao",
+      "descanso"
+    ]
+  }
+}
