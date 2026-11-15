@@ -1,0 +1,63 @@
+{
+  "titulo": "Jesus não foi, mas o filho viveu",
+  "gancho_tela": "Ele voltou só com uma palavra.",
+  "estilo": "pintura",
+  "narracao": "Um pai implorou que Jesus fosse até a sua casa. Jesus não foi. Esse pai era um oficial do rei. Está em João, capítulo quatro. Mas o que ele descobriu na volta é ainda mais bonito. Jesus estava em Caná. O filho dele, em Cafarnaum, à beira da morte. O pai foi até Jesus e insistiu: Senhor, desce antes que meu filho morra. Jesus respondeu: Vai, o teu filho vive. Não foi junto. Não tocou no menino. Só uma palavra. E o homem creu na palavra de Jesus e partiu, levando só aquela frase. No caminho, os servos vieram ao seu encontro: o seu filho vive! Ele perguntou a hora. Responderam: ontem, à hora sétima, a febre o deixou. Era a mesma hora em que Jesus disse: o teu filho vive. E ele creu, com toda a sua casa. A palavra de Jesus chegou antes do pai. Talvez hoje você saia de casa preocupado com um filho, com a família. Ele cuida de quem você ama, mesmo de longe. Salve este vídeo para ouvir de novo quando precisar, e siga para receber uma palavra de fé todos os dias.",
+  "cenas": [
+    {
+      "trecho": "Um pai implorou que Jesus fosse até a sua casa. Jesus não foi.",
+      "busca_imagem": "",
+      "prompt_imagem": "a father in ancient robes seen from behind kneeling in the dust of a village road at golden sunrise, his hands raised in pleading toward a distant robed silhouette standing in bright light, long shadows, strong contrast"
+    },
+    {
+      "trecho": "Esse pai era um oficial do rei. Está em João, capítulo quatro. Mas o que ele descobriu na volta é ainda mais bonito.",
+      "busca_imagem": "ancient official robes road",
+      "prompt_imagem": "a man in fine ancient official robes seen from behind standing at the edge of a small Galilean hill village at dawn, stone houses, warm golden light, a long road descending into the valley"
+    },
+    {
+      "trecho": "Jesus estava em Caná. O filho dele, em Cafarnaum, à beira da morte.",
+      "busca_imagem": "sick child bed oil lamp",
+      "prompt_imagem": "a dim ancient stone room at night in a lakeside town, a small boy lying on a simple mat under a blanket, seen from a distance in shadow, a single oil lamp glowing beside him, a worried servant in silhouette"
+    },
+    {
+      "trecho": "O pai foi até Jesus e insistiu: Senhor, desce antes que meu filho morra.",
+      "busca_imagem": "man pleading crowd village",
+      "prompt_imagem": "a desperate father in ancient robes seen from behind, reaching out his open hands toward a calm robed figure in soft golden light in a crowded village square, villagers in shadow around them"
+    },
+    {
+      "trecho": "Jesus respondeu: Vai, o teu filho vive. Não foi junto. Não tocou no menino. Só uma palavra.",
+      "busca_imagem": "robed figure light village",
+      "prompt_imagem": "a calm robed figure seen from behind in a sunlit stone village street, one hand gently lifted toward a kneeling man in the shadows, golden morning light falling between them"
+    },
+    {
+      "trecho": "E o homem creu na palavra de Jesus e partiu, levando só aquela frase.",
+      "busca_imagem": "man walking road alone",
+      "prompt_imagem": "a lone man in ancient robes seen from behind walking down a long dusty road through rocky Galilean hills toward a distant blue lake, empty hands at his sides, soft golden light"
+    },
+    {
+      "trecho": "No caminho, os servos vieram ao seu encontro: o seu filho vive! Ele perguntou a hora. Responderam: ontem, à hora sétima, a febre o deixou.",
+      "busca_imagem": "servants meeting man road",
+      "prompt_imagem": "on a dusty hillside road by the Sea of Galilee, servants in simple ancient tunics seen in silhouette hurrying up toward a man in fine robes seen from behind, arms open, warm late light, joyful"
+    },
+    {
+      "trecho": "Era a mesma hora em que Jesus disse: o teu filho vive. E ele creu, com toda a sua casa. A palavra de Jesus chegou antes do pai.",
+      "busca_imagem": "family house doorway light",
+      "prompt_imagem": "an ancient stone house in a lakeside town with its doorway glowing with warm golden light, a family in silhouette gathered at the threshold, a father seen from behind embracing a small boy"
+    },
+    {
+      "trecho": "Talvez hoje você saia de casa preocupado com um filho, com a família. Ele cuida de quem você ama, mesmo de longe. Salve este vídeo para ouvir de novo quando precisar, e siga para receber uma palavra de fé todos os dias.",
+      "busca_imagem": "man doorway sunrise family",
+      "prompt_imagem": "a man in ancient robes seen from behind standing at the doorway of a humble stone home at sunrise, about to leave for work, looking back at a softly lit room where children sleep, peaceful golden light"
+    }
+  ],
+  "legenda": "Senhor, cuida da minha casa e dos meus filhos 🙏\nJoão 4:46-53\nComente \"Amém\" e salve para ouvir de novo quando precisar.",
+  "hashtags": [
+    "#oficialdorei",
+    "#féemJesus",
+    "#pai",
+    "#oteufilhovive"
+  ],
+  "fontes": [
+    "João 4:46-54 (Caná da Galileia; um oficial do rei cujo filho estava doente em Cafarnaum, à morte; pede que Jesus desça e cure o filho; 'Senhor, desce antes que meu filho morra'; 'Vai, o teu filho vive'; o homem creu na palavra e partiu; os servos o encontram no caminho dizendo que o filho vive; 'ontem, à hora sétima, a febre o deixou'; o pai reconhece que era a mesma hora; creu ele e toda a sua casa; segundo sinal)"
+  ]
+}
