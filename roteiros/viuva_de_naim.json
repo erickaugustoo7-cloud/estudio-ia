@@ -1,0 +1,63 @@
+{
+  "titulo": "Ninguém pediu, e Jesus parou o enterro",
+  "gancho_tela": "Ela nem chegou a pedir",
+  "estilo": "pintura",
+  "narracao": "Ninguém pediu nada a Jesus. E mesmo assim, ele parou um enterro. Foi na porta de uma cidade chamada Naim. Está em Lucas, capítulo sete. Mas por que ele parou justamente ali? Jesus chegava com os discípulos e uma grande multidão. Da cidade saía outra multidão, levando um jovem morto. Era o filho único de uma mãe viúva. Sem marido, e agora sem o filho. Ela não pediu milagre nenhum. Só chorava. Mas a Bíblia diz que, ao vê-la, o Senhor se encheu de compaixão. E disse a ela: não chore. Então ele se aproximou e tocou no caixão. Os que carregavam pararam. E Jesus falou: Jovem, eu lhe digo, levante-se! O jovem se sentou e começou a falar. E Jesus o entregou à sua mãe. O povo, cheio de temor, louvava a Deus. Repare: ninguém implorou. Ninguém foi chamar Jesus. Ele viu a dor, e foi até ela. Talvez você esteja carregando uma dor que nem consegue virar oração. Ele vê. E para por você. Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias.",
+  "cenas": [
+    {
+      "trecho": "Ninguém pediu nada a Jesus. E mesmo assim, ele parou um enterro.",
+      "busca_imagem": "",
+      "prompt_imagem": "an ancient funeral procession pouring out of a massive stone city gate at golden sunset, mourners in dark robes carrying a wooden bier, a lone robed figure seen from behind standing in the road with one hand raised, the procession halting, dramatic rays of light and long shadows"
+    },
+    {
+      "trecho": "Foi na porta de uma cidade chamada Naim. Está em Lucas, capítulo sete. Mas por que ele parou justamente ali?",
+      "busca_imagem": "ancient city gate hill",
+      "prompt_imagem": "a small ancient stone town on a hillside with an arched city gate at late afternoon, a dusty road leading up to it, warm golden light"
+    },
+    {
+      "trecho": "Jesus chegava com os discípulos e uma grande multidão. Da cidade saía outra multidão, levando um jovem morto.",
+      "busca_imagem": "crowd walking ancient road",
+      "prompt_imagem": "two crowds of people in ancient robes meeting on a dusty road outside a city gate, one group seen from behind arriving, the other carrying a wooden bier covered with a cloth, somber golden light"
+    },
+    {
+      "trecho": "Era o filho único de uma mãe viúva. Sem marido, e agora sem o filho. Ela não pediu milagre nenhum. Só chorava.",
+      "busca_imagem": "grieving widow veil",
+      "prompt_imagem": "a grieving woman in a dark veil seen from behind walking beside a wooden funeral bier, her head bowed, other mourners in shadow, muted evening light"
+    },
+    {
+      "trecho": "Mas a Bíblia diz que, ao vê-la, o Senhor se encheu de compaixão. E disse a ela: não chore.",
+      "busca_imagem": "compassion gentle light",
+      "prompt_imagem": "a robed man seen from behind stepping toward a weeping veiled woman on an ancient road, soft golden light falling between them, mourners blurred in shadow"
+    },
+    {
+      "trecho": "Então ele se aproximou e tocou no caixão. Os que carregavam pararam. E Jesus falou: Jovem, eu lhe digo, levante-se!",
+      "busca_imagem": "hand touching bier",
+      "prompt_imagem": "close view of a hand reaching out to touch the edge of an ancient wooden bier carried by men in robes, the bearers frozen mid-step, a beam of golden light on the wood"
+    },
+    {
+      "trecho": "O jovem se sentou e começou a falar. E Jesus o entregou à sua mãe. O povo, cheio de temor, louvava a Deus.",
+      "busca_imagem": "mother son embrace light",
+      "prompt_imagem": "a young man in a white burial cloth seen from behind embracing his veiled mother on a dusty road, a crowd around them raising their hands, radiant warm sunset light"
+    },
+    {
+      "trecho": "Repare: ninguém implorou. Ninguém foi chamar Jesus. Ele viu a dor, e foi até ela.",
+      "busca_imagem": "empty road city gate dusk",
+      "prompt_imagem": "a lone robed figure seen from behind walking toward a stone city gate along a quiet road at dusk, long shadow, warm glow from the gate"
+    },
+    {
+      "trecho": "Talvez você esteja carregando uma dor que nem consegue virar oração. Ele vê. E para por você. Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias.",
+      "busca_imagem": "man alone sunset hope",
+      "prompt_imagem": "a tired man seen from behind sitting on a stone wall at sunset, head lowered, a warm golden light breaking through the clouds over the hills ahead, peaceful and hopeful"
+    }
+  ],
+  "legenda": "Senhor, obrigado por ver a dor que eu não consigo dizer 😭🙏\nLucas 7:11-17\nComente \"Amém\" e envie para alguém que está carregando uma dor em silêncio.",
+  "hashtags": [
+    "#viúvadeNaim",
+    "#compaixão",
+    "#Jesusvêvocê",
+    "#esperança"
+  ],
+  "fontes": [
+    "Lucas 7:11-17 (Naim, o enterro do filho único da viúva, 'não chore', o toque no caixão, 'Jovem, eu lhe digo, levante-se!', o jovem entregue à mãe, o povo louva a Deus)"
+  ]
+}
