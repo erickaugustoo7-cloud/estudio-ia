@@ -1,0 +1,165 @@
+{
+  "titulo": "Encontrando Deus no dia a dia — Ep. 3: Lucas não voltou para casa",
+  "gancho_tela": "Ele não voltou para casa",
+  "referencia": "Salmo 121:8",
+  "serie": "Encontrando Deus no dia a dia",
+  "parte": 3,
+  "tipo": "novela",
+  "moderno": true,
+  "duracao_max": 120,
+  "volume_musica": 0.12,
+  "opcoes_imagem": 2,
+  "estilo_imagem": "3D animated feature film still, expressive stylized characters, soft global illumination, warm cinematic light, detailed modern Brazilian setting, vertical 9:16",
+  "prefixo_imagem": "3D animated feature film still:",
+  "prefixo_video": "3D animated film, expressive character animation.",
+  "epoca_imagem": "present-day Brazil, simple working-class neighborhood on the outskirts of São Paulo, no logos, no political symbols",
+  "personagens_regra": "Same characters in every scene, exactly as described. Natural, well-drawn faces and hands, no deformities, no text, no logos. Plain blank envelopes and papers, never any writing. Night scenes must be dark",
+  "vozes": {
+    "Marcos": {
+      "voz": "pt-BR-AntonioNeural",
+      "tom": "-3Hz",
+      "ritmo": "+0%"
+    },
+    "Ana": {
+      "voz": "pt-BR-FranciscaNeural",
+      "tom": "+0Hz",
+      "ritmo": "+0%"
+    },
+    "Lucas": {
+      "voz": "pt-BR-AntonioNeural",
+      "tom": "+28Hz",
+      "ritmo": "+10%"
+    },
+    "Dona Cida": {
+      "voz": "pt-BR-ThalitaMultilingualNeural",
+      "tom": "-18Hz",
+      "ritmo": "-10%"
+    }
+  },
+  "legenda": "Ep. 3 — Lucas não voltou para casa 😔\n\"O Senhor guardará a tua entrada e a tua saída\" (Salmo 121:8).\nVocê já orou por um filho que se afastou? Comenta aqui 👇 e siga para ver a parte 4.",
+  "hashtags": [
+    "#EncontrandoDeusNoDiaADia",
+    "#novelacristã",
+    "#fé",
+    "#Deus",
+    "#família"
+  ],
+  "fontes": [
+    "Salmo 121:8 — Almeida (domínio público)"
+  ],
+  "cenas": [
+    {
+      "personagem": "Narrador",
+      "trecho": "Lucas sabia do segredo que o pai escondia. E naquela noite… ele não voltou para casa.",
+      "prompt_imagem": "LUCAS, a 16-year-old Brazilian teenage boy with a teenage face and a faint mustache, tall and thin, light brown skin, short curly black hair, grey hoodie walking out through a small blue metal gate of a simple house in the morning, backpack on his shoulder, not looking back",
+      "vazia": false,
+      "animar": true,
+      "prompt_movimento": "he walks out through the gate and away"
+    },
+    {
+      "personagem": "Ana",
+      "trecho": "Marcos, já são onze horas. O Lucas não atende o celular.",
+      "prompt_imagem": "ANA, a 37-year-old Brazilian woman, long curly dark brown hair tied back, warm brown skin, small gold cross necklace, light blue nurse scrubs standing in a small simple Brazilian kitchen with blue wall tiles, wooden table with a red checkered tablecloth at night, dark scene lit by warm indoor lamp light, deep blue night shadows, holding a smartphone with a worried face",
+      "vazia": false,
+      "animar": true,
+      "prompt_movimento": "she calls again and looks anxiously at the phone"
+    },
+    {
+      "personagem": "Marcos",
+      "trecho": "Ele deve estar na casa de algum amigo. Daqui a pouco aparece.",
+      "prompt_imagem": "MARCOS, a 40-year-old Brazilian man, short black hair greying at the temples, short dark beard, brown skin, tired kind eyes, navy blue polo shirt sitting on a simple living room sofa at night, dark scene lit by warm indoor lamp light, deep blue night shadows, trying to look calm",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "personagem": "Narrador",
+      "trecho": "Mas Marcos também estava com medo. Ele só não queria mostrar.",
+      "prompt_imagem": "close-up of the hands of MARCOS, a 40-year-old Brazilian man, short black hair greying at the temples, short dark beard, brown skin, tired kind eyes, navy blue polo shirt tightly clasped together, at night, dark scene lit by warm indoor lamp light, deep blue night shadows",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "personagem": "Ana",
+      "trecho": "Que amigos, Marcos? A gente nem conhece mais os amigos do nosso filho.",
+      "prompt_imagem": "ANA, a 37-year-old Brazilian woman, long curly dark brown hair tied back, warm brown skin, small gold cross necklace, light blue nurse scrubs with tears in her eyes standing in a living room doorway, at night, dark scene lit by warm indoor lamp light, deep blue night shadows",
+      "vazia": false,
+      "animar": true,
+      "prompt_movimento": "she wipes a tear from her cheek"
+    },
+    {
+      "personagem": "Narrador",
+      "trecho": "Meia-noite. Uma mensagem chegou no celular da Ana.",
+      "prompt_imagem": "a smartphone with a glowing blank screen lying on a wooden kitchen table in a dark kitchen at night, no readable text",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "personagem": "Ana (voz lendo)",
+      "trecho": "Mãe, tô bem. Não me espera.",
+      "prompt_imagem": "ANA, a 37-year-old Brazilian woman, long curly dark brown hair tied back, warm brown skin, small gold cross necklace, light blue nurse scrubs reading a smartphone in a dark kitchen at night, the phone seen from the back, her face lit by the screen",
+      "vazia": false,
+      "animar": true,
+      "prompt_movimento": "she slowly covers her mouth with her hand, frightened"
+    },
+    {
+      "personagem": "Narrador",
+      "trecho": "Junto com a mensagem, uma foto: Lucas numa esquina escura, com rapazes que ninguém conhecia.",
+      "prompt_imagem": "close-up of the shocked face of ANA, a 37-year-old Brazilian woman, long curly dark brown hair tied back, warm brown skin, small gold cross necklace, light blue nurse scrubs lit only by the phone screen light in the dark",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "personagem": "Marcos",
+      "trecho": "Eu vou atrás dele.",
+      "prompt_imagem": "MARCOS, a 40-year-old Brazilian man, short black hair greying at the temples, short dark beard, brown skin, tired kind eyes, navy blue polo shirt grabbing car keys from a hook on the wall near the front door at night, dark scene lit by warm indoor lamp light, deep blue night shadows, determined face",
+      "vazia": false,
+      "animar": true,
+      "prompt_movimento": "he grabs the keys and turns toward the door"
+    },
+    {
+      "personagem": "Ana",
+      "trecho": "Marcos, espera! Primeiro a gente ora.",
+      "prompt_imagem": "ANA, a 37-year-old Brazilian woman, long curly dark brown hair tied back, warm brown skin, small gold cross necklace, light blue nurse scrubs holding the arm of MARCOS, a 40-year-old Brazilian man, short black hair greying at the temples, short dark beard, brown skin, tired kind eyes, navy blue polo shirt at the front door at night, dark scene lit by warm indoor lamp light, deep blue night shadows",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "personagem": "Narrador",
+      "trecho": "E pela primeira vez em muito tempo, Marcos se ajoelhou ao lado da esposa.",
+      "prompt_imagem": "MARCOS, a 40-year-old Brazilian man, short black hair greying at the temples, short dark beard, brown skin, tired kind eyes, navy blue polo shirt and ANA, a 37-year-old Brazilian woman, long curly dark brown hair tied back, warm brown skin, small gold cross necklace, light blue nurse scrubs kneeling side by side next to a sofa in a simple living room, holding hands, at night, dark scene lit by warm indoor lamp light, deep blue night shadows",
+      "vazia": false,
+      "animar": true,
+      "prompt_movimento": "they kneel down together and close their eyes"
+    },
+    {
+      "personagem": "Ana",
+      "trecho": "Senhor, guarda o nosso filho onde a gente não consegue chegar.",
+      "prompt_imagem": "close-up of ANA, a 37-year-old Brazilian woman, long curly dark brown hair tied back, warm brown skin, small gold cross necklace, light blue nurse scrubs praying with eyes closed and tears on her cheeks, at night, dark scene lit by warm indoor lamp light, deep blue night shadows",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "personagem": "Narrador",
+      "trecho": "Do outro lado da rua, a luz da casa de Dona Cida também estava acesa. Ela orava pelo Lucas.",
+      "prompt_imagem": "DONA CIDA, a 70-year-old Brazilian woman, white hair in a bun, round glasses, floral dress and beige cardigan, holding an old worn leather Bible at the window of her small house at night, a warm lamp lit beside her",
+      "vazia": false,
+      "animar": true,
+      "prompt_movimento": "she closes her eyes and prays holding the Bible"
+    },
+    {
+      "personagem": "Narrador",
+      "trecho": "Mas, naquele exato momento, Lucas entrava num carro que ia mudar tudo.",
+      "prompt_imagem": "LUCAS, a 16-year-old Brazilian teenage boy with a teenage face and a faint mustache, tall and thin, light brown skin, short curly black hair, grey hoodie with the hood up getting into a dark car on a dim street at night, red tail lights glowing, seen from behind",
+      "vazia": false,
+      "animar": true,
+      "prompt_movimento": "the car door closes and the red lights glow"
+    },
+    {
+      "personagem": "Narrador",
+      "trecho": "Será que eles vão chegar a tempo? Siga para ver a parte quatro.",
+      "prompt_imagem": "an empty street of simple Brazilian houses at night with light rain and a single streetlight, wet asphalt reflecting the light",
+      "vazia": true,
+      "animar": false
+    }
+  ]
+}
