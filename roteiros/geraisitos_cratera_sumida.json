@@ -1,0 +1,65 @@
+{
+  "titulo": "O impacto que caiu no Brasil e sumiu sem deixar cratera",
+  "gancho_tela": "Caiu no Brasil. Cadê a cratera?",
+  "narracao": "Há seis milhões de anos, algo vindo do espaço atingiu o Brasil. A prova está espalhada pelo chão de três estados. Mas a cratera, até hoje, ninguém encontrou. São pedrinhas de vidro preto chamadas geraisitos, em homenagem a Minas Gerais, onde foram achadas primeiro. Elas são tectitos: rocha da Terra que derreteu com a força do impacto, foi lançada pelo ar e esfriou ainda em pleno voo. Por isso têm formato de gota, de disco e até de haltere. E a superfície é cheia de furinhos, deixados por bolhas de gás que escaparam enquanto o vidro esfriava. Os primeiros apareceram numa faixa de noventa quilômetros no norte de Minas. Depois, surgiram também na Bahia e no Piauí. Hoje, o campo passa de novecentos quilômetros de comprimento. Já são mais de seiscentos pedaços, de menos de um grama até oitenta e cinco gramas. E tem um detalhe: sob uma luz forte, o preto vira um verde acinzentado. A idade foi medida pelo argônio preso no vidro: cerca de seis vírgula três milhões de anos. É o primeiro campo de tectitos já registrado no Brasil. E a cratera? Ela pode estar enterrada ou apagada pela erosão, e os pesquisadores agora procuram sinais dela no subsolo. Onde você acha que ela está escondida? Siga para descobrir uma curiosidade nova todo dia.",
+  "cenas": [
+    {
+      "trecho": "Há seis milhões de anos, algo vindo do espaço atingiu o Brasil.",
+      "busca_imagem": "meteor impact Earth",
+      "prompt_imagem": "a fiery meteor streaking through the sky toward a vast Brazilian savanna landscape at dusk, dramatic lighting"
+    },
+    {
+      "trecho": "A prova está espalhada pelo chão de três estados. Mas a cratera, até hoje, ninguém encontrou.",
+      "busca_imagem": "impact crater aerial",
+      "prompt_imagem": "aerial view of dry Brazilian cerrado landscape with hills, mysterious atmosphere, no crater visible"
+    },
+    {
+      "trecho": "São pedrinhas de vidro preto chamadas geraisitos, em homenagem a Minas Gerais, onde foram achadas primeiro.",
+      "busca_imagem": "tektite glass",
+      "prompt_imagem": "small black glossy natural glass stones resting on reddish soil, macro photography, dramatic light"
+    },
+    {
+      "trecho": "Elas são tectitos: rocha da Terra que derreteu com a força do impacto, foi lançada pelo ar e esfriou ainda em pleno voo.",
+      "busca_imagem": "asteroid impact ejecta",
+      "prompt_imagem": "molten glowing rock droplets flying through the air after a huge asteroid impact, cinematic"
+    },
+    {
+      "trecho": "Por isso têm formato de gota, de disco e até de haltere. E a superfície é cheia de furinhos, deixados por bolhas de gás que escaparam enquanto o vidro esfriava.",
+      "busca_imagem": "tektite meteorite",
+      "prompt_imagem": "close-up of a black teardrop-shaped tektite with small pits and bubbles on its surface, macro"
+    },
+    {
+      "trecho": "Os primeiros apareceram numa faixa de noventa quilômetros no norte de Minas. Depois, surgiram também na Bahia e no Piauí. Hoje, o campo passa de novecentos quilômetros de comprimento.",
+      "busca_imagem": "Brazil from space",
+      "prompt_imagem": "satellite view of eastern Brazil from orbit, cloud patterns, realistic Earth photography"
+    },
+    {
+      "trecho": "Já são mais de seiscentos pedaços, de menos de um grama até oitenta e cinco gramas. E tem um detalhe: sob uma luz forte, o preto vira um verde acinzentado.",
+      "busca_imagem": "tektite translucent",
+      "prompt_imagem": "a dark glass stone held against a bright light glowing translucent grayish green, macro photography"
+    },
+    {
+      "trecho": "A idade foi medida pelo argônio preso no vidro: cerca de seis vírgula três milhões de anos. É o primeiro campo de tectitos já registrado no Brasil.",
+      "busca_imagem": "laboratory mass spectrometer",
+      "prompt_imagem": "a geology laboratory with scientific instruments analyzing small black glass samples, soft lighting"
+    },
+    {
+      "trecho": "E a cratera? Ela pode estar enterrada ou apagada pela erosão, e os pesquisadores agora procuram sinais dela no subsolo. Onde você acha que ela está escondida? Siga para descobrir uma curiosidade nova todo dia.",
+      "busca_imagem": "Earth crater satellite",
+      "prompt_imagem": "an eroded ancient circular impact structure barely visible in a green landscape seen from above, mysterious"
+    }
+  ],
+  "legenda": "Há ~6,3 milhões de anos, um impacto espalhou vidro natural (geraisitos) por MG, BA e PI, num campo de mais de 900 km — e a cratera nunca foi achada. ☄️🇧🇷\nOnde você acha que ela está? Comenta aqui 👇",
+  "hashtags": [
+    "#geraisitos",
+    "#tectitos",
+    "#meteorito",
+    "#Unicamp"
+  ],
+  "fontes": [
+    "Agência FAPESP (16/01/2026) — Vidros formados por impacto evidenciam colisão cósmica no Brasil há cerca de 6 milhões de anos (nome, MG/BA/PI, faixa de 90 km → mais de 900 km, mais de 600 peças, <1 g a 85,4 g, formas, bolhas, verde acinzentado sob luz, datação 40Ar/39Ar ~6,3 Ma, cratera possivelmente enterrada/erodida, levantamentos aerogeofísicos)",
+    "Crósta et al., Geology (2025) — Geraisite: The first tektite occurrence in Brazil, doi:10.1130/G53805.1",
+    "Space.com (03/03/2026) — Rare glass from 6-million-year-old meteorite strike found in Brazil — but the crater is still missing",
+    "EurekAlert / FAPESP (20/02/2026) — release em inglês sobre os geraisitos"
+  ]
+}
