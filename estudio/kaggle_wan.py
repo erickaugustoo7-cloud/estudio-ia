@@ -339,6 +339,38 @@ def _pexels_video(prompt: str, seg: float, destino: Path, usados: set) -> Path |
     return None
 
 
+def _pixabay_video(prompt: str, seg: float, destino: Path, usados: set) -> Path | None:
+    """Vídeo REAL de paisagem do Pixabay (licença de uso comercial grátis, sem atribuição; precisa PIXABAY_API_KEY).
+    A maioria é deitada: prefere 4K/1080p para recortar o centro em 9:16 sem perder nitidez."""
+    chave = os.getenv("PIXABAY_API_KEY")
+    if not chave:
+        return None
+    import requests
+    p = prompt.lower()
+    termo = next((q for k, q in PEXELS_TEMAS if k in p), "nature landscape")
+    try:
+        res = requests.get("https://pixabay.com/api/videos/", timeout=30,
+                           params={"key": chave, "q": termo, "video_type": "film", "per_page": 50,
+                                   "safesearch": "true"}).json()
+        hits = [h for h in res.get("hits", []) if h["id"] not in usados and h.get("duration", 0) >= seg
+                and not any(x in h.get("tags", "") for x in ("people", "woman", "man", "girl", "boy", "person", "text"))]
+        random.shuffle(hits)
+        for h in hits:
+            opcoes = [h["videos"][k] for k in ("large", "medium") if h["videos"].get(k, {}).get("url")]
+            opcoes = [o for o in opcoes if max(o.get("height", 0), o.get("width", 0)) >= 1920]
+            if not opcoes:
+                continue
+            r = requests.get(opcoes[0]["url"], timeout=180)
+            if r.ok and len(r.content) > 200_000:
+                destino.write_bytes(r.content)
+                usados.add(h["id"])
+                log("wan", f"short isca: vídeo real Pixabay #{h['id']} ('{termo}', {h.get('duration')}s)")
+                return destino
+    except Exception as e:  # noqa: BLE001
+        log("wan", f"short isca: Pixabay falhou ({e})")
+    return None
+
+
 def _short_isca(r, canal, imgs, tempos, palavras, mp3, pasta) -> None:
     """Short vertical de 8–20 s com o trecho mais forte da oração longa (mesma voz, mesmas ilustrações),
     para ser ligado à oração pelo "Vídeo relacionado" do YouTube: o Short traz gente, a oração gera as horas."""
@@ -385,7 +417,8 @@ def _short_isca(r, canal, imgs, tempos, palavras, mp3, pasta) -> None:
         if seg <= 0.2:
             continue
         n, pt = int(seg * 30) + 1, out / f"p{i}.mp4"
-        clipe = _pexels_video(r["cenas"][i]["prompt_imagem"], seg, out / f"pexels_{i}.mp4", usados_px)
+        clipe = (_pexels_video(r["cenas"][i]["prompt_imagem"], seg, out / f"pexels_{i}.mp4", usados_px)
+                 or _pixabay_video(r["cenas"][i]["prompt_imagem"], seg, out / f"pixabay_{i}.mp4", usados_px))
         if clipe:  # vídeo real de paisagem: tela cheia 9:16, sem o áudio original
             subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(clipe), "-an", "-vf",
                             f"scale={W2}:{H2}:force_original_aspect_ratio=increase,crop={W2}:{H2},fps=30,format=yuv420p",
