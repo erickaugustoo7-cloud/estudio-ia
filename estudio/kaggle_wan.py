@@ -307,7 +307,11 @@ PEXELS_TEMAS = [("waterfall", "waterfall nature"), ("cachoeira", "waterfall natu
                 ("aurora", "northern lights"), ("northern lights", "northern lights"), ("field", "flower field sunset"),
                 ("lavender", "lavender field"), ("sunflower", "sunflower field"), ("sunrise", "sunrise nature"),
                 ("sunset", "sunset nature"), ("moon", "moon night clouds"), ("cloud", "clouds sky timelapse"),
-                ("rain", "rain on leaves"), ("valley", "green valley aerial"), ("hill", "green hills aerial")]
+                ("rain", "rain on leaves"), ("valley", "green valley aerial"), ("hill", "green hills aerial"),
+                ("canyon", "canyon sunset"), ("dock", "lake dock sunrise"), ("pier", "lake dock sunrise"),
+                ("palm", "tropical beach palm trees"), ("wheat", "wheat field sunset"), ("bay", "ocean coast aerial"),
+                ("snow", "snowy forest"), ("meadow", "meadow flowers"), ("tea plantation", "green hills fog"),
+                ("blossom", "cherry blossom"), ("dew", "dew grass morning"), ("tree", "tree field sunset")]
 
 
 def _pexels_video(prompt: str, seg: float, destino: Path, usados: set) -> Path | None:
@@ -339,7 +343,10 @@ def _pexels_video(prompt: str, seg: float, destino: Path, usados: set) -> Path |
     return None
 
 
-def _pixabay_video(prompt: str, seg: float, destino: Path, usados: set) -> Path | None:
+_PIXABAY_CACHE: dict = {}
+
+
+def _pixabay_video(prompt: str, seg: float, destino: Path, usados: set, horizontal: bool = False) -> Path | None:
     """Vídeo REAL de paisagem do Pixabay (licença de uso comercial grátis, sem atribuição; precisa PIXABAY_API_KEY).
     A maioria é deitada: prefere 4K/1080p para recortar o centro em 9:16 sem perder nitidez."""
     chave = os.getenv("PIXABAY_API_KEY")
@@ -349,22 +356,26 @@ def _pixabay_video(prompt: str, seg: float, destino: Path, usados: set) -> Path 
     p = prompt.lower()
     termo = next((q for k, q in PEXELS_TEMAS if k in p), "nature landscape")
     try:
-        res = requests.get("https://pixabay.com/api/videos/", timeout=30,
-                           params={"key": chave, "q": termo, "video_type": "film", "per_page": 50,
-                                   "safesearch": "true"}).json()
+        if termo not in _PIXABAY_CACHE:
+            _PIXABAY_CACHE[termo] = requests.get("https://pixabay.com/api/videos/", timeout=30,
+                                                 params={"key": chave, "q": termo, "video_type": "film", "per_page": 100,
+                                                         "safesearch": "true"}).json()
+        res = _PIXABAY_CACHE[termo]
         hits = [h for h in res.get("hits", []) if h["id"] not in usados and h.get("duration", 0) >= seg
                 and not any(x in h.get("tags", "") for x in ("people", "woman", "man", "girl", "boy", "person", "text"))]
         random.shuffle(hits)
         for h in hits:
-            opcoes = [h["videos"][k] for k in ("large", "medium") if h["videos"].get(k, {}).get("url")]
-            opcoes = [o for o in opcoes if max(o.get("height", 0), o.get("width", 0)) >= 1920]
+            ordem = ("medium", "large") if horizontal else ("large", "medium")  # deitado: 1080p basta; em pé: recorta do 4K
+            opcoes = [h["videos"][k] for k in ordem if h["videos"].get(k, {}).get("url")]
+            opcoes = [o for o in opcoes if max(o.get("height", 0), o.get("width", 0)) >= 1920
+                      and (not horizontal or o.get("width", 0) > o.get("height", 0))]
             if not opcoes:
                 continue
             r = requests.get(opcoes[0]["url"], timeout=180)
             if r.ok and len(r.content) > 200_000:
                 destino.write_bytes(r.content)
                 usados.add(h["id"])
-                log("wan", f"short isca: vídeo real Pixabay #{h['id']} ('{termo}', {h.get('duration')}s)")
+                log("wan", f"vídeo real Pixabay #{h['id']} ('{termo}', {h.get('duration')}s)")
                 return destino
     except Exception as e:  # noqa: BLE001
         log("wan", f"short isca: Pixabay falhou ({e})")
@@ -733,6 +744,21 @@ def main():
     opcoes = int(r.get("opcoes_imagem", 3))
     for c in r["cenas"]:
         cenas_img.append({**c, "prompt_imagem": f"{prefixo_img} {c['prompt_imagem']}"})
+    stock = {}  # cena -> (vídeo real de paisagem, quadro jpg)
+    if r.get("fundo_video") == "pixabay" and not os.getenv("SO_ISCA"):
+        usados_st = set()
+        for i, c in enumerate(r["cenas"]):
+            if c.get("animar"):
+                continue
+            v = _pixabay_video(c["prompt_imagem"], min(tempos[i], 10), pasta / f"stock_{i}.mp4", usados_st, horizontal=horiz)
+            if v:
+                jpg = pasta / f"stock_{i}.jpg"
+                subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", "1.5", "-i", str(v), "-frames:v", "1",
+                                "-vf", f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H}", "-q:v", "2",
+                                str(jpg)], check=False)
+                if jpg.exists():
+                    stock[i] = (v, jpg)
+        log("wan", f"vídeos reais de paisagem: {len(stock)}/{len(r['cenas'])} cenas")
     if fonte == "kaggle":
         from estudio.agentes.revisor_visual import _avaliar
         chave = os.getenv("GEMINI_API_KEY")
@@ -833,7 +859,8 @@ def main():
             return i, None, motivo
 
         with ThreadPoolExecutor(max_workers=3) as ex:
-            res_cenas = sorted(ex.map(_cena_sem_gpu, range(len(cenas_img))))
+            res_cenas = list(ex.map(_cena_sem_gpu, [i for i in range(len(cenas_img)) if i not in stock]))
+        res_cenas = sorted(res_cenas + [(i, jpg, "") for i, (_, jpg) in stock.items()])
         aprovadas = {i: jpg for i, jpg, _ in res_cenas if jpg}
         if not aprovadas:
             raise SystemExit("nenhuma imagem aprovada (Cloudflare/Pollinations) — veja o log")
@@ -922,6 +949,15 @@ def main():
     for i, motivo in ruins.items():
         clipes[i] = _zoom(i, tempos[i] + 0.6)
         log("wan", f"clipe {i + 1}: substituído pela ilustração aprovada com zoom lento ({motivo})")
+    for i, (v, _) in stock.items():  # vídeo real: tela cheia, sem o som original, repete se for mais curto que a cena
+        if i in clipes:
+            continue
+        seg = tempos[i] + 0.6
+        real = pasta / f"clipe_real_{i}.mp4"
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-stream_loop", "-1", "-i", str(v), "-an", "-vf",
+                        f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps=30,format=yuv420p",
+                        "-t", f"{seg:.2f}", "-c:v", "libx264", "-crf", "20", "-preset", "veryfast", str(real)], check=True)
+        clipes[i] = real
     for i in range(len(r["cenas"])):
         if i not in clipes:
             clipes[i] = _zoom(i, tempos[i] + 0.6)

@@ -101,6 +101,9 @@ O que os grandes canais de oração fazem e nós não fazíamos:
   com movimento de câmera e `"animar": false`). Assim a oração não depende da cota semanal do Kaggle.
 - Estrutura: acolhida em 2ª pessoa (você) → convite para orar junto → oração em 1ª pessoa parafraseando um salmo ou
   promessa bíblica → pedido nos comentários + inscreva-se → bênção final. Original, sem copiar orações prontas.
+- **`"fundo_video": "pixabay"` (desde 16/11, o Eric aprovou):** cada cena ganha um VÍDEO REAL de paisagem do Pixabay
+  (uso comercial grátis) escolhido pelo tema do `prompt_imagem` (cachoeira, mar, floresta, lago, céu estrelado…); a imagem
+  gerada fica só de reserva. Escreva o `prompt_imagem` com o tema em inglês claro ("waterfall…", "ocean waves…").
 - **Imagens (desde 16/11, pedido do Eric): paisagens BONITAS e de paz do mundo real, nada de época** — mar ao pôr do sol,
   praia ao luar, floresta com neblina, cachoeiras, rios, lagos com montanhas, campos floridos, céu estrelado, aurora.
   Sem pessoas, sem construções, sem texto. Varie: nunca duas paisagens do mesmo tipo seguidas. Copie `estilo_imagem`,
