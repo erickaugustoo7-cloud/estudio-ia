@@ -300,6 +300,45 @@ def _norm(w: str) -> str:
     return re.sub(r"[^\wà-ú]", "", w.lower())
 
 
+PEXELS_TEMAS = [("waterfall", "waterfall nature"), ("cachoeira", "waterfall nature"), ("sea", "ocean waves sunset"),
+                ("ocean", "ocean waves"), ("beach", "beach waves sunset"), ("forest", "forest sunlight"),
+                ("lake", "calm lake mountains"), ("river", "river forest"), ("stream", "forest stream"),
+                ("mountain", "mountains clouds aerial"), ("star", "starry night sky"), ("milky way", "milky way night sky"),
+                ("aurora", "northern lights"), ("northern lights", "northern lights"), ("field", "flower field sunset"),
+                ("lavender", "lavender field"), ("sunflower", "sunflower field"), ("sunrise", "sunrise nature"),
+                ("sunset", "sunset nature"), ("moon", "moon night clouds"), ("cloud", "clouds sky timelapse"),
+                ("rain", "rain on leaves"), ("valley", "green valley aerial"), ("hill", "green hills aerial")]
+
+
+def _pexels_video(prompt: str, seg: float, destino: Path, usados: set) -> Path | None:
+    """Vídeo REAL de paisagem em pé (Pexels: uso comercial grátis, sem atribuição obrigatória; precisa PEXELS_API_KEY)."""
+    chave = os.getenv("PEXELS_API_KEY")
+    if not chave:
+        return None
+    import requests
+    p = prompt.lower()
+    termo = next((q for k, q in PEXELS_TEMAS if k in p), "peaceful nature landscape")
+    try:
+        res = requests.get("https://api.pexels.com/videos/search", headers={"Authorization": chave}, timeout=30,
+                           params={"query": termo, "orientation": "portrait", "size": "medium", "per_page": 30}).json()
+        videos = [v for v in res.get("videos", []) if v["id"] not in usados and v.get("duration", 0) >= seg]
+        random.shuffle(videos)
+        for v in videos:
+            arqs = sorted([f for f in v["video_files"] if f.get("height") and f["height"] >= f.get("width", 0)
+                           and 1280 <= f["height"] <= 2160], key=lambda f: abs(f["height"] - 1920))
+            if not arqs:
+                continue
+            r = requests.get(arqs[0]["link"], timeout=120)
+            if r.ok and len(r.content) > 100_000:
+                destino.write_bytes(r.content)
+                usados.add(v["id"])
+                log("wan", f"short isca: vídeo real Pexels #{v['id']} ('{termo}', {v.get('duration')}s)")
+                return destino
+    except Exception as e:  # noqa: BLE001
+        log("wan", f"short isca: Pexels falhou ({e})")
+    return None
+
+
 def _short_isca(r, canal, imgs, tempos, palavras, mp3, pasta) -> None:
     """Short vertical de 8–20 s com o trecho mais forte da oração longa (mesma voz, mesmas ilustrações),
     para ser ligado à oração pelo "Vídeo relacionado" do YouTube: o Short traz gente, a oração gera as horas."""
@@ -338,7 +377,7 @@ def _short_isca(r, canal, imgs, tempos, palavras, mp3, pasta) -> None:
         except Exception as e:  # noqa: BLE001
             log("wan", f"short isca: imagem vertical da cena {i + 1} falhou ({e})")
         return None
-    partes, t = [], ini
+    partes, t, usados_px = [], ini, set()
     for i in range(a, b + 1):
         seg = min(sum(tempos[:i + 1]), fim) - max(sum(tempos[:i]), ini)
         if i == b:
@@ -346,6 +385,13 @@ def _short_isca(r, canal, imgs, tempos, palavras, mp3, pasta) -> None:
         if seg <= 0.2:
             continue
         n, pt = int(seg * 30) + 1, out / f"p{i}.mp4"
+        clipe = _pexels_video(r["cenas"][i]["prompt_imagem"], seg, out / f"pexels_{i}.mp4", usados_px)
+        if clipe:  # vídeo real de paisagem: tela cheia 9:16, sem o áudio original
+            subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(clipe), "-an", "-vf",
+                            f"scale={W2}:{H2}:force_original_aspect_ratio=increase,crop={W2}:{H2},fps=30,format=yuv420p",
+                            "-t", f"{seg:.3f}", "-c:v", "libx264", "-crf", "19", "-preset", "veryfast", str(pt)], check=True)
+            partes.append(pt)
+            continue
         vert = _vertical(i) or (None if imgs[i] else _vertical(i))  # sem imagem horizontal: tenta de novo
         fonte = vert or imgs[i]
         if fonte is None:
