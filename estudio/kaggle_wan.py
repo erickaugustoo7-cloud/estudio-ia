@@ -346,6 +346,23 @@ def _pexels_video(prompt: str, seg: float, destino: Path, usados: set) -> Path |
 _PIXABAY_CACHE: dict = {}
 
 
+def _clipe_vivo(video: Path) -> bool:
+    """Confere 3 quadros: a paisagem precisa ter detalhe (contraste) e não pode ser escura demais."""
+    try:
+        from PIL import Image, ImageStat
+        dur = _dur(video) or 6
+        for k, t in enumerate((0.5, dur / 2, max(0.6, dur - 1))):
+            q = video.with_name(f"{video.stem}_q{k}.jpg")
+            subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{t:.2f}", "-i", str(video), "-frames:v", "1",
+                            "-vf", "scale=320:-1", str(q)], check=True)
+            st = ImageStat.Stat(Image.open(q).convert("L"))
+            if st.stddev[0] < 28 or st.mean[0] < 35:
+                return False
+        return True
+    except Exception:  # noqa: BLE001
+        return True
+
+
 def _pixabay_video(prompt: str, seg: float, destino: Path, usados: set, horizontal: bool = False) -> Path | None:
     """Vídeo REAL de paisagem do Pixabay (licença de uso comercial grátis, sem atribuição; precisa PIXABAY_API_KEY).
     A maioria é deitada: prefere 4K/1080p para recortar o centro em 9:16 sem perder nitidez."""
@@ -374,6 +391,10 @@ def _pixabay_video(prompt: str, seg: float, destino: Path, usados: set, horizont
             r = requests.get(opcoes[0]["url"], timeout=180)
             if r.ok and len(r.content) > 200_000:
                 destino.write_bytes(r.content)
+                if not _clipe_vivo(destino):  # tela lisa/escura (névoa, fundo de cor): não serve de paisagem
+                    usados.add(h["id"])
+                    log("wan", f"Pixabay #{h['id']}: imagem sem detalhe, descartado")
+                    continue
                 usados.add(h["id"])
                 log("wan", f"vídeo real Pixabay #{h['id']} ('{termo}', {h.get('duration')}s)")
                 return destino
