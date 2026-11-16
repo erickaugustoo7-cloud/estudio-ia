@@ -11,16 +11,16 @@
   "plataformas": [
     "youtube"
   ],
-  "cena_capa": 5,
+  "cena_capa": 1,
   "texto_capa": [
     "QUANDO TUDO",
     "DESABA",
     "ORE ISSO"
   ],
-  "estilo_imagem": "cinematic photorealistic still, peaceful night atmosphere, soft moonlight, gentle glow, deep blue and warm gold tones, calm and serene, horizontal 16:9 widescreen",
-  "prefixo_imagem": "cinematic photorealistic peaceful still:",
-  "prefixo_video": "Cinematic peaceful night shot, very slow and gentle motion.",
-  "epoca_imagem": "Ancient Israel landscape, stone, clay, wood, wool and linen only, nothing modern, no electric lights",
+  "estilo_imagem": "breathtaking real-world nature landscape photography, peaceful and serene, soft natural light, rich colors, ultra detailed, horizontal 16:9 widescreen, no people, no text",
+  "prefixo_imagem": "beautiful peaceful nature landscape photo:",
+  "prefixo_video": "Peaceful nature shot, very slow and gentle motion.",
+  "epoca_imagem": "real natural landscapes of today (sea, forest, waterfalls, mountains, lakes, sky); no people, no buildings, no text",
   "legenda": "Se a sua vida está tremendo, ore comigo antes de dormir. 🙏\n\n\"Deus é o nosso refúgio e fortaleza, socorro bem presente na angústia\" (Salmo 46:1, Almeida).\n\nEscreva o seu pedido de oração nos comentários — eu vou orar por ele. Inscreva-se para orarmos juntos toda noite.",
   "hashtags": [
     "#OraçãoParaDormir",
@@ -38,403 +38,403 @@
   "cenas": [
     {
       "trecho": "Se você está assistindo isso agora… talvez o seu dia tenha sido pesado demais. Talvez você tenha sorrido para todo mundo… e só agora, sozinho, sentiu o peso de tudo.",
-      "prompt_imagem": "a calm starry night sky over dark quiet hills, the Milky Way glowing softly, deep blue tones",
+      "prompt_imagem": "a calm turquoise sea at sunset with gentle waves on a quiet sandy beach",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Talvez seja uma conta que não fecha. Um exame que você está esperando. Um filho que não liga. Um casamento que esfriou. Ou só um cansaço que não passa nem com sono.",
-      "prompt_imagem": "a small clay oil lamp burning alone on a rough wooden table in a dark stone room, warm glow",
+      "prompt_imagem": "a tall waterfall in a lush green rainforest, soft mist, sun rays through the trees",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Eu não sei o que você está carregando esta noite. Mas Deus sabe. E não foi por acaso que você chegou até aqui. Ele queria falar com você antes de você dormir.",
-      "prompt_imagem": "moonlight falling through a small stone window onto a simple wool blanket, quiet night",
+      "prompt_imagem": "a peaceful forest path covered in golden light at dawn, tall trees, morning mist",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Talvez você nem saiba orar direito. Tudo bem. Deus não está procurando palavras bonitas. Ele está procurando um coração sincero. E o seu já chegou até aqui.",
-      "prompt_imagem": "a narrow stone path leading up a quiet hill under the stars, soft moonlight",
+      "prompt_imagem": "a still mountain lake reflecting snowy peaks under a starry night sky",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Esta noite nós vamos orar com o Salmo quarenta e seis. Um cântico escrito para um povo cercado, com medo, vendo o chão tremer debaixo dos pés.",
-      "prompt_imagem": "an old rolled parchment scroll resting on a rough wooden table beside a small clay oil lamp, warm glow",
+      "prompt_imagem": "rolling green hills with wildflowers under a soft pink sunset sky",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "E é assim que ele começa: Deus é o nosso refúgio e fortaleza, socorro bem presente na angústia.",
-      "prompt_imagem": "an ancient stone fortress on a hilltop under a starry night sky, soft moonlight on the walls",
+      "prompt_imagem": "a gentle river flowing over smooth stones in a quiet forest, soft evening light",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Bem presente. Não distante. Não atrasado. Presente. Na angústia que você está sentindo agora, neste quarto, nesta cama, Ele está perto.",
-      "prompt_imagem": "a single warm light glowing in a small stone house in a sleeping village at night, stars above",
+      "prompt_imagem": "ocean waves washing softly on a deserted beach under the full moon",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Então, se puder, feche os olhos. Coloque a mão sobre o peito. Respire fundo… solte o ar devagar. E repita comigo, no seu coração.",
-      "prompt_imagem": "a still lake at night reflecting the moon and stars, perfectly calm water",
+      "prompt_imagem": "a field of lavender at golden hour with soft clouds",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Senhor… eu não vou fingir que estou bem. Tu me conheces. Tu sabes o que eu escondo de todo mundo. Esta noite eu venho do jeito que estou: cansado, com medo, sem respostas.",
-      "prompt_imagem": "a tiny distant figure kneeling on a hillside under a vast starry sky, seen from far away",
-      "vazia": false,
+      "prompt_imagem": "a quiet wooden dock on a misty lake at sunrise",
+      "vazia": true,
       "animar": false
     },
     {
       "trecho": "O Teu salmo diz: pelo que não temeremos, ainda que a terra se mude, e ainda que os montes se transportem para o meio dos mares.",
-      "prompt_imagem": "dark mountains at the edge of a calm sea at night, moonlight on the water",
+      "prompt_imagem": "the Milky Way over calm mountains and a dark blue valley",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Os filhos de Corá escreveram isso num tempo de guerra e de medo. E mesmo assim cantaram. Porque sabiam que o chão podia tremer, mas Deus não.",
-      "prompt_imagem": "an ancient stone city wall at night with torches far away, starry sky above",
+      "prompt_imagem": "a small waterfall flowing into a clear green pool surrounded by ferns",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Pai, às vezes parece que é exatamente isso que está acontecendo comigo. As coisas que eu achava firmes estão balançando. Os planos que eu fiz estão desmoronando.",
-      "prompt_imagem": "storm clouds over distant hills at night with a faint glow of moonlight breaking through",
+      "prompt_imagem": "a cliff over the ocean at golden hour with soft clouds and calm sea",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Mas Tu não balanças. Quando tudo muda, Tu continuas o mesmo. Então esta noite eu escolho me apoiar em Ti, e não no que eu consigo controlar.",
-      "prompt_imagem": "a massive ancient rock standing firm on a hill under the stars, soft moonlight",
+      "prompt_imagem": "a snowy pine forest under a peaceful starry sky",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Eu Te entrego aquela preocupação que fica rodando na minha cabeça quando eu deito. Eu solto ela agora… nas Tuas mãos. Ela pesa demais para mim, mas não pesa para Ti.",
-      "prompt_imagem": "an old olive tree on a quiet hillside at night, silver moonlight on its leaves",
+      "prompt_imagem": "a tropical beach with palm trees at twilight, calm water, first stars",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Senhor, Tu conheces a minha mente melhor do que eu. Sabes como ela não para quando eu deito. Repassa conversas, imagina problemas que ainda nem aconteceram, sofre por coisas que talvez nunca venham. Esta noite eu Te peço: desliga esse barulho dentro de mim.",
-      "prompt_imagem": "a small clay oil lamp glowing on a rough wooden table at night",
+      "prompt_imagem": "sunlight breaking through clouds over green mountains and a valley",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Onde há pensamento acelerado, coloca a Tua calma. Onde há medo, coloca a Tua verdade. Onde há culpa, coloca o Teu perdão. Eu não quero mais dormir brigando com a minha própria cabeça.",
-      "prompt_imagem": "a still lake at night reflecting the moon and stars",
+      "prompt_imagem": "a calm lake with water lilies at dusk, soft warm light",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "E se você que está orando comigo sente o peito apertado agora, respire mais uma vez. Bem devagar. Deus não tem pressa com você. Ele não está cansado de você. Ele está aqui, bem perto, esperando você soltar.",
-      "prompt_imagem": "an old olive tree on a hillside under silver moonlight",
+      "prompt_imagem": "a misty forest at night with moonlight through the trees",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Eu Te entrego também a minha saúde. O meu corpo cansado, as dores que eu não conto pra ninguém, os exames, os remédios. Tu és o médico que nunca dorme.",
-      "prompt_imagem": "a clay jar of oil and a folded linen cloth on a wooden table, lit by a small oil lamp at night",
+      "prompt_imagem": "golden wheat fields swaying under a warm sunset",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Eu oro por quem está numa cama de hospital esta noite. Por quem espera um resultado. Por quem sente uma dor que não passa. Senhor, toca nesses corpos com a Tua mão. Dá força aos médicos, às enfermeiras, e dá descanso a quem cuida.",
-      "prompt_imagem": "moonlight through a small stone window onto a simple wool blanket",
+      "prompt_imagem": "a quiet bay with crystal clear water and rocks at sunrise",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "E se eu estou doente, Senhor, eu não vou fingir que não tenho medo. Mas eu escolho confiar. Tu és o mesmo que curava nas estradas da Galileia. E o Teu cuidado comigo não acabou.",
-      "prompt_imagem": "a narrow stone path up a quiet hill under the stars",
+      "prompt_imagem": "northern lights glowing softly over a frozen lake and pine trees",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Senhor, eu também Te entrego as minhas contas. Os boletos em cima da mesa, o aluguel, a dívida que tira o meu sono. Tu sabes exatamente quanto eu preciso. Nada disso Te assusta.",
-      "prompt_imagem": "a vast starry sky over a calm desert valley",
+      "prompt_imagem": "a winding stream through a mossy forest, soft rays of light",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Abre portas que eu não consigo abrir. Dá sabedoria para eu administrar o pouco. Livra a minha casa da falta. E me ensina a confiar em Ti mesmo quando a conta não fecha.",
-      "prompt_imagem": "first faint light of dawn behind quiet hills, stars fading",
+      "prompt_imagem": "a vast canyon at sunset with warm orange light",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Eu oro por quem perdeu o emprego. Por quem trabalha demais e ganha de menos. Por quem acordou de madrugada para ganhar o pão. Senhor, honra o esforço dessas pessoas. Que amanhã seja um dia de portas abertas.",
-      "prompt_imagem": "a field of wild grass moving gently under the moon",
+      "prompt_imagem": "a hammock between palm trees on an empty beach at sunset",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Jesus disse: Não vos inquieteis, pois, pelo dia de amanhã, porque o dia de amanhã cuidará de si mesmo. Senhor, eu quero aprender isso. Viver um dia de cada vez. Hoje Tu cuidaste de mim. Amanhã Tu vais cuidar de novo.",
-      "prompt_imagem": "an ancient stone well in a quiet village courtyard at night",
+      "prompt_imagem": "a peaceful meadow with a single tree under a starry sky",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Eu Te entrego as pessoas que eu amo. Guarda a minha casa esta noite. Cobre cada quarto, cada cama, cada pessoa que dorme debaixo deste teto.",
-      "prompt_imagem": "a small stone house with a flat roof in a quiet valley at night, warm light in one window, stars above",
+      "prompt_imagem": "a calm turquoise sea at sunset with gentle waves on a quiet sandy beach",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "E se tem alguém longe de mim, um filho, um pai, um amigo… alcança essa pessoa onde eu não consigo chegar. Tu estás lá também.",
-      "prompt_imagem": "a long dirt road winding through dark hills toward the horizon under the Milky Way",
+      "prompt_imagem": "a tall waterfall in a lush green rainforest, soft mist, sun rays through the trees",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Senhor, eu oro pelo meu casamento. Se ele está frio, aquece. Se está ferido, cura. Se tem palavras duras guardadas, ensina a gente a pedir perdão antes de dormir. Que a minha casa não seja um lugar de guerra, mas de paz.",
-      "prompt_imagem": "a small stone house in a quiet valley at night, one warm window, stars above",
+      "prompt_imagem": "a peaceful forest path covered in golden light at dawn, tall trees, morning mist",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Eu oro pelos meus filhos. Pelos que estão perto e pelos que se afastaram. Guarda os seus caminhos, as suas amizades, as suas decisões. Onde eu não consigo protegê-los, que a Tua mão esteja sobre eles.",
-      "prompt_imagem": "soft mist over quiet hills with the moon low on the horizon",
+      "prompt_imagem": "a still mountain lake reflecting snowy peaks under a starry night sky",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "E se alguém da minha família está longe de Ti, Senhor, não desiste dessa pessoa. Eu também não vou desistir. Eu continuo orando, mesmo quando parece que nada muda. Porque eu sei que Tu estás trabalhando no silêncio.",
-      "prompt_imagem": "a gentle river flowing between rocks at night, moonlight shimmering",
+      "prompt_imagem": "rolling green hills with wildflowers under a soft pink sunset sky",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Talvez você que está me ouvindo tenha alguém por quem já orou muitas vezes. Um filho, um marido, uma mãe. Diga o nome dessa pessoa agora, baixinho. Deus ouviu. E Ele não esqueceu nenhuma das suas orações.",
-      "prompt_imagem": "the Milky Way stretching over dark hills, peaceful and silent",
+      "prompt_imagem": "a gentle river flowing over smooth stones in a quiet forest, soft evening light",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "O salmo fala de um rio cujas correntes alegram a cidade de Deus. Senhor, deixa esse rio passar por dentro de mim. Lava o que ficou sujo hoje. Acalma o que ficou agitado.",
-      "prompt_imagem": "a gentle river flowing between rocks at night, moonlight shimmering on the water",
+      "prompt_imagem": "ocean waves washing softly on a deserted beach under the full moon",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Se eu falei o que não devia, se eu magoei alguém, me perdoa. E me ajuda a perdoar também quem me feriu. Eu não quero dormir carregando mágoa.",
-      "prompt_imagem": "a small clay oil lamp flame glowing softly in darkness, close-up, warm light",
+      "prompt_imagem": "a field of lavender at golden hour with soft clouds",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Talvez alguém tenha te machucado hoje, ou há muito tempo. E a ferida ainda dói quando você deita. Perdoar não é dizer que não doeu. É entregar a Deus o direito de cuidar disso. É soltar o peso que está te acorrentando.",
-      "prompt_imagem": "night clouds parting to reveal the full moon over still water",
+      "prompt_imagem": "a quiet wooden dock on a misty lake at sunrise",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Senhor, eu decido perdoar. Não porque eu sinto vontade, mas porque eu não quero mais carregar isso. Cura a minha memória. Tira o veneno da mágoa. E me dá um coração leve para dormir.",
-      "prompt_imagem": "a lone cedar tree on a ridge under a sky full of stars",
+      "prompt_imagem": "the Milky Way over calm mountains and a dark blue valley",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "E eu também preciso me perdoar, Senhor. Pelos erros que eu repito. Pelas vezes que eu falhei com quem eu amo. Tu já me perdoaste na cruz. Me ajuda a parar de me castigar.",
-      "prompt_imagem": "a calm starry night sky over dark quiet hills, deep blue tones",
+      "prompt_imagem": "a small waterfall flowing into a clear green pool surrounded by ferns",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "E agora, Senhor, eu ouço a Tua voz no versículo dez: Aquietai-vos, e sabei que eu sou Deus.",
-      "prompt_imagem": "a perfectly still lake at night under a sky full of stars, mirror reflection",
+      "prompt_imagem": "a cliff over the ocean at golden hour with soft clouds and calm sea",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Aquietai-vos. Não é uma ordem dura. É um convite de Pai. Para de lutar sozinho. Para de tentar resolver tudo antes de dormir. Eu sou Deus. Você não precisa ser.",
-      "prompt_imagem": "a vast starry night sky over a calm desert valley, peaceful and silent",
+      "prompt_imagem": "a snowy pine forest under a peaceful starry sky",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Então eu me aquieto. Eu solto os ombros. Eu solto a respiração. Eu solto o amanhã. O amanhã já está nas Tuas mãos antes mesmo de chegar.",
-      "prompt_imagem": "soft mist over quiet hills at night with the moon low on the horizon",
+      "prompt_imagem": "a tropical beach with palm trees at twilight, calm water, first stars",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "E se o sono demorar a chegar, Senhor, que os meus pensamentos não voltem para o medo. Que eles voltem para Ti. Para as Tuas promessas. Para o Teu cuidado comigo.",
-      "prompt_imagem": "a soft moon rising slowly over dark quiet hills, gentle silver light",
+      "prompt_imagem": "sunlight breaking through clouds over green mountains and a valley",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Obrigado, Senhor, porque até aqui Tu me sustentaste. Obrigado pelo ar que eu respiro, pela cama onde eu deito, e pela Tua presença que não vai embora quando eu fecho os olhos.",
-      "prompt_imagem": "a simple wool bed mat in a quiet stone room lit by a clay oil lamp, peaceful night",
+      "prompt_imagem": "a calm lake with water lilies at dusk, soft warm light",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Obrigado, Senhor, pelas coisas pequenas que eu nem percebi hoje. O café, o abraço, a mensagem de alguém, o caminho de volta para casa. Eu não quero dormir reclamando. Eu quero dormir agradecendo.",
-      "prompt_imagem": "a small clay oil lamp glowing on a rough wooden table at night",
+      "prompt_imagem": "a misty forest at night with moonlight through the trees",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Obrigado pelas portas que Tu fechaste e que eu não entendi. Hoje eu não entendo, mas um dia eu vou ver que Tu estavas me guardando. Eu confio no Teu jeito de cuidar.",
-      "prompt_imagem": "a still lake at night reflecting the moon and stars",
+      "prompt_imagem": "golden wheat fields swaying under a warm sunset",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "E se você que está me ouvindo não consegue agradecer por nada hoje, tudo bem. Agradeça só por estar vivo. Por ter chegado até esta noite. Isso já é graça. Isso já é Deus.",
-      "prompt_imagem": "an old olive tree on a hillside under silver moonlight",
+      "prompt_imagem": "a quiet bay with crystal clear water and rocks at sunrise",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "O Senhor dos Exércitos está conosco; o Deus de Jacó é o nosso refúgio. Eu creio nisso. Esta noite eu descanso nisso.",
-      "prompt_imagem": "an ancient stone fortress wall glowing in moonlight under a starry sky",
+      "prompt_imagem": "northern lights glowing softly over a frozen lake and pine trees",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "E você que está orando comigo… se você tem um pedido, escreva agora nos comentários. Pode ser só o primeiro nome de alguém. Eu vou ler e vou orar por ele.",
-      "prompt_imagem": "many tiny warm lights of a distant village in a valley at night, stars above",
+      "prompt_imagem": "a winding stream through a mossy forest, soft rays of light",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Você não está sozinho nessa luta. Tem gente orando com você agora mesmo, em muitos lugares do Brasil, nesta mesma hora.",
-      "prompt_imagem": "the Milky Way stretching over dark hills, a few tiny distant oil lamp lights below",
+      "prompt_imagem": "a vast canyon at sunset with warm orange light",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Senhor, agora eu oro por cada pedido que está sendo escrito nos comentários deste vídeo. Tu conheces cada nome. Cada lágrima por trás de cada palavra. Responde, Pai, do jeito que só Tu sabes responder.",
-      "prompt_imagem": "a small stone house in a quiet valley at night, one warm window, stars above",
+      "prompt_imagem": "a hammock between palm trees on an empty beach at sunset",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Pela mãe que pediu pelo filho. Pelo pai desempregado. Pela pessoa que está sozinha e não tem com quem conversar. Pelo casal que está quase desistindo. Senhor, visita cada uma dessas casas esta noite.",
-      "prompt_imagem": "soft mist over quiet hills with the moon low on the horizon",
+      "prompt_imagem": "a peaceful meadow with a single tree under a starry sky",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "E pela pessoa que está assistindo e pensa: ninguém ora por mim. Eu estou orando por você agora. E muito antes de mim, Jesus já intercedia por você. Você é lembrado. Você é amado.",
-      "prompt_imagem": "a gentle river flowing between rocks at night, moonlight shimmering",
+      "prompt_imagem": "a calm turquoise sea at sunset with gentle waves on a quiet sandy beach",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Senhor, e se tem alguém assistindo que está longe de Ti há muito tempo… que parou de orar, que se decepcionou, que acha que já errou demais… fala com essa pessoa agora.",
-      "prompt_imagem": "the Milky Way stretching over dark hills, peaceful and silent",
+      "prompt_imagem": "a tall waterfall in a lush green rainforest, soft mist, sun rays through the trees",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Você não está aqui por acaso. A porta da casa do Pai nunca fechou para você. Não importa o que você fez nem quanto tempo passou. Ele está correndo na sua direção, como o pai do filho pródigo.",
-      "prompt_imagem": "moonlight through a small stone window onto a simple wool blanket",
+      "prompt_imagem": "a peaceful forest path covered in golden light at dawn, tall trees, morning mist",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Se você quer voltar, diga só isso no seu coração: Jesus, eu volto para Ti. Eu preciso de Ti. Entra na minha vida de novo. Ele ouviu. E o céu se alegra com você esta noite.",
-      "prompt_imagem": "a narrow stone path up a quiet hill under the stars",
+      "prompt_imagem": "a still mountain lake reflecting snowy peaks under a starry night sky",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Antes de terminar, eu quero deixar com você algumas promessas de Deus para esta noite. Não precisa decorar. Só receba. Elas são para você.",
-      "prompt_imagem": "a vast starry sky over a calm desert valley",
+      "prompt_imagem": "rolling green hills with wildflowers under a soft pink sunset sky",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Ele disse: Vinde a mim, todos os que estais cansados e oprimidos, e eu vos aliviarei. Se você está cansado, Ele não está te cobrando. Ele está te chamando para descansar.",
-      "prompt_imagem": "first faint light of dawn behind quiet hills, stars fading",
+      "prompt_imagem": "a gentle river flowing over smooth stones in a quiet forest, soft evening light",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Ele disse: Não temas, porque eu sou contigo; não te assombres, porque eu sou teu Deus; eu te fortaleço, e te ajudo, e te sustento. Você não vai enfrentar o amanhã sozinho.",
-      "prompt_imagem": "a field of wild grass moving gently under the moon",
+      "prompt_imagem": "ocean waves washing softly on a deserted beach under the full moon",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Está escrito: Eis que não tosquenejará nem dormirá o guarda de Israel. Enquanto você dorme, Ele vigia. Ele não cochila. Nem por um segundo.",
-      "prompt_imagem": "an ancient stone well in a quiet village courtyard at night",
+      "prompt_imagem": "a field of lavender at golden hour with soft clouds",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "E Davi orou assim, numa das noites mais difíceis da vida dele: Em paz também me deitarei e dormirei, porque só tu, Senhor, me fazes habitar em segurança. Que essa seja a sua oração agora.",
-      "prompt_imagem": "night clouds parting to reveal the full moon over still water",
+      "prompt_imagem": "a quiet wooden dock on a misty lake at sunrise",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Agora vamos ficar um momento em silêncio diante de Deus. Respire fundo… segure um pouquinho… e solte devagar. Mais uma vez. Inspire a paz de Deus. Solte o peso do dia.",
-      "prompt_imagem": "a lone cedar tree on a ridge under a sky full of stars",
+      "prompt_imagem": "the Milky Way over calm mountains and a dark blue valley",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Você não precisa dizer nada. Deus entende o silêncio. Ele entende as lágrimas. Ele entende até aquilo que você não consegue colocar em palavras. Só fique aqui, com Ele.",
-      "prompt_imagem": "a calm starry night sky over dark quiet hills, deep blue tones",
+      "prompt_imagem": "a small waterfall flowing into a clear green pool surrounded by ferns",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "E para terminar, eu quero ler para você o começo desse salmo, bem devagar. Só escute. Deixe essas palavras entrarem.",
-      "prompt_imagem": "a small clay oil lamp glowing on a rough wooden table at night",
+      "prompt_imagem": "a cliff over the ocean at golden hour with soft clouds and calm sea",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Deus é o nosso refúgio e fortaleza, socorro bem presente na angústia. Pelo que não temeremos, ainda que a terra se mude, e ainda que os montes se transportem para o meio dos mares.",
-      "prompt_imagem": "a still lake at night reflecting the moon and stars",
+      "prompt_imagem": "a snowy pine forest under a peaceful starry sky",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Ainda que as águas rujam e se perturbem, ainda que os montes se abalem pela sua braveza. Há um rio cujas correntes alegram a cidade de Deus, o santuário das moradas do Altíssimo.",
-      "prompt_imagem": "an old olive tree on a hillside under silver moonlight",
+      "prompt_imagem": "a tropical beach with palm trees at twilight, calm water, first stars",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Deus está no meio dela; não será abalada; Deus a ajudará ao romper da manhã. Ao romper da manhã… Amanhã cedo, quando você acordar, Ele já vai estar lá.",
-      "prompt_imagem": "a small stone house in a quiet valley at night, one warm window, stars above",
+      "prompt_imagem": "sunlight breaking through clouds over green mountains and a valley",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Aquietai-vos e sabei que eu sou Deus. O Senhor dos Exércitos está conosco; o Deus de Jacó é o nosso refúgio.",
-      "prompt_imagem": "soft mist over quiet hills with the moon low on the horizon",
+      "prompt_imagem": "a calm lake with water lilies at dusk, soft warm light",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Se esta oração te ajudou, inscreva-se no canal para orarmos juntos toda noite. E mande este vídeo para alguém que também está passando por uma tempestade.",
-      "prompt_imagem": "calm sea after a storm at night, clouds parting to reveal the moon",
+      "prompt_imagem": "a misty forest at night with moonlight through the trees",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Que o Deus que é refúgio e fortaleza guarde o seu sono esta noite. Que Ele acalme a sua mente, cure o seu coração e te acorde com forças novas.",
-      "prompt_imagem": "first faint light of dawn on the horizon behind quiet hills, stars fading",
+      "prompt_imagem": "golden wheat fields swaying under a warm sunset",
       "vazia": true,
       "animar": false
     },
     {
       "trecho": "Em nome de Jesus… amém. Fique agora em silêncio. A música vai continuar por alguns minutos. Durma em paz. Você não está sozinho.",
-      "prompt_imagem": "a vast starry night sky over still dark hills and a quiet lake, the Milky Way glowing softly",
+      "prompt_imagem": "a quiet bay with crystal clear water and rocks at sunrise",
       "vazia": true,
       "animar": false
     }

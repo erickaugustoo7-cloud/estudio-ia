@@ -95,11 +95,12 @@ O que os grandes canais de oração fazem e nós não fazíamos:
   com movimento de câmera e `"animar": false`). Assim a oração não depende da cota semanal do Kaggle.
 - Estrutura: acolhida em 2ª pessoa (você) → convite para orar junto → oração em 1ª pessoa parafraseando um salmo ou
   promessa bíblica → pedido nos comentários + inscreva-se → bênção final. Original, sem copiar orações prontas.
-- Imagens de noite, paz e natureza da época (céu estrelado, colinas, lago, oliveiras, lamparina de barro). Nada de
-  lamparina/lanterna de vidro, casas modernas, móveis modernos. Varie as imagens: ~20 s cada, sem repetir a mesma
-  paisagem em sequência.
+- **Imagens (desde 16/11, pedido do Eric): paisagens BONITAS e de paz do mundo real, nada de época** — mar ao pôr do sol,
+  praia ao luar, floresta com neblina, cachoeiras, rios, lagos com montanhas, campos floridos, céu estrelado, aurora.
+  Sem pessoas, sem construções, sem texto. Varie: nunca duas paisagens do mesmo tipo seguidas. Copie `estilo_imagem`,
+  `prefixo_imagem`, `prefixo_video` e `epoca_imagem` do modelo do Salmo 46. (Filmes bíblicos continuam com imagens de época.)
 - Varie o tema a cada dia para não parecer conteúdo repetido (motivo nº 1 de recusa na monetização).
 
 ## Regras de imagem
-As mesmas de `docs/REGRAS_FIXAS.md`: nenhum rosto, pessoas só minúsculas ao longe, nada moderno, prompts com
-no máximo 3–4 elementos, objetos da época pelo nome (barro, pedra, madeira, lã, linho, bronze).
+Filmes: as mesmas de `docs/REGRAS_FIXAS.md`: nenhum rosto, pessoas só minúsculas ao longe, nada moderno, prompts com
+no máximo 3–4 elementos, objetos da época pelo nome (barro, pedra, madeira, lã, linho, bronze). Orações: só paisagens (acima).
