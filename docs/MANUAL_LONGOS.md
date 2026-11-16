@@ -6,7 +6,7 @@ Meta do Eric (09/11): monetizar rápido — 1.000 inscritos e 4.000 horas assist
 ## Qual vídeo fazer hoje
 - **Quarta e sábado: FILME bíblico** (12–20 min). Pauta: primeira linha não comentada de `pautas/filmes.txt`.
   Modelo aprovado: `roteiros_animados/jose_do_egito.json`.
-- **Demais dias: ORAÇÃO PARA DORMIR** (~7 min de oração + 20 min só de música). Pauta: primeira linha não comentada de
+- **Demais dias: ORAÇÃO PARA DORMIR** (~20–22 min de oração FALADA, sem cauda de música — decisão do Eric em 16/11: a música de 20 min não segurava o público). Pauta: primeira linha não comentada de
   `pautas/oracoes_longas.txt`. Modelo aprovado (tom humano, 16/11): `roteiros_animados/oracao_noite_refugio_salmo46.json`.
 - Remova a linha usada da pauta. Se a pauta acabar, escolha um tema novo que ainda não exista em `roteiros_animados/`.
 
@@ -63,6 +63,16 @@ O que os grandes canais de oração fazem e nós não fazíamos:
 6. Inscreva-se falado antes do Amém (regra já existente) e bênção final em 2ª pessoa ("Durma em paz. Você não está sozinho.").
 - `"estilo_voz"`: "emocionado e íntimo, como quem ora de verdade por alguém que sofre; voz baixa, pausada, com ternura"
   (vai como metadado da voz Gemini; não é narrado).
+
+### Duração e estrutura (padrão desde 16/11)
+- `"tipo": "oracao"`, **2000–2800 palavras, 40–90 cenas** (~20 s cada), `"palavras_por_bloco": 520`, SEM `cauda_musical_min`.
+- Música só de fundo, baixinha, sob a voz (`volume_musica` ~0.2). Nada de 20 min só de música.
+- `capitulos` obrigatórios (4–12), para o público pular para a parte que precisa. Sequência que funciona:
+  Acolhida → o salmo/promessa do dia → oração "do jeito que eu estou" → pela mente/ansiedade → pela família e filhos →
+  pela saúde → pelas contas e trabalho → perdão (dos outros e de si) → o versículo central → gratidão → pedidos dos
+  comentários → quem está longe de Deus → promessas para a noite (3–4 versículos curtos, Almeida) → silêncio guiado
+  com respiração → leitura lenta do salmo → inscreva-se → bênção final → amém.
+- Modelo completo: `roteiros_animados/oracao_noite_refugio_salmo46.json`.
 
 ### Título e miniatura (padrão desde 16/11)
 - `titulo_youtube` emocional e direto, em 2ª pessoa ou pedido: "ORE ISSO ANTES DE DORMIR | Entregue Sua Ansiedade a Deus",

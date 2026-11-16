@@ -484,7 +484,7 @@ CAPA_PADRAO = ("photorealistic emotional portrait of a Brazilian {quem} with eye
 def _imagem_capa(r, canal, pasta):
     """Foto emocional para a miniatura (pessoa orando à direita, céu limpo à esquerda para o texto). Gerada logo no
     início para pegar a cota do Cloudflare antes das cenas. Pessoa genérica gerada por IA; revisão contra deformidades."""
-    cauda = float(r.get("cauda_musical_min", 0) or 0)
+    cauda = float(r.get("cauda_musical_min", 0) or 0) or r.get("tipo") == "oracao"
     prompt = r.get("capa_prompt") or CAPA_PADRAO.format(
         quem=random.choice(["woman in her thirties", "man in his forties", "woman in her fifties"]),
         ceu="deep blue night sky with stars and moonlight" if cauda else "golden sunrise")
@@ -943,7 +943,8 @@ def main():
         t0 += d
     if horiz and foto_capa:  # miniatura emocional (pessoa orando + texto branco limpo)
         if not publicador.capa_emocional(foto_capa, r.get("texto_capa") or [r["titulo"]], pasta / "thumb.jpg",
-                                         subtitulo=r.get("selo_capa") or ("Oração da noite" if cauda else "Filme bíblico")):
+                                         subtitulo=r.get("selo_capa") or ("Oração da noite" if (cauda or r.get("tipo") == "oracao")
+                                                                                 else "Filme bíblico")):
             foto_capa = None
     if horiz and not foto_capa:  # reserva: miniatura a partir da ilustração mais forte (sem legendas)
         k = int(r.get("cena_capa", 0))
