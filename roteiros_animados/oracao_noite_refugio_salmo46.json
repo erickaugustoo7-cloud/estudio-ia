@@ -11,7 +11,7 @@
   "plataformas": [
     "youtube"
   ],
-  "cena_capa": 5,
+  "cena_capa": 6,
   "texto_capa": [
     "QUANDO TUDO",
     "DESABA",
@@ -57,6 +57,12 @@
     {
       "trecho": "Talvez você nem saiba orar direito. Tudo bem. Deus não está procurando palavras bonitas. Ele está procurando um coração sincero. E o seu já chegou até aqui.",
       "prompt_imagem": "a still mountain lake reflecting snowy peaks under a starry night sky",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Antes de começarmos, se você ainda não é inscrito, inscreva-se e ative o sininho. Assim, toda noite, a gente ora junto.",
+      "prompt_imagem": "a calm turquoise sea at sunset with gentle waves on a quiet sandy beach",
       "vazia": true,
       "animar": false
     },
@@ -561,7 +567,7 @@
   ],
   "short_isca": {
     "cenas": [
-      48
+      49
     ],
     "texto_topo": "PARE DE LUTAR SOZINHO",
     "titulo": "Você não precisa ser Deus esta noite",
@@ -578,47 +584,47 @@
       "titulo": "Se o seu dia foi pesado"
     },
     {
-      "cena": 4,
+      "cena": 5,
       "titulo": "Salmo 46: Deus é o nosso refúgio"
     },
     {
-      "cena": 8,
+      "cena": 9,
       "titulo": "Oração: do jeito que eu estou"
     },
     {
-      "cena": 13,
+      "cena": 14,
       "titulo": "Jesus acalma a tempestade"
     },
     {
-      "cena": 17,
+      "cena": 18,
       "titulo": "Pela mente cansada"
     },
     {
-      "cena": 22,
+      "cena": 23,
       "titulo": "Pela saúde e pelas contas"
     },
     {
-      "cena": 32,
+      "cena": 33,
       "titulo": "Pela família e pelos filhos"
     },
     {
-      "cena": 42,
+      "cena": 43,
       "titulo": "Perdão"
     },
     {
-      "cena": 47,
+      "cena": 48,
       "titulo": "Aquietai-vos"
     },
     {
-      "cena": 61,
+      "cena": 62,
       "titulo": "Pelos seus pedidos"
     },
     {
-      "cena": 71,
+      "cena": 72,
       "titulo": "Promessas para esta noite"
     },
     {
-      "cena": 84,
+      "cena": 85,
       "titulo": "Bênção final"
     }
   ],

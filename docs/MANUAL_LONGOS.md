@@ -95,6 +95,9 @@ O que os grandes canais de oração fazem e nós não fazíamos:
   são assistidos várias vezes — "Em paz me deito" teve 156% de retenção). Opcional: `"trecho"` = cópia exata de parte
   da cena para recortar só aquela frase. O sistema monta o Short vertical com a mesma voz e as mesmas imagens e abre
   uma Issue separada; o Eric publica depois da oração e liga o Short a ela em "Vídeo relacionado".
+- **Convite para se inscrever NO COMEÇO também (16/11 — o canal cresce devagar):** até a cena 8, logo depois da acolhida:
+  "Antes de começarmos, se você ainda não é inscrito, inscreva-se e ative o sininho para orarmos juntos todos os dias."
+  O vídeo já mostra sozinho o convite escrito aos 60 s, no meio e no fim.
 - **Convite para se inscrever (falado):** numa das 3 últimas cenas, ANTES do "Amém" final, uma frase curta como
   "Se esta oração te ajudou, inscreva-se no canal para orarmos juntos toda noite." (o validador cobra "inscreva").
 - **Sem GPU:** use `"fonte_imagem": "cloudflare"` (imagens no Cloudflare/Pollinations, revisão rigorosa, todas as cenas

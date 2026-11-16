@@ -59,6 +59,9 @@ elif r.get("formato") == "horizontal":  # vídeo longo do YouTube (docs/MANUAL_L
     for linha in r.get("texto_capa", []):
         if len(linha.split()) > 3:
             erros.append(f"texto_capa longo demais: '{linha}' (até 3 palavras por linha)")
+    if oracao and not any("inscrev" in c["trecho"].lower() for c in cenas[:8]):
+        erros.append("oração: convite falado para se inscrever também no COMEÇO (até a cena 8), ex.: 'Antes de começarmos, "
+                     "se você ainda não é inscrito, inscreva-se e ative o sininho para orarmos juntos todos os dias.'")
     if oracao and not any("inscreva" in c["trecho"].lower() for c in cenas[-3:]):
         erros.append("oração sem convite falado para se inscrever nas 3 últimas cenas (ex.: 'inscreva-se no canal')")
     tyt = r.get("titulo_youtube", "")

@@ -152,6 +152,10 @@ def main():
                 "\n[Events]"), 1)
             t += f"Dialogue: 1,{montador._ts(0)},{montador._ts(2.6)},Topo,,0,0,0,,{gancho}\n"
             t += f"Dialogue: 2,{montador._ts(0)},{montador._ts(dur)},Sig,,0,0,0,,{canal['nome'].upper()}\n"
+            t = t.replace("\n[Events]", "Style: CtaF,Montserrat,48,&H00FFFFFF,&H00FFFFFF,&H000000C8,&H000000C8,-1,0,0,0,"
+                          "100,100,1,0,3,18,0,2,80,80,330,1\n\n[Events]", 1)
+            t += (f"Dialogue: 3,{montador._ts(max(0, dur - 4))},{montador._ts(dur)},CtaF,,0,0,0,,"
+                  f"SIGA O {canal['nome'].upper()}\\NUMA PALAVRA DE FÉ TODO DIA\n")
             legendas.write_text(t, encoding="utf-8")
             video = montador.montar(canal, imagens, tempos, mp3, legendas, pasta, videos=videos)
             log("orquestrador", f"vídeos reais de paisagem: {sum(1 for v in videos.values() if v)}/{len(videos)} cenas")

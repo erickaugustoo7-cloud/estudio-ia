@@ -1072,6 +1072,21 @@ def main():
         t += f"Dialogue: 2,{_ts(0)},{_ts(total)},Serie,,0,0,0,,{selo.upper()}\n"
     if r.get("referencia"):
         t += f"Dialogue: 1,{_ts(max(0, total - 3.2))},{_ts(total)},Ref,,0,0,0,,{r['referencia'].upper()}\n"
+    # convite VISUAL para seguir/inscrever-se (pedido do Eric, 16/11): no fim de todo vídeo e, nos longos, também no
+    # começo (após a acolhida) e no meio — além do convite falado
+    cta_estilo = ("Style: CtaF,Montserrat,{tam},&H00FFFFFF,&H00FFFFFF,&H000000C8,&H000000C8,-1,0,0,0,100,100,1,0,3,"
+                  "18,0,2,{m},{m},{mv},1\n")
+    t = t.replace("\n[Events]", (cta_estilo.format(tam=40, m=120, mv=150) if horiz else
+                                  cta_estilo.format(tam=48, m=80, mv=330)) + "\n[Events]", 1)
+    if horiz:
+        convite = "INSCREVA-SE NO MENSAGEIRO DE FÉ  ·  ORAÇÃO TODOS OS DIAS"
+        momentos = [(60.0, 8.0), (total * 0.5, 8.0), (max(0, total - 25), 20.0)] if total > 300 else [(max(0, total - 8), 8.0)]
+    else:
+        convite = "SIGA O MENSAGEIRO DE FÉ\\NUMA PALAVRA DE FÉ TODO DIA" if r.get("tipo") != "novela" else \
+            "SIGA PARA VER O PRÓXIMO EPISÓDIO"
+        momentos = [(max(0, total - 4.0), 4.0)]
+    for ini_c, dur_c in momentos:
+        t += f"Dialogue: 3,{_ts(ini_c)},{_ts(min(total, ini_c + dur_c))},CtaF,,0,0,0,,{convite}\n"
     if horiz:  # mesma identidade, posições e tamanhos ajustados para 16:9
         t = (t.replace("PlayResX: 1080\nPlayResY: 1920", "PlayResX: 1920\nPlayResY: 1080")
              .replace("Style: Base,Montserrat,82,", "Style: Base,Montserrat,66,").replace("7,3,5,70,70,0,1", "7,3,5,120,120,0,1")
