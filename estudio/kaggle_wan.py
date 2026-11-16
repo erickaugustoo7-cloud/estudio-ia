@@ -498,6 +498,9 @@ def _short_isca(r, canal, imgs, tempos, palavras, mp3, pasta) -> None:
     log("wan", f"short isca montado: {d:.1f}s, {wh}")
     if wh != f"{W2},{H2}":
         raise RuntimeError(f"short isca saiu {wh}, esperado {W2}x{H2}")
+    for k, tq in enumerate((1.5, d / 2, max(0.5, d - 1.5))):  # prévias para revisão (vão para a branch previas)
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{tq:.2f}", "-i", str(video), "-frames:v", "1",
+                        "-vf", "scale=540:-1", str(pasta / f"previa_isca_{k}.jpg")], check=False)
     no_tg = publicador.telegram_video(video, f"🎯 [Short isca] {titulo} · {d:.0f}s", texto)
     aviso = (f"Depois de publicar, no YouTube Studio: Editar este Short → Vídeo relacionado → escolha a oração "
              f"\"{r.get('titulo_youtube', r['titulo'])}\". É isso que leva quem assistiu o Short para as horas.")
@@ -631,6 +634,14 @@ def main():
                  "epoca_imagem": r.get("epoca_imagem", "")}
     if r.get("moderno"):  # novela cristã de hoje: rostos permitidos, personagens fixos, ambiente moderno
         canal_img.update({"moderno": True, "regra_visual_pessoas": r.get("personagens_regra", "")})
+    if r.get("tipo") != "novela" and not os.getenv("USAR_KAGGLE"):
+        # desde 16/11 (decisão do Eric): o Kaggle fica só para a novela; os demais vídeos usam paisagens REAIS
+        # (Pixabay) com imagens geradas fora do Kaggle apenas como reserva
+        r["fundo_video"] = "pixabay"
+        if r.get("fonte_imagem", "kaggle") == "kaggle":
+            r["fonte_imagem"] = "cloudflare"
+        for c in r["cenas"]:
+            c["animar"] = False
     pasta = SAIDA / f"wan_{caminho.stem}_{datetime.now():%Y%m%d_%H%M%S}"
     pasta.mkdir(parents=True)
     foto_capa = None
@@ -1025,7 +1036,7 @@ def main():
         t += f"Dialogue: 1,{_ts(max(0, total - 3.2))},{_ts(total)},Ref,,0,0,0,,{r['referencia'].upper()}\n"
     if horiz:  # mesma identidade, posições e tamanhos ajustados para 16:9
         t = (t.replace("PlayResX: 1080\nPlayResY: 1920", "PlayResX: 1920\nPlayResY: 1080")
-             .replace("Style: Base,Montserrat,82,", "Style: Base,Montserrat,62,").replace(",70,70,560,1", ",120,120,95,1")
+             .replace("Style: Base,Montserrat,82,", "Style: Base,Montserrat,66,").replace("7,3,5,70,70,0,1", "7,3,5,120,120,0,1")
              .replace(",70,70,300,1", ",120,120,110,1").replace(",70,70,170,1", ",120,120,40,1")
              .replace(",70,70,330,1", ",120,120,190,1").replace("6,0,1,2,1,2,70,70,110,1", "6,0,1,2,1,2,70,70,28,1"))
     ass.write_text(t, encoding="utf-8")

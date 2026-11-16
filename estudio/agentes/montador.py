@@ -70,7 +70,7 @@ def gerar_legendas(palavras: list[dict], destino: Path) -> Path:
         "BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, "
         "Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding\n"
         "Style: Base,Montserrat,82,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,-1,0,0,0,100,100,1,0,1,"
-        "7,3,2,70,70,560,1\n\n"
+        "7,3,5,70,70,0,1\n\n"  # legenda no CENTRO da tela (pedido do Eric, 16/11)
         "[Events]\nFormat: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text\n"
     )
     blocos = blocos_legenda(palavras)
