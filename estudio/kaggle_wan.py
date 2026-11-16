@@ -466,6 +466,7 @@ def _short_isca(r, canal, imgs, tempos, palavras, mp3, pasta) -> None:
     tx += f"Dialogue: 2,{_ts(0)},{_ts(dur)},Sig,,0,0,0,,{canal['nome'].upper()}\n"
     tx += f"Dialogue: 3,{_ts(max(0, dur - 3.5))},{_ts(dur)},Cta,,0,0,0,,{cfg.get('cta', '▶ ORAÇÃO COMPLETA NO VÍDEO ABAIXO')}\n"
     ass.write_text(tx, encoding="utf-8")
+    shutil.copy(ass, pasta / "kaggle_log_isca_legenda.txt")  # vai para a branch previas (diagnóstico)
     musica = out / "musica.mp3"
     tem_musica = _preparar_musica(canal, musica, dur)
     vol = r.get("volume_musica", 0.12)
