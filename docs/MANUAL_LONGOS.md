@@ -7,7 +7,7 @@ Meta do Eric (09/11): monetizar rápido — 1.000 inscritos e 4.000 horas assist
 - **Quarta e sábado: FILME bíblico** (12–20 min). Pauta: primeira linha não comentada de `pautas/filmes.txt`.
   Modelo aprovado: `roteiros_animados/jose_do_egito.json`.
 - **Demais dias: ORAÇÃO PARA DORMIR** (~7 min de oração + 20 min só de música). Pauta: primeira linha não comentada de
-  `pautas/oracoes_longas.txt`. Modelo aprovado: `roteiros_animados/oracao_noite_pedidos_salmo121.json`.
+  `pautas/oracoes_longas.txt`. Modelo aprovado (tom humano, 16/11): `roteiros_animados/oracao_noite_refugio_salmo46.json`.
 - Remova a linha usada da pauta. Se a pauta acabar, escolha um tema novo que ainda não exista em `roteiros_animados/`.
 
 ## Passo a passo
@@ -30,8 +30,8 @@ Nunca publique nada, nunca mexa em segredos/tokens, não altere o código do sis
 ## Campos obrigatórios (além dos do modelo)
 - `titulo_youtube` (até 100 caracteres, padrão "TEMA EM CAIXA ALTA | complemento com a palavra que as pessoas buscam").
   Ex.: "ORAÇÃO DA NOITE | Salmo 23 para Dormir em Paz", "MOISÉS | O Filme Bíblico (Êxodo 1–14)".
-- `texto_capa`: 2 linhas curtas para a miniatura (ex.: ["SALMO 23", "DURMA EM PAZ"]); `cena_capa`: índice da cena
-  com a imagem mais forte (sem texto, sem gente em destaque).
+- `texto_capa`: 3 linhas (curta / PALAVRA-CHAVE / complemento) — ver "Título e miniatura" abaixo; `cena_capa`: índice da
+  cena com a imagem mais forte (só é usada se a foto emocional da miniatura falhar).
 - **Capa que faz clicar (sem mentir):** `texto_capa` = 2 linhas de 1 a 3 palavras com a emoção ou o conflito
   (filme: "VENDIDO" / "PELOS IRMÃOS", "O MAR" / "SE ABRIU"; oração: "SALMO 23" / "DURMA EM PAZ", "ANSIEDADE?" / "ORE COMIGO").
   O selo ("FILME BÍBLICO"/"ORAÇÃO PARA DORMIR") e o rodapé ("+20 min de música"/"Filme completo") entram sozinhos;
@@ -49,7 +49,31 @@ Nunca publique nada, nunca mexa em segredos/tokens, não altere o código do sis
 - No máximo 10 cenas com `"animar": true` — as mais cinematográficas (céu, água, fogo, tempestade, luz). As outras
   ganham movimento de câmera automático.
 
-## Oração para dormir
+## Oração para dormir — tom HUMANO e EMOCIONAL (padrão desde 16/11, referência: canal Grace Oasis, 835 mil inscritos)
+O que os grandes canais de oração fazem e nós não fazíamos:
+1. **Abre falando com a PESSOA, não com Deus** (cenas 1–3): "Se você está assistindo isso agora, talvez o seu dia tenha
+   sido pesado. Talvez ninguém tenha perguntado como você está. Deus perguntou. E Ele trouxe você até aqui."
+   Nomeie dores concretas do dia a dia (conta atrasada, filho longe, diagnóstico, casamento frio, solidão, cansaço).
+2. **Convida a orar junto**: "Feche os olhos. Coloque a mão no peito. Respire fundo… e repita comigo, no seu coração."
+3. **A oração em 1ª pessoa, como gente de verdade fala com Deus**: frases curtas, pausas ("…"), confissões honestas
+   ("Senhor, eu não vou fingir que estou bem."), pedidos específicos, entregas ("Eu solto isso agora nas Tuas mãos."),
+   gratidão no fim. Nada de linguagem de livro ou de sermão; nada de frases genéricas em sequência.
+4. **Escritura no meio, explicada em 1 frase** ("Davi escreveu isso fugindo… e mesmo assim dormiu em paz.").
+5. **Momento de pedido do público**: "Se você tem um pedido, escreva nos comentários. Eu vou orar por ele." (o Eric responde.)
+6. Inscreva-se falado antes do Amém (regra já existente) e bênção final em 2ª pessoa ("Durma em paz. Você não está sozinho.").
+- `"estilo_voz"`: "emocionado e íntimo, como quem ora de verdade por alguém que sofre; voz baixa, pausada, com ternura"
+  (vai como metadado da voz Gemini; não é narrado).
+
+### Título e miniatura (padrão desde 16/11)
+- `titulo_youtube` emocional e direto, em 2ª pessoa ou pedido: "ORE ISSO ANTES DE DORMIR | Entregue Sua Ansiedade a Deus",
+  "Senhor, Cuida da Minha Casa Esta Noite | Oração da Noite", "Deus Não Dorme: Durma em Paz Hoje | Salmo 121".
+- `texto_capa` = **3 linhas**: curta / PALAVRA-CHAVE / complemento (a linha mais curta sai ENORME). Ex.:
+  ["ORE ISSO", "ANTES", "DE DORMIR"], ["SENHOR,", "CUIDA", "DA MINHA CASA"], ["ENTREGUE", "TUDO", "A DEUS HOJE"].
+- A miniatura agora é gerada sozinha no estilo dos grandes canais: foto emocional de uma pessoa orando à direita,
+  céu à esquerda, texto branco limpo e "O R A Ç Ã O  D A  N O I T E" embaixo. Opcional: `capa_prompt` (inglês) para
+  escolher a pessoa/cena da foto (ex.: "a tired Brazilian mother praying at a kitchen table at night...").
+
+## Regras que continuam
 - **Short isca (obrigatório):** `"short_isca": {"cenas": [i], "texto_topo": "DEUS NÃO DORME", "titulo": "...", "hashtags": [...]}`.
   Escolha a cena (ou 2 seguidas) com a frase mais forte e consoladora, 12–45 palavras (Short de 8–20 s; Shorts curtos
   são assistidos várias vezes — "Em paz me deito" teve 156% de retenção). Opcional: `"trecho"` = cópia exata de parte
@@ -59,8 +83,8 @@ Nunca publique nada, nunca mexa em segredos/tokens, não altere o código do sis
   "Se esta oração te ajudou, inscreva-se no canal para orarmos juntos toda noite." (o validador cobra "inscreva").
 - **Sem GPU:** use `"fonte_imagem": "cloudflare"` (imagens no Cloudflare/Pollinations, revisão rigorosa, todas as cenas
   com movimento de câmera e `"animar": false`). Assim a oração não depende da cota semanal do Kaggle.
-- Voz calma, em 1ª pessoa ("Senhor, esta noite..."), parafraseando um salmo ou promessa bíblica, versículo a versículo.
-  Original, sem copiar orações prontas. Termina convidando a descansar e entregar a noite a Deus.
+- Estrutura: acolhida em 2ª pessoa (você) → convite para orar junto → oração em 1ª pessoa parafraseando um salmo ou
+  promessa bíblica → pedido nos comentários + inscreva-se → bênção final. Original, sem copiar orações prontas.
 - Imagens de noite, paz e natureza da época (céu estrelado, colinas, lago, oliveiras, lamparina de barro). Nada de
   lamparina/lanterna de vidro, casas modernas, móveis modernos. `cena_cauda`: a imagem mais limpa (paisagem sem objetos),
   porque fica 20 min na tela.

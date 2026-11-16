@@ -57,6 +57,16 @@ elif r.get("formato") == "horizontal":  # vídeo longo do YouTube (docs/MANUAL_L
             erros.append(f"texto_capa longo demais: '{linha}' (até 3 palavras por linha)")
     if oracao and not any("inscreva" in c["trecho"].lower() for c in cenas[-3:]):
         erros.append("oração sem convite falado para se inscrever nas 3 últimas cenas (ex.: 'inscreva-se no canal')")
+    if oracao:  # tom humano (MANUAL_LONGOS.md, 16/11): acolhida falando com a pessoa + voz emocionada + capa de 3 linhas
+        abertura = " ".join(c["trecho"] for c in cenas[:3]).lower()
+        if "você" not in abertura:
+            erros.append("oração: as 3 primeiras cenas devem acolher a PESSOA em 2ª pessoa ('Se você está assistindo isso…')")
+        if not r.get("estilo_voz"):
+            erros.append('oração: falta "estilo_voz" (ex.: "emocionado e íntimo, voz baixa, pausada, com ternura")')
+        if len(r.get("texto_capa") or []) != 3:
+            erros.append("oração: texto_capa com 3 linhas (curta / PALAVRA-CHAVE / complemento)")
+        if "coment" not in " ".join(c["trecho"] for c in cenas).lower():
+            erros.append("oração: convide a escrever o pedido de oração nos comentários")
     if oracao:  # Short isca: trecho forte da oração, ligado a ela pelo "Vídeo relacionado" (MANUAL_LONGOS.md)
         isca = r.get("short_isca") or {}
         ids = isca.get("cenas") or []

@@ -301,6 +301,67 @@ def capa_youtube(origem: Path, linhas: list[str], destino: Path, segundo: float 
         return None
 
 
+def capa_emocional(origem: Path, linhas: list[str], destino: Path, subtitulo: str = "", marca: str = "MENSAGEIRO DE FÉ") -> Path | None:
+    """Miniatura no estilo dos grandes canais de oração (ex.: "PRAY THIS / BEFORE / BED"): foto emocional de alguém
+    orando à DIREITA, céu azul/dourado à esquerda com o texto branco limpo — 1 palavra ENORME (a linha mais curta),
+    as outras médias — e um subtítulo espaçado (ex.: O R A Ç Ã O  D A  N O I T E). Sem contorno grosso, só sombra suave."""
+    try:
+        from PIL import Image, ImageDraw, ImageFilter
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(origem), "-vf",
+                        "scale=1280:720:force_original_aspect_ratio=increase,crop=1280:720,"
+                        "eq=contrast=1.12:saturation=1.25:gamma=1.04,unsharp=5:5:0.7", "-q:v", "2", str(destino)], check=True)
+        img = Image.open(destino).convert("RGB")
+        # véu azul-noite à esquerda (onde fica o texto), sumindo até ~60% da largura
+        grad = Image.linear_gradient("L").rotate(90).resize((1280, 720))
+        grad = grad.point(lambda v: int(max(0, min(255, (v - 70) * 1.6))))
+        img = Image.composite(Image.new("RGB", img.size, (10, 22, 58)), img, grad.point(lambda v: int(v * 0.78)))
+        linhas = [x.upper().strip() for x in linhas if x and x.strip()][:3]
+        grande = min(range(len(linhas)), key=lambda k: (len(linhas[k]), abs(k - 1)))
+        larg_max, x0 = 690, 58
+        def caber(txt, tam, fonte_nome):
+            f = _fonte(fonte_nome, tam)
+            while ImageDraw.Draw(img).textlength(txt, font=f) > larg_max and tam > 40:
+                tam -= 4
+                f = _fonte(fonte_nome, tam)
+            return f, tam
+        blocos = []
+        for k, txt in enumerate(linhas):
+            f, tam = caber(txt, 200 if k == grande else 92, "Anton-Regular.ttf")
+            blocos.append((txt, f, tam))
+        sub_txt = "  ".join(" ".join(p) for p in subtitulo.upper().split()) if subtitulo else ""
+        fs = _fonte("Montserrat-Black.ttf", 30)
+        caixas = [f.getbbox(txt) for txt, f, _ in blocos]  # altura real das letras (Anton tem muito respiro em cima)
+        gap = 16
+        alturas = [b[3] - b[1] for b in caixas]
+        total = sum(alturas) + gap * (len(blocos) - 1) + (70 if sub_txt else 0)
+        y = max(84, int(372 - total / 2))
+        sombra = Image.new("L", img.size, 0)
+        ds = ImageDraw.Draw(sombra)
+        pos = []
+        for (txt, f, tam), b, h in zip(blocos, caixas, alturas):
+            pos.append((txt, f, y - b[1]))
+            ds.text((x0 + 4, y - b[1] + 6), txt, font=f, fill=255)
+            y += h + gap
+        y -= gap
+        img = Image.composite(Image.new("RGB", img.size, (0, 0, 0)), img,
+                              sombra.filter(ImageFilter.GaussianBlur(10)).point(lambda v: int(v * 0.75)))
+        d = ImageDraw.Draw(img)
+        for txt, f, yy in pos:
+            d.text((x0, yy), txt, font=f, fill=(255, 255, 255))
+        if sub_txt:
+            d.line((x0 + 4, y + 22, x0 + 250, y + 22), fill=(255, 255, 255), width=4)  # traço sob o título
+            d.text((x0 + 2, y + 38), sub_txt, font=fs, fill=(235, 240, 255))
+        if marca:  # assinatura discreta do canal no topo
+            fm = _fonte("Montserrat-Black.ttf", 24)
+            d.text((x0, 30), marca.upper(), font=fm, fill=(255, 255, 255))
+            d.line((x0, 62, x0 + 60, 62), fill=(255, 196, 60), width=4)
+        img.save(destino, quality=93)
+        return destino
+    except Exception as e:  # noqa: BLE001
+        log("publicador", f"miniatura emocional não gerada: {e}")
+        return None
+
+
 def _enviar_capa(auth: dict, video_id: str, capa: Path):
     try:
         r = requests.post(f"https://www.googleapis.com/upload/youtube/v3/thumbnails/set?videoId={video_id}",

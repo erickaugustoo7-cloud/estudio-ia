@@ -476,6 +476,39 @@ def _narrar_dialogo(r, canal_voz, pasta, narrador):
     return mp3, palavras, narrador.duracao(mp3), tempos
 
 
+CAPA_PADRAO = ("photorealistic emotional portrait of a Brazilian {quem} with eyes closed, praying with hands clasped near the face, "
+               "a single tear, soft warm rim light, placed on the RIGHT third of the frame, face and hands sharp; the LEFT two "
+               "thirds are an empty soft {ceu} sky with gentle bokeh, cinematic, shallow depth of field, 16:9, no text")
+
+
+def _imagem_capa(r, canal, pasta):
+    """Foto emocional para a miniatura (pessoa orando à direita, céu limpo à esquerda para o texto). Gerada logo no
+    início para pegar a cota do Cloudflare antes das cenas. Pessoa genérica gerada por IA; revisão contra deformidades."""
+    cauda = float(r.get("cauda_musical_min", 0) or 0)
+    prompt = r.get("capa_prompt") or CAPA_PADRAO.format(
+        quem=random.choice(["woman in her thirties", "man in his forties", "woman in her fifties"]),
+        ceu="deep blue night sky with stars and moonlight" if cauda else "golden sunrise")
+    cena = {"prompt_imagem": prompt, "largura": 1344, "altura": 768, "trecho": "miniatura de oração"}
+    canal_c = {**canal, "estilo_visual": "photorealistic cinematic photography", "moderno": True,
+               "regra_visual_pessoas": "one person, natural face and hands, no deformities, no text"}
+    chave = os.getenv("GEMINI_API_KEY")
+    for tent in range(3):
+        bruta = pasta / f"capa_t{tent}.png"
+        if not visual.gerar_uma(canal_c, cena, bruta, 777 + tent):
+            continue
+        jpg = pasta / f"capa_t{tent}.jpg"
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(bruta), "-q:v", "2", str(jpg)], check=True)
+        try:
+            from estudio.agentes.revisor_visual import _avaliar
+            res = _avaliar(chave, canal_c, cena, jpg, rigoroso=True) if chave else {"ok": True}
+        except Exception as e:  # noqa: BLE001
+            res = {"ok": True, "motivo": f"revisão indisponível ({e})"}
+        log("wan", f"foto da miniatura t{tent}: {'ok' if res.get('ok') else 'reprovada'} {res.get('motivo', '')[:150]}")
+        if res.get("ok"):
+            return jpg
+    return None
+
+
 def main():
     from estudio.agentes import montador, narrador
     from estudio.agentes.montador_hf import _preparar_musica
@@ -490,13 +523,20 @@ def main():
         canal_img.update({"moderno": True, "regra_visual_pessoas": r.get("personagens_regra", "")})
     pasta = SAIDA / f"wan_{caminho.stem}_{datetime.now():%Y%m%d_%H%M%S}"
     pasta.mkdir(parents=True)
+    foto_capa = None
+    if r.get("formato") == "horizontal" and r.get("capa_estilo", "emocional") == "emocional":
+        try:
+            foto_capa = _imagem_capa(r, canal, pasta)
+        except Exception as e:  # noqa: BLE001
+            log("wan", f"foto da miniatura falhou: {e}")
     narrado = all(c.get("trecho") for c in r["cenas"]) and not r.get("sem_narracao")
 
     # 1) narração primeiro: o tempo de cada cena define quantos quadros o Wan precisa gerar
     tempos, palavras, dur, mp3 = [4.0] * len(r["cenas"]), [], 0.0, None
     if narrado:
         texto = " ".join(c["trecho"] for c in r["cenas"])
-        canal_voz = {**canal, "gemini_tts": {**canal["gemini_tts"], "duracao_max": r.get("duracao_max", 20)}} \
+        canal_voz = {**canal, "gemini_tts": {**canal["gemini_tts"], "duracao_max": r.get("duracao_max", 20),
+                                             **({"estilo_curto": r["estilo_voz"]} if r.get("estilo_voz") else {})}} \
             if canal.get("gemini_tts") else canal
         limite = int(r.get("palavras_por_bloco", 170))
         dialogo = any(c.get("personagem") for c in r["cenas"])
@@ -901,7 +941,11 @@ def main():
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{t0 + d / 2:.2f}", "-i", str(video), "-frames:v", "1",
                         "-vf", "scale=540:-1", str(pasta / f"previa_{i}.jpg")], check=False)
         t0 += d
-    if horiz:  # miniatura do YouTube a partir da ilustração mais forte (sem legendas)
+    if horiz and foto_capa:  # miniatura emocional (pessoa orando + texto branco limpo)
+        if not publicador.capa_emocional(foto_capa, r.get("texto_capa") or [r["titulo"]], pasta / "thumb.jpg",
+                                         subtitulo=r.get("selo_capa") or ("Oração da noite" if cauda else "Filme bíblico")):
+            foto_capa = None
+    if horiz and not foto_capa:  # reserva: miniatura a partir da ilustração mais forte (sem legendas)
         k = int(r.get("cena_capa", 0))
         publicador.capa_youtube(imgs[min(k, len(imgs) - 1)], r.get("texto_capa") or [r["titulo"]], pasta / "thumb.jpg",
                                 selo=r.get("selo_capa") or ("Oração para dormir" if cauda else "Filme bíblico"),
