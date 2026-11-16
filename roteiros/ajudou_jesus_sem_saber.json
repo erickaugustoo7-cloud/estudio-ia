@@ -1,0 +1,63 @@
+{
+  "titulo": "Você pode ter ajudado Jesus sem saber",
+  "gancho_tela": "Eles nem perceberam que era Ele",
+  "estilo": "pintura",
+  "narracao": "Você pode ter ajudado Jesus esta semana sem perceber. Quem disse isso foi o próprio Jesus, em Mateus, capítulo vinte e cinco. Mas quem recebeu essa notícia ficou espantado. Por quê? Jesus descreve o dia em que o Rei vai reunir todas as nações diante dele. E ele diz a alguns: venham, benditos de meu Pai. Porque eu tive fome, e vocês me alimentaram. Tive sede, e me deram de beber. Era estrangeiro, e me acolheram. Precisei de roupa, e me vestiram. Fiquei doente, e cuidaram de mim. Estive preso, e foram me visitar. E eles não entendem. Senhor, quando foi que te vimos com fome? Eles nunca tinham visto Jesus naquelas pessoas. Só viram alguém precisando de ajuda, e ajudaram. Então o Rei responde: o que vocês fizeram a algum dos meus menores irmãos, foi a mim que fizeram. Pense na sua semana. O prato a mais na mesa. A mensagem para quem estava sozinho. Talvez você nem lembre. Mas Jesus lembra. Nenhum gesto de amor feito em silêncio passa despercebido por ele. Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias.",
+  "cenas": [
+    {
+      "trecho": "Você pode ter ajudado Jesus esta semana sem perceber.",
+      "busca_imagem": "",
+      "prompt_imagem": "close view of two hands in ancient robes, one offering a round loaf of bread and a clay cup of water to another weathered outstretched hand, bathed in a strong beam of warm golden light against a deep dark background, dramatic contrast, faces not visible"
+    },
+    {
+      "trecho": "Quem disse isso foi o próprio Jesus, em Mateus, capítulo vinte e cinco. Mas quem recebeu essa notícia ficou espantado. Por quê?",
+      "busca_imagem": "Jesus teaching disciples Mount of Olives",
+      "prompt_imagem": "a robed teacher seen from behind sitting on a hillside of olive trees at dusk, a small group of men listening around him in shadow, the city of Jerusalem in the distance under a golden sky"
+    },
+    {
+      "trecho": "Jesus descreve o dia em que o Rei vai reunir todas as nações diante dele. E ele diz a alguns: venham, benditos de meu Pai.",
+      "busca_imagem": "great multitude throne light",
+      "prompt_imagem": "an immense multitude of people seen from behind gathered before a distant radiant throne of brilliant light in the sky, majestic and reverent, golden clouds"
+    },
+    {
+      "trecho": "Porque eu tive fome, e vocês me alimentaram. Tive sede, e me deram de beber. Era estrangeiro, e me acolheram.",
+      "busca_imagem": "sharing bread ancient table",
+      "prompt_imagem": "a humble stone house doorway at evening, a host seen from behind welcoming a tired traveler with a walking staff, a table with bread and a water jar lit by an oil lamp"
+    },
+    {
+      "trecho": "Precisei de roupa, e me vestiram. Fiquei doente, e cuidaram de mim. Estive preso, e foram me visitar.",
+      "busca_imagem": "caring for the sick ancient",
+      "prompt_imagem": "a person seen from behind placing a woolen cloak over the shoulders of a sick man lying on a simple mat in a dim room, a small oil lamp casting warm light"
+    },
+    {
+      "trecho": "E eles não entendem. Senhor, quando foi que te vimos com fome?",
+      "busca_imagem": "people surprised questioning light",
+      "prompt_imagem": "a group of ordinary people in ancient robes seen from behind looking up toward a bright golden light in astonishment, hands open, soft glowing clouds"
+    },
+    {
+      "trecho": "Eles nunca tinham visto Jesus naquelas pessoas. Só viram alguém precisando de ajuda, e ajudaram. Então o Rei responde: o que vocês fizeram a algum dos meus menores irmãos, foi a mim que fizeram.",
+      "busca_imagem": "beggar given water golden light",
+      "prompt_imagem": "a poor beggar sitting by a city gate in shadow receiving a cup of water from a passerby seen from behind, a soft radiant golden light falling on both of them, emotional and quiet"
+    },
+    {
+      "trecho": "Pense na sua semana. O prato a mais na mesa. A mensagem para quem estava sozinho. Talvez você nem lembre. Mas Jesus lembra.",
+      "busca_imagem": "family table extra plate warm light",
+      "prompt_imagem": "a simple family dinner table seen from behind the chairs, an extra plate of food being set for a guest, a warm candle glow in a modest home at night"
+    },
+    {
+      "trecho": "Nenhum gesto de amor feito em silêncio passa despercebido por ele. Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias.",
+      "busca_imagem": "candle window night warm",
+      "prompt_imagem": "a single lit oil lamp on a windowsill of a humble house at night, its warm glow spilling onto a quiet village street under a starry sky, peaceful"
+    }
+  ],
+  "legenda": "Senhor, me ajuda a te enxergar em quem precisa 🙏❤️\nMateus 25:35-40\nComente \"Amém\" e envie para alguém que vive ajudando os outros.",
+  "hashtags": [
+    "#Mateus25",
+    "#amoraopróximo",
+    "#bondade",
+    "#servir"
+  ],
+  "fontes": [
+    "Mateus 25:31-40 (o Rei reúne todas as nações; 'venham, benditos de meu Pai'; tive fome, sede, fui estrangeiro, necessitei de roupas, estive enfermo, estive preso; os justos perguntam 'quando te vimos...?'; 'o que vocês fizeram a algum dos meus menores irmãos, a mim o fizeram')"
+  ]
+}
