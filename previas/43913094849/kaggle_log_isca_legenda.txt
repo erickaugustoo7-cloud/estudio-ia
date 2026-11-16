@@ -1,0 +1,49 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Base,Montserrat,82,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,-1,0,0,0,100,100,1,0,1,7,3,5,70,70,0,1
+Style: Topo,DejaVu Serif,74,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,-1,0,0,0,100,100,0,0,1,5,2,8,70,70,330,1
+Style: Cta,Montserrat,46,&H007AD2FF,&H007AD2FF,&H00000000,&H96000000,-1,0,0,0,100,100,1,0,3,14,0,2,90,90,250,1
+Style: Sig,DejaVu Sans,30,&H4DFFFFFF,&H4DFFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,6,0,1,2,1,2,70,70,110,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.91,Base,,0,0,0,,{\c&H00D7FF&}RECONHECE-O{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.62,0:00:01.79,Base,,0,0,0,,{\c&H00D7FF&}EM{\c&HFFFFFF&} TODOS OS
+Dialogue: 0,0:00:01.79,0:00:02.05,Base,,0,0,0,,EM {\c&H00D7FF&}TODOS{\c&HFFFFFF&} OS
+Dialogue: 0,0:00:02.05,0:00:02.34,Base,,0,0,0,,EM TODOS {\c&H00D7FF&}OS{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.34,0:00:02.55,Base,,0,0,0,,{\c&H00D7FF&}TEUS{\c&HFFFFFF&} CAMINHOS E
+Dialogue: 0,0:00:02.55,0:00:03.35,Base,,0,0,0,,TEUS {\c&H00D7FF&}CAMINHOS{\c&HFFFFFF&} E
+Dialogue: 0,0:00:03.35,0:00:03.40,Base,,0,0,0,,TEUS CAMINHOS {\c&H00D7FF&}E{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.40,0:00:03.55,Base,,0,0,0,,{\c&H00D7FF&}ELE{\c&HFFFFFF&} ENDIREITARÁ AS
+Dialogue: 0,0:00:03.55,0:00:04.43,Base,,0,0,0,,ELE {\c&H00D7FF&}ENDIREITARÁ{\c&HFFFFFF&} AS
+Dialogue: 0,0:00:04.43,0:00:04.59,Base,,0,0,0,,ELE ENDIREITARÁ {\c&H00D7FF&}AS{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.59,0:00:04.76,Base,,0,0,0,,{\c&H00D7FF&}TUAS{\c&HFFFFFF&} VEREDAS
+Dialogue: 0,0:00:04.76,0:00:05.38,Base,,0,0,0,,TUAS {\c&H00D7FF&}VEREDAS{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.45,0:00:07.24,Base,,0,0,0,,{\c&H00D7FF&}ENDIREITAR{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.85,0:00:08.21,Base,,0,0,0,,{\c&H00D7FF&}DEUS{\c&HFFFFFF&} NÃO PROMETE
+Dialogue: 0,0:00:08.21,0:00:08.40,Base,,0,0,0,,DEUS {\c&H00D7FF&}NÃO{\c&HFFFFFF&} PROMETE
+Dialogue: 0,0:00:08.40,0:00:08.77,Base,,0,0,0,,DEUS NÃO {\c&H00D7FF&}PROMETE{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.77,0:00:08.87,Base,,0,0,0,,{\c&H00D7FF&}UM{\c&HFFFFFF&} CAMINHO SEM
+Dialogue: 0,0:00:08.87,0:00:09.09,Base,,0,0,0,,UM {\c&H00D7FF&}CAMINHO{\c&HFFFFFF&} SEM
+Dialogue: 0,0:00:09.09,0:00:09.29,Base,,0,0,0,,UM CAMINHO {\c&H00D7FF&}SEM{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.29,0:00:09.85,Base,,0,0,0,,{\c&H00D7FF&}CURVAS{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.32,0:00:10.45,Base,,0,0,0,,{\c&H00D7FF&}ELE{\c&HFFFFFF&} PROMETE ANDAR
+Dialogue: 0,0:00:10.45,0:00:10.85,Base,,0,0,0,,ELE {\c&H00D7FF&}PROMETE{\c&HFFFFFF&} ANDAR
+Dialogue: 0,0:00:10.85,0:00:11.12,Base,,0,0,0,,ELE PROMETE {\c&H00D7FF&}ANDAR{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.12,0:00:11.34,Base,,0,0,0,,{\c&H00D7FF&}NA{\c&HFFFFFF&} FRENTE E
+Dialogue: 0,0:00:11.34,0:00:11.63,Base,,0,0,0,,NA {\c&H00D7FF&}FRENTE{\c&HFFFFFF&} E
+Dialogue: 0,0:00:11.63,0:00:12.15,Base,,0,0,0,,NA FRENTE {\c&H00D7FF&}E{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.15,0:00:12.65,Base,,0,0,0,,{\c&H00D7FF&}ACERTAR{\c&HFFFFFF&} O QUE
+Dialogue: 0,0:00:12.65,0:00:12.77,Base,,0,0,0,,ACERTAR {\c&H00D7FF&}O{\c&HFFFFFF&} QUE
+Dialogue: 0,0:00:12.77,0:00:12.79,Base,,0,0,0,,ACERTAR O {\c&H00D7FF&}QUE{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.79,0:00:13.04,Base,,0,0,0,,{\c&H00D7FF&}ESTIVER{\c&HFFFFFF&} TORTO
+Dialogue: 0,0:00:13.04,0:00:13.47,Base,,0,0,0,,ESTIVER {\c&H00D7FF&}TORTO{\c&HFFFFFF&}
+Dialogue: 1,0:00:00.00,0:00:15.41,Topo,,0,0,0,,DEUS ENDIREITA
+Dialogue: 2,0:00:00.00,0:00:15.41,Sig,,0,0,0,,MENSAGEIRO DE FÉ
+Dialogue: 3,0:00:11.91,0:00:15.41,Cta,,0,0,0,,▶ ORAÇÃO COMPLETA NO VÍDEO ABAIXO
