@@ -466,7 +466,6 @@ def _short_isca(r, canal, imgs, tempos, palavras, mp3, pasta) -> None:
     tx += f"Dialogue: 2,{_ts(0)},{_ts(dur)},Sig,,0,0,0,,{canal['nome'].upper()}\n"
     tx += f"Dialogue: 3,{_ts(max(0, dur - 3.5))},{_ts(dur)},Cta,,0,0,0,,{cfg.get('cta', '▶ ORAÇÃO COMPLETA NO VÍDEO ABAIXO')}\n"
     ass.write_text(tx, encoding="utf-8")
-    shutil.copy(ass, pasta / "kaggle_log_isca_legenda.txt")  # vai para a branch previas (diagnóstico)
     musica = out / "musica.mp3"
     tem_musica = _preparar_musica(canal, musica, dur)
     vol = r.get("volume_musica", 0.12)
@@ -500,7 +499,8 @@ def _short_isca(r, canal, imgs, tempos, palavras, mp3, pasta) -> None:
     log("wan", f"short isca montado: {d:.1f}s, {wh}")
     if wh != f"{W2},{H2}":
         raise RuntimeError(f"short isca saiu {wh}, esperado {W2}x{H2}")
-    for k, tq in enumerate((1.5, d / 2, max(0.5, d - 1.5))):  # prévias para revisão (vão para a branch previas)
+    momentos = [pal[int(len(pal) * f)]["ini"] + 0.1 for f in (0.2, 0.5, 0.8)] if pal else [1.5, d / 2, d - 1.5]
+    for k, tq in enumerate(momentos):  # prévias para revisão (vão para a branch previas), com legenda na tela
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{tq:.2f}", "-i", str(video), "-frames:v", "1",
                         "-vf", "scale=540:-1", str(pasta / f"previa_isca_{k}.jpg")], check=False)
     no_tg = publicador.telegram_video(video, f"🎯 [Short isca] {titulo} · {d:.0f}s", texto)
