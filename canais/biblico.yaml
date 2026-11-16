@@ -48,6 +48,7 @@ gemini_tts:
   # tom da voz (metadado: não é narrado). Curto, como recomenda o Google.
   estilo_curto: "calmo, acolhedor e reverente, em português do Brasil, ritmo pausado"
 motor_video: hyperframes       # hyperframes (animado) ou ffmpeg (simples e mais rápido)
+fundo_video: pixabay          # desde 16/11: vídeos reais de paisagem ao fundo (Pixabay); imagens só de reserva
 voz: pt-BR-AntonioNeural
 ritmo_voz: "-5%"
 ritmo_por_voz:                  # ajuste para os vídeos ficarem entre ~75 e 90 s

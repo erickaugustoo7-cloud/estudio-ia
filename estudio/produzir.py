@@ -137,7 +137,25 @@ def main():
                          "(foram repetidas ou de reserva) — confira antes de postar.")
     tempos = montador.tempos_das_cenas(roteiro["cenas"], palavras, dur)
     video = None
-    if canal.get("motor_video", "hyperframes") == "hyperframes":
+    if canal.get("fundo_video") == "pixabay":  # desde 16/11: paisagens REAIS ao fundo (Pixabay), legenda no centro
+        from estudio.kaggle_wan import _pixabay_video
+        usados, videos = set(), {}
+        for i, (c, d) in enumerate(zip(roteiro["cenas"], tempos)):
+            busca = f"{c.get('prompt_imagem', '')} {c.get('busca_imagem', '')} {c.get('trecho', '')}"
+            videos[i] = _pixabay_video(busca, min(d, 10), pasta / f"stock_{i}.mp4", usados)
+        if sum(1 for v in videos.values() if v) >= len(videos) / 2:
+            legendas = montador.gerar_legendas(palavras, pasta / "legendas.ass")
+            gancho = (roteiro.get("gancho_tela") or roteiro["titulo"]).upper()
+            t = legendas.read_text(encoding="utf-8").replace("\n[Events]", (
+                "Style: Topo,DejaVu Serif,70,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,-1,0,0,0,100,100,0,0,1,5,2,8,70,70,300,1\n"
+                "Style: Sig,DejaVu Sans,30,&H4DFFFFFF,&H4DFFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,6,0,1,2,1,2,70,70,110,1\n"
+                "\n[Events]"), 1)
+            t += f"Dialogue: 1,{montador._ts(0)},{montador._ts(2.6)},Topo,,0,0,0,,{gancho}\n"
+            t += f"Dialogue: 2,{montador._ts(0)},{montador._ts(dur)},Sig,,0,0,0,,{canal['nome'].upper()}\n"
+            legendas.write_text(t, encoding="utf-8")
+            video = montador.montar(canal, imagens, tempos, mp3, legendas, pasta, videos=videos)
+            log("orquestrador", f"vídeos reais de paisagem: {sum(1 for v in videos.values() if v)}/{len(videos)} cenas")
+    if video is None and canal.get("motor_video", "hyperframes") == "hyperframes":
         try:
             video = montador_hf.montar(canal, roteiro.get("gancho_tela") or roteiro["titulo"], imagens, tempos, mp3, palavras, dur, pasta)
         except Exception as e:  # noqa: BLE001 — qualquer falha cai no motor FFmpeg

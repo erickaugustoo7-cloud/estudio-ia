@@ -311,7 +311,22 @@ PEXELS_TEMAS = [("waterfall", "waterfall nature"), ("cachoeira", "waterfall natu
                 ("canyon", "canyon sunset"), ("dock", "lake dock sunrise"), ("pier", "lake dock sunrise"),
                 ("palm", "tropical beach palm trees"), ("wheat", "wheat field sunset"), ("bay", "ocean coast aerial"),
                 ("snow", "snowy forest"), ("meadow", "meadow flowers"), ("tea plantation", "green hills fog"),
-                ("blossom", "cherry blossom"), ("dew", "dew grass morning"), ("tree", "tree field sunset")]
+                ("blossom", "cherry blossom"), ("dew", "dew grass morning"), ("tree", "tree field sunset"),
+                ("desert", "desert dunes sunset"), ("olive", "olive trees"), ("wilderness", "desert dunes"),
+                # roteiros em português (vídeos bíblicos curtos)
+                ("cachoeira", "waterfall nature"), ("mar ", "calm sea waves"), ("mar,", "calm sea waves"),
+                ("mar.", "calm sea waves"), ("barco", "boat lake sunrise"), ("pesca", "boat lake sunrise"),
+                ("tempestade", "storm clouds sea"), ("deserto", "desert dunes sunset"), ("montanha", "mountains clouds aerial"),
+                ("monte", "mountains clouds aerial"), ("rio", "river forest"), ("lago", "calm lake mountains"),
+                ("estrela", "starry night sky"), ("noite", "starry night sky"), ("lua", "moon night clouds"),
+                ("sol", "sunrise nature"), ("manhã", "sunrise nature"), ("luz", "sun rays clouds"),
+                ("céu", "clouds sky timelapse"), ("chuva", "rain on leaves"), ("campo", "wheat field sunset"),
+                ("trigo", "wheat field sunset"), ("pão", "wheat field sunset"), ("flor", "flower field sunset"),
+                ("árvore", "tree field sunset"), ("oliveira", "olive trees"), ("jardim", "garden flowers morning"),
+                ("caminho", "path forest sunlight"), ("estrada", "country road sunset"), ("vento", "wind grass field"),
+                ("fogo", "campfire night"), ("água", "water stream forest"), ("ovelha", "sheep meadow")]
+PADROES_PAZ = ["sunrise nature", "clouds sky timelapse", "calm sea waves", "mountains clouds aerial", "sun rays clouds",
+               "forest sunlight", "calm lake mountains", "wheat field sunset"]
 
 
 def _pexels_video(prompt: str, seg: float, destino: Path, usados: set) -> Path | None:
@@ -370,8 +385,8 @@ def _pixabay_video(prompt: str, seg: float, destino: Path, usados: set, horizont
     if not chave:
         return None
     import requests
-    p = prompt.lower()
-    termo = next((q for k, q in PEXELS_TEMAS if k in p), "nature landscape")
+    p = f" {prompt.lower()} "
+    termo = next((q for k, q in PEXELS_TEMAS if k in p), None) or random.choice(PADROES_PAZ)
     try:
         if termo not in _PIXABAY_CACHE:
             _PIXABAY_CACHE[termo] = requests.get("https://pixabay.com/api/videos/", timeout=30,

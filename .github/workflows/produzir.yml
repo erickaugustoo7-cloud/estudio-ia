@@ -49,6 +49,7 @@ jobs:
       POLLINATIONS_API_KEY: ${{ secrets.POLLINATIONS_API_KEY }}
       CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
       CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+      PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
       LLM_PROVEDORES: ${{ vars.LLM_PROVEDORES || 'groq,gemini,pollinations' }}
       GH_TOKEN: ${{ github.token }}
     steps:

@@ -137,10 +137,17 @@ def _musica(canal: dict, pasta_trabalho: Path | None = None) -> Path | None:
     return None
 
 
-def montar(canal, imagens, tempos, narracao: Path, legendas: Path, pasta: Path) -> Path:
+def montar(canal, imagens, tempos, narracao: Path, legendas: Path, pasta: Path, videos: dict | None = None) -> Path:
     clipes = []
     for i, (img, d) in enumerate(zip(imagens, tempos)):
         c = pasta / f"clipe_{i:02d}.mp4"
+        if videos and videos.get(i):  # vídeo REAL de paisagem: tela cheia, sem o som original
+            _ffmpeg("-stream_loop", "-1", "-i", str(videos[i]), "-an", "-vf",
+                    f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS},format=yuv420p",
+                    "-t", f"{d:.3f}", "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", str(c))
+            clipes.append(c)
+            log("montador", f"clipe {i + 1}/{len(imagens)} ({d:.1f}s) — vídeo real")
+            continue
         _clipe(img, d, c, i)
         clipes.append(c)
         log("montador", f"clipe {i + 1}/{len(imagens)} ({d:.1f}s)")
