@@ -1,0 +1,23 @@
+name: Métricas do YouTube (fotografia)
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 22 * * *"   # todo dia 19h17 (Brasília)
+permissions:
+  contents: write
+jobs:
+  metricas:
+    runs-on: ubuntu-latest
+    env:
+      YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q requests
+      - run: python ferramentas/metricas_youtube.py | tee dados/metricas/ultimo_resumo.txt
+      - run: |
+          git config user.name "estudio-bot"
+          git config user.email "estudio-bot@users.noreply.github.com"
+          git add dados/metricas && git commit -qm "métricas do YouTube" && git pull -q --rebase && git push -q
