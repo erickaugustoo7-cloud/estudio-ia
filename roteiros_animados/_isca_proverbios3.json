@@ -1,0 +1,488 @@
+{
+  "formato": "horizontal",
+  "duracao_max": 999,
+  "volume_musica": 0.22,
+  "opcoes_imagem": 1,
+  "plataformas": [
+    "youtube"
+  ],
+  "fonte_imagem": "cloudflare",
+  "estilo_voz": "caloroso, esperançoso e íntimo, como quem ora de verdade por alguém; pausado, com ternura",
+  "tipo": "oracao",
+  "palavras_por_bloco": 520,
+  "estilo_imagem": "breathtaking real-world nature landscape photography, peaceful, bright and hopeful morning light, soft natural light, rich colors, ultra detailed, horizontal 16:9 widescreen, no people, no text",
+  "prefixo_imagem": "beautiful peaceful nature landscape photo:",
+  "prefixo_video": "Peaceful nature shot, very slow and gentle motion.",
+  "epoca_imagem": "real natural landscapes of today (sea, forest, waterfalls, mountains, lakes, sky); no people, no buildings, no text",
+  "titulo": "Oração do dia: Provérbios 3:5-6 — Entregue seu dia a Deus",
+  "titulo_youtube": "ENTREGUE SEU DIA A DEUS | Oração Poderosa Para Hoje (Provérbios 3:5-6)",
+  "gancho_tela": "Entregue seu dia a Deus",
+  "referencia": "Provérbios 3:5-6",
+  "texto_capa": [
+    "SENHOR,",
+    "*GOVERNA",
+    "O MEU DIA"
+  ],
+  "selo_capa": "Oração do dia",
+  "cena_capa": 4,
+  "capa_prompt": "photorealistic emotional portrait of a Brazilian woman in her thirties with eyes closed, praying with hands clasped near her chin, warm golden sunrise light on her face, placed on the RIGHT third of the frame, face and hands sharp and natural; the LEFT two thirds are an empty soft blue and golden sunrise sky over mountains, cinematic, shallow depth of field, 16:9, no text",
+  "legenda": "Antes de tudo, entregue o seu dia a Deus. 🙏\n\n\"Confia no Senhor de todo o teu coração e não te estribes no teu próprio entendimento\" (Provérbios 3:5, Almeida).\n\nEscreva o seu pedido de oração nos comentários — eu vou orar por ele. Inscreva-se para orarmos juntos todos os dias.",
+  "hashtags": [
+    "#OraçãoDoDia",
+    "#Provérbios3",
+    "#OraçãoPoderosa",
+    "#EntregueSeuDia",
+    "#Fé"
+  ],
+  "fontes": [
+    "Provérbios 3:5-6; Lamentações 3:22-23; Isaías 40:31; Salmo 118:24; Filipenses 4:13; Salmo 143:8 — Almeida (domínio público)"
+  ],
+  "cenas": [
+    {
+      "trecho": "Se você está assistindo isso agora, talvez o seu dia já tenha começado pesado. Talvez você tenha acordado cansado, com a cabeça cheia, pensando em tudo o que precisa resolver hoje. Respira. Antes de qualquer coisa, vamos entregar este dia a Deus.",
+      "prompt_imagem": "golden sunrise over a calm sea with soft waves on a sandy beach",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Talvez você esteja no trabalho, no ônibus, na cozinha, ou ainda deitado, sem coragem de levantar. Não importa onde você está. Deus está aí. E Ele quer caminhar com você em cada hora deste dia.",
+      "prompt_imagem": "a tall waterfall in a lush green rainforest, morning mist, sun rays",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Talvez hoje você precise de uma resposta. De um emprego. De uma cura. De paz dentro de casa. Eu não sei qual é a sua necessidade, mas Deus sabe. E Ele trouxe você até esta oração por um motivo.",
+      "prompt_imagem": "a forest path glowing with golden morning light, tall trees, soft mist",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Hoje nós vamos orar com Provérbios, capítulo três. Uma palavra para quem não sabe que caminho seguir: Confia no Senhor de todo o teu coração e não te estribes no teu próprio entendimento.",
+      "prompt_imagem": "a mountain lake at sunrise reflecting pink clouds and peaks",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Reconhece-o em todos os teus caminhos, e ele endireitará as tuas veredas. Endireitar. Deus não promete um caminho sem curvas. Ele promete andar na frente e acertar o que estiver torto.",
+      "prompt_imagem": "rolling green hills with wildflowers under a bright morning sky",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Então, se puder, pare um instante. Coloque a mão sobre o coração. Respire fundo… e solte devagar. E repita comigo, no seu coração.",
+      "prompt_imagem": "a clear river flowing over smooth stones in a sunny forest",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Senhor, bom dia. Obrigado por mais um dia de vida. Eu não mereço, mas Tu me deste. Eu acordei, eu respiro, eu estou aqui. Isso já é a Tua misericórdia.",
+      "prompt_imagem": "sunrise light breaking through clouds over green mountains",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Está escrito: As misericórdias do Senhor são a causa de não sermos consumidos, porque as suas misericórdias não têm fim; novas são cada manhã; grande é a tua fidelidade.",
+      "prompt_imagem": "a field of sunflowers at sunrise under a soft blue sky",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Novas a cada manhã, Senhor. O erro de ontem não precisa definir o meu hoje. O que deu errado ontem, Tu já sabes. Hoje é um recomeço. Eu recebo esse recomeço agora.",
+      "prompt_imagem": "a quiet wooden pier over a misty lake at dawn",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E se você carrega uma culpa antiga, algo que você fez e não consegue esquecer, ouça: em Jesus, isso já foi pago. Você não precisa começar este dia devendo para Deus. Ele já te recebeu de volta.",
+      "prompt_imagem": "a calm river at sunrise with soft mist over the water",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Talvez ontem tenha sido um dia difícil. Talvez você tenha dormido chorando, ou nem tenha dormido. Mas olha: Deus te deu um novo amanhecer. O sol nasceu de novo. E a fidelidade dEle também.",
+      "prompt_imagem": "turquoise ocean waves and white sand under morning sun",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Pai, eu Te entrego este dia inteiro. Cada compromisso, cada conversa, cada decisão. Eu não quero viver este dia no piloto automático. Eu quero viver sabendo que Tu estás comigo.",
+      "prompt_imagem": "a small waterfall into a clear green pool surrounded by ferns",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Governa o meu dia, Senhor. Governa a minha agenda. Se for preciso, muda os meus planos. Fecha as portas que não são Tuas e abre as que eu nem imagino. Eu confio no Teu jeito.",
+      "prompt_imagem": "a cliff over the sea at sunrise with gentle clouds",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Eu confesso que muitas vezes eu tento resolver tudo sozinho. Eu me apoio no meu próprio entendimento, e me canso, e me frustro. Hoje eu escolho confiar em Ti de todo o coração.",
+      "prompt_imagem": "dew drops on green grass in a meadow at sunrise, soft bokeh",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Senhor, eu Te entrego a minha mente. Os pensamentos que me acordaram cedo, as preocupações que nem me deixaram tomar café em paz. Coloca ordem dentro de mim. Onde há confusão, traz clareza.",
+      "prompt_imagem": "a lavender field in soft morning light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Onde há ansiedade, traz descanso. Onde há medo, traz coragem. Eu não quero passar este dia imaginando o pior. Eu quero passar este dia lembrando que Tu estás no controle.",
+      "prompt_imagem": "palm trees on a calm tropical beach in the morning",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Senhor, tira de mim a pressa que me rouba a paz. Me ensina a fazer uma coisa de cada vez, sem correr na frente de Ti. Que eu não viva este dia como uma corrida, mas como um caminho Contigo.",
+      "prompt_imagem": "sun rays through tall pine trees in a quiet forest",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E você que está orando comigo, se o peito está apertado, respira mais uma vez. Bem devagar. Deus não está com pressa. Ele não vai te deixar sozinho no meio do dia.",
+      "prompt_imagem": "a peaceful valley with a winding river at morning",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Deus conhece cada detalhe do seu dia antes mesmo de ele começar. A reunião difícil, a conversa que você está evitando, a notícia que pode chegar. Nada disso vai pegar Deus de surpresa.",
+      "prompt_imagem": "a calm bay with crystal clear water and rocks at sunrise",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Senhor, eu oro pelo meu trabalho. Abençoa as minhas mãos. Dá excelência no que eu fizer, paciência com as pessoas difíceis, e sabedoria para as decisões que eu preciso tomar hoje.",
+      "prompt_imagem": "morning fog over a green tea plantation on hills",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Se eu estou desempregado, Senhor, Tu conheces a minha luta. Abre uma porta. Coloca o meu nome no coração da pessoa certa. Que hoje seja o dia em que a resposta começa a chegar.",
+      "prompt_imagem": "a mountain trail with a view of a sunlit valley",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E se o meu trabalho me cansa, se eu me sinto desvalorizado, me lembra que eu trabalho para Ti. Nenhum esforço feito com honestidade passa despercebido diante dos Teus olhos.",
+      "prompt_imagem": "spring blossoms on trees by a calm lake in the morning",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Eu oro pelas minhas finanças. Tu sabes as contas que vencem esta semana. Tu sabes o que falta. Multiplica o pouco, livra-me das dívidas, e me dá domínio próprio para não gastar o que eu não tenho.",
+      "prompt_imagem": "white clouds over a bright green countryside",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E se hoje eu tiver que tomar uma decisão de dinheiro, uma compra, um empréstimo, uma proposta, me dá discernimento, Senhor. Que eu não decida pela pressa nem pelo medo, mas pela Tua paz.",
+      "prompt_imagem": "golden wheat field under a bright morning sky",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Me ensina a ser generoso mesmo quando eu tenho pouco. E me livra da comparação. Que eu não olhe para a vida dos outros e esqueça de agradecer pela minha.",
+      "prompt_imagem": "a waterfall cascading down mossy rocks in sunlight",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Senhor, eu Te entrego a minha família. Cada pessoa que saiu de casa hoje: guarda no caminho, no trânsito, na escola, no trabalho. Que todos voltem em paz para casa esta noite.",
+      "prompt_imagem": "the sun rising over a wide ocean horizon",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Eu oro pelo meu casamento. Que hoje a gente seja gentil um com o outro. Que uma palavra boa substitua uma crítica. Que o amor seja maior que o cansaço.",
+      "prompt_imagem": "golden sunrise over a calm sea with soft waves on a sandy beach",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Eu oro pelos meus filhos. Protege a mente deles, as amizades deles, o coração deles. Onde eu não posso estar, que a Tua presença esteja. Afasta deles todo mal.",
+      "prompt_imagem": "a tall waterfall in a lush green rainforest, morning mist, sun rays",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Eu oro pelos meus pais. Cuida deles, Senhor. Dá saúde, dá alegria. E se eles já partiram, consola o meu coração com a esperança da eternidade.",
+      "prompt_imagem": "a forest path glowing with golden morning light, tall trees, soft mist",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E se alguém da minha família está longe de Ti, Senhor, alcança essa pessoa hoje. Numa música, numa conversa, num vídeo como este. Eu não vou parar de orar por ela.",
+      "prompt_imagem": "a mountain lake at sunrise reflecting pink clouds and peaks",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Talvez você tenha alguém em mente agora. Diga o nome dessa pessoa baixinho. Entregue nas mãos de Deus. Ele ouviu. E Ele ama essa pessoa ainda mais do que você.",
+      "prompt_imagem": "rolling green hills with wildflowers under a bright morning sky",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Senhor, eu oro pela minha saúde. Fortalece o meu corpo para este dia. Se há dor, alivia. Se há doença, cura. Se há um exame ou um resultado esperando, eu deixo nas Tuas mãos.",
+      "prompt_imagem": "a clear river flowing over smooth stones in a sunny forest",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E eu oro por quem está no hospital hoje, por quem acordou com dor, por quem cuida de alguém doente. Dá força, Senhor. Dá descanso. Dá esperança.",
+      "prompt_imagem": "sunrise light breaking through clouds over green mountains",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E se a doença é na mente, Senhor, se é depressão, se é ansiedade, se é um vazio que ninguém vê, toca nesse lugar também. Tu curas o coração quebrado e cuidas das suas feridas.",
+      "prompt_imagem": "a field of sunflowers at sunrise under a soft blue sky",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Está escrito: Mas os que esperam no Senhor renovarão as suas forças; subirão com asas como águias; correrão e não se cansarão; caminharão e não se fatigarão.",
+      "prompt_imagem": "a quiet wooden pier over a misty lake at dawn",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Senhor, renova as minhas forças hoje. Eu não aguento só com as minhas. Quando eu achar que não consigo mais, me lembra dessa promessa. Me levanta como águia.",
+      "prompt_imagem": "turquoise ocean waves and white sand under morning sun",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Talvez você esteja cansado de esperar. Esperar resposta, esperar mudança, esperar alguém voltar. Esperar no Senhor não é ficar parado. É continuar confiando enquanto Ele trabalha onde você não vê.",
+      "prompt_imagem": "a small waterfall into a clear green pool surrounded by ferns",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Pai, guarda a minha boca hoje. Que eu não fale com raiva. Que eu não espalhe fofoca. Que as minhas palavras sejam de vida, de paz, de encorajamento para quem estiver perto de mim.",
+      "prompt_imagem": "a cliff over the sea at sunrise with gentle clouds",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E se alguém me magoar hoje, me ajuda a não carregar isso o dia inteiro. Me dá um coração que perdoa rápido. Eu não quero que a mágoa roube a alegria deste dia.",
+      "prompt_imagem": "dew drops on green grass in a meadow at sunrise, soft bokeh",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E se eu errar hoje, Senhor, e eu vou errar, me perdoa e me ajuda a recomeçar sem me castigar. Tu não desistes de mim. Eu também não vou desistir.",
+      "prompt_imagem": "a lavender field in soft morning light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Me usa hoje, Senhor. Que alguém veja Jesus em mim. Num sorriso, numa ajuda, numa palavra no momento certo. Que eu seja resposta de oração na vida de alguém.",
+      "prompt_imagem": "palm trees on a calm tropical beach in the morning",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Que eu tenha olhos para ver quem está sofrendo ao meu lado. O colega calado, o vizinho sozinho, a pessoa na fila que parece cansada. Que eu não passe o dia só olhando para mim.",
+      "prompt_imagem": "sun rays through tall pine trees in a quiet forest",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Senhor, eu oro pela minha cidade e pelo meu bairro. Traz paz às ruas. Protege quem trabalha à noite, quem está no trânsito, quem cuida da segurança de todos nós.",
+      "prompt_imagem": "a peaceful valley with a winding river at morning",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Eu oro pela minha igreja, pelos pastores, pelos que servem em silêncio. Fortalece a fé de quem está cansado de servir. Que hoje ninguém desista do chamado que recebeu de Ti.",
+      "prompt_imagem": "a calm bay with crystal clear water and rocks at sunrise",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E se hoje for um dia de luto para alguém que está ouvindo, Senhor, abraça essa pessoa. Não tem palavra que resolva. Mas a Tua presença consola onde nenhuma palavra alcança.",
+      "prompt_imagem": "morning fog over a green tea plantation on hills",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Está escrito: Este é o dia que fez o Senhor; regozijemo-nos e alegremo-nos nele. Mesmo que este dia não seja fácil, ele foi feito por Ti. E Tu estás nele.",
+      "prompt_imagem": "a mountain trail with a view of a sunlit valley",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Então eu escolho a alegria. Não a alegria de quem não tem problemas, mas de quem sabe que não está sozinho. Eu escolho a gratidão antes mesmo de ver a resposta.",
+      "prompt_imagem": "spring blossoms on trees by a calm lake in the morning",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Mesmo que hoje alguma coisa não saia como eu planejei, eu vou lembrar desta manhã. Eu vou lembrar que entreguei este dia a Ti. E o que está nas Tuas mãos nunca está perdido.",
+      "prompt_imagem": "sun rays over a quiet green valley with a winding river",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Obrigado, Senhor, pelo café de hoje, pela cama onde eu dormi, pelas pessoas que eu amo, pelo trabalho, mesmo quando ele cansa. Obrigado pelas coisas pequenas que eu sempre esqueço de agradecer.",
+      "prompt_imagem": "white clouds over a bright green countryside",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E você que está orando comigo… se você tem um pedido, escreva agora nos comentários. Pode ser só o primeiro nome de alguém. Eu vou ler e vou orar por ele.",
+      "prompt_imagem": "a waterfall cascading down mossy rocks in sunlight",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Senhor, agora eu oro por cada pedido escrito neste vídeo. Por quem pediu emprego, cura, reconciliação, paz. Tu conheces cada nome. Responde do jeito que só Tu sabes responder.",
+      "prompt_imagem": "the sun rising over a wide ocean horizon",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Pela mãe que está criando os filhos sozinha. Pelo pai que está sem trabalho. Pelo jovem que está perdido. Pelo idoso que se sente esquecido. Senhor, visita cada um hoje.",
+      "prompt_imagem": "golden sunrise over a calm sea with soft waves on a sandy beach",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E pela pessoa que está assistindo e pensa que ninguém ora por ela: eu estou orando por você agora. Você é lembrado. Você é amado. Deus vê você hoje.",
+      "prompt_imagem": "a tall waterfall in a lush green rainforest, morning mist, sun rays",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E se você está longe de Deus há muito tempo, hoje pode ser o dia da volta. Diga no seu coração: Jesus, eu preciso de Ti. Entra no meu dia. Entra na minha vida. Ele ouviu.",
+      "prompt_imagem": "a forest path glowing with golden morning light, tall trees, soft mist",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Antes de terminar, guarde esta palavra para levar com você o dia inteiro: Posso todas as coisas naquele que me fortalece. Não por você. Por Ele, que está com você.",
+      "prompt_imagem": "a mountain lake at sunrise reflecting pink clouds and peaks",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E esta outra, de Davi: Faze-me ouvir a tua benignidade pela manhã, pois em ti confio; faze-me saber o caminho que devo seguir, porque a ti levanto a minha alma.",
+      "prompt_imagem": "rolling green hills with wildflowers under a bright morning sky",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E uma última, que eu quero que você repita: Confia no Senhor de todo o teu coração. De todo. Não de metade. Hoje, eu confio de todo o coração.",
+      "prompt_imagem": "a clear river flowing over smooth stones in a sunny forest",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Eu declaro sobre este dia: eu não vou viver com medo. Eu não vou viver com culpa. Eu não vou viver sozinho. Porque o Senhor está comigo, do amanhecer até o anoitecer.",
+      "prompt_imagem": "sunrise light breaking through clouds over green mountains",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Vamos ficar um instante em silêncio diante de Deus. Respire fundo… segure um pouquinho… e solte devagar. Inspire a paz de Deus. Solte a pressa. Solte o medo.",
+      "prompt_imagem": "a field of sunflowers at sunrise under a soft blue sky",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Você não precisa ter todas as respostas para hoje. Só precisa dar o próximo passo com Ele. Um passo de cada vez. Uma hora de cada vez.",
+      "prompt_imagem": "a quiet wooden pier over a misty lake at dawn",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E quando o dia apertar, lá pela tarde, quando o cansaço vier, volte para esta oração. Feche os olhos por um minuto e lembre: Deus está comigo. Ele não saiu do meu lado.",
+      "prompt_imagem": "turquoise ocean waves and white sand under morning sun",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Se esta oração te abençoou, inscreva-se no canal para orarmos juntos todos os dias. E mande este vídeo para alguém que precisa começar o dia com Deus.",
+      "prompt_imagem": "a small waterfall into a clear green pool surrounded by ferns",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Que o Senhor guarde a sua saída e a sua entrada. Que Ele vá na sua frente em cada lugar, abra os caminhos e te traga de volta em paz para casa.",
+      "prompt_imagem": "a cliff over the sea at sunrise with gentle clouds",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Em nome de Jesus… amém. Tenha um dia abençoado. Você não está sozinho.",
+      "prompt_imagem": "dew drops on green grass in a meadow at sunrise, soft bokeh",
+      "vazia": true,
+      "animar": false
+    }
+  ],
+  "capitulos": [
+    {
+      "cena": 0,
+      "titulo": "Se o seu dia começou pesado"
+    },
+    {
+      "cena": 3,
+      "titulo": "Provérbios 3:5-6"
+    },
+    {
+      "cena": 6,
+      "titulo": "Misericórdias novas a cada manhã"
+    },
+    {
+      "cena": 11,
+      "titulo": "Governa o meu dia"
+    },
+    {
+      "cena": 14,
+      "titulo": "Pela mente e pela ansiedade"
+    },
+    {
+      "cena": 19,
+      "titulo": "Pelo trabalho e pelas finanças"
+    },
+    {
+      "cena": 25,
+      "titulo": "Pela família"
+    },
+    {
+      "cena": 31,
+      "titulo": "Pela saúde"
+    },
+    {
+      "cena": 37,
+      "titulo": "Palavras, perdão e recomeço"
+    },
+    {
+      "cena": 49,
+      "titulo": "Pelos seus pedidos"
+    },
+    {
+      "cena": 54,
+      "titulo": "Promessas para levar no dia"
+    },
+    {
+      "cena": 61,
+      "titulo": "Bênção final"
+    }
+  ],
+  "short_isca": {
+    "cenas": [
+      4
+    ],
+    "texto_topo": "DEUS ENDIREITA",
+    "titulo": "Deus não prometeu um caminho sem curvas",
+    "hashtags": [
+      "proverbios3",
+      "oracao",
+      "fe"
+    ]
+  }
+}

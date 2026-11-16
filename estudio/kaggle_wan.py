@@ -346,8 +346,10 @@ def _short_isca(r, canal, imgs, tempos, palavras, mp3, pasta) -> None:
         if seg <= 0.2:
             continue
         n, pt = int(seg * 30) + 1, out / f"p{i}.mp4"
-        vert = _vertical(i)
+        vert = _vertical(i) or (None if imgs[i] else _vertical(i))  # sem imagem horizontal: tenta de novo
         fonte = vert or imgs[i]
+        if fonte is None:
+            raise RuntimeError(f"short isca: nenhuma imagem para a cena {i + 1}")
         base_f = (f"scale={W2}:{H2}:force_original_aspect_ratio=increase,crop={W2}:{H2},scale=1188:2112,"
                   f"zoompan=z='min(1+0.0008*on,1.08)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d={n}:s={W2}x{H2}:fps=30,"
                   "format=yuv420p")
@@ -634,6 +636,12 @@ def main():
         tempos[-1] += 0.8  # respiro no fim
     # orações para dormir: só música no final — feita à parte (imagem parada), não esticando a última cena
     cauda = float(r.get("cauda_musical_min", 0) or 0) * 60
+    if os.getenv("SO_ISCA"):  # refaz só o Short isca (voz do cache, imagens verticais novas, sem Kaggle)
+        if not (r.get("short_isca") and mp3):
+            raise SystemExit("roteiro sem short_isca")
+        _short_isca(r, canal, [None] * len(r["cenas"]), tempos, palavras, mp3, pasta)
+        log("wan", "só o Short isca: concluído")
+        return
 
     # 2) ilustrações: Z-Image Turbo no Kaggle (2 opções por cena; o Gemini escolhe a que serve)
     semente = random.randint(1, 10**6)
