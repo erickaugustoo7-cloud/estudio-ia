@@ -171,7 +171,7 @@ def _rodar_kaggle(cenas: list, pasta: Path, etapa: str = "video") -> tuple[Path,
         log("wan", f"{(time.time() - inicio) / 60:.0f} min — {status.strip()[-60:]}")
         if "queued" in status.lower():  # parado na fila do Kaggle: uma nova versão costuma destravar
             na_fila = na_fila or time.time()
-            if time.time() - na_fila > 20 * 60 and repush < 1:
+            if time.time() - na_fila > 20 * 60 and repush < int(os.getenv("WAN_REPUSH", "0")):  # reenvio criava sessão duplicada (José, 14/11)
                 repush += 1
                 log("wan", f"20 min na fila do Kaggle — reenviando (tentativa {repush}/1)")
                 _kaggle("kernels", "push", "-p", str(kdir), check=False)
