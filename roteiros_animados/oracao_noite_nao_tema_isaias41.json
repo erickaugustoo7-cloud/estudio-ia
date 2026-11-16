@@ -1,0 +1,208 @@
+{
+  "titulo": "Oração da noite: Isaías 41:10 — Não tema, eu estou com você",
+  "titulo_youtube": "ORAÇÃO PARA DORMIR SEM MEDO DO AMANHÃ | Isaías 41:10 — Não Tema, Eu Estou com Você",
+  "gancho_tela": "Não tema",
+  "referencia": "Isaías 41:8-18",
+  "formato": "horizontal",
+  "duracao_max": 999,
+  "volume_musica": 0.22,
+  "opcoes_imagem": 1,
+  "palavras_por_bloco": 260,
+  "cauda_musical_min": 20,
+  "plataformas": [
+    "youtube"
+  ],
+  "cena_capa": 6,
+  "texto_capa": [
+    "MEDO DO",
+    "AMANHÃ?"
+  ],
+  "estilo_imagem": "cinematic photorealistic still, peaceful night atmosphere, soft moonlight, gentle glow, deep blue and warm gold tones, calm and serene, horizontal 16:9 widescreen",
+  "prefixo_imagem": "cinematic photorealistic peaceful still:",
+  "prefixo_video": "Cinematic peaceful night shot, very slow and gentle motion.",
+  "epoca_imagem": "Ancient Israel landscape, stone, clay, wood, wool and linen only, nothing modern, no electric lights",
+  "legenda": "Ore comigo antes de dormir e entregue a Deus o medo do amanhã. 🙏\n\n\"Por isso, não tema, pois estou com você; não tenha medo, pois sou o seu Deus\" (Isaías 41:10, NVI).\n\nDepois da oração, a música continua por 20 minutos para você adormecer em paz.\n\nEscreva \"Amém\" e deixe o seu pedido de oração nos comentários. Inscreva-se para orarmos juntos toda noite.",
+  "hashtags": [
+    "#OraçãoParaDormir",
+    "#Isaías4110",
+    "#NãoTema",
+    "#OraçãoDaNoite",
+    "#Fé"
+  ],
+  "fontes": [
+    "Isaías 41:8-18 (NVI) — bibliaonline.com.br/nvi/is/41"
+  ],
+  "cena_cauda": 0,
+  "fonte_imagem": "cloudflare",
+  "rodape_capa": "+20 min de música",
+  "cenas": [
+    {
+      "trecho": "Boa noite. Se hoje o seu coração está apertado de medo do amanhã, esta oração é para você. Deixe nos comentários o seu pedido de oração, e nós vamos orar juntos. Agora respire fundo, e venha comigo.",
+      "prompt_imagem": "a calm starry night sky over dark quiet hills, the Milky Way glowing softly, deep blue tones",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Esta noite nós vamos orar com Isaías, capítulo quarenta e um, versículo dez. Uma das promessas mais repetidas por quem tem medo do que vai acontecer amanhã.",
+      "prompt_imagem": "an old rolled parchment scroll resting on a rough wooden table beside a small clay oil lamp, warm glow",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Essas palavras foram ditas a um povo que se sentia pequeno, cansado e esquecido. Deus chama esse povo de pequeno Israel. E, mesmo assim, fala com ele com carinho.",
+      "prompt_imagem": "a quiet ancient village of stone houses on a hillside at night, small windows glowing with oil lamp light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "No versículo oito, Deus chama esse povo de descendentes de Abraão, meu amigo. Abraão também saiu de casa sem saber para onde ia. E Deus nunca o deixou sozinho no caminho. A mesma fidelidade que cuidou de Abraão está cuidando de você.",
+      "prompt_imagem": "a few small tents of dark goat wool on a desert plain at night under a sky full of stars",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Antes da promessa, Deus lembra quem eles são: Você é meu servo; eu o escolhi e não o rejeitei. Isaías quarenta e um, versículo nove.",
+      "prompt_imagem": "a lone olive tree on a hilltop under the full moon, stars above, silver light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Senhor, esta noite eu também preciso ouvir isso. Tu me escolheste e não me rejeitaste. Mesmo com os meus erros de hoje, mesmo com as minhas falhas, eu ainda sou teu.",
+      "prompt_imagem": "a soft beam of moonlight entering a quiet stone room through a small window, peaceful night",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Por isso, não tema, pois estou com você; não tenha medo, pois sou o seu Deus. Deus não prometeu que você nunca vai sentir medo. Ele prometeu que você nunca vai estar sozinho.",
+      "prompt_imagem": "a vast night sky full of stars over a quiet desert, the Milky Way bright and clear",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Senhor, eu te entrego o medo do amanhã. O medo da conta que vai vencer, da resposta que não chegou, da conversa difícil, do exame, da notícia que eu não quero receber.",
+      "prompt_imagem": "an ancient stone footpath through quiet hills at night under the moon, low stone walls on each side",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Tu sabes de cada coisa que está passando pela minha cabeça agora. Eu não consigo controlar o dia de amanhã. Mas tu já estás lá.",
+      "prompt_imagem": "the first faint glow of dawn far away on the horizon over dark hills, stars still shining",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Eu o fortalecerei e o ajudarei. Senhor, eu estou cansado de ser forte sozinho. Fortalece o meu corpo esta noite, e fortalece a minha alma enquanto eu durmo.",
+      "prompt_imagem": "a small campfire glowing on a quiet hillside at night, sparks rising toward the stars",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Repare na ordem da promessa. Primeiro Deus diz: estou com você. Só depois Ele diz: eu o ajudarei. A presença dele vem antes da solução. Mesmo que o problema ainda não tenha acabado, Ele já está do seu lado.",
+      "prompt_imagem": "a calm sea at night under the moon, slow small waves reaching a quiet sandy shore",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E então vem a frase final do versículo: eu o segurarei com a destra da minha justiça. A destra é a mão direita, a mão da força.",
+      "prompt_imagem": "a strong ancient stone wall at night lit by moonlight, an old olive tree growing beside it",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Três versículos depois, Deus repete: eu sou o Senhor, o seu Deus, que o segura pela mão direita e diz a você: Não tema; eu o ajudarei.",
+      "prompt_imagem": "a still lake at night reflecting the moon perfectly, mist on the water, dark empty shores",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Imagine uma criança atravessando uma rua escura segurando a mão do pai. Ela ainda vê o escuro, mas não sente pânico, porque a mão dela está presa numa mão maior. É assim que Deus quer que você durma hoje.",
+      "prompt_imagem": "a long ancient road winding through hills under the moon, soft silver light, distant mountains",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Senhor, segura a minha mão esta noite. Quando eu acordar com o coração acelerado, lembra-me de que a minha mão ainda está na tua.",
+      "prompt_imagem": "a small open clay saucer oil lamp with a tiny flame on a rough stone ledge, darkness around, warm glow",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Eu oro também por quem está com medo de perder o emprego, por quem tem medo de não conseguir pagar as contas, por quem está esperando um resultado. Senhor, que ninguém enfrente isso sozinho.",
+      "prompt_imagem": "a heavy wooden door of a stone house slightly open with warm light coming out, moonlit street",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Eu oro pelas mães e pelos pais que estão preocupados com os filhos. Senhor, guarda cada filho onde ele estiver esta noite, e traz paz para quem não consegue parar de pensar.",
+      "prompt_imagem": "a quiet stone house at night with a single warm window lit, an olive tree beside it",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Eu oro por quem está doente, por quem está num hospital esta noite, por quem sente dor e não consegue dormir. Senhor, toca nesses corpos, alivia a dor e dá descanso a quem está cuidando deles.",
+      "prompt_imagem": "a quiet garden with olive trees at night, a single small lamp glowing on a stone wall",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E eu oro por quem tem um medo que nunca contou para ninguém. Um medo guardado no peito há muito tempo. Senhor, tu conheces esse medo pelo nome. Entra nesse lugar escondido e traz a tua paz.",
+      "prompt_imagem": "the shade of a large olive tree on a moonlit hillside, silver light filtering through the leaves",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "No mesmo capítulo, Deus diz: O pobre e o necessitado buscam água e não a encontram! Mas eu, o Senhor, lhes responderei; eu, o Deus de Israel, não os abandonarei.",
+      "prompt_imagem": "a dry rocky desert valley at night under the stars, a thin stream of water beginning to flow between stones",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E Ele promete: Abrirei rios nas colinas áridas e fontes nos vales. Senhor, onde a minha vida está seca, abre fontes. Onde eu só vejo deserto, faz brotar água.",
+      "prompt_imagem": "a small spring of clear water flowing between moonlit rocks in a quiet valley, green grass around",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Respire fundo. Inspire e diga no coração: não tenho medo. Solte o ar e diga: Deus está comigo. Mais uma vez, devagar.",
+      "prompt_imagem": "a peaceful green meadow on gentle hills under the moonlight, soft grass swaying, stars above",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Agora solte os ombros. Solte a mandíbula. Solte as mãos. Você não precisa segurar o dia de amanhã esta noite. Quem segura você é Ele.",
+      "prompt_imagem": "a field of white wildflowers under the full moon, quiet hills in the distance",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Senhor, eu me deito agora debaixo da tua proteção. Guarda a minha casa, guarda os meus sonhos, e me acorda amanhã com coragem.",
+      "prompt_imagem": "a simple wooden bed with a wool blanket beside an open clay saucer oil lamp with a tiny flame, stone wall, quiet night",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Talvez amanhã os problemas ainda estejam lá. Mas você não vai enfrentá-los sozinho. O mesmo Deus que disse não tema estará com você quando você abrir os olhos. E se acordar no meio da noite, repita baixinho: não tema, eu estou com você.",
+      "prompt_imagem": "the first light of dawn over quiet hills and a calm lake, soft pink and gold colors",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Se esta oração te ajudou, inscreva-se no canal para orarmos juntos toda noite. Em nome de Jesus, amém. Fique agora em silêncio. A música vai continuar por alguns minutos. Durma em paz.",
+      "prompt_imagem": "a vast starry night sky over still dark hills and a quiet lake, the Milky Way glowing softly",
+      "vazia": true,
+      "animar": false
+    }
+  ],
+  "short_isca": {
+    "cenas": [
+      6
+    ],
+    "texto_topo": "NÃO TEMA",
+    "titulo": "Deus nunca prometeu que você não sentiria medo",
+    "hashtags": [
+      "isaias4110",
+      "naotema",
+      "oracao"
+    ]
+  }
+}
