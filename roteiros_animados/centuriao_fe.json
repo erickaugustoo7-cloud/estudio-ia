@@ -1,0 +1,88 @@
+{
+  "titulo": "A fé que deixou Jesus admirado",
+  "gancho_tela": "Jesus se admirou com um estrangeiro",
+  "referencia": "Mateus 8:10",
+  "duracao_max": 90,
+  "volume_musica": 0.14,
+  "estilo_imagem": "cinematic photorealistic epic film still, dramatic volumetric god rays, floating dust particles, deep chiaroscuro, first century Galilee, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic epic film shot, slow and subtle motion.",
+  "epoca_imagem": "Capernaum on the shore of the Sea of Galilee around 30 AD, black basalt stone houses with flat roofs, a stone synagogue, fishing boats, olive trees, stone, wood, clay, bronze and cloth only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "Em Cafarnaum, um oficial romano procurou Jesus. Ele comandava cem soldados.",
+      "prompt_imagem": "wide aerial view at dawn of an ancient fishing town of black basalt stone houses with flat roofs on the shore of the Sea of Galilee, golden mist over the water",
+      "prompt_movimento": "slow aerial camera glide forward over the town, mist drifts over the lake, gentle ripples on the water",
+      "vazia": true
+    },
+    {
+      "trecho": "Um centurião era do exército que dominava Israel. Muitos judeus o viam como inimigo.",
+      "prompt_imagem": "close-up of an ancient Roman bronze helmet with a red transverse crest and a vine-wood staff resting on a rough stone bench, one oil lamp, dark stone wall",
+      "prompt_movimento": "the oil lamp flame flickers, warm light glints on the bronze, slow camera push-in",
+      "vazia": true
+    },
+    {
+      "trecho": "Mesmo assim, ele implorou: Senhor, meu servo está em casa, paralítico, sofrendo terrivelmente.",
+      "prompt_imagem": "a dim basalt stone room of an ancient house, an empty woven sleeping mat on the floor with a wool blanket, a clay water jug and a small oil lamp, thin light from a high window",
+      "prompt_movimento": "the lamp flame trembles, dust floats in the thin beam of light, very slow camera push-in",
+      "vazia": true
+    },
+    {
+      "trecho": "Jesus respondeu na hora: Eu irei curá-lo.",
+      "prompt_imagem": "high wide view of a dusty stone street between black basalt houses of an ancient Galilean town, tiny distant figures walking far away in the distance, morning god rays",
+      "prompt_movimento": "dust drifts in the sunbeams, slow camera descent toward the street",
+      "vazia": false
+    },
+    {
+      "trecho": "Mas o oficial sabia que um judeu evitava entrar na casa de um estrangeiro.",
+      "prompt_imagem": "a heavy closed wooden door in a black basalt stone wall of an ancient courtyard house, a worn stone threshold, late afternoon light",
+      "prompt_movimento": "warm sunlight shifts slowly across the door, dust floats in the air, static camera",
+      "vazia": true
+    },
+    {
+      "trecho": "E disse: Senhor, não mereço receber-te debaixo do meu teto. Dize apenas uma palavra.",
+      "prompt_imagem": "the flat roof of an ancient basalt stone house seen from above, wooden beams and reed covering, a single beam of golden light falling from the clouds onto it",
+      "prompt_movimento": "the beam of light glows softly, clouds move slowly, slow camera descent",
+      "vazia": true
+    },
+    {
+      "trecho": "Eu também tenho soldados. Digo a um: vá, e ele vai.",
+      "prompt_imagem": "an ancient Roman fort courtyard at dawn, rows of red oval shields and spears leaning against a stone wall, torches, mist",
+      "prompt_movimento": "torch flames flicker, mist drifts across the courtyard, red cloth banners move in the wind, slow camera pull-back",
+      "vazia": true
+    },
+    {
+      "trecho": "Ao ouvir isso, Jesus se admirou: Não encontrei em Israel ninguém com tamanha fé.",
+      "prompt_imagem": "high wide view of a road on the shore of the Sea of Galilee, tiny distant figures far away in the distance, olive trees, dramatic volumetric god rays breaking through clouds",
+      "prompt_movimento": "god rays shimmer, clouds drift slowly, olive leaves move in the breeze, slow camera push-in",
+      "vazia": false
+    },
+    {
+      "trecho": "Os Evangelhos quase nunca dizem que Jesus se admirou. Aqui foi com um estrangeiro.",
+      "prompt_imagem": "an old parchment scroll partly unrolled on a wooden table, Greek handwriting, an oil lamp, a beam of light from a small window",
+      "prompt_movimento": "the lamp flame flickers, dust floats in the light beam, slow camera push-in over the scroll",
+      "vazia": true
+    },
+    {
+      "trecho": "Jesus disse: Vá! Como você creu, assim lhe acontecerá.",
+      "prompt_imagem": "wide view of the Sea of Galilee at midday from a hill, the black basalt town on the shore in the distance, sunlight sparkling on the water",
+      "prompt_movimento": "sunlight sparkles on the water, clouds move slowly, gentle wind in the grass, slow camera glide",
+      "vazia": true
+    },
+    {
+      "trecho": "Naquela mesma hora, o servo foi curado, de longe. Mateus, capítulo oito.",
+      "prompt_imagem": "the same dim basalt stone room now filled with bright warm sunlight, the woven sleeping mat neatly rolled up, a linen curtain at the window",
+      "prompt_movimento": "bright sunlight grows warmer, the linen curtain moves gently in the breeze, dust sparkles, slow camera push-in",
+      "vazia": true
+    },
+    {
+      "trecho": "Uma palavra de Jesus ainda basta para a sua vida. Siga para mais.",
+      "prompt_imagem": "sunrise over the calm Sea of Galilee, golden light reflecting on the water, an ancient wooden fishing boat resting on the shore",
+      "prompt_movimento": "golden light spreads slowly across the water, small waves touch the shore, slow camera pull-back",
+      "vazia": true
+    }
+  ],
+  "legenda": "Senhor, dize apenas uma palavra 🙏✨\nMateus 8:5-13\nComente \"Amém\" se você crê que uma palavra de Jesus basta.",
+  "hashtags": ["#Jesus", "#fé", "#centurião", "#Bíblia", "#oquequaseninguémsabe"],
+  "fontes": ["Mateus 8:5-13", "Lucas 7:1-10", "Marcos 6:6", "Atos 10:28"]
+}
