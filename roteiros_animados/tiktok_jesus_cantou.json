@@ -1,0 +1,70 @@
+{
+  "titulo": "A única vez que Jesus cantou",
+  "gancho_tela": "Ele cantou uma vez",
+  "referencia": "Mateus 26:30",
+  "serie": "O que quase ninguém sabe",
+  "tipo": "tiktok",
+  "fonte_imagem": "kaggle",
+  "opcoes_imagem": 2,
+  "duracao_max": 40,
+  "volume_musica": 0.12,
+  "plataformas": [
+    "facebook"
+  ],
+  "estilo_imagem": "cinematic photorealistic epic film still, night, warm oil lamp glow, dramatic volumetric light, ancient Jerusalem 1st century, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic slow subtle motion.",
+  "epoca_imagem": "Ancient Jerusalem, 1st century, Passover night, upper room of stone, clay oil lamps, unleavened bread, clay cups, linen, olive trees, nothing modern",
+  "cenas": [
+    {
+      "trecho": "Os Evangelhos mostram Jesus cantando uma única vez. Na noite em que seria preso.",
+      "prompt_imagem": "close-up of a small clay oil lamp burning on a low wooden table in an ancient stone upper room at night, warm flickering flame",
+      "vazia": true,
+      "animar": true,
+      "prompt_movimento": "the oil lamp flame flickers gently, soft smoke rising slowly in the warm light"
+    },
+    {
+      "trecho": "Era a Páscoa, a última ceia.",
+      "prompt_imagem": "low wooden table with broken unleavened flatbread and plain clay cups on linen cloth, lit by clay oil lamps, ancient stone room at night",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Mateus conta: e, tendo cantado o hino, saíram para o Monte das Oliveiras.",
+      "prompt_imagem": "wide high view of the Mount of Olives at night under a full moon, ancient olive trees on terraced hillside, Jerusalem stone walls far away",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Na Páscoa, os judeus cantavam os Salmos cento e treze a cento e dezoito.",
+      "prompt_imagem": "an ancient parchment scroll partly unrolled on a wooden table beside a clay oil lamp, warm glow, Hebrew letters faint",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "O último diz: o Senhor está comigo; não temerei. Dali, Ele seguiu para a cruz.",
+      "prompt_imagem": "ancient gnarled olive trees in a garden at night, moonlight rays through the branches, calm and solemn",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Siga o Mensageiro de Fé para mais do que quase ninguém sabe.",
+      "prompt_imagem": "ancient Jerusalem at dawn seen from the Mount of Olives, golden god rays over stone walls and olive trees",
+      "vazia": true,
+      "animar": false
+    }
+  ],
+  "legenda": "Depois da última ceia, Jesus cantou um hino com os discípulos e saiu para o Monte das Oliveiras (Mateus 26:30; Marcos 14:26). Pela tradição da Páscoa, eram os Salmos 113 a 118 — e o Salmo 118:6 diz: \"O Senhor está comigo; não temerei.\" Que louvor você canta nos dias difíceis? Comente 👇",
+  "hashtags": [
+    "#Jesus",
+    "#Bíblia",
+    "#Fé",
+    "#OQueQuaseNinguémSabe",
+    "#Cristão"
+  ],
+  "fontes": [
+    "Mateus 26:30 e Marcos 14:26 — Almeida Revista e Corrigida (domínio público)",
+    "Salmo 118:6 — Almeida Revista e Corrigida (domínio público)",
+    "Hallel (Salmos 113–118) cantado na Páscoa — tradição judaica; biblehub.com/q/Why_sing_a_hymn_in_Matthew_26_30.htm"
+  ]
+}
