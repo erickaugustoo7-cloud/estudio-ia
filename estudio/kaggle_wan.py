@@ -456,6 +456,7 @@ def _short_isca(r, canal, imgs, tempos, palavras, mp3, pasta) -> None:
     # legenda palavra a palavra (mesma identidade dos curtos) + título no topo + convite no fim
     ass = out / "legendas.ass"
     pal = [{**p, "ini": p["ini"] - ini, "fim": p["fim"] - ini} for p in palavras if ini - 0.05 <= p["ini"] < fim]
+    log("wan", f"short isca: {len(pal)} palavras na legenda ({ini:.1f}–{fim:.1f}s; total de palavras {len(palavras)})")
     montador.gerar_legendas(pal, ass)
     extra = ("Style: Topo,DejaVu Serif,74,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,-1,0,0,0,100,100,0,0,1,5,2,8,70,70,330,1\n"
              "Style: Cta,Montserrat,46,&H007AD2FF,&H007AD2FF,&H00000000,&H96000000,-1,0,0,0,100,100,1,0,3,14,0,2,90,90,250,1\n"
