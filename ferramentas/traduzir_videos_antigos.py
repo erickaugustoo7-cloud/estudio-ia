@@ -15,12 +15,18 @@ tok = requests.post("https://oauth2.googleapis.com/token", data={
     "refresh_token": os.environ["YT_REFRESH_TOKEN"], "grant_type": "refresh_token"}).json()
 H = {"Authorization": f"Bearer {tok['access_token']}"}
 print("escopos do token:", tok.get("scope"))
-canal = requests.get(f"{API}/channels", headers=H, params={"part": "contentDetails", "mine": "true"}).json()
+canal = requests.get(f"{API}/channels", headers=H, params={"part": "contentDetails,snippet,statistics", "mine": "true"}).json()
+for c in canal.get("items", []):
+    print("canal do token:", c["id"], "·", c["snippet"]["title"], "· vídeos:", c["statistics"].get("videoCount"))
+if not canal.get("items"):
+    print("resposta channels:", str(canal)[:500])
 uploads = canal["items"][0]["contentDetails"]["relatedPlaylists"]["uploads"]
 ids, pt = [], None
 while True:
     r = requests.get(f"{API}/playlistItems", headers=H, params={"part": "contentDetails", "playlistId": uploads,
                                                                "maxResults": 50, **({"pageToken": pt} if pt else {})}).json()
+    if "error" in r:
+        print("erro playlistItems:", str(r)[:500])
     ids += [i["contentDetails"]["videoId"] for i in r.get("items", [])]
     pt = r.get("nextPageToken")
     if not pt:
