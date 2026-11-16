@@ -65,7 +65,8 @@ O que os grandes canais de oração fazem e nós não fazíamos:
   (vai como metadado da voz Gemini; não é narrado).
 
 ### Duração e estrutura (padrão desde 16/11)
-- `"tipo": "oracao"`, **2000–2800 palavras, 40–90 cenas** (~20 s cada), `"palavras_por_bloco": 520`, SEM `cauda_musical_min`.
+- `"tipo": "oracao"`, **2700–3300 palavras, 50–110 cenas** (~20 s cada), `"palavras_por_bloco": 600`, SEM `cauda_musical_min`.
+  (Medido em 16/11: a voz fala ~135 palavras/min; 2.000 palavras deram só 14,6 min. Para ~22 min: ~2.900 palavras.)
 - Música só de fundo, baixinha, sob a voz (`volume_musica` ~0.2). Nada de 20 min só de música.
 - `capitulos` obrigatórios (4–12), para o público pular para a parte que precisa. Sequência que funciona:
   Acolhida → o salmo/promessa do dia → oração "do jeito que eu estou" → pela mente/ansiedade → pela família e filhos →

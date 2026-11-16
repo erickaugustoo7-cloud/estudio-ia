@@ -45,7 +45,7 @@ elif r.get("tipo") == "historia":  # história narrada com a voz do Eric, sem GP
 elif r.get("tipo") == "salmo":  # Salmos narrados: texto bíblico corrido sobre poucas imagens (1–2 min)
     lim_c, lim_p, lim_t = (3, 8), (120, 420), (8, 120)
 elif r.get("formato") == "horizontal":  # vídeo longo do YouTube (docs/MANUAL_LONGOS.md)
-    lim_c, lim_p, lim_t, max_anim = ((40, 90), (2000, 2800), (12, 70), 6) if oracao else \
+    lim_c, lim_p, lim_t, max_anim = ((50, 110), (2700, 3300), (12, 70), 6) if oracao else \
                                     ((60, 110), (900, 1400), (3, 30), 10)
     for campo in ("titulo_youtube", "texto_capa", "cena_capa", "legenda", "hashtags"):
         if not r.get(campo) and r.get(campo) != 0:

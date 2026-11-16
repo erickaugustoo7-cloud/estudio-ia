@@ -7,11 +7,11 @@
   "duracao_max": 999,
   "volume_musica": 0.22,
   "opcoes_imagem": 1,
-  "palavras_por_bloco": 520,
+  "palavras_por_bloco": 600,
   "plataformas": [
     "youtube"
   ],
-  "cena_capa": 1,
+  "cena_capa": 5,
   "texto_capa": [
     "QUANDO TUDO",
     "DESABA",
@@ -115,6 +115,24 @@
       "animar": false
     },
     {
+      "trecho": "Lembra quando os discípulos estavam no barco, no meio da tempestade, e Jesus dormia? Eles gritaram com medo. E Ele se levantou, repreendeu o vento e disse ao mar: Cala-te, aquieta-te. E o vento se aquietou, e houve grande bonança.",
+      "prompt_imagem": "a small waterfall flowing into a clear green pool surrounded by ferns",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Senhor, a minha tempestade também tem nome. Tu sabes qual é. Esta noite eu Te peço: levanta e fala com ela. Cala o vento que está dentro da minha casa. Acalma o mar que está dentro do meu peito.",
+      "prompt_imagem": "golden wheat fields swaying under a warm sunset",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E se a tempestade não passar hoje, que eu saiba pelo menos que Tu estás no barco comigo. Porque com Jesus no barco, o barco pode balançar… mas não afunda.",
+      "prompt_imagem": "a calm turquoise sea at sunset with gentle waves on a quiet sandy beach",
+      "vazia": true,
+      "animar": false
+    },
+    {
       "trecho": "Eu Te entrego aquela preocupação que fica rodando na minha cabeça quando eu deito. Eu solto ela agora… nas Tuas mãos. Ela pesa demais para mim, mas não pesa para Ti.",
       "prompt_imagem": "a tropical beach with palm trees at twilight, calm water, first stars",
       "vazia": true,
@@ -129,6 +147,18 @@
     {
       "trecho": "Onde há pensamento acelerado, coloca a Tua calma. Onde há medo, coloca a Tua verdade. Onde há culpa, coloca o Teu perdão. Eu não quero mais dormir brigando com a minha própria cabeça.",
       "prompt_imagem": "a calm lake with water lilies at dusk, soft warm light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Senhor, eu Te entrego também os pensamentos de madrugada. Aqueles que chegam quando a luz apaga e tudo fica em silêncio. As lembranças que doem, as perguntas sem resposta, os cenários que eu crio na minha cabeça.",
+      "prompt_imagem": "a field of lavender at golden hour with soft clouds",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Quando eles vierem esta noite, que eu me lembre desta oração. Que eu respire e diga: eu já entreguei isso a Deus. Isso não é mais meu para carregar sozinho.",
+      "prompt_imagem": "sunlight breaking through clouds over green mountains and a valley",
       "vazia": true,
       "animar": false
     },
@@ -157,6 +187,18 @@
       "animar": false
     },
     {
+      "trecho": "E eu oro também por quem está doente por dentro. Pela tristeza que não vai embora, pela depressão que ninguém vê, pelo vazio que pesa mais do que qualquer dor no corpo. Senhor, chega até esse lugar.",
+      "prompt_imagem": "a cliff over the ocean at golden hour with soft clouds and calm sea",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Está escrito: Perto está o Senhor dos que têm o coração quebrantado e salva os contritos de espírito. Se o seu coração está partido esta noite, você não está longe de Deus. Você está exatamente onde Ele está mais perto.",
+      "prompt_imagem": "a quiet bay with crystal clear water and rocks at sunrise",
+      "vazia": true,
+      "animar": false
+    },
+    {
       "trecho": "Senhor, eu também Te entrego as minhas contas. Os boletos em cima da mesa, o aluguel, a dívida que tira o meu sono. Tu sabes exatamente quanto eu preciso. Nada disso Te assusta.",
       "prompt_imagem": "a winding stream through a mossy forest, soft rays of light",
       "vazia": true,
@@ -171,6 +213,12 @@
     {
       "trecho": "Eu oro por quem perdeu o emprego. Por quem trabalha demais e ganha de menos. Por quem acordou de madrugada para ganhar o pão. Senhor, honra o esforço dessas pessoas. Que amanhã seja um dia de portas abertas.",
       "prompt_imagem": "a hammock between palm trees on an empty beach at sunset",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E eu Te entrego o dia de amanhã no trabalho, Senhor. A reunião difícil, o chefe que pressiona, a meta que parece impossível, o colega que me trata mal. Vai na minha frente. Prepara o caminho antes de eu chegar.",
+      "prompt_imagem": "ocean waves washing softly on a deserted beach under the full moon",
       "vazia": true,
       "animar": false
     },
@@ -205,6 +253,12 @@
       "animar": false
     },
     {
+      "trecho": "E se os meus filhos já são adultos, Senhor, e estão longe, guarda as decisões deles, os casamentos deles, os caminhos que eles escolheram. Eu não controlo mais a vida deles, mas eu posso entregar a vida deles a Ti.",
+      "prompt_imagem": "rolling green hills with wildflowers under a soft pink sunset sky",
+      "vazia": true,
+      "animar": false
+    },
+    {
       "trecho": "E se alguém da minha família está longe de Ti, Senhor, não desiste dessa pessoa. Eu também não vou desistir. Eu continuo orando, mesmo quando parece que nada muda. Porque eu sei que Tu estás trabalhando no silêncio.",
       "prompt_imagem": "rolling green hills with wildflowers under a soft pink sunset sky",
       "vazia": true,
@@ -213,6 +267,18 @@
     {
       "trecho": "Talvez você que está me ouvindo tenha alguém por quem já orou muitas vezes. Um filho, um marido, uma mãe. Diga o nome dessa pessoa agora, baixinho. Deus ouviu. E Ele não esqueceu nenhuma das suas orações.",
       "prompt_imagem": "a gentle river flowing over smooth stones in a quiet forest, soft evening light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E se você está sozinho esta noite… se a casa está vazia, se ninguém perguntou como foi o seu dia, se você se sente esquecido… Deus não esqueceu de você. Ele sabe o seu nome. Ele conta até as suas lágrimas.",
+      "prompt_imagem": "a vast canyon at sunset with warm orange light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Senhor, abraça quem está sozinho agora. A viúva, o idoso, quem mora longe da família, quem acabou de perder alguém. Que esta noite eles sintam que não estão abandonados. Que eles sintam a Tua presença no quarto.",
+      "prompt_imagem": "rolling green hills with wildflowers under a soft pink sunset sky",
       "vazia": true,
       "animar": false
     },
@@ -247,6 +313,12 @@
       "animar": false
     },
     {
+      "trecho": "Talvez você esteja carregando uma culpa há anos. Algo que você fez, uma palavra que você disse, uma decisão que você tomou. Você já pediu perdão a Deus, mas ainda não se perdoou. Esta noite, solte isso também. A cruz foi suficiente.",
+      "prompt_imagem": "a tropical beach with palm trees at twilight, calm water, first stars",
+      "vazia": true,
+      "animar": false
+    },
+    {
       "trecho": "E agora, Senhor, eu ouço a Tua voz no versículo dez: Aquietai-vos, e sabei que eu sou Deus.",
       "prompt_imagem": "a cliff over the ocean at golden hour with soft clouds and calm sea",
       "vazia": true,
@@ -261,6 +333,18 @@
     {
       "trecho": "Então eu me aquieto. Eu solto os ombros. Eu solto a respiração. Eu solto o amanhã. O amanhã já está nas Tuas mãos antes mesmo de chegar.",
       "prompt_imagem": "a tropical beach with palm trees at twilight, calm water, first stars",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Solte a mandíbula. Solte a testa. Deixe os ombros caírem. Deixe as mãos abertas sobre a cama. Você não precisa segurar nada agora. Deus está segurando por você.",
+      "prompt_imagem": "a winding stream through a mossy forest, soft rays of light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Lembra de Elias? Ele estava tão cansado que pediu para morrer. E Deus não deu sermão. Deus deu comida, deu água… e deixou ele dormir. Às vezes, o cuidado de Deus começa com um bom descanso.",
+      "prompt_imagem": "a still mountain lake reflecting snowy peaks under a starry night sky",
       "vazia": true,
       "animar": false
     },
@@ -289,6 +373,12 @@
       "animar": false
     },
     {
+      "trecho": "Obrigado pelas pessoas que Tu colocaste no meu caminho. Pelo amigo que mandou mensagem na hora certa, pela mão que me ajudou quando eu não pedi. Abençoa cada uma delas esta noite, Senhor, do jeito que elas me abençoaram.",
+      "prompt_imagem": "a quiet wooden dock on a misty lake at sunrise",
+      "vazia": true,
+      "animar": false
+    },
+    {
       "trecho": "E se você que está me ouvindo não consegue agradecer por nada hoje, tudo bem. Agradeça só por estar vivo. Por ter chegado até esta noite. Isso já é graça. Isso já é Deus.",
       "prompt_imagem": "a quiet bay with crystal clear water and rocks at sunrise",
       "vazia": true,
@@ -297,6 +387,18 @@
     {
       "trecho": "O Senhor dos Exércitos está conosco; o Deus de Jacó é o nosso refúgio. Eu creio nisso. Esta noite eu descanso nisso.",
       "prompt_imagem": "northern lights glowing softly over a frozen lake and pine trees",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E Jesus disse: Deixo-vos a paz, a minha paz vos dou; não vo-la dou como o mundo a dá. Não se turbe o vosso coração, nem se atemorize. A paz que Ele dá não depende de tudo estar resolvido.",
+      "prompt_imagem": "a small waterfall flowing into a clear green pool surrounded by ferns",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Senhor, eu recebo essa paz agora. Não a paz de quem não tem problemas, mas a paz de quem sabe que o Teu amor é maior que qualquer problema. Enche este quarto com essa paz.",
+      "prompt_imagem": "golden wheat fields swaying under a warm sunset",
       "vazia": true,
       "animar": false
     },
@@ -321,6 +423,18 @@
     {
       "trecho": "Pela mãe que pediu pelo filho. Pelo pai desempregado. Pela pessoa que está sozinha e não tem com quem conversar. Pelo casal que está quase desistindo. Senhor, visita cada uma dessas casas esta noite.",
       "prompt_imagem": "a peaceful meadow with a single tree under a starry sky",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Pela pessoa que está no hospital ao lado de alguém que ama. Por quem está trabalhando no turno da noite. Por quem está na estrada voltando para casa. Senhor, guarda cada um deles até o amanhecer.",
+      "prompt_imagem": "a calm turquoise sea at sunset with gentle waves on a quiet sandy beach",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E por quem está pensando em desistir de tudo esta noite… fica. Fala com alguém. Deus ainda tem planos para você. A sua história não termina aqui.",
+      "prompt_imagem": "a field of lavender at golden hour with soft clouds",
       "vazia": true,
       "animar": false
     },
@@ -357,6 +471,12 @@
     {
       "trecho": "Ele disse: Vinde a mim, todos os que estais cansados e oprimidos, e eu vos aliviarei. Se você está cansado, Ele não está te cobrando. Ele está te chamando para descansar.",
       "prompt_imagem": "a gentle river flowing over smooth stones in a quiet forest, soft evening light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Talvez você esteja cansado de ser forte para todo mundo. Cansado de segurar a família, o trabalho, a casa. Esta noite, você pode ser fraco diante de Deus. Ele é forte por você.",
+      "prompt_imagem": "the Milky Way over calm mountains and a dark blue valley",
       "vazia": true,
       "animar": false
     },
@@ -441,7 +561,7 @@
   ],
   "short_isca": {
     "cenas": [
-      36
+      48
     ],
     "texto_topo": "PARE DE LUTAR SOZINHO",
     "titulo": "Você não precisa ser Deus esta noite",
@@ -466,35 +586,39 @@
       "titulo": "Oração: do jeito que eu estou"
     },
     {
-      "cena": 14,
-      "titulo": "Pela mente cansada"
-    },
-    {
-      "cena": 24,
-      "titulo": "Pela família e pelos filhos"
+      "cena": 13,
+      "titulo": "Jesus acalma a tempestade"
     },
     {
       "cena": 17,
+      "titulo": "Pela mente cansada"
+    },
+    {
+      "cena": 22,
       "titulo": "Pela saúde e pelas contas"
     },
     {
-      "cena": 31,
+      "cena": 32,
+      "titulo": "Pela família e pelos filhos"
+    },
+    {
+      "cena": 42,
       "titulo": "Perdão"
     },
     {
-      "cena": 35,
+      "cena": 47,
       "titulo": "Aquietai-vos"
     },
     {
-      "cena": 44,
+      "cena": 61,
       "titulo": "Pelos seus pedidos"
     },
     {
-      "cena": 52,
+      "cena": 71,
       "titulo": "Promessas para esta noite"
     },
     {
-      "cena": 64,
+      "cena": 84,
       "titulo": "Bênção final"
     }
   ]
