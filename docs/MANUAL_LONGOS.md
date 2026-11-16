@@ -75,8 +75,13 @@ O que os grandes canais de oração fazem e nós não fazíamos:
 - Modelo completo: `roteiros_animados/oracao_noite_refugio_salmo46.json`.
 
 ### Título e miniatura (padrão desde 16/11)
-- `titulo_youtube` emocional e direto, em 2ª pessoa ou pedido: "ORE ISSO ANTES DE DORMIR | Entregue Sua Ansiedade a Deus",
-  "Senhor, Cuida da Minha Casa Esta Noite | Oração da Noite", "Deus Não Dorme: Durma em Paz Hoje | Salmo 121".
+- **`titulo_youtube` (pedido do Eric, 16/11): o título também tem que fazer clicar.** Fórmula dos grandes canais:
+  **[gancho emocional em 1ª pessoa ou convite direto] | [tipo de oração ou referência]**, 45–75 caracteres,
+  Iniciais Maiúsculas (não tudo em caixa alta), no máximo 1 emoji. O título COMPLETA a capa, não a repete palavra por palavra.
+  Ganchos que funcionam (sem mentir): pedido a Deus ("Senhor, Cuida da Minha Família Esta Noite"), situação do público
+  ("Se a Ansiedade Não Te Deixa Dormir, Ore Isso Agora"), ordem gentil ("Não Durma Sem Fazer Esta Oração"),
+  promessa da Palavra ("Deus Não Dorme: Entregue Seu Pedido e Durma em Paz").
+  Nunca comece com "ORAÇÃO DA NOITE" (é genérico e some na busca); o tipo vai no fim, depois do "|".
 - `texto_capa` = **3 linhas**: curta / PALAVRA-CHAVE / complemento (a linha mais curta sai ENORME). Ex.:
   ["ORE ISSO", "ANTES", "DE DORMIR"], ["SENHOR,", "CUIDA", "DA MINHA CASA"], ["ENTREGUE", "TUDO", "A DEUS HOJE"].
 - A miniatura agora é gerada sozinha no estilo dos grandes canais: foto emocional de uma pessoa orando à direita,

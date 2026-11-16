@@ -61,6 +61,11 @@ elif r.get("formato") == "horizontal":  # vídeo longo do YouTube (docs/MANUAL_L
             erros.append(f"texto_capa longo demais: '{linha}' (até 3 palavras por linha)")
     if oracao and not any("inscreva" in c["trecho"].lower() for c in cenas[-3:]):
         erros.append("oração sem convite falado para se inscrever nas 3 últimas cenas (ex.: 'inscreva-se no canal')")
+    tyt = r.get("titulo_youtube", "")
+    if oracao and (not 40 <= len(tyt) <= 80 or "|" not in tyt or tyt.upper().startswith("ORAÇÃO")
+                   or sum(ch.isupper() for ch in tyt) > len(tyt) * 0.5):
+        erros.append("titulo_youtube: '[gancho emocional] | [tipo/referência]', 40–80 caracteres, Iniciais Maiúsculas, "
+                     "sem começar por 'Oração' (MANUAL_LONGOS.md)")
     if oracao:  # tom humano (MANUAL_LONGOS.md, 16/11): acolhida falando com a pessoa + voz emocionada + capa de 3 linhas
         abertura = " ".join(c["trecho"] for c in cenas[:3]).lower()
         if "você" not in abertura:
