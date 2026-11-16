@@ -4,6 +4,7 @@
   O vídeo sobe direto do GitHub Actions para a Meta (upload resumável) — não precisa hospedar em lugar nenhum.
 - TikTok: o vídeo + legenda chegam no seu Telegram, prontos para salvar e postar no app (≈30 s).
 """
+import json
 import os
 import subprocess
 import time
@@ -378,6 +379,42 @@ def _enviar_capa(auth: dict, video_id: str, capa: Path):
         log("publicador", f"miniatura do YouTube falhou ({e})")
 
 
+def _traducoes_youtube(titulo: str, descricao: str) -> dict:
+    """Título e descrição em espanhol e inglês (YouTube "localizations"): quem busca "oración para dormir" ou
+    "prayer before sleep" também encontra o vídeo. Usa o Gemini de texto (cota separada da voz); falhou, segue sem."""
+    chave = os.getenv("GEMINI_API_KEY")
+    if not chave:
+        return {}
+    pedido = ("Traduza este título e esta descrição de um vídeo cristão do YouTube para espanhol latino-americano (es) e "
+              "inglês (en). Tom natural, emocional, como os grandes canais de oração de cada idioma; mantenha o formato "
+              "'[gancho] | [tipo]' no título (máx. 95 caracteres), emojis e hashtags (traduza as hashtags). Nos versículos, "
+              "use a tradução bíblica tradicional de cada idioma (Reina-Valera 1960 / KJV) se reconhecer o texto. "
+              "Responda SÓ JSON: {\"es\": {\"title\": \"...\", \"description\": \"...\"}, "
+              "\"en\": {\"title\": \"...\", \"description\": \"...\"}}\n\n"
+              f"TÍTULO: {titulo}\n\nDESCRIÇÃO:\n{descricao[:3000]}")
+    for modelo in ("gemini-flash-latest", "gemini-flash-lite-latest"):
+        try:
+            r = requests.post(f"https://generativelanguage.googleapis.com/v1beta/models/{modelo}:generateContent",
+                              params={"key": chave}, timeout=90,
+                              json={"contents": [{"parts": [{"text": pedido}]}],
+                                    "generationConfig": {"responseMimeType": "application/json", "temperature": 0.4}})
+            if not r.ok:
+                continue
+            txt = r.json()["candidates"][0]["content"]["parts"][0]["text"]
+            dados = json.loads(txt)
+            loc = {}
+            for lg in ("es", "en"):
+                t = (dados.get(lg) or {})
+                if t.get("title") and t.get("description"):
+                    loc[lg] = {"title": t["title"][:100], "description": t["description"][:4900]}
+            if loc:
+                log("publicador", f"YouTube: título e descrição traduzidos ({', '.join(loc)})")
+                return loc
+        except Exception as e:  # noqa: BLE001
+            log("publicador", f"tradução do YouTube falhou ({modelo}): {e}")
+    return {}
+
+
 def youtube_upload(video: Path, titulo: str, descricao: str, tags: list[str] | None = None,
                    agendar: str | None = None) -> dict:
     """Envia o vídeo ao canal (OAuth com refresh token). Vertical e até 3 min = Short; acima disso, vídeo normal."""
@@ -390,11 +427,14 @@ def youtube_upload(video: Path, titulo: str, descricao: str, tags: list[str] | N
                         "categoryId": "22", "defaultLanguage": "pt-BR", "defaultAudioLanguage": "pt-BR"},
             "status": {"privacyStatus": os.getenv("YT_PRIVACIDADE", "public"), "selfDeclaredMadeForKids": False,
                        "containsSyntheticMedia": True}}
+    loc = _traducoes_youtube(titulo, descricao) if os.getenv("YT_TRADUZIR", "1") == "1" else {}
+    if loc:
+        meta["localizations"] = loc
     desejado = meta["status"]["privacyStatus"]
     if agendar:  # agendado: fica privado e o YouTube publica sozinho na hora marcada (ISO 8601, UTC)
         meta["status"].update(privacyStatus="private", publishAt=agendar)
         desejado = "private"
-    ini = requests.post("https://www.googleapis.com/upload/youtube/v3/videos?uploadType=resumable&part=snippet,status",
+    ini = requests.post("https://www.googleapis.com/upload/youtube/v3/videos?uploadType=resumable&part=snippet,status" + (",localizations" if loc else ""),
                         headers={**auth, "X-Upload-Content-Type": "video/mp4",
                                  "X-Upload-Content-Length": str(video.stat().st_size)}, json=meta, timeout=60)
     if not ini.ok:  # mostra o motivo que o YouTube devolveu (ex.: uploadLimitExceeded, invalidTags)
