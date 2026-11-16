@@ -303,21 +303,21 @@ def _norm(w: str) -> str:
 PEXELS_TEMAS = [("waterfall", "waterfall nature"), ("cachoeira", "waterfall nature"), ("sea", "ocean waves sunset"),
                 ("ocean", "ocean waves"), ("beach", "beach waves sunset"), ("forest", "forest sunlight"),
                 ("lake", "calm lake mountains"), ("river", "river forest"), ("stream", "forest stream"),
-                ("mountain", "mountains clouds aerial"), ("star", "starry night sky"), ("milky way", "milky way night sky"),
+                ("mountain", "mountains clouds nature"), ("star", "starry night sky"), ("milky way", "milky way night sky"),
                 ("aurora", "northern lights"), ("northern lights", "northern lights"), ("field", "flower field sunset"),
                 ("lavender", "lavender field"), ("sunflower", "sunflower field"), ("sunrise", "sunrise nature"),
                 ("sunset", "sunset nature"), ("moon", "moon night clouds"), ("cloud", "clouds sky timelapse"),
-                ("rain", "rain on leaves"), ("valley", "green valley aerial"), ("hill", "green hills aerial"),
+                ("rain", "rain on leaves"), ("valley", "green valley nature"), ("hill", "green hills meadow"),
                 ("canyon", "canyon sunset"), ("dock", "lake dock sunrise"), ("pier", "lake dock sunrise"),
-                ("palm", "tropical beach palm trees"), ("wheat", "wheat field sunset"), ("bay", "ocean coast aerial"),
+                ("palm", "tropical beach palm trees"), ("wheat", "wheat field sunset"), ("bay", "ocean coast nature"),
                 ("snow", "snowy forest"), ("meadow", "meadow flowers"), ("tea plantation", "green hills fog"),
                 ("blossom", "cherry blossom"), ("dew", "dew grass morning"), ("tree", "tree field sunset"),
                 ("desert", "desert dunes sunset"), ("olive", "olive trees"), ("wilderness", "desert dunes"),
                 # roteiros em português (vídeos bíblicos curtos)
                 ("cachoeira", "waterfall nature"), ("mar ", "calm sea waves"), ("mar,", "calm sea waves"),
                 ("mar.", "calm sea waves"), ("barco", "boat lake sunrise"), ("pesca", "boat lake sunrise"),
-                ("tempestade", "storm clouds sea"), ("deserto", "desert dunes sunset"), ("montanha", "mountains clouds aerial"),
-                ("monte", "mountains clouds aerial"), ("rio", "river forest"), ("lago", "calm lake mountains"),
+                ("tempestade", "storm clouds sea"), ("deserto", "desert dunes sunset"), ("montanha", "mountains clouds nature"),
+                ("monte", "mountains clouds nature"), ("rio", "river forest"), ("lago", "calm lake mountains"),
                 ("estrela", "starry night sky"), ("noite", "starry night sky"), ("lua", "moon night clouds"),
                 ("sol", "sunrise nature"), ("manhã", "sunrise nature"), ("luz", "sun rays clouds"),
                 ("céu", "clouds sky timelapse"), ("chuva", "rain on leaves"), ("campo", "wheat field sunset"),
@@ -325,7 +325,7 @@ PEXELS_TEMAS = [("waterfall", "waterfall nature"), ("cachoeira", "waterfall natu
                 ("árvore", "tree field sunset"), ("oliveira", "olive trees"), ("jardim", "garden flowers morning"),
                 ("caminho", "path forest sunlight"), ("estrada", "country road sunset"), ("vento", "wind grass field"),
                 ("fogo", "campfire night"), ("água", "water stream forest"), ("ovelha", "sheep meadow")]
-PADROES_PAZ = ["sunrise nature", "clouds sky timelapse", "calm sea waves", "mountains clouds aerial", "sun rays clouds",
+PADROES_PAZ = ["sunrise nature", "clouds sky timelapse", "calm sea waves", "mountains clouds nature", "sun rays clouds",
                "forest sunlight", "calm lake mountains", "wheat field sunset"]
 
 
@@ -393,8 +393,16 @@ def _pixabay_video(prompt: str, seg: float, destino: Path, usados: set, horizont
                                                  params={"key": chave, "q": termo, "video_type": "film", "per_page": 100,
                                                          "safesearch": "true"}).json()
         res = _PIXABAY_CACHE[termo]
+        proibidas = ("people", "woman", "man", "girl", "boy", "person", "text", "city", "building", "town", "urban",
+                     "street", "car", "traffic", "architecture", "house", "castle", "church", "tower", "bridge",
+                     "skyline", "downtown", "road", "highway", "village", "people", "crowd", "logo", "animation", "3d")
+        natureza = ("nature", "landscape", "water", "sea", "ocean", "forest", "tree", "mountain", "lake", "river",
+                    "waterfall", "sky", "cloud", "sunset", "sunrise", "beach", "wave", "field", "flower", "grass",
+                    "star", "night", "moon", "desert", "meadow", "hill", "rain", "valley", "aurora", "fog", "mist")
         hits = [h for h in res.get("hits", []) if h["id"] not in usados and h.get("duration", 0) >= seg
-                and not any(x in h.get("tags", "") for x in ("people", "woman", "man", "girl", "boy", "person", "text"))]
+                and not any(x in h.get("tags", "").lower().split(", ") or f" {x}" in f" {h.get('tags', '').lower()}"
+                            for x in proibidas)
+                and any(x in h.get("tags", "").lower() for x in natureza)]
         random.shuffle(hits)
         for h in hits:
             ordem = ("medium", "large") if horizontal else ("large", "medium")  # deitado: 1080p basta; em pé: recorta do 4K
