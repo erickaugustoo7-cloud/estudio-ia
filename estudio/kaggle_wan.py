@@ -544,7 +544,7 @@ def main():
     pasta = SAIDA / f"wan_{caminho.stem}_{datetime.now():%Y%m%d_%H%M%S}"
     pasta.mkdir(parents=True)
     foto_capa = None
-    if r.get("formato") == "horizontal" and r.get("capa_estilo", "emocional") == "emocional":
+    if r.get("formato") == "horizontal" and r.get("capa_estilo", "emocional") == "emocional" and not os.getenv("SO_ISCA"):
         try:
             foto_capa = _imagem_capa(r, canal, pasta)
         except Exception as e:  # noqa: BLE001
