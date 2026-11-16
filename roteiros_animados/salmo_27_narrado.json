@@ -1,0 +1,70 @@
+{
+  "titulo": "A única coisa que Davi pediu a Deus, mesmo cercado de inimigos (Salmo 27)",
+  "gancho_tela": "DAVI PEDIU SÓ UMA COISA",
+  "referencia": "Salmos 27:1-5 e 13-14",
+  "serie": "Salmos narrados",
+  "tipo": "salmo",
+  "voz": "eric",
+  "fonte_imagem": "cloudflare",
+  "duracao_max": 180,
+  "volume_musica": 0.12,
+  "estilo_imagem": "cinematic photorealistic landscape, golden hour light, soft volumetric rays, peaceful and reverent, rich warm colors, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic slow subtle motion.",
+  "epoca_imagem": "untouched nature, no buildings, no modern objects",
+  "legenda": "Salmo 27 🙏 O Senhor é a minha luz e a minha salvação; a quem temerei?\nSalmos 27:1-5 e 13-14 (Almeida)\nEscreva \"Amém\" e mande este salmo para alguém que está com medo hoje.",
+  "hashtags": [
+    "#Salmo27",
+    "#Salmos",
+    "#PalavraDeDeus",
+    "#Fé",
+    "#Oração"
+  ],
+  "fontes": [
+    "Salmos 27:1-5 e 13-14 — Almeida Corrigida (tradução de domínio público)"
+  ],
+  "cenas": [
+    {
+      "trecho": "Salmo vinte e sete. Davi foi soldado e foi rei, e viu exércitos inimigos de perto. Mesmo assim, neste salmo ele diz que pediu a Deus uma coisa só. Ouça com calma.",
+      "prompt_imagem": "first golden light of sunrise breaking over a dark rocky desert valley, long shadows, mist between the hills, untouched nature",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "O Senhor é a minha luz e a minha salvação; a quem temerei? O Senhor é a força da minha vida; de quem me recearei? Quando os malvados, meus adversários e meus inimigos, investiram contra mim, para comerem as minhas carnes, tropeçaram e caíram.",
+      "prompt_imagem": "a brilliant sunrise piercing through heavy storm clouds over rugged mountains, strong volumetric rays of light, untouched nature",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Ainda que um exército me cercasse, o meu coração não temeria; ainda que a guerra se levantasse contra mim, nisto confiaria.",
+      "prompt_imagem": "many tiny campfires glowing scattered across dark distant hills at night, thin smoke drifting under a sky full of stars",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Uma coisa pedi ao Senhor, e a buscarei: que possa morar na casa do Senhor todos os dias da minha vida, para contemplar a formosura do Senhor, e inquirir no seu templo.",
+      "prompt_imagem": "ancient stone steps leading up a quiet hill toward a simple sanctuary of stone and woven fabric, soft golden morning light, incense smoke rising",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Porque no dia da adversidade me esconderá no seu pavilhão; no oculto do seu tabernáculo me esconderá; pôr-me-á sobre uma rocha.",
+      "prompt_imagem": "a massive high rock rising above a stormy desert plain, a sheltered cleft in the stone glowing with warm light while rain falls around it",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Pereceria sem dúvida, se não cresse que veria a bondade do Senhor na terra dos viventes. Espera no Senhor, anima-te, e ele fortalecerá o teu coração; espera, pois, no Senhor.",
+      "prompt_imagem": "a wide green valley with a river at dawn after a long night, dew on the grass, the sun rising warm over the hills, untouched nature",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Davi não pediu vitória, nem riqueza, nem vingança. Pediu para ficar perto de Deus. Quando o medo cercar você, peça a mesma coisa. Se esta oração também é sua, escreva Amém. E siga o Mensageiro de Fé para ouvir um salmo por dia.",
+      "prompt_imagem": "a wooden cross on a rocky hilltop silhouetted against a glowing golden sunset sky with rays of light",
+      "vazia": true,
+      "animar": false
+    }
+  ]
+}
