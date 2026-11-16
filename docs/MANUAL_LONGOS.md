@@ -13,7 +13,7 @@ Meta do Eric (09/11): monetizar rápido — 1.000 inscritos e 4.000 horas assist
 ## Passo a passo
 1. `git pull`. Leia este manual, `docs/REGRAS_FIXAS.md` e o modelo do formato do dia (copie `estilo_imagem`,
    `prefixo_imagem`, `prefixo_video`, `formato`, `duracao_max`, `palavras_por_bloco`, `plataformas` e, na oração,
-   `cauda_musical_min`, `volume_musica`, `cena_cauda`).
+   `tipo`, `volume_musica`, `estilo_voz`; nunca `cauda_musical_min`).
 2. Leia a passagem na web (NVI/ARA/NAA). Nada inventado: nomes, falas, números e ordem dos fatos conferidos.
    Citações literais curtas (até ~15 palavras cada), sempre com a referência.
 3. Escreva `roteiros_animados/<slug>.json` e rode `python ferramentas/validar_animacao.py roteiros_animados/<slug>.json`
@@ -96,8 +96,8 @@ O que os grandes canais de oração fazem e nós não fazíamos:
 - Estrutura: acolhida em 2ª pessoa (você) → convite para orar junto → oração em 1ª pessoa parafraseando um salmo ou
   promessa bíblica → pedido nos comentários + inscreva-se → bênção final. Original, sem copiar orações prontas.
 - Imagens de noite, paz e natureza da época (céu estrelado, colinas, lago, oliveiras, lamparina de barro). Nada de
-  lamparina/lanterna de vidro, casas modernas, móveis modernos. `cena_cauda`: a imagem mais limpa (paisagem sem objetos),
-  porque fica 20 min na tela.
+  lamparina/lanterna de vidro, casas modernas, móveis modernos. Varie as imagens: ~20 s cada, sem repetir a mesma
+  paisagem em sequência.
 - Varie o tema a cada dia para não parecer conteúdo repetido (motivo nº 1 de recusa na monetização).
 
 ## Regras de imagem
