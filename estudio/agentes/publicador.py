@@ -321,7 +321,9 @@ def capa_emocional(origem: Path, linhas: list[str], destino: Path, subtitulo: st
         grad = grad.point(lambda v: int(max(0, min(255, (v - 70) * 1.6))))
         img = Image.composite(Image.new("RGB", img.size, COR_AZUL), img, grad.point(lambda v: int(v * 0.8)))
         linhas = [x.upper().strip() for x in linhas if x and x.strip()][:3]
-        grande = min(range(len(linhas)), key=lambda k: (len(linhas[k]), abs(k - 1)))
+        marcada = [k for k, x in enumerate(linhas) if x.startswith("*")]  # "*PALAVRA" escolhe a linha enorme
+        linhas = [x.lstrip("*").strip() for x in linhas]
+        grande = marcada[0] if marcada else min(range(len(linhas)), key=lambda k: (len(linhas[k]), abs(k - 1)))
         larg_max, x0 = 690, 58
         def caber(txt, tam, fonte_nome):
             f = _fonte(fonte_nome, tam)
