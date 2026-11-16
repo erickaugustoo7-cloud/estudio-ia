@@ -3,6 +3,11 @@
 Um vídeo longo **horizontal (16:9)** por execução, **só para o YouTube** (canal "Mensageiro de Fé | Sobre Jesus").
 Meta do Eric (09/11): monetizar rápido — 1.000 inscritos e 4.000 horas assistidas. Os longos são o motor de horas.
 
+## Público (16/11, decisão do Eric)
+Público amplo de fé (homens e mulheres), com **ênfase em mulheres e mães de 30–55 anos** — quem mais
+comenta pedidos, salva e compartilha oração. Fale de filhos, casa, casamento, cansaço, espera; capas com mulheres
+orando aparecem com mais frequência, sem excluir homens.
+
 ## Qual vídeo fazer hoje
 - **Quarta e sábado: FILME bíblico** (12–20 min). Pauta: primeira linha não comentada de `pautas/filmes.txt`.
   Modelo aprovado: `roteiros_animados/jose_do_egito.json`.

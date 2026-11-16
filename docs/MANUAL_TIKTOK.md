@@ -3,6 +3,11 @@
 Dois por dia. Vão para o Telegram do Eric, que posta à mão no TikTok (e, se aprovar, sai no Facebook).
 **Não vão para Instagram nem YouTube** (o Instagram marcou a conta por "conteúdo não original" em 12/11).
 
+## Público (16/11, decisão do Eric)
+Público amplo de fé (homens e mulheres), com **ênfase em mulheres e mães de 30–55 anos** — quem mais
+comenta pedidos, salva e compartilha oração. Fale de filhos, casa, casamento, cansaço, espera; capas com mulheres
+orando aparecem com mais frequência, sem excluir homens.
+
 ## Por que este formato (dados do perfil, 13/11)
 - Os vídeos que bombaram (8–12 mil views) têm **imagem cinematográfica forte, quase sem texto** no primeiro quadro.
 - Os que ficaram em ~70 views tinham a **faixa amarela com frase** no topo e o mesmo molde repetido.
