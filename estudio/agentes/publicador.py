@@ -301,7 +301,12 @@ def capa_youtube(origem: Path, linhas: list[str], destino: Path, segundo: float 
         return None
 
 
-def capa_emocional(origem: Path, linhas: list[str], destino: Path, subtitulo: str = "", marca: str = "MENSAGEIRO DE FÉ") -> Path | None:
+COR_AZUL = (12, 30, 72)      # cores do canal (avatar/banner): azul-noite e dourado do pôr do sol
+COR_DOURADO = (246, 190, 66)
+
+
+def capa_emocional(origem: Path, linhas: list[str], destino: Path, subtitulo: str = "", marca: str = "MENSAGEIRO DE FÉ",
+                   destaque_dourado: bool = True) -> Path | None:
     """Miniatura no estilo dos grandes canais de oração (ex.: "PRAY THIS / BEFORE / BED"): foto emocional de alguém
     orando à DIREITA, céu azul/dourado à esquerda com o texto branco limpo — 1 palavra ENORME (a linha mais curta),
     as outras médias — e um subtítulo espaçado (ex.: O R A Ç Ã O  D A  N O I T E). Sem contorno grosso, só sombra suave."""
@@ -314,7 +319,7 @@ def capa_emocional(origem: Path, linhas: list[str], destino: Path, subtitulo: st
         # véu azul-noite à esquerda (onde fica o texto), sumindo até ~60% da largura
         grad = Image.linear_gradient("L").rotate(90).resize((1280, 720))
         grad = grad.point(lambda v: int(max(0, min(255, (v - 70) * 1.6))))
-        img = Image.composite(Image.new("RGB", img.size, (10, 22, 58)), img, grad.point(lambda v: int(v * 0.78)))
+        img = Image.composite(Image.new("RGB", img.size, COR_AZUL), img, grad.point(lambda v: int(v * 0.8)))
         linhas = [x.upper().strip() for x in linhas if x and x.strip()][:3]
         grande = min(range(len(linhas)), key=lambda k: (len(linhas[k]), abs(k - 1)))
         larg_max, x0 = 690, 58
@@ -346,15 +351,15 @@ def capa_emocional(origem: Path, linhas: list[str], destino: Path, subtitulo: st
         img = Image.composite(Image.new("RGB", img.size, (0, 0, 0)), img,
                               sombra.filter(ImageFilter.GaussianBlur(10)).point(lambda v: int(v * 0.75)))
         d = ImageDraw.Draw(img)
-        for txt, f, yy in pos:
-            d.text((x0, yy), txt, font=f, fill=(255, 255, 255))
+        for k, (txt, f, yy) in enumerate(pos):
+            d.text((x0, yy), txt, font=f, fill=COR_DOURADO if (destaque_dourado and k == grande) else (255, 255, 255))
         if sub_txt:
-            d.line((x0 + 4, y + 22, x0 + 250, y + 22), fill=(255, 255, 255), width=4)  # traço sob o título
+            d.line((x0 + 4, y + 22, x0 + 250, y + 22), fill=COR_DOURADO, width=5)  # traço sob o título
             d.text((x0 + 2, y + 38), sub_txt, font=fs, fill=(235, 240, 255))
         if marca:  # assinatura discreta do canal no topo
             fm = _fonte("Montserrat-Black.ttf", 24)
             d.text((x0, 30), marca.upper(), font=fm, fill=(255, 255, 255))
-            d.line((x0, 62, x0 + 60, 62), fill=(255, 196, 60), width=4)
+            d.line((x0, 62, x0 + 60, 62), fill=COR_DOURADO, width=4)
         img.save(destino, quality=93)
         return destino
     except Exception as e:  # noqa: BLE001
