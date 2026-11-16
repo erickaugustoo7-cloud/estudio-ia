@@ -1,0 +1,68 @@
+{
+  "titulo": "Oração de 20 segundos pela sua família antes de dormir",
+  "gancho_tela": "Ore pela sua família",
+  "referencia": "Josué 24:15",
+  "serie": "Oração de 20 segundos",
+  "tipo": "tiktok",
+  "fonte_imagem": "kaggle",
+  "opcoes_imagem": 2,
+  "duracao_max": 40,
+  "volume_musica": 0.12,
+  "plataformas": [
+    "facebook"
+  ],
+  "estilo_imagem": "cinematic photorealistic epic film still, deep blue night and warm lamplight, dramatic volumetric light, ancient Judea village, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic slow subtle motion.",
+  "epoca_imagem": "Ancient Israel village at night, stone house, clay oil lamps, linen, wool and wood only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "Antes de dormir, ore comigo vinte segundos pela sua família.",
+      "prompt_imagem": "a small clay oil lamp with a warm flame on a rough wooden shelf inside an ancient stone house at night, deep blue moonlight through a small window",
+      "vazia": true,
+      "animar": true,
+      "prompt_movimento": "the small flame flickers gently, a linen curtain sways softly in the night breeze"
+    },
+    {
+      "trecho": "Senhor, nesta noite eu te entrego a minha casa.",
+      "prompt_imagem": "the wooden door of an ancient stone house at night, warm lamplight glowing through the gap, starry sky above",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Guarda quem eu amo, os que dormem perto e os que estão longe.",
+      "prompt_imagem": "folded wool blankets and linen sleeping mats on the floor of a dim ancient stone room, soft glow of a clay lamp",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Como Josué, eu declaro: eu e a minha casa serviremos ao Senhor.",
+      "prompt_imagem": "an old parchment scroll partly unrolled on a wooden table beside a clay oil lamp, warm light falling across it",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Dá paz ao nosso lar e descanso ao nosso sono. Amém.",
+      "prompt_imagem": "a quiet ancient village of flat-roofed stone houses under a vast starry night sky, wide high view, calm and peaceful",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Siga o Mensageiro de Fé para orar comigo todas as noites.",
+      "prompt_imagem": "moonlight over gentle hills of ancient Israel with a small stone house and one warm lit window far away, peaceful night",
+      "vazia": true,
+      "animar": false
+    }
+  ],
+  "legenda": "Antes de dormir, entregue sua família a Deus: \"eu e a minha casa serviremos ao Senhor\" (Josué 24:15). Por quem da sua família você quer que eu ore? Comente 👇",
+  "hashtags": [
+    "#Oração",
+    "#Família",
+    "#Fé",
+    "#Deus",
+    "#Cristão"
+  ],
+  "fontes": [
+    "Josué 24:15 — Almeida (domínio público): \"porém eu e a minha casa serviremos ao Senhor\""
+  ]
+}
