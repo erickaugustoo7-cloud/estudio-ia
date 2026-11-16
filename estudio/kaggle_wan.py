@@ -325,7 +325,19 @@ def _short_isca(r, canal, imgs, tempos, palavras, mp3, pasta) -> None:
     out = pasta / f"isca_{pasta.name}"
     out.mkdir(exist_ok=True)
     W2, H2 = 1080, 1920
-    # imagem: fundo desfocado da própria ilustração + ilustração inteira no centro com zoom lento
+    # imagem VERTICAL de tela cheia (9:16): gera uma versão em pé de cada cena; se falhar, recorta o centro da horizontal
+    def _vertical(i):
+        c = r["cenas"][i]
+        estilo = r.get("estilo_imagem", "").replace("horizontal 16:9 widescreen", "vertical 9:16 portrait")
+        cena_v = {"prompt_imagem": f"{r.get('prefixo_imagem', '')} {c['prompt_imagem']}. {estilo}, vertical 9:16",
+                  "largura": 768, "altura": 1344, "trecho": c.get("trecho", "")}
+        dest = out / f"vert_{i}.png"
+        try:
+            if visual.gerar_uma({**canal, "estilo_visual": estilo}, cena_v, dest, 4242 + i):
+                return dest
+        except Exception as e:  # noqa: BLE001
+            log("wan", f"short isca: imagem vertical da cena {i + 1} falhou ({e})")
+        return None
     partes, t = [], ini
     for i in range(a, b + 1):
         seg = min(sum(tempos[:i + 1]), fim) - max(sum(tempos[:i]), ini)
@@ -334,13 +346,15 @@ def _short_isca(r, canal, imgs, tempos, palavras, mp3, pasta) -> None:
         if seg <= 0.2:
             continue
         n, pt = int(seg * 30) + 1, out / f"p{i}.mp4"
-        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-loop", "1", "-framerate", "30", "-i", str(imgs[i]),
-                        "-filter_complex",
-                        f"[0:v]split[a][b];[a]scale={W2}:{H2}:force_original_aspect_ratio=increase,crop={W2}:{H2},"
-                        f"boxblur=28:2,eq=brightness=-0.18[bg];[b]scale=1400:-2,zoompan=z='min(1+0.0009*on,1.10)'"
-                        f":x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d={n}:s=1080x608:fps=30[fg];"
-                        "[bg][fg]overlay=0:(H-h)/2-60,format=yuv420p[v]", "-map", "[v]", "-t", f"{seg:.3f}",
-                        "-c:v", "libx264", "-crf", "19", "-preset", "veryfast", "-r", "30", str(pt)], check=True)
+        vert = _vertical(i)
+        fonte = vert or imgs[i]
+        base_f = (f"scale={W2}:{H2}:force_original_aspect_ratio=increase,crop={W2}:{H2},scale=1188:2112,"
+                  f"zoompan=z='min(1+0.0008*on,1.08)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d={n}:s={W2}x{H2}:fps=30,"
+                  "format=yuv420p")
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-loop", "1", "-framerate", "30", "-i", str(fonte),
+                        "-vf", base_f, "-t", f"{seg:.3f}", "-c:v", "libx264", "-crf", "19", "-preset", "veryfast",
+                        "-r", "30", str(pt)], check=True)
+        log("wan", f"short isca: cena {i + 1} {'vertical gerada' if vert else 'recortada da horizontal'}")
         partes.append(pt)
     lista = out / "lista.txt"
     lista.write_text("".join(f"file '{x.resolve()}'\n" for x in partes))
@@ -387,7 +401,11 @@ def _short_isca(r, canal, imgs, tempos, palavras, mp3, pasta) -> None:
     texto = montar_texto_post(canal, rot)
     (out / "post.txt").write_text(texto, encoding="utf-8")
     d = _dur(video)
-    log("wan", f"short isca montado: {d:.1f}s")
+    wh = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=width,height",
+                         "-of", "csv=p=0", str(video)], capture_output=True, text=True).stdout.strip()
+    log("wan", f"short isca montado: {d:.1f}s, {wh}")
+    if wh != f"{W2},{H2}":
+        raise RuntimeError(f"short isca saiu {wh}, esperado {W2}x{H2}")
     no_tg = publicador.telegram_video(video, f"🎯 [Short isca] {titulo} · {d:.0f}s", texto)
     aviso = (f"Depois de publicar, no YouTube Studio: Editar este Short → Vídeo relacionado → escolha a oração "
              f"\"{r.get('titulo_youtube', r['titulo'])}\". É isso que leva quem assistiu o Short para as horas.")
