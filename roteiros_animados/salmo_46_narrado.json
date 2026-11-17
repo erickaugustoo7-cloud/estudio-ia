@@ -1,0 +1,70 @@
+{
+  "titulo": "O salmo para quando o chão da sua vida treme (Salmo 46)",
+  "gancho_tela": "QUANDO O CHÃO TREME",
+  "referencia": "Salmos 46:1-11",
+  "serie": "Salmos narrados",
+  "tipo": "salmo",
+  "voz": "eric",
+  "fonte_imagem": "cloudflare",
+  "duracao_max": 180,
+  "volume_musica": 0.12,
+  "estilo_imagem": "cinematic photorealistic landscape, golden hour light, soft volumetric rays, peaceful and reverent, rich warm colors, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic slow subtle motion.",
+  "epoca_imagem": "untouched nature, no buildings, no modern objects",
+  "legenda": "Salmo 46 🙏 Deus é o nosso refúgio e fortaleza, socorro bem presente na angústia.\nSalmos 46:1-11 (Almeida)\nSe o chão da sua vida está tremendo, escreva \"Amém\" e guarde este salmo.",
+  "hashtags": [
+    "#Salmo46",
+    "#Salmos",
+    "#PalavraDeDeus",
+    "#Fé",
+    "#Refúgio"
+  ],
+  "fontes": [
+    "Salmos 46:1-11 — Almeida (tradução de domínio público)"
+  ],
+  "cenas": [
+    {
+      "trecho": "Salmo quarenta e seis. Os filhos de Corá cantaram isto para um povo que via o mundo tremer à sua volta. Ouça com calma.",
+      "prompt_imagem": "towering storm clouds over a rugged mountain range at dawn, a single shaft of golden light breaking through, untouched nature",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Deus é o nosso refúgio e fortaleza, socorro bem presente na angústia. Pelo que não temeremos, ainda que a terra se mude, e ainda que os montes se transportem para o meio dos mares; ainda que as águas rujam e se perturbem, ainda que os montes se abalem pela sua braveza.",
+      "prompt_imagem": "huge waves crashing against steep rocky sea cliffs under a dramatic sky, golden light on the spray, untouched nature",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Há um rio cujas correntes alegram a cidade de Deus, o santuário das moradas do Altíssimo. Deus está no meio dela; não será abalada. Deus a ajudará ao romper da manhã.",
+      "prompt_imagem": "a calm clear river winding through a green valley at sunrise, soft mist on the water, warm golden rays, untouched nature",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "As nações se embraveceram; os reinos se moveram; ele levantou a sua voz e a terra se derreteu. O Senhor dos Exércitos está conosco; o Deus de Jacó é o nosso refúgio.",
+      "prompt_imagem": "a high rocky stronghold cliff standing firm above a vast plain under passing storm clouds, rays of light, untouched nature",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Vinde, contemplai as obras do Senhor; que desolações tem feito na terra! Ele faz cessar as guerras até ao fim da terra; quebra o arco e corta a lança; queima os carros no fogo.",
+      "prompt_imagem": "a broken ancient wooden bow and a snapped spear lying on quiet grass at sunset, smoke drifting softly, warm light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Aquietai-vos e sabei que eu sou Deus; serei exaltado entre as nações; serei exaltado sobre a terra. O Senhor dos Exércitos está conosco; o Deus de Jacó é o nosso refúgio.",
+      "prompt_imagem": "a perfectly still mountain lake at dawn mirroring the peaks and the golden sky, absolute calm, untouched nature",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "O chão pode tremer, mas Deus não treme. Se você precisa desse refúgio hoje, escreva Amém. E siga o Mensageiro de Fé para ouvir um salmo por dia.",
+      "prompt_imagem": "a wooden cross on a rocky hilltop silhouetted against a glowing golden sunset sky with rays of light",
+      "vazia": true,
+      "animar": false
+    }
+  ]
+}
