@@ -1,0 +1,646 @@
+{
+ "titulo": "Oração da noite: Salmo 139 — Deus me conhece e me cerca",
+ "titulo_youtube": "Deus Te Conhece Por Inteiro e Ainda Te Ama | Oração Para Dormir Salmo 139",
+ "gancho_tela": "Ele te conhece",
+ "referencia": "Salmo 139",
+ "formato": "horizontal",
+ "duracao_max": 999,
+ "volume_musica": 0.22,
+ "opcoes_imagem": 1,
+ "palavras_por_bloco": 600,
+ "plataformas": [
+  "youtube"
+ ],
+ "cena_capa": 37,
+ "texto_capa": [
+  "ELE TE",
+  "CONHECE",
+  "E TE AMA"
+ ],
+ "capa_prompt": "a tired Brazilian mother in her forties praying with eyes closed and hands on her chest beside a bed at night, warm soft lamp light, emotional, cinematic photo",
+ "estilo_imagem": "breathtaking real-world nature landscape photography, peaceful and serene, soft natural light, rich colors, ultra detailed, horizontal 16:9 widescreen, no people, no text",
+ "prefixo_imagem": "beautiful peaceful nature landscape photo:",
+ "prefixo_video": "Peaceful nature shot, very slow and gentle motion.",
+ "epoca_imagem": "real natural landscapes of today (sea, forest, waterfalls, mountains, lakes, sky); no people, no buildings, no text",
+ "legenda": "Se você se sente invisível, ore comigo antes de dormir. Deus te conhece por inteiro — e te ama. 🙏\n\n\"Senhor, tu me sondaste, e me conheces\" (Salmo 139:1, Almeida).\n\"Eu te louvarei, porque de um modo assombroso e tão maravilhoso fui feito\" (Salmo 139:14).\n\nEscreva o seu pedido de oração nos comentários — eu vou orar por ele. Escreva \"Amém\" se você recebe essa palavra, e inscreva-se para orarmos juntos toda noite.",
+ "hashtags": [
+  "#OraçãoParaDormir",
+  "#Salmo139",
+  "#OraçãoDaNoite",
+  "#DeusTeConhece",
+  "#Fé"
+ ],
+ "fonte_imagem": "cloudflare",
+ "selo_capa": "Oração da noite",
+ "estilo_voz": "emocionado e íntimo, como quem ora de verdade por alguém que sofre; voz baixa, pausada, com ternura",
+ "fontes": [
+  "Salmo 139 — Almeida Corrigida Fiel (domínio público)",
+  "Isaías 49:15-16; Mateus 10:30; Salmo 34:18; Mateus 11:28; Isaías 41:10; Salmo 121:4; Salmo 4:8 — Almeida"
+ ],
+ "short_isca": {
+  "cenas": [
+   55
+  ],
+  "texto_topo": "ELE NÃO FOI EMBORA",
+  "titulo": "Deus sabe tudo sobre você… e ficou",
+  "hashtags": [
+   "salmo139",
+   "oracao",
+   "deusteconhece"
+  ]
+ },
+ "tipo": "oracao",
+ "capitulos": [
+  {
+   "cena": 0,
+   "titulo": "Se você se sente invisível"
+  },
+  {
+   "cena": 5,
+   "titulo": "Salmo 139: Senhor, tu me conheces"
+  },
+  {
+   "cena": 9,
+   "titulo": "Oração: do jeito que eu estou"
+  },
+  {
+   "cena": 15,
+   "titulo": "Pela mente que se compara"
+  },
+  {
+   "cena": 22,
+   "titulo": "Para onde fugirei? Ele está lá"
+  },
+  {
+   "cena": 25,
+   "titulo": "Pela saúde e pelas contas"
+  },
+  {
+   "cena": 36,
+   "titulo": "Você foi tecido por Deus"
+  },
+  {
+   "cena": 43,
+   "titulo": "Pelos filhos e pela família"
+  },
+  {
+   "cena": 51,
+   "titulo": "Perdão dos outros e de si"
+  },
+  {
+   "cena": 59,
+   "titulo": "Quando acordo ainda estou contigo"
+  },
+  {
+   "cena": 66,
+   "titulo": "Seus pedidos de oração"
+  },
+  {
+   "cena": 75,
+   "titulo": "Promessas para a noite e bênção"
+  }
+ ],
+ "fundo_video": "pixabay",
+ "cenas": [
+  {
+   "trecho": "Se você está assistindo isso agora… talvez você esteja se sentindo invisível. Você cuida de todo mundo, resolve tudo, segura a casa… e ninguém percebe o quanto isso te custa.",
+   "prompt_imagem": "a calm turquoise sea at sunset with gentle waves on a quiet sandy beach",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Talvez hoje alguém tenha te diminuído com uma palavra. Talvez você tenha se olhado no espelho e não gostado do que viu. Talvez você esteja se perguntando se a sua vida tem valor.",
+   "prompt_imagem": "ocean waves washing softly on a deserted beach under the full moon",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Eu quero te dizer uma coisa antes de você dormir. Existe Alguém que te vê por inteiro. Que sabe cada detalhe da sua história. E que não desistiu de você.",
+   "prompt_imagem": "a cliff over the ocean at golden hour with soft clouds and calm water",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Não foi por acaso que este vídeo chegou até você esta noite. Deus sabia onde você estaria agora, nesta cama, com esse cansaço. E Ele quis falar com você.",
+   "prompt_imagem": "a misty forest at night with moonlight through the trees",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Antes de começarmos, se você ainda não é inscrito, inscreva-se e ative o sininho. Assim, toda noite, a gente ora junto, e você nunca ora sozinho.",
+   "prompt_imagem": "a vast canyon at sunset with warm orange light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Esta noite nós vamos orar com o Salmo cento e trinta e nove. Um salmo de Davi. Um homem que errou muito, foi perseguido, chorou muito… e descobriu que Deus o conhecia por dentro.",
+   "prompt_imagem": "rolling green hills with wildflowers under a soft pink sunset sky",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "E é assim que ele começa: Senhor, tu me sondaste, e me conheces. Tu sabes o meu assentar e o meu levantar; de longe entendes o meu pensamento.",
+   "prompt_imagem": "the Milky Way over calm mountains and a dark blue valley",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Pense nisso. Deus sabe a hora que você deitou hoje. Sabe o pensamento que está rodando na sua cabeça agora. Antes de você falar, Ele já entendeu.",
+   "prompt_imagem": "sunlight breaking through clouds over green mountains and a quiet valley",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Então, se puder, feche os olhos. Coloque a mão sobre o peito. Respire fundo… solte o ar devagar. E repita comigo, no seu coração.",
+   "prompt_imagem": "northern lights glowing softly over a frozen lake and pine trees",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Senhor… eu não vou fingir que estou bem. Tu me conheces. Tu sabes o que eu escondo de todo mundo. Esta noite eu venho do jeito que estou, sem máscara, sem pose.",
+   "prompt_imagem": "a tall waterfall in a lush green rainforest, soft mist, sun rays through the trees",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Tu sabes as vezes que eu sorri por fora e chorei por dentro. Tu sabes as palavras que eu engoli. Tu sabes o que ninguém sabe. E mesmo assim Tu continuas aqui.",
+   "prompt_imagem": "a field of lavender at golden hour with soft clouds",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "O Teu salmo diz: Não havendo ainda palavra alguma na minha língua, eis que logo, ó Senhor, tudo conheces. Então eu nem preciso explicar, Pai. Tu já entendeste.",
+   "prompt_imagem": "a snowy pine forest under a peaceful starry sky",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Às vezes eu tenho vergonha de orar, porque acho que Tu estás cansado de mim. Mas Davi escreveu: Tu me cercaste por detrás e por diante, e puseste sobre mim a tua mão.",
+   "prompt_imagem": "golden wheat fields swaying under a warm sunset",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "A Tua mão sobre mim. Não para me castigar, mas para me guardar. Esta noite eu sinto essa mão, Senhor. No meu quarto, na minha cama, no meu coração cansado.",
+   "prompt_imagem": "a peaceful meadow with a single tree under a starry sky",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Talvez você esteja achando que Deus só conhece a sua versão bonita. Não. Ele conhece os seus erros, as suas manias, as suas recaídas. E Ele te ama assim mesmo. Ele não ama uma versão de você que ainda não existe. Ele ama você.",
+   "prompt_imagem": "a gentle river flowing over smooth stones in a quiet forest, morning light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Senhor, Tu conheces a minha mente melhor do que eu. Sabes como ela não para quando eu deito. Repassa conversas, imagina problemas, me acusa por coisas que eu já Te entreguei.",
+   "prompt_imagem": "a peaceful forest path covered in golden light at dawn, tall trees, morning mist",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Esta noite eu Te peço: desliga esse barulho dentro de mim. Onde há comparação, coloca a Tua verdade. Onde há medo, coloca a Tua calma. Onde há culpa, coloca o Teu perdão.",
+   "prompt_imagem": "a calm lake with water lilies at dusk, soft warm light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Eu cansei de me medir pelo que os outros pensam de mim. Pelas curtidas, pelos olhares, pelas cobranças. Eu quero saber o que Tu pensas de mim. Só isso me basta.",
+   "prompt_imagem": "a winding stream through a mossy forest, soft rays of light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "E Davi responde: Quão preciosos me são, ó Deus, os teus pensamentos! Se as contasse, seriam em maior número do que a areia.",
+   "prompt_imagem": "a still mountain lake reflecting snowy peaks under a starry night sky",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Mais do que a areia do mar. É isso que Deus pensa em você. Enquanto você acha que foi esquecido, Ele está pensando em você o tempo todo.",
+   "prompt_imagem": "a quiet wooden dock on a misty lake at sunrise",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Senhor, eu Te entrego aqueles pensamentos de madrugada. As lembranças que doem, as perguntas sem resposta, as vozes que dizem que eu não sou suficiente. Eu calo essas vozes com a Tua Palavra.",
+   "prompt_imagem": "a tropical beach with palm trees at twilight, calm water, first stars",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "E se você que está orando comigo sente o peito apertado agora, respire mais uma vez. Bem devagar. Deus não tem pressa com você. Ele não está decepcionado com você. Ele está aqui, bem perto.",
+   "prompt_imagem": "a quiet bay with crystal clear water and rocks at sunrise",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "O salmo continua: Para onde me irei do teu espírito, ou para onde fugirei da tua face? Se subir ao céu, lá tu estás.",
+   "prompt_imagem": "a calm turquoise sea at sunset with gentle waves on a quiet sandy beach",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Se tomar as asas da alva, se habitar nas extremidades do mar, até ali a tua mão me guiará e a tua destra me susterá.",
+   "prompt_imagem": "ocean waves washing softly on a deserted beach under the full moon",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Não existe lugar longe demais para Deus. Nem um hospital, nem uma casa vazia, nem um coração que se afastou. Onde você estiver esta noite, Ele está.",
+   "prompt_imagem": "a cliff over the ocean at golden hour with soft clouds and calm water",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Senhor, eu Te entrego também a minha saúde. O meu corpo cansado, as dores que eu não conto pra ninguém, os exames, os remédios. Tu conheces cada célula do meu corpo, porque foste Tu que me formaste.",
+   "prompt_imagem": "a misty forest at night with moonlight through the trees",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Eu oro por quem está numa cama de hospital esta noite. Por quem espera um resultado. Por quem cuida de um pai doente, de um filho doente, e já nem lembra de cuidar de si mesmo. Toca nessas vidas, Senhor.",
+   "prompt_imagem": "a vast canyon at sunset with warm orange light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "E eu oro por quem está doente por dentro. Pela tristeza que não vai embora, pela depressão que ninguém vê, pelo vazio que pesa mais do que qualquer dor. Senhor, chega até esse lugar.",
+   "prompt_imagem": "rolling green hills with wildflowers under a soft pink sunset sky",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Está escrito: Perto está o Senhor dos que têm o coração quebrantado. Se o seu coração está partido esta noite, você não está longe de Deus. Você está exatamente onde Ele está mais perto.",
+   "prompt_imagem": "the Milky Way over calm mountains and a dark blue valley",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "E agora, a parte do salmo que eu mais amo. Davi diz: Se disser: decerto que as trevas me encobrirão; então a noite será luz à roda de mim.",
+   "prompt_imagem": "sunlight breaking through clouds over green mountains and a quiet valley",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Nem ainda as trevas me encobrem de ti; mas a noite resplandece como o dia. Para Deus, a sua noite não é escura. Ele enxerga você com clareza agora.",
+   "prompt_imagem": "northern lights glowing softly over a frozen lake and pine trees",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Senhor, a minha noite às vezes é muito escura. Não é só a noite lá fora. É a noite dentro de mim. Mas se para Ti a escuridão é como o dia, então eu não estou perdido. Tu me vês.",
+   "prompt_imagem": "a tall waterfall in a lush green rainforest, soft mist, sun rays through the trees",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Eu Te entrego as minhas contas, Pai. Os boletos em cima da mesa, a dívida que tira o meu sono, o mês que ainda não acabou. Tu sabes exatamente quanto eu preciso. Nada disso Te assusta.",
+   "prompt_imagem": "a field of lavender at golden hour with soft clouds",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Abre portas que eu não consigo abrir. Dá sabedoria para eu administrar o pouco. E me lembra que o meu valor não está no meu salário, nem no que eu tenho. O meu valor está em ser Teu.",
+   "prompt_imagem": "a snowy pine forest under a peaceful starry sky",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Eu oro por quem perdeu o emprego e se sente inútil. Por quem trabalha demais e ninguém agradece. Senhor, honra o esforço dessas pessoas. Que amanhã seja um dia de portas abertas.",
+   "prompt_imagem": "golden wheat fields swaying under a warm sunset",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "E Te entrego o dia de amanhã, Senhor. Tu já estás lá. Tu conheces o caminho antes de eu chegar. Vai na minha frente e prepara cada passo.",
+   "prompt_imagem": "a peaceful meadow with a single tree under a starry sky",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Agora Davi fala de algo lindo: Pois possuíste o meu interior; entreteceste-me no ventre de minha mãe.",
+   "prompt_imagem": "a gentle river flowing over smooth stones in a quiet forest, morning light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Entreteceste. Como quem tece um pano com cuidado, fio por fio. Você não é um acidente. Você não é um erro. Você foi tecido por Deus, com as mãos Dele.",
+   "prompt_imagem": "a peaceful forest path covered in golden light at dawn, tall trees, morning mist",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Eu te louvarei, porque de um modo assombroso e tão maravilhoso fui feito; maravilhosas são as tuas obras, e a minha alma o sabe muito bem.",
+   "prompt_imagem": "a calm lake with water lilies at dusk, soft warm light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Senhor, me perdoa pelas vezes que eu falei mal de mim mesmo. Pelas vezes que eu me chamei de burro, de feio, de fracassado. Eu estava falando mal de uma obra Tua.",
+   "prompt_imagem": "a winding stream through a mossy forest, soft rays of light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Esta noite eu escolho acreditar no que Tu dizes sobre mim. Eu sou feito de um modo maravilhoso. Eu sou amado. Eu sou Teu. E isso ninguém pode tirar de mim.",
+   "prompt_imagem": "a still mountain lake reflecting snowy peaks under a starry night sky",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Os teus olhos viram o meu corpo ainda informe; e no teu livro todas estas coisas foram escritas. Antes do seu primeiro dia, Deus já tinha escrito o seu nome.",
+   "prompt_imagem": "a quiet wooden dock on a misty lake at sunrise",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Talvez você não tenha sido desejado por alguém. Talvez tenha ouvido que veio na hora errada. Mas no livro de Deus, você nunca foi um erro. Você foi esperado.",
+   "prompt_imagem": "a tropical beach with palm trees at twilight, calm water, first stars",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Senhor, eu Te entrego as pessoas que eu amo. Guarda a minha casa esta noite. Cobre cada quarto, cada cama, cada pessoa que dorme debaixo deste teto.",
+   "prompt_imagem": "a quiet bay with crystal clear water and rocks at sunrise",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Eu oro pelos meus filhos. Tu os conheces ainda melhor do que eu. Sabes o que eles sentem e não me contam. Guarda as amizades deles, as decisões deles, o coração deles.",
+   "prompt_imagem": "a calm turquoise sea at sunset with gentle waves on a quiet sandy beach",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "E se um filho meu se afastou, Senhor, Tu sabes onde ele está agora. Se ele subir ao céu, lá Tu estás. Se ele estiver no lugar mais escuro, a Tua mão chega até lá. Não desiste dele.",
+   "prompt_imagem": "ocean waves washing softly on a deserted beach under the full moon",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "E você, mãe, que está com o coração apertado por um filho… ouça o que Deus disse em Isaías: ainda que esta se esquecesse dele, contudo eu não me esquecerei de ti.",
+   "prompt_imagem": "a cliff over the ocean at golden hour with soft clouds and calm water",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Eis que nas palmas das minhas mãos eu te gravei. O seu nome, e o nome dos seus filhos, estão escritos nas mãos de Deus. Ele não esquece. Nunca.",
+   "prompt_imagem": "a misty forest at night with moonlight through the trees",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Senhor, eu oro pelo meu casamento. Se ele está frio, aquece. Se está ferido, cura. Ajuda a gente a se olhar com os Teus olhos, e não só com os nossos defeitos.",
+   "prompt_imagem": "a vast canyon at sunset with warm orange light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "E se você está sozinho esta noite… se a casa está vazia, se ninguém perguntou como foi o seu dia… Deus perguntou. Ele sabe o seu nome. Até os cabelos da sua cabeça estão todos contados.",
+   "prompt_imagem": "rolling green hills with wildflowers under a soft pink sunset sky",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Senhor, abraça quem está sozinho agora. A viúva, o idoso, quem mora longe da família, quem acabou de perder alguém. Que esta noite eles sintam que são conhecidos e amados.",
+   "prompt_imagem": "the Milky Way over calm mountains and a dark blue valley",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Se eu falei o que não devia hoje, se eu magoei alguém, me perdoa. E me ajuda a perdoar quem me feriu. Eu não quero dormir carregando mágoa.",
+   "prompt_imagem": "sunlight breaking through clouds over green mountains and a quiet valley",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Talvez alguém tenha te dito palavras que ainda doem. Que você não presta, que não vai dar em nada. Perdoar não é dizer que não doeu. É deixar Deus ter a última palavra sobre quem você é.",
+   "prompt_imagem": "northern lights glowing softly over a frozen lake and pine trees",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Senhor, eu decido perdoar. Não porque eu sinto vontade, mas porque eu não quero mais carregar isso. Cura a minha memória. Tira o veneno dessas palavras de dentro de mim.",
+   "prompt_imagem": "a tall waterfall in a lush green rainforest, soft mist, sun rays through the trees",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "E eu também preciso me perdoar, Senhor. Pelos erros que eu repito. Pelas vezes que eu falhei com quem eu amo. Tu já me perdoaste na cruz. Me ajuda a parar de me castigar.",
+   "prompt_imagem": "a field of lavender at golden hour with soft clouds",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Deus te conhece por inteiro. Cada erro, cada medo, cada segredo. E mesmo sabendo tudo… Ele não foi embora. Ele ficou. Isso não é tolerância. Isso é amor.",
+   "prompt_imagem": "a snowy pine forest under a peaceful starry sky",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Se Deus, que sabe tudo sobre você, escolheu te amar… quem é você para continuar se odiando? Esta noite, olhe para você com os olhos de Deus.",
+   "prompt_imagem": "golden wheat fields swaying under a warm sunset",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Então agora eu me aquieto. Eu solto os ombros. Eu solto a respiração. Eu solto a necessidade de provar alguma coisa para alguém. Diante de Ti, eu já sou aceito.",
+   "prompt_imagem": "a peaceful meadow with a single tree under a starry sky",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Solte a mandíbula. Solte a testa. Deixe os ombros caírem. Deixe as mãos abertas sobre a cama. Você não precisa segurar nada agora. Deus está segurando por você.",
+   "prompt_imagem": "a gentle river flowing over smooth stones in a quiet forest, morning light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "O salmo tem uma frase que é perfeita para quem vai dormir: quando acordo ainda estou contigo. Você vai fechar os olhos agora. E quando abrir, Ele ainda vai estar aí.",
+   "prompt_imagem": "a peaceful forest path covered in golden light at dawn, tall trees, morning mist",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Ele não vai embora durante a noite. Ele não vai se cansar de você enquanto você dorme. Amanhã cedo, a primeira presença no seu quarto vai ser a Dele.",
+   "prompt_imagem": "a calm lake with water lilies at dusk, soft warm light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "E se o sono demorar a chegar, Senhor, que os meus pensamentos não voltem para o medo. Que eles voltem para Ti. Para o quanto Tu me conheces e cuidas de mim.",
+   "prompt_imagem": "a winding stream through a mossy forest, soft rays of light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Obrigado, Senhor, porque até aqui Tu me sustentaste. Obrigado pelo ar que eu respiro, pela cama onde eu deito, e pela Tua presença que não vai embora quando eu fecho os olhos.",
+   "prompt_imagem": "a still mountain lake reflecting snowy peaks under a starry night sky",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Obrigado pelas coisas pequenas que eu nem percebi hoje. O café, o abraço, a mensagem de alguém, o caminho de volta para casa. Eu não quero dormir reclamando. Eu quero dormir agradecendo.",
+   "prompt_imagem": "a quiet wooden dock on a misty lake at sunrise",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Obrigado porque Tu me fizeste do jeito que eu sou. Com a minha voz, com a minha história, com o meu jeito. Eu não preciso ser outra pessoa para ser amado por Ti.",
+   "prompt_imagem": "a tropical beach with palm trees at twilight, calm water, first stars",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "E se você que está me ouvindo não consegue agradecer por nada hoje, tudo bem. Agradeça só por estar vivo. Por ter chegado até esta noite. Isso já é graça. Isso já é Deus.",
+   "prompt_imagem": "a quiet bay with crystal clear water and rocks at sunrise",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "E você que está orando comigo… se você tem um pedido, escreva agora nos comentários. Pode ser só o primeiro nome de alguém. Eu vou ler e vou orar por ele.",
+   "prompt_imagem": "a calm turquoise sea at sunset with gentle waves on a quiet sandy beach",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Você não está sozinho nessa luta. Tem gente orando com você agora mesmo, em muitos lugares do Brasil, nesta mesma hora.",
+   "prompt_imagem": "ocean waves washing softly on a deserted beach under the full moon",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Senhor, agora eu oro por cada pedido que está sendo escrito nos comentários deste vídeo. Tu conheces cada nome. Cada lágrima por trás de cada palavra. Responde, Pai, do jeito que só Tu sabes responder.",
+   "prompt_imagem": "a cliff over the ocean at golden hour with soft clouds and calm water",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Pela mãe que pediu pelo filho. Pela mulher que se sente sem valor. Pelo pai desempregado. Pelo casal que está quase desistindo. Senhor, visita cada uma dessas casas esta noite.",
+   "prompt_imagem": "a misty forest at night with moonlight through the trees",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "E por quem está pensando em desistir de tudo esta noite… fica. Fala com alguém. Você foi tecido por Deus. A sua história não termina aqui. Ele ainda tem páginas escritas para você.",
+   "prompt_imagem": "a vast canyon at sunset with warm orange light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "E pela pessoa que está assistindo e pensa: ninguém ora por mim. Eu estou orando por você agora. E muito antes de mim, Jesus já intercedia por você. Você é lembrado. Você é amado.",
+   "prompt_imagem": "rolling green hills with wildflowers under a soft pink sunset sky",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Senhor, e se tem alguém assistindo que está longe de Ti há muito tempo… que parou de orar, que acha que já errou demais… fala com essa pessoa agora.",
+   "prompt_imagem": "the Milky Way over calm mountains and a dark blue valley",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Você tentou fugir de Deus? Davi também. E descobriu que não existe lugar onde Ele não esteja. A porta da casa do Pai nunca fechou para você. Ele está correndo na sua direção, como o pai do filho pródigo.",
+   "prompt_imagem": "sunlight breaking through clouds over green mountains and a quiet valley",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Se você quer voltar, diga só isso no seu coração: Jesus, eu volto para Ti. Tu me conheces e mesmo assim me queres. Entra na minha vida de novo. Ele ouviu.",
+   "prompt_imagem": "northern lights glowing softly over a frozen lake and pine trees",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Antes de terminar, eu quero deixar com você algumas promessas de Deus para esta noite. Não precisa decorar. Só receba. Elas são para você.",
+   "prompt_imagem": "a tall waterfall in a lush green rainforest, soft mist, sun rays through the trees",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Jesus disse: Vinde a mim, todos os que estais cansados e oprimidos, e eu vos aliviarei. Se você está cansado, Ele não está te cobrando. Ele está te chamando para descansar.",
+   "prompt_imagem": "a field of lavender at golden hour with soft clouds",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Ele disse: Não temas, porque eu sou contigo; não te assombres, porque eu sou teu Deus. Você não vai enfrentar o amanhã sozinho.",
+   "prompt_imagem": "a snowy pine forest under a peaceful starry sky",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Está escrito: Eis que não tosquenejará nem dormirá o guarda de Israel. Enquanto você dorme, Ele vigia. Ele não cochila. Nem por um segundo.",
+   "prompt_imagem": "golden wheat fields swaying under a warm sunset",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "E Davi orou assim numa noite difícil: Em paz também me deitarei e dormirei, porque só tu, Senhor, me fazes habitar em segurança. Que essa seja a sua oração agora.",
+   "prompt_imagem": "a peaceful meadow with a single tree under a starry sky",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Agora vamos ficar um momento em silêncio diante de Deus. Respire fundo… segure um pouquinho… e solte devagar. Mais uma vez. Inspire a paz de Deus. Solte o peso do dia.",
+   "prompt_imagem": "a gentle river flowing over smooth stones in a quiet forest, morning light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Você não precisa dizer nada. Deus entende o silêncio. Ele entende as lágrimas. Ele entende até aquilo que você não consegue colocar em palavras. Só fique aqui, com Ele.",
+   "prompt_imagem": "a peaceful forest path covered in golden light at dawn, tall trees, morning mist",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "E para terminar, eu quero ler para você esse salmo, bem devagar. Só escute. Deixe essas palavras entrarem.",
+   "prompt_imagem": "a calm lake with water lilies at dusk, soft warm light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Senhor, tu me sondaste, e me conheces. Tu sabes o meu assentar e o meu levantar; de longe entendes o meu pensamento. Cercas o meu andar e o meu deitar; e conheces todos os meus caminhos.",
+   "prompt_imagem": "a winding stream through a mossy forest, soft rays of light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Tu me cercaste por detrás e por diante, e puseste sobre mim a tua mão. Tal ciência é para mim maravilhosíssima; tão alta que não a posso atingir.",
+   "prompt_imagem": "a still mountain lake reflecting snowy peaks under a starry night sky",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Se disser: decerto que as trevas me encobrirão; então a noite será luz à roda de mim. Nem ainda as trevas me encobrem de ti; mas a noite resplandece como o dia.",
+   "prompt_imagem": "a quiet wooden dock on a misty lake at sunrise",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Sonda-me, ó Deus, e conhece o meu coração; prova-me, e conhece os meus pensamentos. E vê se há em mim algum caminho mau, e guia-me pelo caminho eterno.",
+   "prompt_imagem": "a tropical beach with palm trees at twilight, calm water, first stars",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Se esta oração te ajudou, inscreva-se no canal para orarmos juntos toda noite. E mande este vídeo para alguém que precisa lembrar o quanto é amado por Deus.",
+   "prompt_imagem": "a quiet bay with crystal clear water and rocks at sunrise",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Que o Deus que te conhece por inteiro guarde o seu sono esta noite. Que Ele acalme a sua mente, cure o seu coração e te acorde lembrando de quem você é.",
+   "prompt_imagem": "a calm turquoise sea at sunset with gentle waves on a quiet sandy beach",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Em nome de Jesus… amém. Durma em paz. Quando você acordar, Ele ainda estará com você. Você é conhecido. Você é amado. Você não está sozinho.",
+   "prompt_imagem": "ocean waves washing softly on a deserted beach under the full moon",
+   "vazia": true,
+   "animar": false
+  }
+ ]
+}
