@@ -1,0 +1,13 @@
+name: Identidade visual do canal
+on: workflow_dispatch
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install requests pillow
+      - run: python ferramentas/identidade_canal.py
+      - run: |
+          for f in banner perfil banner_area_celular; do python -c "import base64,sys;b=base64.b64encode(open('identidade/$f.jpg','rb').read()).decode();[print('$f:'+b[i:i+3000]) for i in range(0,len(b),3000)]"; done
