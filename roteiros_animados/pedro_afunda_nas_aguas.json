@@ -1,0 +1,88 @@
+{
+  "titulo": "O discípulo que andou sobre as águas… e afundou",
+  "gancho_tela": "Ele andou nas águas… e afundou",
+  "referencia": "Mateus 14:31",
+  "duracao_max": 90,
+  "volume_musica": 0.12,
+  "estilo_imagem": "cinematic photorealistic epic film still, dramatic volumetric god rays, floating dust particles, deep chiaroscuro, first century Galilee, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic epic film shot, slow and subtle motion.",
+  "epoca_imagem": "Sea of Galilee at night, first century AD, small wooden fishing boats with one square linen sail, steep dark hills around the lake, wood, rope, stone and linen only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "Quase ninguém sabe: além de Jesus, outro homem andou sobre as águas. E afundou.",
+      "prompt_imagem": "high wide view of the stormy Sea of Galilee before dawn, dark churning waves under heavy clouds, one pale beam of moonlight striking the water",
+      "prompt_movimento": "waves roll slowly, the moonbeam shimmers on the water, clouds drift, slow camera descent",
+      "vazia": true
+    },
+    {
+      "trecho": "Depois de alimentar a multidão, Jesus mandou os discípulos atravessarem o mar.",
+      "prompt_imagem": "wide aerial view of a grassy hillside above the Sea of Galilee at golden sunset, baskets of leftover bread on the grass, a small wooden fishing boat leaving the shore below",
+      "prompt_movimento": "slow aerial camera glide toward the lake, grass sways in the breeze, the sail moves gently, golden light on the water",
+      "vazia": true
+    },
+    {
+      "trecho": "Ele subiu sozinho a um monte para orar.",
+      "prompt_imagem": "high wide view of a rocky mountain top above the dark lake at dusk, a tiny distant kneeling man on the summit, stars appearing, last violet light over the hills",
+      "prompt_movimento": "stars brighten slowly, thin mist drifts over the rocks, the wind moves the grass, slow camera pull-back",
+      "vazia": false
+    },
+    {
+      "trecho": "No meio do mar, ondas castigavam o barco. O vento soprava contra.",
+      "prompt_imagem": "high-angle view of a small wooden fishing boat far from land tossed by dark waves at night, wet oars and a straining square sail, spray in the moonlight",
+      "prompt_movimento": "the boat rocks on the waves, spray flies, the sail strains in the wind, slow camera descent",
+      "vazia": true
+    },
+    {
+      "trecho": "Entre três e seis da manhã, Jesus veio andando sobre o mar.",
+      "prompt_imagem": "wide view over dark rough water before dawn, a tiny distant man in a pale robe standing on the waves far away in the distance, a soft glow around him, a small boat in the foreground",
+      "prompt_movimento": "the waves roll slowly, mist drifts over the water, the soft glow pulses gently, static camera",
+      "vazia": false
+    },
+    {
+      "trecho": "Eles gritaram: É um fantasma! E Jesus disse: Coragem! Sou eu.",
+      "prompt_imagem": "view from inside a wooden fishing boat at night, an oil lamp swinging on the mast, rough water ahead and a faint pale glow far away on the waves",
+      "prompt_movimento": "the lamp flame flickers and swings, the boat rocks gently, mist drifts on the water, slow camera push-in toward the glow",
+      "vazia": true
+    },
+    {
+      "trecho": "Pedro pediu: Senhor, se és tu, manda-me ir ao teu encontro. Jesus disse: Venha.",
+      "prompt_imagem": "the wet wooden edge of a small fishing boat in close-up at night, rope coiled on the planks, dark water beyond lit by a pale glow in the distance",
+      "prompt_movimento": "water laps against the hull, the pale glow brightens slowly, slow camera push-in over the edge",
+      "vazia": true
+    },
+    {
+      "trecho": "Pedro andou sobre as águas. Mas, ao reparar no vento, teve medo.",
+      "prompt_imagem": "high-angle wide view of the dark windy lake at night, two tiny distant men standing on the waves far apart between the boat and a soft light, spray blowing in the wind",
+      "prompt_movimento": "the wind blows spray across the water, waves rise slowly, clouds race overhead, slow camera descent",
+      "vazia": false
+    },
+    {
+      "trecho": "Começou a afundar e gritou: Senhor, salva-me! Jesus estendeu a mão e o segurou.",
+      "prompt_imagem": "close-up of two hands firmly gripping each other just above dark churning water at night, water splashing, warm light from above",
+      "prompt_movimento": "water splashes and swirls around the hands, drops fall slowly, warm light glows, static camera",
+      "vazia": true
+    },
+    {
+      "trecho": "Por que você duvidou? Quando subiram no barco, o vento parou.",
+      "prompt_imagem": "a small wooden fishing boat resting on a perfectly calm lake before dawn, the sail hanging still, mirror reflections of the last stars",
+      "prompt_movimento": "the water becomes still with tiny ripples, the sail hangs quietly, stars fade slowly, slow camera pull-back",
+      "vazia": true
+    },
+    {
+      "trecho": "No barco, o adoraram: Verdadeiramente tu és o Filho de Deus. Mateus, capítulo catorze.",
+      "prompt_imagem": "wide aerial view of the calm Sea of Galilee at sunrise, a tiny distant wooden boat on golden water, volumetric rays of light breaking over the hills",
+      "prompt_movimento": "golden sunrise light spreads across the water, mist lifts slowly, slow aerial camera glide forward",
+      "vazia": true
+    },
+    {
+      "trecho": "Se você está afundando hoje, grite como Pedro. A mão de Jesus ainda alcança você.",
+      "prompt_imagem": "an open hand reaching down toward the calm golden water of the lake at sunrise, light rays streaming from the sky",
+      "prompt_movimento": "light rays glow and shimmer, gentle ripples spread on the water, slow camera pull-back",
+      "vazia": true
+    }
+  ],
+  "legenda": "Senhor, segura a minha mão quando eu afundar 🌊🙏\nMateus 14:22-33\nComente \"Amém\" se Jesus já te segurou na hora do medo.",
+  "hashtags": ["#Jesus", "#Pedro", "#fé", "#oquequaseninguemsabe"],
+  "fontes": ["Mateus 14:22-33"]
+}
