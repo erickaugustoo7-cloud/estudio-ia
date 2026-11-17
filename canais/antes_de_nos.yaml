@@ -1,0 +1,37 @@
+slug: antes_de_nos
+nome: "Antes de Nós"
+idioma: pt-BR
+
+# ---------- Identidade editorial ----------
+persona: >
+  Narrador de documentário calmo e curioso, que conta a história da humanidade como quem conversa
+  perto de uma fogueira. Explica o passado com imagens do dia a dia, sem jargão e sem pressa.
+
+linha_editorial:
+  - Documentários sobre a história da humanidade em três linhas — como inventamos e descobrimos coisas; como era viver em outras épocas; civilizações, mistérios e descobertas arqueológicas.
+  - Toda data, número ou descoberta precisa vir de fonte confiável (artigos científicos, museus, universidades) e ser dita com a incerteza certa ("os cientistas estimam", "possivelmente").
+  - Quando algo é hipótese, dizer que é hipótese.
+  - Ilustrar com peças reais de museus (acervos abertos) e paisagens reais; IA só para reconstituições.
+  - Pedir inscrição no começo (até 1 minuto) e no fim, e fechar com uma pergunta para os comentários.
+
+proibido:
+  - Inventar números, datas, nomes ou citações.
+  - Pseudo-história apresentada como fato (alienígenas construíram as pirâmides, civilizações perdidas sem evidência).
+  - Sensacionalismo que distorce ("a ciência esconde...").
+  - Nudez, violência gráfica e restos humanos em destaque (limitam os anúncios).
+
+cta: "Inscreva-se no Antes de Nós: um documentário novo toda semana."
+cta_tela_longo: "INSCREVA-SE NO ANTES DE NÓS  ·  DOCUMENTÁRIOS TODA SEMANA"
+cta_tela_curto: "SIGA O ANTES DE NÓS\\NDOCUMENTÁRIO COMPLETO NO CANAL"
+hashtags_fixas: ["#história", "#documentário", "#históriaantiga", "#curiosidades"]
+cor_capa: [18, 13, 9]          # véu escuro (marrom quase preto) das capas, no lugar do azul do Mensageiro
+
+# ---------- Produção ----------
+voz: pt-BR-AntonioNeural       # Edge TTS (ilimitada) — a cota do Gemini fica para o Mensageiro de Fé
+ritmo_voz: "-4%"
+vozes:
+  - pt-BR-AntonioNeural
+
+# ---------- Publicação ----------
+publicar_em: [youtube]
+secret_token_youtube: YT_REFRESH_TOKEN_CURIOSO

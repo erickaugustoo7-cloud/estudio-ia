@@ -685,7 +685,7 @@ def main():
 
     caminho = Path(sys.argv[1])
     r = json.loads(caminho.read_text(encoding="utf-8"))
-    canal = carregar_canal("biblico")
+    canal = carregar_canal(r.get("canal", "biblico"))
     canal_img = {**canal, "estilo_visual": r.get("estilo_imagem", ESTILO), "regra_visual_pessoas": REGRA,
                  "epoca_imagem": r.get("epoca_imagem", "")}
     if r.get("moderno"):  # novela cristã de hoje: rostos permitidos, personagens fixos, ambiente moderno
@@ -815,7 +815,7 @@ def main():
     if r.get("fundo_video") == "pixabay" and not os.getenv("SO_ISCA"):
         usados_st = set()
         for i, c in enumerate(r["cenas"]):
-            if c.get("animar"):
+            if c.get("animar") or c.get("acervo"):  # cena de museu: a peça real vem do acervo, não do Pixabay
                 continue
             v = _pixabay_video(c["prompt_imagem"], min(tempos[i], 10), pasta / f"stock_{i}.mp4", usados_st, horizontal=horiz,
                                busca=c.get("busca_video"))
@@ -1114,10 +1114,10 @@ def main():
     t = t.replace("\n[Events]", (cta_estilo.format(tam=40, m=120, mv=150) if horiz else
                                   cta_estilo.format(tam=48, m=80, mv=330)) + "\n[Events]", 1)
     if horiz:
-        convite = "INSCREVA-SE NO MENSAGEIRO DE FÉ  ·  ORAÇÃO TODOS OS DIAS"
+        convite = canal.get("cta_tela_longo", "INSCREVA-SE NO MENSAGEIRO DE FÉ  ·  ORAÇÃO TODOS OS DIAS")
         momentos = [(60.0, 8.0), (total * 0.5, 8.0), (max(0, total - 25), 20.0)] if total > 300 else [(max(0, total - 8), 8.0)]
     else:
-        convite = "SIGA O MENSAGEIRO DE FÉ\\NUMA PALAVRA DE FÉ TODO DIA" if r.get("tipo") != "novela" else \
+        convite = canal.get("cta_tela_curto", "SIGA O MENSAGEIRO DE FÉ\\NUMA PALAVRA DE FÉ TODO DIA") if r.get("tipo") != "novela" else \
             "SIGA PARA VER O PRÓXIMO EPISÓDIO"
         momentos = [(max(0, total - 4.0), 4.0)]
     for ini_c, dur_c in momentos:
@@ -1185,7 +1185,9 @@ def main():
     if horiz and foto_capa:  # miniatura emocional (pessoa orando + texto branco limpo)
         if not publicador.capa_emocional(foto_capa, r.get("texto_capa") or [r["titulo"]], pasta / "thumb.jpg",
                                          subtitulo=r.get("selo_capa") or ("Oração da noite" if (cauda or r.get("tipo") == "oracao")
-                                                                                 else "Filme bíblico")):
+                                                                                 else "Filme bíblico"),
+                                         marca=canal.get("nome", "MENSAGEIRO DE FÉ"),
+                                         cor_veu=tuple(canal["cor_capa"]) if canal.get("cor_capa") else None):
             foto_capa = None
     if horiz and not foto_capa:  # reserva: miniatura a partir da ilustração mais forte (sem legendas)
         k = int(r.get("cena_capa", 0))

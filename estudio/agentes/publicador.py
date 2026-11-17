@@ -225,8 +225,8 @@ def _compativel(video: Path) -> Path:
 
 
 # ---------------- YouTube ----------------
-def youtube_ativo() -> bool:
-    return all(os.getenv(k) for k in ("YT_CLIENT_ID", "YT_CLIENT_SECRET", "YT_REFRESH_TOKEN"))
+def youtube_ativo(token_env: str = "YT_REFRESH_TOKEN") -> bool:
+    return all(os.getenv(k) for k in ("YT_CLIENT_ID", "YT_CLIENT_SECRET", token_env))
 
 
 FONTE_CAPA = "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf"
@@ -307,7 +307,7 @@ COR_DOURADO = (246, 190, 66)
 
 
 def capa_emocional(origem: Path, linhas: list[str], destino: Path, subtitulo: str = "", marca: str = "MENSAGEIRO DE FÉ",
-                   destaque_dourado: bool = True) -> Path | None:
+                   destaque_dourado: bool = True, cor_veu: tuple | None = None) -> Path | None:
     """Miniatura no estilo dos grandes canais de oração (ex.: "PRAY THIS / BEFORE / BED"): foto emocional de alguém
     orando à DIREITA, céu azul/dourado à esquerda com o texto branco limpo — 1 palavra ENORME (a linha mais curta),
     as outras médias — e um subtítulo espaçado (ex.: O R A Ç Ã O  D A  N O I T E). Sem contorno grosso, só sombra suave."""
@@ -320,7 +320,7 @@ def capa_emocional(origem: Path, linhas: list[str], destino: Path, subtitulo: st
         # véu azul-noite à esquerda (onde fica o texto), sumindo até ~60% da largura
         grad = Image.linear_gradient("L").rotate(90).resize((1280, 720))
         grad = grad.point(lambda v: int(max(0, min(255, (v - 70) * 1.6))))
-        img = Image.composite(Image.new("RGB", img.size, COR_AZUL), img, grad.point(lambda v: int(v * 0.8)))
+        img = Image.composite(Image.new("RGB", img.size, cor_veu or COR_AZUL), img, grad.point(lambda v: int(v * 0.8)))
         linhas = [x.upper().strip() for x in linhas if x and x.strip()][:3]
         marcada = [k for k, x in enumerate(linhas) if x.startswith("*")]  # "*PALAVRA" escolhe a linha enorme
         linhas = [x.lstrip("*").strip() for x in linhas]
@@ -490,11 +490,11 @@ def _traducoes_youtube(titulo: str, descricao: str) -> dict:
 
 
 def youtube_upload(video: Path, titulo: str, descricao: str, tags: list[str] | None = None,
-                   agendar: str | None = None) -> dict:
+                   agendar: str | None = None, token_env: str = "YT_REFRESH_TOKEN", marca: str = "MENSAGEIRO DE FÉ") -> dict:
     """Envia o vídeo ao canal (OAuth com refresh token). Vertical e até 3 min = Short; acima disso, vídeo normal."""
     tok = requests.post("https://oauth2.googleapis.com/token", timeout=30, data={
         "client_id": os.environ["YT_CLIENT_ID"], "client_secret": os.environ["YT_CLIENT_SECRET"],
-        "refresh_token": os.environ["YT_REFRESH_TOKEN"], "grant_type": "refresh_token"})
+        "refresh_token": os.environ[token_env], "grant_type": "refresh_token"})
     tok.raise_for_status()
     auth = {"Authorization": f"Bearer {tok.json()['access_token']}"}
     meta = {"snippet": {"title": titulo[:100], "description": descricao[:4900], "tags": [t.lstrip("#") for t in (tags or [])][:15],
@@ -527,7 +527,8 @@ def youtube_upload(video: Path, titulo: str, descricao: str, tags: list[str] | N
         except Exception:  # noqa: BLE001
             dur = 0
         if 0 < dur <= 180:  # Short: capa vertical no padrão dourado do canal
-            capa = capa_short(video, linhas_do_titulo(titulo), video.parent / "thumb_short.jpg", segundo=dur * 0.3)
+            capa = capa_short(video, linhas_do_titulo(titulo), video.parent / "thumb_short.jpg", segundo=dur * 0.3,
+                              marca=marca)
         elif dur > 180:
             capa = capa_youtube(video, titulo.split("|")[0].strip().split(" ", 1) if len(titulo) > 12 else [titulo],
                                 video.parent / "thumb.jpg", segundo=dur * 0.12)
@@ -543,16 +544,18 @@ def publicar(canal: dict, video: Path, texto: str, pular: set = frozenset(), fb_
              titulo: str = "", tags: list[str] | None = None) -> dict:
     resultados_yt = {}
     if "youtube" in canal["publicar_em"] and "youtube" not in pular:
-        if youtube_ativo():
+        token_env = canal.get("secret_token_youtube", "YT_REFRESH_TOKEN")  # cada canal do YouTube tem o próprio token
+        if youtube_ativo(token_env):
             try:
-                resultados_yt["youtube"] = youtube_upload(video, titulo or texto.splitlines()[0], texto, tags)
+                resultados_yt["youtube"] = youtube_upload(video, titulo or texto.splitlines()[0], texto, tags,
+                                                          token_env=token_env, marca=canal.get("nome", "MENSAGEIRO DE FÉ"))
             except requests.HTTPError as e:
                 resultados_yt["youtube"] = {"status": "failed", "errorMessage": f"{e} — {e.response.text[:300]}"}
             except Exception as e:  # noqa: BLE001 — ex.: limite de envios; não pode derrubar as outras redes
                 resultados_yt["youtube"] = {"status": "failed", "errorMessage": str(e)[:400]}
             log("publicador", f"youtube: {resultados_yt['youtube']['status']}")
         else:
-            log("publicador", "youtube: segredos YT_* não configurados — pulando")
+            log("publicador", f"youtube: segredos YT_CLIENT_* / {token_env} não configurados — pulando")
         canal = {**canal, "publicar_em": [x for x in canal["publicar_em"] if x != "youtube"]}
     if not canal["publicar_em"]:
         return resultados_yt
