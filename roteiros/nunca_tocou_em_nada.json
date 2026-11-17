@@ -1,0 +1,66 @@
+{
+  "titulo": "Você nunca tocou em nada de verdade",
+  "gancho_tela": "Você nunca tocou em nada",
+  "narracao": "Você nunca tocou em nada de verdade. Nem neste celular. O que você sente é uma força invisível empurrando seus dedos de volta. E o motivo é ainda mais estranho. Tudo é feito de átomos, e um átomo é quase todo vazio. O núcleo é cerca de cem mil vezes menor que o átomo inteiro. Se um átomo fosse do tamanho de um estádio de futebol, o núcleo seria uma cabeça de alfinete no meio do campo. O resto é a nuvem de elétrons. Os elétrons têm carga negativa. Quando sua mão chega perto da tela, os elétrons dela e os do vidro se repelem, como dois ímãs virados do mesmo lado. E uma regra da física quântica, o princípio de exclusão de Pauli, impede que esses elétrons se amontoem no mesmo estado. É isso que não deixa você atravessar paredes. Então, quando você senta numa cadeira, está flutuando numa almofada de força, em escala atômica. Seus nervos sentem esse empurrão e o cérebro chama isso de toque. Para dois núcleos chegarem perto o bastante para se fundir, é preciso o calor do centro do Sol, cerca de quinze milhões de graus. E se todo esse vazio fosse retirado, os oito bilhões de humanos caberiam num cubo de açúcar. Um abraço ainda conta como toque? Siga para descobrir uma curiosidade nova todo dia.",
+  "cenas": [
+    {
+      "trecho": "Você nunca tocou em nada de verdade. Nem neste celular.",
+      "busca_imagem": "atom model",
+      "prompt_imagem": "a human fingertip almost touching a glowing smartphone screen, tiny visible gap of light between them, macro shot"
+    },
+    {
+      "trecho": "O que você sente é uma força invisível empurrando seus dedos de volta. E o motivo é ainda mais estranho.",
+      "busca_imagem": "electric field lines",
+      "prompt_imagem": "a fingertip pressing on glass with glowing blue invisible force field ripples pushing back, macro, dramatic lighting"
+    },
+    {
+      "trecho": "Tudo é feito de átomos, e um átomo é quase todo vazio. O núcleo é cerca de cem mil vezes menor que o átomo inteiro.",
+      "busca_imagem": "atom nucleus electrons",
+      "prompt_imagem": "a single atom with a tiny bright nucleus in the center surrounded by a vast faint cloud of electrons, mostly empty dark space"
+    },
+    {
+      "trecho": "Se um átomo fosse do tamanho de um estádio de futebol, o núcleo seria uma cabeça de alfinete no meio do campo. O resto é a nuvem de elétrons.",
+      "busca_imagem": "stadium aerial night",
+      "prompt_imagem": "aerial view of an empty football stadium at night with a single tiny glowing dot in the center of the field"
+    },
+    {
+      "trecho": "Os elétrons têm carga negativa. Quando sua mão chega perto da tela, os elétrons dela e os do vidro se repelem, como dois ímãs virados do mesmo lado.",
+      "busca_imagem": "magnetic field lines",
+      "prompt_imagem": "two glowing electron clouds pushing each other apart, blue energy repulsion, scientific visualization"
+    },
+    {
+      "trecho": "E uma regra da física quântica, o princípio de exclusão de Pauli, impede que esses elétrons se amontoem no mesmo estado. É isso que não deixa você atravessar paredes.",
+      "busca_imagem": "quantum physics laboratory",
+      "prompt_imagem": "a human hand pressed flat against a solid wall, faint glowing quantum particle patterns at the contact point"
+    },
+    {
+      "trecho": "Então, quando você senta numa cadeira, está flutuando numa almofada de força, em escala atômica. Seus nervos sentem esse empurrão e o cérebro chama isso de toque.",
+      "busca_imagem": "astronaut hand glove",
+      "prompt_imagem": "a person sitting on a chair levitating a microscopic distance above it, subtle glowing force cushion, cinematic"
+    },
+    {
+      "trecho": "Para dois núcleos chegarem perto o bastante para se fundir, é preciso o calor do centro do Sol, cerca de quinze milhões de graus. E se todo esse vazio fosse retirado, os oito bilhões de humanos caberiam num cubo de açúcar.",
+      "busca_imagem": "Sun core fusion SDO",
+      "prompt_imagem": "the blazing core of the Sun with nuclear fusion glow next to a single sugar cube floating in dark space"
+    },
+    {
+      "trecho": "Um abraço ainda conta como toque? Siga para descobrir uma curiosidade nova todo dia.",
+      "busca_imagem": "Earth from space",
+      "prompt_imagem": "two hands about to touch against a backdrop of Earth seen from space, warm light"
+    }
+  ],
+  "legenda": "Seus dedos nunca encostam de verdade na tela: os elétrons se repelem antes. E sem o vazio dos átomos, os 8 bilhões de humanos caberiam num cubo de açúcar. 🤯\nUm abraço ainda conta como toque? Comenta aqui 👇",
+  "hashtags": [
+    "#física",
+    "#átomo",
+    "#físicaquântica",
+    "#ciência"
+  ],
+  "fontes": [
+    "BBC Science Focus — Why your sense of touch is one of the world's weirdest illusions (repulsão eletromagnética e 'Pauli repulsion'; 'floating on a cushion of repulsive force'): https://www.sciencefocus.com/qanda/touch-illusion-sense",
+    "Matt Strassler (Of Particular Significance) — The size of an atom (raio do núcleo ≈ 1/100.000 do átomo): https://profmattstrassler.com/2022/06/30/the-size-of-an-atom-how-scientists-first-guessed-its-about-quantum-physics/",
+    "PBS NOVA — Sizing Up Protons (núcleo ~100.000 vezes menor que o átomo)",
+    "Astronomy.com — The cubic centimeter: a cosmic measuring cup (8 bilhões de humanos sem o espaço vazio caberiam num cubo de açúcar; Phil Plait/SYFY estima de 1 a ~5 cm³)",
+    "UCAR Center for Science Education — Meet the Sun (núcleo a cerca de 15 milhões °C, onde ocorre a fusão)"
+  ]
+}
