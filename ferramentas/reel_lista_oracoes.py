@@ -19,9 +19,9 @@ OURO, AZUL = (246, 190, 66), (12, 30, 72)
 FONTE = "assets/fontes/Montserrat-Black.ttf"
 ANTON = "assets/fontes/Anton-Regular.ttf"
 SLIDES = [  # (rótulo na tela, id do vídeo)
-    ("PARA DORMIR EM PAZ", "vrNmSGPtbjg"), ("PARA DORMIR EM PAZ", "6_9nYWWUhzo"), ("PARA DORMIR EM PAZ", "RQgcEFMWVOo"),
-    ("PARA PROTEÇÃO", "_8HAQPL2InI"), ("NOS MOMENTOS DIFÍCEIS", "lxBe23icJIM"),
-    ("PARA QUEM ESTÁ CANSADO", "1f-Y-HqnryA"), ("PARA COMEÇAR O DIA", "3Oo9DvxasKs")]
+    ("DORMIR EM PAZ", "vrNmSGPtbjg"), ("DORMIR EM PAZ", "6_9nYWWUhzo"), ("DORMIR EM PAZ", "RQgcEFMWVOo"),
+    ("PEDIR PROTEÇÃO", "_8HAQPL2InI"), ("OS DIAS DIFÍCEIS", "lxBe23icJIM"),
+    ("QUEM ESTÁ CANSADO", "1f-Y-HqnryA"), ("COMEÇAR O DIA", "3Oo9DvxasKs")]
 NARRACAO = ("Tem uma oração para cada momento da sua vida. Para dormir em paz, quando a mente não desliga. "
             "Para pedir proteção para você e para a sua família. Para os dias em que tudo parece desabar. "
             "Para quando você está cansado de tudo. E para entregar o seu dia nas mãos de Deus, logo pela manhã. "
