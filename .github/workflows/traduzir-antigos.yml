@@ -1,6 +1,9 @@
 name: Traduzir vídeos já publicados (es/en)
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '23 9 * * *'   # 06:23 BRT, logo após o reset da cota do Gemini
+    - cron: '47 1 * * *'   # 22:47 BRT, pega o que foi subido à mão no dia
 jobs:
   traduzir:
     runs-on: ubuntu-latest
