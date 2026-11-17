@@ -13,8 +13,11 @@ _USADOS: set[str] = set()
 
 
 def _met(q: str, n: int = 12) -> list[dict]:
-    r = requests.get("https://collectionapi.metmuseum.org/public/collection/v1/search",
-                     params={"q": q, "hasImages": "true"}, headers=UA, timeout=30).json()
+    rr = requests.get("https://collectionapi.metmuseum.org/public/collection/v1/search",
+                      params={"q": q, "hasImages": "true"}, headers=UA, timeout=30)
+    if not rr.ok:
+        raise RuntimeError(f"HTTP {rr.status_code}")
+    r = rr.json()
     out = []
     for oid in (r.get("objectIDs") or [])[:n * 3]:
         try:
@@ -55,6 +58,33 @@ def _cleveland(q: str, n: int = 12) -> list[dict]:
     return out
 
 
+def _wikimedia(q: str, n: int = 12) -> list[dict]:
+    """Wikimedia Commons: só domínio público, CC0 e CC BY / CC BY-SA (com crédito). Nada de NC (não comercial) ou ND."""
+    import re
+    r = requests.get("https://commons.wikimedia.org/w/api.php", headers=UA, timeout=30, params={
+        "action": "query", "format": "json", "generator": "search", "gsrnamespace": 6, "gsrsearch": f"{q} filetype:bitmap",
+        "gsrlimit": n * 2, "prop": "imageinfo", "iiprop": "url|extmetadata|size", "iiurlwidth": 1920}).json()
+    out = []
+    for pg in (r.get("query") or {}).get("pages", {}).values():
+        ii = (pg.get("imageinfo") or [{}])[0]
+        md = ii.get("extmetadata") or {}
+        lic = (md.get("LicenseShortName") or {}).get("value", "")
+        ok = lic.lower() in ("public domain", "cc0", "pd") or (lic.upper().startswith("CC BY") and
+                                                              "NC" not in lic.upper() and "ND" not in lic.upper())
+        if not ok or ii.get("width", 0) < 1000:
+            continue
+        autor = re.sub("<[^>]+>", "", (md.get("Artist") or {}).get("value", "")).strip()[:60] or "autor desconhecido"
+        out.append({"url": ii.get("thumburl") or ii["url"], "titulo": pg.get("title", "").replace("File:", "").rsplit(".", 1)[0],
+                    "data": "", "cultura": re.sub("<[^>]+>", "", (md.get("ImageDescription") or {}).get("value", ""))[:200],
+                    "fonte": f"Wikimedia Commons — {autor} ({lic})", "pagina": ii.get("descriptionurl", "")})
+    return out[:n]
+
+
+# nu artístico é permitido no YouTube, mas pode limitar anúncios: fica de fora
+_EVITAR = ("nude", "naked", "venus", "aphrodite", "bather", "life study", "eros", "erotic", "nymph", "satyr", "leda",
+           "crucifixion", "skull", "mummy", "corpse", "execution", "battle scene")
+
+
 def _relevancia(c: dict, q: str) -> float:
     texto = f"{c['titulo']} {c['cultura']}".lower()
     pal = [w for w in q.lower().split() if len(w) > 2]
@@ -65,14 +95,15 @@ def buscar(q: str, n: int = 12) -> list[dict]:
     """Junta os três acervos, sem repetir imagens já usadas no vídeo; as mais relevantes (palavras da busca no
     título/cultura) primeiro."""
     res = []
-    for f in (_met, _aic, _cleveland):
+    for f in (_met, _aic, _cleveland, _wikimedia):
         try:
             achou = f(q, n)
             print(f"acervo: {f.__name__} '{q}' → {len(achou)}")
             res += achou
         except Exception as e:  # noqa: BLE001
             print(f"acervo: {f.__name__} falhou para '{q}': {e}")
-    res = [x for x in res if x["url"] not in _USADOS]
+    res = [x for x in res if x["url"] not in _USADOS
+           and not any(e in f"{x['titulo']} {x['cultura']}".lower() for e in _EVITAR)]
     for x in res:
         x["rel"] = _relevancia(x, q)
     return sorted(res, key=lambda x: -x["rel"])
@@ -82,7 +113,7 @@ def baixar(q: str, destino: Path, min_lado: int = 900) -> dict | None:
     """Baixa a melhor imagem de museu para a busca (grande o bastante para vídeo 1080p). Devolve o crédito."""
     from PIL import Image
     cands = buscar(q)
-    melhores = [c for c in cands if c["rel"] >= 0.5] or cands
+    melhores = [c for c in cands if c["rel"] >= 0.5]  # sem nada relevante: o roteiro cai para Pixabay/IA
     random.shuffle(melhores[:6])
     for c in melhores[:10]:
         for url in (c["url"], c.get("url_menor")):
