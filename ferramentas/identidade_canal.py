@@ -16,7 +16,9 @@ MONT = "assets/fontes/Montserrat-Black.ttf"
 OURO, ESCURO = (226, 178, 92), (18, 13, 9)
 
 # fundo: só CC0 (sem obrigação de crédito no banner)
-res = [x for x in acervo._cleveland("mosaic", 20) if "CC0" in x["fonte"]]
+res = [x for x in acervo._cleveland("mosaic", 20) if "CC0" in x["fonte"]
+       and not any(e in x["titulo"].lower() for e in ("adam", "eve", "venus", "nude", "bath"))]
+res.sort(key=lambda x: "pavement" not in x["titulo"].lower())  # padrão geométrico primeiro: sem figuras humanas
 print("candidatos:", [x["titulo"] for x in res][:8])
 fundo = None
 for c in res:
