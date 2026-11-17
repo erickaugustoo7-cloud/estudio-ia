@@ -6,9 +6,13 @@ import requests
 API = "https://www.googleapis.com/youtube/v3"
 tok = requests.post("https://oauth2.googleapis.com/token", data={
     "client_id": os.environ["YT_CLIENT_ID"], "client_secret": os.environ["YT_CLIENT_SECRET"],
-    "refresh_token": os.environ["YT_REFRESH_TOKEN"], "grant_type": "refresh_token"}).json()
+    "refresh_token": os.environ[os.getenv("TOKEN_ENV", "YT_REFRESH_TOKEN")], "grant_type": "refresh_token"}).json()
+if "access_token" not in tok:
+    raise SystemExit(f"token recusado: {tok}")
+print("escopos:", tok.get("scope"))
 H = {"Authorization": f"Bearer {tok['access_token']}"}
-c = requests.get(f"{API}/channels", headers=H, params={"part": "contentDetails", "mine": "true"}).json()["items"][0]
+c = requests.get(f"{API}/channels", headers=H, params={"part": "contentDetails,snippet,statistics", "mine": "true"}).json()["items"][0]
+print("CANAL:", c["id"], c["snippet"]["title"], c["snippet"].get("customUrl"), "inscritos:", c["statistics"].get("subscriberCount"))
 pl = c["contentDetails"]["relatedPlaylists"]["uploads"]
 ids, tk = [], None
 while True:
