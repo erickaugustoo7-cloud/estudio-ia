@@ -1,0 +1,40 @@
+name: Revisar prévias
+on:
+  workflow_dispatch:
+    inputs:
+      run_id: {required: true}
+jobs:
+  revisar:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - run: gh run download ${{ inputs.run_id }} -R ${{ github.repository }} -D art
+      - run: |
+          pip install pillow -q
+          python - <<'PY'
+          import base64, glob, re
+          from PIL import Image
+          fs = sorted(glob.glob("art/**/previa_[0-9]*.jpg", recursive=True), key=lambda f: int(re.findall(r"previa_(\d+)", f)[-1]))
+          thumbs = glob.glob("art/**/thumb.jpg", recursive=True)
+          print("previas", len(fs), "thumb", thumbs)
+          def folha(lista, nome, col=8, w=270):
+              ims = [Image.open(f).convert("RGB") for f in lista]
+              ims = [im.resize((w, int(im.height * w / im.width))) for im in ims]
+              h = max(im.height for im in ims)
+              m = Image.new("RGB", (w * col, h * ((len(ims) + col - 1) // col)))
+              for i, im in enumerate(ims):
+                  m.paste(im, ((i % col) * w, (i // col) * h))
+              m.save(nome, quality=55)
+              b = base64.b64encode(open(nome, "rb").read()).decode()
+              for i in range(0, len(b), 3000):
+                  print(nome.split(".")[0] + ":" + b[i:i + 3000])
+          for k in range(0, len(fs), 48):
+              folha(fs[k:k + 48], f"folha{k // 48}.jpg")
+          if thumbs:
+              im = Image.open(thumbs[0]).convert("RGB"); im.thumbnail((960, 540)); im.save("capa.jpg", quality=70)
+              b = base64.b64encode(open("capa.jpg", "rb").read()).decode()
+              for i in range(0, len(b), 3000):
+                  print("capa:" + b[i:i + 3000])
+          PY
