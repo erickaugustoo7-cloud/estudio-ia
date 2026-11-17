@@ -65,10 +65,13 @@ def caber(caminho, txt, larg, tam, peso=None):
             return f
         tam -= 4
 ft = caber(str(fonte), "ANTES DE NÓS", 1380, 190, 800)
-fs = caber(MONT, "DOCUMENTÁRIOS SOBRE QUEM VIVEU ANTES DE NÓS", 1380, 40)
-centro(d, 590, "ANTES DE NÓS", ft, OURO, W)
-d.line((W / 2 - 140, 760, W / 2 + 140, 760), fill=OURO, width=4)
-centro(d, 788, "DOCUMENTÁRIOS SOBRE QUEM VIVEU ANTES DE NÓS", fs, (240, 232, 218), W)
+fs = caber(MONT, "DOCUMENTÁRIOS SOBRE A HISTÓRIA DA HUMANIDADE", 1380, 40)
+bt = d.textbbox((0, 0), "ANTES DE NÓS", font=ft)
+yt = 700 - (bt[3] - bt[1]) // 2 - bt[1] - 40
+centro(d, yt, "ANTES DE NÓS", ft, OURO, W)
+yl = yt + bt[3] + 30
+d.line((W / 2 - 140, yl, W / 2 + 140, yl), fill=OURO, width=4)
+centro(d, yl + 26, "DOCUMENTÁRIOS SOBRE A HISTÓRIA DA HUMANIDADE", fs, (240, 232, 218), W)
 b.save(OUT / "banner.jpg", quality=92)
 
 # FOTO DE PERFIL 800x800 (o YouTube recorta em círculo)
@@ -79,11 +82,10 @@ d = ImageDraw.Draw(a)
 d.ellipse((30, 30, A - 30, A - 30), outline=OURO, width=14)
 fq = ImageFont.truetype(str(fonte), 470); fq.set_variation_by_axes([900])
 bb = d.textbbox((0, 0), "A", font=fq)
-x, y = (A - (bb[2] - bb[0])) / 2 - bb[0], (A - (bb[3] - bb[1])) / 2 - bb[1] - 30
+x, y = (A - (bb[2] - bb[0])) / 2 - bb[0], (A - (bb[3] - bb[1])) / 2 - bb[1]
 d.text((x + 8, y + 10), "A", font=fq, fill=(0, 0, 0))
 d.text((x, y), "A", font=fq, fill=OURO)
-fn = ImageFont.truetype(str(fonte), 64); fn.set_variation_by_axes([800])
-centro(d, y + bb[3] + 18, "DE NÓS", fn, (240, 232, 218), A)
+
 a.save(OUT / "perfil.jpg", quality=95)
 
 # prévia de como fica no celular (corte da área segura) para conferência
