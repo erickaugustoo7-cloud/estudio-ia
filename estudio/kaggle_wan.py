@@ -1143,7 +1143,8 @@ def main():
         # ao juntar 27 min de vídeo e áudio e travou até o fim do prazo)
         so_v, so_a = pasta / "final_v.mp4", pasta / "final_a.m4a"
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(base), "-vf", vf, "-an", "-t", f"{total:.3f}",
-                        "-c:v", "libx264", "-crf", "19", "-preset", "veryfast", "-pix_fmt", "yuv420p", str(so_v)],
+                        "-c:v", "libx264", "-crf", "19", "-maxrate", "5M", "-bufsize", "10M", "-preset", "veryfast",
+                        "-pix_fmt", "yuv420p", str(so_v)],
                        check=True, timeout=3600)
         entradas = cmd[cmd.index(str(base)) + 1:]  # -i voz / -i música
         entradas = [x.replace("[1:a]", "[0:a]") for x in entradas]
