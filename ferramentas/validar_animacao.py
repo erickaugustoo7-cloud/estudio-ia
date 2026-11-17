@@ -13,6 +13,7 @@ erros = []
 cenas = r.get("cenas", [])
 palavras = sum(len(c["trecho"].split()) for c in cenas)
 oracao = bool(r.get("cauda_musical_min")) or r.get("tipo") == "oracao"
+estudo = r.get("tipo") == "estudo"  # As Cartas de Paulo: estudo narrado de ~20–25 min com vídeos reais
 novela = bool(r.get("moderno"))
 if r.get("tipo") == "novela":  # novela cristã de hoje: personagens fixos com rosto, gancho no começo e "siga" no fim
     dialogo = any(c.get("personagem") for c in r.get("cenas", []))
@@ -46,7 +47,17 @@ elif r.get("tipo") == "salmo":  # Salmos narrados: texto bíblico corrido sobre 
     lim_c, lim_p, lim_t = (3, 8), (120, 420), (8, 120)
 elif r.get("formato") == "horizontal":  # vídeo longo do YouTube (docs/MANUAL_LONGOS.md)
     lim_c, lim_p, lim_t, max_anim = ((50, 110), (2700, 3300), (12, 70), 6) if oracao else \
+                                    ((60, 110), (2600, 3600), (12, 90), 0) if estudo else \
                                     ((60, 110), (900, 1400), (3, 30), 10)
+    if estudo:
+        if len(r.get("capitulos", [])) < 6:
+            erros.append("estudo: faltam capitulos (um por parte da carta, mínimo 6)")
+        if not any("inscrev" in c["trecho"].lower() for c in cenas[:12]):
+            erros.append("estudo: convite para se inscrever no começo (até a cena 12)")
+        if not any("inscreva" in c["trecho"].lower() for c in cenas[-3:]):
+            erros.append("estudo: convite para se inscrever nas 3 últimas cenas")
+        if sum(bool(c.get("busca_video")) for c in cenas) < len(cenas) * 0.8:
+            erros.append("estudo: cada cena precisa de busca_video (termo em inglês para o Pixabay)")
     for campo in ("titulo_youtube", "texto_capa", "cena_capa", "legenda", "hashtags"):
         if not r.get(campo) and r.get(campo) != 0:
             erros.append(f"falta o campo {campo}")
@@ -54,7 +65,7 @@ elif r.get("formato") == "horizontal":  # vídeo longo do YouTube (docs/MANUAL_L
         erros.append("oração: sem cauda de música (desde 16/11 o vídeo é ~22 min de oração falada); apague cauda_musical_min")
     if oracao and len(r.get("capitulos", [])) < 4:
         erros.append("oração: faltam capitulos (4–8 partes, ex.: Acolhida, Pela mente, Pela família, Promessas, Bênção)")
-    if not oracao and len(r.get("capitulos", [])) < 3:
+    if not oracao and not estudo and len(r.get("capitulos", [])) < 3:
         erros.append("filme sem capitulos (mínimo 3) — veja docs/MANUAL_LONGOS.md")
     for linha in r.get("texto_capa", []):
         if len(linha.split()) > 3:

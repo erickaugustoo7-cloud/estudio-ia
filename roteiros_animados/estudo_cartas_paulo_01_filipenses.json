@@ -1,0 +1,789 @@
+{
+ "titulo": "As Cartas de Paulo — Ep. 1: Filipenses, a alegria que nasceu na prisão",
+ "titulo_youtube": "A Carta Mais Feliz da Bíblia Foi Escrita Numa PRISÃO | Filipenses",
+ "gancho_tela": "Escrita acorrentado",
+ "referencia": "Filipenses",
+ "tipo": "estudo",
+ "formato": "horizontal",
+ "duracao_max": 999,
+ "volume_musica": 0.0,
+ "opcoes_imagem": 1,
+ "palavras_por_bloco": 600,
+ "plataformas": [
+  "youtube"
+ ],
+ "cena_capa": 0,
+ "texto_capa": [
+  "ESCRITA",
+  "*ACORRENTADO",
+  "FILIPENSES"
+ ],
+ "selo_capa": "As Cartas de Paulo",
+ "capa_prompt": "cinematic photo of an open ancient parchment letter with a feather quill and old iron chains on a rough wooden table inside a dark stone prison cell, a strong beam of golden light from a small high window on the right, the left two thirds dark and empty for text, shallow depth of field, 16:9, no people, no text",
+ "estilo_imagem": "cinematic real photography, warm natural light, ultra detailed, horizontal 16:9, no people, no text",
+ "prefixo_imagem": "cinematic photo:",
+ "prefixo_video": "Slow gentle cinematic motion.",
+ "epoca_imagem": "real objects and natural landscapes; no people, no modern things, no text",
+ "fonte_imagem": "cloudflare",
+ "fundo_video": "pixabay",
+ "estilo_voz": "maduro, acolhedor, firme e contemplativo, como um professor que ama a Bíblia e fala com carinho; ritmo calmo, com pausas",
+ "legenda": "Como um homem preso, acorrentado a um soldado romano, escreveu a carta mais cheia de alegria da Bíblia? Neste primeiro episódio da série As Cartas de Paulo, estudamos Filipenses do começo ao fim: a igreja que nasceu à beira de um rio com uma mulher chamada Lídia, o ensino de Paulo sobre a ansiedade e o verdadeiro sentido de \"posso todas as coisas em Cristo que me fortalece\".\n\nEscreva nos comentários qual ensinamento de Filipenses mais marcou você.",
+ "hashtags": [
+  "#Filipenses",
+  "#ApostoloPaulo",
+  "#EstudoBiblico",
+  "#CartasDePaulo",
+  "#BibliaSagrada"
+ ],
+ "fontes": [
+  "Filipenses e Atos 9 e 16 — Almeida (domínio público)"
+ ],
+ "capitulos": [
+  {
+   "cena": 0,
+   "titulo": "A carta escrita com correntes"
+  },
+  {
+   "cena": 7,
+   "titulo": "Quem era Paulo"
+  },
+  {
+   "cena": 13,
+   "titulo": "Filipos: a igreja que nasceu à beira de um rio"
+  },
+  {
+   "cena": 24,
+   "titulo": "Por que Paulo escreveu Filipenses"
+  },
+  {
+   "cena": 29,
+   "titulo": "Deus termina o que começa"
+  },
+  {
+   "cena": 36,
+   "titulo": "O mesmo sentimento de Cristo"
+  },
+  {
+   "cena": 43,
+   "titulo": "O passado não decide o futuro"
+  },
+  {
+   "cena": 48,
+   "titulo": "Evódia e Síntique"
+  },
+  {
+   "cena": 53,
+   "titulo": "Paulo e a ansiedade"
+  },
+  {
+   "cena": 67,
+   "titulo": "Cuide da sua mente"
+  },
+  {
+   "cena": 71,
+   "titulo": "O verdadeiro sentido de \"posso todas as coisas\""
+  },
+  {
+   "cena": 79,
+   "titulo": "Deus suprirá"
+  },
+  {
+   "cena": 84,
+   "titulo": "O que Filipenses ensina"
+  },
+  {
+   "cena": 88,
+   "titulo": "Oração final"
+  },
+  {
+   "cena": 93,
+   "titulo": "A próxima carta"
+  }
+ ],
+ "short_isca": {
+  "cenas": [
+   75
+  ],
+  "texto_topo": "NÃO É SOBRE VENCER",
+  "titulo": "O que \"posso todas as coisas\" quer dizer de verdade",
+  "hashtags": [
+   "filipenses",
+   "apostolopaulo",
+   "estudobiblico"
+  ]
+ },
+ "cenas": [
+  {
+   "trecho": "Imagine estar preso. Sem saber se amanhã você estará vivo. Sem saber quando verá novamente as pessoas que ama. Sem poder escolher para onde ir, o que fazer ou quando sair.",
+   "busca_video": "chains",
+   "prompt_imagem": "old iron chains on a dark stone floor with a ray of golden light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Imagine ter correntes nos pulsos e um soldado romano vigiando cada movimento seu. Agora imagine que, nesse lugar, você começa a escrever uma carta. Mas não uma carta de despedida. Não uma carta de revolta. Não uma carta cheia de reclamações.",
+   "busca_video": "candle flame dark",
+   "prompt_imagem": "a single candle flame glowing in darkness",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Você começa a escrever sobre alegria. Parece contraditório, não é? Mas foi exatamente essa mensagem que chegou até nós através da carta aos Filipenses. Uma carta escrita em circunstâncias de prisão, por um homem que enfrentava incertezas sobre seu próprio futuro.",
+   "busca_video": "old paper",
+   "prompt_imagem": "old parchment paper in warm candlelight",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "E existe algo ainda mais impressionante: Paulo não escreveu apenas sobre alegria. Ele ensinou sobre paz, humildade, perdão, contentamento e confiança em Deus. Hoje vamos conhecer essa carta do começo ao fim.",
+   "busca_video": "light rays dark",
+   "prompt_imagem": "golden light rays entering a dark stone room",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "E talvez, ao final deste estudo, você compreenda de uma maneira diferente o significado de uma das frases mais conhecidas da Bíblia: \"Posso todas as coisas em Cristo que me fortalece.\"",
+   "busca_video": "quill ink",
+   "prompt_imagem": "a feather quill and ink on old paper",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Porque Paulo não escreveu essas palavras quando tudo estava dando certo. Ele escreveu depois de aprender a permanecer firme mesmo quando a vida não acontecia como gostaria. Bem-vindo ao primeiro episódio da série As Cartas de Paulo, aqui no Mensageiro de Fé.",
+   "busca_video": "chains",
+   "prompt_imagem": "old iron chains on a dark stone floor with a ray of golden light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Se você ainda não é inscrito, inscreva-se no canal e ative o sininho para acompanhar toda a série.",
+   "busca_video": "candle flame dark",
+   "prompt_imagem": "a single candle flame glowing in darkness",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Antes de compreender Filipenses, precisamos conhecer o homem que escreveu essa carta. Paulo, também conhecido como Saulo, era um judeu instruído, profundamente comprometido com suas convicções religiosas. Ele conhecia as Escrituras, pertencia à tradição farisaica e acreditava estar defendendo a fé de seus antepassados.",
+   "busca_video": "desert road",
+   "prompt_imagem": "a dirt road crossing a quiet desert at sunrise",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Mas havia um problema. Ele perseguia os seguidores de Jesus. Entrava nas casas, prendia cristãos e participava da perseguição contra a igreja. Até que um dia, durante uma viagem para Damasco, sua vida mudou completamente.",
+   "busca_video": "old book pages",
+   "prompt_imagem": "pages of an ancient book turning slowly",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "A Bíblia conta, em Atos capítulo 9, que uma luz do céu o envolveu. Ele caiu por terra e ouviu uma voz: \"Saulo, Saulo, por que me persegues?\"",
+   "busca_video": "light clouds sky",
+   "prompt_imagem": "bright light breaking through dramatic clouds",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Era Jesus. Aquele que perseguia os cristãos se tornaria um dos maiores anunciadores do evangelho. Paulo não teve uma vida sem dificuldades depois de sua conversão. Pelo contrário. Enfrentou perseguições, prisões, rejeições, perigos e sofrimento.",
+   "busca_video": "desert landscape",
+   "prompt_imagem": "a vast desert landscape with golden sand dunes",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Mas sua história nos ensina algo poderoso. O passado de uma pessoa não precisa determinar o seu futuro. Aquele que um dia perseguiu a igreja passou a dedicar a própria vida à mensagem de Cristo.",
+   "busca_video": "desert road",
+   "prompt_imagem": "a dirt road crossing a quiet desert at sunrise",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Se Deus transformou a história de Paulo, não devemos considerar ninguém fora do alcance da graça e da transformação.",
+   "busca_video": "old book pages",
+   "prompt_imagem": "pages of an ancient book turning slowly",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Agora precisamos viajar no tempo. Estamos na cidade de Filipos, na Macedônia, região que hoje faz parte da Grécia. Filipos era uma colônia romana. Possuía forte influência da cultura e da administração de Roma.",
+   "busca_video": "greece landscape",
+   "prompt_imagem": "a greek coastal landscape with olive trees and blue sea",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Foi nesse lugar que Paulo, acompanhado de seus companheiros, anunciou o evangelho durante sua viagem missionária. O relato está em Atos capítulo 16. Mas a história começa de uma maneira que talvez você não esperasse.",
+   "busca_video": "ancient ruins",
+   "prompt_imagem": "ancient stone ruins at golden hour",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Paulo encontra um grupo de mulheres reunidas para oração à beira de um rio. Entre elas estava uma mulher chamada Lídia. Ela era comerciante de púrpura, um tecido associado a produtos de grande valor naquela época.",
+   "busca_video": "calm river",
+   "prompt_imagem": "a calm river with green banks in soft morning light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "A Bíblia diz que o Senhor lhe abriu o coração para que estivesse atenta à mensagem anunciada por Paulo. Lídia creu, foi batizada juntamente com sua casa e ofereceu hospitalidade aos missionários.",
+   "busca_video": "purple flowers",
+   "prompt_imagem": "a field of purple flowers moving in the wind",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Perceba a importância desse momento. A mensagem de Cristo encontrou espaço na vida de uma mulher que abriu não apenas o coração, mas também as portas da própria casa.",
+   "busca_video": "night stars",
+   "prompt_imagem": "a dark night sky full of stars",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "A comunidade cristã de Filipos começou a se formar a partir desses encontros. Mas a história ainda teria um episódio extraordinário. Durante a passagem por Filipos, Paulo e Silas enfrentaram uma grande perseguição.",
+   "busca_video": "storm lightning",
+   "prompt_imagem": "lightning in a stormy night sky",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Foram açoitados e colocados na prisão, com os pés presos no tronco. Agora imagine aquela situação. Feridos. Humilhados. Presos em um lugar escuro. E o que fizeram? Atos 16 conta que, perto da meia-noite, Paulo e Silas oravam e cantavam hinos a Deus.",
+   "busca_video": "sunrise clouds",
+   "prompt_imagem": "a peaceful sunrise over the hills",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Os outros presos estavam ouvindo. De repente, aconteceu um terremoto. As portas da prisão se abriram e as correntes foram soltas. O carcereiro, acreditando que os presos haviam fugido, pensou em tirar a própria vida.",
+   "busca_video": "greece landscape",
+   "prompt_imagem": "a greek coastal landscape with olive trees and blue sea",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Mas Paulo gritou para impedi-lo. O homem então perguntou: \"Senhores, que é necessário que eu faça para me salvar?\" E Paulo respondeu: \"Crê no Senhor Jesus Cristo e serás salvo, tu e a tua casa.\"",
+   "busca_video": "ancient ruins",
+   "prompt_imagem": "ancient stone ruins at golden hour",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Aquela noite mudou a vida daquele homem e de sua família. E assim podemos perceber algo especial na origem da igreja de Filipos. Ela reuniu pessoas de histórias muito diferentes: uma comerciante chamada Lídia, um carcereiro romano e outras pessoas que receberam a mensagem de Cristo.",
+   "busca_video": "calm river",
+   "prompt_imagem": "a calm river with green banks in soft morning light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Uma comunidade construída não pela posição social, pela riqueza ou pela origem de seus integrantes, mas pela fé. E essa igreja desenvolveria um relacionamento muito especial com Paulo.",
+   "busca_video": "purple flowers",
+   "prompt_imagem": "a field of purple flowers moving in the wind",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Alguns anos se passaram. Paulo estava novamente preso. A interpretação tradicional situa essa prisão em Roma, embora existam outras hipóteses históricas sobre o local em que a carta foi escrita.",
+   "busca_video": "old paper",
+   "prompt_imagem": "old parchment paper in warm light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Ele enfrentava incertezas sobre seu futuro e aguardava os desdobramentos de seu julgamento. Quando os irmãos de Filipos souberam de sua situação, decidiram ajudá-lo. Enviaram uma contribuição por meio de um homem chamado Epafrodito.",
+   "busca_video": "candle",
+   "prompt_imagem": "a candle burning on a wooden table",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Mas Epafrodito adoeceu gravemente enquanto estava com Paulo e chegou muito perto da morte. Paulo relata esse acontecimento em Filipenses capítulo 2. Depois de sua recuperação, Epafrodito foi enviado de volta, levando consigo uma carta.",
+   "busca_video": "ink writing",
+   "prompt_imagem": "ink on old paper",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Essa carta era Filipenses. E isso nos ajuda a compreender seu tom. Não estamos lendo apenas um tratado teológico. Estamos lendo palavras de um pastor, de um missionário e de um amigo que desejava fortalecer uma comunidade que demonstrava amor e fidelidade.",
+   "busca_video": "sunset sea",
+   "prompt_imagem": "a calm sea at sunset",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Uma carta de gratidão, orientação e esperança. E logo nas primeiras linhas encontramos uma promessa que atravessaria gerações.",
+   "busca_video": "old paper",
+   "prompt_imagem": "old parchment paper in warm light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Em Filipenses capítulo 1, versículo 6, Paulo escreve: \"Tendo por certo isto mesmo, que aquele que em vós começou a boa obra a aperfeiçoará até ao dia de Jesus Cristo.\"",
+   "busca_video": "sunrise field",
+   "prompt_imagem": "a green field at sunrise",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Essa frase carrega uma mensagem profunda. Paulo estava falando à comunidade de Filipos sobre a obra de Deus na vida daqueles irmãos. Ele tinha confiança de que Deus continuaria trabalhando neles até o cumprimento de seu propósito.",
+   "busca_video": "plant growing",
+   "prompt_imagem": "a small green plant growing from the soil",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "E essa mensagem também nos convida à reflexão. Quantas vezes olhamos para nossa própria vida e enxergamos apenas aquilo que ainda não conseguimos terminar? Um sonho interrompido. Uma fase difícil.",
+   "busca_video": "sun rays forest",
+   "prompt_imagem": "sun rays through forest trees",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Uma família enfrentando problemas. Uma fé que parece ter perdido a força. Mas a caminhada cristã não é construída apenas com conquistas imediatas. Deus trabalha também nos processos.",
+   "busca_video": "sunrise field",
+   "prompt_imagem": "a green field at sunrise",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Isso não significa que tudo acontecerá no nosso tempo ou exatamente da maneira que imaginamos. Significa que nossa esperança não precisa estar limitada ao que conseguimos enxergar hoje.",
+   "busca_video": "plant growing",
+   "prompt_imagem": "a small green plant growing from the soil",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "E Paulo nos oferece outra perspectiva surpreendente. Ele diz que as coisas que aconteceram com ele contribuíram para o progresso do evangelho. Até mesmo sua prisão havia se tornado uma oportunidade para que outras pessoas conhecessem Cristo.",
+   "busca_video": "sun rays forest",
+   "prompt_imagem": "sun rays through forest trees",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "O que parecia ser um obstáculo para sua missão acabou se transformando em uma oportunidade de testemunho. A corrente que limitava seus movimentos não conseguiu impedir a mensagem que ele carregava.",
+   "busca_video": "sunrise field",
+   "prompt_imagem": "a green field at sunrise",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "No capítulo 2, Paulo apresenta um dos ensinamentos mais importantes de toda a carta. Ele escreve: \"De sorte que haja em vós o mesmo sentimento que houve também em Cristo Jesus.\"",
+   "busca_video": "water pouring",
+   "prompt_imagem": "clear water pouring gently",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "E então apresenta o exemplo de Jesus. Mesmo existindo em forma de Deus, Cristo assumiu a condição de servo. Humilhou-se e foi obediente até a morte, e morte de cruz.",
+   "busca_video": "stone path",
+   "prompt_imagem": "an old stone path in soft light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Pense nisso. O Filho de Deus não veio ao mundo para exigir privilégios. Veio para servir. Aquele que tinha autoridade demonstrou humildade. Aquele que poderia ser servido escolheu servir.",
+   "busca_video": "soft light nature",
+   "prompt_imagem": "soft golden light over a quiet meadow",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "E Paulo utiliza esse exemplo para orientar a igreja. Havia a necessidade de unidade, de humildade e de cuidado entre os irmãos. O problema é que muitas vezes queremos ser reconhecidos antes de aprender a reconhecer os outros.",
+   "busca_video": "water pouring",
+   "prompt_imagem": "clear water pouring gently",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Queremos vencer discussões, provar que estamos certos e defender nosso orgulho. Mas o exemplo de Jesus aponta para outro caminho. Em uma família, por exemplo, nem sempre a paz começa quando alguém consegue provar que tem razão.",
+   "busca_video": "stone path",
+   "prompt_imagem": "an old stone path in soft light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Às vezes, ela começa quando alguém decide ouvir, compreender, pedir perdão e servir. Isso não significa aceitar injustiças ou abrir mão da verdade. Significa compreender que a humildade também é uma expressão da força espiritual.",
+   "busca_video": "soft light nature",
+   "prompt_imagem": "soft golden light over a quiet meadow",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Paulo nos ensina que a vida cristã não deve ser marcada apenas por aquilo que dizemos acreditar, mas pela maneira como tratamos as pessoas.",
+   "busca_video": "water pouring",
+   "prompt_imagem": "clear water pouring gently",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "No capítulo 3, Paulo faz uma reflexão sobre sua própria história. Ele tinha uma formação religiosa respeitada, uma trajetória de dedicação à tradição judaica e um passado do qual não poderia simplesmente apagar os acontecimentos.",
+   "busca_video": "mountain road sunrise",
+   "prompt_imagem": "a road between mountains at sunrise",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Mas, depois de conhecer Cristo, passou a enxergar tudo de outra maneira. Ele escreve: \"Uma coisa faço, e é que, esquecendo-me das coisas que atrás ficam, e avançando para as que estão diante de mim, prossigo para o alvo.\"",
+   "busca_video": "sunrise mountains",
+   "prompt_imagem": "the sun rising over mountain peaks",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Paulo não está dizendo que devemos fingir que o passado nunca existiu. Também não está ensinando que experiências dolorosas desaparecem simplesmente porque decidimos esquecê-las. O que ele ensina é que o passado não deve ocupar o lugar que pertence ao futuro que Deus nos chama a construir.",
+   "busca_video": "mountain road sunrise",
+   "prompt_imagem": "a road between mountains at sunrise",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Existem pessoas que vivem presas à culpa pelo que fizeram. Outras carregam por anos a dor daquilo que fizeram contra elas. E há momentos em que precisamos reconhecer nossos erros, aprender com eles, buscar reconciliação e continuar caminhando.",
+   "busca_video": "sunrise mountains",
+   "prompt_imagem": "the sun rising over mountain peaks",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Paulo tinha um passado. Mas ele não permitiu que seu passado fosse maior do que sua missão em Cristo. A pergunta que fica é: Você está usando sua história como aprendizado ou permitindo que ela impeça sua caminhada?",
+   "busca_video": "mountain road sunrise",
+   "prompt_imagem": "a road between mountains at sunrise",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Chegamos ao capítulo 4. E encontramos um detalhe muito humano. Paulo menciona duas mulheres pelo nome: Evódia e Síntique. As duas haviam trabalhado ao lado dele no evangelho, mas estavam vivendo um conflito.",
+   "busca_video": "forest path",
+   "prompt_imagem": "a forest path with sunlight",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Paulo pede que elas tenham o mesmo sentimento no Senhor e solicita ajuda de um companheiro para auxiliá-las. Observe algo importante. Paulo não apaga a contribuição dessas mulheres por causa de um desentendimento.",
+   "busca_video": "sunset field",
+   "prompt_imagem": "a wheat field at sunset",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Ele reconhece que elas trabalharam na missão cristã. Isso nos ensina que ter fé não significa nunca enfrentar conflitos. Pessoas sinceras também discordam. Pessoas que amam a Deus também podem se machucar.",
+   "busca_video": "two rivers",
+   "prompt_imagem": "two rivers meeting in a valley",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Mas a fé deve nos conduzir a buscar reconciliação. Talvez exista alguém na sua vida com quem você deixou de conversar. Alguém que já foi próximo, mas hoje está distante.",
+   "busca_video": "forest path",
+   "prompt_imagem": "a forest path with sunlight",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Talvez seja possível começar uma reconstrução. Nem toda relação poderá voltar a ser como antes, mas podemos buscar a paz, o perdão e a maturidade.",
+   "busca_video": "sunset field",
+   "prompt_imagem": "a wheat field at sunset",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Agora chegamos a uma das passagens mais conhecidas de toda a carta. Filipenses 4:4 diz: \"Regozijai-vos sempre no Senhor; outra vez digo, regozijai-vos.\" E logo depois Paulo escreve:",
+   "busca_video": "rain window",
+   "prompt_imagem": "rain drops running down a window",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "\"Perto está o Senhor.\" Mas então vem uma orientação que atravessou gerações. Filipenses 4:6-7: \"Não estejais inquietos por coisa alguma; antes as vossas petições sejam em tudo conhecidas diante de Deus pela oração e súplica, com ação de graças.",
+   "busca_video": "clock",
+   "prompt_imagem": "an old clock ticking",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "E a paz de Deus, que excede todo o entendimento, guardará os vossos corações e os vossos sentimentos em Cristo Jesus.\" Pense novamente em quem está escrevendo essas palavras.",
+   "busca_video": "bible",
+   "prompt_imagem": "an open old bible on a wooden table",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Paulo não está em um ambiente de conforto. Ele está enfrentando uma prisão, incertezas e a possibilidade de uma sentença muito difícil. Portanto, não está falando como alguém que nunca experimentou sofrimento.",
+   "busca_video": "sun through clouds",
+   "prompt_imagem": "sunlight breaking through clouds after rain",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Está ensinando a confiar em Deus mesmo quando as circunstâncias não são favoráveis. E podemos compreender essa passagem a partir de três atitudes. Primeira: transformar a preocupação em oração.",
+   "busca_video": "sunrise",
+   "prompt_imagem": "a calm sunrise over the sea",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Paulo nos convida a apresentar nossas necessidades a Deus. Aquilo que tira seu sono. A preocupação com a família. As dificuldades financeiras. O futuro dos filhos. Uma decisão importante.",
+   "busca_video": "calm lake",
+   "prompt_imagem": "a calm lake at dawn with mist",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Não existe necessidade de esconder de Deus aquilo que está dentro do nosso coração. A oração é um espaço de sinceridade, entrega e relacionamento. Segunda: orar com gratidão.",
+   "busca_video": "rain window",
+   "prompt_imagem": "rain drops running down a window",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Paulo não está dizendo para agradecer pelo sofrimento como se ele não doesse. Está nos ensinando a não permitir que a dificuldade apague completamente nossa memória das coisas boas que já recebemos.",
+   "busca_video": "clock",
+   "prompt_imagem": "an old clock ticking",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Mesmo em dias difíceis, podemos reconhecer a vida, o cuidado, as pessoas que caminham conosco e as oportunidades de recomeçar. A gratidão não elimina os problemas. Mas nos ajuda a enxergar que eles não representam toda a nossa história.",
+   "busca_video": "bible",
+   "prompt_imagem": "an open old bible on a wooden table",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Terceira: confiar na paz de Deus. Paulo não promete que todos os problemas desaparecerão imediatamente. Ele apresenta algo diferente. A paz de Deus, que excede todo entendimento, guardará nosso coração e nossa mente em Cristo Jesus.",
+   "busca_video": "sun through clouds",
+   "prompt_imagem": "sunlight breaking through clouds after rain",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Observe a imagem utilizada. A palavra guardar nos lembra a proteção de uma sentinela. Como um soldado que permanece atento, a paz de Deus é apresentada como uma proteção para o interior de quem confia em Cristo.",
+   "busca_video": "sunrise",
+   "prompt_imagem": "a calm sunrise over the sea",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Isso não significa que uma pessoa de fé nunca sentirá ansiedade, medo ou tristeza. Significa que ela não precisa enfrentar tudo sozinha. A oração, a comunidade, o cuidado espiritual e, quando necessário, o acompanhamento profissional podem fazer parte dessa caminhada.",
+   "busca_video": "calm lake",
+   "prompt_imagem": "a calm lake at dawn with mist",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "A mensagem de Paulo não é uma condenação para quem sofre. É um convite para levar o sofrimento a Deus. Talvez hoje você esteja enfrentando uma situação que ainda não consegue resolver.",
+   "busca_video": "rain window",
+   "prompt_imagem": "rain drops running down a window",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Talvez esteja esperando uma resposta. Talvez esteja vivendo um momento em que tudo parece incerto. Lembre-se: Você não precisa ter todas as respostas para continuar confiando em Deus.",
+   "busca_video": "clock",
+   "prompt_imagem": "an old clock ticking",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Logo depois de ensinar sobre a oração, Paulo também fala sobre nossos pensamentos. Em Filipenses 4:8, ele orienta os irmãos a pensarem em tudo o que é verdadeiro, honesto, justo, puro, amável e de boa fama.",
+   "busca_video": "morning light nature",
+   "prompt_imagem": "soft morning light over a peaceful landscape",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Esse conselho continua extremamente atual. Nossa mente recebe informações o tempo inteiro. Notícias ruins, preocupações, comparações, discussões e lembranças dolorosas. E muitas vezes alimentamos pensamentos que aumentam nosso medo e diminuem nossa esperança.",
+   "busca_video": "bible",
+   "prompt_imagem": "an open bible in morning light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Paulo nos convida a desenvolver uma atenção diferente. Não significa ignorar os problemas ou fingir que tudo está bem. Significa aprender a direcionar nossos pensamentos para aquilo que é verdadeiro e que edifica.",
+   "busca_video": "calm lake",
+   "prompt_imagem": "a mirror-like lake surrounded by mountains",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Antes de dormir, antes de começar o dia, antes de alimentar uma preocupação, faça uma pergunta: Aquilo que estou pensando é verdadeiro? É justo? É bom? Está me aproximando de Deus? Cuidar da mente também faz parte da caminhada espiritual.",
+   "busca_video": "morning light nature",
+   "prompt_imagem": "soft morning light over a peaceful landscape",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "E chegamos ao versículo que talvez você já tenha ouvido centenas de vezes. Filipenses 4:13: \"Posso todas as coisas em Cristo que me fortalece.\" Muitas pessoas utilizam essa frase como uma declaração de vitória.",
+   "busca_video": "desert road",
+   "prompt_imagem": "a lonely road through the desert",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Para passar em uma prova. Para conquistar um emprego. Para vencer uma competição. Mas existe algo muito importante que precisamos observar. O verdadeiro significado aparece quando lemos os versículos anteriores.",
+   "busca_video": "wheat field",
+   "prompt_imagem": "a golden wheat field in the wind",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Paulo escreve que aprendeu a viver contente em diferentes circunstâncias. Ele sabia viver com pouco e também com abundância. Sabia estar alimentado e também enfrentar a fome. Sabia viver em momentos de fartura e em momentos de necessidade.",
+   "busca_video": "sunset desert",
+   "prompt_imagem": "a desert at sunset",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Então, o que Paulo está dizendo quando afirma que pode todas as coisas em Cristo? Ele está ensinando que sua força não depende das circunstâncias externas. Ele aprendeu a permanecer firme em Cristo quando as coisas estavam bem e também quando estavam difíceis.",
+   "busca_video": "mountain sunrise",
+   "prompt_imagem": "sunrise over mountains",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "O versículo não é uma promessa de que conseguiremos realizar tudo aquilo que desejamos. É uma declaração de dependência de Cristo. A força de Jesus não serve apenas para conquistar.",
+   "busca_video": "desert road",
+   "prompt_imagem": "a lonely road through the desert",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Também serve para permanecer de pé quando a conquista ainda não chegou. Para continuar caminhando quando a resposta demora. Para manter a fé quando o cenário parece contrário.",
+   "busca_video": "wheat field",
+   "prompt_imagem": "a golden wheat field in the wind",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "E existe uma palavra nesse ensinamento que merece atenção. Paulo diz que aprendeu. Contentamento não é algo que necessariamente nasce pronto em nós. É uma experiência construída ao longo da caminhada.",
+   "busca_video": "sunset desert",
+   "prompt_imagem": "a desert at sunset",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Aprendemos a confiar. Aprendemos a agradecer. Aprendemos a reconhecer que nossa identidade não depende de posses, conquistas ou reconhecimento. Talvez você ainda esteja aprendendo. E tudo bem. A própria carta nos mostra que esse aprendizado faz parte da vida cristã.",
+   "busca_video": "mountain sunrise",
+   "prompt_imagem": "sunrise over mountains",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Perto do fim da carta, Paulo volta a falar sobre o cuidado que recebeu dos irmãos de Filipos. Ele reconhece a generosidade daquela comunidade. E então escreve uma promessa muito conhecida.",
+   "busca_video": "bread",
+   "prompt_imagem": "fresh bread on a rustic wooden table",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Filipenses 4:19: \"O meu Deus, segundo as suas riquezas, suprirá todas as vossas necessidades em glória, por Cristo Jesus.\" Observe o contexto. Os filipenses haviam demonstrado cuidado com Paulo, contribuindo para suas necessidades enquanto ele enfrentava dificuldades.",
+   "busca_video": "wheat field",
+   "prompt_imagem": "golden wheat in the wind",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Paulo agradece e reconhece a fidelidade de Deus. Essa passagem não deve ser interpretada como uma promessa de que teremos tudo o que desejamos ou de que nunca enfrentaremos dificuldades materiais.",
+   "busca_video": "farm field",
+   "prompt_imagem": "green farm fields under a blue sky",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "O próprio Paulo havia ensinado que sabia viver tanto na abundância quanto na necessidade. A promessa aponta para a confiança no cuidado de Deus. Não segundo aquilo que conseguimos acumular.",
+   "busca_video": "bread",
+   "prompt_imagem": "fresh bread on a rustic wooden table",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Não segundo a quantidade de recursos que possuímos. Mas segundo as riquezas de Deus em Cristo Jesus. Nossa esperança não está em controlar todas as circunstâncias. Está em saber em quem depositamos nossa confiança.",
+   "busca_video": "wheat field",
+   "prompt_imagem": "golden wheat in the wind",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Depois de conhecer a história e os ensinamentos de Filipenses, podemos reunir cinco grandes lições. Primeira: Deus continua trabalhando naqueles que pertencem a Cristo. Segunda: mesmo em circunstâncias difíceis, nossa vida pode ser um testemunho de fé.",
+   "busca_video": "sunrise",
+   "prompt_imagem": "a beautiful sunrise over the hills",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Terceira: nosso passado não precisa determinar nosso futuro. Quarta: podemos levar nossas preocupações a Deus em oração, com gratidão e confiança. Quinta: a força de Cristo nos sustenta tanto nos dias de abundância quanto nos dias de necessidade.",
+   "busca_video": "bible",
+   "prompt_imagem": "an open bible",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "São quatro capítulos. Mas são ensinamentos que podem acompanhar uma vida inteira. Minha sugestão é que você leia Filipenses durante esta semana. Leia sem pressa. Observe as palavras de Paulo.",
+   "busca_video": "road nature",
+   "prompt_imagem": "a country road through green hills",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Pense no contexto em que ele escreveu. E procure identificar o que Deus está ensinando a você através dessa carta.",
+   "busca_video": "sunrise",
+   "prompt_imagem": "a beautiful sunrise over the hills",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Vamos orar juntos? Senhor nosso Deus e nosso Pai, Obrigado pela Tua Palavra e pelos ensinamentos que encontramos na carta aos Filipenses. Obrigado porque, mesmo em meio às dificuldades, Paulo nos ensinou a encontrar alegria e confiança em Ti.",
+   "busca_video": "sunrise",
+   "prompt_imagem": "a golden sunrise over the sea",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Hoje colocamos diante de Ti nossas preocupações, nossos medos e nossas incertezas. Tu conheces aquilo que carregamos em silêncio. Conheces nossas lutas, nossas famílias, nossos sonhos e nossas necessidades.",
+   "busca_video": "window light",
+   "prompt_imagem": "golden light coming through a window",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Ensina-nos a transformar nossas preocupações em oração. Ajuda-nos a desenvolver um coração grato, mesmo nos dias difíceis. Que a Tua paz, que excede todo entendimento, guarde nossos corações e nossas mentes em Cristo Jesus.",
+   "busca_video": "candle",
+   "prompt_imagem": "a candle glowing softly",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Ensina-nos a ser humildes, a perdoar, a servir e a caminhar segundo o exemplo de Jesus. Fortalece nossa fé para que possamos permanecer firmes tanto nos momentos de abundância quanto nos momentos de necessidade.",
+   "busca_video": "sunrise",
+   "prompt_imagem": "a golden sunrise over the sea",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "E que a boa obra que começaste em nós continue sendo aperfeiçoada segundo a Tua vontade. Em nome de Jesus. Amém.",
+   "busca_video": "window light",
+   "prompt_imagem": "golden light coming through a window",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Se este estudo falou ao seu coração, deixe seu gostei e escreva nos comentários qual ensinamento de Filipenses mais marcou você. Na próxima semana, continuaremos nossa jornada com Efésios: uma carta que revela nossa identidade em Cristo e apresenta a armadura de Deus para enfrentar as batalhas da vida.",
+   "busca_video": "old paper",
+   "prompt_imagem": "old parchment paper",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Inscreva-se no Mensageiro de Fé e ative o sininho para não perder a próxima carta. Que a paz de Deus guarde seu coração e sua mente em Cristo Jesus.",
+   "busca_video": "sunset clouds",
+   "prompt_imagem": "golden sunset clouds",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Até o próximo estudo. MENSAGEIRO DE FÉ *Uma mensagem da Palavra de Deus para transformar sua caminhada.*",
+   "busca_video": "old paper",
+   "prompt_imagem": "old parchment paper",
+   "vazia": true,
+   "animar": false
+  }
+ ]
+}

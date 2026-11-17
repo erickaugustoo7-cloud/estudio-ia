@@ -378,7 +378,8 @@ def _clipe_vivo(video: Path) -> bool:
         return True
 
 
-def _pixabay_video(prompt: str, seg: float, destino: Path, usados: set, horizontal: bool = False) -> Path | None:
+def _pixabay_video(prompt: str, seg: float, destino: Path, usados: set, horizontal: bool = False,
+                   busca: str | None = None) -> Path | None:
     """Vídeo REAL de paisagem do Pixabay (licença de uso comercial grátis, sem atribuição; precisa PIXABAY_API_KEY).
     A maioria é deitada: prefere 4K/1080p para recortar o centro em 9:16 sem perder nitidez."""
     chave = os.getenv("PIXABAY_API_KEY")
@@ -386,7 +387,7 @@ def _pixabay_video(prompt: str, seg: float, destino: Path, usados: set, horizont
         return None
     import requests
     p = f" {prompt.lower()} "
-    termo = next((q for k, q in PEXELS_TEMAS if k in p), None) or random.choice(PADROES_PAZ)
+    termo = busca or next((q for k, q in PEXELS_TEMAS if k in p), None) or random.choice(PADROES_PAZ)
     try:
         if termo not in _PIXABAY_CACHE:
             _PIXABAY_CACHE[termo] = requests.get("https://pixabay.com/api/videos/", timeout=30,
@@ -399,10 +400,17 @@ def _pixabay_video(prompt: str, seg: float, destino: Path, usados: set, horizont
         natureza = ("nature", "landscape", "water", "sea", "ocean", "forest", "tree", "mountain", "lake", "river",
                     "waterfall", "sky", "cloud", "sunset", "sunrise", "beach", "wave", "field", "flower", "grass",
                     "star", "night", "moon", "desert", "meadow", "hill", "rain", "valley", "aurora", "fog", "mist")
+        if busca:  # estudo bíblico: busca livre (vela, pergaminho, ruínas...), mas nunca pessoas, texto ou cidade moderna
+            proibidas = ("people", "woman", "man", "girl", "boy", "person", "text", "city", "urban", "street", "car",
+                         "traffic", "skyline", "downtown", "highway", "crowd", "logo", "animation", "3d", "business",
+                         "face", "portrait", "selfie", "computer", "phone", "office")
         hits = [h for h in res.get("hits", []) if h["id"] not in usados and h.get("duration", 0) >= seg
                 and not any(x in h.get("tags", "").lower().split(", ") or f" {x}" in f" {h.get('tags', '').lower()}"
                             for x in proibidas)
-                and any(x in h.get("tags", "").lower() for x in natureza)]
+                and (busca or any(x in h.get("tags", "").lower() for x in natureza))]
+        if busca and not hits:  # nada bom para a busca: volta para paisagem de paz
+            log("wan", f"Pixabay sem clipe para '{busca}', usando paisagem")
+            return _pixabay_video(prompt, seg, destino, usados, horizontal)
         random.shuffle(hits)
         for h in hits:
             ordem = ("medium", "large") if horizontal else ("large", "medium")  # deitado: 1080p basta; em pé: recorta do 4K
@@ -807,7 +815,8 @@ def main():
         for i, c in enumerate(r["cenas"]):
             if c.get("animar"):
                 continue
-            v = _pixabay_video(c["prompt_imagem"], min(tempos[i], 10), pasta / f"stock_{i}.mp4", usados_st, horizontal=horiz)
+            v = _pixabay_video(c["prompt_imagem"], min(tempos[i], 10), pasta / f"stock_{i}.mp4", usados_st, horizontal=horiz,
+                               busca=c.get("busca_video"))
             if v:
                 jpg = pasta / f"stock_{i}.jpg"
                 subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", "1.5", "-i", str(v), "-frames:v", "1",
