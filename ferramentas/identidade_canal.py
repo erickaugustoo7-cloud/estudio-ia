@@ -1,4 +1,4 @@
-"""Banner (2560x1440) e foto de perfil (800x800) do canal Perguntas da História.
+"""Banner (2560x1440) e foto de perfil (800x800) do canal Antes de Nós.
 Fundo: mosaico antigo do Cleveland Museum of Art (CC0). Fonte: Cinzel (SIL Open Font License)."""
 import sys
 from pathlib import Path
@@ -64,11 +64,11 @@ def caber(caminho, txt, larg, tam, peso=None):
         if d.textlength(txt, font=f) <= larg or tam < 20:
             return f
         tam -= 4
-ft = caber(str(fonte), "PERGUNTAS DA HISTÓRIA", 1380, 150, 800)
-fs = caber(MONT, "AS PERGUNTAS QUE NINGUÉM FAZ SOBRE A HISTÓRIA DA HUMANIDADE", 1380, 40)
-centro(d, 590, "PERGUNTAS DA HISTÓRIA", ft, OURO, W)
+ft = caber(str(fonte), "ANTES DE NÓS", 1380, 190, 800)
+fs = caber(MONT, "DOCUMENTÁRIOS SOBRE QUEM VIVEU ANTES DE NÓS", 1380, 40)
+centro(d, 590, "ANTES DE NÓS", ft, OURO, W)
 d.line((W / 2 - 140, 760, W / 2 + 140, 760), fill=OURO, width=4)
-centro(d, 788, "AS PERGUNTAS QUE NINGUÉM FAZ SOBRE A HISTÓRIA DA HUMANIDADE", fs, (240, 232, 218), W)
+centro(d, 788, "DOCUMENTÁRIOS SOBRE QUEM VIVEU ANTES DE NÓS", fs, (240, 232, 218), W)
 b.save(OUT / "banner.jpg", quality=92)
 
 # FOTO DE PERFIL 800x800 (o YouTube recorta em círculo)
@@ -77,11 +77,13 @@ miolo = fundo.crop((fundo.width // 6, fundo.height // 6, fundo.width * 5 // 6, f
 a = tingir(preencher(miolo, A, A), 0.70)
 d = ImageDraw.Draw(a)
 d.ellipse((30, 30, A - 30, A - 30), outline=OURO, width=14)
-fq = ImageFont.truetype(str(fonte), 560); fq.set_variation_by_axes([900])
-bb = d.textbbox((0, 0), "?", font=fq)
-x, y = (A - (bb[2] - bb[0])) / 2 - bb[0], (A - (bb[3] - bb[1])) / 2 - bb[1]
-d.text((x + 8, y + 10), "?", font=fq, fill=(0, 0, 0))
-d.text((x, y), "?", font=fq, fill=OURO)
+fq = ImageFont.truetype(str(fonte), 470); fq.set_variation_by_axes([900])
+bb = d.textbbox((0, 0), "A", font=fq)
+x, y = (A - (bb[2] - bb[0])) / 2 - bb[0], (A - (bb[3] - bb[1])) / 2 - bb[1] - 30
+d.text((x + 8, y + 10), "A", font=fq, fill=(0, 0, 0))
+d.text((x, y), "A", font=fq, fill=OURO)
+fn = ImageFont.truetype(str(fonte), 64); fn.set_variation_by_axes([800])
+centro(d, y + bb[3] + 18, "DE NÓS", fn, (240, 232, 218), A)
 a.save(OUT / "perfil.jpg", quality=95)
 
 # prévia de como fica no celular (corte da área segura) para conferência
