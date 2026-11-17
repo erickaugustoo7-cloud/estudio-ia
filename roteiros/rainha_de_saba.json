@@ -1,0 +1,65 @@
+{
+  "titulo": "A rainha que viajou para testar Salomão",
+  "gancho_tela": "Jesus lembrou dessa viagem",
+  "estilo": "pintura",
+  "narracao": "Uma rainha viajou de muito longe só para testar um homem. Era a rainha de Sabá, e o homem era Salomão. Séculos depois, Jesus falou dessa viagem. Mas por quê? Ela tinha ouvido falar da fama de Salomão. Juntou uma grande comitiva, com camelos carregados de especiarias, ouro e pedras preciosas, e foi até Jerusalém. Lá, ela perguntou tudo o que tinha no coração. E Salomão respondeu cada pergunta. Ela viu a sabedoria, o palácio, a mesa do rei, e ficou maravilhada. Então disse: não me contaram nem a metade. Primeiro Reis, capítulo dez. Um dia, alguns fariseus e mestres da lei disseram a Jesus: queremos ver um sinal. Então Jesus lembrou daquela rainha. Ela veio dos confins da terra para ouvir a sabedoria de Salomão. E agora está aqui quem é maior do que Salomão. Mateus, capítulo doze. Eles pediam um sinal, e o sinal estava diante deles. Ela atravessou terras para encontrar respostas. Você não precisa ir tão longe. Aquele que é maior do que Salomão está a uma oração de distância. Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias.",
+  "cenas": [
+    {
+      "trecho": "Uma rainha viajou de muito longe só para testar um homem.",
+      "busca_imagem": "queen caravan camels sunset",
+      "prompt_imagem": "a regal queen in rich ancient robes seen from behind riding at the head of a long caravan of camels toward a golden walled city at sunset, glowing sky, dramatic light and long shadows"
+    },
+    {
+      "trecho": "Era a rainha de Sabá, e o homem era Salomão. Séculos depois, Jesus falou dessa viagem. Mas por quê?",
+      "busca_imagem": "ancient jerusalem palace",
+      "prompt_imagem": "an ancient royal palace of cedar and stone in Jerusalem bathed in warm golden light, tall columns, distant figures in robes in shadow"
+    },
+    {
+      "trecho": "Ela tinha ouvido falar da fama de Salomão. Juntou uma grande comitiva, com camelos carregados de especiarias, ouro e pedras preciosas, e foi até Jerusalém.",
+      "busca_imagem": "camels spices gold caravan",
+      "prompt_imagem": "a caravan of camels laden with chests of gold, jars of spices and precious stones crossing dry hills toward Jerusalem, servants in robes seen from behind, warm dusty light"
+    },
+    {
+      "trecho": "Lá, ela perguntou tudo o que tinha no coração. E Salomão respondeu cada pergunta.",
+      "busca_imagem": "throne room king queen",
+      "prompt_imagem": "a grand ancient throne room lit by oil lamps, a robed king on a throne in shadow and a queen seen from behind standing before him, gold and cedar details"
+    },
+    {
+      "trecho": "Ela viu a sabedoria, o palácio, a mesa do rei, e ficou maravilhada. Então disse: não me contaram nem a metade. Primeiro Reis, capítulo dez.",
+      "busca_imagem": "royal banquet table lamps",
+      "prompt_imagem": "a richly laid royal banquet table in an ancient palace hall, servants in robes in shadow, a queen seen from behind gazing in awe, golden lamplight"
+    },
+    {
+      "trecho": "Um dia, alguns fariseus e mestres da lei disseram a Jesus: queremos ver um sinal.",
+      "busca_imagem": "pharisees crowd temple",
+      "prompt_imagem": "a group of robed religious leaders with stern postures surrounding a calm figure in a simple robe seen from behind, ancient stone street in Judea, late afternoon light"
+    },
+    {
+      "trecho": "Então Jesus lembrou daquela rainha. Ela veio dos confins da terra para ouvir a sabedoria de Salomão. E agora está aqui quem é maior do que Salomão. Mateus, capítulo doze.",
+      "busca_imagem": "jesus teaching crowd light",
+      "prompt_imagem": "a figure in a simple robe seen from behind standing in golden light before a crowd in an ancient town, soft radiant glow around him, faces of the crowd in shadow"
+    },
+    {
+      "trecho": "Eles pediam um sinal, e o sinal estava diante deles. Ela atravessou terras para encontrar respostas.",
+      "busca_imagem": "lone traveler desert road",
+      "prompt_imagem": "a lone traveler in ancient robes seen from behind on a long winding road through hills toward a distant light on the horizon at dusk"
+    },
+    {
+      "trecho": "Você não precisa ir tão longe. Aquele que é maior do que Salomão está a uma oração de distância. Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias.",
+      "busca_imagem": "man praying candle night",
+      "prompt_imagem": "a man seen from behind kneeling in prayer beside a single candle in a simple stone room at night, warm light falling on an open scroll"
+    }
+  ],
+  "legenda": "Jesus, eu quero te ouvir mais do que tudo 🙏✨\n1 Reis 10:1-7 · Mateus 12:42\nComente \"Amém\" e envie para alguém que está buscando respostas.",
+  "hashtags": [
+    "#Jesus",
+    "#Salomão",
+    "#rainhadeSabá",
+    "#sabedoria"
+  ],
+  "fontes": [
+    "1 Reis 10:1-3 (a rainha de Sabá ouve a fama de Salomão, vem a Jerusalém com grande comitiva, camelos com especiarias, ouro e pedras preciosas, pergunta tudo o que tinha no coração; Salomão responde todas)",
+    "1 Reis 10:4-7 (ela vê a sabedoria, o palácio, a mesa; 'não me contaram nem a metade')",
+    "Mateus 12:38-42 (fariseus e mestres da lei pedem um sinal; 'a rainha do Sul... veio dos confins da terra para ouvir a sabedoria de Salomão, e agora está aqui o que é maior do que Salomão')"
+  ]
+}
