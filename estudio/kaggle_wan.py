@@ -1134,7 +1134,7 @@ def main():
     vf = f"subtitles={ass}:fontsdir={fontes}"
     if total < 600:
         cmd += ["-filter_complex", f"[0:v]{vf}[v];" + ";".join(audio), "-map", "[v]", "-map", "[a]", "-t", f"{total:.3f}",
-                "-c:v", "libx264", "-crf", "19", "-preset", "medium", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k",
+                "-c:v", "libx264", "-crf", "19", "-maxrate", "5M", "-bufsize", "10M", "-preset", "medium", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k",
                 "-movflags", "+faststart", str(video)]
         subprocess.run(cmd, check=True)
         montador.normalizar_volume(video)
