@@ -1,0 +1,68 @@
+{
+  "titulo": "Oração da mãe que não consegue dormir pensando no filho",
+  "gancho_tela": "Mãe, ore comigo",
+  "referencia": "Isaías 49:15",
+  "serie": "Oração de 20 segundos",
+  "tipo": "tiktok",
+  "fonte_imagem": "kaggle",
+  "opcoes_imagem": 2,
+  "duracao_max": 40,
+  "volume_musica": 0.12,
+  "plataformas": [
+    "facebook"
+  ],
+  "estilo_imagem": "cinematic photorealistic epic film still, deep blue night and warm lamplight, dramatic volumetric light, ancient Judea village, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic slow subtle motion.",
+  "epoca_imagem": "Ancient Israel village at night, stone house, clay oil lamps, linen, wool and wood only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "Mãe, não consegue dormir pensando no seu filho? Ore comigo agora.",
+      "prompt_imagem": "a small clay oil lamp burning on a stone windowsill of an ancient house at night, deep blue moonlight outside over quiet hills",
+      "vazia": true,
+      "animar": true,
+      "prompt_movimento": "the small flame flickers gently, a linen curtain sways softly in the night breeze"
+    },
+    {
+      "trecho": "Senhor, o meu filho não sai do meu pensamento esta noite.",
+      "prompt_imagem": "a folded wool blanket and a linen sleeping mat on the floor of a dim ancient stone room, soft glow of a clay lamp",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Onde eu não alcanço, a tua mão alcança. Guarda-o por mim.",
+      "prompt_imagem": "a long dusty road winding through moonlit hills of ancient Israel toward a distant village with one warm light, wide high view",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Tu perguntaste se uma mãe pode esquecer o filho que cria.",
+      "prompt_imagem": "an empty small wooden cradle with a wool blanket beside a clay oil lamp in an ancient stone house, warm light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E prometeste: contudo eu não me esquecerei de ti. Então eu descanso. Amém.",
+      "prompt_imagem": "an old parchment scroll partly unrolled on a wooden table beside a clay oil lamp, warm light falling across it",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Siga o Mensageiro de Fé para orar comigo todas as noites.",
+      "prompt_imagem": "a quiet ancient village of flat-roofed stone houses under a vast starry night sky, one warm lit window far away, peaceful",
+      "vazia": true,
+      "animar": false
+    }
+  ],
+  "legenda": "Deus não se esquece do seu filho: \"ainda que esta se esquecesse dele, contudo eu não me esquecerei de ti\" (Isaías 49:15). Qual o nome do seu filho para eu orar por ele? Comente 👇",
+  "hashtags": [
+    "#Oração",
+    "#Mãe",
+    "#Filhos",
+    "#Fé",
+    "#Deus"
+  ],
+  "fontes": [
+    "Isaías 49:15 — Almeida (domínio público): \"Porventura pode uma mulher esquecer-se tanto de seu filho que cria [...]? Mas ainda que esta se esquecesse dele, contudo eu não me esquecerei de ti.\""
+  ]
+}
