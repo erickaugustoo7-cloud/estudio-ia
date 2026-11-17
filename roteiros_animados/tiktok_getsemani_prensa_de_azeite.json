@@ -1,0 +1,70 @@
+{
+  "titulo": "O que significa Getsêmani?",
+  "gancho_tela": "Um nome escondido",
+  "referencia": "Mateus 26:36-39",
+  "serie": "O que quase ninguém sabe",
+  "tipo": "tiktok",
+  "fonte_imagem": "kaggle",
+  "opcoes_imagem": 2,
+  "duracao_max": 40,
+  "volume_musica": 0.12,
+  "plataformas": [
+    "facebook"
+  ],
+  "estilo_imagem": "cinematic photorealistic epic film still, night and dawn light, dramatic volumetric god rays, ancient Judea 1st century, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic slow subtle motion.",
+  "epoca_imagem": "Mount of Olives outside ancient Jerusalem, 1st century, gnarled olive trees, stone olive press, clay and linen only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "O jardim onde Jesus mais sofreu tem um nome que quase ninguém entende.",
+      "prompt_imagem": "ancient gnarled olive trees in a garden at night, moonlight through the branches, stone wall, mist on the ground",
+      "vazia": true,
+      "animar": true,
+      "prompt_movimento": "olive leaves trembling in a gentle night wind, mist drifting slowly through moonlight"
+    },
+    {
+      "trecho": "Ficava no Monte das Oliveiras, onde azeitonas eram esmagadas sob pedras pesadas.",
+      "prompt_imagem": "ancient stone olive press with a heavy round crushing stone and a pile of dark olives, warm oil lamp light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Getsêmani quer dizer prensa de azeite.",
+      "prompt_imagem": "close-up of golden olive oil flowing from a stone press channel into a clay jar, warm volumetric light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Ali Jesus orou angustiado: não seja como eu quero, mas como tu queres.",
+      "prompt_imagem": "a large flat rock among olive trees under a night sky full of stars, faint moonlight, solemn and quiet",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Se hoje a vida está te apertando, lembre: foi do aperto que saiu o azeite.",
+      "prompt_imagem": "small clay oil lamp burning with a calm flame on a stone ledge, olive grove at dawn behind, soft god rays",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Siga o Mensageiro de Fé para mais do que quase ninguém sabe.",
+      "prompt_imagem": "wide view of the Mount of Olives at sunrise, ancient olive trees, warm god rays over the hills of Jerusalem",
+      "vazia": true,
+      "animar": false
+    }
+  ],
+  "legenda": "Getsêmani quer dizer \"prensa de azeite\" — o lugar onde Jesus orou: \"não seja como eu quero, mas como tu queres\" (Mateus 26:36-39). O que está te apertando hoje? Comente que a gente ora junto 👇",
+  "hashtags": [
+    "#Jesus",
+    "#Bíblia",
+    "#Fé",
+    "#OQueQuaseNinguémSabe",
+    "#Cristão"
+  ],
+  "fontes": [
+    "Mateus 26:36-39 — Almeida (domínio público)",
+    "Lucas 22:39 — Monte das Oliveiras",
+    "Getsêmani (heb. gat shemanim) = prensa de azeite — Encyclopaedia Britannica; Catholic Encyclopedia"
+  ]
+}
