@@ -396,14 +396,16 @@ def _pixabay_video(prompt: str, seg: float, destino: Path, usados: set, horizont
         res = _PIXABAY_CACHE[termo]
         proibidas = ("people", "woman", "man", "girl", "boy", "person", "text", "city", "building", "town", "urban",
                      "street", "car", "traffic", "architecture", "house", "castle", "church", "tower", "bridge",
-                     "skyline", "downtown", "road", "highway", "village", "people", "crowd", "logo", "animation", "3d")
+                     "skyline", "downtown", "road", "highway", "village", "people", "crowd", "logo", "animation", "3d",
+                     "skyscraper", "dubai", "metropolis", "emirates", "uae", "abu dhabi", "hotel", "resort", "construction")
         natureza = ("nature", "landscape", "water", "sea", "ocean", "forest", "tree", "mountain", "lake", "river",
                     "waterfall", "sky", "cloud", "sunset", "sunrise", "beach", "wave", "field", "flower", "grass",
                     "star", "night", "moon", "desert", "meadow", "hill", "rain", "valley", "aurora", "fog", "mist")
         if busca:  # estudo bíblico: busca livre (vela, pergaminho, ruínas...), mas nunca pessoas, texto ou cidade moderna
             proibidas = ("people", "woman", "man", "girl", "boy", "person", "text", "city", "urban", "street", "car",
                          "traffic", "skyline", "downtown", "highway", "crowd", "logo", "animation", "3d", "business",
-                         "face", "portrait", "selfie", "computer", "phone", "office")
+                         "face", "portrait", "selfie", "computer", "phone", "office", "skyscraper", "dubai",
+                         "metropolis", "building", "hotel", "construction")
         hits = [h for h in res.get("hits", []) if h["id"] not in usados and h.get("duration", 0) >= seg
                 and not any(x in h.get("tags", "").lower().split(", ") or f" {x}" in f" {h.get('tags', '').lower()}"
                             for x in proibidas)
