@@ -827,6 +827,21 @@ def main():
                 if jpg.exists():
                     stock[i] = (v, jpg)
         log("wan", f"vídeos reais de paisagem: {len(stock)}/{len(r['cenas'])} cenas")
+    acervo_img = {}  # cena -> imagem de museu (CC0/domínio público/CC BY), com crédito na descrição
+    if any(c.get("acervo") for c in r["cenas"]) and not os.getenv("SO_ISCA"):
+        from estudio.agentes import acervo
+        creditos = []
+        for i, c in enumerate(r["cenas"]):
+            if not c.get("acervo") or i in stock:
+                continue
+            bruto = pasta / f"acervo_{i}_bruto.jpg"
+            cred = acervo.baixar(c["acervo"], bruto)
+            if cred:
+                acervo_img[i] = acervo.compor(bruto, pasta / f"acervo_{i}.jpg", W, H)
+                creditos.append(f"{cred['titulo'][:80]} — {cred['fonte']}")
+        log("wan", f"imagens de museu: {len(acervo_img)}/{sum(bool(c.get('acervo')) for c in r['cenas'])} cenas pedidas")
+        if creditos:
+            r["fontes"] = list(r.get("fontes", [])) + ["Imagens de acervo: " + "; ".join(dict.fromkeys(creditos))]
     if fonte == "kaggle":
         from estudio.agentes.revisor_visual import _avaliar
         chave = os.getenv("GEMINI_API_KEY")
@@ -927,8 +942,9 @@ def main():
             return i, None, motivo
 
         with ThreadPoolExecutor(max_workers=3) as ex:
-            res_cenas = list(ex.map(_cena_sem_gpu, [i for i in range(len(cenas_img)) if i not in stock]))
-        res_cenas = sorted(res_cenas + [(i, jpg, "") for i, (_, jpg) in stock.items()])
+            res_cenas = list(ex.map(_cena_sem_gpu, [i for i in range(len(cenas_img)) if i not in stock and i not in acervo_img]))
+        res_cenas = sorted(res_cenas + [(i, jpg, "") for i, (_, jpg) in stock.items()] +
+                           [(i, jpg, "") for i, jpg in acervo_img.items()])
         aprovadas = {i: jpg for i, jpg, _ in res_cenas if jpg}
         if not aprovadas:
             raise SystemExit("nenhuma imagem aprovada (Cloudflare/Pollinations) — veja o log")

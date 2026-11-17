@@ -134,3 +134,24 @@ def baixar(q: str, destino: Path, min_lado: int = 900) -> dict | None:
             except Exception:  # noqa: BLE001
                 continue
     return None
+
+
+def compor(img: Path, destino: Path, W: int, H: int) -> Path:
+    """Peça de museu (às vezes em pé, fundo branco) dentro do quadro do vídeo sem distorcer: fundo com a própria
+    imagem desfocada e escurecida, peça inteira no centro com uma sombra leve."""
+    from PIL import Image, ImageFilter, ImageEnhance
+    im = Image.open(img).convert("RGB")
+    fundo = im.copy()
+    esc = max(W / fundo.width, H / fundo.height)
+    fundo = fundo.resize((int(fundo.width * esc) + 1, int(fundo.height * esc) + 1))
+    fundo = fundo.crop(((fundo.width - W) // 2, (fundo.height - H) // 2, (fundo.width - W) // 2 + W, (fundo.height - H) // 2 + H))
+    fundo = ImageEnhance.Brightness(fundo.filter(ImageFilter.GaussianBlur(40))).enhance(0.45)
+    esc = min(W * 0.92 / im.width, H * 0.92 / im.height)
+    peca = im.resize((int(im.width * esc), int(im.height * esc)), Image.LANCZOS)
+    x, y = (W - peca.width) // 2, (H - peca.height) // 2
+    sombra = Image.new("L", (W, H), 0)
+    sombra.paste(255, (x + 10, y + 14, x + peca.width + 10, y + peca.height + 14))
+    fundo = Image.composite(Image.new("RGB", (W, H), (0, 0, 0)), fundo, sombra.filter(ImageFilter.GaussianBlur(18)).point(lambda v: int(v * 0.6)))
+    fundo.paste(peca, (x, y))
+    fundo.save(destino, quality=93)
+    return destino
