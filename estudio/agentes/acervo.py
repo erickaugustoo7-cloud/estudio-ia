@@ -55,29 +55,43 @@ def _cleveland(q: str, n: int = 12) -> list[dict]:
     return out
 
 
+def _relevancia(c: dict, q: str) -> float:
+    texto = f"{c['titulo']} {c['cultura']}".lower()
+    pal = [w for w in q.lower().split() if len(w) > 2]
+    return sum(w.rstrip("s") in texto for w in pal) / max(len(pal), 1)
+
+
 def buscar(q: str, n: int = 12) -> list[dict]:
-    """Junta os três acervos, sem repetir imagens já usadas no vídeo."""
+    """Junta os três acervos, sem repetir imagens já usadas no vídeo; as mais relevantes (palavras da busca no
+    título/cultura) primeiro."""
     res = []
     for f in (_met, _aic, _cleveland):
         try:
-            res += f(q, n)
+            achou = f(q, n)
+            print(f"acervo: {f.__name__} '{q}' → {len(achou)}")
+            res += achou
         except Exception as e:  # noqa: BLE001
             print(f"acervo: {f.__name__} falhou para '{q}': {e}")
-    return [x for x in res if x["url"] not in _USADOS]
+    res = [x for x in res if x["url"] not in _USADOS]
+    for x in res:
+        x["rel"] = _relevancia(x, q)
+    return sorted(res, key=lambda x: -x["rel"])
 
 
 def baixar(q: str, destino: Path, min_lado: int = 900) -> dict | None:
     """Baixa a melhor imagem de museu para a busca (grande o bastante para vídeo 1080p). Devolve o crédito."""
     from PIL import Image
     cands = buscar(q)
-    random.shuffle(cands)
-    for c in cands[:10]:
+    melhores = [c for c in cands if c["rel"] >= 0.5] or cands
+    random.shuffle(melhores[:6])
+    for c in melhores[:10]:
         for url in (c["url"], c.get("url_menor")):
             if not url:
                 continue
             try:
                 r = requests.get(url, headers=UA, timeout=60)
                 if not r.ok or len(r.content) < 30000:
+                    print(f"acervo: download {r.status_code} {len(r.content)}B {url[:80]}")
                     continue
                 destino.write_bytes(r.content)
                 with Image.open(destino) as im:
