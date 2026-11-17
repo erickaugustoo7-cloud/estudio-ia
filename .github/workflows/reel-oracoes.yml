@@ -1,0 +1,25 @@
+name: Reel lista de orações (Facebook)
+on:
+  workflow_dispatch:
+    inputs:
+      acao:
+        description: "gerar (prévia no Telegram) ou publicar"
+        default: gerar
+jobs:
+  reel:
+    runs-on: ubuntu-latest
+    env:
+      META_TOKEN: ${{ secrets.META_TOKEN_BIBLICO }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12", cache: pip}
+      - run: sudo apt-get update -q && sudo apt-get install -y -q ffmpeg
+      - run: pip install -r requirements.txt
+      - run: python ferramentas/reel_lista_oracoes.py gerar
+      - if: inputs.acao == 'publicar'
+        run: python ferramentas/reel_lista_oracoes.py publicar reel/reel.mp4
+      - run: |
+          for f in s_ini s_0 s_fim; do python -c "import base64;from PIL import Image;im=Image.open('reel/$f.jpg');im.thumbnail((360,640));im.save('/tmp/x.jpg',quality=70);b=base64.b64encode(open('/tmp/x.jpg','rb').read()).decode();[print('$f:'+b[i:i+3000]) for i in range(0,len(b),3000)]"; done
