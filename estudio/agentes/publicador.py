@@ -370,6 +370,80 @@ def capa_emocional(origem: Path, linhas: list[str], destino: Path, subtitulo: st
         return None
 
 
+def linhas_do_titulo(titulo: str) -> list[str]:
+    """Quebra um título em até 3 linhas curtas para a capa (sem emojis, hashtags e referência)."""
+    import re as _re
+    t = _re.sub(r"#\S+", "", titulo.split("|")[0])
+    if _re.search(r"Ep\. ?\d+:", t):  # novela: "Série — Ep. 3: Lucas não voltou para casa" → só o nome do episódio
+        t = t.split(":", 1)[1]
+    t = t.split(" — ")[0]
+    t = _re.sub(r"[^\w\s'\"…,.!?-]", "", t).strip(" .,-")
+    pal = t.split()
+    if len(pal) <= 3:
+        return pal or [t]
+    alvo = len(t) / 3
+    linhas, atual = [], []
+    for w in pal:
+        if atual and len(" ".join(atual + [w])) > alvo + 3 and len(linhas) < 2:
+            linhas.append(" ".join(atual)); atual = [w]
+        else:
+            atual.append(w)
+    linhas.append(" ".join(atual))
+    return linhas[:3]
+
+
+def capa_short(origem: Path, linhas: list[str], destino: Path, marca: str = "MENSAGEIRO DE FÉ",
+               segundo: float | None = None) -> Path | None:
+    """Capa vertical (1080x1920) no mesmo padrão das capas dos vídeos longos: véu azul-noite no alto, uma linha
+    ENORME em dourado e as outras em branco, assinatura do canal. O texto fica no terço de cima, longe dos botões."""
+    try:
+        from PIL import Image, ImageDraw, ImageFilter
+        entrada = ["-ss", f"{segundo:.2f}"] if segundo else []
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *entrada, "-i", str(origem), "-frames:v", "1", "-vf",
+                        "scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,"
+                        "eq=contrast=1.12:saturation=1.25:gamma=1.04,unsharp=5:5:0.7", "-q:v", "2", str(destino)],
+                       check=True)
+        img = Image.open(destino).convert("RGB")
+        grad = Image.linear_gradient("L").resize((1080, 1920))  # 0 no alto → 255 embaixo
+        grad = grad.point(lambda v: int(max(0, min(255, (215 - v) * 1.7))))
+        img = Image.composite(Image.new("RGB", img.size, COR_AZUL), img, grad.point(lambda v: int(v * 0.85)))
+        linhas = [x.upper().strip() for x in linhas if x and x.strip()][:3]
+        marcada = [k for k, x in enumerate(linhas) if x.startswith("*")]
+        linhas = [x.lstrip("*").strip() for x in linhas]
+        grande = marcada[0] if marcada else min(range(len(linhas)), key=lambda k: (len(linhas[k]), abs(k - 1)))
+        larg_max, x0 = 960, 60
+        blocos = []
+        for k, txt in enumerate(linhas):
+            tam = 250 if k == grande else 120
+            f = _fonte("Anton-Regular.ttf", tam)
+            while ImageDraw.Draw(img).textlength(txt, font=f) > larg_max and tam > 50:
+                tam -= 6
+                f = _fonte("Anton-Regular.ttf", tam)
+            blocos.append((txt, f))
+        caixas = [f.getbbox(txt) for txt, f in blocos]
+        y, gap = 470, 22  # dentro do quadrado central: aparece mesmo quando o YouTube recorta a capa
+        sombra = Image.new("L", img.size, 0)
+        ds = ImageDraw.Draw(sombra)
+        pos = []
+        for (txt, f), b in zip(blocos, caixas):
+            pos.append((txt, f, y - b[1]))
+            ds.text((x0 + 5, y - b[1] + 8), txt, font=f, fill=255)
+            y += (b[3] - b[1]) + gap
+        img = Image.composite(Image.new("RGB", img.size, (0, 0, 0)), img,
+                              sombra.filter(ImageFilter.GaussianBlur(12)).point(lambda v: int(v * 0.75)))
+        d = ImageDraw.Draw(img)
+        for k, (txt, f, yy) in enumerate(pos):
+            d.text((x0, yy), txt, font=f, fill=COR_DOURADO if k == grande else (255, 255, 255))
+        fm = _fonte("Montserrat-Black.ttf", 36)
+        d.text((x0, 120), marca.upper(), font=fm, fill=(255, 255, 255))
+        d.line((x0, 170, x0 + 90, 170), fill=COR_DOURADO, width=6)
+        img.save(destino, quality=93)
+        return destino
+    except Exception as e:  # noqa: BLE001
+        log("publicador", f"capa do Short não gerada: {e}")
+        return None
+
+
 def _enviar_capa(auth: dict, video_id: str, capa: Path):
     try:
         r = requests.post(f"https://www.googleapis.com/upload/youtube/v3/thumbnails/set?videoId={video_id}",
@@ -452,7 +526,9 @@ def youtube_upload(video: Path, titulo: str, descricao: str, tags: list[str] | N
                                         str(video)], capture_output=True, text=True).stdout or 0)
         except Exception:  # noqa: BLE001
             dur = 0
-        if dur > 180:
+        if 0 < dur <= 180:  # Short: capa vertical no padrão dourado do canal
+            capa = capa_short(video, linhas_do_titulo(titulo), video.parent / "thumb_short.jpg", segundo=dur * 0.3)
+        elif dur > 180:
             capa = capa_youtube(video, titulo.split("|")[0].strip().split(" ", 1) if len(titulo) > 12 else [titulo],
                                 video.parent / "thumb.jpg", segundo=dur * 0.12)
     if capa and capa.exists():
