@@ -52,20 +52,29 @@ def centro(d, y, txt, f, cor, W):
 
 # BANNER 2560x1440 — área segura (aparece em todos os aparelhos): 1546x423 no centro
 W, H = 2560, 1440
-b = tingir(preencher(fundo, W, H), 0.62)
+b = tingir(preencher(fundo.crop((fundo.width // 12, fundo.height // 12, fundo.width * 11 // 12, fundo.height * 11 // 12)), W, H), 0.62)
 vin = Image.radial_gradient("L").resize((W, H)).point(lambda v: int(min(255, v * 1.1)))
 b = Image.composite(Image.new("RGB", (W, H), ESCURO), b, vin)
 d = ImageDraw.Draw(b)
-ft = ImageFont.truetype(str(fonte), 150); ft.set_variation_by_axes([800])
-fs = ImageFont.truetype(MONT, 40)
-centro(d, 560, "PERGUNTAS DA HISTÓRIA", ft, OURO, W)
-d.line((W / 2 - 160, 755, W / 2 + 160, 755), fill=OURO, width=4)
-centro(d, 785, "AS PERGUNTAS QUE NINGUÉM FAZ SOBRE A HISTÓRIA DA HUMANIDADE", fs, (240, 232, 218), W)
+def caber(caminho, txt, larg, tam, peso=None):
+    while True:
+        f = ImageFont.truetype(caminho, tam)
+        if peso:
+            f.set_variation_by_axes([peso])
+        if d.textlength(txt, font=f) <= larg or tam < 20:
+            return f
+        tam -= 4
+ft = caber(str(fonte), "PERGUNTAS DA HISTÓRIA", 1380, 150, 800)
+fs = caber(MONT, "AS PERGUNTAS QUE NINGUÉM FAZ SOBRE A HISTÓRIA DA HUMANIDADE", 1380, 40)
+centro(d, 590, "PERGUNTAS DA HISTÓRIA", ft, OURO, W)
+d.line((W / 2 - 140, 760, W / 2 + 140, 760), fill=OURO, width=4)
+centro(d, 788, "AS PERGUNTAS QUE NINGUÉM FAZ SOBRE A HISTÓRIA DA HUMANIDADE", fs, (240, 232, 218), W)
 b.save(OUT / "banner.jpg", quality=92)
 
 # FOTO DE PERFIL 800x800 (o YouTube recorta em círculo)
 A = 800
-a = tingir(preencher(fundo, A, A), 0.70)
+miolo = fundo.crop((fundo.width // 6, fundo.height // 6, fundo.width * 5 // 6, fundo.height * 5 // 6))  # sem as bordas
+a = tingir(preencher(miolo, A, A), 0.70)
 d = ImageDraw.Draw(a)
 d.ellipse((30, 30, A - 30, A - 30), outline=OURO, width=14)
 fq = ImageFont.truetype(str(fonte), 560); fq.set_variation_by_axes([900])
