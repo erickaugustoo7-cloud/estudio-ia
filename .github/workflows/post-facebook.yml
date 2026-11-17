@@ -1,0 +1,20 @@
+name: Post no Facebook
+on:
+  workflow_dispatch:
+    inputs:
+      arquivo:
+        required: true
+      token:
+        description: "nome do segredo da Página (META_TOKEN_BIBLICO)"
+        default: META_TOKEN_BIBLICO
+jobs:
+  postar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -r requirements.txt
+      - run: python ferramentas/post_facebook.py "${{ inputs.arquivo }}"
+        env:
+          META_TOKEN: ${{ secrets[inputs.token] }}
