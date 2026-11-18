@@ -1,0 +1,69 @@
+{
+  "titulo": "Ana chorou tanto no templo que acharam que ela estava bêbada",
+  "gancho_tela": "Acharam que estava bêbada",
+  "referencia": "1 Samuel 1:10-20",
+  "serie": "O que quase ninguém sabe",
+  "tipo": "tiktok",
+  "fonte_imagem": "kaggle",
+  "opcoes_imagem": 2,
+  "duracao_max": 40,
+  "volume_musica": 0.12,
+  "plataformas": [
+    "facebook"
+  ],
+  "estilo_imagem": "cinematic photorealistic epic film still, dim interior, dramatic volumetric light, ancient Israel, Shiloh tabernacle era, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic slow subtle motion.",
+  "epoca_imagem": "Ancient Shiloh, time of the judges, tent sanctuary of woven goat hair and linen, clay oil lamps, stone and wood only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "Uma mulher orou tanto no templo que o sacerdote achou que ela estava bêbada.",
+      "prompt_imagem": "close-up of a small clay oil lamp flickering beside a wooden doorpost of an ancient tent sanctuary, dim warm light",
+      "vazia": true,
+      "animar": true,
+      "prompt_movimento": "the lamp flame trembles softly, smoke curling slowly upward in the dim light"
+    },
+    {
+      "trecho": "Era Ana. Não tinha filhos, e chorava com amargura diante do Senhor.",
+      "prompt_imagem": "an empty handwoven cradle of reeds in a quiet ancient clay house, soft shaft of light from a small window",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Só os lábios se mexiam. Ninguém ouvia a voz dela.",
+      "prompt_imagem": "close-up of two hands clasped in prayer over a coarse linen cloth, warm lamp light, deep shadows",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "Eli disse: até quando estarás embriagada? Ela respondeu: derramei a minha alma perante o Senhor.",
+      "prompt_imagem": "a clay water jar tipped over, water pouring onto a stone floor of an ancient sanctuary, golden rays",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Ele abençoou: vai em paz. E Deus lhe deu um filho, Samuel.",
+      "prompt_imagem": "ancient hill village of Ramah at sunrise, clay houses, warm god rays over the hills",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Siga o Mensageiro de Fé para mais do que quase ninguém sabe.",
+      "prompt_imagem": "wide view of an ancient tent sanctuary on a hill at dawn, smoke rising, golden volumetric light",
+      "vazia": true,
+      "animar": false
+    }
+  ],
+  "legenda": "Ana orou em silêncio, e o sacerdote achou que ela estava bêbada (1 Samuel 1:13-14). Deus ouviu e lhe deu Samuel. Você já orou só com o coração? Comente 👇",
+  "hashtags": [
+    "#Bíblia",
+    "#Oração",
+    "#Fé",
+    "#OQueQuaseNinguémSabe",
+    "#Mãe"
+  ],
+  "fontes": [
+    "1 Samuel 1:10-20 — Almeida (domínio público)",
+    "https://www.bibliaonline.com.br/kjv+acf/1sm/1"
+  ]
+}
