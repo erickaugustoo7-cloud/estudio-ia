@@ -1,0 +1,65 @@
+{
+  "titulo": "Todos os planetas cabem entre a Terra e a Lua?",
+  "gancho_tela": "Cabem mesmo? Só em alguns dias",
+  "narracao": "Todos os planetas cabem entre a Terra e a Lua. É verdade, mas só em certos dias do mês. E a conta é mais apertada do que parece. Em média, a Lua fica a trezentos e oitenta e quatro mil quilômetros daqui. Somando a largura média dos sete planetas, dá cerca de trezentos e oitenta mil quilômetros. Parece que sobra espaço. Só que essa distância é medida do centro da Terra ao centro da Lua. Tirando o espaço ocupado pelos dois, restam uns trezentos e setenta e seis mil quilômetros. Na média, os planetas não cabem. A virada é que a órbita da Lua não é um círculo perfeito. Ela se aproxima e se afasta a cada volta, uma diferença de mais de quarenta mil quilômetros. No ponto mais distante, o vão chega a uns trezentos e noventa e oito mil quilômetros. Aí os sete planetas cabem com folga, e sobram quase dezoito mil quilômetros. Quem ocupa quase tudo são os gigantes. Só Júpiter e Saturno somam mais de duzentos e cinquenta mil quilômetros, dois terços da fila. E a folga só aumenta. A Lua se afasta cerca de três vírgula oito centímetros por ano, quase a velocidade com que crescem as unhas. Você imaginava que a Lua ficava tão longe? Siga para descobrir uma curiosidade nova todo dia.",
+  "cenas": [
+    {
+      "trecho": "Todos os planetas cabem entre a Terra e a Lua.",
+      "busca_imagem": "Earth Moon distance",
+      "prompt_imagem": "Earth and the Moon far apart in deep black space, the planets of the solar system lined up in the gap between them, cinematic"
+    },
+    {
+      "trecho": "É verdade, mas só em certos dias do mês. E a conta é mais apertada do que parece.",
+      "busca_imagem": "Moon from Earth orbit",
+      "prompt_imagem": "the full Moon seen over the curve of Earth from orbit, dramatic lighting"
+    },
+    {
+      "trecho": "Em média, a Lua fica a trezentos e oitenta e quatro mil quilômetros daqui. Somando a largura média dos sete planetas, dá cerca de trezentos e oitenta mil quilômetros.",
+      "busca_imagem": "solar system planets size",
+      "prompt_imagem": "the seven planets Mercury, Venus, Mars, Jupiter, Saturn, Uranus and Neptune lined up side by side to scale, black space"
+    },
+    {
+      "trecho": "Parece que sobra espaço. Só que essa distância é medida do centro da Terra ao centro da Lua.",
+      "busca_imagem": "Earth Moon DSCOVR",
+      "prompt_imagem": "Earth and Moon in one frame seen from deep space, thin line connecting their centers"
+    },
+    {
+      "trecho": "Tirando o espaço ocupado pelos dois, restam uns trezentos e setenta e seis mil quilômetros. Na média, os planetas não cabem.",
+      "busca_imagem": "Earth Moon Galileo",
+      "prompt_imagem": "Earth and Moon separated by a vast dark gap, planets squeezed tightly in between, the last one not fitting"
+    },
+    {
+      "trecho": "A virada é que a órbita da Lua não é um círculo perfeito. Ela se aproxima e se afasta a cada volta, uma diferença de mais de quarenta mil quilômetros.",
+      "busca_imagem": "supermoon micromoon comparison",
+      "prompt_imagem": "side by side comparison of a large close full moon and a smaller distant full moon"
+    },
+    {
+      "trecho": "No ponto mais distante, o vão chega a uns trezentos e noventa e oito mil quilômetros. Aí os sete planetas cabem com folga, e sobram quase dezoito mil quilômetros.",
+      "busca_imagem": "Moon far side Earth",
+      "prompt_imagem": "small distant Moon and Earth in deep space with planets fitting comfortably in the space between"
+    },
+    {
+      "trecho": "Quem ocupa quase tudo são os gigantes. Só Júpiter e Saturno somam mais de duzentos e cinquenta mil quilômetros, dois terços da fila.",
+      "busca_imagem": "Jupiter Saturn Cassini",
+      "prompt_imagem": "giant planets Jupiter and Saturn side by side in space, Saturn rings glowing, huge scale"
+    },
+    {
+      "trecho": "E a folga só aumenta. A Lua se afasta cerca de três vírgula oito centímetros por ano, quase a velocidade com que crescem as unhas. Você imaginava que a Lua ficava tão longe? Siga para descobrir uma curiosidade nova todo dia.",
+      "busca_imagem": "Apollo lunar laser retroreflector",
+      "prompt_imagem": "a laser beam fired from an observatory on Earth toward the Moon at night, starry sky"
+    }
+  ],
+  "legenda": "Os 7 planetas somam ~380 mil km de largura — e só cabem entre a Terra e a Lua quando ela está no ponto mais distante da órbita. 🌍🪐🌕\nVocê imaginava que a Lua ficava tão longe? Comenta aqui 👇",
+  "hashtags": [
+    "#Lua",
+    "#planetas",
+    "#sistemasolar",
+    "#Júpiter"
+  ],
+  "fontes": [
+    "Phil Plait, Bad Astronomy (SYFY WIRE) — Can you really fit all the planets between the Earth and Moon? (soma dos diâmetros médios ~380.016 km; distância média 384.400 km centro a centro; vão superfície a superfície ~376.000 km na média, ~398.000 km no apogeu, ~348.000 km no perigeu)",
+    "Universe Today — You could fit all the planets between the Earth and the Moon (diâmetros médios NASA: Júpiter 139.822 km, Saturno 116.464 km; total 380.008 km)",
+    "NASA NSSDC — Planetary Fact Sheet (distância média da Lua 384.400 km; perigeu ~363.000 km, apogeu ~406.000 km)",
+    "Space.com — The Moon is getting slightly farther away from the Earth each year (~3,8 cm por ano, medido por laser)"
+  ]
+}
