@@ -79,7 +79,7 @@ jobs:
         timeout-minutes: 5
       - if: steps.ff.outcome == 'failure' && steps.ff2.outcome == 'failure'
         timeout-minutes: 10   # o apt já travou 50 min: com limite, falha rápido
-        run: sudo apt-get update -q && sudo apt-get install -y -q ffmpeg
+        run: bash ferramentas/instalar_ffmpeg.sh
       - run: pip install -r requirements.txt kaggle six
       - name: Fontes
         run: |

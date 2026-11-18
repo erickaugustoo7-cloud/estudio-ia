@@ -23,7 +23,7 @@ jobs:
         if: steps.ff.outcome == 'failure'
         continue-on-error: true
       - if: steps.ff.outcome == 'failure' && steps.ff2.outcome == 'failure'
-        run: sudo apt-get update -q && sudo apt-get install -y -q ffmpeg
+        run: bash ferramentas/instalar_ffmpeg.sh
       - run: |
           for id in ${{ inputs.run_ids }}; do
             gh run download $id -D d_$id >/dev/null 2>&1 || { echo "sem artefato $id"; continue; }

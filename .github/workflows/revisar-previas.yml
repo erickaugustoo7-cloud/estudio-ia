@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: gh run download ${{ inputs.run_id }} -R ${{ github.repository }} -D art
-      - run: sudo apt-get update -q && sudo apt-get install -y -q ffmpeg
+      - run: bash ferramentas/instalar_ffmpeg.sh
       - run: |
           v=$(find art -name video.mp4 -printf "%s %p\n" | sort -nr | head -1 | cut -d" " -f2-); mkdir -p quadros
           d=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$v")
