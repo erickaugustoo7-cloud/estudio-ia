@@ -426,6 +426,9 @@ def _pixabay_video(prompt: str, seg: float, destino: Path, usados: set, horizont
                 return sum(w.rstrip("s") in tg for w in pal) / max(len(pal), 1)
             hits = sorted([h for h in hits if _ader(h) >= 0.5], key=lambda h: -_ader(h))
         if busca and not hits:  # nada bom para a busca: volta para paisagem de paz
+            if os.getenv("SEM_PAISAGEM_RESERVA"):  # documentário: melhor imagem de IA/museu do que paisagem aleatória
+                log("wan", f"Pixabay sem clipe para '{busca}' — cena vai para imagem gerada")
+                return None
             log("wan", f"Pixabay sem clipe para '{busca}', usando paisagem")
             return _pixabay_video(prompt, seg, destino, usados, horizontal)
         random.shuffle(hits)
@@ -705,6 +708,8 @@ def main():
                  "epoca_imagem": r.get("epoca_imagem", "")}
     if r.get("moderno"):  # novela cristã de hoje: rostos permitidos, personagens fixos, ambiente moderno
         canal_img.update({"moderno": True, "regra_visual_pessoas": r.get("personagens_regra", "")})
+    if r.get("tipo") == "documentario":
+        os.environ["SEM_PAISAGEM_RESERVA"] = "1"
     if r.get("tipo") != "novela" and not os.getenv("USAR_KAGGLE"):
         # desde 16/11 (decisão do Eric): o Kaggle fica só para a novela; os demais vídeos usam paisagens REAIS
         # (Pixabay) com imagens geradas fora do Kaggle apenas como reserva
