@@ -56,7 +56,7 @@ elif r.get("formato") == "horizontal":  # vídeo longo do YouTube (docs/MANUAL_L
             erros.append("estudo: convite para se inscrever no começo (até a cena 12)")
         if not any("inscreva" in c["trecho"].lower() for c in cenas[-3:]):
             erros.append("estudo: convite para se inscrever nas 3 últimas cenas")
-        if r.get("fonte_imagem") != "kaggle" and sum(bool(c.get("busca_video") or c.get("acervo")) for c in cenas) < len(cenas) * 0.8:
+        if r.get("tipo") != "documentario" and sum(bool(c.get("busca_video") or c.get("acervo")) for c in cenas) < len(cenas) * 0.8:
             erros.append("estudo: cada cena precisa de busca_video (Pixabay) ou acervo (museu), em inglês")
     for campo in ("titulo_youtube", "texto_capa", "cena_capa", "legenda", "hashtags"):
         if not r.get(campo) and r.get(campo) != 0:
