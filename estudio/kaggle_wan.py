@@ -154,7 +154,11 @@ def _rodar_kaggle(cenas: list, pasta: Path, etapa: str = "video") -> tuple[Path,
         time.sleep(120)
     for tentativa in range(6):
         try:
-            log("wan", _kaggle("kernels", "push", "-p", str(kdir)).strip())
+            saida_push = _kaggle("kernels", "push", "-p", str(kdir)).strip()
+            log("wan", saida_push)
+            if "quota" in saida_push.lower() or "push error" in saida_push.lower():
+                # sem isso o código lia a saída da sessão ANTERIOR do Kaggle como se fosse desta
+                raise RuntimeError(f"Kaggle recusou a sessão: {saida_push}")
             break
         except RuntimeError as e:
             if tentativa == 5:
@@ -954,7 +958,7 @@ def main():
             c = {**cenas_img[i], "largura": 1344 if horiz else 768, "altura": 768 if horiz else 1344,
                  "prompt_imagem": _prompt_imagem(cenas_img[i]["prompt_imagem"], "", cenas_img[i].get("vazia", True),
                                                  cenas_img[i].get("epoca_imagem") or canal_img.get("epoca_imagem", ""),
-                                                 moderno=bool(canal_img.get("moderno")))}
+                                                 moderno=bool(canal_img.get("moderno") or canal_img.get("documentario")))}
             motivo = ""
             for tent in range(3):
                 bruta = pasta / f"cena_{i}_t{tent}.png"
@@ -973,7 +977,7 @@ def main():
                 if res.get("novo_prompt"):
                     c["prompt_imagem"] = _prompt_imagem(f"{prefixo_img} {res['novo_prompt']}", "", c.get("vazia", True),
                                                         cenas_img[i].get("epoca_imagem") or canal_img.get("epoca_imagem", ""),
-                                                        moderno=bool(canal_img.get("moderno")))
+                                                        moderno=bool(canal_img.get("moderno") or canal_img.get("documentario")))
             return i, None, motivo
 
         with ThreadPoolExecutor(max_workers=3) as ex:
