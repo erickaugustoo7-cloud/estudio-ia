@@ -1,5 +1,10 @@
 # Manual — Salmos narrados (voz do Eric)
 
+> **Retenção (estudo de 18/11, vale acima deste manual):** gancho de 5–10 palavras no 1º segundo, dito E escrito na
+> tela; primeira imagem = a mais forte; resposta entregue até ~70% do tempo; última frase volta para o começo (loop)
+> ou abre a pergunta que o vídeo longo responde; uma única chamada no fim. Veja docs/REGRAS_FIXAS.md, regras 15–19.
+
+
 > **Título (dados do canal, 17/11 — vale acima de qualquer regra deste manual):** todo título de Short precisa ter
 > uma pergunta, um fato surpreendente ou uma história com personagem (ex.: "O diabo citou o Salmo 91 para Jesus",
 > "O pão dos pobres nas mãos de Jesus"). Títulos abstratos de 2–4 palavras ("Terei confiança", "Pausa no meio do dia")

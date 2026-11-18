@@ -40,3 +40,14 @@ Antes de produzir qualquer vídeo, confira item por item. Se algum não for cump
 14. O vídeo longo do dia é, sempre que possível, a **versão completa do tema de um Short que já funcionou**
     (fila em pautas/pontes.txt). O título do longo retoma o gancho do Short, e a Issue/Telegram lembram o Eric de
     ligar o Short ao longo em "Vídeo relacionado".
+
+## Shorts e Short isca — retenção (estudo do Eric, 18/11)
+15. **Gancho no 1º segundo, dito E escrito na tela:** 5–10 palavras com o fato surpreendente ou a dor, nunca saudação
+    ("Olá", "Você sabia…?" genérico, nome do canal). A maioria assiste o começo sem som: o gancho precisa estar no
+    `gancho_tela`/texto do topo com as mesmas palavras.
+16. **Primeira imagem = a mais forte** do vídeo (movimento ou rosto/emoção), nunca paisagem parada de abertura.
+17. **Entrega antes do fim:** a resposta prometida chega até ~70% do tempo; a última frase **volta para o começo**
+    (loop: quem chega ao fim quer ver de novo) ou abre a pergunta que o vídeo longo responde.
+18. **Short isca:** o trecho é o LAÇO ABERTO do longo (o re-gancho que promete a revelação), 12–45 palavras,
+    com `texto_topo` de 1–4 palavras que provoque ("O QUE ELE CORTOU"). O validador recusa trecho sem pergunta/promessa.
+19. **Uma chamada só no fim**, curta ("Siga para a parte 2", "A oração completa está no vídeo abaixo").

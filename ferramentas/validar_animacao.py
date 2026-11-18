@@ -129,6 +129,11 @@ elif r.get("formato") == "horizontal":  # vídeo longo do YouTube (docs/MANUAL_L
                 erros.append("short_isca.trecho precisa ser cópia exata de parte dessas cenas")
             if not 12 <= len(texto.split()) <= 45:
                 erros.append(f"short_isca: {len(texto.split())} palavras (use 12–45, Short de 8–20 s)")
+            laco = ("?", "no final", "vou te mostrar", "vou te contar", "descobr", "ninguém", "segredo", "escond",
+                    "cortou", "deixou de fora", "o que", "por que", "ninguem")
+            if texto and not any(x in texto.lower() for x in laco):
+                erros.append("short_isca: o trecho precisa ser um LAÇO ABERTO (pergunta, segredo ou promessa de revelação) "
+                             "— é ele que leva a pessoa ao vídeo longo (estudo de 18/11)")
             if len(isca.get("texto_topo", "").split()) > 4 or not isca.get("texto_topo"):
                 erros.append("short_isca.texto_topo: 1 a 4 palavras")
     if r.get("plataformas") != ["youtube"]:

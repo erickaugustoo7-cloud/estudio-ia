@@ -1,5 +1,10 @@
 # Manual do roteirista — Curtos do TikTok (Mensageiro de Fé)
 
+> **Retenção (estudo de 18/11, vale acima deste manual):** gancho de 5–10 palavras no 1º segundo, dito E escrito na
+> tela; primeira imagem = a mais forte; resposta entregue até ~70% do tempo; última frase volta para o começo (loop)
+> ou abre a pergunta que o vídeo longo responde; uma única chamada no fim. Veja docs/REGRAS_FIXAS.md, regras 15–19.
+
+
 Dois por dia. Vão para o Telegram do Eric, que posta à mão no TikTok (e, se aprovar, sai no Facebook).
 **Não vão para Instagram nem YouTube** (o Instagram marcou a conta por "conteúdo não original" em 12/11).
 
