@@ -1,7 +1,7 @@
 {
  "formato": "horizontal",
  "duracao_max": 999,
- "volume_musica": 0.22,
+ "volume_musica": 0.0,
  "opcoes_imagem": 1,
  "palavras_por_bloco": 600,
  "plataformas": [
@@ -19,7 +19,7 @@
  "titulo_youtube": "O Diabo Citou Este Salmo Para Jesus… Ore Ele Antes de Dormir | Salmo 91",
  "gancho_tela": "O salmo que o diabo citou",
  "referencia": "Salmo 91; Mateus 4:1-11",
- "cena_capa": 79,
+ "cena_capa": 78,
  "texto_capa": [
   "DEBAIXO DAS",
   "*ASAS",
@@ -46,7 +46,7 @@
  "ponte_short": "O diabo citou o Salmo 91 para Jesus",
  "short_isca": {
   "cenas": [
-   19
+   18
   ],
   "texto_topo": "O QUE ELE CORTOU",
   "titulo": "O versículo que o diabo cortou do Salmo 91",
@@ -59,617 +59,734 @@
  "capitulos": [
   {
    "cena": 0,
-   "titulo": "Se o medo veio com a noite"
+   "titulo": "O salmo que o diabo citou"
   },
   {
-   "cena": 6,
+   "cena": 5,
    "titulo": "Jesus no deserto (Mateus 4)"
   },
   {
-   "cena": 14,
+   "cena": 13,
    "titulo": "O diabo cita o Salmo 91"
   },
   {
-   "cena": 28,
+   "cena": 27,
    "titulo": "O que isso significa para você"
   },
   {
-   "cena": 36,
+   "cena": 35,
    "titulo": "Oração: do jeito que eu estou"
   },
   {
-   "cena": 41,
+   "cena": 40,
    "titulo": "Pelos terrores da noite"
   },
   {
-   "cena": 46,
+   "cena": 45,
    "titulo": "Pela casa e pelos filhos"
   },
   {
-   "cena": 54,
+   "cena": 53,
    "titulo": "Pela saúde e pelas contas"
   },
   {
-   "cena": 59,
+   "cena": 58,
    "titulo": "Tentação e perdão"
   },
   {
-   "cena": 65,
+   "cena": 64,
    "titulo": "Pelos seus pedidos"
   },
   {
-   "cena": 72,
+   "cena": 71,
    "titulo": "Promessas e silêncio"
   },
   {
-   "cena": 91,
+   "cena": 86,
+   "titulo": "A parte que o diabo cortou"
+  },
+  {
+   "cena": 93,
    "titulo": "Bênção final"
   }
  ],
  "cenas": [
   {
-   "trecho": "Se você está assistindo isso agora… talvez a noite tenha chegado e o medo veio junto. Medo do que pode acontecer com seus filhos. Medo de uma notícia ruim. Medo de não dar conta.",
+   "trecho": "No deserto, o diabo citou um salmo para Jesus. Palavra por palavra.",
    "prompt_imagem": "a calm ocean at sunset with gentle waves rolling onto a quiet sandy beach",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
   },
   {
-   "trecho": "Talvez você tenha passado o dia sendo forte para todo mundo. Resolvendo, cuidando, segurando as pontas… e agora, no silêncio do quarto, o coração apertou de novo.",
+   "trecho": "E não foi um salmo qualquer. Foi o Salmo 91, o salmo da proteção. O mesmo que muitas mães deixam aberto em cima da cama.",
    "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist and sun rays",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
   },
   {
-   "trecho": "Eu quero te dizer uma coisa antes de você dormir. Você não chegou até aqui por acaso. Existe um salmo que foi escrito para noites exatamente como esta.",
+   "trecho": "Só que ele deixou uma parte de fora. De propósito. E no final desta oração, eu vou te mostrar qual parte ele escondeu… e por que é exatamente ela que você precisa ouvir esta noite.",
    "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
   },
   {
-   "trecho": "É o Salmo 91. O salmo da proteção. Muitas mães deixam a Bíblia aberta nele, em cima da cama. Muitos pais oram com ele pelos filhos que estão longe.",
+   "trecho": "Se a noite chegou e o medo veio junto, fica comigo. Medo pelos seus filhos. Medo de uma notícia ruim. Medo de não dar conta. Essa história foi escrita para noites assim.",
    "prompt_imagem": "a starry night sky over calm mountains, milky way glowing",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
   },
   {
-   "trecho": "Mas o que pouca gente sabe é que esse mesmo salmo foi usado pelo diabo… para tentar Jesus no deserto. Hoje eu vou te contar essa história completa. E depois, vamos orar juntos.",
+   "trecho": "Talvez você tenha passado o dia sendo forte para todo mundo. E agora, no silêncio do quarto, o coração apertou de novo. Primeiro, eu vou te contar o que aconteceu no deserto. Depois, vamos orar juntos. Fique confortável. Respire fundo… e venha comigo.",
    "prompt_imagem": "a crystal clear mountain lake reflecting snowy peaks at sunrise",
    "vazia": true,
-   "animar": false
-  },
-  {
-   "trecho": "Antes de começarmos, se você ainda não é inscrito, inscreva-se e ative o sininho para orarmos juntos todos os dias. Agora, fique confortável. Respire fundo… e venha comigo.",
-   "prompt_imagem": "a field of wildflowers swaying in a soft breeze at golden hour",
-   "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
   },
   {
    "trecho": "A história está em Mateus, capítulo 4. Jesus tinha acabado de ser batizado no rio Jordão. O céu tinha se aberto, e uma voz tinha dito: este é o meu Filho amado.",
    "prompt_imagem": "a gentle river flowing through a green valley at sunset",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
   },
   {
    "trecho": "E logo depois disso, a Bíblia diz: \"Então foi conduzido Jesus pelo Espírito ao deserto, para ser tentado pelo Diabo.\" Repare: depois da maior confirmação… veio o deserto.",
    "prompt_imagem": "a beach under a full moon with silver light on the waves",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
   },
   {
    "trecho": "O deserto da Judeia não é areia bonita de cartão-postal. É pedra, poeira, calor de dia e frio de noite. Um lugar sem sombra, sem conforto, sem ninguém.",
    "prompt_imagem": "a vast rocky desert canyon at sunset with warm golden light",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
   },
   {
    "trecho": "E ali Jesus ficou quarenta dias e quarenta noites em jejum. A Bíblia diz uma frase simples, muito humana: \"depois teve fome.\" O Filho de Deus sentiu fome de verdade.",
    "prompt_imagem": "green rice terraces on a hillside covered in light morning fog",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
   },
   {
    "trecho": "Quarenta dias não é um número qualquer na Bíblia. Moisés ficou quarenta dias no monte com Deus. Elias caminhou quarenta dias até o monte Horebe. Quarenta fala de prova, de espera… e de encontro com Deus.",
    "prompt_imagem": "desert sand dunes under a starry night sky",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
   },
   {
    "trecho": "Foi nesse momento, no ponto mais fraco do corpo, que o tentador chegou. O inimigo não aparece quando estamos fortes. Ele gosta de chegar quando estamos cansados, sozinhos e com fome.",
    "prompt_imagem": "a dry rocky desert valley with mountains at dawn",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
   },
   {
    "trecho": "A primeira tentação foi: \"Se tu és Filho de Deus, manda que estas pedras se tornem em pães.\" Percebe o \"se\"? Deus tinha acabado de dizer quem Ele era. O diabo tentou plantar a dúvida.",
    "prompt_imagem": "northern lights dancing over a calm snowy landscape",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
   },
   {
-   "trecho": "Jesus respondeu: \"Está escrito: Nem só de pão viverá o homem, mas de toda a palavra que sai da boca de Deus.\" Ele não discutiu. Ele não se explicou. Ele respondeu com a Palavra.",
+   "trecho": "Jesus respondeu: \"Está escrito: Nem só de pão viverá o homem, mas de toda a palavra que sai da boca de Deus.\" Ele não discutiu. Ele não se explicou. Ele respondeu com a Palavra. Se esta história está falando com você, inscreva-se no canal. Toda noite tem uma oração nova aqui, e a gente ora junto.",
    "prompt_imagem": "a small stream with smooth stones running through a mossy forest",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
   },
   {
    "trecho": "Então veio a segunda tentação. O diabo levou Jesus à cidade santa, Jerusalém, e o colocou sobre o pináculo do templo. Lá em cima, no ponto mais alto, com a cidade inteira lá embaixo.",
    "prompt_imagem": "a high cliff overlooking a wide valley at sunrise with clouds below",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
   },
   {
    "trecho": "Pense no que isso significava. O templo era o coração da fé do povo, cheio de gente todos os dias. Se Jesus pulasse lá de cima e anjos o segurassem, todos veriam o espetáculo.",
    "prompt_imagem": "a lavender field in bloom under a soft evening sky",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
   },
   {
    "trecho": "E aqui está o detalhe que arrepia. Dessa vez, o diabo também resolveu citar a Bíblia. Ele disse: \"Se tu és Filho de Deus, lança-te daqui abaixo; porque está escrito…\"",
    "prompt_imagem": "view from a high mountain peak above a sea of clouds at sunrise",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
   },
   {
    "trecho": "E o que ele citou foi justamente o Salmo 91: \"Aos seus anjos dará ordens a teu respeito… e eles te susterão nas mãos, para que nunca tropeces em alguma pedra.\"",
    "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist and sun rays",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
   },
   {
    "trecho": "O diabo conhece a Bíblia. Ele sabe as palavras de cor. Mas ele usou a promessa de proteção de Deus como uma armadilha: se Deus te ama, então pula… prova que Ele vai te segurar.",
    "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
   },
   {
-   "trecho": "E sabe o que o diabo deixou de fora? No salmo, os anjos te guardam \"em todos os teus caminhos\". Ele cortou essa parte. E parou antes do versículo que diz: pisarás o leão e a serpente.",
+   "trecho": "Mas repare numa coisa. O diabo não citou o salmo inteiro. Ele parou no meio e deixou um pedaço de fora. Guarde isso no coração. No final da oração, eu vou te mostrar que pedaço é esse.",
    "prompt_imagem": "a starry night sky over calm mountains, milky way glowing",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
   },
   {
-   "trecho": "Os caminhos de Deus não incluem pular de um precipício para testar o amor dele. A proteção do Salmo 91 é para quem anda com Deus… não para quem quer forçar a mão de Deus.",
+   "trecho": "Por enquanto, entenda o golpe. A proteção do Salmo 91 é para quem anda com Deus… não para quem quer forçar a mão de Deus.",
    "prompt_imagem": "a crystal clear mountain lake reflecting snowy peaks at sunrise",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
   },
   {
    "trecho": "O inimigo continua fazendo isso hoje. Ele pega uma parte da verdade e esconde o resto. Ele sussurra: \"Deus prometeu e não cumpriu.\" \"Se você tivesse fé, isso não estaria acontecendo.\" \"Deus esqueceu de você.\"",
    "prompt_imagem": "a field of wildflowers swaying in a soft breeze at golden hour",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
   },
   {
    "trecho": "E Jesus respondeu com calma: \"Também está escrito: Não tentarás o Senhor teu Deus.\" Uma frase. Sem gritar, sem medo. A verdade completa desmontou a meia-verdade.",
    "prompt_imagem": "a gentle river flowing through a green valley at sunset",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
   },
   {
    "trecho": "Então veio a terceira tentação. O diabo levou Jesus a um monte muito alto, mostrou todos os reinos do mundo e a glória deles, e disse: \"Tudo isto te darei, se, prostrado, me adorares.\"",
    "prompt_imagem": "a very high mountain summit at golden hour overlooking endless valleys",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
   },
   {
    "trecho": "E Jesus encerrou a conversa: \"Vai-te, Satanás; porque está escrito: Ao Senhor teu Deus adorarás, e só a ele servirás.\" E a Bíblia diz: \"Então o Diabo o deixou.\"",
    "prompt_imagem": "soft white clouds drifting over green hills in the morning light",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
   },
   {
    "trecho": "Sabe de onde vinham as três respostas de Jesus? Do livro de Deuteronômio. Do mesmo livro que lembra os quarenta anos de Israel no deserto, quando o povo foi provado e caiu tantas vezes.",
    "prompt_imagem": "green rice terraces on a hillside covered in light morning fog",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
   },
   {
    "trecho": "Israel ficou quarenta anos no deserto e murmurou. Jesus ficou quarenta dias no deserto e venceu. Onde nós caímos, Ele ficou de pé… por nós.",
    "prompt_imagem": "desert rock formations glowing red at sunset",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
   },
   {
    "trecho": "E o final da história é lindo. Mateus diz: \"e eis que vieram os anjos e o serviram.\" Os anjos que o diabo queria usar como teste… vieram no tempo de Deus, para cuidar dele.",
    "prompt_imagem": "sun rays breaking through clouds over a quiet green valley",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
   },
   {
    "trecho": "Isso quer dizer uma coisa muito importante para você esta noite. A promessa do Salmo 91 é verdadeira. Deus manda, sim, os seus anjos. Mas Ele faz isso do jeito dele, na hora dele.",
    "prompt_imagem": "northern lights dancing over a calm snowy landscape",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
   },
   {
    "trecho": "Às vezes a gente ora pedindo proteção e, mesmo assim, passa pelo deserto. Isso não quer dizer que Deus falhou. Jesus estava no centro da vontade do Pai… e mesmo assim passou fome no deserto.",
    "prompt_imagem": "a small stream with smooth stones running through a mossy forest",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
   },
   {
    "trecho": "A diferença é que, no deserto, Ele não estava sozinho. O mesmo Espírito que o levou até lá estava com Ele lá dentro. E o deserto terminou com anjos servindo. O seu deserto também tem fim.",
    "prompt_imagem": "tall cliffs over a turquoise sea with waves breaking softly",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
   },
   {
    "trecho": "Você não precisa provar nada para Deus. Não precisa se jogar de nenhum lugar alto para saber se Ele te ama. A cruz já provou. Você só precisa descansar debaixo das asas dele.",
    "prompt_imagem": "a lavender field in bloom under a soft evening sky",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
   },
   {
    "trecho": "Talvez você também esteja num deserto. Um deserto de dinheiro, de saúde, de saudade. Um tempo em que tudo parece seco e a voz do inimigo fica sussurrando: \"se Deus te amasse…\"",
    "prompt_imagem": "a calm ocean at sunset with gentle waves rolling onto a quiet sandy beach",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
   },
   {
    "trecho": "Quando essa voz vier, faça como Jesus. Não discuta com o medo. Responda com a Palavra. Diga: está escrito. E a Palavra que vamos orar hoje é o Salmo 91.",
    "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist and sun rays",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
   },
   {
    "trecho": "E repare numa coisa: Jesus não venceu porque tinha mais força naquele dia. Ele estava com fome, fraco, sozinho. Ele venceu porque se agarrou à Palavra do Pai. E essa mesma Palavra está nas suas mãos hoje.",
    "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
   },
   {
    "trecho": "A carta aos Hebreus diz que Jesus foi tentado em tudo, como nós, mas sem pecado. Ele sabe o que é a fome, a solidão e a pressão. Ele entende você.",
    "prompt_imagem": "a starry night sky over calm mountains, milky way glowing",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
   },
   {
    "trecho": "Agora, se puder, feche os olhos. Coloque a mão no peito. Respire fundo… solte devagar. E repita comigo, no seu coração, esta oração.",
    "prompt_imagem": "a crystal clear mountain lake reflecting snowy peaks at sunrise",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
   },
   {
    "trecho": "Senhor… eu chego aqui do jeito que eu estou. Cansado. Com medo. Com o coração cheio de coisas que eu não consegui resolver hoje. Eu não vou fingir que estou bem.",
    "prompt_imagem": "a field of wildflowers swaying in a soft breeze at golden hour",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
   },
   {
    "trecho": "A Tua Palavra diz: \"Aquele que habita no esconderijo do Altíssimo, à sombra do Todo-Poderoso descansará.\" Senhor, eu quero esse esconderijo esta noite. Eu quero descansar na Tua sombra.",
    "prompt_imagem": "a gentle river flowing through a green valley at sunset",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
   },
   {
    "trecho": "Eu digo de Ti, como o salmista: \"Ele é o meu refúgio e a minha fortaleza, o meu Deus, em quem confio.\" Não confio na minha força. Não confio na minha conta bancária. Confio em Ti.",
    "prompt_imagem": "a beach under a full moon with silver light on the waves",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
   },
   {
    "trecho": "Pai, eu reconheço que muitas vezes eu tentei provar as coisas sozinho. Quis resolver tudo do meu jeito, na minha hora. Hoje eu solto isso. Eu descanso no Teu tempo.",
    "prompt_imagem": "soft white clouds drifting over green hills in the morning light",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
   },
   {
    "trecho": "Senhor, a Tua Palavra diz: \"Não temerás os terrores da noite, nem a seta que voe de dia.\" Tu conheces os meus terrores da noite. Os pensamentos que voltam quando eu apago a luz.",
    "prompt_imagem": "green rice terraces on a hillside covered in light morning fog",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
   },
   {
    "trecho": "O medo do diagnóstico. O medo de perder alguém. O medo de não ter para pagar. O medo de ter errado demais. Eu coloco cada um deles agora aos Teus pés.",
    "prompt_imagem": "a quiet lake at twilight with pink and purple sky reflections",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
   },
   {
    "trecho": "Quando a minha mente começar a girar, lembra-me, Senhor: está escrito. Eu não preciso acreditar em toda voz que fala na minha cabeça. Eu escolho acreditar na Tua voz.",
    "prompt_imagem": "golden wheat fields under a warm sunset sky",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
   },
   {
    "trecho": "Acalma o meu coração acelerado. Desfaz o nó no meu peito. Põe silêncio onde há barulho. E deixa que a minha respiração fique mais lenta… mais lenta… debaixo das Tuas asas.",
    "prompt_imagem": "northern lights dancing over a calm snowy landscape",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
   },
   {
-   "trecho": "E se hoje eu não conseguir dormir logo, Senhor, que a cama seja um lugar de oração e não de desespero. Que cada vez que eu acordar, eu me lembre: Tu estás acordado por mim.",
+   "trecho": "E se hoje eu não conseguir dormir logo, Senhor, que a cama seja um lugar de oração e não de desespero. Que cada vez que eu acordar, eu me lembre: Tu estás acordado por mim. E daqui a pouco, quando lermos o salmo juntos, preste atenção numa palavra pequena. Ela muda tudo.",
    "prompt_imagem": "a small stream with smooth stones running through a mossy forest",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
   },
   {
    "trecho": "Pai, agora eu Te entrego a minha casa. A Tua Palavra diz: \"nenhum mal te sucederá, nem praga alguma chegará à tua tenda.\" Cobre a minha casa, Senhor. Cada porta, cada janela, cada quarto.",
    "prompt_imagem": "tall cliffs over a turquoise sea with waves breaking softly",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
   },
   {
    "trecho": "Eu Te entrego os meus filhos. Os que estão dormindo aqui pertinho… e os que estão longe, que eu não sei onde estão agora. Manda os Teus anjos guardarem os caminhos deles.",
    "prompt_imagem": "a lavender field in bloom under a soft evening sky",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
   },
   {
    "trecho": "Se algum deles está se afastando de Ti, Senhor, traz de volta. Fala com o coração dele de um jeito que eu não consigo falar. E me dá paciência para esperar sem desesperar.",
    "prompt_imagem": "a calm ocean at sunset with gentle waves rolling onto a quiet sandy beach",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
   },
   {
    "trecho": "Protege a mente dos meus filhos, Senhor. Da ansiedade, das más companhias, das vozes que dizem que eles não valem nada. Que eles saibam que são amados por Ti e por mim.",
    "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist and sun rays",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
   },
   {
    "trecho": "Eu Te entrego o meu casamento. Se ele esfriou, aquece. Se há mágoa, cura. Se há silêncio, devolve as palavras. Ensina-nos a orar juntos de novo.",
    "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
   },
   {
    "trecho": "E por quem mora sozinho esta noite, Senhor… sê Tu a companhia. Que essa pessoa sinta que alguém está cuidando dela. Porque Tu estás.",
    "prompt_imagem": "a starry night sky over calm mountains, milky way glowing",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
   },
   {
    "trecho": "Eu oro também pelos avós que estão orando pelos netos. Pelos pais que trabalham à noite. Pelas mães que estão no hospital ao lado de um filho. Senhor, sustenta cada um deles agora.",
    "prompt_imagem": "a crystal clear mountain lake reflecting snowy peaks at sunrise",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
   },
   {
    "trecho": "Guarda quem está na estrada, quem está voltando tarde do trabalho, quem tem medo da violência na rua. A Tua Palavra diz que mil poderão cair ao lado… mas Tu és o escudo dos Teus.",
    "prompt_imagem": "a field of wildflowers swaying in a soft breeze at golden hour",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
   },
   {
    "trecho": "Pai, eu Te entrego a minha saúde e a saúde de quem eu amo. A Tua Palavra diz: \"Ele te cobre com as suas penas, e debaixo das suas asas encontras refúgio.\" Cobre o nosso corpo, Senhor.",
    "prompt_imagem": "a gentle river flowing through a green valley at sunset",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
   },
   {
    "trecho": "Onde há dor, alivia. Onde há doença, toca. Onde há um exame esperando resultado, dá paz enquanto a resposta não chega. Tu és o médico que nunca dorme.",
    "prompt_imagem": "a beach under a full moon with silver light on the waves",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
   },
   {
    "trecho": "Eu Te entrego também as contas e o trabalho. Tu conheces cada boleto em cima da mesa. Cada dívida que me tira o sono. Eu não consigo carregar isso hoje. Carrega por mim.",
    "prompt_imagem": "soft white clouds drifting over green hills in the morning light",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
   },
   {
    "trecho": "Abre portas de trabalho. Dá sabedoria nas decisões. Multiplica o pouco, como multiplicaste o pão. E livra o meu coração da ansiedade que diz que amanhã vai faltar.",
    "prompt_imagem": "green rice terraces on a hillside covered in light morning fog",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
   },
   {
    "trecho": "E se amanhã a resposta ainda não vier, Senhor, me dá a fé de Jesus no deserto. Que eu não troque a Tua vontade por um atalho. Que eu espere o pão que vem da Tua mão.",
    "prompt_imagem": "a quiet lake at twilight with pink and purple sky reflections",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
   },
   {
    "trecho": "Senhor, como Jesus no deserto, eu também sou tentado. Tentado a desistir. A falar o que não devo. A voltar para o que me prendia. Quando a tentação vier, coloca a Tua Palavra na minha boca.",
    "prompt_imagem": "golden wheat fields under a warm sunset sky",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
   },
   {
    "trecho": "Perdoa os meus pecados, Pai. As palavras duras, as vezes que eu duvidei de Ti, as coisas que só Tu viste. Eu não quero esconder nada. Lava-me por dentro.",
    "prompt_imagem": "northern lights dancing over a calm snowy landscape",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
   },
   {
    "trecho": "E me ajuda a perdoar quem me feriu. Eu não sei fazer isso sozinho. Mas eu escolho, hoje, entregar essa pessoa nas Tuas mãos. Tira de mim o peso da mágoa.",
    "prompt_imagem": "a small stream with smooth stones running through a mossy forest",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
   },
   {
    "trecho": "E me ajuda a me perdoar também. Pelo que eu não consegui fazer. Pelo que eu fiz e me arrependo. Se Tu já me perdoaste, eu não preciso continuar me condenando.",
    "prompt_imagem": "tall cliffs over a turquoise sea with waves breaking softly",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
   },
   {
    "trecho": "Obrigado, Senhor, porque Jesus venceu onde eu caí. Obrigado porque, quando o inimigo falou, Ele respondeu com a verdade. E essa vitória também é minha.",
    "prompt_imagem": "a lavender field in bloom under a soft evening sky",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
   },
   {
-   "trecho": "Obrigado pela minha casa, mesmo simples. Pela comida que teve hoje. Pelas pessoas que eu amo. Pelo ar que eu respiro. Pelas vezes que Tu me livraste e eu nem percebi.",
+   "trecho": "Obrigado pela minha casa, mesmo simples. Pela comida que teve hoje. Pelas pessoas que eu amo. Pelo ar que eu respiro. Pelas vezes que Tu me livraste e eu nem percebi. Fica comigo mais um pouco. Estamos chegando na parte que o inimigo cortou.",
    "prompt_imagem": "a calm ocean at sunset with gentle waves rolling onto a quiet sandy beach",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
   },
   {
    "trecho": "Agora eu quero orar por você, que tem um pedido especial. Se você tem um pedido, escreva nos comentários deste vídeo. Eu vou ler e vou orar por ele. Não tenha vergonha.",
    "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist and sun rays",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
   },
   {
    "trecho": "Pode ser um nome, uma cidade, uma situação. Pode ser só a palavra \"proteção\". Deus conhece a história inteira por trás de cada comentário.",
    "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
   },
   {
    "trecho": "Senhor, eu Te apresento cada pedido escrito aqui embaixo. Cada mãe que pediu pelo filho. Cada pessoa que pediu cura. Cada um que pediu emprego, casa, paz. Responde, Pai, segundo o Teu amor.",
    "prompt_imagem": "a starry night sky over calm mountains, milky way glowing",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
   },
   {
    "trecho": "A Tua Palavra diz: \"Quando ele me invocar, eu lhe responderei; estarei com ele na angústia.\" Então eu creio que, nesta noite, ninguém que clamou ficou sem ser ouvido.",
    "prompt_imagem": "a crystal clear mountain lake reflecting snowy peaks at sunrise",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
   },
   {
    "trecho": "E eu oro também por quem está assistindo e está longe de Deus. Talvez você nem saiba por que clicou neste vídeo. Talvez faça anos que você não ora.",
    "prompt_imagem": "a field of wildflowers swaying in a soft breeze at golden hour",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
   },
   {
    "trecho": "Saiba que Deus não desistiu de você. Ele não está esperando você ficar perfeito. Basta dizer, agora, no seu coração: Jesus, eu preciso de Ti. Ele ouve. Ele recebe.",
    "prompt_imagem": "a gentle river flowing through a green valley at sunset",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
   },
   {
    "trecho": "O mesmo Jesus que disse \"vai-te, Satanás\" no deserto pode dizer ao medo, à culpa e ao vício que te prendem: chega. Ele é mais forte do que qualquer coisa que te acusa.",
    "prompt_imagem": "a beach under a full moon with silver light on the waves",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
   },
   {
    "trecho": "Agora, ouça algumas promessas para guardar no coração antes de dormir. Deixe cada uma descer devagar.",
    "prompt_imagem": "soft white clouds drifting over green hills in the morning light",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado, para relaxar"
   },
   {
-   "trecho": "\"Porque aos seus anjos dará ordem a teu respeito, para te guardarem em todos os teus caminhos.\" Em todos. Não só nos fáceis. Também neste.",
+   "trecho": "\"Direi do Senhor: Ele é o meu refúgio e a minha fortaleza.\" Repare: refúgio não é um lugar que você visita de vez em quando. É uma casa onde você mora.",
    "prompt_imagem": "green rice terraces on a hillside covered in light morning fog",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado, para relaxar"
   },
   {
    "trecho": "\"Mil poderão cair ao teu lado, e dez mil à tua direita; mas tu não serás atingido.\" Deus vê o que está ao seu redor. E Ele vê você no meio disso.",
    "prompt_imagem": "a quiet lake at twilight with pink and purple sky reflections",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado, para relaxar"
   },
   {
    "trecho": "\"Pois que tanto me amou, eu o livrarei.\" Repare de onde vem a proteção. Não vem da sorte. Vem de um relacionamento de amor com Deus.",
    "prompt_imagem": "golden wheat fields under a warm sunset sky",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado, para relaxar"
   },
   {
    "trecho": "E o Salmo 4 diz: \"Em paz também me deitarei e dormirei, porque só tu, Senhor, me fazes habitar em segurança.\" Esta é a sua promessa para esta noite.",
    "prompt_imagem": "northern lights dancing over a calm snowy landscape",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado, para relaxar"
   },
   {
    "trecho": "Agora vamos ficar um pouco em silêncio. Respire fundo pelo nariz… segure um instante… e solte devagar pela boca. Mais uma vez. Inspire a paz de Deus… solte o medo.",
    "prompt_imagem": "a small stream with smooth stones running through a mossy forest",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado, para relaxar"
   },
   {
    "trecho": "Deixe os ombros caírem. Solte a mandíbula. Abra as mãos, como quem entrega alguma coisa. Você não precisa segurar nada agora. Deus está segurando.",
    "prompt_imagem": "tall cliffs over a turquoise sea with waves breaking softly",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado, para relaxar"
   },
   {
    "trecho": "Imagine-se debaixo de asas grandes e quentes. Do lado de fora, o vento pode soprar. Mas aí dentro, você está coberto. Aquele que guarda você não dorme.",
    "prompt_imagem": "a lavender field in bloom under a soft evening sky",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado, para relaxar"
   },
   {
    "trecho": "Respire de novo… devagar. Se vier algum pensamento, não brigue com ele. Só diga em silêncio: está escrito. O Senhor é o meu refúgio. E volte a respirar.",
    "prompt_imagem": "a calm ocean at sunset with gentle waves rolling onto a quiet sandy beach",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado, para relaxar"
   },
   {
    "trecho": "Fique aqui mais um pouquinho. Não há pressa. Não há nada que você precise resolver nos próximos minutos. Só existir… diante de Deus… e deixar que Ele cuide.",
    "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist and sun rays",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado, para relaxar"
   },
   {
    "trecho": "Agora eu vou ler devagar o começo do Salmo 91. Só ouça. \"Aquele que habita no esconderijo do Altíssimo, à sombra do Todo-Poderoso descansará.\"",
    "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado, para relaxar"
   },
   {
    "trecho": "\"Direi do Senhor: Ele é o meu refúgio e a minha fortaleza, o meu Deus, em quem confio. Porque ele te livra do laço do passarinho, e da peste perniciosa.\"",
    "prompt_imagem": "a starry night sky over calm mountains, milky way glowing",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado, para relaxar"
   },
   {
    "trecho": "\"Ele te cobre com as suas penas, e debaixo das suas asas encontras refúgio. Não temerás os terrores da noite, nem a seta que voe de dia.\"",
    "prompt_imagem": "a crystal clear mountain lake reflecting snowy peaks at sunrise",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado, para relaxar"
   },
   {
    "trecho": "\"Porquanto fizeste do Senhor o teu refúgio, e do Altíssimo a tua habitação, nenhum mal te sucederá, nem praga alguma chegará à tua tenda.\"",
    "prompt_imagem": "a field of wildflowers swaying in a soft breeze at golden hour",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado, para relaxar"
   },
   {
    "trecho": "\"Porque aos seus anjos dará ordem a teu respeito, para te guardarem em todos os teus caminhos. Eles te susterão nas suas mãos, para que não tropeces em alguma pedra.\"",
    "prompt_imagem": "a gentle river flowing through a green valley at sunset",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado, para relaxar"
+  },
+  {
+   "prompt_imagem": "a gentle river flowing through a green valley at sunset",
+   "vazia": true,
+   "animar": false,
+   "trecho": "Você ouviu? \"Para te guardarem em todos os teus caminhos.\" Essa é a parte que o diabo cortou. Ele citou os anjos, citou as mãos que seguram… mas escondeu os caminhos.",
+   "emocao": "revelação: emoção forte e esperança, mais firme"
+  },
+  {
+   "prompt_imagem": "a gentle river flowing through a green valley at sunset",
+   "vazia": true,
+   "animar": false,
+   "trecho": "Porque essa frase desmonta a mentira dele. A proteção de Deus não é para um salto no escuro, para testar se Ele te ama. É para cada passo do caminho. Nos dias fáceis… e neste também. Em todos.",
+   "emocao": "revelação: emoção forte e esperança, mais firme"
+  },
+  {
+   "prompt_imagem": "a gentle river flowing through a green valley at sunset",
+   "vazia": true,
+   "animar": false,
+   "trecho": "Então, esta noite, você não precisa provar nada para Deus. Você só precisa andar com Ele. E no caminho onde você está agora, com esse medo e esse cansaço, os anjos dEle já estão.",
+   "emocao": "revelação: emoção forte e esperança, mais firme"
   },
   {
    "trecho": "\"Pois que tanto me amou, eu o livrarei; pô-lo-ei num alto retiro, porque conheceu o meu nome.\" Deus conhece o seu nome. E Ele chama você de filho.",
    "prompt_imagem": "a beach under a full moon with silver light on the waves",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "paz e bênção, voz suave de despedida"
   },
   {
    "trecho": "\"Quando ele me invocar, eu lhe responderei; estarei com ele na angústia.\" Ele está com você agora, nesta angústia, neste quarto, nesta noite.",
    "prompt_imagem": "soft white clouds drifting over green hills in the morning light",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "paz e bênção, voz suave de despedida"
   },
   {
    "trecho": "Obrigado, Pai, pela Tua Palavra, que é verdade inteira. Obrigado pelos anjos que eu não vejo. Obrigado por este dia que acabou e pela misericórdia que vai nascer amanhã.",
    "prompt_imagem": "green rice terraces on a hillside covered in light morning fog",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "paz e bênção, voz suave de despedida"
   },
   {
    "trecho": "Obrigado porque amanhã, quando eu abrir os olhos, Tu já vais estar lá. Antes do primeiro boleto, antes da primeira notícia, antes da primeira preocupação. Tu chegas primeiro.",
    "prompt_imagem": "a quiet lake at twilight with pink and purple sky reflections",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "paz e bênção, voz suave de despedida"
   },
   {
    "trecho": "Se esta oração te ajudou, inscreva-se no canal para orarmos juntos toda noite. E mande este vídeo para alguém que está com medo. Talvez seja a resposta que essa pessoa pediu.",
    "prompt_imagem": "golden wheat fields under a warm sunset sky",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "paz e bênção, voz suave de despedida"
   },
   {
    "trecho": "Que o Deus do Salmo 91 cubra você com as suas asas. Que Ele guarde a sua casa, os seus filhos e o seu sono. E que você acorde sabendo que não estava sozinho.",
    "prompt_imagem": "northern lights dancing over a calm snowy landscape",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "paz e bênção, voz suave de despedida"
   },
   {
    "trecho": "Durma em paz. O mesmo Jesus que venceu no deserto está cuidando de você esta noite. Em nome de Jesus… amém.",
    "prompt_imagem": "a small stream with smooth stones running through a mossy forest",
    "vazia": true,
-   "animar": false
+   "animar": false,
+   "emocao": "paz e bênção, voz suave de despedida"
   }
- ]
+ ],
+ "revelacao": {
+  "promessa_cena": 2,
+  "entrega_cena": 86,
+  "o_que": "a parte do Salmo 91 que o diabo cortou: 'em todos os teus caminhos'"
+ }
 }

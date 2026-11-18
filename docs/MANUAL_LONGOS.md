@@ -54,10 +54,31 @@ Nunca publique nada, nunca mexa em segredos/tokens, não altere o código do sis
 - No máximo 10 cenas com `"animar": true` — as mais cinematográficas (céu, água, fogo, tempestade, luz). As outras
   ganham movimento de câmera automático.
 
+## RETENÇÃO — gancho, promessa e revelação (decisão do Eric, 18/11 · vale acima das regras antigas abaixo)
+Estudo completo: https://claude.ai/artifact/LsMAXGSgeWaikYfedZqJRy. O validador recusa roteiros fora disto.
+Estrutura de TODO vídeo longo (oração, estudo, filme):
+| Tempo | Parte | Regra |
+|---|---|---|
+| 0:00–0:08 | **Gancho** | 1ª frase com o tema do TÍTULO, máx. 12 palavras, fato ou dor específica. Proibido: "Se você está assistindo isso agora", "Olá", "Bem-vindo", nome do canal, "neste vídeo". |
+| 0:08–0:30 | **Promessa** | Confirma o título, nomeia a dor de quem assiste e PROMETE uma revelação para o final ("No final desta oração eu vou te mostrar…"). |
+| 0:30–2:30 | **História / 1ª entrega** | Cena, tensão e um detalhe pouco conhecido. |
+| ~2:00–4:00 | **Inscrição curta** | Uma frase, DEPOIS da 1ª entrega (cena 6–25). Nunca no gancho. |
+| meio | **Oração em blocos** | 4–5 blocos, uma dor cada; **cada bloco termina com um re-gancho** ("tem uma palavra neste salmo que quase ninguém percebe… já vamos chegar nela"), a cada 60–90 s de fala. |
+| último terço | **Revelação** | Cumpre a promessa do começo, com emoção. |
+| fim | **Bênção e chamada** | Bênção, pedido de comentário, inscrição. Nunca falar de "música" (o vídeo não tem música). |
+Campos obrigatórios novos:
+- `"revelacao": {"promessa_cena": 1–3, "entrega_cena": N (último terço), "o_que": "..."}`
+- `"emocao"` em cada cena (o tom da voz muda por parte): gancho = "misterioso e baixo, depois íntimo"; história =
+  "contador de histórias, tensão crescente"; oração = "ternura, voz embargada nas dores, frases curtas";
+  relaxamento = "calmo e lento, quase sussurrado"; revelação = "emoção forte e esperança, mais firme"; bênção = "paz, voz suave".
+- Oração/estudo longo **nunca sai na voz reserva (Edge)**: sem cota da Gemini, a produção para e roda de novo depois das 05h.
+- Short isca: o trecho do LAÇO ABERTO (o re-gancho que promete a revelação), 12–45 palavras — puxa para o longo.
+Modelo no formato novo: `roteiros_animados/oracao_noite_diabo_citou_salmo91.json`.
+
 ## Oração para dormir — tom HUMANO e EMOCIONAL (padrão desde 16/11, referência: canal Grace Oasis, 835 mil inscritos)
 O que os grandes canais de oração fazem e nós não fazíamos:
-1. **Abre falando com a PESSOA, não com Deus** (cenas 1–3): "Se você está assistindo isso agora, talvez o seu dia tenha
-   sido pesado. Talvez ninguém tenha perguntado como você está. Deus perguntou. E Ele trouxe você até aqui."
+1. **Depois do gancho, fala com a PESSOA, não com Deus** (cenas 2–4): nomeie a dor de quem assiste ("Se a noite chegou e o
+   medo veio junto, fica comigo…"). A abertura "Se você está assistindo isso agora" está PROIBIDA (estudo de 18/11).
    Nomeie dores concretas do dia a dia (conta atrasada, filho longe, diagnóstico, casamento frio, solidão, cansaço).
 2. **Convida a orar junto**: "Feche os olhos. Coloque a mão no peito. Respire fundo… e repita comigo, no seu coração."
 3. **A oração em 1ª pessoa, como gente de verdade fala com Deus**: frases curtas, pausas ("…"), confissões honestas
@@ -72,13 +93,13 @@ O que os grandes canais de oração fazem e nós não fazíamos:
 ### Duração e estrutura (padrão desde 16/11)
 - `"tipo": "oracao"`, **2700–3300 palavras, 50–110 cenas** (~20 s cada), `"palavras_por_bloco": 600`, SEM `cauda_musical_min`.
   (Medido em 16/11: a voz fala ~135 palavras/min; 2.000 palavras deram só 14,6 min. Para ~22 min: ~2.900 palavras.)
-- Música só de fundo, baixinha, sob a voz (`volume_musica` ~0.2). Nada de 20 min só de música.
+- Sem música (`volume_musica`: 0) desde 16/11.
 - `capitulos` obrigatórios (4–12), para o público pular para a parte que precisa. Sequência que funciona:
   Acolhida → o salmo/promessa do dia → oração "do jeito que eu estou" → pela mente/ansiedade → pela família e filhos →
   pela saúde → pelas contas e trabalho → perdão (dos outros e de si) → o versículo central → gratidão → pedidos dos
   comentários → quem está longe de Deus → promessas para a noite (3–4 versículos curtos, Almeida) → silêncio guiado
   com respiração → leitura lenta do salmo → inscreva-se → bênção final → amém.
-- Modelo completo: `roteiros_animados/oracao_noite_refugio_salmo46.json`.
+- Modelo completo (formato novo, 18/11): `roteiros_animados/oracao_noite_diabo_citou_salmo91.json`.
 
 ### Título e miniatura (padrão desde 16/11)
 - **`titulo_youtube` (pedido do Eric, 16/11): o título também tem que fazer clicar.** Fórmula dos grandes canais:

@@ -779,6 +779,12 @@ def main():
                     shutil.rmtree(sub, ignore_errors=True)
                     sub.mkdir()
                     txt = " ".join(c["trecho"] for c in g)
+                    emocoes = [c["emocao"] for c in g if c.get("emocao")]
+                    if so_gemini and emocoes:  # o tom muda por parte do vídeo (estudo de retenção, 18/11)
+                        dominante = max(set(emocoes), key=emocoes.count)
+                        base_estilo = cfg["gemini_tts"].get("estilo_curto", "")
+                        cfg = {**cfg, "gemini_tts": {**cfg["gemini_tts"],
+                                                     "estilo_curto": f"{base_estilo}; nesta parte: {dominante}"}}
                     if so_gemini:
                         from estudio.agentes import narrador_gemini
                         # cache da voz: refazer um vídeo não gasta de novo a cota diária da Gemini
@@ -813,6 +819,11 @@ def main():
                     log("wan", f"voz bloco {k + 1}/{len(grupos)}: {durk:.1f}s")
                 return partes, palavras, dur
             res = _blocos(voz_bloco, True) if voz_bloco.get("tts") == "gemini" and voz_bloco.get("gemini_tts") else None
+            if res is None and r.get("tipo") in ("oracao", "estudo") and not os.getenv("ACEITAR_VOZ_RESERVA"):
+                # decisão do Eric (18/11): oração/estudo longo NUNCA sai na voz reserva, que soa padrão.
+                # Os blocos já narrados ficam no cache; rodar de novo depois das 05h (cota zerada) não gasta de novo.
+                raise SystemExit("voz Gemini sem cota hoje — oração longa não sai na voz reserva. "
+                                 "Rode de novo depois das 05h (São Paulo); os blocos já narrados ficaram no cache.")
             if res is None:
                 log("wan", "voz Gemini indisponível para o filme inteiro; narrando TUDO com uma única voz do Edge")
                 res = _blocos({**voz_bloco, "forcar_edge": True, "vozes": [voz_bloco["voz"]]}, False)

@@ -70,9 +70,34 @@ elif r.get("formato") == "horizontal":  # vídeo longo do YouTube (docs/MANUAL_L
     for linha in r.get("texto_capa", []):
         if len(linha.split()) > 3:
             erros.append(f"texto_capa longo demais: '{linha}' (até 3 palavras por linha)")
-    if oracao and not any("inscrev" in c["trecho"].lower() for c in cenas[:8]):
-        erros.append("oração: convite falado para se inscrever também no COMEÇO (até a cena 8), ex.: 'Antes de começarmos, "
-                     "se você ainda não é inscrito, inscreva-se e ative o sininho para orarmos juntos todos os dias.'")
+    longo = oracao or estudo
+    if longo:  # ESTUDO DE RETENÇÃO (18/11): gancho do título, promessa→revelação, inscrição depois da 1ª entrega
+        import re as _re
+        primeira = _re.split(r"(?<=[.!?…])\s+", cenas[0]["trecho"].strip())[0]
+        if len(primeira.split()) > 12:
+            erros.append(f"gancho: a 1ª frase tem {len(primeira.split())} palavras (máx. 12) — frase forte e específica do título")
+        abertura0 = cenas[0]["trecho"].lower()
+        for ruim in ("se você está assistindo", "olá", "bem-vind", "mensageiro de fé", "antes de dormir, quero",
+                     "neste vídeo", "no vídeo de hoje"):
+            if ruim in abertura0:
+                erros.append(f"gancho: abertura genérica proibida ('{ruim}') — comece pelo fato/dor específico do título")
+        if any("inscrev" in c["trecho"].lower() for c in cenas[:5]):
+            erros.append("inscrição cedo demais: o convite vem DEPOIS da 1ª entrega (entre a cena 6 e a 25), não no gancho")
+        if not any("inscrev" in c["trecho"].lower() for c in cenas[5:26]):
+            erros.append("falta o convite curto para se inscrever depois da 1ª entrega (entre a cena 6 e a 25)")
+        rev = r.get("revelacao") or {}
+        if not rev.get("o_que") or not isinstance(rev.get("promessa_cena"), int) or not isinstance(rev.get("entrega_cena"), int):
+            erros.append('falta "revelacao": {"promessa_cena": N (até 3), "entrega_cena": N (no último terço), '
+                         '"o_que": "o que se promete no começo e se revela no fim"} — veja MANUAL_LONGOS.md')
+        else:
+            if rev["promessa_cena"] > 3:
+                erros.append("revelacao: a promessa precisa estar nas 4 primeiras cenas (até ~0:30)")
+            if rev["entrega_cena"] < len(cenas) * 0.6:
+                erros.append("revelacao: a entrega precisa ficar no último terço do vídeo")
+        if (r.get("volume_musica") or 0) == 0 and any("música" in c["trecho"].lower() for c in cenas[-6:]):
+            erros.append("o final fala de música, mas o vídeo não tem música")
+        if oracao and sum(bool(c.get("emocao")) for c in cenas) < len(cenas) * 0.8:
+            erros.append('oração: marque "emocao" nas cenas (muda o tom da voz por parte: mistério, história, ternura, revelação, paz)')
     if oracao and not any("inscreva" in c["trecho"].lower() for c in cenas[-3:]):
         erros.append("oração sem convite falado para se inscrever nas 3 últimas cenas (ex.: 'inscreva-se no canal')")
     tyt = r.get("titulo_youtube", "")
@@ -83,7 +108,7 @@ elif r.get("formato") == "horizontal":  # vídeo longo do YouTube (docs/MANUAL_L
     if oracao:  # tom humano (MANUAL_LONGOS.md, 16/11): acolhida falando com a pessoa + voz emocionada + capa de 3 linhas
         abertura = " ".join(c["trecho"] for c in cenas[:3]).lower()
         if "você" not in abertura:
-            erros.append("oração: as 3 primeiras cenas devem acolher a PESSOA em 2ª pessoa ('Se você está assistindo isso…')")
+            erros.append("oração: as 3 primeiras cenas devem falar com a PESSOA em 2ª pessoa (depois do gancho do título)")
         if not r.get("estilo_voz"):
             erros.append('oração: falta "estilo_voz" (ex.: "emocionado e íntimo, voz baixa, pausada, com ternura")')
         if len(r.get("texto_capa") or []) != 3:
