@@ -27,3 +27,16 @@ Antes de produzir qualquer vídeo, confira item por item. Se algum não for cump
 10. Nada é publicado sem a aprovação do Eric (etiqueta "aprovado" na Issue). A rotina diária produz sozinha, mas só
     depois de o roteiro passar pelo validador abaixo.
 11. Rodar `python ferramentas/validar_animacao.py roteiros_animados/<arquivo>.json` — tem que dar OK.
+
+## Títulos dos Shorts (dados do canal, 17/11)
+12. Shorts de história/curiosidade bíblica têm mediana de 456 views; orações curtas, 173; títulos abstratos de 2–4
+    palavras ("Terei confiança", "Pausa no meio do dia", "Coragem não é não ter medo") ficaram com 3–7 views.
+    Todo título de Short precisa ter **uma pergunta, um fato surpreendente ou uma história com personagem**
+    (ex.: "O diabo citou o Salmo 91 para Jesus", "O pão dos pobres nas mãos de Jesus", "Para quem está esperando
+    uma resposta de Deus"). Nunca título abstrato curto, nunca só hashtags/emoji.
+13. Volume: no máximo 3 Shorts por dia no YouTube do Mensageiro, todos no formato acima. Qualidade > quantidade.
+
+## Ponte Short → vídeo longo (decisão do Eric, 17/11)
+14. O vídeo longo do dia é, sempre que possível, a **versão completa do tema de um Short que já funcionou**
+    (fila em pautas/pontes.txt). O título do longo retoma o gancho do Short, e a Issue/Telegram lembram o Eric de
+    ligar o Short ao longo em "Vídeo relacionado".
