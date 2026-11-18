@@ -1,0 +1,65 @@
+{
+  "titulo": "Jesus repetiu esta palavra três vezes. Eles falharam",
+  "gancho_tela": "Uma ordem de Jesus. Eles dormiram.",
+  "estilo": "pintura",
+  "narracao": "Jesus repetiu uma palavra três vezes. Seus amigos falharam nela. A palavra era vigiem. Está em Marcos, capítulo treze. Mas o que Jesus fez depois é o mais bonito. Jesus estava sentado no monte das Oliveiras, de frente para o templo. Quatro discípulos perguntaram quando tudo aconteceria. Jesus respondeu com uma imagem. Um homem sai de viagem, dá uma tarefa a cada servo e manda o porteiro vigiar. Ninguém sabe a hora da volta: à tarde, à meia-noite, ao cantar do galo ou ao amanhecer. Que ele não encontre vocês dormindo. E fechou: isso vale para todos. Poucos dias depois, no Getsêmani, Jesus pediu a Pedro, Tiago e João: fiquem aqui e vigiem. Voltou e os encontrou dormindo. Perguntou a Pedro se não conseguiu vigiar nem uma hora. Três vezes, a mesma cena. Jesus não os mandou embora. Disse: o espírito está pronto, mas a carne é fraca. E continuou contando com eles. Hoje, ao acordar, ele conta com você. Uma tarefa, uma porta, uma casa. Se ontem você dormiu no posto, recomece agora. Salve este vídeo para ouvir de novo quando precisar, e siga para receber uma palavra de fé todos os dias.",
+  "cenas": [
+    {
+      "trecho": "Jesus repetiu uma palavra três vezes. Seus amigos falharam nela.",
+      "busca_imagem": "",
+      "prompt_imagem": "a single clay oil lamp burning brightly on a rough stone ledge at night, deep blue darkness all around, distant olive trees on a hillside under the stars, strong warm glow and dramatic contrast"
+    },
+    {
+      "trecho": "A palavra era vigiem. Está em Marcos, capítulo treze. Mas o que Jesus fez depois é o mais bonito.",
+      "busca_imagem": "ancient scroll lamp",
+      "prompt_imagem": "an ancient scroll partly unrolled on a wooden table beside a small flickering oil lamp, warm golden light, stone wall in shadow"
+    },
+    {
+      "trecho": "Jesus estava sentado no monte das Oliveiras, de frente para o templo. Quatro discípulos perguntaram quando tudo aconteceria.",
+      "busca_imagem": "Mount of Olives Jerusalem",
+      "prompt_imagem": "wide high view from the Mount of Olives across a valley to the ancient Jerusalem temple glowing in golden afternoon light, old olive trees in the foreground, tiny distant figures sitting among the rocks"
+    },
+    {
+      "trecho": "Jesus respondeu com uma imagem. Um homem sai de viagem, dá uma tarefa a cada servo e manda o porteiro vigiar.",
+      "busca_imagem": "ancient wooden door",
+      "prompt_imagem": "a heavy wooden door of an ancient stone house standing half open onto a dusty road at dawn, a walking staff leaning against the doorframe, clay jars and a broom inside, soft golden light"
+    },
+    {
+      "trecho": "Ninguém sabe a hora da volta: à tarde, à meia-noite, ao cantar do galo ou ao amanhecer. Que ele não encontre vocês dormindo.",
+      "busca_imagem": "night gate dawn",
+      "prompt_imagem": "an ancient stone courtyard gate at night under a sky turning from deep blue to the first light of dawn, a small fire of embers beside the gate, a rooster perched on a low stone wall"
+    },
+    {
+      "trecho": "E fechou: isso vale para todos. Poucos dias depois, no Getsêmani, Jesus pediu a Pedro, Tiago e João: fiquem aqui e vigiem.",
+      "busca_imagem": "olive garden night",
+      "prompt_imagem": "a dark garden of gnarled ancient olive trees at night, moonlight through the branches, an old stone olive press among the trees, cool blue light with a faint warm glow"
+    },
+    {
+      "trecho": "Voltou e os encontrou dormindo. Perguntou a Pedro se não conseguiu vigiar nem uma hora. Três vezes, a mesma cena.",
+      "busca_imagem": "olive tree moonlight",
+      "prompt_imagem": "folded cloaks lying on the ground at the roots of an old olive tree at night, a dying oil lamp beside them, moonlight on the rocks, quiet heavy stillness"
+    },
+    {
+      "trecho": "Jesus não os mandou embora. Disse: o espírito está pronto, mas a carne é fraca. E continuou contando com eles.",
+      "busca_imagem": "hand golden light",
+      "prompt_imagem": "a weathered open hand in close-up resting gently on a rough stone in an olive garden at night, warm golden light falling on the hand from above"
+    },
+    {
+      "trecho": "Hoje, ao acordar, ele conta com você. Uma tarefa, uma porta, uma casa. Se ontem você dormiu no posto, recomece agora. Salve este vídeo para ouvir de novo quando precisar, e siga para receber uma palavra de fé todos os dias.",
+      "busca_imagem": "sunrise door valley",
+      "prompt_imagem": "the wooden door of a simple ancient stone house opening onto a valley at sunrise, golden light pouring across the threshold, a clay lamp still burning on the step, hills glowing in the distance"
+    }
+  ],
+  "legenda": "Senhor, me acorda para o que o Senhor me confiou 🙏\nMarcos 13:33-37; Marcos 14:32-41\nComente \"Amém\" e salve para ouvir de novo amanhã cedo.",
+  "hashtags": [
+    "#vigiai",
+    "#Getsêmani",
+    "#Pedro",
+    "#Advento"
+  ],
+  "fontes": [
+    "Marcos 13:1-4 (Jesus sentado no monte das Oliveiras, diante do templo; Pedro, Tiago, João e André perguntam em particular)",
+    "Marcos 13:33-37 (Fiquem atentos! Vigiem!; o homem que sai de viagem, dá tarefa a cada servo e ordena ao porteiro que vigie; à tarde, à meia-noite, ao cantar do galo ou ao amanhecer; que não os encontre dormindo; o que digo a vocês, digo a todos: Vigiem!)",
+    "Marcos 14:32-41 (Getsêmani; leva Pedro, Tiago e João; 'Fiquem aqui e vigiem'; encontra-os dormindo; 'Simão, você está dormindo? Não pôde vigiar nem por uma hora?'; 'o espírito está pronto, mas a carne é fraca'; volta pela terceira vez)"
+  ]
+}
