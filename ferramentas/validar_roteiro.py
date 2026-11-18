@@ -24,6 +24,13 @@ if "parte" in r.get("gancho_tela", "").lower():
     erros.append("gancho_tela não deve ter 'Parte N' (vai só na legenda)")
 if r.get("cenas") and len(r["cenas"][0]["trecho"].split()) > 16:
     erros.append("a primeira cena deve conter só o gancho (frase curta)")
+if r.get("cenas"):  # retenção dos Shorts (estudo de 18/11, REGRAS_FIXAS 15–19)
+    abre = r["cenas"][0]["trecho"].lower()
+    for ruim in ("olá", "oi, ", "bem-vind", "mensageiro de fé", "neste vídeo", "no vídeo de hoje", "se você está assistindo"):
+        if ruim in abre:
+            erros.append(f"gancho: abertura genérica proibida ('{ruim}') — comece pelo fato surpreendente ou pela dor")
+    if r.get("gancho_tela") and not set(r["gancho_tela"].lower().split()) & set(abre.replace(",", " ").replace(".", " ").split()):
+        erros.append("gancho_tela e a 1ª frase falada precisam dizer a mesma coisa (quem assiste sem som lê o gancho)")
 for i, c in enumerate(r.get("cenas", []), 1):
     if not c.get("prompt_imagem"):
         erros.append(f"cena {i} sem prompt_imagem")
