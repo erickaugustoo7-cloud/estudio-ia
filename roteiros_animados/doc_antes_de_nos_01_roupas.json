@@ -68,10 +68,9 @@
   },
   {
    "trecho": "Parece impossível. Mas foi exatamente assim que viveram os nossos ancestrais durante a maior parte da história humana. Hoje a roupa é tão comum que a gente nem pensa nela.",
-   "prompt_imagem": "documentary reconstruction, snowstorm, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "snowstorm"
+   "prompt_imagem": "blizzard over an empty frozen plain at night, no people, no buildings, documentary photo",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "Mas houve um tempo, muito antes de nós, em que ela simplesmente não existia. Então, como essas pessoas sobreviveram? Como enfrentaram o frio, o sol, a chuva e os insetos?",
@@ -94,10 +93,9 @@
   },
   {
    "trecho": "Toda semana tem um documentário novo por aqui. Agora, vamos voltar no tempo. Muito tempo.",
-   "prompt_imagem": "documentary reconstruction, snowstorm, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "snowstorm"
+   "prompt_imagem": "blizzard over an empty frozen plain at night, no people, no buildings, documentary photo",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "Para entender a história das roupas, a gente precisa primeiro entender uma coisa estranha sobre o nosso corpo: nós somos quase pelados. Olhe para os nossos parentes mais próximos.",
@@ -241,9 +239,10 @@
   },
   {
    "trecho": "Um vive no couro cabeludo. O outro vive nas roupas e só desce até a pele para se alimentar. O piolho de roupa é tão adaptado a viver no tecido que os cientistas concluíram uma coisa simples: ele não poderia existir antes de existirem roupas.",
-   "prompt_imagem": "macro photo of a tiny louse on rough woven fabric fibers, scientific photography",
-   "vazia": false,
-   "animar": false
+   "prompt_imagem": "documentary reconstruction, african savanna, prehistoric, natural light",
+   "vazia": true,
+   "animar": false,
+   "busca_video": "african savanna"
   },
   {
    "trecho": "Então, se fosse possível descobrir quando o piolho de roupa se separou do piolho da cabeça, saberíamos mais ou menos quando a humanidade começou a se vestir.",
@@ -266,9 +265,10 @@
   },
   {
    "trecho": "E significa também outra coisa surpreendente. Se perdemos o pelo há mais de um milhão de anos, e só começamos a usar roupas há cerca de cento e setenta mil anos, então nossos ancestrais passaram muito, muito tempo vivendo sem pelos e sem roupas.",
-   "prompt_imagem": "macro photo of a tiny louse on rough woven fabric fibers, scientific photography",
-   "vazia": false,
-   "animar": false
+   "prompt_imagem": "documentary reconstruction, african savanna, prehistoric, natural light",
+   "vazia": true,
+   "animar": false,
+   "busca_video": "african savanna"
   },
   {
    "trecho": "Os piolhos deram uma pista. Mas a arqueologia queria encontrar provas físicas. E elas apareceram no Marrocos. Numa caverna perto do litoral atlântico, chamada Caverna dos Contrabandistas, arqueólogos encontraram mais de sessenta ferramentas feitas de osso.",
@@ -351,7 +351,7 @@
   },
   {
    "trecho": "Enormes camadas de gelo cobriam o norte da Europa, da Ásia e da América. O nível do mar era bem mais baixo, porque muita água estava presa no gelo.",
-   "prompt_imagem": "woolly mammoths walking across a frozen Ice Age steppe in a snowstorm, epic wide shot, documentary reconstruction",
+   "prompt_imagem": "herd of woolly mammoths with long shaggy brown fur and huge curved tusks walking across a frozen Ice Age steppe in a snowstorm, epic wide shot, documentary reconstruction",
    "vazia": false,
    "animar": false
   },
@@ -396,10 +396,9 @@
   },
   {
    "trecho": "Depois, a pele precisava ser esticada e seca. E aí vinha a parte mais importante: amaciar e conservar o couro. Vários povos tradicionais, em diferentes partes do mundo, desenvolveram técnicas para isso.",
-   "prompt_imagem": "documentary reconstruction, ochre, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "acervo": "ochre"
+   "prompt_imagem": "lumps of red ochre pigment on a flat stone next to a grinding stone, archaeology photo, natural light",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "Alguns esfregavam gordura ou óleo na pele. Outros defumavam o couro sobre o fogo, o que ajudava a protegê-lo da umidade e dos insetos. Outros ainda mastigavam o couro por horas, para deixá-lo macio.",
@@ -455,7 +454,7 @@
   },
   {
    "trecho": "As peles de animais vieram primeiro. Mas os nossos ancestrais também descobriram as fibras das plantas. Numa caverna da Geórgia, no Cáucaso, arqueólogos encontraram fibras de linho selvagem com mais de trinta mil anos.",
-   "prompt_imagem": "wild flax plants with blue flowers growing near a cave in the Caucasus mountains, morning light",
+   "prompt_imagem": "realistic close photo of wild blue flax flowers in a mountain meadow, natural daylight, botanical photography",
    "vazia": false,
    "animar": false
   },
@@ -554,10 +553,9 @@
   },
   {
    "trecho": "Para fechar essa viagem, vamos conhecer alguém que viveu muito depois dos primeiros costureiros, mas que nos mostra como era uma roupa antiga de verdade. Em 1991, dois turistas encontraram um corpo congelado nos Alpes, entre a Itália e a Áustria.",
-   "prompt_imagem": "documentary reconstruction, alps mountains snow, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "alps mountains snow"
+   "prompt_imagem": "snowy alpine peaks and a glacier with no buildings and no roads, 5000 years ago, wide shot, documentary photo",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "Era um homem que tinha morrido há cerca de cinco mil e trezentos anos. Os cientistas o chamaram de Ötzi, o homem do gelo. O gelo preservou não só o corpo, mas também as roupas dele.",
@@ -587,10 +585,9 @@
   },
   {
    "trecho": "Algumas peças tinham sido consertadas, com costuras feitas por mãos diferentes. Isso nos diz algo bonito. Mesmo há cinco mil anos, alguém remendava a roupa que já estava gasta, em vez de jogar fora.",
-   "prompt_imagem": "documentary reconstruction, alps mountains snow, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "alps mountains snow"
+   "prompt_imagem": "snowy alpine peaks and a glacier with no buildings and no roads, 5000 years ago, wide shot, documentary photo",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "Talvez alguém da família dele. Talvez ele mesmo, numa noite fria, perto do fogo.",
@@ -613,10 +610,9 @@
   },
   {
    "trecho": "Primeiro, peles raspadas com ossos. Depois, cordões torcidos com fibras de árvore. Depois, a agulha. E então, o tecido. A próxima vez que você vestir um casaco num dia frio, lembre-se: ele é herdeiro de uma invenção que começou há mais de cem mil anos, em volta de uma fogueira, nas mãos de alguém que vivia antes de nós.",
-   "prompt_imagem": "documentary reconstruction, starry night sky, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "starry night sky"
+   "prompt_imagem": "starry night sky over a dark empty prehistoric landscape, no buildings, no lights",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "Se você gostou dessa viagem, deixe o seu like e conte nos comentários: que outra invenção você gostaria de descobrir como surgiu? E inscreva-se no Antes de Nós.",

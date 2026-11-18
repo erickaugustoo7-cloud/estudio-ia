@@ -401,7 +401,10 @@ def _pixabay_video(prompt: str, seg: float, destino: Path, usados: set, horizont
         proibidas = ("people", "woman", "man", "girl", "boy", "person", "text", "city", "building", "town", "urban",
                      "street", "car", "traffic", "architecture", "house", "castle", "church", "tower", "bridge",
                      "skyline", "downtown", "road", "highway", "village", "people", "crowd", "logo", "animation", "3d",
-                     "skyscraper", "dubai", "metropolis", "emirates", "uae", "abu dhabi", "hotel", "resort", "construction")
+                     "skyscraper", "dubai", "metropolis", "emirates", "uae", "abu dhabi", "hotel", "resort", "construction",
+                     # cenas internas (o "homem na cadeira" olhando a janela): nada a ver com os dois canais
+                     "window", "chair", "desk", "lamp", "indoor", "indoors", "table", "armchair", "sitting", "office",
+                     "computer", "laptop", "television", "tv", "interior", "room", "bed", "bedroom", "kitchen")
         natureza = ("nature", "landscape", "water", "sea", "ocean", "forest", "tree", "mountain", "lake", "river",
                     "waterfall", "sky", "cloud", "sunset", "sunrise", "beach", "wave", "field", "flower", "grass",
                     "star", "night", "moon", "desert", "meadow", "hill", "rain", "valley", "aurora", "fog", "mist")
@@ -418,7 +421,9 @@ def _pixabay_video(prompt: str, seg: float, destino: Path, usados: set, horizont
                          "home", "house", "apartment", "room", "shop", "store", "records", "torii", "shrine", "temple",
                          "japan", "cow", "cows", "cattle", "dairy", "tulip", "tulips", "farm", "farmland", "agriculture",
                          "road", "bridge", "tractor", "fence", "railway", "train", "boat", "ship", "lighthouse", "pier",
-                         "plane", "airplane", "drone shot of city", "christmas", "decoration", "toy", "plastic")
+                         "plane", "airplane", "drone shot of city", "christmas", "decoration", "toy", "plastic",
+                         "window", "chair", "desk", "lamp", "indoor", "indoors", "table", "armchair", "sitting",
+                         "laptop", "television", "tv", "bed", "bedroom", "kitchen")
         hits = [h for h in res.get("hits", []) if h["id"] not in usados and h.get("duration", 0) >= seg
                 and not any(x in h.get("tags", "").lower().split(", ") or f" {x}" in f" {h.get('tags', '').lower()}"
                             for x in proibidas)
