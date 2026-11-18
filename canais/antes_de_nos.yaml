@@ -35,3 +35,4 @@ vozes:
 # ---------- Publicação ----------
 publicar_em: [youtube]
 secret_token_youtube: YT_REFRESH_TOKEN_CURIOSO
+cta_isca: "▶ DOCUMENTÁRIO COMPLETO NO VÍDEO ABAIXO"

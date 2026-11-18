@@ -13,7 +13,7 @@ jobs:
       - run: gh run download ${{ inputs.run_id }} -R ${{ github.repository }} -D art
       - run: sudo apt-get update -q && sudo apt-get install -y -q ffmpeg
       - run: |
-          v=$(find art -name video.mp4 | head -1); mkdir -p quadros
+          v=$(find art -name video.mp4 -printf "%s %p\n" | sort -nr | head -1 | cut -d" " -f2-); mkdir -p quadros
           d=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$v")
           for i in $(seq 0 47); do t=$(python3 -c "print($d*($i+0.5)/48)"); ffmpeg -loglevel error -ss $t -i "$v" -frames:v 1 -vf scale=480:-1 quadros/previa_$i.jpg; done
       - run: |

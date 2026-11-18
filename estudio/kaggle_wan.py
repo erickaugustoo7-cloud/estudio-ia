@@ -518,7 +518,7 @@ def _short_isca(r, canal, imgs, tempos, palavras, mp3, pasta) -> None:
     tx = ass.read_text().replace("\n[Events]", extra + "\n[Events]", 1)
     tx += f"Dialogue: 1,{_ts(0)},{_ts(dur)},Topo,,0,0,0,,{cfg.get('texto_topo', r['titulo']).upper()}\n"
     tx += f"Dialogue: 2,{_ts(0)},{_ts(dur)},Sig,,0,0,0,,{canal['nome'].upper()}\n"
-    tx += f"Dialogue: 3,{_ts(max(0, dur - 3.5))},{_ts(dur)},Cta,,0,0,0,,{cfg.get('cta', '▶ ORAÇÃO COMPLETA NO VÍDEO ABAIXO')}\n"
+    tx += f"Dialogue: 3,{_ts(max(0, dur - 3.5))},{_ts(dur)},Cta,,0,0,0,,{cfg.get('cta') or canal.get('cta_isca', '▶ ORAÇÃO COMPLETA NO VÍDEO ABAIXO')}\n"
     ass.write_text(tx, encoding="utf-8")
     musica = out / "musica.mp3"
     tem_musica = _preparar_musica(canal, musica, dur)
