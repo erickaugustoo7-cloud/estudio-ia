@@ -1,0 +1,90 @@
+{
+  "titulo": "A mulher que discutiu com Jesus e ganhou",
+  "gancho_tela": "Ela discutiu com Jesus e ganhou",
+  "referencia": "Mateus 15:28",
+  "duracao_max": 90,
+  "volume_musica": 0.14,
+  "estilo_imagem": "cinematic photorealistic epic film still, dramatic volumetric god rays, floating dust particles, deep chiaroscuro, Phoenician coast of Tyre and Sidon 1st century, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic epic film shot, slow and subtle motion.",
+  "epoca_imagem": "Phoenician coast near Tyre and Sidon, 1st century, stone, clay, wood and cloth only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "Jesus saiu de Israel e foi para a região de Tiro e Sidom, terra estrangeira.",
+      "prompt_imagem": "wide aerial view of the ancient Phoenician island city of Tyre at golden hour, stone harbor walls, wooden ships with linen sails, Mediterranean sea, hazy light",
+      "prompt_movimento": "slow aerial camera glide forward over the harbor, sails move in the wind, waves shimmer",
+      "vazia": true
+    },
+    {
+      "trecho": "Ali vivia um povo pagão, os cananeus, antigos inimigos de Israel.",
+      "prompt_imagem": "high view of an ancient Phoenician stone temple with columns on a rocky coastal hill, smoke rising from an altar, dramatic sunset sky",
+      "prompt_movimento": "altar smoke drifts slowly, clouds move across the sunset, slow camera push-in",
+      "vazia": true
+    },
+    {
+      "trecho": "Uma mulher cananeia veio gritando: Senhor, Filho de Davi, tem misericórdia de mim!",
+      "prompt_imagem": "high-angle wide view of a dusty road between olive trees and stone houses, a tiny distant woman in a dark cloak running far away in the distance, golden dust in the air",
+      "prompt_movimento": "golden dust floats in the light, olive leaves sway in the wind, slow camera descent",
+      "vazia": false
+    },
+    {
+      "trecho": "Minha filha está endemoninhada e sofrendo muito.",
+      "prompt_imagem": "interior of a poor ancient stone house at night, an empty straw sleeping mat with a rumpled wool blanket, one small clay oil lamp, deep shadows",
+      "prompt_movimento": "the lamp flame trembles, shadows flicker on the stone wall, static camera",
+      "vazia": true
+    },
+    {
+      "trecho": "Jesus não respondeu nenhuma palavra. E os discípulos pediram: Manda-a embora.",
+      "prompt_imagem": "wide high view of a silent dusty road at noon among rocky hills, footprints in the dust, harsh sunlight and long shadows",
+      "prompt_movimento": "dust blows slowly across the road, heat haze shimmers, slow camera pull-back",
+      "vazia": true
+    },
+    {
+      "trecho": "Ela se ajoelhou e disse apenas: Senhor, ajuda-me!",
+      "prompt_imagem": "close-up of two open hands resting palms up on the dusty ground, warm beam of light falling on them",
+      "prompt_movimento": "dust sparkles in the beam of light, the light grows warmer, slow camera push-in",
+      "vazia": false
+    },
+    {
+      "trecho": "Jesus respondeu: Não é certo tirar o pão dos filhos e dar aos cachorrinhos.",
+      "prompt_imagem": "a rustic wooden table in an ancient stone courtyard with round flat loaves of bread on a clay plate, a small dog lying beside the table leg, soft evening light",
+      "prompt_movimento": "soft evening light shifts across the bread, the small dog rests calmly, slow camera push-in",
+      "vazia": true
+    },
+    {
+      "trecho": "Ela não desistiu: Sim, Senhor, mas até os cachorrinhos comem das migalhas que caem da mesa.",
+      "prompt_imagem": "low close view of bread crumbs falling from the edge of a rustic wooden table onto the stone floor, a small dog below, golden light through a doorway",
+      "prompt_movimento": "a few crumbs fall slowly in the golden light, dust floats, slow camera descent",
+      "vazia": true
+    },
+    {
+      "trecho": "E Jesus disse: Mulher, grande é a sua fé! Seja conforme você deseja.",
+      "prompt_imagem": "wide high view of the Phoenician coast at sunset, a bright beam of heavenly light breaking through the clouds over the stone houses and the sea",
+      "prompt_movimento": "the beam of light grows brighter, clouds part slowly, waves shimmer, slow camera glide",
+      "vazia": true
+    },
+    {
+      "trecho": "Naquele mesmo instante, a filha dela foi curada. Mateus, capítulo quinze.",
+      "prompt_imagem": "interior of a poor ancient stone house at dawn, an open wooden door with golden morning light flooding in over a neatly folded wool blanket on a straw mat",
+      "prompt_movimento": "morning light spreads slowly across the floor, dust floats in the sunbeam, slow camera push-in",
+      "vazia": true
+    },
+    {
+      "trecho": "Se Deus parece calado, não desista. Fé insistente toca o coração de Jesus.",
+      "prompt_imagem": "view from inside a dark ancient stone doorway looking out to a bright sunrise over the Mediterranean sea, dust floating in the light",
+      "prompt_movimento": "slow camera pull-back through the dark doorway, the sunrise glows, dust floats in the light",
+      "vazia": true
+    }
+  ],
+  "legenda": "Senhor, me dá uma fé que não desiste 🙏\nMateus 15:21-28\nComente \"Amém\" se você vai continuar pedindo.",
+  "hashtags": [
+    "#Jesus",
+    "#fé",
+    "#mulhercananeia",
+    "#Bíblia"
+  ],
+  "fontes": [
+    "Mateus 15:21-28",
+    "Marcos 7:24-30"
+  ]
+}
