@@ -78,7 +78,7 @@ jobs:
         continue-on-error: true
         timeout-minutes: 5
       - if: steps.ff.outcome == 'failure' && steps.ff2.outcome == 'failure'
-        timeout-minutes: 10   # o apt já travou 50 min: com limite, falha rápido
+        timeout-minutes: 15   # build estático primeiro; apt só como reserva
         run: bash ferramentas/instalar_ffmpeg.sh
       - run: pip install -r requirements.txt kaggle six
       - name: Fontes
