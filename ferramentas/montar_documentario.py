@@ -22,10 +22,14 @@ for (titulo, corpo), plano_s in zip(secoes, visuais):
         if not buf:
             return
         item = plano_s[k % len(plano_s)]; k += 1
-        tipo, termo = next(iter(item.items()))
+        tipo, termo = next(iter(item.items())) if isinstance(item, dict) else [x.strip() for x in item.split(":", 1)]
         c = {"trecho": " ".join(buf), "prompt_imagem": f"documentary reconstruction, {termo}, prehistoric, natural light",
              "vazia": True, "animar": False}
-        c["busca_video" if tipo == "v" else "acervo"] = termo
+        if tipo == "i":  # reconstituição gerada por IA (Kaggle): o termo já é o prompt completo
+            c["prompt_imagem"] = termo
+            c["vazia"] = False
+        else:
+            c["busca_video" if tipo == "v" else "acervo"] = termo
         cenas.append(c); buf.clear()
     for f in frases:
         buf.append(f)

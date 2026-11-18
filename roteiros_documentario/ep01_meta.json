@@ -1,0 +1,52 @@
+{
+ "canal": "antes_de_nos",
+ "titulo": "Como os Humanos Sobreviveram Antes de Inventar as Roupas?",
+ "titulo_youtube": "Como os Humanos Sobreviveram Antes de Inventar as Roupas? | Documentário",
+ "tipo": "documentario",
+ "formato": "horizontal",
+ "duracao_max": 999,
+ "volume_musica": 0.0,
+ "opcoes_imagem": 1,
+ "palavras_por_bloco": 600,
+ "plataformas": [
+  "youtube"
+ ],
+ "fonte_imagem": "kaggle",
+ "fundo_video": "pixabay",
+ "texto_capa": [
+  "ANTES DAS",
+  "*ROUPAS",
+  "COMO SOBREVIVEMOS?"
+ ],
+ "selo_capa": "Documentário",
+ "cena_capa": 0,
+ "capa_prompt": "cinematic photo of a prehistoric family of early humans sitting close together around a small campfire inside a rocky cave at night, warm firelight on their faces and shoulders, animal furs on the ground, the left half of the frame dark and empty for text, realistic, documentary style, 16:9, no text",
+ "estilo_imagem": "photorealistic documentary reconstruction, National Geographic style, natural light, ultra detailed, horizontal 16:9, no text",
+ "prefixo_imagem": "documentary photo:",
+ "epoca_imagem": "prehistoric, Stone Age and Ice Age; no modern objects, no text, no watermark",
+ "estilo_voz": "narrador de documentário, calmo, caloroso e curioso",
+ "legenda": "Durante centenas de milhares de anos, nossos ancestrais viveram sem nenhuma roupa. Como enfrentaram o frio, o sol e as noites geladas? Neste documentário, descobrimos o que o suor, o fogo, as cavernas e até os piolhos revelam sobre quando a humanidade começou a se vestir, da caverna de 120 mil anos no Marrocos à agulha que conquistou a Era do Gelo.\n\nQue outra invenção você quer descobrir como surgiu? Escreva nos comentários.",
+ "hashtags": [
+  "#história",
+  "#documentário",
+  "#préhistória",
+  "#históriadahumanidade",
+  "#curiosidades"
+ ],
+ "fontes": [
+  "Toups et al., Molecular Biology and Evolution (2011) — origem dos piolhos de roupa",
+  "Hallett et al., iScience (2021) — ferramentas de osso da Caverna dos Contrabandistas, Marrocos",
+  "Hardy et al., Scientific Reports (2020) — cordão neandertal de Abri du Maras",
+  "Berna et al., PNAS (2012) — fogo na Caverna Wonderwerk",
+  "Jablonski & Chaplin — evolução da pele e da perda de pelos"
+ ],
+ "short_isca": {
+  "texto_topo": "PELADOS POR 1 MILHÃO DE ANOS",
+  "titulo": "Os piolhos revelaram quando começamos a usar roupa",
+  "hashtags": [
+   "historia",
+   "curiosidades",
+   "documentario"
+  ]
+ }
+}

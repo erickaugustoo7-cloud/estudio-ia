@@ -56,7 +56,7 @@ elif r.get("formato") == "horizontal":  # vídeo longo do YouTube (docs/MANUAL_L
             erros.append("estudo: convite para se inscrever no começo (até a cena 12)")
         if not any("inscreva" in c["trecho"].lower() for c in cenas[-3:]):
             erros.append("estudo: convite para se inscrever nas 3 últimas cenas")
-        if sum(bool(c.get("busca_video") or c.get("acervo")) for c in cenas) < len(cenas) * 0.8:
+        if r.get("fonte_imagem") != "kaggle" and sum(bool(c.get("busca_video") or c.get("acervo")) for c in cenas) < len(cenas) * 0.8:
             erros.append("estudo: cada cena precisa de busca_video (Pixabay) ou acervo (museu), em inglês")
     for campo in ("titulo_youtube", "texto_capa", "cena_capa", "legenda", "hashtags"):
         if not r.get(campo) and r.get(campo) != 0:
@@ -126,7 +126,7 @@ for i, c in enumerate(cenas, 1):
     p = c.get("prompt_imagem", "").lower()
     sem_neg = re.sub(r"\bno [a-z ,]+", "", p)  # ignora negações ("no faces, no people")
     sem_neg = re.sub(r"silhouettes? of (the )?(palm|tree|hill|mountain|city|temple|pyramid|ship|boat|wall|tower)\w*", "", sem_neg)
-    if not novela and re.search(PESSOAS, sem_neg) and not re.search(PERMITIDO, sem_neg):
+    if not novela and r.get("tipo") != "documentario" and re.search(PESSOAS, sem_neg) and not re.search(PERMITIDO, sem_neg):
         erros.append(f"cena {i}: pessoa como assunto da imagem → conte pela cena/objeto ({re.search(PESSOAS, sem_neg).group(0)})")
     if not novela and re.search(MODERNO, re.sub(r"\bno [a-z ]+", "", p)):
         erros.append(f"cena {i}: objeto moderno no prompt")

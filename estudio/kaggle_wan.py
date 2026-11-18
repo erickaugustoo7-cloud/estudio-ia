@@ -710,7 +710,13 @@ def main():
         canal_img.update({"moderno": True, "regra_visual_pessoas": r.get("personagens_regra", "")})
     if r.get("tipo") == "documentario":
         os.environ["SEM_PAISAGEM_RESERVA"] = "1"
-    if r.get("tipo") != "novela" and not os.getenv("USAR_KAGGLE"):
+        canal_img["documentario"] = True
+    if r.get("tipo") == "documentario" and r.get("fonte_imagem") == "kaggle":
+        # Antes de Nós (Eric autorizou em 18/11): imagens paradas de reconstituição no Kaggle, sem animação Wan;
+        # Pixabay só para paisagens puras e museus para as peças
+        for c in r["cenas"]:
+            c["animar"] = False
+    elif r.get("tipo") != "novela" and not os.getenv("USAR_KAGGLE"):
         # desde 16/11 (decisão do Eric): o Kaggle fica só para a novela; os demais vídeos usam paisagens REAIS
         # (Pixabay) com imagens geradas fora do Kaggle apenas como reserva
         r["fundo_video"] = "pixabay"
@@ -837,6 +843,8 @@ def main():
         for i, c in enumerate(r["cenas"]):
             if c.get("animar") or c.get("acervo"):  # cena de museu: a peça real vem do acervo, não do Pixabay
                 continue
+            if r.get("tipo") == "documentario" and not c.get("busca_video"):  # cena de reconstituição (imagem IA)
+                continue
             v = _pixabay_video(c["prompt_imagem"], min(tempos[i], 10), pasta / f"stock_{i}.mp4", usados_st, horizontal=horiz,
                                busca=c.get("busca_video"))
             if v:
@@ -865,7 +873,8 @@ def main():
     if fonte == "kaggle":
         from estudio.agentes.revisor_visual import _avaliar
         chave = os.getenv("GEMINI_API_KEY")
-        escolhidas, pendentes, prompts, motivos = {}, list(range(len(cenas_img))), {}, {}
+        prontas = {i: stock[i][1] for i in stock} | dict(acervo_img)  # cenas com vídeo real ou peça de museu
+        escolhidas, pendentes, prompts, motivos = {}, [i for i in range(len(cenas_img)) if i not in prontas], {}, {}
         reserva = {}  # só imagens que ficaram SEM revisão (Gemini fora do ar), nunca as reprovadas
         for rodada in (1, 2, 3):  # rodadas extras só para as cenas reprovadas, com o prompt corrigido pelo revisor
             if not pendentes:
@@ -877,7 +886,8 @@ def main():
                            "resolucao": "1344x768" if horiz else "768x1344",
                            "prompt": _prompt_imagem(base_p, estilo, cenas_img[i].get("vazia", True),
                                                     cenas_img[i].get("epoca_imagem") or
-                                                    r.get("epoca_imagem", "Strictly first century objects of clay, stone, wood and cloth"))}
+                                                    r.get("epoca_imagem", "Strictly first century objects of clay, stone, wood and cloth"),
+                                                    moderno=bool(r.get("moderno")) or r.get("tipo") == "documentario")}
                           for k in range(opcoes if rodada == 1 else max(opcoes, 2))]
             saida_img, rel_img = _rodar_kaggle(itens, pasta, f"imagens{rodada}")
             log("wan", f"imagens (rodada {rodada}): {rel_img[:200]}")
@@ -917,6 +927,11 @@ def main():
         if not escolhidas:
             raise SystemExit("nenhuma imagem passou na revisão — produção interrompida para não sair com erros")
         for i in range(len(cenas_img)):
+            if i in prontas:
+                img = pasta / f"cena_{i}.jpg"
+                shutil.copy(prontas[i], img)
+                imgs.append(img)
+                continue
             escolhida = escolhidas.get(i) or reserva.get(i)
             if i not in escolhidas and escolhida:
                 avisos.append(f"Cena {i + 1}: imagem sem revisão (Gemini indisponível) — confira antes de aprovar.")

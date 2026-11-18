@@ -11,7 +11,7 @@
  "plataformas": [
   "youtube"
  ],
- "fonte_imagem": "cloudflare",
+ "fonte_imagem": "kaggle",
  "fundo_video": "pixabay",
  "texto_capa": [
   "ANTES DAS",
@@ -21,9 +21,9 @@
  "selo_capa": "Documentário",
  "cena_capa": 0,
  "capa_prompt": "cinematic photo of a prehistoric family of early humans sitting close together around a small campfire inside a rocky cave at night, warm firelight on their faces and shoulders, animal furs on the ground, the left half of the frame dark and empty for text, realistic, documentary style, 16:9, no text",
- "estilo_imagem": "realistic documentary reconstruction, natural light, ultra detailed, horizontal 16:9, no text",
+ "estilo_imagem": "photorealistic documentary reconstruction, National Geographic style, natural light, ultra detailed, horizontal 16:9, no text",
  "prefixo_imagem": "documentary photo:",
- "epoca_imagem": "prehistoric, stone age; no modern objects, no text",
+ "epoca_imagem": "prehistoric, Stone Age and Ice Age; no modern objects, no text, no watermark",
  "estilo_voz": "narrador de documentário, calmo, caloroso e curioso",
  "legenda": "Durante centenas de milhares de anos, nossos ancestrais viveram sem nenhuma roupa. Como enfrentaram o frio, o sol e as noites geladas? Neste documentário, descobrimos o que o suor, o fogo, as cavernas e até os piolhos revelam sobre quando a humanidade começou a se vestir, da caverna de 120 mil anos no Marrocos à agulha que conquistou a Era do Gelo.\n\nQue outra invenção você quer descobrir como surgiu? Escreva nos comentários.",
  "hashtags": [
@@ -55,59 +55,55 @@
  "cenas": [
   {
    "trecho": "Feche os olhos por um instante e imagine uma noite fria. O vento sopra, a temperatura cai, e você não tem casaco, não tem cobertor, não tem nem uma camiseta.",
-   "prompt_imagem": "documentary reconstruction, campfire night, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "campfire night"
-  },
-  {
-   "trecho": "Nada. Só a sua pele. Agora imagine viver assim a vida inteira. E não só você: seus pais, seus avós, e os avós dos seus avós, por centenas de milhares de anos.",
-   "prompt_imagem": "documentary reconstruction, snow storm night, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "snow storm night"
-  },
-  {
-   "trecho": "Parece impossível. Mas foi exatamente assim que viveram os nossos ancestrais durante a maior parte da história humana. Hoje a roupa é tão comum que a gente nem pensa nela.",
    "prompt_imagem": "documentary reconstruction, starry night sky, prehistoric, natural light",
    "vazia": true,
    "animar": false,
    "busca_video": "starry night sky"
   },
   {
-   "trecho": "Mas houve um tempo, muito antes de nós, em que ela simplesmente não existia. Então, como essas pessoas sobreviveram? Como enfrentaram o frio, o sol, a chuva e os insetos?",
-   "prompt_imagem": "documentary reconstruction, african savanna sunset, prehistoric, natural light",
+   "trecho": "Nada. Só a sua pele. Agora imagine viver assim a vida inteira. E não só você: seus pais, seus avós, e os avós dos seus avós, por centenas de milhares de anos.",
+   "prompt_imagem": "a small group of early humans seen from behind, huddled together in tall grass under a cold night sky in the African savanna, wind, moonlight, wide shot, cinematic documentary photo",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Parece impossível. Mas foi exatamente assim que viveram os nossos ancestrais durante a maior parte da história humana. Hoje a roupa é tão comum que a gente nem pensa nela.",
+   "prompt_imagem": "documentary reconstruction, snowstorm, prehistoric, natural light",
    "vazia": true,
    "animar": false,
-   "busca_video": "african savanna sunset"
+   "busca_video": "snowstorm"
+  },
+  {
+   "trecho": "Mas houve um tempo, muito antes de nós, em que ela simplesmente não existia. Então, como essas pessoas sobreviveram? Como enfrentaram o frio, o sol, a chuva e os insetos?",
+   "prompt_imagem": "a lonely prehistoric man seen from behind standing in waist-high grass at dusk on an open plain, cold blue light, wide shot, realistic documentary reconstruction",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "E quando, exatamente, alguém teve a ideia de cobrir o próprio corpo pela primeira vez? A resposta envolve suor, fogo, cavernas, e até piolhos. Sim, piolhos.",
-   "prompt_imagem": "documentary reconstruction, wind grass field, prehistoric, natural light",
+   "prompt_imagem": "documentary reconstruction, starry night sky, prehistoric, natural light",
    "vazia": true,
    "animar": false,
-   "busca_video": "wind grass field"
+   "busca_video": "starry night sky"
   },
   {
    "trecho": "Eles guardaram por milhares de anos um dos segredos mais curiosos da nossa história. Antes de começar, se você gosta de descobrir como viviam os que vieram antes de nós, inscreva-se no canal e ative o sininho.",
-   "prompt_imagem": "documentary reconstruction, campfire night, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "campfire night"
+   "prompt_imagem": "a small group of early humans seen from behind, huddled together in tall grass under a cold night sky in the African savanna, wind, moonlight, wide shot, cinematic documentary photo",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "Toda semana tem um documentário novo por aqui. Agora, vamos voltar no tempo. Muito tempo.",
-   "prompt_imagem": "documentary reconstruction, snow storm night, prehistoric, natural light",
+   "prompt_imagem": "documentary reconstruction, snowstorm, prehistoric, natural light",
    "vazia": true,
    "animar": false,
-   "busca_video": "snow storm night"
+   "busca_video": "snowstorm"
   },
   {
    "trecho": "Para entender a história das roupas, a gente precisa primeiro entender uma coisa estranha sobre o nosso corpo: nós somos quase pelados. Olhe para os nossos parentes mais próximos.",
-   "prompt_imagem": "documentary reconstruction, chimpanzee, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "chimpanzee"
+   "prompt_imagem": "a hairy chimpanzee sitting on a branch at the edge of a tropical forest, looking out at the open savanna, documentary photo, natural light",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "Chimpanzés, gorilas e orangotangos são cobertos de pelos grossos. Nós não. Temos pelos finos e quase invisíveis espalhados pelo corpo, mas nenhuma pelagem de verdade. Os cientistas acreditam que nossos ancestrais foram perdendo esse pelo ao longo de muito tempo, há mais de um milhão de anos, na África.",
@@ -118,66 +114,60 @@
   },
   {
    "trecho": "E por que alguém perderia uma proteção tão útil? A explicação mais aceita é o calor. Nossos ancestrais viviam em savanas abertas, sob um sol forte, e passavam o dia caminhando longas distâncias atrás de comida.",
-   "prompt_imagem": "documentary reconstruction, gorilla, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "gorilla"
+   "prompt_imagem": "a Homo erectus hunter seen from behind walking through waist-high golden grass across a sun-baked African savanna at midday, heat haze, very wide shot, documentary reconstruction",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "Alguns pesquisadores acreditam que eles chegavam a perseguir animais por horas, até que a presa caísse de cansaço. Esse tipo de vida exige um corpo que não superaqueça.",
-   "prompt_imagem": "documentary reconstruction, savanna sunset, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "savanna sunset"
+   "prompt_imagem": "tiny distant figures of early humans chasing an antelope across dry grassland, dust, long shadows, very wide aerial cinematic shot",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "E é aí que entra o nosso grande trunfo: o suor. O ser humano tem milhões de glândulas de suor espalhadas pela pele. Quando o suor evapora, ele leva o calor embora.",
-   "prompt_imagem": "documentary reconstruction, antelope savanna, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "antelope savanna"
-  },
-  {
-   "trecho": "Mas esse sistema só funciona bem numa pele sem pelagem. Um corpo peludo ficaria encharcado e quente. Então, de certa forma, nós trocamos o casaco natural por um ar-condicionado natural.",
    "prompt_imagem": "documentary reconstruction, dry grassland, prehistoric, natural light",
    "vazia": true,
    "animar": false,
    "busca_video": "dry grassland"
   },
   {
+   "trecho": "Mas esse sistema só funciona bem numa pele sem pelagem. Um corpo peludo ficaria encharcado e quente. Então, de certa forma, nós trocamos o casaco natural por um ar-condicionado natural.",
+   "prompt_imagem": "a hairy chimpanzee sitting on a branch at the edge of a tropical forest, looking out at the open savanna, documentary photo, natural light",
+   "vazia": false,
+   "animar": false
+  },
+  {
    "trecho": "Foi uma ótima troca no calor da savana. O problema viria depois, nas noites frias.",
-   "prompt_imagem": "documentary reconstruction, chimpanzee, prehistoric, natural light",
+   "prompt_imagem": "documentary reconstruction, african savanna, prehistoric, natural light",
    "vazia": true,
    "animar": false,
-   "busca_video": "chimpanzee"
+   "busca_video": "african savanna"
   },
   {
    "trecho": "Sem pelos, a pele dos nossos ancestrais ficou exposta ao sol forte da África. E o corpo encontrou uma solução: escurecer. A pele escura, rica em melanina, funciona como um filtro natural contra a radiação do sol.",
-   "prompt_imagem": "documentary reconstruction, sun rays savanna, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "sun rays savanna"
+   "prompt_imagem": "head and shoulders portrait of an early human woman with dark skin and thick hair over her shoulders in bright African sunlight, savanna behind, realistic documentary reconstruction",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "Estudos genéticos indicam que essa pele escura e permanente já estava estabelecida há cerca de um milhão e duzentos mil anos. Ou seja, a primeira \"roupa\" da humanidade não foi feita de couro nem de tecido.",
-   "prompt_imagem": "documentary reconstruction, africa landscape, prehistoric, natural light",
+   "prompt_imagem": "documentary reconstruction, savanna sunset, prehistoric, natural light",
    "vazia": true,
    "animar": false,
-   "busca_video": "africa landscape"
+   "busca_video": "savanna sunset"
   },
   {
    "trecho": "Foi a própria pele. E durante muito tempo, isso bastou. Na África tropical, de dia, um corpo sem roupa não era um problema. Era até uma vantagem.",
-   "prompt_imagem": "documentary reconstruction, sunset acacia tree, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "sunset acacia tree"
+   "prompt_imagem": "early human family resting under an acacia tree at sunset, savanna, warm light, wide shot",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "Mas a noite é outra história. Mesmo na África, as noites podem ser frias, principalmente nas regiões mais altas e no inverno. E aí entrou em cena a maior descoberta dos nossos antepassados.",
-   "prompt_imagem": "documentary reconstruction, night sky africa, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "night sky africa"
+   "prompt_imagem": "head and shoulders portrait of an early human woman with dark skin and thick hair over her shoulders in bright African sunlight, savanna behind, realistic documentary reconstruction",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "Antes de qualquer roupa, existia o fogo. Numa caverna da África do Sul chamada Wonderwerk, arqueólogos encontraram cinzas de plantas e ossos queimados a cerca de trinta metros da entrada, longe demais para terem sido atingidos por um raio.",
@@ -195,73 +185,65 @@
   },
   {
    "trecho": "Pense no que isso significava. O fogo esquentava as noites. Afastava animais perigosos. Cozinhava a comida, tornando a carne mais fácil de mastigar e de digerir.",
-   "prompt_imagem": "documentary reconstruction, fire flames dark, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "fire flames dark"
+   "prompt_imagem": "early humans gathered around a small fire inside a cave entrance at night, faces lit by flames, realistic documentary reconstruction",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "E reunia as pessoas em volta de uma mesma luz. É bem provável que, durante centenas de milhares de anos, o \"casaco\" dos nossos ancestrais tenha sido isso: uma fogueira acesa, corpos próximos uns dos outros e uma parede de pedra protegendo do vento.",
-   "prompt_imagem": "documentary reconstruction, cave entrance, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "cave entrance"
-  },
-  {
-   "trecho": "No começo, eles provavelmente não sabiam acender o fogo do zero. Precisavam aproveitar o fogo da natureza, como um incêndio causado por um raio, e mantê-lo vivo, alimentando as chamas dia e noite. Deixar o fogo apagar podia significar uma noite inteira no frio.",
    "prompt_imagem": "documentary reconstruction, flint tool, prehistoric, natural light",
    "vazia": true,
    "animar": false,
    "acervo": "flint tool"
   },
   {
+   "trecho": "No começo, eles provavelmente não sabiam acender o fogo do zero. Precisavam aproveitar o fogo da natureza, como um incêndio causado por um raio, e mantê-lo vivo, alimentando as chamas dia e noite. Deixar o fogo apagar podia significar uma noite inteira no frio.",
+   "prompt_imagem": "a Homo erectus carefully carrying a burning branch from a wildfire across the savanna at dusk, smoke, documentary reconstruction",
+   "vazia": false,
+   "animar": false
+  },
+  {
    "trecho": "Além do fogo, nossos ancestrais usavam a inteligência para escolher onde dormir. Cavernas e abrigos de rocha mantinham uma temperatura mais estável que o lado de fora.",
-   "prompt_imagem": "documentary reconstruction, cave interior, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "cave interior"
+   "prompt_imagem": "interior of a rock shelter with early humans sleeping close together on beds of dry grass and leaves, embers glowing, documentary reconstruction",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "As pedras guardavam um pouco do calor do dia e protegiam da chuva e do vento. Eles também usavam o recurso mais antigo de todos: uns aos outros.",
-   "prompt_imagem": "documentary reconstruction, rock shelter, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "rock shelter"
+   "prompt_imagem": "mother holding a sleeping child against her chest beside a dying fire in a cave, warm dim light, prehistoric",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "Dormir em grupo, bem juntos, reduz muito a perda de calor. Mães aqueciam os filhos com o próprio corpo, como fazem até hoje em qualquer lugar do mundo.",
-   "prompt_imagem": "documentary reconstruction, rain forest cave, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "rain forest cave"
+   "prompt_imagem": "rain falling outside a cave mouth while a prehistoric group stays dry inside around embers",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "E é possível que usassem folhas, capim e peles de animais como cama ou cobertor improvisado, muito antes de transformar essas peles em roupas de verdade.",
-   "prompt_imagem": "documentary reconstruction, leaves forest floor, prehistoric, natural light",
+   "prompt_imagem": "documentary reconstruction, forest rain, prehistoric, natural light",
    "vazia": true,
    "animar": false,
-   "busca_video": "leaves forest floor"
+   "busca_video": "forest rain"
   },
   {
    "trecho": "O problema é que coisas como folhas e peles apodrecem. Elas não deixam fósseis. Por isso, durante muito tempo, os cientistas não tinham como saber quando a roupa surgiu. Até que alguém teve uma ideia genial: perguntar aos piolhos.",
-   "prompt_imagem": "documentary reconstruction, fur texture, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "fur texture"
+   "prompt_imagem": "interior of a rock shelter with early humans sleeping close together on beds of dry grass and leaves, embers glowing, documentary reconstruction",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "Parece estranho, mas é verdade. Os piolhos ajudaram a ciência a descobrir quando começamos a nos vestir. Existem dois tipos de piolho que vivem nos seres humanos.",
-   "prompt_imagem": "documentary reconstruction, sunlight dust, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "sunlight dust"
+   "prompt_imagem": "extreme macro photo of a single louse clinging to a strand of human hair, scientific photography, black background",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "Um vive no couro cabeludo. O outro vive nas roupas e só desce até a pele para se alimentar. O piolho de roupa é tão adaptado a viver no tecido que os cientistas concluíram uma coisa simples: ele não poderia existir antes de existirem roupas.",
-   "prompt_imagem": "documentary reconstruction, tree roots, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "tree roots"
+   "prompt_imagem": "macro photo of a tiny louse on rough woven fabric fibers, scientific photography",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "Então, se fosse possível descobrir quando o piolho de roupa se separou do piolho da cabeça, saberíamos mais ou menos quando a humanidade começou a se vestir.",
@@ -272,31 +254,27 @@
   },
   {
    "trecho": "Foi exatamente isso que uma equipe da Universidade da Flórida fez. Os pesquisadores analisaram o DNA dos piolhos e calcularam quando os dois tipos começaram a se separar.",
-   "prompt_imagem": "documentary reconstruction, old paper texture, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "old paper texture"
+   "prompt_imagem": "an ancient African landscape at dawn with a small band of early humans walking in the distance, wide shot",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "O resultado foi publicado em 2011: essa separação aconteceu pelo menos há oitenta e três mil anos, e possivelmente há cento e setenta mil anos. Isso significa que o ser humano moderno começou a usar roupas ainda na África, muito antes de sair para conquistar o resto do mundo.",
-   "prompt_imagem": "documentary reconstruction, sunlight dust, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "sunlight dust"
+   "prompt_imagem": "extreme macro photo of a single louse clinging to a strand of human hair, scientific photography, black background",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "E significa também outra coisa surpreendente. Se perdemos o pelo há mais de um milhão de anos, e só começamos a usar roupas há cerca de cento e setenta mil anos, então nossos ancestrais passaram muito, muito tempo vivendo sem pelos e sem roupas.",
-   "prompt_imagem": "documentary reconstruction, tree roots, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "tree roots"
+   "prompt_imagem": "macro photo of a tiny louse on rough woven fabric fibers, scientific photography",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "Os piolhos deram uma pista. Mas a arqueologia queria encontrar provas físicas. E elas apareceram no Marrocos. Numa caverna perto do litoral atlântico, chamada Caverna dos Contrabandistas, arqueólogos encontraram mais de sessenta ferramentas feitas de osso.",
-   "prompt_imagem": "documentary reconstruction, morocco coast, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "morocco coast"
+   "prompt_imagem": "entrance of a sea cave on the Atlantic coast of Morocco at golden hour, waves below, no people",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "Elas têm entre noventa mil e cento e vinte mil anos. Algumas dessas ferramentas têm a ponta larga e arredondada, como uma espátula. E os sinais de desgaste nelas indicam que eram usadas para trabalhar couro e pele.",
@@ -307,66 +285,62 @@
   },
   {
    "trecho": "No mesmo lugar, os pesquisadores encontraram ossos de pequenos animais carnívoros, como raposas e gatos selvagens, com marcas de corte típicas de quem retira a pele inteira, para aproveitar o pelo.",
-   "prompt_imagem": "documentary reconstruction, cave entrance sea, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "cave entrance sea"
+   "prompt_imagem": "prehistoric person scraping the inside of a fox pelt with a flat bone tool at a cave entrance, close up of hands and pelt, documentary reconstruction",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "Pela primeira vez, havia uma prova concreta: há mais de cem mil anos, pessoas na África estavam preparando peles de animais, muito provavelmente para se vestir.",
-   "prompt_imagem": "documentary reconstruction, fox, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "fox"
-  },
-  {
-   "trecho": "Imagine a cena. Um grupo sentado na entrada da caverna, raspando uma pele com um osso afiado, limpando, amaciando, deixando secar. Um trabalho lento, paciente, feito com as mãos. Era o começo da moda humana.",
    "prompt_imagem": "documentary reconstruction, awl, prehistoric, natural light",
    "vazia": true,
    "animar": false,
    "acervo": "awl"
   },
   {
-   "trecho": "Enquanto isso, longe da África, outra espécie humana enfrentava um desafio muito maior: os neandertais. Eles viviam na Europa e na Ásia durante as eras do gelo, em lugares onde o inverno era longo e brutal.",
-   "prompt_imagem": "documentary reconstruction, winter forest snow, prehistoric, natural light",
+   "trecho": "Imagine a cena. Um grupo sentado na entrada da caverna, raspando uma pele com um osso afiado, limpando, amaciando, deixando secar. Um trabalho lento, paciente, feito com as mãos. Era o começo da moda humana.",
+   "prompt_imagem": "documentary reconstruction, fox, prehistoric, natural light",
    "vazia": true,
    "animar": false,
-   "busca_video": "winter forest snow"
+   "busca_video": "fox"
+  },
+  {
+   "trecho": "Enquanto isso, longe da África, outra espécie humana enfrentava um desafio muito maior: os neandertais. Eles viviam na Europa e na Ásia durante as eras do gelo, em lugares onde o inverno era longo e brutal.",
+   "prompt_imagem": "a Neanderthal family walking through a snowy European forest wrapped in animal hides, breath visible, documentary reconstruction",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "Sem alguma proteção para o corpo, sobreviver ali seria quase impossível. Os neandertais tinham ferramentas de pedra para raspar peles e dominavam o fogo. E uma descoberta recente mostrou que eles eram ainda mais habilidosos do que se imaginava.",
-   "prompt_imagem": "documentary reconstruction, neanderthal reconstruction, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "acervo": "neanderthal reconstruction"
-  },
-  {
-   "trecho": "Num abrigo de rocha no sul da França, chamado Abri du Maras, cientistas encontraram um pedacinho de cordão grudado numa ferramenta de pedra. Tem só seis milímetros.",
    "prompt_imagem": "documentary reconstruction, scraper stone tool, prehistoric, natural light",
    "vazia": true,
    "animar": false,
    "acervo": "scraper stone tool"
   },
   {
+   "trecho": "Num abrigo de rocha no sul da França, chamado Abri du Maras, cientistas encontraram um pedacinho de cordão grudado numa ferramenta de pedra. Tem só seis milímetros.",
+   "prompt_imagem": "Neanderthal man twisting tree bark fibers into a thin cord by hand, close up, firelight, documentary reconstruction",
+   "vazia": false,
+   "animar": false
+  },
+  {
    "trecho": "Mas é feito de fibras de árvore torcidas em três camadas, exatamente como uma corda de hoje. Esse cordão tem entre quarenta e um mil e cinquenta e dois mil anos.",
+   "prompt_imagem": "documentary reconstruction, neanderthal reconstruction, prehistoric, natural light",
+   "vazia": true,
+   "animar": false,
+   "acervo": "neanderthal reconstruction"
+  },
+  {
+   "trecho": "E fazer uma corda assim exige conhecer as plantas, saber quando colher as fibras e entender como torcê-las. Com cordas, é possível amarrar peles, prender ferramentas, fazer bolsas e redes.",
    "prompt_imagem": "documentary reconstruction, snowy mountains, prehistoric, natural light",
    "vazia": true,
    "animar": false,
    "busca_video": "snowy mountains"
   },
   {
-   "trecho": "E fazer uma corda assim exige conhecer as plantas, saber quando colher as fibras e entender como torcê-las. Com cordas, é possível amarrar peles, prender ferramentas, fazer bolsas e redes.",
-   "prompt_imagem": "documentary reconstruction, river winter, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "river winter"
-  },
-  {
    "trecho": "Ou seja: os neandertais tinham a tecnologia básica para criar roupas simples e amarradas ao corpo. Mas havia algo que eles, até onde sabemos, não tinham. Uma pequena invenção que mudaria a história da humanidade.",
-   "prompt_imagem": "documentary reconstruction, winter forest snow, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "winter forest snow"
+   "prompt_imagem": "a Neanderthal family walking through a snowy European forest wrapped in animal hides, breath visible, documentary reconstruction",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "Para entender por que a roupa se tornou tão importante, precisamos imaginar como era o planeta naquela época. Durante boa parte dos últimos cem mil anos, a Terra viveu longos períodos glaciais.",
@@ -377,38 +351,35 @@
   },
   {
    "trecho": "Enormes camadas de gelo cobriam o norte da Europa, da Ásia e da América. O nível do mar era bem mais baixo, porque muita água estava presa no gelo.",
+   "prompt_imagem": "woolly mammoths walking across a frozen Ice Age steppe in a snowstorm, epic wide shot, documentary reconstruction",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Nas regiões frias, o inverno podia durar a maior parte do ano. O vento cortava a pele, a neve cobria tudo, e a comida ficava escassa.",
    "prompt_imagem": "documentary reconstruction, snowstorm, prehistoric, natural light",
    "vazia": true,
    "animar": false,
    "busca_video": "snowstorm"
   },
   {
-   "trecho": "Nas regiões frias, o inverno podia durar a maior parte do ano. O vento cortava a pele, a neve cobria tudo, e a comida ficava escassa.",
-   "prompt_imagem": "documentary reconstruction, reindeer herd, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "reindeer herd"
+   "trecho": "Nesse mundo, os animais que sobreviviam eram os que tinham proteção grossa: mamutes peludos, rinocerontes lanudos, renas, ursos das cavernas. E aqui está uma ironia curiosa da nossa história.",
+   "prompt_imagem": "woolly rhinoceros and reindeer herd on an icy tundra under a pale sun, Ice Age, documentary reconstruction",
+   "vazia": false,
+   "animar": false
   },
   {
-   "trecho": "Nesse mundo, os animais que sobreviviam eram os que tinham proteção grossa: mamutes peludos, rinocerontes lanudos, renas, ursos das cavernas. E aqui está uma ironia curiosa da nossa história.",
+   "trecho": "Para enfrentar esse frio, os seres humanos usaram justamente a pele e o pelo desses animais. O casaco que a evolução tirou de nós, nós pegamos emprestado de outros bichos.",
    "prompt_imagem": "documentary reconstruction, mammoth, prehistoric, natural light",
    "vazia": true,
    "animar": false,
    "acervo": "mammoth"
   },
   {
-   "trecho": "Para enfrentar esse frio, os seres humanos usaram justamente a pele e o pelo desses animais. O casaco que a evolução tirou de nós, nós pegamos emprestado de outros bichos.",
-   "prompt_imagem": "documentary reconstruction, bison snow, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "bison snow"
-  },
-  {
    "trecho": "Caçar um animal grande dava comida para muitos dias, gordura para queimar, ossos para fazer ferramentas e uma pele enorme para se proteger. Nada era desperdiçado.",
-   "prompt_imagem": "documentary reconstruction, frozen landscape, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "frozen landscape"
+   "prompt_imagem": "prehistoric hunters dragging a huge mammoth hide across the snow, wide shot",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "Mas uma pele recém-tirada de um animal não serve como roupa. Ela apodrece, endurece e cheira mal em poucos dias. Transformá-la em algo que dure era um trabalho cheio de etapas.",
@@ -419,10 +390,9 @@
   },
   {
    "trecho": "Primeiro, era preciso raspar o lado de dentro, tirando toda a carne e a gordura. Era para isso que serviam tantas ferramentas de pedra e de osso encontradas pelos arqueólogos.",
-   "prompt_imagem": "documentary reconstruction, animal fur, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "animal fur"
+   "prompt_imagem": "a prehistoric woman scraping fat from a large animal hide stretched on wooden stakes, close up, documentary reconstruction",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "Depois, a pele precisava ser esticada e seca. E aí vinha a parte mais importante: amaciar e conservar o couro. Vários povos tradicionais, em diferentes partes do mundo, desenvolveram técnicas para isso.",
@@ -433,24 +403,22 @@
   },
   {
    "trecho": "Alguns esfregavam gordura ou óleo na pele. Outros defumavam o couro sobre o fogo, o que ajudava a protegê-lo da umidade e dos insetos. Outros ainda mastigavam o couro por horas, para deixá-lo macio.",
-   "prompt_imagem": "documentary reconstruction, campfire smoke, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "campfire smoke"
+   "prompt_imagem": "animal hide being smoked over a low fire on a wooden frame at a prehistoric camp, thin smoke, morning light",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "Também usavam pigmentos minerais, como o ocre, uma terra avermelhada que aparece em muitos sítios arqueológicos. O ocre pode ter ajudado a conservar o couro e, ao mesmo tempo, dava cor.",
-   "prompt_imagem": "documentary reconstruction, deer forest, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "deer forest"
+   "prompt_imagem": "prehistoric woman rubbing red ochre paste into a leather hide, close up of hands, firelight",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "Tudo isso levava dias, às vezes semanas. Uma roupa pronta era um bem precioso, feito para durar o máximo possível, consertado várias vezes e passado de uma pessoa para outra.",
-   "prompt_imagem": "documentary reconstruction, dry grass wind, prehistoric, natural light",
+   "prompt_imagem": "documentary reconstruction, stone scraper, prehistoric, natural light",
    "vazia": true,
    "animar": false,
-   "busca_video": "dry grass wind"
+   "acervo": "stone scraper"
   },
   {
    "trecho": "Essa invenção cabe na palma da mão. É a agulha com buraco. As agulhas de osso com furo, como as que usamos até hoje, começam a aparecer nos registros arqueológicos há cerca de quarenta mil anos.",
@@ -461,10 +429,9 @@
   },
   {
    "trecho": "Pode parecer pouca coisa. Mas pense no que uma agulha permite fazer. Com ela, você não precisa mais apenas amarrar uma pele no corpo. Você pode costurar.",
-   "prompt_imagem": "documentary reconstruction, tundra snow, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "tundra snow"
+   "prompt_imagem": "close up of prehistoric hands sewing two pieces of fur together with a bone needle and sinew thread, firelight, documentary reconstruction",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "Pode cortar peças sob medida e juntá-las. Pode fazer mangas, capuzes, calças, botas. Uma roupa costurada se ajusta ao corpo e prende o calor. Uma pele solta sobre os ombros, não.",
@@ -475,24 +442,22 @@
   },
   {
    "trecho": "Com roupas costuradas, o ser humano conseguiu enfrentar lugares que antes seriam mortais: as estepes geladas da Sibéria, as montanhas cobertas de neve e, mais tarde, o caminho gelado que levou os primeiros povos até as Américas.",
-   "prompt_imagem": "documentary reconstruction, siberia winter, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "siberia winter"
+   "prompt_imagem": "an Ice Age family in fitted sewn fur parkas with hoods walking across the frozen Siberian steppe, documentary reconstruction",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "Muitos pesquisadores acreditam que a agulha foi uma das ferramentas mais importantes da era do gelo. Sem ela, talvez a humanidade nunca tivesse se espalhado pelo planeta inteiro.",
-   "prompt_imagem": "documentary reconstruction, mountains snow sunrise, prehistoric, natural light",
+   "prompt_imagem": "documentary reconstruction, snowy mountains, prehistoric, natural light",
    "vazia": true,
    "animar": false,
-   "busca_video": "mountains snow sunrise"
+   "busca_video": "snowy mountains"
   },
   {
    "trecho": "As peles de animais vieram primeiro. Mas os nossos ancestrais também descobriram as fibras das plantas. Numa caverna da Geórgia, no Cáucaso, arqueólogos encontraram fibras de linho selvagem com mais de trinta mil anos.",
-   "prompt_imagem": "documentary reconstruction, flax field, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "flax field"
+   "prompt_imagem": "wild flax plants with blue flowers growing near a cave in the Caucasus mountains, morning light",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "Algumas estavam torcidas, como fios. E algumas pareciam ter sido tingidas, com tons que iam do preto ao rosa e ao turquesa. Pense nisso: há trinta mil anos, alguém já se preocupava com a cor do que vestia.",
@@ -503,10 +468,9 @@
   },
   {
    "trecho": "Com o tempo, as pessoas aprenderam a trançar e a tecer. Há marcas de tecidos e cestos impressas em argila com cerca de vinte e sete mil anos.",
-   "prompt_imagem": "documentary reconstruction, linen thread, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "linen thread"
+   "prompt_imagem": "macro photo of ancient twisted plant fibers dyed in black, pink and turquoise, archaeological find on a lab table",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "E quando a agricultura surgiu, há uns dez mil anos, tudo mudou de novo. Os humanos passaram a criar ovelhas para tirar lã e a plantar linho e algodão. A roupa deixou de depender só da caça.",
@@ -531,10 +495,9 @@
   },
   {
    "trecho": "E numa caverna da Armênia, arqueólogos encontraram um sapato de couro inteiro, feito de uma única peça e amarrado com cordão, com cerca de cinco mil e quinhentos anos.",
-   "prompt_imagem": "documentary reconstruction, desert canyon, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "desert canyon"
+   "prompt_imagem": "ancient sagebrush bark sandals lying in the dust of a dry cave in Oregon, archaeological photo",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "Ele estava recheado de capim, talvez para manter o formato, talvez para esquentar o pé. Alguns cientistas acreditam que o uso de calçados é muito mais antigo do que essas descobertas, porque até os ossos dos dedos dos pés mudam um pouco quando uma pessoa usa sapatos a vida inteira.",
@@ -545,10 +508,9 @@
   },
   {
    "trecho": "Mais uma vez, a natureza das coisas faz a história parecer mais nova do que realmente é. O que é feito de couro e fibra desaparece. O que sobra são as pistas.",
-   "prompt_imagem": "documentary reconstruction, footprints sand, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "footprints sand"
+   "prompt_imagem": "close up of a 5500-year-old leather shoe stuffed with grass found in a cave in Armenia, museum photo style",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "Existe um detalhe muito interessante nessa história. Os humanos começaram a se enfeitar antes mesmo de ter roupas costuradas. No Marrocos, arqueólogos encontraram conchas furadas, usadas como contas de colar, com quase cento e cinquenta mil anos.",
@@ -559,31 +521,29 @@
   },
   {
    "trecho": "Isso mostra que, desde muito cedo, cobrir e decorar o corpo também era uma forma de dizer quem você era. Com o tempo, a roupa passou a indicar a qual grupo uma pessoa pertencia, se era jovem ou adulta, se era um líder, se estava de luto ou em festa.",
-   "prompt_imagem": "documentary reconstruction, sea shells beach, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "sea shells beach"
+   "prompt_imagem": "prehistoric person stringing perforated sea shells on a cord to make a necklace, close up, warm light",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "Até hoje é assim. A roupa protege do frio, mas também conta uma história sobre quem a veste. Pense em como você escolhe o que vai vestir para um casamento, para uma entrevista de emprego ou para ficar em casa num domingo.",
-   "prompt_imagem": "documentary reconstruction, ivory bead, prehistoric, natural light",
+   "prompt_imagem": "documentary reconstruction, bead necklace, prehistoric, natural light",
    "vazia": true,
    "animar": false,
-   "acervo": "ivory bead"
+   "acervo": "bead necklace"
   },
   {
    "trecho": "Essa escolha, que parece tão moderna, tem raízes muito antigas. Os arqueólogos encontraram, em túmulos da Era do Gelo, milhares de contas de marfim e de concha costuradas em roupas que já desapareceram.",
-   "prompt_imagem": "documentary reconstruction, bead necklace ancient, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "acervo": "bead necklace ancient"
+   "prompt_imagem": "an Ice Age burial seen from above with thousands of tiny ivory beads arranged in lines where clothing used to be, archaeology, soft light",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "Sobrou só o desenho das contas em volta dos ossos, mostrando onde ficavam as mangas, o capuz, a cintura. Fazer cada uma daquelas contas levava tempo.",
-   "prompt_imagem": "documentary reconstruction, bonfire night, prehistoric, natural light",
+   "prompt_imagem": "documentary reconstruction, campfire night, prehistoric, natural light",
    "vazia": true,
    "animar": false,
-   "busca_video": "bonfire night"
+   "busca_video": "campfire night"
   },
   {
    "trecho": "Ou seja, alguém dedicou centenas de horas para enfeitar a roupa de uma pessoa. Isso mostra cuidado, respeito e, talvez, amor.",
@@ -601,10 +561,9 @@
   },
   {
    "trecho": "Era um homem que tinha morrido há cerca de cinco mil e trezentos anos. Os cientistas o chamaram de Ötzi, o homem do gelo. O gelo preservou não só o corpo, mas também as roupas dele.",
-   "prompt_imagem": "documentary reconstruction, glacier alps, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "glacier alps"
+   "prompt_imagem": "Otzi the iceman reconstruction walking through the snowy Alps 5300 years ago wearing a bear fur hat, leather leggings and a grass cloak, documentary reconstruction",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "Ötzi usava um chapéu de pele de urso, uma capa e perneiras feitas de couro de animais, e sapatos de couro forrados com capim seco, para manter os pés quentes na neve.",
@@ -615,17 +574,16 @@
   },
   {
    "trecho": "Cada peça foi feita com cuidado, costurada à mão, escolhida para um tipo de uso. Era o resultado de dezenas de milhares de anos de conhecimento passado de geração em geração.",
-   "prompt_imagem": "documentary reconstruction, snowy peaks sunset, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "snowy peaks sunset"
+   "prompt_imagem": "close up of Otzi's grass-lined leather shoes in the snow, documentary reconstruction",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "Os cientistas analisaram o material de cada parte. Descobriram que as roupas dele misturavam couros de animais diferentes, como cabra, ovelha e boi, e que o chapéu era de urso.",
-   "prompt_imagem": "documentary reconstruction, mountain hut snow, prehistoric, natural light",
+   "prompt_imagem": "documentary reconstruction, glacier, prehistoric, natural light",
    "vazia": true,
    "animar": false,
-   "busca_video": "mountain hut snow"
+   "busca_video": "glacier"
   },
   {
    "trecho": "Algumas peças tinham sido consertadas, com costuras feitas por mãos diferentes. Isso nos diz algo bonito. Mesmo há cinco mil anos, alguém remendava a roupa que já estava gasta, em vez de jogar fora.",
@@ -636,10 +594,9 @@
   },
   {
    "trecho": "Talvez alguém da família dele. Talvez ele mesmo, numa noite fria, perto do fogo.",
-   "prompt_imagem": "documentary reconstruction, glacier alps, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "glacier alps"
+   "prompt_imagem": "Otzi the iceman reconstruction walking through the snowy Alps 5300 years ago wearing a bear fur hat, leather leggings and a grass cloak, documentary reconstruction",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "Então, como os humanos sobreviveram antes de inventar as roupas? Com um corpo feito para o calor, que suava para se refrescar. Com uma pele escura que protegia do sol.",
@@ -650,10 +607,9 @@
   },
   {
    "trecho": "Com o fogo, que esquentava as noites e afastava os perigos. Com cavernas, abrigos e o calor de uns aos outros. E, quando tudo isso já não bastava, eles inventaram algo novo.",
-   "prompt_imagem": "documentary reconstruction, sunrise mountains, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "sunrise mountains"
+   "prompt_imagem": "prehistoric family around a fire wearing fur clothing, children laughing, warm light, wide shot, documentary reconstruction",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "Primeiro, peles raspadas com ossos. Depois, cordões torcidos com fibras de árvore. Depois, a agulha. E então, o tecido. A próxima vez que você vestir um casaco num dia frio, lembre-se: ele é herdeiro de uma invenção que começou há mais de cem mil anos, em volta de uma fogueira, nas mãos de alguém que vivia antes de nós.",
@@ -664,10 +620,10 @@
   },
   {
    "trecho": "Se você gostou dessa viagem, deixe o seu like e conte nos comentários: que outra invenção você gostaria de descobrir como surgiu? E inscreva-se no Antes de Nós.",
-   "prompt_imagem": "documentary reconstruction, winter landscape sunrise, prehistoric, natural light",
+   "prompt_imagem": "documentary reconstruction, sunrise mountains, prehistoric, natural light",
    "vazia": true,
    "animar": false,
-   "busca_video": "winter landscape sunrise"
+   "busca_video": "sunrise mountains"
   },
   {
    "trecho": "No próximo documentário, vamos descobrir como era um dia normal no Egito Antigo, do nascer do sol até a hora de dormir.",

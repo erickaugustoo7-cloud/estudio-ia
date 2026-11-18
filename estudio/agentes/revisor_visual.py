@@ -77,8 +77,23 @@ Responda com rigor, item por item:
 Responda só JSON: {{"ok": true/false, "motivo": "curto, em português", "novo_prompt": "prompt corrigido em inglês, se reprovou"}}"""
 
 
+PERGUNTA_DOCUMENTARIO = """Você é o controle de qualidade de um documentário histórico realista (estilo National Geographic). Canal: {canal}.
+Trecho narrado nesta cena: "{trecho}"
+Descrição pedida para a imagem: "{prompt}"
+Época e lugar: {epoca}
+Responda com rigor, item por item:
+1. Há QUALQUER objeto moderno (roupa moderna, construção, estrada, poste, plástico, metal industrial, óculos, relógio)? Reprove.
+2. Há nudez (seios, nádegas ou genitais visíveis)? Reprove — o canal precisa ser seguro para anúncios.
+3. Rostos, mãos, corpos ou animais deformados (dedos a mais, membros fundidos, olhos tortos)? Reprove.
+4. Texto, letras, logotipos ou marca d'água? Reprove.
+5. A imagem mostra o que a descrição pede (época, lugar, ação)? Reprove só se estiver claramente diferente.
+Pessoas pré-históricas realistas são PERMITIDAS e desejadas quando a descrição pede.
+Responda só JSON: {{"ok": true/false, "motivo": "curto, em português", "novo_prompt": "prompt corrigido em inglês, se reprovou"}}"""
+
+
 def _avaliar(chave, canal, cena, img, rigoroso=False) -> dict:
-    modelo_pergunta = PERGUNTA_NOVELA if canal.get("moderno") else (PERGUNTA_RIGOROSA if rigoroso else PERGUNTA)
+    modelo_pergunta = PERGUNTA_DOCUMENTARIO if canal.get("documentario") else \
+        PERGUNTA_NOVELA if canal.get("moderno") else (PERGUNTA_RIGOROSA if rigoroso else PERGUNTA)
     texto = modelo_pergunta.format(canal=canal["nome"], trecho=cena.get("trecho", ""),
                             epoca=cena.get("epoca_imagem") or canal.get("epoca_imagem", "a da narração"),
                             prompt=cena.get("prompt_imagem", ""),
