@@ -408,7 +408,13 @@ def _pixabay_video(prompt: str, seg: float, destino: Path, usados: set, horizont
                          "metropolis", "building", "hotel", "construction", "hand", "hands", "finger", "scientist",
                          "researcher", "doctor", "student", "reading", "tourist", "hiker", "walking", "vehicle", "jeep",
                          "truck", "laundry", "clothesline", "vinyl", "record", "music", "volcano", "lava", "eruption",
-                         "horse", "farrier", "worker", "child", "family", "couple")
+                         "horse", "farrier", "worker", "child", "family", "couple",
+                         # nada feito pelo homem moderno num documentário de outras épocas
+                         "umbrella", "living room", "interior", "sofa", "couch", "furniture", "pillow", "cushion",
+                         "home", "house", "apartment", "room", "shop", "store", "records", "torii", "shrine", "temple",
+                         "japan", "cow", "cows", "cattle", "dairy", "tulip", "tulips", "farm", "farmland", "agriculture",
+                         "road", "bridge", "tractor", "fence", "railway", "train", "boat", "ship", "lighthouse", "pier",
+                         "plane", "airplane", "drone shot of city", "christmas", "decoration", "toy", "plastic")
         hits = [h for h in res.get("hits", []) if h["id"] not in usados and h.get("duration", 0) >= seg
                 and not any(x in h.get("tags", "").lower().split(", ") or f" {x}" in f" {h.get('tags', '').lower()}"
                             for x in proibidas)

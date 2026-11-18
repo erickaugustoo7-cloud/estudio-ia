@@ -83,7 +83,7 @@ def _wikimedia(q: str, n: int = 12) -> list[dict]:
 # nu artístico é permitido no YouTube, mas pode limitar anúncios: fica de fora
 _EVITAR = ("nude", "naked", "venus", "aphrodite", "bather", "life study", "eros", "erotic", "nymph", "satyr", "leda",
            "crucifixion", "skull", "mummy", "corpse", "execution", "battle scene", "athlete", "torso", "kouros",
-           "youth", "warrior figure", "male figure", "female figure", "bather")
+           "youth", "warrior figure", "male figure", "female figure", "bather", "portrait", "engraving of", "self-portrait")
 
 
 def _relevancia(c: dict, q: str) -> float:
