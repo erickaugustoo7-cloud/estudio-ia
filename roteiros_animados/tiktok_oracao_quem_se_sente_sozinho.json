@@ -1,0 +1,68 @@
+{
+  "titulo": "Oração para quem se sente sozinho",
+  "gancho_tela": "Você se sente sozinho?",
+  "referencia": "Deuteronômio 31:8",
+  "serie": "Oração de 20 segundos",
+  "tipo": "tiktok",
+  "fonte_imagem": "kaggle",
+  "opcoes_imagem": 2,
+  "duracao_max": 40,
+  "volume_musica": 0.12,
+  "plataformas": [
+    "facebook"
+  ],
+  "estilo_imagem": "cinematic photorealistic epic film still, soft dusk and dawn light, dramatic volumetric god rays, ancient Judea hill country, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic slow subtle motion.",
+  "epoca_imagem": "Ancient Judea, stone house, clay oil lamps, linen and wood only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "Você se sente sozinho, mesmo cercado de gente? Ore comigo agora.",
+      "prompt_imagem": "a single small clay oil lamp burning on a rough wooden table in a dim ancient stone room at night, warm glow in the darkness",
+      "vazia": true,
+      "animar": true,
+      "prompt_movimento": "the small flame flickers gently, soft shadows move on the stone wall, a linen curtain sways slightly"
+    },
+    {
+      "trecho": "Senhor, às vezes parece que ninguém vê o que eu carrego.",
+      "prompt_imagem": "an empty ancient dirt road stretching alone across a wide desert valley at dusk, long shadows, wide high view",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Mas a tua Palavra diz: o Senhor vai adiante de ti; ele será contigo.",
+      "prompt_imagem": "an old parchment scroll partly unrolled on a rough wooden table, warm ray of sunrise light falling across it",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Não te deixará, nem te desamparará. Não temas, nem te espantes.",
+      "prompt_imagem": "golden sunrise breaking over the hills of Judea, volumetric god rays through morning mist, wide high view",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Então eu não estou sozinho. Tu estás aqui comigo. Amém.",
+      "prompt_imagem": "two clay oil lamps burning side by side on a stone windowsill of an ancient house, soft blue dawn outside, calm and warm",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Siga o Mensageiro de Fé para orar comigo todos os dias.",
+      "prompt_imagem": "an ancient dirt road winding through green hills at sunrise, warm god rays, calm and peaceful",
+      "vazia": true,
+      "animar": false
+    }
+  ],
+  "legenda": "Para quem se sente sozinho hoje: \"O Senhor, pois, é aquele que vai adiante de ti; ele será contigo, não te deixará, nem te desamparará\" (Deuteronômio 31:8). Por quem você quer que eu ore? Comente 👇",
+  "hashtags": [
+    "#Oração",
+    "#Fé",
+    "#Deus",
+    "#Bíblia",
+    "#Cristão"
+  ],
+  "fontes": [
+    "Deuteronômio 31:8 — Almeida Atualizada (domínio público)"
+  ]
+}
