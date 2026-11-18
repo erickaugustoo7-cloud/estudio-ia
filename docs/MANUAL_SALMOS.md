@@ -1,5 +1,11 @@
 # Manual — Salmos narrados (voz do Eric)
 
+> **Título (dados do canal, 17/11 — vale acima de qualquer regra deste manual):** todo título de Short precisa ter
+> uma pergunta, um fato surpreendente ou uma história com personagem (ex.: "O diabo citou o Salmo 91 para Jesus",
+> "O pão dos pobres nas mãos de Jesus"). Títulos abstratos de 2–4 palavras ("Terei confiança", "Pausa no meio do dia")
+> ficaram com 3–7 views. Veja docs/REGRAS_FIXAS.md, regras 12–14.
+
+
 Um salmo (ou trecho de salmo) narrado com a **voz do Eric** (clone autorizado por ele), vertical 9:16, **70–120 s**,
 para TikTok, Instagram, Facebook e YouTube Shorts. Substitui os curtos de versículo sobre imagem, que o Instagram
 marcou como "conteúdo não original" em 12/11/2026. Originalidade é a prioridade.

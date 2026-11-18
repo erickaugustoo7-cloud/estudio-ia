@@ -1,5 +1,11 @@
 # Manual do roteirista — Animações (Mensageiro de Fé)
 
+> **Título (dados do canal, 17/11 — vale acima de qualquer regra deste manual):** todo título de Short precisa ter
+> uma pergunta, um fato surpreendente ou uma história com personagem (ex.: "O diabo citou o Salmo 91 para Jesus",
+> "O pão dos pobres nas mãos de Jesus"). Títulos abstratos de 2–4 palavras ("Terei confiança", "Pausa no meio do dia")
+> ficaram com 3–7 views. Veja docs/REGRAS_FIXAS.md, regras 12–14.
+
+
 Uma animação por execução: passagem bíblica marcante em **estilo cinematográfico realista, 45–75 s**, 8 a 12 planos, narrada.
 **Modelo aprovado pelo Eric (07/11): `roteiros_animados/daniel_cova_leoes.json`** — copie os campos `estilo_imagem`,
 `prefixo_imagem`, `prefixo_video` e adapte só `epoca_imagem` à época/lugar da história.

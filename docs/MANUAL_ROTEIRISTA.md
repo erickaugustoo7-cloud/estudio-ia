@@ -1,5 +1,11 @@
 # Manual do roteirista — Mensageiro de Fé (canal `biblico`)
 
+> **Título (dados do canal, 17/11 — vale acima de qualquer regra deste manual):** todo título de Short precisa ter
+> uma pergunta, um fato surpreendente ou uma história com personagem (ex.: "O diabo citou o Salmo 91 para Jesus",
+> "O pão dos pobres nas mãos de Jesus"). Títulos abstratos de 2–4 palavras ("Terei confiança", "Pausa no meio do dia")
+> ficaram com 3–7 views. Veja docs/REGRAS_FIXAS.md, regras 12–14.
+
+
 Este manual é lido pela sessão agendada do Claude que escreve **um roteiro verificado por execução**
 e manda produzir o vídeo. Ele resume tudo o que as métricas reais do TikTok do canal ensinaram.
 Siga à risca. Escreva tudo em português do Brasil.
