@@ -405,11 +405,20 @@ def _pixabay_video(prompt: str, seg: float, destino: Path, usados: set, horizont
             proibidas = ("people", "woman", "man", "girl", "boy", "person", "text", "city", "urban", "street", "car",
                          "traffic", "skyline", "downtown", "highway", "crowd", "logo", "animation", "3d", "business",
                          "face", "portrait", "selfie", "computer", "phone", "office", "skyscraper", "dubai",
-                         "metropolis", "building", "hotel", "construction")
+                         "metropolis", "building", "hotel", "construction", "hand", "hands", "finger", "scientist",
+                         "researcher", "doctor", "student", "reading", "tourist", "hiker", "walking", "vehicle", "jeep",
+                         "truck", "laundry", "clothesline", "vinyl", "record", "music", "volcano", "lava", "eruption",
+                         "horse", "farrier", "worker", "child", "family", "couple")
         hits = [h for h in res.get("hits", []) if h["id"] not in usados and h.get("duration", 0) >= seg
                 and not any(x in h.get("tags", "").lower().split(", ") or f" {x}" in f" {h.get('tags', '').lower()}"
                             for x in proibidas)
                 and (busca or any(x in h.get("tags", "").lower() for x in natureza))]
+        if busca and hits:  # só clipes cujas etiquetas falam do que a cena pede; os mais aderentes primeiro
+            pal = [w for w in busca.lower().split() if len(w) > 2]
+            def _ader(h):
+                tg = h.get("tags", "").lower()
+                return sum(w.rstrip("s") in tg for w in pal) / max(len(pal), 1)
+            hits = sorted([h for h in hits if _ader(h) >= 0.5], key=lambda h: -_ader(h))
         if busca and not hits:  # nada bom para a busca: volta para paisagem de paz
             log("wan", f"Pixabay sem clipe para '{busca}', usando paisagem")
             return _pixabay_video(prompt, seg, destino, usados, horizontal)

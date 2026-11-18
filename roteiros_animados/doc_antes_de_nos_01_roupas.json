@@ -125,17 +125,17 @@
   },
   {
    "trecho": "Alguns pesquisadores acreditam que eles chegavam a perseguir animais por horas, até que a presa caísse de cansaço. Esse tipo de vida exige um corpo que não superaqueça.",
-   "prompt_imagem": "documentary reconstruction, savanna sun heat, prehistoric, natural light",
+   "prompt_imagem": "documentary reconstruction, savanna sunset, prehistoric, natural light",
    "vazia": true,
    "animar": false,
-   "busca_video": "savanna sun heat"
+   "busca_video": "savanna sunset"
   },
   {
    "trecho": "E é aí que entra o nosso grande trunfo: o suor. O ser humano tem milhões de glândulas de suor espalhadas pela pele. Quando o suor evapora, ele leva o calor embora.",
-   "prompt_imagem": "documentary reconstruction, antelope running, prehistoric, natural light",
+   "prompt_imagem": "documentary reconstruction, antelope savanna, prehistoric, natural light",
    "vazia": true,
    "animar": false,
-   "busca_video": "antelope running"
+   "busca_video": "antelope savanna"
   },
   {
    "trecho": "Mas esse sistema só funciona bem numa pele sem pelagem. Um corpo peludo ficaria encharcado e quente. Então, de certa forma, nós trocamos o casaco natural por um ar-condicionado natural.",
@@ -251,17 +251,17 @@
   },
   {
    "trecho": "Parece estranho, mas é verdade. Os piolhos ajudaram a ciência a descobrir quando começamos a nos vestir. Existem dois tipos de piolho que vivem nos seres humanos.",
-   "prompt_imagem": "documentary reconstruction, microscope, prehistoric, natural light",
+   "prompt_imagem": "documentary reconstruction, sunlight dust, prehistoric, natural light",
    "vazia": true,
    "animar": false,
-   "busca_video": "microscope"
+   "busca_video": "sunlight dust"
   },
   {
    "trecho": "Um vive no couro cabeludo. O outro vive nas roupas e só desce até a pele para se alimentar. O piolho de roupa é tão adaptado a viver no tecido que os cientistas concluíram uma coisa simples: ele não poderia existir antes de existirem roupas.",
-   "prompt_imagem": "documentary reconstruction, old books library, prehistoric, natural light",
+   "prompt_imagem": "documentary reconstruction, tree roots, prehistoric, natural light",
    "vazia": true,
    "animar": false,
-   "busca_video": "old books library"
+   "busca_video": "tree roots"
   },
   {
    "trecho": "Então, se fosse possível descobrir quando o piolho de roupa se separou do piolho da cabeça, saberíamos mais ou menos quando a humanidade começou a se vestir.",
@@ -272,24 +272,24 @@
   },
   {
    "trecho": "Foi exatamente isso que uma equipe da Universidade da Flórida fez. Os pesquisadores analisaram o DNA dos piolhos e calcularam quando os dois tipos começaram a se separar.",
-   "prompt_imagem": "documentary reconstruction, laboratory, prehistoric, natural light",
+   "prompt_imagem": "documentary reconstruction, old paper texture, prehistoric, natural light",
    "vazia": true,
    "animar": false,
-   "busca_video": "laboratory"
+   "busca_video": "old paper texture"
   },
   {
    "trecho": "O resultado foi publicado em 2011: essa separação aconteceu pelo menos há oitenta e três mil anos, e possivelmente há cento e setenta mil anos. Isso significa que o ser humano moderno começou a usar roupas ainda na África, muito antes de sair para conquistar o resto do mundo.",
-   "prompt_imagem": "documentary reconstruction, microscope, prehistoric, natural light",
+   "prompt_imagem": "documentary reconstruction, sunlight dust, prehistoric, natural light",
    "vazia": true,
    "animar": false,
-   "busca_video": "microscope"
+   "busca_video": "sunlight dust"
   },
   {
    "trecho": "E significa também outra coisa surpreendente. Se perdemos o pelo há mais de um milhão de anos, e só começamos a usar roupas há cerca de cento e setenta mil anos, então nossos ancestrais passaram muito, muito tempo vivendo sem pelos e sem roupas.",
-   "prompt_imagem": "documentary reconstruction, old books library, prehistoric, natural light",
+   "prompt_imagem": "documentary reconstruction, tree roots, prehistoric, natural light",
    "vazia": true,
    "animar": false,
-   "busca_video": "old books library"
+   "busca_video": "tree roots"
   },
   {
    "trecho": "Os piolhos deram uma pista. Mas a arqueologia queria encontrar provas físicas. E elas apareceram no Marrocos. Numa caverna perto do litoral atlântico, chamada Caverna dos Contrabandistas, arqueólogos encontraram mais de sessenta ferramentas feitas de osso.",
@@ -412,45 +412,45 @@
   },
   {
    "trecho": "Mas uma pele recém-tirada de um animal não serve como roupa. Ela apodrece, endurece e cheira mal em poucos dias. Transformá-la em algo que dure era um trabalho cheio de etapas.",
-   "prompt_imagem": "documentary reconstruction, leather, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "leather"
-  },
-  {
-   "trecho": "Primeiro, era preciso raspar o lado de dentro, tirando toda a carne e a gordura. Era para isso que serviam tantas ferramentas de pedra e de osso encontradas pelos arqueólogos.",
    "prompt_imagem": "documentary reconstruction, stone scraper, prehistoric, natural light",
    "vazia": true,
    "animar": false,
    "acervo": "stone scraper"
   },
   {
-   "trecho": "Depois, a pele precisava ser esticada e seca. E aí vinha a parte mais importante: amaciar e conservar o couro. Vários povos tradicionais, em diferentes partes do mundo, desenvolveram técnicas para isso.",
-   "prompt_imagem": "documentary reconstruction, smoke fire, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "smoke fire"
-  },
-  {
-   "trecho": "Alguns esfregavam gordura ou óleo na pele. Outros defumavam o couro sobre o fogo, o que ajudava a protegê-lo da umidade e dos insetos. Outros ainda mastigavam o couro por horas, para deixá-lo macio.",
-   "prompt_imagem": "documentary reconstruction, ochre, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "acervo": "ochre"
-  },
-  {
-   "trecho": "Também usavam pigmentos minerais, como o ocre, uma terra avermelhada que aparece em muitos sítios arqueológicos. O ocre pode ter ajudado a conservar o couro e, ao mesmo tempo, dava cor.",
+   "trecho": "Primeiro, era preciso raspar o lado de dentro, tirando toda a carne e a gordura. Era para isso que serviam tantas ferramentas de pedra e de osso encontradas pelos arqueólogos.",
    "prompt_imagem": "documentary reconstruction, animal fur, prehistoric, natural light",
    "vazia": true,
    "animar": false,
    "busca_video": "animal fur"
   },
   {
-   "trecho": "Tudo isso levava dias, às vezes semanas. Uma roupa pronta era um bem precioso, feito para durar o máximo possível, consertado várias vezes e passado de uma pessoa para outra.",
-   "prompt_imagem": "documentary reconstruction, drying leather sun, prehistoric, natural light",
+   "trecho": "Depois, a pele precisava ser esticada e seca. E aí vinha a parte mais importante: amaciar e conservar o couro. Vários povos tradicionais, em diferentes partes do mundo, desenvolveram técnicas para isso.",
+   "prompt_imagem": "documentary reconstruction, ochre, prehistoric, natural light",
    "vazia": true,
    "animar": false,
-   "busca_video": "drying leather sun"
+   "acervo": "ochre"
+  },
+  {
+   "trecho": "Alguns esfregavam gordura ou óleo na pele. Outros defumavam o couro sobre o fogo, o que ajudava a protegê-lo da umidade e dos insetos. Outros ainda mastigavam o couro por horas, para deixá-lo macio.",
+   "prompt_imagem": "documentary reconstruction, campfire smoke, prehistoric, natural light",
+   "vazia": true,
+   "animar": false,
+   "busca_video": "campfire smoke"
+  },
+  {
+   "trecho": "Também usavam pigmentos minerais, como o ocre, uma terra avermelhada que aparece em muitos sítios arqueológicos. O ocre pode ter ajudado a conservar o couro e, ao mesmo tempo, dava cor.",
+   "prompt_imagem": "documentary reconstruction, deer forest, prehistoric, natural light",
+   "vazia": true,
+   "animar": false,
+   "busca_video": "deer forest"
+  },
+  {
+   "trecho": "Tudo isso levava dias, às vezes semanas. Uma roupa pronta era um bem precioso, feito para durar o máximo possível, consertado várias vezes e passado de uma pessoa para outra.",
+   "prompt_imagem": "documentary reconstruction, dry grass wind, prehistoric, natural light",
+   "vazia": true,
+   "animar": false,
+   "busca_video": "dry grass wind"
   },
   {
    "trecho": "Essa invenção cabe na palma da mão. É a agulha com buraco. As agulhas de osso com furo, como as que usamos até hoje, começam a aparecer nos registros arqueológicos há cerca de quarenta mil anos.",
@@ -531,10 +531,10 @@
   },
   {
    "trecho": "E numa caverna da Armênia, arqueólogos encontraram um sapato de couro inteiro, feito de uma única peça e amarrado com cordão, com cerca de cinco mil e quinhentos anos.",
-   "prompt_imagem": "documentary reconstruction, oregon desert, prehistoric, natural light",
+   "prompt_imagem": "documentary reconstruction, desert canyon, prehistoric, natural light",
    "vazia": true,
    "animar": false,
-   "busca_video": "oregon desert"
+   "busca_video": "desert canyon"
   },
   {
    "trecho": "Ele estava recheado de capim, talvez para manter o formato, talvez para esquentar o pé. Alguns cientistas acreditam que o uso de calçados é muito mais antigo do que essas descobertas, porque até os ossos dos dedos dos pés mudam um pouco quando uma pessoa usa sapatos a vida inteira.",
@@ -615,17 +615,17 @@
   },
   {
    "trecho": "Cada peça foi feita com cuidado, costurada à mão, escolhida para um tipo de uso. Era o resultado de dezenas de milhares de anos de conhecimento passado de geração em geração.",
-   "prompt_imagem": "documentary reconstruction, bronze age, prehistoric, natural light",
-   "vazia": true,
-   "animar": false,
-   "acervo": "bronze age"
-  },
-  {
-   "trecho": "Os cientistas analisaram o material de cada parte. Descobriram que as roupas dele misturavam couros de animais diferentes, como cabra, ovelha e boi, e que o chapéu era de urso.",
    "prompt_imagem": "documentary reconstruction, snowy peaks sunset, prehistoric, natural light",
    "vazia": true,
    "animar": false,
    "busca_video": "snowy peaks sunset"
+  },
+  {
+   "trecho": "Os cientistas analisaram o material de cada parte. Descobriram que as roupas dele misturavam couros de animais diferentes, como cabra, ovelha e boi, e que o chapéu era de urso.",
+   "prompt_imagem": "documentary reconstruction, mountain hut snow, prehistoric, natural light",
+   "vazia": true,
+   "animar": false,
+   "busca_video": "mountain hut snow"
   },
   {
    "trecho": "Algumas peças tinham sido consertadas, com costuras feitas por mãos diferentes. Isso nos diz algo bonito. Mesmo há cinco mil anos, alguém remendava a roupa que já estava gasta, em vez de jogar fora.",

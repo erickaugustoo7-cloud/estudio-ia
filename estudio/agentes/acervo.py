@@ -82,7 +82,8 @@ def _wikimedia(q: str, n: int = 12) -> list[dict]:
 
 # nu artístico é permitido no YouTube, mas pode limitar anúncios: fica de fora
 _EVITAR = ("nude", "naked", "venus", "aphrodite", "bather", "life study", "eros", "erotic", "nymph", "satyr", "leda",
-           "crucifixion", "skull", "mummy", "corpse", "execution", "battle scene")
+           "crucifixion", "skull", "mummy", "corpse", "execution", "battle scene", "athlete", "torso", "kouros",
+           "youth", "warrior figure", "male figure", "female figure", "bather")
 
 
 def _relevancia(c: dict, q: str) -> float:
@@ -113,7 +114,9 @@ def baixar(q: str, destino: Path, min_lado: int = 900) -> dict | None:
     """Baixa a melhor imagem de museu para a busca (grande o bastante para vídeo 1080p). Devolve o crédito."""
     from PIL import Image
     cands = buscar(q)
-    melhores = [c for c in cands if c["rel"] >= 0.5]  # sem nada relevante: o roteiro cai para Pixabay/IA
+    n_pal = len([w for w in q.split() if len(w) > 2])
+    minimo = 0.99 if n_pal <= 2 else 0.6  # "copper axe" precisa ter "copper" E "axe" no título
+    melhores = [c for c in cands if c["rel"] >= minimo]  # sem nada relevante: o roteiro cai para Pixabay/IA
     random.shuffle(melhores[:6])
     for c in melhores[:10]:
         for url in (c["url"], c.get("url_menor")):
