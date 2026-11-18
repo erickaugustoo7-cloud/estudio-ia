@@ -38,7 +38,7 @@ def _dados(body: str) -> dict | None:
 def _artefato_ok(d: dict) -> bool:
     try:
         arts = json.loads(gh("api", f"repos/{{owner}}/{{repo}}/actions/runs/{d['run_id']}/artifacts"))["artifacts"]
-        return any(a["name"] == d["artefato"] and not a["expired"] for a in arts)
+        return any(a["name"] in (d["artefato"], f"video-biblico-{d['run_id']}") and not a["expired"] for a in arts)
     except Exception:  # noqa: BLE001
         return False
 

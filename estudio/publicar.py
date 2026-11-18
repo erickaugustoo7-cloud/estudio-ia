@@ -52,7 +52,10 @@ def main():
     destino = Path("baixado") / n
     destino.mkdir(parents=True, exist_ok=True)
     try:
-        gh("run", "download", dados["run_id"], "-n", dados["artefato"], "-D", str(destino))
+        try:
+            gh("run", "download", dados["run_id"], "-n", dados["artefato"], "-D", str(destino))
+        except subprocess.CalledProcessError:  # o kaggle-wan nomeia o artefato video-biblico-<run> em todos os canais
+            gh("run", "download", dados["run_id"], "-n", f"video-biblico-{dados['run_id']}", "-D", str(destino))
     except subprocess.CalledProcessError as e:
         gh("issue", "edit", n, "--remove-label", "publicando", "--remove-label", "aprovado")
         gh("issue", "comment", n, "--body",
