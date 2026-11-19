@@ -64,6 +64,7 @@ jobs:
             echo "na fila: $antes produção(ões) antes desta"; sleep 120
           done
       - uses: actions/checkout@v4
+        with: {ref: main}   # depois da fila, usar o roteiro mais novo (não o do momento do disparo)
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
