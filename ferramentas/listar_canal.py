@@ -11,8 +11,9 @@ if "access_token" not in tok:
     raise SystemExit(f"token recusado: {tok}")
 print("escopos:", tok.get("scope"))
 H = {"Authorization": f"Bearer {tok['access_token']}"}
-c = requests.get(f"{API}/channels", headers=H, params={"part": "contentDetails,snippet,statistics", "mine": "true"}).json()["items"][0]
+c = requests.get(f"{API}/channels", headers=H, params={"part": "contentDetails,snippet,statistics,status", "mine": "true"}).json()["items"][0]
 print("CANAL:", c["id"], c["snippet"]["title"], c["snippet"].get("customUrl"), "inscritos:", c["statistics"].get("subscriberCount"))
+print("STATUS_CANAL:", c.get("status"))
 if os.getenv("IDS"):  # status detalhado de vídeos específicos (envio recusado, processando…)
     v = requests.get(f"{API}/videos", headers=H, params={"part": "status,processingDetails,contentDetails,snippet",
                                                           "id": os.environ["IDS"]}).json()
