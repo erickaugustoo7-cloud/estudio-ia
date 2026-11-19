@@ -1,0 +1,68 @@
+{
+  "titulo": "Oração de 20 segundos pelo seu casamento antes de dormir",
+  "gancho_tela": "Ore pelo seu casamento",
+  "referencia": "Eclesiastes 4:12",
+  "serie": "Oração de 20 segundos",
+  "tipo": "tiktok",
+  "fonte_imagem": "kaggle",
+  "opcoes_imagem": 2,
+  "duracao_max": 40,
+  "volume_musica": 0.12,
+  "plataformas": [
+    "facebook"
+  ],
+  "estilo_imagem": "cinematic photorealistic epic film still, deep blue night and warm lamplight, dramatic volumetric light, ancient Judea village, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic slow subtle motion.",
+  "epoca_imagem": "Ancient Israel village at night, stone house, clay oil lamps, linen, wool, flax rope and wood only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "Antes de dormir, ore comigo vinte segundos pelo seu casamento.",
+      "prompt_imagem": "two small clay oil lamps burning side by side on a rough wooden shelf inside an ancient stone house at night, deep blue moonlight through a small window",
+      "vazia": true,
+      "animar": true,
+      "prompt_movimento": "the two small flames flicker gently and lean toward each other, a linen curtain sways softly in the night breeze"
+    },
+    {
+      "trecho": "Senhor, nesta noite eu te entrego o meu casamento.",
+      "prompt_imagem": "the wooden door of an ancient stone house at night, warm lamplight glowing through the gap, starry sky above",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Onde houve palavras duras, coloca perdão. Onde houve distância, coloca carinho.",
+      "prompt_imagem": "two clay cups and a broken loaf of bread on a rough wooden table beside a clay oil lamp, warm soft light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "A tua Palavra diz: o cordão de três dobras não se quebra tão depressa.",
+      "prompt_imagem": "close-up of a thick rope of three twisted flax strands lying on a wooden table, warm lamplight falling across it",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Sê tu o terceiro fio entre nós dois. Guarda o nosso lar. Amém.",
+      "prompt_imagem": "a quiet ancient village of flat-roofed stone houses under a vast starry night sky, wide high view, calm and peaceful",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Siga o Mensageiro de Fé para orar comigo todas as noites.",
+      "prompt_imagem": "moonlight over gentle hills of ancient Israel with a small stone house and one warm lit window far away, peaceful night",
+      "vazia": true,
+      "animar": false
+    }
+  ],
+  "legenda": "Antes de dormir, entregue seu casamento a Deus: \"o cordão de três dobras não se quebra tão depressa\" (Eclesiastes 4:12). Por qual casamento você quer que eu ore? Comente 👇",
+  "hashtags": [
+    "#Oração",
+    "#Casamento",
+    "#Fé",
+    "#Deus",
+    "#Cristão"
+  ],
+  "fontes": [
+    "Eclesiastes 4:12 — Almeida Revista e Corrigida / Corrigida Fiel (domínio público): \"e o cordão de três dobras não se quebra tão depressa\""
+  ]
+}
