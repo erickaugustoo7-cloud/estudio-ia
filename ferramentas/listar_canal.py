@@ -13,6 +13,13 @@ print("escopos:", tok.get("scope"))
 H = {"Authorization": f"Bearer {tok['access_token']}"}
 c = requests.get(f"{API}/channels", headers=H, params={"part": "contentDetails,snippet,statistics", "mine": "true"}).json()["items"][0]
 print("CANAL:", c["id"], c["snippet"]["title"], c["snippet"].get("customUrl"), "inscritos:", c["statistics"].get("subscriberCount"))
+if os.getenv("IDS"):  # status detalhado de vídeos específicos (envio recusado, processando…)
+    v = requests.get(f"{API}/videos", headers=H, params={"part": "status,processingDetails,contentDetails,snippet",
+                                                          "id": os.environ["IDS"]}).json()
+    print("IDS pedidos:", os.environ["IDS"], "encontrados:", len(v.get("items", [])))
+    for x in v.get("items", []):
+        print("STATUS", x["id"], x["status"], x.get("processingDetails"), x["contentDetails"].get("duration"),
+              x["snippet"]["thumbnails"].get("maxres", x["snippet"]["thumbnails"].get("high", {})).get("url"))
 pl = c["contentDetails"]["relatedPlaylists"]["uploads"]
 ids, tk = [], None
 while True:
