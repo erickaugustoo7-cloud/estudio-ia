@@ -1,0 +1,66 @@
+{
+  "titulo": "Por que a noite é escura se existem trilhões de estrelas?",
+  "gancho_tela": "Por que a noite é escura?",
+  "narracao": "Se existem trilhões de estrelas, por que a noite é escura? A culpa não é da distância, é do tempo. E a resposta revela que o universo teve um começo. Pense numa floresta enorme: para onde você olhar, a visão acaba num tronco. Com as estrelas deveria ser igual. Num universo infinito, eterno e cheio de estrelas, todo ponto do céu terminaria numa estrela. A noite brilharia como a superfície do Sol. Kepler já se incomodava com isso em mil seiscentos e dez. Em mil oitocentos e vinte e três, o astrônomo alemão Heinrich Olbers tornou o enigma famoso. A pista veio de um escritor. Em mil oitocentos e quarenta e oito, Edgar Allan Poe sugeriu que a luz das estrelas mais distantes ainda não chegou até nós. Ele estava no caminho certo. O universo tem cerca de treze vírgula oito bilhões de anos, e só vemos a luz que já teve tempo de chegar. E as estrelas não brilham para sempre. Além disso, a expansão do universo estica a luz. O brilho que sobrou do Big Bang vem de todas as direções, mas virou micro-ondas, invisível aos nossos olhos. Ou seja, a escuridão da noite é uma pista de que o universo teve um começo. Você já tinha pensado nisso ao olhar para o céu? Siga para descobrir uma curiosidade nova todo dia.",
+  "cenas": [
+    {
+      "trecho": "Se existem trilhões de estrelas, por que a noite é escura?",
+      "busca_imagem": "Milky Way night sky",
+      "prompt_imagem": "a dark night sky full of countless stars over a silent landscape, Milky Way glowing"
+    },
+    {
+      "trecho": "A culpa não é da distância, é do tempo. E a resposta revela que o universo teve um começo.",
+      "busca_imagem": "Hubble Ultra Deep Field",
+      "prompt_imagem": "deep field view of thousands of distant galaxies scattered across black space"
+    },
+    {
+      "trecho": "Pense numa floresta enorme: para onde você olhar, a visão acaba num tronco. Com as estrelas deveria ser igual.",
+      "busca_imagem": "dense star field",
+      "prompt_imagem": "a vast forest of tree trunks at dusk fading into the distance, every line of sight blocked by a trunk, cinematic"
+    },
+    {
+      "trecho": "Num universo infinito, eterno e cheio de estrelas, todo ponto do céu terminaria numa estrela. A noite brilharia como a superfície do Sol.",
+      "busca_imagem": "Sun surface SDO",
+      "prompt_imagem": "an entire sky blazing as bright as the surface of the Sun, overwhelming golden light, surreal"
+    },
+    {
+      "trecho": "Kepler já se incomodava com isso em mil seiscentos e dez. Em mil oitocentos e vinte e três, o astrônomo alemão Heinrich Olbers tornou o enigma famoso.",
+      "busca_imagem": "Milky Way center stars",
+      "prompt_imagem": "an antique brass telescope by a window under a starry night sky, nineteenth century observatory, no people"
+    },
+    {
+      "trecho": "A pista veio de um escritor. Em mil oitocentos e quarenta e oito, Edgar Allan Poe sugeriu que a luz das estrelas mais distantes ainda não chegou até nós.",
+      "busca_imagem": "distant galaxies Webb",
+      "prompt_imagem": "a beam of starlight travelling across immense dark space toward a tiny distant Earth"
+    },
+    {
+      "trecho": "Ele estava no caminho certo. O universo tem cerca de treze vírgula oito bilhões de anos, e só vemos a luz que já teve tempo de chegar. E as estrelas não brilham para sempre.",
+      "busca_imagem": "Webb deep field galaxies",
+      "prompt_imagem": "the earliest galaxies glowing faintly in the deep darkness of the young universe"
+    },
+    {
+      "trecho": "Além disso, a expansão do universo estica a luz. O brilho que sobrou do Big Bang vem de todas as direções, mas virou micro-ondas, invisível aos nossos olhos.",
+      "busca_imagem": "cosmic microwave background Planck",
+      "prompt_imagem": "map of the cosmic microwave background radiation, mottled orange and blue oval, the oldest light"
+    },
+    {
+      "trecho": "Ou seja, a escuridão da noite é uma pista de que o universo teve um começo. Você já tinha pensado nisso ao olhar para o céu? Siga para descobrir uma curiosidade nova todo dia.",
+      "busca_imagem": "night sky stars Earth",
+      "prompt_imagem": "a quiet hilltop under a dark star-filled sky, peaceful and vast"
+    }
+  ],
+  "legenda": "Se o universo tivesse infinitas estrelas desde sempre, a noite brilharia como o Sol. Ela é escura porque o universo tem cerca de 13,8 bilhões de anos. 🌌\nVocê já tinha pensado nisso? Comenta aqui 👇",
+  "hashtags": [
+    "#paradoxodeOlbers",
+    "#universo",
+    "#BigBang",
+    "#cosmologia"
+  ],
+  "fontes": [
+    "Britannica — Olbers' paradox (Olbers, astrônomo alemão, 1823; Kepler, 1610; toda linha de visão terminaria numa estrela; vida limitada das estrelas e universo jovem demais para a luz distante ter chegado)",
+    "The Conversation / UWA (2023) — Why is the sky dark at night? The 200-year history (céu tão brilhante quanto a superfície do Sol; Poe em Eureka, 1848; Kelvin, 1901; Harrison; radiação relíquia)",
+    "Edgar Allan Poe, Eureka (1848), seção 7 — eapoe.org ('no ray from it has yet been able to reach us at all')",
+    "Scientific American — Edgar Allan Poe, Cosmologist? (Harrison credita a Poe a solução do paradoxo de Olbers)",
+    "Space.com — What is the cosmic microwave background? (universo com 13,8 bilhões de anos; radiação que sobrou do Big Bang, invisível aos olhos, na faixa de micro-ondas)"
+  ]
+}
