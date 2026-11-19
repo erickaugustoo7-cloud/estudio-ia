@@ -1,0 +1,69 @@
+{
+  "titulo": "Por que Jesus dormia no meio da tempestade?",
+  "gancho_tela": "Jesus dormia na tempestade",
+  "referencia": "Marcos 4:35-41",
+  "serie": "O que quase ninguém sabe",
+  "tipo": "tiktok",
+  "fonte_imagem": "kaggle",
+  "opcoes_imagem": 2,
+  "duracao_max": 40,
+  "volume_musica": 0.12,
+  "plataformas": [
+    "facebook"
+  ],
+  "estilo_imagem": "cinematic photorealistic epic film still, stormy night, dramatic lightning and volumetric light, Sea of Galilee 1st century, muted dark blue and earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic slow subtle motion.",
+  "epoca_imagem": "Sea of Galilee, 1st century, small wooden fishing boat, linen sail, rope and clay only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "O barco estava se enchendo de água. E Jesus dormia numa almofada.",
+      "prompt_imagem": "small ancient wooden fishing boat on a stormy sea at night, huge waves crashing over the side, water flooding the deck, a simple linen cushion at the stern",
+      "vazia": false,
+      "animar": true,
+      "prompt_movimento": "waves crash over the wooden boat, water splashing onto the deck, torn sail flapping in the strong wind"
+    },
+    {
+      "trecho": "Vários discípulos eram pescadores do mar da Galileia. Conheciam aquelas águas.",
+      "prompt_imagem": "old fishing nets, ropes and clay jars piled on the shore of the Sea of Galilee at dusk, wooden boats pulled onto the stones",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E mesmo assim gritaram, com medo: Mestre, não se te dá que pereçamos?",
+      "prompt_imagem": "close-up of wet hands gripping the wooden edge of an ancient boat, storm water splashing, lightning in the dark sky",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "Ele acordou, repreendeu o vento e falou ao mar. E houve grande bonança.",
+      "prompt_imagem": "the Sea of Galilee suddenly calm and smooth as a mirror after the storm, a small wooden boat resting still, clouds parting with moonlight rays",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Quem conhecia o mar entrou em pânico. Quem fez o mar dormia em paz.",
+      "prompt_imagem": "a simple linen cushion at the wooden stern of an ancient fishing boat, soft moonlight, calm water around",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Siga o Mensageiro de Fé para mais do que quase ninguém sabe.",
+      "prompt_imagem": "wide view of the calm Sea of Galilee at sunrise, a tiny wooden boat far away in the distance, golden god rays",
+      "vazia": true,
+      "animar": false
+    }
+  ],
+  "legenda": "Pescadores experientes entraram em pânico, e Jesus dormia na popa sobre uma almofada (Marcos 4:38). Qual tempestade você quer entregar a Ele hoje? Comente 👇",
+  "hashtags": [
+    "#Jesus",
+    "#Bíblia",
+    "#Fé",
+    "#OQueQuaseNinguémSabe",
+    "#Cristão"
+  ],
+  "fontes": [
+    "Marcos 4:35-41 — Almeida (domínio público): \"Mestre, não se te dá que pereçamos?\" (Mc 4:38)",
+    "Marcos 1:16-20 — Simão, André, Tiago e João eram pescadores do mar da Galileia"
+  ]
+}
