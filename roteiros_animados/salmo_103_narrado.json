@@ -1,0 +1,64 @@
+{
+  "titulo": "Por que Davi deu uma ordem à própria alma? (Salmo 103)",
+  "gancho_tela": "DAVI DEU ORDEM À ALMA",
+  "referencia": "Salmos 103:1-13",
+  "serie": "Salmos narrados",
+  "tipo": "salmo",
+  "voz": "eric",
+  "fonte_imagem": "cloudflare",
+  "duracao_max": 180,
+  "volume_musica": 0.12,
+  "estilo_imagem": "cinematic photorealistic landscape, golden hour light, soft volumetric rays, peaceful and reverent, rich warm colors, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic slow subtle motion.",
+  "epoca_imagem": "untouched nature, no buildings, no modern objects",
+  "legenda": "Salmo 103 🙏 Bendize, ó minha alma, ao Senhor, e não te esqueças de nenhum de seus benefícios.\nSalmos 103:1-13 (Almeida)\nEscreva \"Amém\" e conte nos comentários um benefício de Deus que você não quer esquecer.",
+  "hashtags": [
+    "#Salmo103",
+    "#Salmos",
+    "#PalavraDeDeus",
+    "#Fé",
+    "#Oração"
+  ],
+  "fontes": [
+    "Salmos 103:1-13 — Almeida Revista e Corrigida (tradução de domínio público)"
+  ],
+  "cenas": [
+    {
+      "trecho": "Davi deu uma ordem à própria alma. Neste salmo ele não fala com o povo: fala consigo mesmo, para não esquecer o que Deus fez. Salmo cento e três. Ouça com calma.",
+      "prompt_imagem": "a brilliant sunrise bursting through dark storm clouds over rugged mountains, powerful volumetric rays of golden light, untouched nature",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Bendize, ó minha alma, ao Senhor, e tudo o que há em mim bendiga o seu santo nome. Bendize, ó minha alma, ao Senhor, e não te esqueças de nenhum de seus benefícios.",
+      "prompt_imagem": "a quiet mountain lake at dawn reflecting a golden sky, mist rising slowly from the water, untouched nature",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "É ele que perdoa todas as tuas iniquidades e sara todas as tuas enfermidades; quem redime a tua vida da perdição e te coroa de benignidade e de misericórdia; quem enche a tua boca de bens, de sorte que a tua mocidade se renova como a águia.",
+      "prompt_imagem": "a great eagle soaring high above sunlit mountain peaks and deep valleys, warm golden light, wide high aerial view, untouched nature",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "O Senhor faz justiça e juízo a todos os oprimidos. Fez notórios os seus caminhos a Moisés e os seus feitos aos filhos de Israel. Misericordioso e piedoso é o Senhor; longânimo e grande em benignidade. Não reprovará perpetuamente, nem para sempre reterá a sua ira.",
+      "prompt_imagem": "a vast rocky desert wilderness at sunrise with a tall mountain in the distance, soft clouds glowing above the summit, untouched nature",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Não nos tratou segundo os nossos pecados, nem nos retribuiu segundo as nossas iniquidades. Pois quanto o céu está elevado acima da terra, assim é grande a sua misericórdia para com os que o temem. Quanto está longe o Oriente do Ocidente, assim afasta de nós as nossas transgressões. Como um pai se compadece de seus filhos, assim o Senhor se compadece daqueles que o temem.",
+      "prompt_imagem": "an endless open plain under an immense sky, the sun rising on one horizon while the night fades on the other, soft light across the grass, untouched nature",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Deus tirou o seu pecado para tão longe quanto o Oriente está do Ocidente. Por isso, hoje, faça como Davi: mande a sua alma não esquecer. Se você crê nisso, escreva Amém. E siga o Mensageiro de Fé para ouvir um salmo por dia.",
+      "prompt_imagem": "a wooden cross on a rocky hilltop silhouetted against a glowing golden sunset sky with rays of light",
+      "vazia": true,
+      "animar": false
+    }
+  ]
+}
