@@ -6,6 +6,8 @@ on:
         default: YT_REFRESH_TOKEN
       ids:
         default: ""
+      tornar_publico:
+        default: ""
 jobs:
   listar:
     runs-on: ubuntu-latest
@@ -15,6 +17,7 @@ jobs:
       YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
       YT_REFRESH_TOKEN_CURIOSO: ${{ secrets.YT_REFRESH_TOKEN_CURIOSO }}
       IDS: ${{ inputs.ids }}
+      TORNAR_PUBLICO: ${{ inputs.tornar_publico }}
       TOKEN_ENV: ${{ inputs.token || 'YT_REFRESH_TOKEN' }}
     steps:
       - uses: actions/checkout@v4

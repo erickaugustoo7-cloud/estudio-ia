@@ -14,6 +14,12 @@ H = {"Authorization": f"Bearer {tok['access_token']}"}
 c = requests.get(f"{API}/channels", headers=H, params={"part": "contentDetails,snippet,statistics,status", "mine": "true"}).json()["items"][0]
 print("CANAL:", c["id"], c["snippet"]["title"], c["snippet"].get("customUrl"), "inscritos:", c["statistics"].get("subscriberCount"))
 print("STATUS_CANAL:", c.get("status"))
+if os.getenv("TORNAR_PUBLICO"):  # ex.: vídeo que o YouTube deixou não listado
+    for vid in os.environ["TORNAR_PUBLICO"].split(","):
+        r = requests.put(f"{API}/videos", headers=H, params={"part": "status"},
+                         json={"id": vid, "status": {"privacyStatus": "public", "selfDeclaredMadeForKids": False,
+                                                     "embeddable": True, "publicStatsViewable": True}})
+        print("TORNAR_PUBLICO", vid, r.status_code, r.text[:300])
 if os.getenv("IDS"):  # status detalhado de vídeos específicos (envio recusado, processando…)
     v = requests.get(f"{API}/videos", headers=H, params={"part": "status,processingDetails,contentDetails,snippet",
                                                           "id": os.environ["IDS"]}).json()
