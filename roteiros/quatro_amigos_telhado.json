@@ -1,0 +1,67 @@
+{
+  "titulo": "Quatro homens abriram o telhado para Jesus",
+  "gancho_tela": "Abriram o telhado para chegar até Jesus",
+  "estilo": "pintura",
+  "narracao": "Quatro homens abriram um buraco no telhado para chegar até Jesus. Eles carregavam um homem que não andava. Está em Marcos, capítulo dois. Mas a primeira coisa que Jesus disse ninguém esperava. Jesus estava numa casa em Cafarnaum. Tinha tanta gente que não sobrava lugar nem na porta. Os quatro não desistiram. Subiram no telhado, abriram o teto em cima de Jesus e desceram o homem deitado na maca. Jesus viu a fé deles. E disse ao homem: Filho, os seus pecados estão perdoados. Ele não começou pelas pernas. Começou pelo coração. Alguns mestres da lei pensaram: só Deus pode perdoar pecados. Jesus percebeu na hora. E disse ao paralítico: levante-se, pegue a sua maca e vá para casa. E ele se levantou na frente de todos. O povo ficou maravilhado e deu glória a Deus. Jesus viu a fé dos quatro. Às vezes você é quem carrega. Às vezes, é quem precisa ser carregado. E Jesus chama você de filho antes de tudo. Hoje, quem você vai levar até o telhado? Salve este vídeo para ouvir de novo quando precisar, e siga para receber uma palavra de fé todos os dias.",
+  "cenas": [
+    {
+      "trecho": "Quatro homens abriram um buraco no telhado para chegar até Jesus.",
+      "busca_imagem": "",
+      "prompt_imagem": "a mat with a lying man being lowered through a broken opening in a clay roof into a crowded stone room, a blaze of golden sunlight pouring down through the hole onto the upturned faces in shadow, dust floating in the light, four men silhouetted against the bright sky at the edge of the roof"
+    },
+    {
+      "trecho": "Eles carregavam um homem que não andava. Está em Marcos, capítulo dois. Mas a primeira coisa que Jesus disse ninguém esperava.",
+      "busca_imagem": "men carrying mat",
+      "prompt_imagem": "four men in ancient robes seen from behind carrying a friend lying on a simple mat along a dusty road toward a small stone town by a lake, early morning golden light"
+    },
+    {
+      "trecho": "Jesus estava numa casa em Cafarnaum. Tinha tanta gente que não sobrava lugar nem na porta.",
+      "busca_imagem": "crowd ancient doorway",
+      "prompt_imagem": "a dense crowd in ancient robes seen from behind pressing around the doorway of a small stone house in a lakeside village, warm lamplight glowing inside, no way in"
+    },
+    {
+      "trecho": "Os quatro não desistiram. Subiram no telhado, abriram o teto em cima de Jesus e desceram o homem deitado na maca.",
+      "busca_imagem": "men on flat roof",
+      "prompt_imagem": "four men in ancient robes seen from behind kneeling on a flat clay roof, pulling away branches and mud to open a hole, the sea of Galilee shining in the distance, golden sunlight"
+    },
+    {
+      "trecho": "Jesus viu a fé deles. E disse ao homem: Filho, os seus pecados estão perdoados.",
+      "busca_imagem": "light on lying man",
+      "prompt_imagem": "inside a crowded stone room a robed figure seen from behind standing before a man lying on a mat on the floor, a shaft of golden light falling from an opening in the roof above them, faces in shadow"
+    },
+    {
+      "trecho": "Ele não começou pelas pernas. Começou pelo coração. Alguns mestres da lei pensaram: só Deus pode perdoar pecados.",
+      "busca_imagem": "scribes whispering shadow",
+      "prompt_imagem": "a few men in ancient scholarly robes and head coverings sitting in the shadows of a stone room, turned toward each other in suspicion, scrolls on their laps, dim warm light"
+    },
+    {
+      "trecho": "Jesus percebeu na hora. E disse ao paralítico: levante-se, pegue a sua maca e vá para casa. E ele se levantou na frente de todos.",
+      "busca_imagem": "man standing carrying mat",
+      "prompt_imagem": "a man in ancient robes seen from behind standing up and lifting his rolled mat onto his shoulder in a crowded stone room, the crowd stepping back amazed in the golden light"
+    },
+    {
+      "trecho": "O povo ficou maravilhado e deu glória a Deus. Jesus viu a fé dos quatro. Às vezes você é quem carrega. Às vezes, é quem precisa ser carregado.",
+      "busca_imagem": "men walking together sunrise",
+      "prompt_imagem": "several men in ancient robes seen from behind walking together down a village street at sunrise, one carrying a rolled mat on his shoulder, arms around each other, golden light"
+    },
+    {
+      "trecho": "E Jesus chama você de filho antes de tudo. Hoje, quem você vai levar até o telhado? Salve este vídeo para ouvir de novo quando precisar, e siga para receber uma palavra de fé todos os dias.",
+      "busca_imagem": "roof sunrise silhouette",
+      "prompt_imagem": "two men seen from behind sitting on a flat clay roof at sunrise looking out over a quiet lakeside town, a warm golden sun rising ahead, peaceful and hopeful"
+    }
+  ],
+  "legenda": "Senhor, obrigado por quem me leva até Ti 🙏😭\nMarcos 2:1-12\nComente \"Amém\" e salve para lembrar de quem carregou você.",
+  "hashtags": [
+    "#Jesus",
+    "#amizade",
+    "#perdão",
+    "#fé"
+  ],
+  "fontes": [
+    "Marcos 2:1-2 (Jesus em casa em Cafarnaum; tanta gente que não havia lugar nem junto à porta)",
+    "Marcos 2:3-4 (quatro homens trazem um paralítico; abrem o telhado acima de Jesus e descem o leito)",
+    "Marcos 2:5 (vendo a fé deles: 'Filho, os seus pecados estão perdoados')",
+    "Marcos 2:6-8 (mestres da lei pensam: só Deus pode perdoar pecados; Jesus percebe imediatamente)",
+    "Marcos 2:9-12 ('levante-se, pegue o seu leito e vá para casa'; ele se levanta diante de todos; todos se maravilham e glorificam a Deus)"
+  ]
+}
