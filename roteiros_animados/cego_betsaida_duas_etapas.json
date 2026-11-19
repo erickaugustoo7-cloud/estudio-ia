@@ -1,0 +1,82 @@
+{
+  "titulo": "O cego que Jesus curou em duas etapas",
+  "gancho_tela": "Jesus curou ele em duas etapas",
+  "referencia": "Marcos 8:25",
+  "duracao_max": 90,
+  "volume_musica": 0.14,
+  "estilo_imagem": "cinematic photorealistic epic film still, dramatic volumetric god rays, floating dust particles, deep chiaroscuro, Bethsaida on the Sea of Galilee 1st century, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic epic film shot, slow and subtle motion.",
+  "epoca_imagem": "Fishing village of Bethsaida on the Sea of Galilee, 1st century Judea, basalt stone, clay, wood and cloth only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "O único milagre de Jesus que aconteceu em duas etapas foi com um cego.",
+      "prompt_imagem": "extreme close-up of two weathered hands gently covering closed eyes, a bright beam of heavenly light falling from above, dust glowing in the beam, dark background",
+      "prompt_movimento": "the beam of light grows brighter, dust sparkles slowly, slow camera push-in",
+      "vazia": false
+    },
+    {
+      "trecho": "Foi em Betsaida, vila de pescadores no mar da Galileia, terra de Pedro e André.",
+      "prompt_imagem": "wide aerial view of an ancient basalt stone fishing village on the shore of the Sea of Galilee at golden hour, wooden fishing boats pulled on the beach, hills behind",
+      "prompt_movimento": "slow aerial camera glide forward, gentle waves roll on the shore, haze drifts",
+      "vazia": true
+    },
+    {
+      "trecho": "Trouxeram um cego a Jesus e suplicaram que ele tocasse nele.",
+      "prompt_imagem": "narrow lane between dark basalt stone houses of an ancient fishing village, fishing nets drying on wooden poles, a worn wooden walking staff leaning on a wall, warm sunlight",
+      "prompt_movimento": "the nets sway gently in the breeze, dust floats in the sunlight, slow camera push-in",
+      "vazia": true
+    },
+    {
+      "trecho": "Jesus tomou o cego pela mão e o levou para fora do povoado.",
+      "prompt_imagem": "close-up of one strong hand holding another hand, leading it along a dusty path out of an ancient stone village gate, olive trees ahead, golden light",
+      "prompt_movimento": "golden dust floats in the light, olive leaves sway, slow camera tracking forward",
+      "vazia": false
+    },
+    {
+      "trecho": "Cuspiu nos olhos dele, impôs as mãos e perguntou: Você está vendo alguma coisa?",
+      "prompt_imagem": "close-up of two hands resting gently over closed eyes in soft side light, olive branches blurred behind, warm volumetric light",
+      "prompt_movimento": "the light glows softly, leaves sway gently in the background, very slow camera push-in",
+      "vazia": false
+    },
+    {
+      "trecho": "Ele respondeu: Vejo pessoas; elas parecem árvores andando.",
+      "prompt_imagem": "very blurry out of focus view of olive trees on a hillside near the Sea of Galilee, tiny figures far away in the distance, hazy washed-out light",
+      "prompt_movimento": "the soft blur shimmers slowly, leaves sway, haze drifts, static camera",
+      "vazia": false
+    },
+    {
+      "trecho": "A cura veio pela metade. E Jesus não parou ali.",
+      "prompt_imagem": "a half-lit ancient olive grove, one side in deep shadow and the other in a bright beam of light breaking through clouds",
+      "prompt_movimento": "the beam of light slowly widens across the grove, clouds move, slow camera glide",
+      "vazia": true
+    },
+    {
+      "trecho": "Mais uma vez colocou as mãos sobre os olhos dele, e ele via tudo claramente.",
+      "prompt_imagem": "crystal clear sharp view of the Sea of Galilee at sunrise from a hill with olive trees, fishing boats on the water, bright golden god rays, tiny figures far away in the distance",
+      "prompt_movimento": "golden sunrise light spreads across the water, boats drift gently, slow camera pull-back",
+      "vazia": false
+    },
+    {
+      "trecho": "Pouco antes, Jesus tinha dito aos discípulos: Vocês têm olhos e não veem?",
+      "prompt_imagem": "an empty wooden fishing boat resting on calm water of the Sea of Galilee at dusk, folded nets inside, soft purple sky",
+      "prompt_movimento": "the boat rocks gently, ripples spread slowly, clouds drift, static camera",
+      "vazia": true
+    },
+    {
+      "trecho": "Eles também enxergavam aos poucos. Marcos, capítulo oito, versículos vinte e dois a vinte e seis.",
+      "prompt_imagem": "an ancient dusty road winding along the Sea of Galilee into the hills at dawn, mist lifting, first rays of light",
+      "prompt_movimento": "mist lifts slowly, the light grows brighter along the road, slow camera glide forward",
+      "vazia": true
+    },
+    {
+      "trecho": "Se a sua cura veio pela metade, Jesus ainda não terminou. Ele toca de novo.",
+      "prompt_imagem": "view from inside a dark ancient stone doorway looking out to a bright sunrise over the Sea of Galilee, dust floating in the light",
+      "prompt_movimento": "slow camera push-in toward the bright doorway, the sunrise glows, dust floats in the light",
+      "vazia": true
+    }
+  ],
+  "legenda": "Senhor, termina a obra que começaste em mim 🙏\nMarcos 8:22-26\nComente \"Amém\" se você crê que Jesus toca de novo.",
+  "hashtags": ["#Jesus", "#milagre", "#Betsaida", "#Bíblia"],
+  "fontes": ["Marcos 8:22-26", "Marcos 8:18", "João 1:44"]
+}
