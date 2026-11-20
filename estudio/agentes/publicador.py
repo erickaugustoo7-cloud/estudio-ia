@@ -534,6 +534,22 @@ def youtube_upload(video: Path, titulo: str, descricao: str, tags: list[str] | N
                                 video.parent / "thumb.jpg", segundo=dur * 0.12)
     if capa and capa.exists():
         _enviar_capa(auth, v["id"], capa)
+    if desejado == "public" and priv == "public":
+        # o YouTube às vezes troca para "não listado" depois do processamento: confere e corrige por até 6 min
+        import time
+        for _ in range(12):
+            time.sleep(30)
+            try:
+                st = requests.get("https://www.googleapis.com/youtube/v3/videos", headers=auth,
+                                  params={"part": "status", "id": v["id"]}, timeout=30).json()["items"][0]["status"]
+            except Exception:  # noqa: BLE001
+                continue
+            if st.get("privacyStatus") == "unlisted":
+                requests.put("https://www.googleapis.com/youtube/v3/videos", headers=auth, params={"part": "status"},
+                             json={"id": v["id"], "status": {"privacyStatus": "public", "selfDeclaredMadeForKids": False,
+                                                             "embeddable": True, "publicStatsViewable": True}},
+                             timeout=30)
+                log("publicador", "YouTube deixou o vídeo não listado — corrigido para público")
     if priv != desejado:
         return {"status": "failed", "publicUrl": url,
                 "errorMessage": f"o YouTube deixou o vídeo como '{priv}' (app ainda não auditado) — publique pelo Studio"}
