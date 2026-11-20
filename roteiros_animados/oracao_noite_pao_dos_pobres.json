@@ -1,0 +1,782 @@
+{
+ "formato": "horizontal",
+ "duracao_max": 999,
+ "volume_musica": 0.0,
+ "opcoes_imagem": 1,
+ "palavras_por_bloco": 600,
+ "plataformas": [
+  "youtube"
+ ],
+ "estilo_imagem": "breathtaking real-world nature landscape photography, peaceful and serene, soft natural light, rich colors, ultra detailed, horizontal 16:9 widescreen, no people, no text",
+ "prefixo_imagem": "beautiful peaceful nature landscape photo:",
+ "prefixo_video": "Peaceful nature shot, very slow and gentle motion.",
+ "epoca_imagem": "real natural landscapes of today (sea, forest, waterfalls, mountains, lakes, sky); no people, no buildings, no text",
+ "fonte_imagem": "cloudflare",
+ "estilo_voz": "emocionado e íntimo, como quem ora de verdade por alguém que sofre; voz baixa, pausada, com ternura",
+ "tipo": "oracao",
+ "fundo_video": "pixabay",
+ "titulo": "Oração para dormir: o pão dos pobres nas mãos de Jesus (João 6 e Marcos 6)",
+ "titulo_youtube": "O Pão dos Pobres nas Mãos de Jesus… Ore Isso Antes de Dormir | João 6",
+ "gancho_tela": "O pão dos pobres",
+ "referencia": "João 6:1-14; Marcos 6:30-44",
+ "cena_capa": 81,
+ "texto_capa": [
+  "SEU POUCO",
+  "*BASTA",
+  "PARA DEUS"
+ ],
+ "selo_capa": "Oração da noite",
+ "capa_prompt": "a tired Brazilian mother in her forties praying with closed eyes at a simple kitchen table at night, a small loaf of rustic bread beside her hands, warm lamp light, a tear of hope, cinematic photo",
+ "legenda": "Jesus segurou nas mãos o pão mais barato daquele tempo: pão de cevada, o pão dos pobres. Nesta oração para dormir você ouve a história completa da multiplicação dos pães (João 6:1-14; Marcos 6:30-44) — o menino que entregou o pouco que tinha — e depois ora comigo por suas contas, sua casa, seus filhos e seu descanso. 🙏\n\nEste vídeo é a versão completa do nosso Short \"O pão dos pobres nas mãos de Jesus\".\n\n\"Recolhei os pedaços que sobejaram, para que nada se perca\" (João 6:12, Almeida).\n\nEscreva o seu pedido de oração nos comentários — eu vou orar por ele. Comente \"Amém\" e inscreva-se para orarmos juntos toda noite.",
+ "hashtags": [
+  "#OraçãoParaDormir",
+  "#MultiplicaçãoDosPães",
+  "#João6",
+  "#OraçãoDaNoite",
+  "#Fé"
+ ],
+ "fontes": [
+  "João 6:1-14 — Almeida",
+  "Marcos 6:30-44 — Almeida",
+  "Mateus 14:13-21 (quase cinco mil homens, além de mulheres e crianças)",
+  "Apocalipse 6:6 (trigo x cevada — paráfrase)",
+  "Mateus 20:2 (um dinheiro = um dia de trabalho)",
+  "Filipenses 4:19; Mateus 11:28; João 6:35; Salmo 23:1-2; Salmo 4:8 — Almeida"
+ ],
+ "ponte_short": "O pão dos pobres nas mãos de Jesus",
+ "short_isca": {
+  "cenas": [
+   28
+  ],
+  "texto_topo": "A ORDEM ESQUECIDA",
+  "titulo": "A ordem de Jesus depois da multiplicação que quase ninguém percebe",
+  "hashtags": [
+   "multiplicacaodospaes",
+   "jesus",
+   "oracao"
+  ]
+ },
+ "capitulos": [
+  {
+   "cena": 0,
+   "titulo": "O pão dos pobres"
+  },
+  {
+   "cena": 5,
+   "titulo": "Jesus e a multidão (Marcos 6)"
+  },
+  {
+   "cena": 16,
+   "titulo": "O menino dos cinco pães de cevada"
+  },
+  {
+   "cena": 29,
+   "titulo": "O que isso significa para você"
+  },
+  {
+   "cena": 34,
+   "titulo": "Oração: o pouco que eu tenho"
+  },
+  {
+   "cena": 39,
+   "titulo": "Pelas contas e pelo sustento"
+  },
+  {
+   "cena": 45,
+   "titulo": "Pela casa e pelos filhos"
+  },
+  {
+   "cena": 52,
+   "titulo": "Pela saúde e pelo cansaço"
+  },
+  {
+   "cena": 56,
+   "titulo": "Pela mente e pela ansiedade"
+  },
+  {
+   "cena": 61,
+   "titulo": "Perdão"
+  },
+  {
+   "cena": 65,
+   "titulo": "Pelos seus pedidos"
+  },
+  {
+   "cena": 70,
+   "titulo": "Promessas e silêncio"
+  },
+  {
+   "cena": 81,
+   "titulo": "A ordem sobre os pedaços"
+  },
+  {
+   "cena": 90,
+   "titulo": "Bênção final"
+  }
+ ],
+ "revelacao": {
+  "promessa_cena": 2,
+  "entrega_cena": 81,
+  "o_que": "a ordem de Jesus depois do milagre: 'Recolhei os pedaços que sobejaram, para que nada se perca' (João 6:12) — sobraram doze cestos, mais do que o menino entregou; Jesus não joga fora os pedaços da sua vida"
+ },
+ "cenas": [
+  {
+   "trecho": "Jesus segurou nas mãos o pão mais barato daquele tempo. Pão de cevada. O pão dos pobres. E foi com esse pão que Ele alimentou uma multidão inteira.",
+   "prompt_imagem": "a calm ocean at sunset with gentle waves rolling onto a quiet sandy beach",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+  },
+  {
+   "trecho": "Talvez você também sinta que tem pouco. Pouca força, pouco dinheiro, pouca fé para esta noite. Pouco tempo para quem você ama. E fica achando que o seu pouco não serve para nada.",
+   "prompt_imagem": "golden barley field swaying in the wind at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+  },
+  {
+   "trecho": "Mas essa história tem um detalhe no fim que quase ninguém percebe. Depois que todos comeram, Jesus deu uma ordem sobre os pedaços que sobraram. No final desta oração, eu vou te mostrar que ordem foi essa… e por que ela é sobre você.",
+   "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+  },
+  {
+   "trecho": "Se o dia foi pesado, se a conta não fechou, se o cansaço chegou antes da noite, fica comigo. Essa história foi escrita para quem sente que não tem o bastante.",
+   "prompt_imagem": "a calm blue lake surrounded by green hills at golden hour",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+  },
+  {
+   "trecho": "Primeiro, eu vou te contar o que aconteceu naquele monte, perto do mar da Galileia. Depois, vamos orar juntos, com calma. Fique confortável. Respire fundo… e venha comigo.",
+   "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist and sun rays",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+  },
+  {
+   "trecho": "A história está nos quatro evangelhos. É um dos poucos milagres que Mateus, Marcos, Lucas e João contaram. E ela começa com um grupo de homens muito cansados.",
+   "prompt_imagem": "green grassy hills by a calm lake under a soft evening sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Os discípulos tinham voltado de uma viagem. Contaram a Jesus tudo o que tinham feito e ensinado. E havia tanta gente indo e vindo, que eles não tinham tempo nem para comer.",
+   "prompt_imagem": "a starry night sky over calm mountains, milky way glowing",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Então Jesus disse uma frase que eu quero que você guarde para esta noite: Vinde vós, aqui à parte, a um lugar deserto, e repousai um pouco. Marcos 6, versículo 31.",
+   "prompt_imagem": "a gentle river flowing through a green valley at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Jesus queria que eles descansassem. Ele se importava com o cansaço deles. E Ele se importa com o seu. Mas, quando o barco chegou do outro lado, a multidão já estava lá, esperando.",
+   "prompt_imagem": "a field of wildflowers in a green meadow at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "E aqui está o coração de Jesus. Em vez de mandar todo mundo embora, Marcos diz que Ele teve compaixão deles, porque eram como ovelhas que não têm pastor.",
+   "prompt_imagem": "a crystal clear mountain lake reflecting snowy peaks at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Ele passou o dia ensinando. As horas foram passando. O sol começou a baixar. E aí surgiu o problema: era um lugar deserto, longe das aldeias, e milhares de pessoas estavam com fome.",
+   "prompt_imagem": "moonlight over a quiet sea with a calm horizon",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Os discípulos foram até Jesus com uma solução prática: manda essa gente embora, para comprar comida nas aldeias. E Jesus respondeu com uma frase que deixou todos sem chão: Dai-lhes vós de comer.",
+   "prompt_imagem": "golden wheat fields under a warm sunset sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "João conta que, antes disso, Jesus olhou para Filipe e perguntou: Onde compraremos pão, para estes comerem? E João explica por que Ele fez essa pergunta.",
+   "prompt_imagem": "a small stream with smooth stones running through a mossy forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Ele dizia isto para o experimentar; porque ele bem sabia o que havia de fazer. Repare nisso. Jesus já sabia. Antes de Filipe fazer a conta, Jesus já tinha a resposta.",
+   "prompt_imagem": "northern lights dancing over a calm snowy landscape",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Filipe fez a conta e se assustou: duzentos dinheiros de pão não lhes bastarão. Um dinheiro era o pagamento de um dia de trabalho. Era mais de meio ano de salário… e mesmo assim não daria.",
+   "prompt_imagem": "soft clouds over rolling green hills at dawn",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Talvez você conheça essa sensação. Você faz a conta da sua vida e ela não fecha. Não fecha no dinheiro, não fecha no tempo, não fecha na força. E dá vontade de dizer: não tem jeito.",
+   "prompt_imagem": "a calm ocean at sunset with gentle waves rolling onto a quiet sandy beach",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Foi aí que André apareceu. André, irmão de Simão Pedro, disse: Está aqui um rapaz que tem cinco pães de cevada e dois peixinhos; mas que é isto para tantos?",
+   "prompt_imagem": "golden barley field swaying in the wind at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Pão de cevada. Esse detalhe só João conta. E ele muda tudo. Naquele tempo, o pão de quem tinha mais recursos era de trigo. A cevada era mais barata. Era o pão de quem tinha pouco.",
+   "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "No livro do Apocalipse, num tempo de fome, uma medida de trigo custa o mesmo que três medidas de cevada. A cevada valia um terço. Era comida de pobre, de trabalhador… e até de cavalo.",
+   "prompt_imagem": "a calm blue lake surrounded by green hills at golden hour",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "E os dois peixinhos provavelmente eram peixes pequenos, salgados ou secos, para dar gosto ao pão. Era o lanche de um menino simples. A comida de alguém que não tinha muito.",
+   "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist and sun rays",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "A Bíblia não diz o nome dele. Não diz quem preparou aquele lanche. Só diz que ele tinha pouco. E que esse pouco foi parar nas mãos de Jesus.",
+   "prompt_imagem": "green grassy hills by a calm lake under a soft evening sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "E repare na pergunta de André: mas que é isto para tantos? É a mesma pergunta que a gente faz por dentro. O que é a minha oração para um problema tão grande? O que é a minha força para uma casa inteira?",
+   "prompt_imagem": "a starry night sky over calm mountains, milky way glowing",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Jesus não discutiu. Ele mandou o povo sentar. João lembra que havia muita relva naquele lugar. Marcos diz que era relva verde, e que eles se sentaram em grupos de cem e de cinquenta.",
+   "prompt_imagem": "a gentle river flowing through a green valley at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "João conta que a Páscoa estava próxima. Era primavera. Imagine a cena: a tarde caindo sobre o mar da Galileia, a grama verde, milhares de famílias sentadas, esperando. E um menino olhando o seu lanche nas mãos do Mestre.",
+   "prompt_imagem": "a field of wildflowers in a green meadow at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Antes de continuar: se esta história está tocando você, inscreva-se no canal e fique até o fim. Ainda tem uma parte que eu prometi te mostrar.",
+   "prompt_imagem": "a crystal clear mountain lake reflecting snowy peaks at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "E Jesus tomou os pães e, havendo dado graças, repartiu-os. Ele agradeceu por cinco pães de cevada. Ele não reclamou que era pouco. Ele deu graças pelo pouco.",
+   "prompt_imagem": "moonlight over a quiet sea with a calm horizon",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "E então aconteceu. O pão passou de mão em mão, e não acabava. O peixe passou de grupo em grupo, e não acabava. Todos comeram quanto queriam. Ninguém ficou com fome.",
+   "prompt_imagem": "golden wheat fields under a warm sunset sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Mateus faz a conta: eram quase cinco mil homens, sem contar as mulheres e as crianças. Pode ter sido o dobro disso, ou mais. Tudo começou com o lanche de um menino.",
+   "prompt_imagem": "a small stream with smooth stones running through a mossy forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Mas o milagre não terminou quando todos comeram. Jesus ainda deu uma ordem que quase ninguém percebe… uma ordem sobre os pedaços. No final da oração, eu vou te mostrar que ordem foi essa.",
+   "prompt_imagem": "northern lights dancing over a calm snowy landscape",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Agora pense comigo no que isso significa para você, nesta noite. Jesus não pediu um banquete. Ele não esperou alguém trazer pão de trigo. Ele usou o que estava ali.",
+   "prompt_imagem": "soft clouds over rolling green hills at dawn",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Talvez alguém já tenha te dito que o seu pouco não vale nada. Que você chegou tarde, que não tem estudo, que não tem o suficiente. Jesus pensa diferente. Ele começa justamente pelo pouco.",
+   "prompt_imagem": "a calm ocean at sunset with gentle waves rolling onto a quiet sandy beach",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "O seu pouco não precisa ficar bonito para ser entregue. Pode ser um pouco de fé misturada com medo. Pode ser uma oração cansada, sem palavras bonitas. Ele recebe.",
+   "prompt_imagem": "golden barley field swaying in the wind at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E Ele já sabe o que vai fazer. Lembra? Jesus perguntou a Filipe só para ensinar. A resposta já estava pronta. O seu problema não pega Deus de surpresa.",
+   "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Então, antes de dormir, eu quero orar com você. Feche os olhos. Coloque a mão no peito. Respire fundo… e solte o ar devagar. E repita comigo, no seu coração.",
+   "prompt_imagem": "a calm blue lake surrounded by green hills at golden hour",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Senhor Jesus… eu chego aqui no fim do dia com pouco. Eu não vou fingir que estou bem. Estou cansado. Estou cansada. E o que eu tenho parece não dar para tudo.",
+   "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist and sun rays",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Mas eu me lembro daquele menino. Ele não tinha muito, mas entregou. Então eu também entrego. Aqui está o meu pouco, Senhor. Os meus cinco pães de cevada. Toma nas Tuas mãos.",
+   "prompt_imagem": "green grassy hills by a calm lake under a soft evening sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Eu Te entrego a minha força que acabou. A paciência que faltou hoje. A palavra dura que eu disse. O choro que eu engoli. Não é muito… mas é o que eu tenho.",
+   "prompt_imagem": "a starry night sky over calm mountains, milky way glowing",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E eu Te agradeço, como Tu agradeceste pelos pães. Obrigado pelo pouco que eu tenho. Pelo teto. Pelo ar que eu respiro. Por estar vivo nesta noite. Ensina-me a ver o pouco como semente, e não como derrota.",
+   "prompt_imagem": "a gentle river flowing through a green valley at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Respire fundo mais uma vez… Lembra da ordem de Jesus sobre os pedaços que sobraram? Ela tem tudo a ver com o que você vai entregar agora. Já, já nós chegamos nela.",
+   "prompt_imagem": "a field of wildflowers in a green meadow at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Senhor, agora eu Te entrego as contas. Tu conheces cada uma. A que venceu. A que vai vencer. O número que não fecha. A geladeira que esvaziou antes do fim do mês.",
+   "prompt_imagem": "a crystal clear mountain lake reflecting snowy peaks at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Filipe fez a conta e se assustou. Eu também tenho me assustado com as minhas contas. Mas Tu não governas a minha vida pela calculadora. Tu governas com as Tuas mãos.",
+   "prompt_imagem": "moonlight over a quiet sea with a calm horizon",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Multiplica, Senhor, o pouco que entra nesta casa. Faz o salário render. Abre uma porta de trabalho para quem está desempregado. Dá sabedoria para gastar e coragem para recomeçar.",
+   "prompt_imagem": "golden wheat fields under a warm sunset sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "A Tua Palavra diz: o meu Deus, segundo as suas riquezas, suprirá todas as vossas necessidades em glória, por Cristo Jesus. Filipenses 4, versículo 19. Eu me apoio nisso esta noite.",
+   "prompt_imagem": "a small stream with smooth stones running through a mossy forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Tira de mim a vergonha de ter pouco. O menino não teve vergonha do pão de cevada. Que eu também não tenha vergonha de pedir, de receber ajuda, de começar pequeno.",
+   "prompt_imagem": "northern lights dancing over a calm snowy landscape",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Fica comigo… Ainda tem uma parte desta história guardada para o final. Uma ordem de Jesus que quase ninguém percebe. Mas antes, vamos orar pela sua casa.",
+   "prompt_imagem": "soft clouds over rolling green hills at dawn",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Senhor, eu Te entrego a minha casa. Cada quarto. Cada pessoa que dorme debaixo deste teto. E também quem não está aqui hoje, mas mora no meu coração.",
+   "prompt_imagem": "a calm ocean at sunset with gentle waves rolling onto a quiet sandy beach",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Alguém preparou aquele lanche simples para o menino levar. Alguém que deu o pouco que tinha. E Tu usaste esse pouco para alimentar milhares. Usa o meu cuidado também, Senhor.",
+   "prompt_imagem": "golden barley field swaying in the wind at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Pelos meus filhos, eu oro. Pelos que estão perto e pelos que estão longe. Pelos que oram comigo e pelos que se afastaram. Alimenta o coração deles com aquilo que eu não consigo dar.",
+   "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Tu tiveste compaixão da multidão, porque eram como ovelhas sem pastor. Tem compaixão dos meus. Sê o pastor deles quando eu não estiver por perto. Guarda o caminho deles esta noite.",
+   "prompt_imagem": "a calm blue lake surrounded by green hills at golden hour",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Pelo meu casamento, Senhor… se o amor anda frio, se as palavras andam curtas, coloca o nosso pouco nas Tuas mãos. O pouco de carinho que sobrou. Multiplica.",
+   "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist and sun rays",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E por quem mora sozinho, ouvindo esta oração no escuro do quarto: Senhor, senta com essa pessoa na relva verde. Que ela sinta que tem lugar na Tua mesa.",
+   "prompt_imagem": "green grassy hills by a calm lake under a soft evening sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Respire… Os discípulos ainda não sabiam, mas iam descer daquele monte com as mãos cheias. Eu vou te mostrar por quê. Antes, vamos orar pelo seu corpo cansado.",
+   "prompt_imagem": "a starry night sky over calm mountains, milky way glowing",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Senhor, Tu disseste aos Teus: vinde à parte e repousai um pouco. Eu aceito esse convite agora. Eu preciso descansar. O meu corpo pede. A minha mente pede.",
+   "prompt_imagem": "a gentle river flowing through a green valley at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Toca na dor que eu sinto e não conto para ninguém. Toca no exame que eu estou esperando. No remédio que eu tomo. Na noite em que eu não consigo dormir. Tu és o médico dos médicos.",
+   "prompt_imagem": "a field of wildflowers in a green meadow at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E eu oro por quem está num leito de hospital esta noite. Por quem está cuidando de alguém doente e já não aguenta mais. Dá força a quem cuida, Senhor. Dá alívio a quem sofre.",
+   "prompt_imagem": "a crystal clear mountain lake reflecting snowy peaks at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Jesus disse: vinde a mim, todos os que estais cansados e oprimidos, e eu vos aliviarei. Mateus 11, versículo 28. Eu venho, Senhor. Do jeito que eu estou.",
+   "prompt_imagem": "moonlight over a quiet sea with a calm horizon",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Agora, Senhor, eu Te entrego a minha mente. Os pensamentos que giram sem parar. O medo do amanhã. As contas que eu faço de madrugada, como Filipe, e que nunca fecham.",
+   "prompt_imagem": "golden wheat fields under a warm sunset sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Lembra-me de novo: Tu já sabes o que vais fazer. Antes de eu perguntar, Tu já tens a resposta. Então eu não preciso resolver tudo esta noite. Eu posso descansar.",
+   "prompt_imagem": "a small stream with smooth stones running through a mossy forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Eu tiro das minhas costas o peso de ser o salvador de todo mundo. Eu não sou o pão. Tu és o pão. Eu só entrego o que tenho, e Tu fazes o milagre.",
+   "prompt_imagem": "northern lights dancing over a calm snowy landscape",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Depois desse milagre, Jesus disse: eu sou o pão da vida. João 6, versículo 35. Ele não só dá o pão. Ele é o pão. Ele é o que sustenta quando tudo acaba.",
+   "prompt_imagem": "soft clouds over rolling green hills at dawn",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Respire fundo… Tem uma palavra de Jesus, logo depois do milagre, que fala dos pedaços da sua vida. Nós vamos chegar nela já. Antes, eu quero falar de perdão.",
+   "prompt_imagem": "a calm ocean at sunset with gentle waves rolling onto a quiet sandy beach",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Senhor, há pedaços quebrados no meu coração. Pessoas que me feriram. Palavras que ainda doem. Eu não consigo apagar isso sozinho. Mas eu Te entrego.",
+   "prompt_imagem": "golden barley field swaying in the wind at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Eu escolho perdoar, mesmo que o sentimento ainda não tenha chegado. Eu solto essa pessoa nas Tuas mãos. Não quero dormir mais uma noite carregando esse peso.",
+   "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E perdoa-me também, Senhor. Pelas vezes em que eu duvidei. Em que eu disse, como André: mas que é isto para tantos? Pelas vezes em que eu achei que Tu não davas conta.",
+   "prompt_imagem": "a calm blue lake surrounded by green hills at golden hour",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E ajuda-me a me perdoar. Pelos erros que eu repito na cabeça. Pelos anos que eu acho que perdi. Se Tu me perdoaste, eu não preciso continuar me castigando.",
+   "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist and sun rays",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Agora eu quero orar pelo seu pedido. Se você tem um pedido de oração, escreva nos comentários. Eu vou ler e orar por ele. Pode ser só um nome. Deus sabe o resto.",
+   "prompt_imagem": "green grassy hills by a calm lake under a soft evening sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Senhor, eu apresento cada pedido escrito aqui. A mãe que pede pelo filho. O pai que pede emprego. A mulher que espera um diagnóstico. Quem pede a volta de alguém que foi embora.",
+   "prompt_imagem": "a starry night sky over calm mountains, milky way glowing",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Tu conheces cada nome. Tu viste cada lágrima antes de ela cair. Recebe esses pedidos como recebeste os cinco pães. Dá graças sobre eles. E multiplica a Tua resposta.",
+   "prompt_imagem": "a gentle river flowing through a green valley at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E por quem está longe de Ti esta noite. Quem já orou muito e parou. Quem acha que Deus esqueceu. Senhor, encontra essa pessoa no lugar deserto, como encontraste aquela multidão.",
+   "prompt_imagem": "a field of wildflowers in a green meadow at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Se é você, eu quero te dizer: Jesus não manda ninguém embora com fome. Os discípulos queriam despedir a multidão. Ele não deixou. Ele quer alimentar você também.",
+   "prompt_imagem": "a crystal clear mountain lake reflecting snowy peaks at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Agora, apenas descanse. Eu vou ler algumas promessas bem devagar. Você não precisa fazer nada. Só ouvir. E deixar a Palavra cair no coração como pão.",
+   "prompt_imagem": "moonlight over a quiet sea with a calm horizon",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "O Senhor é o meu pastor, nada me faltará. Salmo 23, versículo 1. Nada me faltará. Nem esta noite. Nem amanhã. Nem no mês que vem.",
+   "prompt_imagem": "golden wheat fields under a warm sunset sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Deitar-me faz em verdes pastos. Salmo 23, versículo 2. Repare… é a relva verde onde a multidão se sentou. O Pastor que faz deitar é o mesmo que alimentou aquela gente.",
+   "prompt_imagem": "a small stream with smooth stones running through a mossy forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Em paz também me deitarei e dormirei, porque só tu, Senhor, me fazes habitar em segurança. Salmo 4, versículo 8.",
+   "prompt_imagem": "northern lights dancing over a calm snowy landscape",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Respire fundo… segure um pouco… e solte devagar. Mais uma vez. Inspire a paz de Deus… e solte o peso do dia.",
+   "prompt_imagem": "soft clouds over rolling green hills at dawn",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Imagine-se sentado naquela relva verde, à beira do mar da Galileia. A tarde caindo. Uma brisa leve vindo da água. Ninguém te cobrando nada.",
+   "prompt_imagem": "a calm ocean at sunset with gentle waves rolling onto a quiet sandy beach",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Alguém passa e coloca um pedaço de pão nas suas mãos. Pão simples. Pão de cevada. Mas é o suficiente. Você come em paz. Você não está sozinho na multidão.",
+   "prompt_imagem": "golden barley field swaying in the wind at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Fique um instante em silêncio com Ele… Não precisa falar. Ele está perto. Ele teve compaixão daquela multidão. E Ele tem compaixão de você agora.",
+   "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Deixe os ombros relaxarem. Deixe a testa relaxar. Solte as mãos. O que não está resolvido continua nas mãos de Jesus enquanto você dorme. Ele não dorme.",
+   "prompt_imagem": "a calm blue lake surrounded by green hills at golden hour",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Pense nas mãos de Jesus segurando aquele pão. Mãos que partiam o pão sem pressa. Mãos que não deixaram ninguém de fora. São essas mãos que seguram a sua vida agora.",
+   "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist and sun rays",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Se vier um pensamento de preocupação, não brigue com ele. Só diga baixinho: isso também está nas mãos de Jesus. E volte a respirar devagar.",
+   "prompt_imagem": "green grassy hills by a calm lake under a soft evening sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "E agora eu cumpro o que prometi lá no começo. Depois que todos comeram até ficar satisfeitos, Jesus disse aos discípulos: Recolhei os pedaços que sobejaram, para que nada se perca.",
+   "prompt_imagem": "a starry night sky over calm mountains, milky way glowing",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "Para que nada se perca. Jesus tinha acabado de fazer um milagre gigante… e se preocupou com os pedaços. As migalhas. O que ficou caído na grama. Ele não deixou nada para trás.",
+   "prompt_imagem": "a gentle river flowing through a green valley at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "E sabe quanto sobrou? João diz que encheram doze cestos de pedaços dos cinco pães de cevada. Sobrou muito mais do que o menino tinha entregado no começo.",
+   "prompt_imagem": "a field of wildflowers in a green meadow at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "Doze cestos. E eram doze discípulos. Os mesmos que tinham dito: não dá, manda o povo embora. É como se Deus respondesse a dúvida de cada um deles com um cesto cheio.",
+   "prompt_imagem": "a crystal clear mountain lake reflecting snowy peaks at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "Agora escute isto como se fosse para você, porque é. Talvez a sua vida esteja em pedaços. Um casamento que quebrou. Um sonho que ficou pela metade. Uma fé que se partiu no meio do caminho.",
+   "prompt_imagem": "moonlight over a quiet sea with a calm horizon",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "Jesus não joga fora os seus pedaços. Ele manda recolher. Um por um. Para que nada se perca. Nem as suas lágrimas. Nem os anos difíceis. Nem você.",
+   "prompt_imagem": "golden wheat fields under a warm sunset sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "O que você acha que sobrou de você, nas mãos de Jesus, ainda alimenta muita gente. O seu pouco entregue vira mais do que você tinha. É assim que Ele faz.",
+   "prompt_imagem": "a small stream with smooth stones running through a mossy forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "Então durma sabendo disso. O pão dos pobres, nas mãos de Jesus, alimentou uma multidão. E os pedaços da sua vida, nas mãos dele, não estão perdidos.",
+   "prompt_imagem": "northern lights dancing over a calm snowy landscape",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "Obrigado pelo menino dos cinco pães. Obrigado por André, que levou aquele menino até Jesus. Que eu também seja alguém que leva pessoas até Ti, Senhor.",
+   "prompt_imagem": "soft clouds over rolling green hills at dawn",
+   "vazia": true,
+   "animar": false,
+   "emocao": "paz e bênção, voz suave de despedida"
+  },
+  {
+   "trecho": "Obrigado, Senhor, pelo pouco que eu tenho. Obrigado porque nas Tuas mãos ele basta. Eu Te entrego esta noite, o meu sono e o meu amanhã. Recolhe os meus pedaços.",
+   "prompt_imagem": "a calm ocean at sunset with gentle waves rolling onto a quiet sandy beach",
+   "vazia": true,
+   "animar": false,
+   "emocao": "paz e bênção, voz suave de despedida"
+  },
+  {
+   "trecho": "Se esta oração te ajudou, mande este vídeo para alguém que está achando que tem pouco. E escreva Amém nos comentários, para eu orar por você também.",
+   "prompt_imagem": "golden barley field swaying in the wind at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "paz e bênção, voz suave de despedida"
+  },
+  {
+   "trecho": "Que o Deus que multiplicou cinco pães de cevada multiplique a paz na sua casa. Que Ele sustente os seus filhos, as suas contas e o seu coração.",
+   "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
+   "vazia": true,
+   "animar": false,
+   "emocao": "paz e bênção, voz suave de despedida"
+  },
+  {
+   "trecho": "Se você quer orar comigo outras noites, inscreva-se no canal. Durma em paz. Nada do que você entregou a Jesus se perde. Em nome de Jesus… amém.",
+   "prompt_imagem": "a calm blue lake surrounded by green hills at golden hour",
+   "vazia": true,
+   "animar": false,
+   "emocao": "paz e bênção, voz suave de despedida"
+  }
+ ]
+}
