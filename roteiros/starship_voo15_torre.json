@@ -1,0 +1,65 @@
+{
+  "titulo": "A torre que agarrou uma nave voltando do espaço",
+  "gancho_tela": "Uma torre tentou agarrar dois foguetes",
+  "narracao": "Uma torre tentou agarrar dois foguetes no ar. Um ela pegou. O outro caiu no mar. E o que ela pegou nunca tinha sido pego antes. Foi o voo quinze da Starship, lançado no dia treze de novembro, no Texas. Primeiro sobe o propulsor, com trinta e três motores. Minutos depois, ele se solta e volta para a base, onde dois braços de metal, apelidados de pauzinhos, tentam segurá-lo no ar, como quem pega comida com hashi. A SpaceX já tinha feito isso três vezes desde outubro de dois mil e vinte e quatro. Mas desta vez o próprio computador do propulsor cancelou a captura. Ele não estava no lugar certo e terminou no Golfo do México. Enquanto isso, a nave chegou à órbita, a cerca de duzentos e setenta e cinco quilômetros de altura. E soltou vinte e seis satélites Starlink. Três deles tinham câmeras para fotografar o escudo de calor da nave. Cerca de vinte e duas horas e meia depois da decolagem, ela atravessou a atmosfera e desceu até a torre. Os pauzinhos fecharam. Foi a primeira vez que uma nave voltando da órbita foi agarrada no ar. Pegar foguetes assim permite reutilizá-los, como um avião que pousa e decola de novo. Você confiaria numa torre para pegar a sua nave? Siga para descobrir uma curiosidade nova todo dia.",
+  "cenas": [
+    {
+      "trecho": "Uma torre tentou agarrar dois foguetes no ar.",
+      "busca_imagem": "Starship launch tower",
+      "prompt_imagem": "a giant steel launch tower with two huge mechanical arms reaching toward a descending rocket at dusk, flames and smoke"
+    },
+    {
+      "trecho": "Um ela pegou. O outro caiu no mar. E o que ela pegou nunca tinha sido pego antes.",
+      "busca_imagem": "Starship Super Heavy",
+      "prompt_imagem": "a stainless steel rocket stage descending over the sea at sunset, engine flames glowing, cinematic"
+    },
+    {
+      "trecho": "Foi o voo quinze da Starship, lançado no dia treze de novembro, no Texas. Primeiro sobe o propulsor, com trinta e três motores.",
+      "busca_imagem": "Starship liftoff Starbase",
+      "prompt_imagem": "a massive stainless steel rocket lifting off from a coastal launch site in Texas, dozens of engines firing, huge plume"
+    },
+    {
+      "trecho": "Minutos depois, ele se solta e volta para a base, onde dois braços de metal, apelidados de pauzinhos, tentam segurá-lo no ar, como quem pega comida com hashi.",
+      "busca_imagem": "Super Heavy booster catch",
+      "prompt_imagem": "two enormous mechanical arms on a launch tower closing around a hovering rocket booster, night, bright engine glow"
+    },
+    {
+      "trecho": "A SpaceX já tinha feito isso três vezes desde outubro de dois mil e vinte e quatro. Mas desta vez o próprio computador do propulsor cancelou a captura.",
+      "busca_imagem": "Super Heavy boostback",
+      "prompt_imagem": "a rocket booster flipping in the upper atmosphere with engines relighting, curved horizon below"
+    },
+    {
+      "trecho": "Ele não estava no lugar certo e terminou no Golfo do México. Enquanto isso, a nave chegou à órbita, a cerca de duzentos e setenta e cinco quilômetros de altura.",
+      "busca_imagem": "Starship orbit Earth",
+      "prompt_imagem": "a stainless steel spaceship in low Earth orbit above the blue planet, sunlight glinting on its hull"
+    },
+    {
+      "trecho": "E soltou vinte e seis satélites Starlink. Três deles tinham câmeras para fotografar o escudo de calor da nave.",
+      "busca_imagem": "Starlink satellites deploy",
+      "prompt_imagem": "flat satellites being released one by one from a spacecraft into orbit above Earth, cameras inspecting black heat shield tiles"
+    },
+    {
+      "trecho": "Cerca de vinte e duas horas e meia depois da decolagem, ela atravessou a atmosfera e desceu até a torre. Os pauzinhos fecharam.",
+      "busca_imagem": "Starship reentry plasma",
+      "prompt_imagem": "a spaceship glowing with orange plasma during atmospheric reentry, then descending toward a tall launch tower"
+    },
+    {
+      "trecho": "Foi a primeira vez que uma nave voltando da órbita foi agarrada no ar. Pegar foguetes assim permite reutilizá-los, como um avião que pousa e decola de novo. Você confiaria numa torre para pegar a sua nave? Siga para descobrir uma curiosidade nova todo dia.",
+      "busca_imagem": "Starship ship catch tower",
+      "prompt_imagem": "a giant launch tower holding a stainless steel spaceship in its mechanical arms at sunset, triumphant view"
+    }
+  ],
+  "legenda": "Voo 15 da Starship: o propulsor de 33 motores caiu no Golfo do México, mas a nave voltou da órbita depois de ~22,5 h e foi agarrada pela torre — a primeira vez na história. 🚀\nVocê confiaria numa torre para pegar a sua nave? Comenta aqui 👇",
+  "hashtags": [
+    "#Starship",
+    "#SpaceX",
+    "#foguete",
+    "#exploracaoespacial"
+  ],
+  "fontes": [
+    "Space.com — SpaceX launches Starship on ambitious 22-hour Flight 15 test, but aborts booster 'chopsticks' catch (13/11/2026: lançamento em Starbase, 33 motores Raptor 3, captura do propulsor cancelada, órbita a ~275 km, 26 Starlink V3, 3 com câmeras para o escudo térmico, 3 propulsores V1 recuperados antes)",
+    "SpaceQ — Starship Flight 15: SpaceX catches its ship, loses the booster (16/11/2026: computador do propulsor abortou a captura, 'não estava no lugar certo'; nave agarrada em 14/11 ~22,5 h após a decolagem; capturas anteriores nos voos 5, 7 e 8)",
+    "NewSpace Economy — Starship Flight 15: Historic Spacecraft Catch... (14/11/2026: primeira captura de uma Starship voltando da órbita; propulsor perdido no Golfo do México)",
+    "Wikipedia — List of Starship launches (voo 5, outubro de 2024: primeira captura de propulsor)"
+  ]
+}
