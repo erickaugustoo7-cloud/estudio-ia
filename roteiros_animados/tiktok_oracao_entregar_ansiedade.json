@@ -1,0 +1,69 @@
+{
+  "titulo": "Oração de 20 segundos para entregar a ansiedade",
+  "gancho_tela": "Seu coração está apertado?",
+  "referencia": "1 Pedro 5:7",
+  "serie": "Oração de 20 segundos",
+  "tipo": "tiktok",
+  "fonte_imagem": "kaggle",
+  "opcoes_imagem": 2,
+  "duracao_max": 40,
+  "volume_musica": 0.12,
+  "plataformas": [
+    "facebook"
+  ],
+  "estilo_imagem": "cinematic photorealistic epic film still, soft dusk and dawn light, dramatic volumetric god rays, ancient Galilee, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic slow subtle motion.",
+  "epoca_imagem": "Ancient Galilee, 1st century, stone house, clay oil lamps, linen and wood only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "Seu coração está apertado e a mente não para? Ore comigo agora.",
+      "prompt_imagem": "dark storm waves crashing over the Sea of Galilee at night, a small wooden fishing boat tossing on the water, dramatic moonlight through clouds, wide high view",
+      "vazia": true,
+      "animar": true,
+      "prompt_movimento": "the waves rise and crash slowly, the small boat rocks, clouds move across the moon"
+    },
+    {
+      "trecho": "Senhor, eu carrego preocupações que nem sei explicar: os filhos, a casa, o amanhã.",
+      "prompt_imagem": "a heavy woven sack of stones resting on a rough wooden table in a dim ancient stone room, a single clay oil lamp glowing beside it",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Mas a tua Palavra diz: lançando sobre ele toda a vossa ansiedade.",
+      "prompt_imagem": "an old parchment scroll partly unrolled on a rough wooden table, warm ray of sunrise light falling across it",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Porque ele tem cuidado de vós. Eu entrego tudo nas tuas mãos.",
+      "prompt_imagem": "close-up of open cupped hands raised toward a golden sunrise sky, soft volumetric god rays, calm",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "Acalma o meu coração como acalmaste o mar. Em nome de Jesus, amém.",
+      "prompt_imagem": "the Sea of Galilee perfectly calm and glassy at sunrise, a small wooden boat resting still on the water, golden mist, wide high view",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Siga o Mensageiro de Fé para orar comigo todos os dias.",
+      "prompt_imagem": "an ancient dirt road winding through green Galilean hills at sunrise, warm god rays, calm and peaceful",
+      "vazia": true,
+      "animar": false
+    }
+  ],
+  "legenda": "Entregue a ansiedade hoje: \"lançando sobre ele toda a vossa ansiedade, porque ele tem cuidado de vós\" (1 Pedro 5:7). O que está tirando a sua paz? Comente 👇 que eu oro por você.",
+  "hashtags": [
+    "#Oração",
+    "#Ansiedade",
+    "#Fé",
+    "#Deus",
+    "#Cristão"
+  ],
+  "fontes": [
+    "1 Pedro 5:7 — Almeida Atualizada (domínio público)",
+    "Marcos 4:39 — Jesus acalma o mar"
+  ]
+}
