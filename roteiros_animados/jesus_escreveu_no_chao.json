@@ -1,0 +1,95 @@
+{
+  "titulo": "O que Jesus escreveu no chão? Ninguém sabe",
+  "gancho_tela": "Jesus escreveu no chão. O quê?",
+  "referencia": "João 8:1-11",
+  "duracao_max": 90,
+  "volume_musica": 0.14,
+  "estilo_imagem": "cinematic photorealistic epic film still, dramatic volumetric god rays, floating dust particles, deep chiaroscuro, first century Jerusalem, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic epic film shot, slow and subtle motion.",
+  "epoca_imagem": "Ancient Jerusalem, 1st century AD, Herod's Temple courts, limestone, clay, wood and linen only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "Jesus escreveu no chão duas vezes. E a Bíblia não diz o quê.",
+      "prompt_imagem": "extreme close-up of a hand writing with one finger in the fine dust over ancient limestone paving, a strong beam of golden morning light, dust floating in the air",
+      "prompt_movimento": "fine dust drifts slowly through the beam of light, the light glows warmer, very slow camera push-in",
+      "vazia": false
+    },
+    {
+      "trecho": "Ao amanhecer, no pátio do templo, Jesus ensinava o povo.",
+      "prompt_imagem": "wide aerial view of Herod's Temple in Jerusalem at sunrise, white limestone courts and long colonnades, tiny figures far away in the distance in the courtyard, golden haze",
+      "prompt_movimento": "slow aerial camera glide forward over the temple courts, morning haze drifts, sunlight spreads across the stone",
+      "vazia": false
+    },
+    {
+      "trecho": "Os mestres da lei trouxeram uma mulher pega em adultério.",
+      "prompt_imagem": "high-angle view of a vast stone temple courtyard under a colonnade, a small ring of tiny figures far away in the distance around one tiny distant figure in the center, long morning shadows",
+      "prompt_movimento": "long shadows stretch slowly across the stone, dust drifts in the light, slow camera descent",
+      "vazia": false
+    },
+    {
+      "trecho": "Disseram: Moisés mandou apedrejar mulheres assim. E o senhor, que diz?",
+      "prompt_imagem": "several rough fist-sized stones lying on the dusty limestone paving of an ancient temple courtyard, long dramatic shadows, low golden light",
+      "prompt_movimento": "dust drifts low over the stones, shadows stretch slowly, slow camera push-in",
+      "vazia": true
+    },
+    {
+      "trecho": "Era uma armadilha: soltá-la contrariava a Lei; mandar matá-la o colocava contra Roma.",
+      "prompt_imagem": "the massive stone Antonia Fortress tower overlooking the temple courts of ancient Jerusalem, a Roman bronze eagle standard on the battlements, hazy morning light",
+      "prompt_movimento": "a red cloth banner ripples in the wind beside the eagle standard, haze drifts, slow camera tilt up",
+      "vazia": true
+    },
+    {
+      "trecho": "Jesus se inclinou e começou a escrever no chão com o dedo.",
+      "prompt_imagem": "close-up of a hand drawing lines with one finger in the dust on ancient stone paving, rough stones nearby, a soft beam of light from above",
+      "prompt_movimento": "dust particles float in the beam of light, the light shifts gently, very slow camera push-in",
+      "vazia": false
+    },
+    {
+      "trecho": "Ele se levantou e disse: Quem estiver sem pecado, seja o primeiro a atirar pedra.",
+      "prompt_imagem": "a single rough stone lying alone in the dust of a temple courtyard, a bright heavenly beam of light falling on it, deep shadows around",
+      "prompt_movimento": "the beam of light slowly intensifies, dust sparkles in the air, slow camera push-in",
+      "vazia": true
+    },
+    {
+      "trecho": "E inclinou-se de novo, escrevendo na terra.",
+      "prompt_imagem": "top-down view of unreadable lines drawn in the fine dust on ancient limestone paving, golden light grazing the surface",
+      "prompt_movimento": "a light breeze moves fine dust across the lines, golden light shifts slowly, slow camera rotation",
+      "vazia": true
+    },
+    {
+      "trecho": "Um a um, começando pelos mais velhos, todos foram embora.",
+      "prompt_imagem": "wide high view of an emptying temple courtyard, rough stones left behind on the paving, tiny figures far away in the distance leaving through a stone colonnade, long shadows",
+      "prompt_movimento": "the long shadows slowly shorten, dust settles, slow camera pull-back",
+      "vazia": false
+    },
+    {
+      "trecho": "Mulher, onde estão eles? Ninguém a condenou? Ninguém, Senhor. Eu também não a condeno.",
+      "prompt_imagem": "a quiet empty temple courtyard in full morning sun, scattered stones on the ground, two tiny distant figures under the colonnade, warm god rays",
+      "prompt_movimento": "warm god rays glow and dust floats slowly, static camera with a gentle push-in",
+      "vazia": false
+    },
+    {
+      "trecho": "Agora vá e abandone sua vida de pecado. João, capítulo oito, versículos um a onze.",
+      "prompt_imagem": "a great open stone gate of the temple in ancient Jerusalem, bright morning light pouring through onto the steps, olive trees on the hills beyond",
+      "prompt_movimento": "the morning light grows brighter through the gate, leaves of the olive trees sway, slow camera push-in toward the light",
+      "vazia": true
+    },
+    {
+      "trecho": "O que ele escreveu, ninguém sabe. O que disse vale para você: eu não te condeno.",
+      "prompt_imagem": "close-up of smooth dust on ancient limestone paving where the writing has been blown away, a soft golden beam of light",
+      "prompt_movimento": "a gentle breeze smooths the dust, particles float up into the beam of light, slow camera pull-back",
+      "vazia": true
+    }
+  ],
+  "legenda": "Senhor, obrigado por não me condenar 🙏✨\nJoão 8:1-11\nComente \"Amém\" se Jesus já te deu uma nova chance.",
+  "hashtags": [
+    "#Jesus",
+    "#Bíblia",
+    "#perdão",
+    "#fé"
+  ],
+  "fontes": [
+    "João 8:1-11"
+  ]
+}
