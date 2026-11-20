@@ -1,0 +1,803 @@
+{
+  "formato": "horizontal",
+  "duracao_max": 999,
+  "volume_musica": 0,
+  "opcoes_imagem": 1,
+  "palavras_por_bloco": 600,
+  "plataformas": [
+    "youtube"
+  ],
+  "estilo_imagem": "breathtaking real-world nature landscape photography, peaceful and serene, soft natural light, rich colors, ultra detailed, horizontal 16:9 widescreen, no people, no text",
+  "prefixo_imagem": "beautiful peaceful nature landscape photo:",
+  "prefixo_video": "Peaceful nature shot, very slow and gentle motion.",
+  "epoca_imagem": "real natural landscapes of today (sea, forest, waterfalls, mountains, lakes, sky); no people, no buildings, no text",
+  "fonte_imagem": "cloudflare",
+  "estilo_voz": "emocionado e íntimo, como quem ora de verdade por alguém que sofre; voz baixa, pausada, com ternura",
+  "tipo": "oracao",
+  "fundo_video": "pixabay",
+  "titulo": "Oração para dormir: eles veem você orar — a fé de Loide e Eunice (2 Timóteo 1:5)",
+  "titulo_youtube": "Eles Veem Você Orar… Ore Pela Sua Casa Antes de Dormir | 2 Timóteo 1:5",
+  "gancho_tela": "Seus filhos veem você orar",
+  "referencia": "2 Timóteo 1:5; Atos 16:1-3; Deuteronômio 6:6-7",
+  "cena_capa": 85,
+  "texto_capa": [
+    "SEUS FILHOS",
+    "*VEEM",
+    "VOCÊ ORAR"
+  ],
+  "selo_capa": "Oração da noite",
+  "capa_prompt": "a Brazilian mother in her forties kneeling in prayer beside a child's bed at night, seen from the side, the child asleep under a blanket, warm dim lamp light, a tear of hope, cinematic photo",
+  "legenda": "Seus filhos estão vendo você orar — mesmo quando você acha que ninguém está olhando. Nesta oração para dormir você ouve a história de Loide e Eunice, a avó e a mãe que ensinaram a fé a Timóteo numa cidade de ídolos (Atos 16:1-3; 2 Timóteo 1:5), e depois ora comigo pelos seus filhos, pelo seu casamento e pela sua casa. 🙏\n\nEste vídeo é a versão completa do nosso Short \"Eles veem você orar\".\n\n\"E as ensinarás a teus filhos e delas falarás assentado em tua casa, e andando pelo caminho, e deitando-te e levantando-te\" (Deuteronômio 6:7, Almeida).\n\nEscreva nos comentários o nome de quem você quer que eu inclua na oração — eu vou orar por cada um. Comente \"Amém\" e inscreva-se para orarmos juntos toda noite.",
+  "hashtags": [
+    "#OraçãoPelosFilhos",
+    "#OraçãoParaDormir",
+    "#OraçãoPelaFamília",
+    "#2Timóteo",
+    "#Fé"
+  ],
+  "fontes": [
+    "2 Timóteo 1:2, 1:5, 3:14-15, 4:6 — Almeida (domínio público)",
+    "Atos 14:8-19; 16:1-3; 16:31 — Almeida (domínio público)",
+    "Deuteronômio 6:6-7 — Almeida (domínio público)",
+    "Isaías 54:13; Provérbios 22:6; Salmo 4:8; Josué 24:15 — Almeida (domínio público)",
+    "Salmo 121:4 — Almeida (domínio público)",
+    "Filipenses 2:20 (paráfrase)",
+    "Grego de 2 Timóteo 1:5: enoikeō, 'habitar dentro' (raiz oikos, casa)"
+  ],
+  "ponte_short": "Eles veem você orar",
+  "revelacao": {
+    "promessa_cena": 2,
+    "entrega_cena": 80,
+    "o_que": "a palavra 'habitou' em 2 Timóteo 1:5 (grego enoikeō, da raiz de 'casa'): a fé foi MORAR em Loide, depois em Eunice, depois em Timóteo — e Paulo lembrou delas na sua última carta, preso e perto da morte; é a única vez que os nomes delas aparecem na Bíblia"
+  },
+  "short_isca": {
+    "cenas": [
+      29
+    ],
+    "texto_topo": "A PALAVRA ESCONDIDA",
+    "titulo": "A palavra escondida no versículo da mãe que orava pelo filho",
+    "hashtags": [
+      "oracaopelosfilhos",
+      "maesqueoram",
+      "oracao"
+    ]
+  },
+  "capitulos": [
+    {
+      "cena": 0,
+      "titulo": "Eles veem você orar"
+    },
+    {
+      "cena": 5,
+      "titulo": "Listra, a cidade dos ídolos"
+    },
+    {
+      "cena": 9,
+      "titulo": "Loide, Eunice e Timóteo"
+    },
+    {
+      "cena": 17,
+      "titulo": "Deitando-te e levantando-te (Deuteronômio 6)"
+    },
+    {
+      "cena": 21,
+      "titulo": "O menino que virou companheiro de Paulo"
+    },
+    {
+      "cena": 31,
+      "titulo": "Oração: do jeito que eu estou"
+    },
+    {
+      "cena": 39,
+      "titulo": "Pelos filhos"
+    },
+    {
+      "cena": 49,
+      "titulo": "Pela casa e pelo casamento"
+    },
+    {
+      "cena": 57,
+      "titulo": "Cansaço, contas, saúde e perdão"
+    },
+    {
+      "cena": 69,
+      "titulo": "Promessas e silêncio"
+    },
+    {
+      "cena": 80,
+      "titulo": "A palavra escondida: habitou"
+    },
+    {
+      "cena": 94,
+      "titulo": "Bênção final"
+    }
+  ],
+  "cenas": [
+    {
+      "trecho": "Seus filhos estão vendo você orar. Mesmo quando você acha que ninguém está olhando.",
+      "prompt_imagem": "a calm ocean at sunset with gentle waves rolling onto a quiet sandy beach",
+      "vazia": true,
+      "animar": false,
+      "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+    },
+    {
+      "trecho": "Eles não vão lembrar de tudo o que você disse. Mas vão lembrar de ter visto você de olhos fechados, com as mãos juntas, falando com Deus por eles.",
+      "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
+      "vazia": true,
+      "animar": false,
+      "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+    },
+    {
+      "trecho": "A Bíblia conta a história de uma mãe e de uma avó que oravam assim, dentro de casa. E no final desta oração, eu vou te mostrar a palavra que Paulo usou para descrever a fé delas… uma palavra que quase ninguém percebe, e que muda o jeito de você olhar para a sua casa.",
+      "prompt_imagem": "a starry night sky over calm mountains, milky way glowing",
+      "vazia": true,
+      "animar": false,
+      "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+    },
+    {
+      "trecho": "Se a noite chegou e você está preocupado com alguém da sua casa, fica comigo. Um filho que se afastou. Um casamento que esfriou. Um neto que você quase não vê.",
+      "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist and sun rays",
+      "vazia": true,
+      "animar": false,
+      "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+    },
+    {
+      "trecho": "Talvez você ache que a sua oração não está fazendo diferença nenhuma. Que você ora, ora… e nada muda. Primeiro, eu vou te contar a história dessa família. Depois, vamos orar juntos. Respire fundo… e venha comigo.",
+      "prompt_imagem": "a lavender field in bloom under a soft evening sky",
+      "vazia": true,
+      "animar": false,
+      "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+    },
+    {
+      "trecho": "A história começa numa cidade pequena chamada Listra, no interior da Ásia Menor, onde hoje fica a Turquia. Bem longe de Jerusalém. Longe do templo, longe das sinagogas cheias.",
+      "prompt_imagem": "a crystal clear mountain lake reflecting snowy peaks at sunrise",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+    },
+    {
+      "trecho": "O livro de Atos conta que, em frente da cidade, havia um templo de Júpiter. Quando Paulo e Barnabé curaram ali um homem coxo de nascença, o povo achou que eles eram deuses.",
+      "prompt_imagem": "a beach under a full moon with silver light on the waves",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+    },
+    {
+      "trecho": "O sacerdote de Júpiter trouxe touros e grinaldas para oferecer sacrifícios a eles. Pouco depois, Paulo foi apedrejado e arrastado para fora da cidade, dado como morto. Era esse o lugar.",
+      "prompt_imagem": "a gentle river flowing through a green valley at sunset",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+    },
+    {
+      "trecho": "Uma cidade de ídolos. Dura, perigosa para quem cria no Deus de Israel. E foi ali que cresceu um menino chamado Timóteo.",
+      "prompt_imagem": "northern lights dancing over a calm snowy landscape",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+    },
+    {
+      "trecho": "Na vida desse menino havia duas mulheres. A avó, chamada Loide. E a mãe, chamada Eunice. Guarde esses dois nomes, porque eles vão voltar no fim desta noite.",
+      "prompt_imagem": "a field of wildflowers swaying in a soft breeze at golden hour",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+    },
+    {
+      "trecho": "O nome Timóteo, em grego, quer dizer algo como aquele que honra a Deus. Um nome de esperança, dado num lugar onde quase todos honravam ídolos.",
+      "prompt_imagem": "a small stream with smooth stones running through a mossy forest",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+    },
+    {
+      "trecho": "A Bíblia diz, em Atos 16, que Timóteo era filho de uma judia que era crente… mas de pai grego. E que todos naquela região sabiam que o pai dele era grego.",
+      "prompt_imagem": "soft white clouds drifting over green hills in the morning light",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+    },
+    {
+      "trecho": "A Escritura não diz que esse pai partilhava aquela fé. Era uma casa misturada. E talvez você conheça muito bem esse tipo de casa.",
+      "prompt_imagem": "a quiet lake at twilight with pink and purple sky reflections",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+    },
+    {
+      "trecho": "Casa onde só uma pessoa ora. Onde só uma pessoa abre a Bíblia à noite. Onde a fé parece morar num canto só, quietinha, quase escondida.",
+      "prompt_imagem": "tall cliffs over a turquoise sea with waves breaking softly",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+    },
+    {
+      "trecho": "Quem ora sozinho numa casa assim conhece as perguntas. Pra que tanta oração? Pra que ensinar isso ao menino? E mesmo assim, a fé daquela mãe não morreu.",
+      "prompt_imagem": "golden wheat fields under a warm sunset sky",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+    },
+    {
+      "trecho": "Mas Eunice não desistiu. E a avó, Loide, também não. Anos depois, Paulo escreveu a Timóteo: desde a tua meninice sabes as sagradas Escrituras. Desde menino.",
+      "prompt_imagem": "green rice terraces on a hillside covered in light morning fog",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+    },
+    {
+      "trecho": "Alguém ensinou esse menino. Alguém sentou com ele. Alguém repetiu as palavras de Deus antes de ele dormir, numa cidade onde quase ninguém fazia isso.",
+      "prompt_imagem": "sun rays breaking through clouds over a quiet green valley",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+    },
+    {
+      "trecho": "Era exatamente o que Moisés tinha mandado, muitos séculos antes, em Deuteronômio 6: E estas palavras, que hoje te ordeno, estarão no teu coração.",
+      "prompt_imagem": "a calm ocean at sunset with gentle waves rolling onto a quiet sandy beach",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+    },
+    {
+      "trecho": "E as ensinarás a teus filhos e delas falarás assentado em tua casa, e andando pelo caminho, e deitando-te e levantando-te. Deitando-te. Na hora de dormir. Como agora.",
+      "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+    },
+    {
+      "trecho": "Repare na ordem. Primeiro, as palavras estão no teu coração. Só depois, nos filhos. Ninguém passa adiante uma fé que não tem. Os filhos aprendem vendo.",
+      "prompt_imagem": "a starry night sky over calm mountains, milky way glowing",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+    },
+    {
+      "trecho": "E se esta história já está falando com o seu coração, inscreva-se no canal. Toda noite tem uma oração nova aqui, e eu quero orar com você e com a sua família.",
+      "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist and sun rays",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Agora, veja o que aconteceu. Paulo voltou a Listra. E lá encontrou aquele menino já crescido. A Bíblia diz que os irmãos de Listra e de Icônio davam bom testemunho dele.",
+      "prompt_imagem": "a lavender field in bloom under a soft evening sky",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+    },
+    {
+      "trecho": "Paulo quis levar Timóteo com ele nas viagens. E aquele menino de uma casa misturada, numa cidade de ídolos, virou um dos companheiros mais próximos do apóstolo.",
+      "prompt_imagem": "a crystal clear mountain lake reflecting snowy peaks at sunrise",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+    },
+    {
+      "trecho": "Timóteo andou com Paulo por estradas, cidades e prisões. E Paulo chegou a escrever aos filipenses que não tinha ninguém de igual sentimento, como Timóteo.",
+      "prompt_imagem": "a beach under a full moon with silver light on the waves",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+    },
+    {
+      "trecho": "Paulo chamava Timóteo de meu amado filho. Escreveu duas cartas para ele, que estão na sua Bíblia até hoje. E tudo começou numa casa onde uma mãe e uma avó oravam.",
+      "prompt_imagem": "a gentle river flowing through a green valley at sunset",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+    },
+    {
+      "trecho": "Eunice nunca pregou para multidões. Loide nunca fez um milagre que a Bíblia registre. Elas só fizeram o que estava ao alcance delas.",
+      "prompt_imagem": "northern lights dancing over a calm snowy landscape",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+    },
+    {
+      "trecho": "Oraram. Ensinaram. Viveram a fé dentro de casa, nos dias comuns. Na mesa, na hora de deitar, na hora de levantar. E Deus fez o resto.",
+      "prompt_imagem": "a field of wildflowers swaying in a soft breeze at golden hour",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+    },
+    {
+      "trecho": "Talvez você seja a Eunice da sua casa. A única que ora. A que chora escondido para os filhos não verem. A que insiste, mesmo sem ver resultado nenhum.",
+      "prompt_imagem": "a small stream with smooth stones running through a mossy forest",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Eu quero te dizer uma coisa antes de começarmos a orar: eles estão vendo. Mesmo o filho que revira os olhos. Mesmo o que já saiu de casa. Eles viram você orar.",
+      "prompt_imagem": "soft white clouds drifting over green hills in the morning light",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "E tem uma palavra no versículo sobre Loide e Eunice que quase ninguém percebe. Ela diz onde a fé da sua casa realmente mora… e no final desta oração, eu vou te mostrar qual é.",
+      "prompt_imagem": "a quiet lake at twilight with pink and purple sky reflections",
+      "vazia": true,
+      "animar": false,
+      "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+    },
+    {
+      "trecho": "Agora, fique confortável. Feche os olhos. Coloque a mão no peito. Respire fundo… e solte devagar. Vamos orar juntos. Repita comigo, no seu coração.",
+      "prompt_imagem": "tall cliffs over a turquoise sea with waves breaking softly",
+      "vazia": true,
+      "animar": false,
+      "emocao": "calmo e lento, quase sussurrado"
+    },
+    {
+      "trecho": "Senhor… eu chego cansado esta noite. Eu não vou fingir que estou bem. Foi um dia longo, e a minha casa pesa no meu coração.",
+      "prompt_imagem": "golden wheat fields under a warm sunset sky",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Tu sabes quantas vezes eu orei pelas mesmas pessoas. Pelos mesmos nomes. E às vezes, Senhor, parece que as minhas palavras batem no teto e voltam.",
+      "prompt_imagem": "green rice terraces on a hillside covered in light morning fog",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Mas eu me lembro de Eunice. Ela também orou por muito tempo sem ver nada mudar. E Tu estavas ouvindo cada palavra. Então eu não vou parar.",
+      "prompt_imagem": "sun rays breaking through clouds over a quiet green valley",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Antes de pedir pelos meus, eu peço por mim. Coloca as Tuas palavras no meu coração primeiro. Que a minha fé seja verdadeira, não fingida. Que eu não ore só por obrigação.",
+      "prompt_imagem": "a calm ocean at sunset with gentle waves rolling onto a quiet sandy beach",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Senhor, eu confesso que às vezes eu oro com medo. Medo do futuro deles, medo de ter errado na criação, medo de que seja tarde demais. Tira esse medo de mim esta noite.",
+      "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Perdoa as vezes em que eu falei de Ti, mas vivi como se Tu não existisses. As vezes em que eu gritei com eles e depois fui orar como se nada tivesse acontecido.",
+      "prompt_imagem": "a starry night sky over calm mountains, milky way glowing",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Eu quero que a minha família veja em mim uma fé de verdade. Com falhas, com lágrimas, mas de verdade. Ensina-me, Senhor, a viver aquilo que eu oro.",
+      "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist and sun rays",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "E repare: Paulo não disse que a fé de Timóteo começou nele. Disse que começou antes… em outra pessoa. Já vamos chegar nisso. Continue orando comigo.",
+      "prompt_imagem": "a lavender field in bloom under a soft evening sky",
+      "vazia": true,
+      "animar": false,
+      "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+    },
+    {
+      "trecho": "Agora, pense no rosto de cada filho. Diga o nome deles no seu coração, devagar. Um por um. Deus conhece cada um desses nomes melhor do que você.",
+      "prompt_imagem": "a crystal clear mountain lake reflecting snowy peaks at sunrise",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Senhor, eu Te entrego os meus filhos. Os pequenos, que estão dormindo no quarto ao lado. E os grandes, que eu já não consigo colocar na cama.",
+      "prompt_imagem": "a beach under a full moon with silver light on the waves",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Guarda o coração deles. Do que eles veem na tela, do que ouvem na rua, das companhias que eu não conheço. Onde eu não posso estar, Tu estás.",
+      "prompt_imagem": "a gentle river flowing through a green valley at sunset",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Pelo filho que se afastou de Ti… eu não desisto, Senhor. Ele cresceu ouvindo o Teu nome. Essa semente ainda está lá dentro. Faz ela brotar, no Teu tempo.",
+      "prompt_imagem": "northern lights dancing over a calm snowy landscape",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Pela filha que está lutando com a ansiedade, com a tristeza, com coisas que ela não me conta. Abraça ela esta noite de um jeito que eu não consigo.",
+      "prompt_imagem": "a field of wildflowers swaying in a soft breeze at golden hour",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Pelo filho que está procurando emprego, pela filha que vai fazer uma prova, pelos que estão começando uma família nova. Vai na frente deles amanhã, Senhor. Abre portas que eu não consigo abrir.",
+      "prompt_imagem": "a small stream with smooth stones running through a mossy forest",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Pelos netos que ainda nem nasceram. Que a fé desta casa chegue até eles também, como chegou de Loide até Timóteo. Que ela não pare em mim.",
+      "prompt_imagem": "soft white clouds drifting over green hills in the morning light",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Que eles se lembrem, quando eu já não estiver aqui, de ter visto a mãe orar. De ter visto o pai de joelhos. E que essa lembrança os traga de volta para Ti.",
+      "prompt_imagem": "a quiet lake at twilight with pink and purple sky reflections",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "A Tua Palavra diz, em Isaías 54: E todos os teus filhos serão ensinados do Senhor; e a paz de teus filhos será abundante. Eu recebo essa promessa esta noite.",
+      "prompt_imagem": "tall cliffs over a turquoise sea with waves breaking softly",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Loide e Eunice também oraram por um menino que um dia ia sair de casa. E a palavra escondida no versículo delas tem tudo a ver com isso… fica comigo.",
+      "prompt_imagem": "golden wheat fields under a warm sunset sky",
+      "vazia": true,
+      "animar": false,
+      "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+    },
+    {
+      "trecho": "Agora, Senhor, eu Te entrego a minha casa. As paredes, a mesa, as conversas que esfriaram. Tu conheces o clima daqui de dentro melhor do que ninguém.",
+      "prompt_imagem": "green rice terraces on a hillside covered in light morning fog",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Se eu sou a única pessoa que ora nesta casa, me dá paciência. Como a Eunice, numa casa onde nem todos criam do mesmo jeito. Que eu não desista.",
+      "prompt_imagem": "sun rays breaking through clouds over a quiet green valley",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Pelo meu casamento, Senhor. Por quem está ao meu lado… ou está distante, mesmo dormindo na mesma cama. Aquece de novo o que esfriou.",
+      "prompt_imagem": "a calm ocean at sunset with gentle waves rolling onto a quiet sandy beach",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Tira de mim a vontade de convencer pela briga. Que eu convença pelo jeito de amar. Que a minha paz fale mais alto do que as minhas palavras.",
+      "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Pelas famílias que estão brigadas. Irmãos que não se falam. Pais e filhos que se magoaram. Senhor, Tu sabes reconstruir uma casa por dentro. Começa pela minha.",
+      "prompt_imagem": "a starry night sky over calm mountains, milky way glowing",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Pelas mães sozinhas que estão me ouvindo agora, que criam os filhos sem ajuda. Senhor, sê o socorro dessa casa. Sê o braço forte que está faltando.",
+      "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist and sun rays",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Pelas avós, como Loide, que oram pelos netos de longe. Que acham que não podem fazer muito além de orar. Lembra-as, Senhor, de que orar já é fazer muito.",
+      "prompt_imagem": "a lavender field in bloom under a soft evening sky",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Pense nisso: a Bíblia guardou o nome de uma avó. Uma avó. Por quê? A resposta está naquela palavra que eu prometi te mostrar. Estamos quase lá.",
+      "prompt_imagem": "a crystal clear mountain lake reflecting snowy peaks at sunrise",
+      "vazia": true,
+      "animar": false,
+      "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+    },
+    {
+      "trecho": "Senhor, cuidar de uma casa cansa. Tem dias em que eu não tenho força nem para orar direito. Recebe até o meu suspiro como oração.",
+      "prompt_imagem": "a beach under a full moon with silver light on the waves",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Pelas contas que chegaram, pelo dinheiro que não fecha, pelo trabalho que pesa. Tu sabes do que esta casa precisa. Eu não vou carregar isso sozinho esta noite.",
+      "prompt_imagem": "a gentle river flowing through a green valley at sunset",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Pelo meu trabalho e pelo de quem sustenta esta casa. Dá força para acordar amanhã. Dá sabedoria nas decisões. E dá um descanso de verdade esta noite.",
+      "prompt_imagem": "northern lights dancing over a calm snowy landscape",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Pela saúde da minha família. Por quem está doente, por quem espera um exame, por quem tem dor e não fala. Toca, Senhor. Cura. Sustenta.",
+      "prompt_imagem": "a field of wildflowers swaying in a soft breeze at golden hour",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "E se eu estou esgotado demais para ser exemplo, lembra-me de que os meus filhos não precisam de alguém perfeito. Precisam ver alguém que corre para Ti.",
+      "prompt_imagem": "a small stream with smooth stones running through a mossy forest",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Senhor, eu solto agora a culpa de não ter sido perfeito com os meus filhos. Eu fiz o que eu sabia. O que eu não sabia, Tu podes completar. Eu descanso nisso.",
+      "prompt_imagem": "soft white clouds drifting over green hills in the morning light",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Ensina-me a perdoar dentro de casa. As palavras duras, as portas batidas, o silêncio na mesa. E ensina-me a me perdoar também, pelas vezes em que eu falhei com eles.",
+      "prompt_imagem": "a quiet lake at twilight with pink and purple sky reflections",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Agora, se você tem um pedido pela sua família, escreva nos comentários. O nome do seu filho, da sua filha, de quem você ama. Eu vou orar por cada um.",
+      "prompt_imagem": "tall cliffs over a turquoise sea with waves breaking softly",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Enquanto você escreve, eu oro: Senhor, por cada nome escrito ali, por cada casa representada nesses comentários… visita essas famílias esta noite.",
+      "prompt_imagem": "golden wheat fields under a warm sunset sky",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Por quem não sabe nem por onde começar a orar pela família, eu peço: Senhor, ensina essa pessoa. Uma frase só, toda noite. Uma frase por noite já muda uma casa.",
+      "prompt_imagem": "green rice terraces on a hillside covered in light morning fog",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "E por você, que talvez se afastou de Deus faz tempo. Talvez você foi o filho por quem alguém orou. Ainda dá tempo de voltar. Ele está esperando por você esta noite.",
+      "prompt_imagem": "sun rays breaking through clouds over a quiet green valley",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "E lembre: tem uma palavra no versículo de Loide e Eunice que fala exatamente da sua casa. Depois de um momento de silêncio, eu vou te mostrar.",
+      "prompt_imagem": "a calm ocean at sunset with gentle waves rolling onto a quiet sandy beach",
+      "vazia": true,
+      "animar": false,
+      "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+    },
+    {
+      "trecho": "Agora, respire devagar. Solte os ombros. Deixe o corpo pesar na cama. Você não precisa resolver nada esta noite. Só descansar nas promessas de Deus.",
+      "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
+      "vazia": true,
+      "animar": false,
+      "emocao": "calmo e lento, quase sussurrado"
+    },
+    {
+      "trecho": "Escute, com calma: Crê no Senhor Jesus Cristo e serás salvo, tu e a tua casa. Atos 16, versículo 31. Tu… e a tua casa.",
+      "prompt_imagem": "a starry night sky over calm mountains, milky way glowing",
+      "vazia": true,
+      "animar": false,
+      "emocao": "calmo e lento, quase sussurrado"
+    },
+    {
+      "trecho": "Repare: é o mesmo capítulo da Bíblia que apresenta Timóteo. Atos 16 começa com um rapaz criado pela fé da mãe… e mais adiante mostra uma casa inteira crendo.",
+      "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist and sun rays",
+      "vazia": true,
+      "animar": false,
+      "emocao": "calmo e lento, quase sussurrado"
+    },
+    {
+      "trecho": "Mais uma: Instrui a criança no caminho em que deve andar, e até quando envelhecer não se desviará dele. Provérbios 22, versículo 6. O que você plantou não se perde.",
+      "prompt_imagem": "a lavender field in bloom under a soft evening sky",
+      "vazia": true,
+      "animar": false,
+      "emocao": "calmo e lento, quase sussurrado"
+    },
+    {
+      "trecho": "E esta, para a sua noite: Em paz também me deitarei e dormirei, porque só tu, Senhor, me fazes habitar em segurança. Salmo 4, versículo 8.",
+      "prompt_imagem": "a crystal clear mountain lake reflecting snowy peaks at sunrise",
+      "vazia": true,
+      "animar": false,
+      "emocao": "calmo e lento, quase sussurrado"
+    },
+    {
+      "trecho": "Escute mais uma, devagar: Eis que não tosquenejará nem dormirá o guarda de Israel. Salmo 121, versículo 4. Quem guarda a sua casa não cochila.",
+      "prompt_imagem": "a beach under a full moon with silver light on the waves",
+      "vazia": true,
+      "animar": false,
+      "emocao": "calmo e lento, quase sussurrado"
+    },
+    {
+      "trecho": "Agora, respire fundo… segure um instante… e solte. De novo. Inspire… e solte devagar. A cada respiração, entregue um nome a Deus.",
+      "prompt_imagem": "a gentle river flowing through a green valley at sunset",
+      "vazia": true,
+      "animar": false,
+      "emocao": "calmo e lento, quase sussurrado"
+    },
+    {
+      "trecho": "Inspire… e entregue o filho mais velho. Solte o ar… e entregue o mais novo. Inspire… e entregue quem está longe. Solte… e entregue você mesmo.",
+      "prompt_imagem": "northern lights dancing over a calm snowy landscape",
+      "vazia": true,
+      "animar": false,
+      "emocao": "calmo e lento, quase sussurrado"
+    },
+    {
+      "trecho": "Fique um momento em silêncio. Não precisa dizer nada. Só imagine a sua casa toda, cada quarto, cada cama, cada pessoa, debaixo das mãos de Deus.",
+      "prompt_imagem": "a field of wildflowers swaying in a soft breeze at golden hour",
+      "vazia": true,
+      "animar": false,
+      "emocao": "calmo e lento, quase sussurrado"
+    },
+    {
+      "trecho": "Respire mais uma vez. Sinta o ar entrando… e saindo. Deixe a preocupação ir embora junto com ele. Você fez a sua parte hoje. Agora, deixe com Deus.",
+      "prompt_imagem": "a small stream with smooth stones running through a mossy forest",
+      "vazia": true,
+      "animar": false,
+      "emocao": "calmo e lento, quase sussurrado"
+    },
+    {
+      "trecho": "Deus não dorme. Enquanto a sua casa dorme, Ele está acordado. Enquanto você descansa, Ele continua trabalhando no coração de cada um deles.",
+      "prompt_imagem": "soft white clouds drifting over green hills in the morning light",
+      "vazia": true,
+      "animar": false,
+      "emocao": "calmo e lento, quase sussurrado"
+    },
+    {
+      "trecho": "Agora, a palavra que eu prometi te mostrar. Lembra do versículo? Paulo escreveu a Timóteo sobre a fé não fingida que havia nele.",
+      "prompt_imagem": "a quiet lake at twilight with pink and purple sky reflections",
+      "vazia": true,
+      "animar": false,
+      "emocao": "emoção forte e esperança, mais firme"
+    },
+    {
+      "trecho": "A qual habitou primeiro em tua avó Loide, e em tua mãe Eunice. Habitou. Essa é a palavra. Paulo não disse que a fé passou por elas. Disse que habitou.",
+      "prompt_imagem": "tall cliffs over a turquoise sea with waves breaking softly",
+      "vazia": true,
+      "animar": false,
+      "emocao": "emoção forte e esperança, mais firme"
+    },
+    {
+      "trecho": "No grego em que Paulo escreveu, essa palavra vem da mesma raiz de casa. Quer dizer morar dentro. Fazer de um lugar o seu lar. A fé foi morar naquela família.",
+      "prompt_imagem": "golden wheat fields under a warm sunset sky",
+      "vazia": true,
+      "animar": false,
+      "emocao": "emoção forte e esperança, mais firme"
+    },
+    {
+      "trecho": "Primeiro, ela morou na avó. Depois, se mudou para dentro da mãe. E Paulo termina: e estou certo de que também habita em ti. A fé atravessou três gerações, de casa em casa.",
+      "prompt_imagem": "green rice terraces on a hillside covered in light morning fog",
+      "vazia": true,
+      "animar": false,
+      "emocao": "emoção forte e esperança, mais firme"
+    },
+    {
+      "trecho": "E sabe quando Paulo escreveu isso? Na sua última carta. Preso em Roma, sabendo que ia morrer. Ele mesmo diz: o tempo da minha partida está próximo.",
+      "prompt_imagem": "sun rays breaking through clouds over a quiet green valley",
+      "vazia": true,
+      "animar": false,
+      "emocao": "emoção forte e esperança, mais firme"
+    },
+    {
+      "trecho": "No fim da vida, com tanta coisa para lembrar, Paulo se lembrou de uma avó e de uma mãe. Os nomes delas aparecem uma única vez na Bíblia inteira. Exatamente ali.",
+      "prompt_imagem": "a calm ocean at sunset with gentle waves rolling onto a quiet sandy beach",
+      "vazia": true,
+      "animar": false,
+      "emocao": "emoção forte e esperança, mais firme"
+    },
+    {
+      "trecho": "Ninguém as viu pregar. Mas Deus guardou o nome delas para sempre, porque elas deixaram a fé morar dentro de casa. E isso mudou a história de um menino… e de muita gente depois dele.",
+      "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
+      "vazia": true,
+      "animar": false,
+      "emocao": "emoção forte e esperança, mais firme"
+    },
+    {
+      "trecho": "Pense no que isso significa. A fé não é uma visita que passa pela sua casa de vez em quando. Ela é moradora. Ela fica. Ela dorme e acorda com vocês.",
+      "prompt_imagem": "a starry night sky over calm mountains, milky way glowing",
+      "vazia": true,
+      "animar": false,
+      "emocao": "emoção forte e esperança, mais firme"
+    },
+    {
+      "trecho": "Então escute: a sua oração não está batendo no teto. Ela está fazendo morada. Cada noite em que você ora, a fé está se mudando para dentro da sua casa.",
+      "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist and sun rays",
+      "vazia": true,
+      "animar": false,
+      "emocao": "emoção forte e esperança, mais firme"
+    },
+    {
+      "trecho": "Você pode não ver ainda. Seu filho pode estar longe. Mas o que mora numa casa deixa marca. E um dia alguém da sua família vai poder dizer: a fé habitou primeiro em você.",
+      "prompt_imagem": "a lavender field in bloom under a soft evening sky",
+      "vazia": true,
+      "animar": false,
+      "emocao": "emoção forte e esperança, mais firme"
+    },
+    {
+      "trecho": "Obrigado, Senhor, pelas Loides e Eunices da minha vida. Por quem orou por mim antes de eu saber orar. Eu também sou fruto da oração de alguém.",
+      "prompt_imagem": "a crystal clear mountain lake reflecting snowy peaks at sunrise",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Obrigado porque Tu ouviste cada oração que eu fiz por eles. Até as que eu só chorei, sem conseguir dizer nada. Nenhuma delas se perdeu.",
+      "prompt_imagem": "a beach under a full moon with silver light on the waves",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Obrigado pela minha casa, do jeito que ela está. Obrigado pelos meus filhos, mesmo nos dias difíceis. Mora aqui, Senhor. Faz desta casa a Tua casa.",
+      "prompt_imagem": "a gentle river flowing through a green valley at sunset",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Eu e a minha casa serviremos ao Senhor. Josué 24, versículo 15. Esta noite, eu declaro isso sobre a minha família, em nome de Jesus.",
+      "prompt_imagem": "northern lights dancing over a calm snowy landscape",
+      "vazia": true,
+      "animar": false,
+      "emocao": "emoção forte e esperança, mais firme"
+    },
+    {
+      "trecho": "Se esta oração tocou você, mande este vídeo para uma mãe, um pai ou uma avó que ora sozinha pela família. Às vezes, ela só precisa saber que não está orando em vão.",
+      "prompt_imagem": "a field of wildflowers swaying in a soft breeze at golden hour",
+      "vazia": true,
+      "animar": false,
+      "emocao": "paz e bênção, voz suave de despedida"
+    },
+    {
+      "trecho": "Que o Deus de Loide e de Eunice faça morada na sua casa. Que Ele guarde os seus filhos esta noite, perto ou longe. E que você durma sabendo que eles estão nas mãos certas.",
+      "prompt_imagem": "a small stream with smooth stones running through a mossy forest",
+      "vazia": true,
+      "animar": false,
+      "emocao": "paz e bênção, voz suave de despedida"
+    },
+    {
+      "trecho": "Se esta oração te ajudou, inscreva-se no canal para orarmos juntos toda noite. E comente Amém, pela sua família.",
+      "prompt_imagem": "soft white clouds drifting over green hills in the morning light",
+      "vazia": true,
+      "animar": false,
+      "emocao": "paz e bênção, voz suave de despedida"
+    },
+    {
+      "trecho": "Durma em paz. Seus filhos viram você orar hoje. E Deus também viu. Em nome de Jesus… amém.",
+      "prompt_imagem": "a quiet lake at twilight with pink and purple sky reflections",
+      "vazia": true,
+      "animar": false,
+      "emocao": "paz e bênção, voz suave de despedida"
+    }
+  ]
+}
