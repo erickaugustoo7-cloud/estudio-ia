@@ -1,0 +1,67 @@
+{
+  "titulo": "Doente há 38 anos, Jesus perguntou isso a ele",
+  "gancho_tela": "38 anos doente. Jesus perguntou isso.",
+  "estilo": "pintura",
+  "narracao": "Trinta e oito anos doente. E Jesus fez uma pergunta estranha. A pergunta foi: você quer ser curado? Está em João, capítulo cinco. Mas a resposta dele surpreende. Em Jerusalém, havia um tanque chamado Betesda. Ao redor, muitos doentes ficavam deitados. Um deles estava doente havia trinta e oito anos. Jesus o viu deitado ali. E soube que ele estava assim fazia muito tempo. Jesus perguntou: você quer ser curado? O homem não disse sim. Disse: Senhor, não tenho ninguém que me ajude a entrar no tanque. Quando eu tento, outro chega antes de mim. Não tenho ninguém. Talvez você conheça essa frase. Jesus não discutiu. Não mandou esperar a água. Disse: levante-se, pegue a sua maca e ande. E na mesma hora o homem ficou curado, pegou a maca e saiu andando. Ele nem sabia quem era Jesus. Mas, mais tarde, Jesus o encontrou no templo. Não esqueceu dele. Quem não tinha ninguém, tinha Jesus. E hoje ele faz a mesma pergunta a você: você quer ser curado? Salve este vídeo para ouvir de novo quando precisar, e siga para receber uma palavra de fé todos os dias.",
+  "cenas": [
+    {
+      "trecho": "Trinta e oito anos doente. E Jesus fez uma pergunta estranha.",
+      "busca_imagem": "",
+      "prompt_imagem": "a lone man in ancient ragged robes seen from behind lying on a straw mat beside the stone colonnade of a large pool at dawn, a single blazing shaft of golden light falling on him through the arches, deep shadows all around, the still water glowing"
+    },
+    {
+      "trecho": "A pergunta foi: você quer ser curado? Está em João, capítulo cinco. Mas a resposta dele surpreende.",
+      "busca_imagem": "man lying mat pool",
+      "prompt_imagem": "a tall robed figure seen from behind standing over a man lying on a mat on the stone steps of an ancient pool, warm morning light, the water shimmering, figures in shadow"
+    },
+    {
+      "trecho": "Em Jerusalém, havia um tanque chamado Betesda. Ao redor, muitos doentes ficavam deitados.",
+      "busca_imagem": "ancient pool colonnade",
+      "prompt_imagem": "an ancient stone pool surrounded by columned porches in Jerusalem, many sick people in robes lying on mats under the colonnades seen from a distance in shadow, soft golden light on the water"
+    },
+    {
+      "trecho": "Um deles estava doente havia trinta e oito anos. Jesus o viu deitado ali. E soube que ele estava assim fazia muito tempo.",
+      "busca_imagem": "old mat stone floor",
+      "prompt_imagem": "a thin man in worn robes seen from behind lying on a faded mat on a worn stone floor in a corner of the porch, a clay cup beside him, long afternoon shadows"
+    },
+    {
+      "trecho": "Jesus perguntou: você quer ser curado? O homem não disse sim. Disse: Senhor, não tenho ninguém que me ajude a entrar no tanque. Quando eu tento, outro chega antes de mim.",
+      "busca_imagem": "people rushing water",
+      "prompt_imagem": "silhouettes of people hurrying down stone steps into a rippling pool, while one man on a mat in the foreground, seen from behind, reaches out a hand and is left behind, dramatic golden backlight"
+    },
+    {
+      "trecho": "Não tenho ninguém. Talvez você conheça essa frase.",
+      "busca_imagem": "lonely man evening",
+      "prompt_imagem": "a man in ancient robes seen from behind sitting alone on stone steps at dusk, head bowed, crowds passing by as blurred shadows, a single oil lamp glowing nearby"
+    },
+    {
+      "trecho": "Jesus não discutiu. Não mandou esperar a água. Disse: levante-se, pegue a sua maca e ande. E na mesma hora o homem ficou curado, pegou a maca e saiu andando.",
+      "busca_imagem": "man carrying mat walking",
+      "prompt_imagem": "a man in ancient robes seen from behind walking upright out of a columned porch with a rolled mat on his shoulder, bright golden morning light ahead of him, astonished figures in shadow"
+    },
+    {
+      "trecho": "Ele nem sabia quem era Jesus. Mas, mais tarde, Jesus o encontrou no templo. Não esqueceu dele.",
+      "busca_imagem": "temple courtyard light",
+      "prompt_imagem": "two robed figures seen from behind meeting in a vast sunlit stone temple courtyard, tall columns casting long shadows, warm golden light, a sense of reunion"
+    },
+    {
+      "trecho": "Quem não tinha ninguém, tinha Jesus. E hoje ele faz a mesma pergunta a você: você quer ser curado? Salve este vídeo para ouvir de novo quando precisar, e siga para receber uma palavra de fé todos os dias.",
+      "busca_imagem": "sunrise open road",
+      "prompt_imagem": "a man in ancient robes seen from behind standing at the edge of a quiet pool at sunrise, arms relaxed, a radiant golden sun rising over Jerusalem's walls, hopeful and peaceful"
+    }
+  ],
+  "legenda": "Senhor, quando eu não tiver ninguém, eu tenho a Ti 🙏😭\nJoão 5:1-15\nComente \"Amém\" e salve para ouvir de novo quando precisar.",
+  "hashtags": [
+    "#Jesus",
+    "#Betesda",
+    "#cura",
+    "#esperança"
+  ],
+  "fontes": [
+    "João 5:1-3 (festa em Jerusalém; tanque de Betesda junto à Porta das Ovelhas, cinco alpendres; muitos doentes: cegos, coxos, paralíticos)",
+    "João 5:5-6 (homem doente havia trinta e oito anos; Jesus o vê deitado, sabe que estava assim havia muito tempo e pergunta: 'Você quer ser curado?')",
+    "João 5:7 ('Senhor, não tenho ninguém que me ponha no tanque...; enquanto vou, outro desce antes de mim')",
+    "João 5:8-9 ('Levante-se, pegue o seu leito e ande'; imediatamente curado, pegou o leito e andou)",
+    "João 5:13-14 (o homem não sabia quem era; mais tarde Jesus o encontrou no templo)"
+  ]
+}
