@@ -1,0 +1,75 @@
+{
+  "titulo": "Ela sangrava havia 12 anos e tocou na roupa de Jesus",
+  "gancho_tela": "12 anos sangrando",
+  "referencia": "Marcos 5:25-34",
+  "serie": "O que quase ninguém sabe",
+  "tipo": "tiktok",
+  "fonte_imagem": "kaggle",
+  "opcoes_imagem": 2,
+  "duracao_max": 40,
+  "volume_musica": 0.12,
+  "plataformas": [
+    "facebook"
+  ],
+  "estilo_imagem": "cinematic photorealistic epic film still, golden hour, dramatic volumetric god rays, ancient Galilee 1st century, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic slow subtle motion.",
+  "epoca_imagem": "Ancient Galilee, 1st century, dusty village road by the sea, stone, clay and linen only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "Ela sangrava havia doze anos. Bastou tocar numa roupa.",
+      "prompt_imagem": "extreme close-up of fingertips touching the frayed fringe of a rough linen cloak hem on a dusty road, warm golden light",
+      "vazia": false,
+      "animar": true,
+      "prompt_movimento": "the linen fringe sways gently in the wind as the fingertips touch it, fine dust drifting in the light"
+    },
+    {
+      "trecho": "Gastou tudo o que tinha com médicos, e só piorava.",
+      "prompt_imagem": "empty clay jars and an open empty cloth purse on a rough wooden table, a single oil lamp flame, dim room",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Pela lei de Levítico, ela era considerada impura.",
+      "prompt_imagem": "a closed weathered wooden door in an ancient stone wall, long shadows, cold dusk light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Mesmo assim pensou: se tão-somente tocar nas suas vestes, sararei.",
+      "prompt_imagem": "wide high view of a dusty village road by the Sea of Galilee, tiny distant figures far away in the distance, golden haze",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "Na hora o sangue parou. E Jesus perguntou: quem tocou nas minhas vestes?",
+      "prompt_imagem": "the hem of a rough linen cloak resting on a dusty road, a beam of golden light falling on it",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Ele a chamou de filha: a tua fé te salvou; vai em paz.",
+      "prompt_imagem": "calm Sea of Galilee at sunrise, soft god rays over the water, gentle waves on stones",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Siga o Mensageiro de Fé para mais do que quase ninguém sabe.",
+      "prompt_imagem": "empty dusty road by the sea at sunrise, warm god rays through the dust",
+      "vazia": true,
+      "animar": false
+    }
+  ],
+  "legenda": "Doze anos doente, sem dinheiro e considerada impura — e bastou um toque na orla da roupa de Jesus (Marcos 5:25-34). Por quem você pediria um toque de Jesus hoje? Comente 👇",
+  "hashtags": [
+    "#Jesus",
+    "#Bíblia",
+    "#Fé",
+    "#OQueQuaseNinguémSabe",
+    "#Cristão"
+  ],
+  "fontes": [
+    "Marcos 5:25-34 — Almeida (domínio público)",
+    "Levítico 15:25 — Almeida (domínio público)"
+  ]
+}
