@@ -1,0 +1,102 @@
+{
+  "canal": "antes_de_nos",
+  "titulo": "Você tem tantos pelos quanto um chimpanzé",
+  "gancho_tela": "Você tem tantos pelos quanto um chimpanzé",
+  "referencia": "Short: por que parecemos pelados (ponte para o doc ep.1 — roupas)",
+  "duracao_max": 60,
+  "volume_musica": 0.1,
+  "plataformas": ["youtube"],
+  "fonte_imagem": "cloudflare",
+  "fundo_video": "pixabay",
+  "opcoes_imagem": 1,
+  "estilo_imagem": "photorealistic documentary photo, National Geographic style, natural light, ultra detailed, vertical 9:16, no text",
+  "prefixo_imagem": "documentary photo:",
+  "epoca_imagem": "wild nature, African forest and savanna, prehistoric times; nothing modern, no text, no watermark",
+  "cenas": [
+    {
+      "trecho": "Você tem tantos pelos quanto um chimpanzé.",
+      "prompt_imagem": "extreme close-up of a chimpanzee face with intense eyes in a dark green rainforest, dramatic side light",
+      "busca_video": "chimpanzee",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "Cientistas contaram os folículos na pele de humanos, chimpanzés e macacos.",
+      "prompt_imagem": "a chimpanzee resting on a tree branch in a misty African rainforest, soft morning light",
+      "busca_video": "chimpanzee forest",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "A densidade de pelos é praticamente a mesma. A diferença está no tamanho.",
+      "prompt_imagem": "macro close-up of thick dark ape fur moving in the wind, backlit by warm sunlight",
+      "busca_video": "monkey fur",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Os nossos ficaram tão finos que muitos são quase invisíveis.",
+      "prompt_imagem": "extreme macro close-up of fine translucent hairs on the skin of a forearm, backlit by soft golden light",
+      "busca_video": "macro skin hair",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E no lugar da pelagem, a evolução nos deu outra coisa: suor.",
+      "prompt_imagem": "blazing sun over the dry African savanna at midday, heat haze over the golden grass",
+      "busca_video": "savanna sun heat",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Temos de dois a cinco milhões de glândulas de suor: dez vezes mais densas que no chimpanzé.",
+      "prompt_imagem": "close-up of drops of water on golden grass under a strong sun, shallow depth of field",
+      "busca_video": "water drops grass",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "O suor evapora da pele nua e leva o calor embora.",
+      "prompt_imagem": "heat waves shimmering over the dry savanna with acacia trees, orange afternoon light",
+      "busca_video": "african savanna",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Foi assim que nossos ancestrais aguentaram andar e caçar sob o sol da África.",
+      "prompt_imagem": "wide view of the African savanna with acacia trees and herds of antelope, tiny figures far away in the distance, golden haze",
+      "busca_video": "antelope savanna",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "Pelos genes da pele, cientistas estimam que estamos quase pelados há mais de um milhão de anos.",
+      "prompt_imagem": "ancient red rocky landscape of East Africa at sunrise, long shadows, vast and empty",
+      "busca_video": "africa sunrise landscape",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E as roupas só apareceram muito, muito depois. Então, como enfrentamos o frio?",
+      "prompt_imagem": "snowstorm over a frozen empty plain at night under a cold blue sky",
+      "busca_video": "snowstorm winter night",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "O documentário completo está no vídeo abaixo. E lembre: você tem tantos pelos quanto um chimpanzé.",
+      "prompt_imagem": "a small campfire burning at the mouth of a rocky cave at night, sparks rising, starry sky",
+      "busca_video": "campfire night",
+      "vazia": true,
+      "animar": false
+    }
+  ],
+  "legenda": "Você tem praticamente a mesma densidade de folículos de um chimpanzé — só que os nossos pelos ficaram finíssimos, e no lugar da pelagem ganhamos milhões de glândulas de suor. Mas, se ficamos quase pelados há mais de um milhão de anos, como sobrevivemos ao frio antes das roupas? O documentário completo está no canal.\n\nVocê sabia disso? Comente 👇",
+  "hashtags": ["#história", "#curiosidades", "#préhistória", "#evolução", "#documentário"],
+  "fontes": [
+    "Kamberov et al. (2018), via Discover Magazine — humanos e chimpanzés têm densidade de folículos semelhante; glândulas écrinas ~10x mais densas: https://www.discovermagazine.com/why-humans-lost-their-hair-and-became-naked-and-sweaty-307",
+    "Penn Today (2021) — densidade de glândulas de suor 10x maior que a de chimpanzés e macacos: https://penntoday.upenn.edu/news/chillest-ape-how-humans-evolved-super-high-cooling-capacity",
+    "Nina Jablonski, Scientific American — 2 a 5 milhões de glândulas écrinas; pele escura há até 1,2 milhão de anos como idade mínima da nudez: https://www.scientificamerican.com/article/the-naked-truth-why-humans-have-no-fur1/",
+    "Rogers, Iltis & Wooding (2004), Current Anthropology — gene MC1R e o tempo desde a perda dos pelos"
+  ]
+}
