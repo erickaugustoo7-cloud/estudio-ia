@@ -23,7 +23,7 @@ for (titulo, corpo), plano_s in zip(secoes, visuais):
             return
         item = plano_s[k % len(plano_s)]; k += 1
         tipo, termo = next(iter(item.items())) if isinstance(item, dict) else [x.strip() for x in item.split(":", 1)]
-        c = {"trecho": " ".join(buf), "prompt_imagem": f"documentary reconstruction, {termo}, prehistoric, natural light",
+        c = {"trecho": " ".join(buf), "prompt_imagem": f"documentary reconstruction, {termo}, {meta.get('epoca_curta', 'prehistoric')}, natural light",
              "vazia": True, "animar": False}
         if tipo == "i":  # reconstituição gerada por IA (Kaggle): o termo já é o prompt completo
             c["prompt_imagem"] = termo

@@ -1,0 +1,64 @@
+{
+ "canal": "antes_de_nos",
+ "titulo": "Como os Egípcios Construíram as Pirâmides? O Diário de 4.500 Anos",
+ "titulo_youtube": "Como os Egípcios Construíram as Pirâmides? O Diário de 4.500 Anos | Documentário",
+ "tipo": "documentario",
+ "formato": "horizontal",
+ "duracao_max": 999,
+ "volume_musica": 0.0,
+ "opcoes_imagem": 1,
+ "palavras_por_bloco": 600,
+ "plataformas": [
+  "youtube"
+ ],
+ "fonte_imagem": "kaggle",
+ "fundo_video": "pixabay",
+ "texto_capa": [
+  "O DIÁRIO",
+  "*PERDIDO",
+  "DAS PIRÂMIDES"
+ ],
+ "selo_capa": "Documentário",
+ "cena_capa": 0,
+ "capa_prompt": "cinematic photo of the Great Pyramid of Giza at sunrise covered in smooth white limestone, an ancient papyrus scroll half buried in the sand in the foreground, the left half of the frame dark and empty for text, ancient Egypt 2500 BC, no city, realistic, documentary style, 16:9, no text",
+ "estilo_imagem": "photorealistic documentary reconstruction, National Geographic style, natural light, ultra detailed, horizontal 16:9, no text",
+ "prefixo_imagem": "documentary photo:",
+ "epoca_imagem": "Ancient Egypt, Old Kingdom, Fourth Dynasty, around 2500 BC; only stone, mudbrick, copper, wood, linen, papyrus and clay; no modern objects, no text, no watermark",
+ "epoca_curta": "ancient Egypt",
+ "estilo_voz": "narrador de documentário, calmo, caloroso e curioso",
+ "legenda": "Como os egípcios construíram as pirâmides sem máquinas, sem ferro e sem rodas de carga? Neste documentário, vamos ao Egito de 4.500 anos atrás: o rio Nilo e suas cheias, a cidade perdida onde os construtores viviam, o pão, a cerveja e a carne que os alimentavam, os túmulos que provam que eles não eram escravos, a areia molhada na frente do trenó, a rampa de Hatnub — e o Diário de Merer, os papiros com texto mais antigos do mundo, que contam como as pedras chegaram até a Grande Pirâmide.\n\nQual outro mistério do mundo antigo você quer que a gente investigue? Escreva nos comentários.",
+ "hashtags": [
+  "#história",
+  "#documentário",
+  "#egitoantigo",
+  "#pirâmides",
+  "#históriaantiga",
+  "#curiosidades"
+ ],
+ "fontes": [
+  "Tallet, P. — papiros de Wadi al-Jarf / Diário de Merer (missão francesa, 2013); resumo em https://en.wikipedia.org/wiki/Diary_of_Merer",
+  "Fall, A. et al., Physical Review Letters (2014), 'Sliding friction on wet and dry sand' — Universidade de Amsterdã: https://iop.uva.nl/content/news/2014/00/prl-egyptian-pyramids.html",
+  "Ghoneim, E. et al., Communications Earth & Environment (2024), braço Ahramat do Nilo — doi:10.1038/s43247-024-01379-7",
+  "Rampa da pedreira de Hatnub (IFAO e Universidade de Liverpool, 2018): https://archaeology.org/news/2018/10/31/181031-egypt-quarry-ramp/",
+  "Lehner, M. — cidade dos construtores (Heit el-Ghurab), Harvard Magazine (2003): https://www.harvardmagazine.com/2003/07/who-built-the-pyramids.html",
+  "Hawass, Z. — túmulos dos trabalhadores de Gizé (anúncio de 2010): https://www.cbc.ca/technology/story/2010/01/11/tech-egypt-pyramid.html",
+  "Heródoto, Histórias, Livro II"
+ ],
+ "short_isca": {
+  "texto_topo": "O DIÁRIO DAS PIRÂMIDES",
+  "titulo": "Um diário de 4.500 anos revelou como as pirâmides foram feitas",
+  "hashtags": [
+   "historia",
+   "egito",
+   "documentario"
+  ],
+  "cenas": [
+   0
+  ]
+ },
+ "revelacao": {
+  "promessa_cena": 1,
+  "entrega_cena": 68,
+  "o_que": "O que estava escrito no Diário de Merer: as pedras de revestimento iam de barco de Tura até Gizé, na cheia do Nilo, por um braço do rio hoje enterrado"
+ }
+}

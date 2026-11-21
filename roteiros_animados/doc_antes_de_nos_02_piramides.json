@@ -1,0 +1,695 @@
+{
+ "canal": "antes_de_nos",
+ "titulo": "Como os Egípcios Construíram as Pirâmides? O Diário de 4.500 Anos",
+ "titulo_youtube": "Como os Egípcios Construíram as Pirâmides? O Diário de 4.500 Anos | Documentário",
+ "tipo": "documentario",
+ "formato": "horizontal",
+ "duracao_max": 999,
+ "volume_musica": 0.0,
+ "opcoes_imagem": 1,
+ "palavras_por_bloco": 600,
+ "plataformas": [
+  "youtube"
+ ],
+ "fonte_imagem": "kaggle",
+ "fundo_video": "pixabay",
+ "texto_capa": [
+  "O DIÁRIO",
+  "*PERDIDO",
+  "DAS PIRÂMIDES"
+ ],
+ "selo_capa": "Documentário",
+ "cena_capa": 0,
+ "capa_prompt": "cinematic photo of the Great Pyramid of Giza at sunrise covered in smooth white limestone, an ancient papyrus scroll half buried in the sand in the foreground, the left half of the frame dark and empty for text, ancient Egypt 2500 BC, no city, realistic, documentary style, 16:9, no text",
+ "estilo_imagem": "photorealistic documentary reconstruction, National Geographic style, natural light, ultra detailed, horizontal 16:9, no text",
+ "prefixo_imagem": "documentary photo:",
+ "epoca_imagem": "Ancient Egypt, Old Kingdom, Fourth Dynasty, around 2500 BC; only stone, mudbrick, copper, wood, linen, papyrus and clay; no modern objects, no text, no watermark",
+ "epoca_curta": "ancient Egypt",
+ "estilo_voz": "narrador de documentário, calmo, caloroso e curioso",
+ "legenda": "Como os egípcios construíram as pirâmides sem máquinas, sem ferro e sem rodas de carga? Neste documentário, vamos ao Egito de 4.500 anos atrás: o rio Nilo e suas cheias, a cidade perdida onde os construtores viviam, o pão, a cerveja e a carne que os alimentavam, os túmulos que provam que eles não eram escravos, a areia molhada na frente do trenó, a rampa de Hatnub — e o Diário de Merer, os papiros com texto mais antigos do mundo, que contam como as pedras chegaram até a Grande Pirâmide.\n\nQual outro mistério do mundo antigo você quer que a gente investigue? Escreva nos comentários.",
+ "hashtags": [
+  "#história",
+  "#documentário",
+  "#egitoantigo",
+  "#pirâmides",
+  "#históriaantiga",
+  "#curiosidades"
+ ],
+ "fontes": [
+  "Tallet, P. — papiros de Wadi al-Jarf / Diário de Merer (missão francesa, 2013); resumo em https://en.wikipedia.org/wiki/Diary_of_Merer",
+  "Fall, A. et al., Physical Review Letters (2014), 'Sliding friction on wet and dry sand' — Universidade de Amsterdã: https://iop.uva.nl/content/news/2014/00/prl-egyptian-pyramids.html",
+  "Ghoneim, E. et al., Communications Earth & Environment (2024), braço Ahramat do Nilo — doi:10.1038/s43247-024-01379-7",
+  "Rampa da pedreira de Hatnub (IFAO e Universidade de Liverpool, 2018): https://archaeology.org/news/2018/10/31/181031-egypt-quarry-ramp/",
+  "Lehner, M. — cidade dos construtores (Heit el-Ghurab), Harvard Magazine (2003): https://www.harvardmagazine.com/2003/07/who-built-the-pyramids.html",
+  "Hawass, Z. — túmulos dos trabalhadores de Gizé (anúncio de 2010): https://www.cbc.ca/technology/story/2010/01/11/tech-egypt-pyramid.html",
+  "Heródoto, Histórias, Livro II"
+ ],
+ "short_isca": {
+  "texto_topo": "O DIÁRIO DAS PIRÂMIDES",
+  "titulo": "Um diário de 4.500 anos revelou como as pirâmides foram feitas",
+  "hashtags": [
+   "historia",
+   "egito",
+   "documentario"
+  ],
+  "cenas": [
+   0
+  ]
+ },
+ "revelacao": {
+  "promessa_cena": 1,
+  "entrega_cena": 68,
+  "o_que": "O que estava escrito no Diário de Merer: as pedras de revestimento iam de barco de Tura até Gizé, na cheia do Nilo, por um braço do rio hoje enterrado"
+ },
+ "cenas": [
+  {
+   "trecho": "Um diário de 4.500 anos guardava o segredo das pirâmides. Ele não estava escondido dentro de uma câmara secreta, nem gravado em ouro. Estava enterrado na areia de um deserto, longe do Nilo, perto do mar.",
+   "prompt_imagem": "a rolled ancient Egyptian papyrus scroll half buried in golden desert sand at dawn, soft light, archaeology photo, documentary",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Por mais de quatro mil anos, ninguém sabia que ele existia. E no final deste documentário, eu vou te mostrar o que estava escrito nele, linha por linha.",
+   "prompt_imagem": "documentary reconstruction, desert dunes, ancient Egypt, natural light",
+   "vazia": true,
+   "animar": false,
+   "busca_video": "desert dunes"
+  },
+  {
+   "trecho": "Durante séculos, as pessoas olharam para as pirâmides do Egito e fizeram sempre a mesma pergunta. Como alguém, sem máquinas, sem ferro e sem rodas de carga, conseguiu empilhar milhões de pedras até formar uma montanha perfeita?",
+   "prompt_imagem": "limestone caves carved into a rocky desert hillside near a calm blue sea at sunrise, ancient Egypt, no buildings, wide shot",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Hoje nós vamos voltar quase cinco mil anos no tempo para tentar responder. Vamos conhecer o rio que mandava em tudo, a cidade onde os construtores viviam, o que eles comiam, como arrastavam as pedras e quem eles eram de verdade.",
+   "prompt_imagem": "documentary reconstruction, egyptian papyrus, ancient Egypt, natural light",
+   "vazia": true,
+   "animar": false,
+   "acervo": "egyptian papyrus"
+  },
+  {
+   "trecho": "E, quando chegarmos ao diário, você vai entender por que ele mudou a forma como os arqueólogos enxergam a maior construção do mundo antigo.",
+   "prompt_imagem": "the three pyramids of Giza at sunrise seen from the open desert, smooth white limestone casing, no city, no roads, epic wide shot",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Para entender o tamanho do mistério, a gente precisa primeiro entender o tamanho da pirâmide. A maior de todas é a Grande Pirâmide de Gizé, construída para um faraó chamado Khufu, que os gregos chamavam de Quéops.",
+   "prompt_imagem": "the Great Pyramid of Giza newly finished, covered in smooth polished white limestone shining in the sun, 2500 BC, no city, very wide shot, documentary reconstruction",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Ele reinou há cerca de quatro mil e quinhentos anos. Quando ficou pronta, ela tinha perto de cento e quarenta e seis metros de altura. É como um prédio de quase cinquenta andares.",
+   "prompt_imagem": "documentary reconstruction, khufu, ancient Egypt, natural light",
+   "vazia": true,
+   "animar": false,
+   "acervo": "khufu"
+  },
+  {
+   "trecho": "Os pesquisadores estimam que ela tenha mais de dois milhões de blocos de pedra, a maioria pesando entre duas e três toneladas. Alguns, lá dentro, passam de várias dezenas de toneladas.",
+   "prompt_imagem": "low angle view up the side of a giant stepped stone pyramid under construction against a blue sky, huge limestone blocks, ancient Egypt",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "E por milhares de anos, nenhuma construção feita por mãos humanas foi mais alta do que ela. Esse recorde só foi quebrado muito, muito tempo depois, já na Idade Média.",
+   "prompt_imagem": "documentary reconstruction, egyptian copper chisel, ancient Egypt, natural light",
+   "vazia": true,
+   "animar": false,
+   "acervo": "egyptian copper chisel"
+  },
+  {
+   "trecho": "Os próprios egípcios tinham um nome bonito para ela: Akhet Khufu, que quer dizer \"o horizonte de Khufu\". Agora pense nisso. Sem guindastes, sem motores, sem ferramentas de ferro.",
+   "prompt_imagem": "tiny distant figures of workers on a vast pyramid construction site in the desert, ramps and stone blocks, epic aerial view, ancient Egypt 2500 BC",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Só cobre, pedra, madeira, corda e gente. Se você gosta de descobrir como viviam os povos que vieram antes de nós, inscreva-se no canal e ative o sininho. Toda semana tem um documentário novo por aqui. Agora, vamos para o Egito.",
+   "prompt_imagem": "documentary reconstruction, desert sand, ancient Egypt, natural light",
+   "vazia": true,
+   "animar": false,
+   "busca_video": "desert sand"
+  },
+  {
+   "trecho": "Durante muito tempo, a explicação mais famosa veio de um viajante grego chamado Heródoto. Ele visitou o Egito uns dois mil anos depois da construção e escreveu que cem mil homens trabalharam na pirâmide, em turnos, durante vinte anos.",
+   "prompt_imagem": "documentary reconstruction, greek vase, ancient Egypt, natural light",
+   "vazia": true,
+   "animar": false,
+   "acervo": "greek vase"
+  },
+  {
+   "trecho": "Foi dele também que nasceu a imagem que muita gente tem até hoje: multidões de escravos sendo chicoteados sob o sol. Mas Heródoto não viu nada disso.",
+   "prompt_imagem": "an ancient Greek traveler's wooden writing tablet and stylus resting on a stone wall overlooking the Nile valley, golden light, still life",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Ele escreveu o que ouviu, muito tempo depois. E as escavações modernas contam uma história bem diferente, como a gente vai ver daqui a pouco. Também surgiram, com o tempo, ideias ainda mais exageradas: que as pirâmides seriam obra de uma civilização perdida, ou de visitantes de outro planeta.",
+   "prompt_imagem": "documentary reconstruction, nile river, ancient Egypt, natural light",
+   "vazia": true,
+   "animar": false,
+   "busca_video": "nile river"
+  },
+  {
+   "trecho": "Nenhuma dessas ideias tem evidência. Ao contrário, as pirâmides são uma das obras antigas mais bem documentadas que existem. Os construtores deixaram marcas, ferramentas, restos de comida, túmulos e até os próprios nomes.",
+   "prompt_imagem": "the Giza plateau with pyramids at dusk under a dramatic sky, no people, documentary photo",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Para encontrar a resposta verdadeira, a gente precisa olhar não para as estrelas, mas para o chão. E para o rio.",
+   "prompt_imagem": "documentary reconstruction, egyptian relief, ancient Egypt, natural light",
+   "vazia": true,
+   "animar": false,
+   "acervo": "egyptian relief"
+  },
+  {
+   "trecho": "O Egito é quase todo deserto. Se você olhar uma imagem de satélite, vai ver um mar de areia cortado por uma fita verde e fina.",
+   "prompt_imagem": "documentary reconstruction, nile river, ancient Egypt, natural light",
+   "vazia": true,
+   "animar": false,
+   "busca_video": "nile river"
+  },
+  {
+   "trecho": "Essa fita é o Nilo. Para os egípcios, o rio era tudo. Era estrada, era água, era comida. E, todos os anos, ele fazia uma coisa que parecia mágica: transbordava.",
+   "prompt_imagem": "aerial view of the ancient Nile valley, a thin green strip of fields and palm trees between two endless deserts, 2500 BC, no modern buildings",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Durante os meses de verão, as chuvas no interior da África enchiam o rio, e o Nilo cobria os campos ao seu redor. Os egípcios chamavam essa estação de Akhet, a inundação.",
+   "prompt_imagem": "documentary reconstruction, river flood, ancient Egypt, natural light",
+   "vazia": true,
+   "animar": false,
+   "busca_video": "river flood"
+  },
+  {
+   "trecho": "Quando as águas baixavam, deixavam para trás uma lama escura e muito fértil. Era nela que os camponeses plantavam trigo, cevada e linho. O próprio Egito era chamado pelos egípcios de Kemet, a terra negra, por causa dessa lama.",
+   "prompt_imagem": "the Nile in flood covering green fields, palm trees standing in the water, mudbrick villages on small hills, ancient Egypt, wide shot",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "A vida de quase todo mundo seguia esse ritmo. Plantar, colher, esperar a cheia. E durante a cheia, com os campos debaixo d'água, muitos agricultores tinham menos trabalho na roça.",
+   "prompt_imagem": "documentary reconstruction, egyptian sickle, ancient Egypt, natural light",
+   "vazia": true,
+   "animar": false,
+   "acervo": "egyptian sickle"
+  },
+  {
+   "trecho": "Muitos pesquisadores acreditam que essa era uma época importante para as grandes obras do faraó. E a cheia fazia ainda outra coisa: levava a água para muito mais perto do deserto, onde as pirâmides estavam sendo erguidas. Guarde essa informação. Ela vai ser importante no final.",
+   "prompt_imagem": "dark fertile mud with young wheat sprouts after the flood, ancient Egyptian fields, golden morning light",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Vamos imaginar um dia na vida de um desses trabalhadores, com base no que a arqueologia encontrou. Ele acorda antes do sol, porque o calor do meio-dia no Egito é duro.",
+   "prompt_imagem": "documentary reconstruction, desert sunrise, ancient Egypt, natural light",
+   "vazia": true,
+   "animar": false,
+   "busca_video": "desert sunrise"
+  },
+  {
+   "trecho": "Dorme num alojamento comprido, junto com dezenas de outros homens da mesma equipe. O café da manhã é simples: pão e cerveja. A cerveja egípcia era grossa, nutritiva e com pouco álcool, quase um alimento.",
+   "prompt_imagem": "long mudbrick barracks at dawn beside the Giza plateau, smoke rising from ovens, ancient Egypt, wide shot, documentary reconstruction",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "O pão era assado em formas de barro, em fornos coletivos. Depois, ele segue para o canteiro de obras. Pode ser o trabalho de puxar cordas, de cortar pedra na pedreira, de carregar água, de preparar argamassa ou de transportar materiais.",
+   "prompt_imagem": "documentary reconstruction, egyptian bread mold, ancient Egypt, natural light",
+   "vazia": true,
+   "animar": false,
+   "acervo": "egyptian bread mold"
+  },
+  {
+   "trecho": "As ferramentas eram de cobre, de pedra dura e de madeira. Cinzéis de cobre para trabalhar o calcário. Martelos de pedra para as rochas mais duras.",
+   "prompt_imagem": "close up of hands breaking a round loaf of bread beside a clay beer jar on a reed mat, ancient Egypt, warm light",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Alavancas de madeira, cordas de fibra vegetal e trenós. No fim do dia, ele volta para o alojamento, come de novo e, quem sabe, conversa sobre a família que ficou na aldeia.",
+   "prompt_imagem": "documentary reconstruction, egyptian beer jar, ancient Egypt, natural light",
+   "vazia": true,
+   "animar": false,
+   "acervo": "egyptian beer jar"
+  },
+  {
+   "trecho": "Porque a maioria desses homens não morava ali para sempre. Eles chegavam, trabalhavam por um tempo e voltavam para casa. Mas como a gente sabe tudo isso?",
+   "prompt_imagem": "close up of hands holding a copper chisel and a wooden mallet against a limestone block, stone dust, ancient Egypt",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Porque, no final do século vinte, os arqueólogos encontraram a cidade onde eles viviam.",
+   "prompt_imagem": "documentary reconstruction, egyptian tools, ancient Egypt, natural light",
+   "vazia": true,
+   "animar": false,
+   "acervo": "egyptian tools"
+  },
+  {
+   "trecho": "Ao sul das pirâmides de Gizé, debaixo da areia, havia uma cidade inteira. O arqueólogo americano Mark Lehner passou anos escavando o lugar, que hoje é conhecido como a cidade perdida dos construtores das pirâmides.",
+   "prompt_imagem": "aerial view of an ancient workers' town of long parallel mudbrick galleries south of the pyramids of Giza, 2500 BC, documentary reconstruction",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Ele e sua equipe encontraram longas galerias, que provavelmente serviam de alojamento para uma força de trabalho que ia mudando, talvez com até dois mil homens de cada vez.",
+   "prompt_imagem": "rows of conical clay bread moulds baking in hot embers inside an ancient Egyptian bakery, smoke and warm light, no people",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Encontraram também padarias. Muitas padarias. Lá está uma das padarias mais antigas já descobertas no Egito, com as formas de barro onde o pão era assado, em tamanhos padronizados.",
+   "prompt_imagem": "documentary reconstruction, egyptian bread, ancient Egypt, natural light",
+   "vazia": true,
+   "animar": false,
+   "acervo": "egyptian bread"
+  },
+  {
+   "trecho": "E encontraram ossos. Uma quantidade enorme de ossos de boi, de ovelha e de cabra. Segundo os especialistas, carne suficiente para alimentar milhares de pessoas, mesmo que comessem carne todos os dias.",
+   "prompt_imagem": "archaeologist's trench revealing ancient mudbrick walls and pottery shards in the sand, brushes and trowel, natural light",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Isso é muito importante. No Egito antigo, carne de boi não era comida de escravo. Era comida cara, de quem era valorizado. Os restos de plantas mostram cevada e trigo antigo, o trigo emmer, usados no pão e na cerveja.",
+   "prompt_imagem": "documentary reconstruction, egyptian cattle figure, ancient Egypt, natural light",
+   "vazia": true,
+   "animar": false,
+   "acervo": "egyptian cattle figure"
+  },
+  {
+   "trecho": "Ou seja, alguém organizava uma cadeia inteira de comida, com fazendas, rebanhos, padeiros e cervejeiros, só para alimentar quem construía a pirâmide.",
+   "prompt_imagem": "herd of long-horned cattle walking along the Nile bank at sunset, palm trees, ancient Egypt",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Dentro das pirâmides, em lugares que nunca deveriam ser vistos, os arqueólogos encontraram marcas pintadas pelos próprios trabalhadores. Não eram decorações para o faraó. Eram marcas das equipes.",
+   "prompt_imagem": "red ochre hieroglyphic marks painted by workers on rough granite blocks inside a dark narrow chamber, torch light, archaeology photo",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "As equipes tinham nomes. E alguns são surpreendentes. Uma se chamava \"Amigos de Khufu\". Outra, numa pirâmide posterior, se chamava \"Os Bêbados de Menkaure\". Pense no que isso revela.",
+   "prompt_imagem": "documentary reconstruction, egyptian hieroglyphs, ancient Egypt, natural light",
+   "vazia": true,
+   "animar": false,
+   "acervo": "egyptian hieroglyphs"
+  },
+  {
+   "trecho": "Não eram grupos de prisioneiros sem nome. Eram equipes com identidade, com orgulho, com um certo senso de humor. Como torcidas, competindo para ver quem fazia mais.",
+   "prompt_imagem": "tiny distant teams of workers pulling ropes together across a vast pyramid construction site, dust, morning light, very wide shot",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Os estudos indicam que esse trabalho era organizado em grupos menores, que se revezavam. Cada pessoa sabia a que equipe pertencia e qual era a sua parte na obra.",
+   "prompt_imagem": "documentary reconstruction, egyptian relief workers, ancient Egypt, natural light",
+   "vazia": true,
+   "animar": false,
+   "acervo": "egyptian relief workers"
+  },
+  {
+   "trecho": "Hoje, a estimativa mais aceita é de que a construção não precisou de cem mil homens ao mesmo tempo, como dizia Heródoto. As estimativas modernas falam em alguns milhares de trabalhadores fixos, com outros milhares se revezando, e uma cidade de apoio que, segundo Lehner, pode ter chegado a cerca de vinte mil pessoas.",
+   "prompt_imagem": "close up of many hands gripping a thick rope under strain, ancient Egypt, dust in the air",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Em 1990, perto das pirâmides, os arqueólogos encontraram algo que mudou de vez essa história: um cemitério dos trabalhadores. Eles foram enterrados ali, à sombra da obra que ajudaram a erguer, em túmulos simples de tijolo e pedra, com jarros de pão e cerveja para a vida após a morte.",
+   "prompt_imagem": "small ancient mudbrick and stone tombs on a desert slope below the pyramids of Giza, late afternoon light, archaeology photo",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "O arqueólogo egípcio Zahi Hawass explicou o raciocínio de um jeito simples: se eles fossem escravos, jamais teriam sido enterrados com tanta honra, tão perto do túmulo do rei.",
+   "prompt_imagem": "documentary reconstruction, egyptian offering jar, ancient Egypt, natural light",
+   "vazia": true,
+   "animar": false,
+   "acervo": "egyptian offering jar"
+  },
+  {
+   "trecho": "Segundo as descobertas anunciadas em 2010, os trabalhadores eram homens pagos, de famílias pobres, que trabalhavam em turnos de cerca de três meses. Comiam carne com frequência.",
+   "prompt_imagem": "clay jars of bread and beer placed beside a small stone tomb entrance in the desert, still life, soft light",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Os pesquisadores estimam que, para cerca de dez mil trabalhadores, chegavam todos os dias vinte e um bois e vinte e três ovelhas, vindos de fazendas espalhadas pelo Egito.",
+   "prompt_imagem": "documentary reconstruction, egyptian stela, ancient Egypt, natural light",
+   "vazia": true,
+   "animar": false,
+   "acervo": "egyptian stela"
+  },
+  {
+   "trecho": "Isso não quer dizer que o trabalho fosse fácil ou que todos estivessem ali por vontade própria. No Egito antigo, trabalhar nas obras do faraó era uma obrigação para muita gente, uma espécie de imposto pago com o próprio esforço.",
+   "prompt_imagem": "the pyramids of Giza seen from a quiet desert cemetery at golden hour, no people",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Mas eles não eram os escravos acorrentados dos filmes. Eram camponeses, artesãos e especialistas, que tinham nome, família e um lugar de honra.",
+   "prompt_imagem": "documentary reconstruction, desert sunset, ancient Egypt, natural light",
+   "vazia": true,
+   "animar": false,
+   "busca_video": "desert sunset"
+  },
+  {
+   "trecho": "Agora, a pergunta prática: como se move uma pedra de duas toneladas sem rodas? A resposta mais provável é o trenó. Uma plataforma de madeira, sem rodas, puxada com cordas por dezenas de pessoas sobre a areia.",
+   "prompt_imagem": "a huge limestone block on a wooden sledge on sand, thick ropes stretched forward, ancient Egypt, documentary reconstruction",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "O problema é que a areia seca é traiçoeira. O trenó afunda, a areia se amontoa na frente, e o esforço fica enorme. Em 2014, físicos da Universidade de Amsterdã, na Holanda, resolveram testar uma ideia.",
+   "prompt_imagem": "documentary reconstruction, desert sand, ancient Egypt, natural light",
+   "vazia": true,
+   "animar": false,
+   "busca_video": "desert sand"
+  },
+  {
+   "trecho": "Eles montaram um pequeno trenó num tanque de areia e mediram a força necessária para puxá-lo, com a areia seca e com a areia molhada. O resultado foi impressionante.",
+   "prompt_imagem": "close up of water being poured from a clay jar onto sand in front of a wooden sledge runner, wet dark sand, ancient Egypt",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Com a quantidade certa de água, a força necessária para puxar o trenó caía pela metade. A areia úmida fica mais firme, não se amontoa, e o trenó desliza.",
+   "prompt_imagem": "documentary reconstruction, egyptian sledge, ancient Egypt, natural light",
+   "vazia": true,
+   "animar": false,
+   "acervo": "egyptian sledge"
+  },
+  {
+   "trecho": "E o mais curioso: os egípcios já tinham deixado a resposta desenhada. Numa pintura no túmulo de um governador chamado Djehutihotep, aparece uma estátua gigante sendo puxada num trenó.",
+   "prompt_imagem": "ancient Egyptian tomb wall painting style scene of a colossal statue on a sledge pulled by rows of men, one pouring water in front, painted plaster, museum photo",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "E, na frente do trenó, um homem joga água na areia. Durante muito tempo, alguns estudiosos acharam que aquilo era só um ritual. Hoje sabemos que, muito provavelmente, era engenharia.",
+   "prompt_imagem": "wet darkened sand beside dry pale sand with sledge tracks, close up, natural light",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Arrastar a pedra no chão é uma coisa. Subir com ela é outra. Como os blocos chegavam lá em cima? Essa ainda é uma das grandes discussões da arqueologia.",
+   "prompt_imagem": "a giant pyramid under construction with a long straight mudbrick ramp leading up one side, ancient Egypt, aerial wide shot, documentary reconstruction",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Existem várias hipóteses: uma rampa reta e longa, uma rampa em espiral em volta da pirâmide, ou até uma rampa por dentro dela. Nenhuma foi comprovada com certeza para a Grande Pirâmide.",
+   "prompt_imagem": "a pyramid under construction with a ramp spiralling around it, tiny distant figures, ancient Egypt, documentary reconstruction",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Mas, em 2018, uma descoberta deu uma pista valiosa. Numa antiga pedreira de alabastro chamada Hatnub, no deserto oriental do Egito, arqueólogos franceses e britânicos encontraram uma rampa muito inclinada, com escadas dos dois lados e buracos para postes de madeira.",
+   "prompt_imagem": "documentary reconstruction, desert canyon, ancient Egypt, natural light",
+   "vazia": true,
+   "animar": false,
+   "busca_video": "desert canyon"
+  },
+  {
+   "trecho": "Segundo os pesquisadores, os blocos eram colocados em trenós amarrados com cordas a esses postes. As cordas funcionavam como um multiplicador de força, ajudando os trabalhadores a puxar a carga mesmo numa subida íngreme.",
+   "prompt_imagem": "steep ancient stone ramp in a white alabaster quarry with staircases on both sides and rows of wooden post holes, desert, archaeology photo",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "E o detalhe mais importante: inscrições no local ligam a rampa ao reinado de Khufu. Ou seja, na mesma época da Grande Pirâmide, os egípcios já sabiam subir pedras pesadas por rampas muito íngremes.",
+   "prompt_imagem": "documentary reconstruction, egyptian alabaster, ancient Egypt, natural light",
+   "vazia": true,
+   "animar": false,
+   "acervo": "egyptian alabaster"
+  },
+  {
+   "trecho": "Mas ainda faltava uma peça enorme no quebra-cabeça. Muitas das melhores pedras não vinham de Gizé.",
+   "prompt_imagem": "a limestone block on a sledge tied with ropes to wooden posts on a steep ramp, close up of ropes and posts, ancient Egypt",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "O miolo da pirâmide foi feito, em grande parte, com calcário cortado ali mesmo, no planalto de Gizé. Mas a pirâmide não era cinzenta como a vemos hoje.",
+   "prompt_imagem": "ancient limestone quarry on the east bank of the Nile with cut stone faces and half-cut blocks, 2500 BC, wide shot",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Ela era coberta por um revestimento de calcário branco e fino, polido, que brilhava sob o sol. Esse calcário de melhor qualidade vinha de pedreiras chamadas Tura, do outro lado do Nilo.",
+   "prompt_imagem": "documentary reconstruction, egyptian limestone, ancient Egypt, natural light",
+   "vazia": true,
+   "animar": false,
+   "acervo": "egyptian limestone"
+  },
+  {
+   "trecho": "E as câmaras de dentro usaram granito, uma pedra duríssima, trazida de Assuã, no sul do Egito, a centenas de quilômetros rio abaixo. Como trazer milhares de blocos pesados de tão longe, sem caminhões, sem estradas e sem rodas de carga?",
+   "prompt_imagem": "polished white limestone casing stones on the corner of a pyramid gleaming in the sun, detail shot",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Por muito tempo, os pesquisadores tinham boas suspeitas, mas pouca prova escrita. Os egípcios deixaram muitas inscrições sobre os seus deuses e reis, mas quase nada sobre o dia a dia de uma obra.",
+   "prompt_imagem": "documentary reconstruction, nile river, ancient Egypt, natural light",
+   "vazia": true,
+   "animar": false,
+   "busca_video": "nile river"
+  },
+  {
+   "trecho": "Até que, em 2013, alguém encontrou essa prova. E não foi em Gizé. Foi a mais de cem quilômetros dali, no litoral do Mar Vermelho.",
+   "prompt_imagem": "pink granite quarry at Aswan with a huge unfinished stone block lying in the rock, desert light, documentary photo",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "No deserto oriental do Egito, num lugar chamado Wadi al-Jarf, existe o que restou de um porto antigo, um dos mais antigos já encontrados. Lá, uma equipe francesa liderada pelo egiptólogo Pierre Tallet estava estudando cavernas cavadas na rocha.",
+   "prompt_imagem": "documentary reconstruction, red sea coast, ancient Egypt, natural light",
+   "vazia": true,
+   "animar": false,
+   "busca_video": "red sea coast"
+  },
+  {
+   "trecho": "Essas cavernas eram usadas, há milhares de anos, para guardar barcos. E, enterrados na frente dessas cavernas, eles encontraram fragmentos de papiro. Rolos inteiros e pedaços de documentos, com escrita egípcia.",
+   "prompt_imagem": "ancient harbor on a desert coast of the Red Sea with a stone jetty and wooden boats, 2500 BC, wide shot, documentary reconstruction",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Quando os especialistas começaram a ler, perceberam o que tinham nas mãos. Eram papiros do reinado de Khufu, o faraó da Grande Pirâmide. Os papiros com texto mais antigos já conhecidos no mundo.",
+   "prompt_imagem": "dark entrances of caves cut into a rocky desert hill, wooden boat planks stacked inside, ancient Egypt",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "E, entre eles, havia um diário. Ele foi escrito por um homem chamado Merer. Merer não era rei, nem sacerdote, nem príncipe. Era um funcionário de nível médio, com o título de inspetor.",
+   "prompt_imagem": "documentary reconstruction, egyptian papyrus, ancient Egypt, natural light",
+   "vazia": true,
+   "animar": false,
+   "acervo": "egyptian papyrus"
+  },
+  {
+   "trecho": "Sob o seu comando trabalhavam cerca de quarenta barqueiros. E o diário de Merer era, basicamente, um registro de trabalho. Como um caderno de bordo. Dia após dia, ele anotava onde estava, o que fazia e para onde levava a carga.",
+   "prompt_imagem": "fragile fragments of ancient papyrus with black and red hieratic writing on an archaeologist's table, soft daylight, close up",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Agora sim, chegou a hora de mostrar o segredo que esse diário guardou por quatro mil e quinhentos anos. Merer e seus quarenta homens não arrastavam as pedras pelo deserto.",
+   "prompt_imagem": "wooden Egyptian cargo boats with square sails carrying large limestone blocks down the Nile, 2500 BC, wide shot, documentary reconstruction",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Eles as levavam de barco. O diário descreve, ao longo de vários meses, o transporte de blocos de calcário das pedreiras de Tura até Gizé. Pela água.",
+   "prompt_imagem": "documentary reconstruction, egyptian boat model, ancient Egypt, natural light",
+   "vazia": true,
+   "animar": false,
+   "acervo": "egyptian boat model"
+  },
+  {
+   "trecho": "Merer anota as viagens como quem registra o expediente. Carregar as pedras em Tura. Navegar pelo rio. Passar a noite num lugar. Chegar ao horizonte de Khufu, a pirâmide.",
+   "prompt_imagem": "documentary reconstruction, nile river, ancient Egypt, natural light",
+   "vazia": true,
+   "animar": false,
+   "busca_video": "nile river"
+  },
+  {
+   "trecho": "Descarregar. E voltar. Uma ida e volta levava cerca de quatro dias. Segundo os cálculos do próprio Pierre Tallet, a cada dez dias mais ou menos a equipe fazia duas ou três viagens, levando talvez trinta blocos de duas a três toneladas cada uma.",
+   "prompt_imagem": "ancient Egyptian boats loading limestone blocks at a riverside quarry, tiny distant figures, morning light",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Algo como duzentos blocos por mês, só com a equipe de Merer. O diário menciona até o chefe dele: Ankhhaf, meio-irmão do faraó Khufu, responsável pelo porto de Gizé.",
+   "prompt_imagem": "documentary reconstruction, egyptian papyrus, ancient Egypt, natural light",
+   "vazia": true,
+   "animar": false,
+   "acervo": "egyptian papyrus"
+  },
+  {
+   "trecho": "Um príncipe, coordenando uma das maiores obras da história. E a época do ano em que essas viagens aconteciam é reveladora. Os registros cobrem os meses de julho a novembro.",
+   "prompt_imagem": "boats arriving at a harbor basin at the foot of the Giza plateau with a pyramid rising behind, flood waters, ancient Egypt, aerial view",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Lembra da cheia do Nilo? É exatamente o período em que o rio sobe e chega mais perto da pirâmide. Os egípcios usaram a força do próprio rio.",
+   "prompt_imagem": "documentary reconstruction, river sunrise, ancient Egypt, natural light",
+   "vazia": true,
+   "animar": false,
+   "busca_video": "river sunrise"
+  },
+  {
+   "trecho": "Segundo os pesquisadores, quando a água subia, os barcos podiam levar a pedra até bem perto do canteiro de obras, por canais e por um porto construído para isso.",
+   "prompt_imagem": "the Great Pyramid reflected in flood waters at sunset, wooden boats in the foreground, ancient Egypt",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "O grande segredo das pirâmides não era uma tecnologia perdida. Era organização. Papel, contas, equipes, barcos, um calendário e a cheia de um rio.",
+   "prompt_imagem": "wooden Egyptian cargo boats with square sails carrying large limestone blocks down the Nile, 2500 BC, wide shot, documentary reconstruction",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Ainda restava uma dúvida. Hoje, o Nilo corre a vários quilômetros das pirâmides. Como os barcos chegariam tão perto? Em 2024, uma equipe liderada pela pesquisadora Eman Ghoneim publicou um estudo que ajudou a responder.",
+   "prompt_imagem": "documentary reconstruction, desert dunes, ancient Egypt, natural light",
+   "vazia": true,
+   "animar": false,
+   "busca_video": "desert dunes"
+  },
+  {
+   "trecho": "Usando imagens de satélite, levantamentos do subsolo e amostras de sedimento retiradas do chão, eles identificaram um antigo braço do Nilo, hoje enterrado sob o deserto e as plantações.",
+   "prompt_imagem": "satellite view of a dry desert with the faint winding trace of an ancient buried river channel, earth observation",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Esse braço perdido tinha cerca de sessenta e quatro quilômetros de extensão. E corria ao lado de trinta e uma pirâmides, incluindo as de Gizé. Os pesquisadores o chamaram de braço Ahramat, que em árabe quer dizer \"pirâmides\".",
+   "prompt_imagem": "a line of pyramids along the bank of an ancient river branch at the edge of the desert, ancient Egypt, aerial wide shot, documentary reconstruction",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Ou seja, quando as pirâmides foram erguidas, o rio passava muito mais perto delas do que passa hoje. Com o tempo, a areia levada pelo vento e as mudanças do clima foram empurrando esse braço para longe, até ele desaparecer.",
+   "prompt_imagem": "documentary reconstruction, egyptian vessel, ancient Egypt, natural light",
+   "vazia": true,
+   "animar": false,
+   "acervo": "egyptian vessel"
+  },
+  {
+   "trecho": "O diário de Merer, escrito há quatro mil e quinhentos anos, e as imagens de satélite de hoje contam a mesma história. As pedras viajaram pela água.",
+   "prompt_imagem": "windblown sand slowly covering an old dry riverbed beside distant pyramids, golden light",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Então, como os egípcios construíram as pirâmides? Não foi com magia, nem com visitantes de outro mundo, nem com cem mil escravos acorrentados. Foi com camponeses e especialistas organizados em equipes com nome e orgulho.",
+   "prompt_imagem": "documentary reconstruction, desert sunset, ancient Egypt, natural light",
+   "vazia": true,
+   "animar": false,
+   "busca_video": "desert sunset"
+  },
+  {
+   "trecho": "Com pão, cerveja e carne. Com trenós sobre areia molhada. Com rampas e cordas. E com barcos que aproveitavam a cheia do Nilo para levar a pedra até o horizonte de Khufu.",
+   "prompt_imagem": "the pyramids of Giza at golden hour with wooden boats on the Nile in the foreground, ancient Egypt, epic wide shot",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "E talvez a parte mais bonita seja esta: de todos os registros que poderiam ter sobrevivido, o que chegou até nós não foi o diário de um rei.",
+   "prompt_imagem": "documentary reconstruction, egyptian scribe statue, ancient Egypt, natural light",
+   "vazia": true,
+   "animar": false,
+   "acervo": "egyptian scribe statue"
+  },
+  {
+   "trecho": "Foi o caderno de trabalho de um homem comum, chamado Merer, que só queria anotar o seu dia. A próxima vez que você vir uma foto das pirâmides, lembre-se dele.",
+   "prompt_imagem": "a single rolled papyrus scroll on a stone ledge with the pyramids far in the background at sunset, still life",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "E dos seus quarenta barqueiros, navegando pelo rio há quatro mil e quinhentos anos. Se você gostou dessa viagem, deixe o seu like e conte nos comentários: qual outro mistério do mundo antigo você quer que a gente investigue?",
+   "prompt_imagem": "starry night sky over the pyramids of Giza, no lights, no city",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "E inscreva-se no Antes de Nós. No próximo documentário, vamos conhecer os animais gigantes que viveram ao lado dos primeiros seres humanos.",
+   "prompt_imagem": "documentary reconstruction, nile river, ancient Egypt, natural light",
+   "vazia": true,
+   "animar": false,
+   "busca_video": "nile river"
+  }
+ ],
+ "capitulos": [
+  {
+   "cena": 0,
+   "titulo": "Um diário enterrado na areia"
+  },
+  {
+   "cena": 5,
+   "titulo": "A montanha feita à mão"
+  },
+  {
+   "cena": 11,
+   "titulo": "As histórias que contaram errado"
+  },
+  {
+   "cena": 16,
+   "titulo": "O rio que mandava em tudo"
+  },
+  {
+   "cena": 22,
+   "titulo": "Um dia na vida de um construtor"
+  },
+  {
+   "cena": 29,
+   "titulo": "A cidade perdida dos construtores"
+  },
+  {
+   "cena": 35,
+   "titulo": "Os amigos de Khufu"
+  },
+  {
+   "cena": 40,
+   "titulo": "Os túmulos de quem construiu"
+  },
+  {
+   "cena": 46,
+   "titulo": "A água na frente do trenó"
+  },
+  {
+   "cena": 52,
+   "titulo": "A rampa no meio do deserto"
+  },
+  {
+   "cena": 58,
+   "titulo": "Pedras que vinham de longe"
+  },
+  {
+   "cena": 63,
+   "titulo": "O porto esquecido"
+  },
+  {
+   "cena": 68,
+   "titulo": "O que Merer escreveu"
+  },
+  {
+   "cena": 77,
+   "titulo": "O rio que desapareceu"
+  },
+  {
+   "cena": 82,
+   "titulo": "O que essa história nos ensina"
+  }
+ ]
+}
