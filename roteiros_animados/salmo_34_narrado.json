@@ -1,0 +1,65 @@
+{
+  "titulo": "O salmo que Davi escreveu depois de fingir loucura para salvar a vida (Salmo 34)",
+  "gancho_tela": "DAVI FINGIU LOUCURA",
+  "referencia": "Salmos 34:1-10",
+  "serie": "Salmos narrados",
+  "tipo": "salmo",
+  "voz": "eric",
+  "fonte_imagem": "cloudflare",
+  "duracao_max": 180,
+  "volume_musica": 0.12,
+  "estilo_imagem": "cinematic photorealistic landscape, golden hour light, soft volumetric rays, peaceful and reverent, rich warm colors, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic slow subtle motion.",
+  "epoca_imagem": "untouched nature, no buildings, no modern objects",
+  "legenda": "Salmo 34 🙏 Provai e vede que o Senhor é bom; bem-aventurado o homem que nele confia.\nSalmos 34:1-10 (Almeida)\nEscreva \"Amém\" e conte nos comentários de qual medo Deus já te livrou.",
+  "hashtags": [
+    "#Salmo34",
+    "#Salmos",
+    "#PalavraDeDeus",
+    "#Fé",
+    "#Oração"
+  ],
+  "fontes": [
+    "Salmos 34:1-10 — Almeida Revista e Corrigida (tradução de domínio público)",
+    "1 Samuel 21:10-15 — contexto: Davi diante do rei de Gate"
+  ],
+  "cenas": [
+    {
+      "trecho": "Davi fingiu loucura para salvar a vida. Fugindo, diante de um rei inimigo, ele escapou. E depois escreveu este salmo. Salmo trinta e quatro. Ouça com calma.",
+      "prompt_imagem": "a dramatic stormy sky breaking open over a rugged desert canyon, a powerful beam of golden light striking the rocks, untouched nature",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Louvarei ao Senhor em todo o tempo; o seu louvor estará continuamente na minha boca. A minha alma se gloriará no Senhor; os mansos o ouvirão e se alegrarão. Engrandecei ao Senhor comigo, e juntos exaltemos o seu nome.",
+      "prompt_imagem": "a golden sunrise over layered misty hills of the Judean wilderness, warm rays spreading across the sky, untouched nature",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Busquei ao Senhor, e ele me respondeu; livrou-me de todos os meus temores. Olharam para ele, e foram iluminados; e os seus rostos não ficarão confundidos. Clamou este pobre, e o Senhor o ouviu; e o salvou de todas as suas angústias.",
+      "prompt_imagem": "a narrow rocky desert path leading out of a dark ravine toward bright morning light on the horizon, untouched nature",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "O anjo do Senhor acampa-se ao redor dos que o temem, e os livra. Provai e vede que o Senhor é bom; bem-aventurado o homem que nele confia.",
+      "prompt_imagem": "a quiet valley at night ringed by high rocky hills under a vast starry sky, a soft silver glow resting over the valley, untouched nature",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Temei ao Senhor, vós os seus santos, pois não têm falta alguma aqueles que o temem. Os filhos dos leões necessitam e sofrem fome, mas aqueles que buscam ao Senhor de nada têm falta.",
+      "prompt_imagem": "a dry golden savanna at sunset with a lone lion resting far away on a rock, a small spring of clear water among green grass in the foreground, untouched nature",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Davi estava com medo, sozinho, longe de casa. E Deus o livrou de todos os seus temores. Ele pode livrar você também. Se você crê, escreva Amém. E siga o Mensageiro de Fé para ouvir um salmo por dia.",
+      "prompt_imagem": "a wooden cross on a rocky hilltop silhouetted against a glowing golden sunset sky with rays of light",
+      "vazia": true,
+      "animar": false
+    }
+  ]
+}
