@@ -1,0 +1,88 @@
+{
+  "titulo": "O menor versículo da Bíblia: Jesus chorou",
+  "gancho_tela": "O menor versículo: Jesus chorou",
+  "referencia": "João 11:35",
+  "duracao_max": 90,
+  "volume_musica": 0.14,
+  "estilo_imagem": "cinematic photorealistic epic film still, dramatic volumetric god rays, floating dust particles, deep chiaroscuro, first century Judea, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic epic film shot, slow and subtle motion.",
+  "epoca_imagem": "Ancient Bethany village near Jerusalem, 1st century AD, limestone houses, rock-cut tombs, olive trees, clay, wood and linen only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "O menor versículo da Bíblia tem só duas palavras: Jesus chorou.",
+      "prompt_imagem": "extreme close-up of a single drop of water falling onto the fine dust of ancient limestone ground in front of a sealed rock-cut tomb, a strong beam of golden light",
+      "prompt_movimento": "the drop falls in slow motion and dust lifts softly in the beam of light, very slow camera push-in",
+      "vazia": true
+    },
+    {
+      "trecho": "Em Betânia, perto de Jerusalém, Lázaro estava no sepulcro havia quatro dias.",
+      "prompt_imagem": "wide aerial view of a small first century Judean village of limestone houses on a hillside, olive groves, Jerusalem far away on the horizon, golden haze",
+      "prompt_movimento": "slow aerial camera glide forward over the village, haze drifts, olive leaves sway in the wind",
+      "vazia": true
+    },
+    {
+      "trecho": "Muitos judeus tinham vindo consolar as irmãs dele, Marta e Maria.",
+      "prompt_imagem": "high view of the stone courtyard of a first century Judean house at dusk, clay oil lamps along the walls, tiny figures far away in the distance gathered in mourning",
+      "prompt_movimento": "the oil lamp flames flicker, smoke drifts slowly upward, slow camera descent",
+      "vazia": false
+    },
+    {
+      "trecho": "Maria caiu aos pés de Jesus: Senhor, se estivesses aqui, meu irmão não teria morrido.",
+      "prompt_imagem": "close-up of two hands resting palms down on the dusty stone road outside an ancient Judean village, the hem of a linen garment, low golden light",
+      "prompt_movimento": "fine dust drifts across the road in the light, the linen hem moves gently in the breeze, static camera",
+      "vazia": false
+    },
+    {
+      "trecho": "Vendo-a chorar, Jesus comoveu-se profundamente e perguntou: Onde o colocaram?",
+      "prompt_imagem": "a dusty path winding between olive trees toward a limestone hillside with rock-cut tombs, late afternoon light, long shadows",
+      "prompt_movimento": "olive leaves tremble in the wind, long shadows stretch slowly, slow camera push-in along the path",
+      "vazia": true
+    },
+    {
+      "trecho": "Responderam: Vem e vê, Senhor. E ali, diante do sepulcro, Jesus chorou.",
+      "prompt_imagem": "an ancient rock-cut cave tomb sealed by a large stone, olive trees around, a tiny distant figure standing before it, soft rays of light through dust",
+      "prompt_movimento": "rays of light shimmer through floating dust, olive leaves sway gently, very slow camera push-in",
+      "vazia": false
+    },
+    {
+      "trecho": "Os judeus comentaram: Vejam como ele o amava!",
+      "prompt_imagem": "wide high view of a limestone hillside with a sealed rock-cut tomb, tiny figures far away in the distance gathered at its entrance, golden evening light",
+      "prompt_movimento": "golden light shifts slowly across the hillside, dust drifts in the air, slow camera pull-back",
+      "vazia": false
+    },
+    {
+      "trecho": "Ele ordenou: Tirem a pedra. Marta avisou: Senhor, ele já cheira mal.",
+      "prompt_imagem": "close-up of a huge stone at the dark entrance of a rock-cut tomb, cracks in the limestone, a beam of light falling across the stone",
+      "prompt_movimento": "dust trickles down the rock face, the beam of light slowly widens, slow camera push-in",
+      "vazia": true
+    },
+    {
+      "trecho": "Jesus olhou para cima: Pai, eu te agradeço porque me ouviste.",
+      "prompt_imagem": "view looking up from a Judean hillside to a vast evening sky, clouds parting with bright heavenly rays, olive branches at the edges of the frame",
+      "prompt_movimento": "clouds drift apart slowly and the heavenly rays grow brighter, olive leaves sway, slow camera tilt up",
+      "vazia": true
+    },
+    {
+      "trecho": "Então gritou: Lázaro, venha para fora! E o morto saiu, envolto em faixas de linho.",
+      "prompt_imagem": "the open entrance of an ancient rock-cut tomb with the great stone rolled aside, strips of white linen at the threshold, brilliant light pouring out of the darkness",
+      "prompt_movimento": "brilliant light pours slowly out of the tomb, dust sparkles in the air, the linen strips stir in the breeze, slow camera push-in",
+      "vazia": true
+    },
+    {
+      "trecho": "Tirem as faixas dele e deixem-no ir. João, capítulo onze.",
+      "prompt_imagem": "loose strips of white linen lying on the dusty ground before an open rock-cut tomb, warm golden sunlight, olive trees",
+      "prompt_movimento": "the linen strips flutter gently in the wind, golden light glows warmer, slow camera pull-back",
+      "vazia": true
+    },
+    {
+      "trecho": "Ele sabia o final e mesmo assim chorou. Sua dor importa: Jesus chorou.",
+      "prompt_imagem": "the empty open rock-cut tomb on a Judean hillside at sunrise, the great stone rolled aside, warm god rays and dust in the air",
+      "prompt_movimento": "the sunrise light grows slowly, dust floats in the god rays, slow camera pull-back",
+      "vazia": true
+    }
+  ],
+  "legenda": "Jesus, obrigado por chorar comigo 🙏💧\nJoão 11:32-44\nComente \"Amém\" se você sabe que sua dor importa para Jesus.",
+  "hashtags": ["#Jesus", "#Lázaro", "#Bíblia", "#fé"],
+  "fontes": ["João 11:17-19", "João 11:32-44"]
+}
