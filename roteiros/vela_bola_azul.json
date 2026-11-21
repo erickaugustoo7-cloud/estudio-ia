@@ -1,0 +1,68 @@
+{
+  "titulo": "A vela que vira uma bola azul no espaço",
+  "gancho_tela": "No espaço, o fogo fica redondo",
+  "narracao": "No espaço, a chama de uma vela vira uma bola azul. Isso já foi filmado em órbita. E o motivo muda o que você sabe sobre fogo. Aqui na Terra, o ar quente da chama é mais leve e sobe. O ar frio entra por baixo e traz oxigênio novo. É isso que estica a chama em forma de gota. E o amarelo vem da fuligem, que é levada até a ponta e brilha. Sem gravidade, nada disso acontece. O ar quente fica parado em volta do pavio. O oxigênio chega só aos pouquinhos, como moléculas que tropeçam na chama por acaso. O resultado é uma chama redonda, azul, sem fuligem e mais fria. Num ônibus espacial, essas velas se apagavam em quarenta a sessenta segundos. Já na estação russa Mir, algumas chegaram a queimar por mais de quarenta e cinco minutos. Mas a maior surpresa veio em dois mil e doze. Na Estação Espacial Internacional, cientistas acenderam gotas de um combustível chamado heptano. A chama apagou. Só que os sensores mostraram que ele continuava queimando. Eram chamas frias, invisíveis a olho nu. Os cientistas dizem que entender esse fogo pode ajudar a criar motores de carro mais limpos. Você teria coragem de acender uma vela no espaço? Siga para descobrir uma curiosidade nova todo dia.",
+  "cenas": [
+    {
+      "trecho": "No espaço, a chama de uma vela vira uma bola azul.",
+      "busca_imagem": "candle flame microgravity",
+      "prompt_imagem": "a small perfectly spherical blue candle flame floating in darkness inside a spacecraft"
+    },
+    {
+      "trecho": "Isso já foi filmado em órbita. E o motivo muda o que você sabe sobre fogo.",
+      "busca_imagem": "International Space Station",
+      "prompt_imagem": "the International Space Station orbiting above Earth, sunlight on solar panels"
+    },
+    {
+      "trecho": "Aqui na Terra, o ar quente da chama é mais leve e sobe. O ar frio entra por baixo e traz oxigênio novo. É isso que estica a chama em forma de gota.",
+      "busca_imagem": "candle flame",
+      "prompt_imagem": "a classic yellow teardrop candle flame on Earth, warm glow, dark background"
+    },
+    {
+      "trecho": "E o amarelo vem da fuligem, que é levada até a ponta e brilha. Sem gravidade, nada disso acontece.",
+      "busca_imagem": "candle flame 1g microgravity",
+      "prompt_imagem": "side by side comparison of a yellow teardrop candle flame and a round blue flame"
+    },
+    {
+      "trecho": "O ar quente fica parado em volta do pavio. O oxigênio chega só aos pouquinhos, como moléculas que tropeçam na chama por acaso.",
+      "busca_imagem": "flame microgravity combustion",
+      "prompt_imagem": "a dim round blue flame surrounding a tiny wick, floating particles, scientific laboratory lighting"
+    },
+    {
+      "trecho": "O resultado é uma chama redonda, azul, sem fuligem e mais fria. Num ônibus espacial, essas velas se apagavam em quarenta a sessenta segundos.",
+      "busca_imagem": "Space Shuttle orbit",
+      "prompt_imagem": "a Space Shuttle orbiter in Earth orbit with payload bay open"
+    },
+    {
+      "trecho": "Já na estação russa Mir, algumas chegaram a queimar por mais de quarenta e cinco minutos. Mas a maior surpresa veio em dois mil e doze.",
+      "busca_imagem": "Mir space station",
+      "prompt_imagem": "the Russian Mir space station orbiting Earth, solar panels against black space"
+    },
+    {
+      "trecho": "Na Estação Espacial Internacional, cientistas acenderam gotas de um combustível chamado heptano. A chama apagou. Só que os sensores mostraram que ele continuava queimando. Eram chamas frias, invisíveis a olho nu.",
+      "busca_imagem": "Combustion Integrated Rack",
+      "prompt_imagem": "a burning fuel droplet glowing inside a scientific combustion chamber aboard a space station"
+    },
+    {
+      "trecho": "Os cientistas dizem que entender esse fogo pode ajudar a criar motores de carro mais limpos. Você teria coragem de acender uma vela no espaço? Siga para descobrir uma curiosidade nova todo dia.",
+      "busca_imagem": "flame space station experiment",
+      "prompt_imagem": "a glowing blue sphere of fire inside a dark spacecraft module, astronaut silhouette window"
+    }
+  ],
+  "legenda": "Na Terra a chama é uma gota amarela. Em órbita, vira uma bola azul — e na Mir uma vela queimou por mais de 45 minutos. 🕯️🚀\nVocê acenderia uma vela no espaço? Comenta aqui 👇",
+  "hashtags": [
+    "#fogo",
+    "#estacaoespacial",
+    "#microgravidade",
+    "#NASA"
+  ],
+  "fontes": [
+    "NASA — Candle Flame: 1g vs Microgravity (chama em gota e amarela pela convecção e fuligem; em microgravidade esférica, sem fuligem e azul) — https://www.nasa.gov/image-article/candle-flame-1g-vs-microgravity/",
+    "NASA SVS — NASA Studies Fire in Microgravity — https://svs.gsfc.nasa.gov/31394",
+    "NASA — relatório Candle Flames (USML-1 no ônibus espacial: extinção entre 40 e 60 s; Mir: de 100 s a mais de 45 min; temperatura menor em microgravidade) — https://corpora.tika.apache.org/base/docs/govdocs1/362/362761.html",
+    "Astronomy.com — Great balls of fire: oxigênio só por difusão molecular, 'moléculas que tropeçam' — https://www.astronomy.com/science/great-balls-of-fire-how-flames-behave-in-space/",
+    "NASA (2021) — Cool flames descobertas em 2012 nos estudos FLEX da ISS — https://www.nasa.gov/missions/station/cool-flames-created-during-a-first-for-international-space-station-research/",
+    "UC San Diego — gotas de heptano, chama parecia apagada mas seguia queimando, invisível; podem ajudar a criar carros mais limpos (Live Science, CBS) — https://today.ucsd.edu/story/researchers_discover_cool_burning_flames_in_space_that_could_lead_to_better",
+    "Smithsonian — In Space, Flames Behave in Ways Nobody Thought Possible"
+  ]
+}
