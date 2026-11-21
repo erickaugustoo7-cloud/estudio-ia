@@ -1,0 +1,68 @@
+{
+  "titulo": "Oração para a mulher cansada de ser forte para todo mundo",
+  "gancho_tela": "Cansada de ser forte?",
+  "referencia": "Mateus 11:28",
+  "serie": "Oração de 20 segundos",
+  "tipo": "tiktok",
+  "fonte_imagem": "kaggle",
+  "opcoes_imagem": 2,
+  "duracao_max": 40,
+  "volume_musica": 0.12,
+  "plataformas": [
+    "facebook"
+  ],
+  "estilo_imagem": "cinematic photorealistic epic film still, soft dusk light and warm lamplight, dramatic volumetric light, ancient Judea village, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic slow subtle motion.",
+  "epoca_imagem": "Ancient Israel village at dusk, stone house, clay jars and oil lamps, linen, wool and wood only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "Você é forte para todo mundo, mas quem cuida de você? Ore comigo.",
+      "prompt_imagem": "a heavy clay water jar set down beside an ancient stone well at dusk, water spilling over its rim, warm golden light",
+      "vazia": true,
+      "animar": true,
+      "prompt_movimento": "water slowly spills over the rim of the clay jar and drips onto the stones, dust glowing in the light"
+    },
+    {
+      "trecho": "Senhor, eu seguro a casa, os filhos, todo mundo. E estou cansada.",
+      "prompt_imagem": "a dim ancient stone room with a woven basket of folded linen, a clay bowl and a cold hearth, soft evening light from a small window",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Ninguém vê o peso que eu carrego calada. Mas tu vês.",
+      "prompt_imagem": "close-up of two tired hands resting open on a rough wooden table beside a clay oil lamp, warm light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Tu disseste: vinde a mim, todos os que estais cansados e oprimidos, e eu vos aliviarei.",
+      "prompt_imagem": "an old parchment scroll partly unrolled on a wooden table beside a burning clay oil lamp, warm light falling across it",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Então hoje eu deixo o peso aos teus pés e descanso. Amém.",
+      "prompt_imagem": "a clay water jar resting on the ground at the end of a dusty road under a calm golden sunset sky over quiet hills, wide high view",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Siga o Mensageiro de Fé para orar comigo todos os dias.",
+      "prompt_imagem": "a quiet ancient village of flat-roofed stone houses at dusk, one warm lit window far away, peaceful sky",
+      "vazia": true,
+      "animar": false
+    }
+  ],
+  "legenda": "Para você que é forte para todo mundo: \"Vinde a mim, todos os que estais cansados e oprimidos, e eu vos aliviarei\" (Mateus 11:28). Por quem você tem sido forte ultimamente? Comente 👇",
+  "hashtags": [
+    "#Oração",
+    "#Mulher",
+    "#Mãe",
+    "#Fé",
+    "#Deus"
+  ],
+  "fontes": [
+    "Mateus 11:28 — Almeida (domínio público): \"Vinde a mim, todos os que estais cansados e oprimidos, e eu vos aliviarei.\""
+  ]
+}
