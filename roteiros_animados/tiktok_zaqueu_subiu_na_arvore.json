@@ -1,0 +1,75 @@
+{
+  "titulo": "O homem mais odiado de Jericó subiu numa árvore para ver Jesus",
+  "gancho_tela": "O mais odiado de Jericó",
+  "referencia": "Lucas 19:1-10",
+  "serie": "O que quase ninguém sabe",
+  "tipo": "tiktok",
+  "fonte_imagem": "kaggle",
+  "opcoes_imagem": 2,
+  "duracao_max": 40,
+  "volume_musica": 0.12,
+  "plataformas": [
+    "facebook"
+  ],
+  "estilo_imagem": "cinematic photorealistic epic film still, golden hour, dramatic volumetric god rays, ancient Judea 1st century, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic slow subtle motion.",
+  "epoca_imagem": "Ancient Jericho, 1st century, palm trees, mud-brick and stone houses, dusty road, clay, wood and linen only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "O homem mais odiado de Jericó subiu numa árvore.",
+      "prompt_imagem": "low angle view up into the thick branches of a huge old sycamore fig tree over a dusty road, sunlight bursting through the leaves",
+      "vazia": true,
+      "animar": true,
+      "prompt_movimento": "the sycamore branches and leaves sway in the wind, sun rays flickering through the leaves, dust drifting"
+    },
+    {
+      "trecho": "Zaqueu era rico, chefe dos publicanos. Todos o chamavam de pecador.",
+      "prompt_imagem": "stacks of ancient bronze and silver coins on a rough wooden table beside a clay oil lamp, dark room, warm light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Era baixo, e a multidão tampava Jesus. Subiu num sicômoro.",
+      "prompt_imagem": "wide high view of a dusty road through ancient Jericho lined with palm trees and one large sycamore fig tree, tiny distant figures far away",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "Jesus olhou para cima e disse: Zaqueu, desce depressa.",
+      "prompt_imagem": "view from inside sycamore leaves looking down at the sunlit dusty road below, golden god rays",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Zaqueu prometeu metade dos seus bens aos pobres.",
+      "prompt_imagem": "close-up of ancient coins spilling from an open linen pouch onto a wooden table next to loaves of bread, warm golden light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E Jesus disse: hoje veio a salvação a esta casa.",
+      "prompt_imagem": "open wooden door of an ancient mud-brick house at dusk, warm oil lamp light glowing from inside",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Siga o Mensageiro de Fé para mais do que quase ninguém sabe.",
+      "prompt_imagem": "lone sycamore fig tree beside an empty dusty road at sunrise, warm god rays through the dust",
+      "vazia": true,
+      "animar": false
+    }
+  ],
+  "legenda": "Zaqueu era rico e odiado, mas subiu numa árvore só para ver Jesus passar (Lucas 19:1-10). E Jesus o chamou pelo nome. Até onde você já foi para encontrar Jesus? Comente 👇",
+  "hashtags": [
+    "#Jesus",
+    "#Bíblia",
+    "#Fé",
+    "#OQueQuaseNinguémSabe",
+    "#Cristão"
+  ],
+  "fontes": [
+    "Lucas 19:1-10 — Almeida Corrigida Fiel (domínio público)",
+    "https://www.bibliaonline.com.br/acf/lc/19"
+  ]
+}
