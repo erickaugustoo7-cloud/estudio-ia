@@ -1,0 +1,64 @@
+{
+  "titulo": "O soldado que deixou Jesus admirado",
+  "gancho_tela": "Só duas vezes Jesus ficou admirado",
+  "estilo": "pintura",
+  "narracao": "Os Evangelhos contam só duas vezes que Jesus ficou admirado. Uma foi com a falta de fé da sua própria cidade. A outra, com um soldado romano. O que ele disse? Em Cafarnaum, um centurião tinha um servo muito querido, doente, à beira da morte. Ele mandou líderes judeus pedirem ajuda a Jesus. Disseram: ele merece, ama o nosso povo e construiu a nossa sinagoga. Jesus foi. Mas, perto da casa, amigos do centurião trouxeram um recado: Senhor, não se incomode. Não sou digno de que entre na minha casa. Basta uma palavra, e o meu servo será curado. Eu também estou debaixo de autoridade, e minhas ordens são cumpridas. Jesus se admirou e disse à multidão: nem em Israel encontrei tamanha fé. Lucas, capítulo sete. Os amigos voltaram e encontraram o servo curado. Jesus nem precisou entrar. Esse homem tinha poder e soldados. Mas sabia que não era digno. E foi essa fé humilde que deixou Jesus admirado. Hoje cedo, entregue a ele o que você não controla. Uma palavra dele basta. Salve este vídeo para ouvir de novo quando precisar, e siga para receber uma palavra de fé todos os dias.",
+  "cenas": [
+    {
+      "trecho": "Os Evangelhos contam só duas vezes que Jesus ficou admirado.",
+      "busca_imagem": "roman centurion doorway dawn",
+      "prompt_imagem": "a Roman centurion in a red cloak and crested helmet seen from behind, standing in the doorway of a stone house at dawn, brilliant golden light pouring through the door, a sick man lying on a simple bed in the shadowed room, strong contrast"
+    },
+    {
+      "trecho": "Uma foi com a falta de fé da sua própria cidade. A outra, com um soldado romano. O que ele disse?",
+      "busca_imagem": "roman soldier silhouette sunset",
+      "prompt_imagem": "silhouette of a Roman officer in armor seen from behind on a hill above an ancient lakeside town at sunset, warm golden sky"
+    },
+    {
+      "trecho": "Em Cafarnaum, um centurião tinha um servo muito querido, doente, à beira da morte.",
+      "busca_imagem": "sick servant bed oil lamp",
+      "prompt_imagem": "a sick young servant lying on a simple bed in a dim stone room lit by an oil lamp, a Roman officer seen from behind kneeling beside him, his helmet on the floor"
+    },
+    {
+      "trecho": "Ele mandou líderes judeus pedirem ajuda a Jesus. Disseram: ele merece, ama o nosso povo e construiu a nossa sinagoga.",
+      "busca_imagem": "elders ancient synagogue",
+      "prompt_imagem": "a group of bearded elders in ancient robes seen from behind walking out of a stone synagogue in Capernaum in morning light, dusty street"
+    },
+    {
+      "trecho": "Jesus foi. Mas, perto da casa, amigos do centurião trouxeram um recado: Senhor, não se incomode. Não sou digno de que entre na minha casa.",
+      "busca_imagem": "robed men road messengers",
+      "prompt_imagem": "robed men seen from behind walking on a dusty ancient road toward a town, a small group of messengers hurrying toward them from a stone house, golden light"
+    },
+    {
+      "trecho": "Basta uma palavra, e o meu servo será curado. Eu também estou debaixo de autoridade, e minhas ordens são cumpridas.",
+      "busca_imagem": "roman soldiers courtyard",
+      "prompt_imagem": "Roman soldiers in armor standing in a row in a stone courtyard, an officer in a red cloak seen from behind giving an order, sunlight and long shadows"
+    },
+    {
+      "trecho": "Jesus se admirou e disse à multidão: nem em Israel encontrei tamanha fé. Lucas, capítulo sete.",
+      "busca_imagem": "crowd ancient road light",
+      "prompt_imagem": "a robed figure seen from behind turning toward a large crowd on an ancient road, soft divine golden light around him, faces of the crowd in shadow"
+    },
+    {
+      "trecho": "Os amigos voltaram e encontraram o servo curado. Jesus nem precisou entrar.",
+      "busca_imagem": "healed man sunlight window",
+      "prompt_imagem": "a young servant seen from behind standing up healthy in a stone room flooded with morning sunlight from a window, an empty bed behind him, joyful warm light"
+    },
+    {
+      "trecho": "Esse homem tinha poder e soldados. Mas sabia que não era digno. E foi essa fé humilde que deixou Jesus admirado. Hoje cedo, entregue a ele o que você não controla. Uma palavra dele basta. Salve este vídeo para ouvir de novo quando precisar, e siga para receber uma palavra de fé todos os dias.",
+      "busca_imagem": "man sunrise hill prayer",
+      "prompt_imagem": "a man seen from behind standing on a hill at sunrise, a Roman helmet resting on the ground beside him, his hands open toward the golden light, peaceful and hopeful"
+    }
+  ],
+  "legenda": "Senhor, diz uma palavra sobre a minha vida 🙏\nLucas 7:1-10 · Marcos 6:6\nComente \"Amém\" e salve para ouvir de novo quando precisar.",
+  "hashtags": [
+    "#centurião",
+    "#fé",
+    "#Cafarnaum",
+    "#oraçãodamanhã"
+  ],
+  "fontes": [
+    "Lucas 7:1-10 (Cafarnaum; servo do centurião, estimado, à beira da morte; líderes judeus enviados: 'ele merece, ama a nossa nação e construiu a sinagoga'; Jesus vai; perto da casa, amigos levam o recado 'não sou digno que entres em minha casa... dize uma palavra e o meu servo será curado; também estou sob autoridade e tenho soldados'; Jesus se admira, volta-se para a multidão: 'nem em Israel encontrei tamanha fé'; os enviados acham o servo curado)",
+    "Marcos 6:1-6 (em sua terra, Jesus se admira da incredulidade deles)"
+  ]
+}
