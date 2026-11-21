@@ -1,0 +1,870 @@
+{
+ "titulo": "As Cartas de Paulo — Ep. 2: Romanos 8, nada nos separará do amor de Deus",
+ "serie": "As Cartas de Paulo",
+ "parte": 2,
+ "titulo_youtube": "As Cartas de Paulo — Ep. 2: O Que Romanos 8:28 NÃO Promete (Estudo de Romanos 8)",
+ "gancho_tela": "O versículo mais mal entendido",
+ "referencia": "Romanos 8",
+ "tipo": "estudo",
+ "formato": "horizontal",
+ "duracao_max": 999,
+ "volume_musica": 0,
+ "opcoes_imagem": 1,
+ "palavras_por_bloco": 600,
+ "plataformas": [
+  "youtube"
+ ],
+ "cena_capa": 0,
+ "texto_capa": [
+  "O QUE ELE",
+  "*NÃO",
+  "PROMETE"
+ ],
+ "selo_capa": "As Cartas de Paulo",
+ "capa_prompt": "cinematic photo of an open ancient parchment scroll and a small oil lamp on a rough wooden table, dark storm clouds outside a stone window with one strong beam of golden sunrise light breaking through on the right, the left two thirds dark and empty for text, shallow depth of field, 16:9, no people, no text",
+ "estilo_imagem": "cinematic real photography, warm natural light, ultra detailed, horizontal 16:9, no people, no text",
+ "prefixo_imagem": "cinematic photo:",
+ "prefixo_video": "Slow gentle cinematic motion.",
+ "epoca_imagem": "real objects and natural landscapes; no people, no modern things, no text",
+ "fonte_imagem": "cloudflare",
+ "fundo_video": "pixabay",
+ "estilo_voz": "maduro, acolhedor, firme e contemplativo, como um professor que ama a Bíblia e fala com carinho a quem está sofrendo; ritmo calmo, com pausas",
+ "legenda": "\"Todas as coisas contribuem juntamente para o bem\" é o versículo mais citado nos dias difíceis — e um dos mais mal entendidos. Neste segundo episódio da série As Cartas de Paulo, estudamos Romanos 8 do começo ao fim: a carta que Paulo escreveu de Corinto, por volta do ano 57, a uma igreja de Roma que ele ainda não conhecia; \"nenhuma condenação há para os que estão em Cristo Jesus\"; o \"Aba, Pai\"; os três gemidos do capítulo; o que Romanos 8:28 promete e o que NÃO promete; e o versículo seguinte, que quase ninguém lê.\n\n\"Porque estou certo de que nem a morte, nem a vida (...) nos poderá separar do amor de Deus, que está em Cristo Jesus, nosso Senhor!\" (Romanos 8:38-39)\n\nEscreva \"Amém\" nos comentários, conte qual versículo de Romanos 8 mais falou com você e deixe seu pedido de oração. Inscreva-se para acompanhar toda a série.",
+ "hashtags": [
+  "#Romanos8",
+  "#ApostoloPaulo",
+  "#EstudoBiblico",
+  "#CartasDePaulo",
+  "#BibliaSagrada"
+ ],
+ "fontes": [
+  "Romanos 8 — Almeida Revista e Corrigida (domínio público)",
+  "Romanos 1:10-13; 15:24-28; 16:1-2, 16:3, 16:22-23 (contexto da carta)",
+  "Romanos 7:24; Romanos 12:15 (paráfrase)",
+  "Atos 18:2 (Cláudio expulsa os judeus de Roma)",
+  "Marcos 14:36 (\"Aba, Pai\")",
+  "2 Coríntios 11:23-27 (sofrimentos de Paulo, paráfrase)",
+  "Salmo 44:22 (citado em Romanos 8:36, paráfrase)"
+ ],
+ "capitulos": [
+  {
+   "cena": 0,
+   "titulo": "O versículo mais citado nos dias difíceis"
+  },
+  {
+   "cena": 5,
+   "titulo": "Uma carta para uma igreja que Paulo nunca viu"
+  },
+  {
+   "cena": 18,
+   "titulo": "Nenhuma condenação (Romanos 8:1-4)"
+  },
+  {
+   "cena": 27,
+   "titulo": "Aba, Pai: filhos, não escravos (Romanos 8:14-17)"
+  },
+  {
+   "cena": 34,
+   "titulo": "Sofrimento e glória (Romanos 8:18-25)"
+  },
+  {
+   "cena": 38,
+   "titulo": "Os três gemidos (Romanos 8:22-27)"
+  },
+  {
+   "cena": 49,
+   "titulo": "O que Romanos 8:28 promete"
+  },
+  {
+   "cena": 53,
+   "titulo": "O que essa frase NÃO promete"
+  },
+  {
+   "cena": 59,
+   "titulo": "O versículo que quase ninguém lê (Romanos 8:29)"
+  },
+  {
+   "cena": 66,
+   "titulo": "Se Deus é por nós (Romanos 8:31-34)"
+  },
+  {
+   "cena": 71,
+   "titulo": "Nada nos poderá separar (Romanos 8:35-39)"
+  },
+  {
+   "cena": 80,
+   "titulo": "Para quem está sofrendo hoje"
+  },
+  {
+   "cena": 87,
+   "titulo": "Oração final"
+  },
+  {
+   "cena": 91,
+   "titulo": "A próxima carta"
+  }
+ ],
+ "revelacao": {
+  "promessa_cena": 2,
+  "entrega_cena": 59,
+  "o_que": "o versículo logo depois de Romanos 8:28 que quase ninguém lê (8:29): o 'bem' prometido é sermos conformes à imagem de Cristo, não que tudo saia como queremos"
+ },
+ "short_isca": {
+  "cenas": [
+   2
+  ],
+  "texto_topo": "O QUE NINGUÉM LÊ",
+  "titulo": "O versículo depois de Romanos 8:28 que quase ninguém lê",
+  "hashtags": [
+   "romanos8",
+   "apostolopaulo",
+   "estudobiblico"
+  ]
+ },
+ "cenas": [
+  {
+   "trecho": "Romanos 8:28 é o versículo mais citado nos dias difíceis. \"Todas as coisas contribuem juntamente para o bem.\" Ele aparece em enterro, em hospital, em mensagem de apoio quando o casamento acaba.",
+   "busca_video": "storm clouds",
+   "prompt_imagem": "dark storm clouds rolling over a wild sea",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo, depois íntimo"
+  },
+  {
+   "trecho": "E talvez seja também o versículo mais mal entendido da Bíblia. Porque muita gente ouve essa frase no pior dia da vida e sai pensando: então Deus quis isso para mim? Então eu tenho que fingir que está tudo bem?",
+   "busca_video": "rain leaves",
+   "prompt_imagem": "gentle rain falling on green leaves",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo, depois íntimo"
+  },
+  {
+   "trecho": "Existe um versículo logo depois de Romanos 8:28 que quase ninguém lê. E ele muda o sentido inteiro dessa promessa. No final deste estudo, eu vou te mostrar qual é… e o que ele diz sobre a sua dor.",
+   "busca_video": "candle flame dark",
+   "prompt_imagem": "a single candle flame glowing in a dark stone room",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo, depois íntimo"
+  },
+  {
+   "trecho": "Se você está atravessando um tempo de sofrimento, de espera ou de culpa, este capítulo foi escrito para você. Ele começa dizendo que não há condenação, e termina dizendo que nada pode te separar do amor de Deus.",
+   "busca_video": "forest fog",
+   "prompt_imagem": "a misty forest at dawn with soft light between the trees",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo, depois íntimo"
+  },
+  {
+   "trecho": "Este é o segundo episódio da série As Cartas de Paulo. Hoje vamos caminhar por Romanos 8, do primeiro ao último versículo, com o contexto da época, as palavras do texto e o que elas significam para quem está sofrendo hoje.",
+   "busca_video": "old paper",
+   "prompt_imagem": "an old parchment letter with a feather quill on a rough wooden table in warm light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+  },
+  {
+   "trecho": "Para entender Romanos 8, precisamos voltar quase dois mil anos. Por volta do ano 57 depois de Cristo, Paulo está em Corinto, uma cidade grega movimentada, cheia de portos, comércio e templos de deuses pagãos.",
+   "busca_video": "roman ruins",
+   "prompt_imagem": "ancient roman stone ruins and columns at golden hour",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "Ele está hospedado na casa de um irmão chamado Gaio. E dita uma carta. Quem escreve com a mão é um homem chamado Tércio, que deixou o próprio nome registrado no fim da carta: \"Eu, Tércio, que esta carta escrevi\".",
+   "busca_video": "candle flame dark",
+   "prompt_imagem": "a single candle flame glowing in a dark stone room",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "E aqui vai um detalhe que pouca gente percebe: Paulo escreve para a igreja de Roma, uma igreja que ele ainda não conhecia. Se este estudo está te ajudando, inscreva-se no canal e ative o sininho para acompanhar toda a série.",
+   "busca_video": "ancient road",
+   "prompt_imagem": "an ancient stone road between olive trees at dawn",
+   "vazia": true,
+   "animar": false,
+   "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+  },
+  {
+   "trecho": "No primeiro capítulo, ele mesmo conta que muitas vezes quis ir até eles e foi impedido. Ele nunca tinha pisado em Roma. Não conhecia o rosto daqueles irmãos. Mesmo assim, escreveu a eles a carta mais profunda que deixou.",
+   "busca_video": "sea sunset",
+   "prompt_imagem": "calm mediterranean sea waves at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "E quem eram esses cristãos de Roma? Gente comum, numa cidade imensa, capital de um império que adorava o imperador. Havia judeus e havia não judeus. Muitos eram escravos ou trabalhadores pobres, reunidos em casas, não em templos.",
+   "busca_video": "roman ruins",
+   "prompt_imagem": "ancient roman stone ruins and columns at golden hour",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "Alguns anos antes, o imperador Cláudio tinha expulsado os judeus de Roma. O livro de Atos conta que Áquila e Priscila tiveram que sair da cidade por causa disso. Quando puderam voltar, a igreja já tinha mudado.",
+   "busca_video": "ancient road",
+   "prompt_imagem": "an ancient stone road between olive trees at dawn",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "Era uma igreja dividida entre histórias diferentes, vivendo à sombra do poder romano. E poucos anos depois, a história conta que muitos cristãos de Roma seriam perseguidos e mortos sob o imperador Nero.",
+   "busca_video": "fire embers",
+   "prompt_imagem": "glowing embers of a small wood fire in the dark",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "Ou seja: quando eles leram \"quem nos separará do amor de Cristo? A tribulação, ou a angústia, ou a perseguição?\", aquilo não era poesia. Era a vida deles. E, no fim, o próprio Paulo chegaria a Roma acorrentado, como prisioneiro.",
+   "busca_video": "chains",
+   "prompt_imagem": "old iron chains on a dark stone floor with a ray of golden light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+  },
+  {
+   "trecho": "A carta provavelmente foi levada por uma mulher chamada Febe, serva da igreja de Cencreia, o porto vizinho de Corinto. Paulo a recomenda no capítulo dezesseis. Imagine essa mulher atravessando o mar com esse rolo nas mãos.",
+   "busca_video": "sea sunset",
+   "prompt_imagem": "calm mediterranean sea waves at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "Paulo estava prestes a ir a Jerusalém levar uma oferta para os irmãos pobres, e depois sonhava em seguir até a Espanha, passando por Roma. A carta era uma apresentação: isto é o evangelho que eu prego.",
+   "busca_video": "old paper",
+   "prompt_imagem": "an old parchment letter with a feather quill on a rough wooden table in warm light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+  },
+  {
+   "trecho": "E é importante saber o que vem logo antes do capítulo oito. No capítulo sete, Paulo descreve a luta de quem quer fazer o bem e não consegue. E termina com um grito: \"Miserável homem que eu sou! Quem me livrará do corpo desta morte?\".",
+   "busca_video": "candle flame dark",
+   "prompt_imagem": "a single candle flame glowing in a dark stone room",
+   "vazia": true,
+   "animar": false,
+   "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+  },
+  {
+   "trecho": "Talvez você conheça esse grito. A sensação de cair de novo no mesmo erro. De prometer a Deus que vai mudar, e falhar outra vez. De deitar a cabeça no travesseiro carregando culpa. Romanos 8 é a resposta a esse grito.",
+   "busca_video": "storm clouds",
+   "prompt_imagem": "dark storm clouds rolling over a wild sea",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Lembre também que os capítulos e os versículos não existiam quando Paulo escreveu. Foram acrescentados muitos séculos depois. Para os irmãos de Roma, a resposta vinha logo em seguida, sem pausa nenhuma.",
+   "busca_video": "clouds timelapse",
+   "prompt_imagem": "white clouds moving slowly across a blue sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+  },
+  {
+   "trecho": "E a resposta começa assim: \"Portanto, agora, nenhuma condenação há para os que estão em Cristo Jesus\". Repare na palavra \"agora\". Não é depois que você ficar perfeito. Não é quando você merecer. É agora.",
+   "busca_video": "sunrise clouds",
+   "prompt_imagem": "golden sunrise breaking through clouds over green hills",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "A palavra condenação era uma palavra de tribunal. É a sentença do juiz, o veredito de culpado. Paulo está dizendo que, para quem está em Cristo, o processo foi encerrado. Não existe mais sentença pendente contra você.",
+   "busca_video": "sun rays forest",
+   "prompt_imagem": "sun rays shining through tall trees in a forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+  },
+  {
+   "trecho": "E ele explica por quê: \"Porque a lei do Espírito de vida, em Cristo Jesus, me livrou da lei do pecado e da morte.\" Existe uma força maior do que a força que te puxa para baixo. E essa força tem nome: o Espírito de Deus.",
+   "busca_video": "river stream",
+   "prompt_imagem": "a clear river flowing over smooth stones in a forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+  },
+  {
+   "trecho": "Nos versículos seguintes, Paulo diz que a lei não conseguia salvar, porque esbarrava na nossa fraqueza. Então Deus fez o que a lei não podia fazer: enviou o seu próprio Filho, e condenou o pecado na carne.",
+   "busca_video": "olive tree",
+   "prompt_imagem": "an old olive tree on a rocky hillside at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+  },
+  {
+   "trecho": "Perceba a troca. O pecado foi condenado. Você, não. A sentença caiu sobre o pecado, na cruz de Cristo, para que você pudesse sair livre do tribunal. Isso não é desculpa para pecar. É a porta para recomeçar.",
+   "busca_video": "fire embers",
+   "prompt_imagem": "glowing embers of a small wood fire in the dark",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Talvez a voz que mais te condena hoje não seja a de Deus. Seja a sua própria. Ou a de alguém que nunca te deixou esquecer um erro antigo. Romanos 8 começa calando essas vozes.",
+   "busca_video": "mountain lake",
+   "prompt_imagem": "a calm mountain lake reflecting the morning sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Paulo fala então de duas maneiras de viver: segundo a carne e segundo o Espírito. Carne, aqui, não é o corpo. É a vida voltada só para si mesma. E viver segundo o Espírito é deixar Deus conduzir o coração.",
+   "busca_video": "wheat field",
+   "prompt_imagem": "a golden wheat field moving in the wind at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+  },
+  {
+   "trecho": "Ele diz que o mesmo Espírito que ressuscitou Jesus dos mortos habita em quem é de Cristo, e também dará vida aos nossos corpos mortais. O poder da ressurreição não ficou no túmulo vazio. Ele mora em você.",
+   "busca_video": "plant growing",
+   "prompt_imagem": "a small green sprout growing from dark soil in morning light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+  },
+  {
+   "trecho": "E aqui o capítulo dá uma virada. Paulo deixa a linguagem de tribunal e passa para a linguagem de família. Já vamos ver a palavra que ele escolhe… uma palavra que Jesus usou na noite mais difícil da vida dele.",
+   "busca_video": "candle flame dark",
+   "prompt_imagem": "a single candle flame glowing in a dark stone room",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo, depois íntimo"
+  },
+  {
+   "trecho": "Paulo escreve que todos os que são guiados pelo Espírito de Deus são filhos de Deus. E continua: vocês não receberam um espírito de escravidão, para voltar a viver com medo.",
+   "busca_video": "moon night",
+   "prompt_imagem": "a full moon over calm dark water at night",
+   "vazia": true,
+   "animar": false,
+   "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+  },
+  {
+   "trecho": "\"Mas recebestes o espírito de adoção de filhos, pelo qual clamamos: Aba, Pai.\" Aba é uma palavra aramaica, a língua que Jesus falava em casa. É o jeito íntimo de chamar o pai.",
+   "busca_video": "sunrise clouds",
+   "prompt_imagem": "golden sunrise breaking through clouds over green hills",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "E sabe quando Jesus usou essa palavra? No jardim do Getsêmani, na noite em que foi preso. O Evangelho de Marcos registra: \"Aba, Pai\". Na hora da maior angústia, foi assim que Jesus chamou Deus.",
+   "busca_video": "olive tree",
+   "prompt_imagem": "an old olive tree on a rocky hillside at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Para os irmãos de Roma, a palavra adoção tinha um peso enorme. Na lei romana, o filho adotado recebia o nome da nova família e todos os direitos de filho legítimo. A vida antiga ficava para trás.",
+   "busca_video": "roman ruins",
+   "prompt_imagem": "ancient roman stone ruins and columns at golden hour",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "E o versículo dezesseis diz: \"O mesmo Espírito testifica com o nosso espírito que somos filhos de Deus.\" Ou seja, você não precisa adivinhar se é amado. O próprio Espírito confirma isso por dentro.",
+   "busca_video": "sun rays forest",
+   "prompt_imagem": "sun rays shining through tall trees in a forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+  },
+  {
+   "trecho": "Muitas mulheres e muitos homens cresceram sem ouvir de um pai: \"eu tenho orgulho de você\". Alguns cresceram com medo do pai. Romanos 8 diz que no coração de Deus existe um lugar de filho reservado para você.",
+   "busca_video": "mountain lake",
+   "prompt_imagem": "a calm mountain lake reflecting the morning sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Mas preste atenção no fim do versículo dezessete. Paulo diz que somos herdeiros de Deus e coerdeiros de Cristo, se é certo que com ele padecemos. Ele não esconde o sofrimento. Ele o coloca dentro da família.",
+   "busca_video": "fire embers",
+   "prompt_imagem": "glowing embers of a small wood fire in the dark",
+   "vazia": true,
+   "animar": false,
+   "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+  },
+  {
+   "trecho": "E então vem uma das frases mais corajosas da Bíblia: \"Porque para mim tenho por certo que as aflições deste tempo presente não são para comparar com a glória que em nós há de ser revelada.\"",
+   "busca_video": "storm clouds",
+   "prompt_imagem": "dark storm clouds rolling over a wild sea",
+   "vazia": true,
+   "animar": false,
+   "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+  },
+  {
+   "trecho": "Quem diz isso não é alguém que nunca sofreu. Paulo já tinha sido açoitado, apedrejado, preso, tinha naufragado. Ele conhecia a dor por dentro. E mesmo assim faz a conta e diz: não dá nem para comparar.",
+   "busca_video": "chains",
+   "prompt_imagem": "old iron chains on a dark stone floor with a ray of golden light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "Paulo não diz que a aflição é pequena. Ele diz que a glória é maior. São coisas diferentes. A sua dor é real. Deus não está pedindo que você a diminua. Está te mostrando o tamanho do que vem depois.",
+   "busca_video": "sea sunset",
+   "prompt_imagem": "calm mediterranean sea waves at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+  },
+  {
+   "trecho": "E aí Paulo usa uma palavra três vezes em poucos versículos. Uma palavra que quase ninguém nota quando lê Romanos 8. A palavra é gemer. E entender esses três gemidos muda a maneira como você enxerga o seu sofrimento.",
+   "busca_video": "desert dunes",
+   "prompt_imagem": "wind blowing sand over desert dunes at dusk",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo, depois íntimo"
+  },
+  {
+   "trecho": "O primeiro gemido é o da criação: \"Porque sabemos que toda a criação geme e está juntamente com dores de parto até agora.\" O mundo inteiro carrega as marcas da queda: doença, morte, desastres, perdas.",
+   "busca_video": "ocean waves",
+   "prompt_imagem": "deep blue ocean waves under a bright sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+  },
+  {
+   "trecho": "Mas repare na imagem que Paulo escolhe: dores de parto. Não é a dor de quem está morrendo. É a dor de algo que está para nascer. A criação sofre, mas sofre esperando.",
+   "busca_video": "plant growing",
+   "prompt_imagem": "a small green sprout growing from dark soil in morning light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+  },
+  {
+   "trecho": "O segundo gemido é o nosso. Paulo diz que nós também, que temos as primícias do Espírito, gememos em nós mesmos, esperando a adoção, a redenção do nosso corpo. Cristão também geme.",
+   "busca_video": "rain leaves",
+   "prompt_imagem": "gentle rain falling on green leaves",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Isso é libertador. Ter fé não é não sentir. Você pode amar a Deus e chorar no banheiro para ninguém ver. Você pode confiar e, ao mesmo tempo, gemer. A Bíblia não chama isso de falta de fé.",
+   "busca_video": "forest fog",
+   "prompt_imagem": "a misty forest at dawn with soft light between the trees",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E Paulo diz que fomos salvos em esperança. Esperança que se vê não é esperança. Se esperamos o que não vemos, com paciência o esperamos. A esperança cristã é feita exatamente para o tempo em que nada aparece.",
+   "busca_video": "sun rays forest",
+   "prompt_imagem": "sun rays shining through tall trees in a forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+  },
+  {
+   "trecho": "E então vem o terceiro gemido. O mais surpreendente de todos. \"E da mesma maneira também o Espírito ajuda as nossas fraquezas; porque não sabemos o que havemos de pedir como convém.\"",
+   "busca_video": "candle flame dark",
+   "prompt_imagem": "a single candle flame glowing in a dark stone room",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "\"Mas o mesmo Espírito intercede por nós com gemidos inexprimíveis.\" O próprio Espírito de Deus geme. Junto com você. Por você.",
+   "busca_video": "moon night",
+   "prompt_imagem": "a full moon over calm dark water at night",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "Sabe aquela noite em que você não conseguiu orar? Em que só sentou na beira da cama e não saiu palavra nenhuma? Paulo diz que nessa hora alguém estava orando. O Espírito estava levando a Deus o que você não sabia dizer.",
+   "busca_video": "waterfall",
+   "prompt_imagem": "a tall waterfall in a green valley with soft mist",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Gemidos inexprimíveis são orações sem palavras. E o versículo vinte e sete diz que aquele que examina os corações sabe qual é a intenção do Espírito, porque ele intercede segundo a vontade de Deus.",
+   "busca_video": "mountain lake",
+   "prompt_imagem": "a calm mountain lake reflecting the morning sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+  },
+  {
+   "trecho": "Então, se hoje você só consegue chorar, chore diante de Deus. Suas lágrimas não ficam perdidas no ar. Elas são traduzidas no céu. Nenhum gemido seu é ignorado.",
+   "busca_video": "river stream",
+   "prompt_imagem": "a clear river flowing over smooth stones in a forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E é logo depois desses três gemidos que vem o versículo vinte e oito. Repare na ordem: primeiro Paulo fala de dor, de gemido, de fraqueza. Só depois ele diz \"todas as coisas\". Isso já muda muita coisa.",
+   "busca_video": "clouds timelapse",
+   "prompt_imagem": "white clouds moving slowly across a blue sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo, depois íntimo"
+  },
+  {
+   "trecho": "\"E sabemos que todas as coisas contribuem juntamente para o bem daqueles que amam a Deus, daqueles que são chamados por seu decreto.\" Vamos olhar essa frase com calma, palavra por palavra.",
+   "busca_video": "sunrise clouds",
+   "prompt_imagem": "golden sunrise breaking through clouds over green hills",
+   "vazia": true,
+   "animar": false,
+   "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+  },
+  {
+   "trecho": "\"E sabemos\". Paulo não diz \"sentimos\". Muitas vezes a gente não sente que nada está contribuindo para o bem. Mas existe um saber que fica firme mesmo quando o sentimento desaba.",
+   "busca_video": "old paper",
+   "prompt_imagem": "an old parchment letter with a feather quill on a rough wooden table in warm light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+  },
+  {
+   "trecho": "\"Contribuem juntamente\". No grego, a ideia é de coisas que trabalham juntas, cooperando. Não é cada acontecimento isolado. É o conjunto, nas mãos de Deus, conduzido para um destino.",
+   "busca_video": "river stream",
+   "prompt_imagem": "a clear river flowing over smooth stones in a forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+  },
+  {
+   "trecho": "E \"daqueles que amam a Deus\". A promessa tem endereço. Ela fala da vida de quem pertence a Deus, e não de uma regra mágica de que tudo no universo sempre termina bem para todo mundo.",
+   "busca_video": "wheat field",
+   "prompt_imagem": "a golden wheat field moving in the wind at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+  },
+  {
+   "trecho": "Agora, o que essa frase não promete. Primeiro: ela não diz que todas as coisas são boas. A traição não é boa. O câncer não é bom. A morte de um filho não é boa. Paulo nunca chamou o mal de bem.",
+   "busca_video": "storm clouds",
+   "prompt_imagem": "dark storm clouds rolling over a wild sea",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Segundo: ela não diz que Deus causou a sua dor para te ensinar uma lição. O versículo fala do que Deus faz com as coisas, não de quem as provocou. Deus não precisa da sua tragédia para te amar.",
+   "busca_video": "rain leaves",
+   "prompt_imagem": "gentle rain falling on green leaves",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Terceiro: ela não promete que tudo vai sair do jeito que você planejou. Não promete a cura que você pediu, a reconciliação que você sonhou, a resposta na data que você marcou.",
+   "busca_video": "desert dunes",
+   "prompt_imagem": "wind blowing sand over desert dunes at dusk",
+   "vazia": true,
+   "animar": false,
+   "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+  },
+  {
+   "trecho": "E a prova está no próprio capítulo. Poucos versículos depois, Paulo fala de tribulação, angústia, fome, perigo e espada. Ele sabia que cristãos fiéis iriam sofrer e até morrer. Não estava prometendo uma vida sem perdas.",
+   "busca_video": "chains",
+   "prompt_imagem": "old iron chains on a dark stone floor with a ray of golden light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+  },
+  {
+   "trecho": "Por isso, por favor, não use Romanos 8:28 para calar quem está chorando. Diante de quem acabou de perder alguém, às vezes o mais bíblico é chorar junto. Paulo mesmo escreveu, nessa carta: chorai com os que choram.",
+   "busca_video": "forest fog",
+   "prompt_imagem": "a misty forest at dawn with soft light between the trees",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Mas então, qual é o bem que Deus promete? Se não é que tudo sai como eu quero… que bem é esse? A resposta está no versículo seguinte. Aquele que quase ninguém lê.",
+   "busca_video": "candle flame dark",
+   "prompt_imagem": "a single candle flame glowing in a dark stone room",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo, depois íntimo"
+  },
+  {
+   "trecho": "Romanos 8:29: \"Porque os que dantes conheceu, também os predestinou para serem conformes à imagem de seu Filho\". Esse é o bem. Paulo define o bem logo na linha seguinte.",
+   "busca_video": "sun rays forest",
+   "prompt_imagem": "sun rays shining through tall trees in a forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "O bem de Romanos 8:28 não é conforto, nem sucesso, nem que a dor vá embora. O bem é você ficar parecido com Jesus. Deus está usando tudo, até o que te machucou, para formar em você o caráter do Filho dele.",
+   "busca_video": "sunrise clouds",
+   "prompt_imagem": "golden sunrise breaking through clouds over green hills",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "Pense nisso. As circunstâncias podem tirar de você a saúde, o dinheiro, a pessoa que você amava. Mas nenhuma delas consegue impedir esse bem. Porque esse bem acontece por dentro, e Deus não desiste dele.",
+   "busca_video": "plant growing",
+   "prompt_imagem": "a small green sprout growing from dark soil in morning light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "O ouro passa pelo fogo e não se perde. Ele fica mais puro. Paulo não está dizendo que o fogo é bom. Está dizendo que, nas mãos de Deus, nem o fogo tem a última palavra sobre você.",
+   "busca_video": "fire embers",
+   "prompt_imagem": "glowing embers of a small wood fire in the dark",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E repare na corrente que vem em seguida: os que conheceu, predestinou; os que predestinou, chamou; os que chamou, justificou; e os que justificou, glorificou. Paulo fala da glória no passado, como coisa certa.",
+   "busca_video": "waterfall",
+   "prompt_imagem": "a tall waterfall in a green valley with soft mist",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "Do começo ao fim, quem segura a corrente é Deus. Não é a sua força, nem a sua constância. Ele começou essa obra antes de você nascer, e ele vai até o fim. Nenhum elo se quebra no meio.",
+   "busca_video": "mountain peaks",
+   "prompt_imagem": "snowy mountain peaks above the clouds at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "Então, se você está no meio da dor hoje, a pergunta muda. Em vez de \"por que isso aconteceu comigo?\", você pode orar: \"Senhor, como Tu vais me formar através disso? Me faz parecido com Jesus aqui dentro\".",
+   "busca_video": "mountain lake",
+   "prompt_imagem": "a calm mountain lake reflecting the morning sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E agora Paulo faz uma série de perguntas, uma atrás da outra, como um advogado no fim do julgamento. A primeira: \"Que diremos, pois, a estas coisas? Se Deus é por nós, quem será contra nós?\"",
+   "busca_video": "clouds timelapse",
+   "prompt_imagem": "white clouds moving slowly across a blue sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "Ele não diz que ninguém será contra você. Haverá oposição. Paulo diz que nenhum adversário vai prevalecer, porque do seu lado está o próprio Deus.",
+   "busca_video": "olive tree",
+   "prompt_imagem": "an old olive tree on a rocky hillside at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+  },
+  {
+   "trecho": "E vem a prova: \"Aquele que nem mesmo a seu próprio Filho poupou, antes, o entregou por todos nós\", como não nos dará também com ele todas as coisas? Quem já deu o mais caro não vai te negar o necessário.",
+   "busca_video": "moon night",
+   "prompt_imagem": "a full moon over calm dark water at night",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Depois Paulo volta ao tribunal do começo do capítulo. Quem acusará? É Deus quem justifica. Quem condenará? Cristo é quem morreu, e ressuscitou, \"o qual está à direita de Deus, e também intercede por nós.\"",
+   "busca_video": "roman ruins",
+   "prompt_imagem": "ancient roman stone ruins and columns at golden hour",
+   "vazia": true,
+   "animar": false,
+   "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+  },
+  {
+   "trecho": "Você percebeu? Lá atrás, o Espírito intercede por você aqui dentro. E agora, Cristo intercede por você lá no céu. Você tem dois intercessores. Enquanto você dorme, alguém está falando bem de você diante do Pai.",
+   "busca_video": "sun rays forest",
+   "prompt_imagem": "sun rays shining through tall trees in a forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "E então a última pergunta, a maior de todas: \"Quem nos separará do amor de Cristo? A tribulação, ou a angústia, ou a perseguição, ou a fome, ou a nudez, ou o perigo, ou a espada?\"",
+   "busca_video": "storm clouds",
+   "prompt_imagem": "dark storm clouds rolling over a wild sea",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "Lembre de quem estava ouvindo isso: cristãos pobres em Roma, que logo seriam perseguidos. Paulo ainda cita um salmo que compara o povo de Deus a ovelhas levadas ao matadouro. Ele não suaviza nada.",
+   "busca_video": "chains",
+   "prompt_imagem": "old iron chains on a dark stone floor with a ray of golden light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "E responde: \"Mas em todas estas coisas somos mais do que vencedores, por aquele que nos amou.\" Não é fora dessas coisas. É em todas elas. No meio da fome, do perigo, da espada.",
+   "busca_video": "sunrise clouds",
+   "prompt_imagem": "golden sunrise breaking through clouds over green hills",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "Mais do que vencedor não é quem nunca entrou na luta. É quem atravessa a luta e descobre que ela não conseguiu tirar dele a coisa mais importante: o amor de Deus.",
+   "busca_video": "ocean waves",
+   "prompt_imagem": "deep blue ocean waves under a bright sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "E vem o final: \"Porque estou certo de que nem a morte, nem a vida, nem os anjos, nem os principados, nem as potestades, nem o presente, nem o porvir,\"",
+   "busca_video": "mountain peaks",
+   "prompt_imagem": "snowy mountain peaks above the clouds at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "\"nem a altura, nem a profundidade, nem alguma outra criatura nos poderá separar do amor de Deus, que está em Cristo Jesus, nosso Senhor!\"",
+   "busca_video": "starry sky",
+   "prompt_imagem": "a starry night sky over a quiet desert",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "Repare: Paulo cobre tudo. A morte e a vida. O tempo presente e o futuro. O que está em cima e o que está embaixo. E, para não sobrar nada, ainda acrescenta: nem alguma outra criatura.",
+   "busca_video": "waterfall",
+   "prompt_imagem": "a tall waterfall in a green valley with soft mist",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "E veja como o capítulo se fecha. Ele começou com \"nenhuma condenação há para os que estão em Cristo Jesus\". E termina com \"o amor de Deus, que está em Cristo Jesus\". Em Cristo Jesus no começo, em Cristo Jesus no fim.",
+   "busca_video": "sun rays forest",
+   "prompt_imagem": "sun rays shining through tall trees in a forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "Tudo o que está no meio, os gemidos, as aflições, as perguntas, cabe dentro desse abraço. Nada te condena. Nada te separa. Esse é o bem que Romanos 8:28 promete. E ele não depende de as coisas darem certo.",
+   "busca_video": "sea sunset",
+   "prompt_imagem": "calm mediterranean sea waves at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "Então, o que fazer com isso hoje, se você está sofrendo? Primeiro: pare de ouvir a voz da condenação. Se você está em Cristo, o processo foi encerrado. Confesse o que precisa confessar e levante a cabeça.",
+   "busca_video": "forest fog",
+   "prompt_imagem": "a misty forest at dawn with soft light between the trees",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Segundo: dê a você mesma, dê a você mesmo, permissão para gemer. Você não precisa fingir força diante de Deus. O Espírito geme junto. Chore, e entregue as lágrimas a ele.",
+   "busca_video": "rain leaves",
+   "prompt_imagem": "gentle rain falling on green leaves",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Terceiro: quando não souber orar, ore assim mesmo, com poucas palavras. \"Aba, Pai.\" Só isso. Foi o que Jesus disse no jardim. O Espírito completa o resto.",
+   "busca_video": "candle flame dark",
+   "prompt_imagem": "a single candle flame glowing in a dark stone room",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Quarto: troque a pergunta. Não fique só no \"por quê\". Pergunte também \"para quê\", e \"Senhor, me forma através disso\". Ele está usando até este capítulo da sua vida para te fazer parecido com Jesus.",
+   "busca_video": "plant growing",
+   "prompt_imagem": "a small green sprout growing from dark soil in morning light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+  },
+  {
+   "trecho": "E quinto: escreva Romanos 8:38 e 39 num papel e deixe perto da cama. Leia em voz alta quando o medo vier à noite. Nada, absolutamente nada, poderá te separar do amor de Deus.",
+   "busca_video": "wild flowers",
+   "prompt_imagem": "a field of wild flowers swaying in a soft breeze",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "Talvez você esteja esperando um exame, cuidando de alguém doente, chorando por um filho longe, ou carregando uma culpa antiga. Romanos 8 não promete que amanhã tudo estará resolvido. Promete algo mais firme: você não está sozinho nisso.",
+   "busca_video": "mountain lake",
+   "prompt_imagem": "a calm mountain lake reflecting the morning sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Escreva nos comentários qual versículo de Romanos 8 mais falou com você hoje. E, se tiver um pedido de oração, deixe ali também. Eu vou ler e orar por ele.",
+   "busca_video": "old paper",
+   "prompt_imagem": "an old parchment letter with a feather quill on a rough wooden table in warm light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+  },
+  {
+   "trecho": "Agora, se puder, feche os olhos por um instante e ore comigo. Aba, Pai… eu chego cansado, eu chego cansada. Obrigado porque, em Cristo, não há condenação para mim.",
+   "busca_video": "candle flame dark",
+   "prompt_imagem": "a single candle flame glowing in a dark stone room",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, oração lenta e sincera, voz baixa"
+  },
+  {
+   "trecho": "Tu conheces os gemidos que eu não sei explicar. Obrigado porque o Teu Espírito ora por mim quando eu não tenho palavras, e porque Jesus intercede por mim diante de Ti.",
+   "busca_video": "moon night",
+   "prompt_imagem": "a full moon over calm dark water at night",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, oração lenta e sincera, voz baixa"
+  },
+  {
+   "trecho": "Eu não entendo tudo o que está acontecendo. Mas eu entrego nas Tuas mãos. Usa até esta dor para me fazer parecido com Jesus. E guarda o meu coração no Teu amor.",
+   "busca_video": "river stream",
+   "prompt_imagem": "a clear river flowing over smooth stones in a forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, oração lenta e sincera, voz baixa"
+  },
+  {
+   "trecho": "Eu creio que nem a morte, nem a vida, nem o presente, nem o porvir poderão me separar do Teu amor. Em nome de Jesus. Amém.",
+   "busca_video": "sunrise clouds",
+   "prompt_imagem": "golden sunrise breaking through clouds over green hills",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, oração lenta e sincera, voz baixa"
+  },
+  {
+   "trecho": "Que você durma e acorde sabendo disto: você é filho, você é filha, e nada te separa do amor de Deus. No próximo episódio, vamos abrir mais uma carta de Paulo.",
+   "busca_video": "starry sky",
+   "prompt_imagem": "a starry night sky over a quiet desert",
+   "vazia": true,
+   "animar": false,
+   "emocao": "paz, voz suave"
+  },
+  {
+   "trecho": "Se este estudo falou ao seu coração, inscreva-se no canal e ative o sininho para não perder a próxima carta. Até o próximo estudo. MENSAGEIRO DE FÉ.",
+   "busca_video": "clouds timelapse",
+   "prompt_imagem": "white clouds moving slowly across a blue sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "paz, voz suave"
+  }
+ ]
+}
