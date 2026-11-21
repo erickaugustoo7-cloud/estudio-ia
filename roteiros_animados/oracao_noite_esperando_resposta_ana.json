@@ -1,0 +1,810 @@
+{
+ "formato": "horizontal",
+ "duracao_max": 999,
+ "volume_musica": 0,
+ "opcoes_imagem": 1,
+ "palavras_por_bloco": 600,
+ "plataformas": [
+  "youtube"
+ ],
+ "estilo_imagem": "breathtaking real-world nature landscape photography, peaceful and serene, soft natural light, rich colors, ultra detailed, horizontal 16:9 widescreen, no people, no text",
+ "prefixo_imagem": "beautiful peaceful nature landscape photo:",
+ "prefixo_video": "Peaceful nature shot, very slow and gentle motion.",
+ "epoca_imagem": "real natural landscapes of today (sea, forest, waterfalls, mountains, lakes, sky); no people, no buildings, no text",
+ "fonte_imagem": "cloudflare",
+ "estilo_voz": "emocionado e íntimo, como quem ora de verdade por alguém que sofre; voz baixa, pausada, com ternura",
+ "tipo": "oracao",
+ "fundo_video": "pixabay",
+ "titulo": "Oração para dormir: para quem está esperando uma resposta de Deus (Ana, 1 Samuel 1)",
+ "titulo_youtube": "Para Quem Está Esperando Uma Resposta de Deus… | Oração Para Dormir (Ana)",
+ "gancho_tela": "Ana esperou anos pela resposta",
+ "referencia": "1 Samuel 1:1-28; Habacuque 2:3; Salmo 27:14",
+ "cena_capa": 88,
+ "texto_capa": [
+  "DEUS",
+  "*OUVIU",
+  "VOCÊ CHORAR"
+ ],
+ "selo_capa": "Oração da noite",
+ "capa_prompt": "a Brazilian woman in her forties praying with closed eyes at a wooden table at night, a single tear on her cheek, hands folded, warm candle light, peaceful hopeful expression, cinematic photo",
+ "legenda": "Ana chorava e não comia. Ano após ano ela pedia um filho a Deus… e a resposta não vinha. Nesta oração para dormir você ouve a história completa de Ana em Siló (1 Samuel 1) e depois ora comigo por tudo o que você está esperando: filhos, família, saúde, trabalho e aquele pedido que você já repetiu tantas vezes. 🙏\n\nEste vídeo é a versão completa do nosso Short \"Para quem está esperando uma resposta de Deus\".\n\n\"Se tardar, espera-o, porque certamente virá, não tardará\" (Habacuque 2:3, Almeida).\n\nEscreva o seu pedido de oração nos comentários — eu vou orar por ele. Comente \"Amém\" e inscreva-se para orarmos juntos toda noite.",
+ "hashtags": [
+  "#OraçãoParaDormir",
+  "#EsperarEmDeus",
+  "#Ana",
+  "#RespostaDeDeus",
+  "#Fé"
+ ],
+ "fontes": [
+  "1 Samuel 1:1-28 — Almeida Revista e Corrigida (domínio público)",
+  "1 Samuel 2:21; 3:20 — Almeida (os outros filhos de Ana; Samuel profeta)",
+  "Habacuque 2:3 — Almeida",
+  "Salmo 27:14; Salmo 40:1; Salmo 4:8 — Almeida",
+  "Isaías 40:31; Lamentações 3:26 — Almeida",
+  "1 Pedro 5:7 (paráfrase); Mateus 11:28 — Almeida"
+ ],
+ "ponte_short": "Para quem está esperando uma resposta de Deus",
+ "revelacao": {
+  "promessa_cena": 2,
+  "entrega_cena": 88,
+  "o_que": "o detalhe de 1 Samuel 1:18: Ana 'comeu, e o seu semblante já não era triste' — a paz veio ANTES da resposta, porque o pedido ficou nas mãos de Deus"
+ },
+ "short_isca": {
+  "cenas": [
+   25
+  ],
+  "texto_topo": "O QUE MUDOU NELA",
+  "titulo": "O detalhe sobre Ana que quase ninguém percebe",
+  "hashtags": [
+   "oracao",
+   "esperaremdeus",
+   "ana"
+  ]
+ },
+ "capitulos": [
+  {
+   "cena": 0,
+   "titulo": "Ana esperou anos"
+  },
+  {
+   "cena": 5,
+   "titulo": "A história de Ana (1 Samuel 1)"
+  },
+  {
+   "cena": 15,
+   "titulo": "A oração em Siló"
+  },
+  {
+   "cena": 26,
+   "titulo": "A resposta: Samuel"
+  },
+  {
+   "cena": 33,
+   "titulo": "O que isso significa para você"
+  },
+  {
+   "cena": 37,
+   "titulo": "Oração: do jeito que eu estou"
+  },
+  {
+   "cena": 44,
+   "titulo": "Pela mente e pela ansiedade"
+  },
+  {
+   "cena": 51,
+   "titulo": "Pela família e pelos filhos"
+  },
+  {
+   "cena": 59,
+   "titulo": "Pela saúde e pelas contas"
+  },
+  {
+   "cena": 64,
+   "titulo": "Perdão e gratidão"
+  },
+  {
+   "cena": 69,
+   "titulo": "Pelos seus pedidos"
+  },
+  {
+   "cena": 75,
+   "titulo": "Promessas e silêncio"
+  },
+  {
+   "cena": 88,
+   "titulo": "O detalhe do versículo 18"
+  },
+  {
+   "cena": 93,
+   "titulo": "Bênção final"
+  }
+ ],
+ "cenas": [
+  {
+   "trecho": "Ana esperou anos por uma resposta de Deus. E chorava toda vez. Talvez você saiba exatamente como é isso: pedir, pedir de novo… e ouvir só silêncio.",
+   "prompt_imagem": "a calm ocean at sunset with gentle waves rolling onto a quiet sandy beach",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+  },
+  {
+   "trecho": "Um dia, Ana saiu do templo com as mãos vazias. Nada tinha mudado. Mas a Bíblia registra um detalhe sobre ela que quase ninguém percebe.",
+   "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+  },
+  {
+   "trecho": "E no final desta oração, eu vou te mostrar que detalhe é esse… e por que ele pode mudar a sua noite de hoje, mesmo que a resposta ainda não tenha chegado.",
+   "prompt_imagem": "a starry night sky over calm mountains, milky way glowing",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+  },
+  {
+   "trecho": "Se você está esperando uma resposta de Deus, fica comigo. Um filho que não volta para casa. Um exame. Um emprego. Um casamento que esfriou. Uma porta que não abre.",
+   "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist and sun rays",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+  },
+  {
+   "trecho": "Talvez você já tenha orado tanto por isso que nem sabe mais o que dizer. Primeiro, eu vou te contar a história de Ana. Depois, vamos orar juntos. Fique confortável… respire fundo… e venha comigo.",
+   "prompt_imagem": "a crystal clear mountain lake reflecting snowy peaks at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+  },
+  {
+   "trecho": "A história está no primeiro livro de Samuel, capítulo 1. Havia um homem chamado Elcana, da região montanhosa de Efraim. E ele tinha duas mulheres: Ana e Penina.",
+   "prompt_imagem": "golden wheat fields under a warm sunset sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "A Bíblia diz assim, sem rodeios: \"Penina tinha filhos, porém Ana não tinha filhos.\" Naquela época, isso não era só uma tristeza. Era uma vergonha diante de todo mundo.",
+   "prompt_imagem": "a gentle river flowing through a green valley at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Uma mulher sem filhos era vista como esquecida por Deus. As vizinhas comentavam. A família olhava diferente. E ninguém precisava dizer nada… o silêncio já dizia tudo.",
+   "prompt_imagem": "a beach under a full moon with silver light on the waves",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Todo ano, a família subia da sua cidade até Siló, onde ficava a casa do Senhor, para adorar e oferecer sacrifícios. Era uma festa. Comida, família reunida, crianças correndo.",
+   "prompt_imagem": "rolling green hills with morning fog and soft sunlight",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "E Elcana amava Ana. Na hora de repartir a carne do sacrifício, ele dava a ela uma parte especial. Mas amor de marido não preenchia aquele vazio.",
+   "prompt_imagem": "northern lights dancing over a calm snowy landscape",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "E tinha Penina. A Bíblia chama Penina de \"competidora\" e diz que ela \"excessivamente a irritava\". Não foi uma vez. Era de ano em ano. Justamente na viagem para adorar a Deus.",
+   "prompt_imagem": "a field of colorful wildflowers in a meadow at golden hour",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Imagine isso. O lugar onde Ana mais queria sentir Deus perto… era o lugar onde ela era mais humilhada. E a Bíblia diz: \"pelo que chorava e não comia.\"",
+   "prompt_imagem": "a small stream with smooth stones running through a mossy forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Talvez você conheça essa dor. Ter que sorrir na festa da família enquanto o coração está sangrando. Se esta história está falando com você, inscreva-se no canal. Toda noite tem uma oração nova aqui, e a gente ora junto.",
+   "prompt_imagem": "a quiet lake at twilight with pink and purple sky reflections",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Elcana tentou consolar: \"Ana, por que choras? E por que não comes?\" E depois perguntou: \"Não te sou eu melhor do que dez filhos?\" Ele queria ajudar… mas não entendia.",
+   "prompt_imagem": "white clouds drifting slowly over green mountains",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Às vezes é assim. As pessoas que nos amam tentam ajudar, mas não alcançam o lugar da dor. Só Deus alcança. E Ana sabia disso.",
+   "prompt_imagem": "a peaceful olive grove on a hillside at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Então, depois da refeição em Siló, Ana se levantou. Não foi falar com o marido. Não foi responder a Penina. Ela foi direto para a casa do Senhor.",
+   "prompt_imagem": "gentle rain falling on green leaves in a forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "A Bíblia diz: \"Ela, pois, com amargura de alma, orou ao Senhor e chorou abundantemente.\" Repare: ela não escondeu a amargura. Ela levou a amargura inteira para Deus.",
+   "prompt_imagem": "a turquoise tropical lagoon with calm clear water",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "E ali Ana fez um voto. Ela pediu um filho e prometeu: se o Senhor se lembrasse dela, ela entregaria esse menino ao Senhor por todos os dias da sua vida.",
+   "prompt_imagem": "a sunrise over a sea of clouds seen from a mountain top",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Ela orava em silêncio. A Bíblia diz que \"só se moviam os seus lábios, porém não se ouvia a sua voz.\" Uma oração tão funda que não cabia em palavras.",
+   "prompt_imagem": "autumn forest with orange and red leaves and soft light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "E sabe o que aconteceu? O sacerdote Eli, que estava sentado junto a um pilar do templo, olhou para ela e achou que ela estava bêbada.",
+   "prompt_imagem": "a calm desert at dusk with soft sand dunes and a pink sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Ele disse: \"Até quando estarás tu embriagada?\" Pense nisso. Ela foi buscar consolo na casa de Deus… e até ali foi mal entendida.",
+   "prompt_imagem": "a lavender field under a soft evening sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "E Ana respondeu com uma das frases mais bonitas da Bíblia: \"Não, senhor meu, eu sou uma mulher atribulada de espírito… tenho derramado a minha alma perante o Senhor.\"",
+   "prompt_imagem": "snow falling slowly on a quiet pine forest at night",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "E ela continuou: \"da multidão dos meus cuidados e do meu desgosto tenho falado até agora.\" Ana não estava bêbada. Estava cheia de cuidados. Cheia de anos de espera guardados no peito.",
+   "prompt_imagem": "ocean waves crashing gently on dark rocks at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Derramar a alma. Não é uma oração bonita, arrumada. É virar o coração de cabeça para baixo diante de Deus, até não sobrar nada escondido.",
+   "prompt_imagem": "a full moon rising over a calm lake with mist",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Então Eli mudou o tom. Ele disse: \"Vai em paz, e o Deus de Israel te conceda a tua petição que lhe pediste.\" E Ana foi embora. Ainda sem filho. Ainda sem nenhuma prova.",
+   "prompt_imagem": "a calm ocean at sunset with gentle waves rolling onto a quiet sandy beach",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "E é aqui que está o detalhe de que eu te falei. O que aconteceu com Ana no caminho de volta, antes de qualquer resposta. Guarde isso no coração. No final da oração, eu vou te mostrar.",
+   "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Por enquanto, olhe para o que veio depois. A família se levantou de madrugada, adorou ao Senhor e voltou para casa, em Ramá. E a Bíblia diz: \"o Senhor se lembrou dela.\"",
+   "prompt_imagem": "a starry night sky over calm mountains, milky way glowing",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Mas repare nesta expressão: \"passado algum tempo\". Não foi no dia seguinte. Teve espera ainda. E então Ana concebeu e deu à luz um filho.",
+   "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist and sun rays",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Ela chamou o menino de Samuel. E explicou o porquê: \"porquanto o tenho pedido ao Senhor\". Cada vez que ela dizia o nome do filho, lembrava que Deus ouve.",
+   "prompt_imagem": "a crystal clear mountain lake reflecting snowy peaks at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "E quando a resposta veio, Ana cantou: \"O meu coração exulta no Senhor.\" A mulher que chorava diante da casa de Deus… agora cantava diante da casa de Deus.",
+   "prompt_imagem": "golden wheat fields under a warm sunset sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Quando o menino foi desmamado, ela o levou ao templo e disse a Eli: \"Por este menino orava eu; e o Senhor me concedeu a minha petição.\" A mesma mulher que ele achou que estava bêbada.",
+   "prompt_imagem": "a gentle river flowing through a green valley at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "E a Bíblia guarda um detalhe tão bonito: de ano em ano, Ana fazia uma túnica pequena e levava para o menino, quando subia com o marido para o sacrifício. Ela nunca deixou de visitar o filho que pediu.",
+   "prompt_imagem": "a beach under a full moon with silver light on the waves",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "E Deus não parou ali. A Bíblia conta que, depois, Ana teve mais três filhos e duas filhas. E aquele menino, Samuel, se tornou um dos maiores profetas de Israel.",
+   "prompt_imagem": "rolling green hills with morning fog and soft sunlight",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Agora pense nisso para você. Ana não sabia o final da história quando estava chorando em Siló. Ela só tinha a dor, a espera e a oração.",
+   "prompt_imagem": "northern lights dancing over a calm snowy landscape",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "E talvez você esteja exatamente aí. No meio. Já orou, já chorou, e o final ainda não apareceu. Deus não esqueceu do seu pedido. O seu \"passado algum tempo\" também tem fim.",
+   "prompt_imagem": "a field of colorful wildflowers in a meadow at golden hour",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "O profeta Habacuque também esperou uma resposta. E Deus disse a ele: \"se tardar, espera-o, porque certamente virá, não tardará.\" Parece demora para nós. Para Deus, tem hora certa.",
+   "prompt_imagem": "a small stream with smooth stones running through a mossy forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "E o Salmo 27 termina assim: \"Espera no Senhor, anima-te, e ele fortalecerá o teu coração; espera, pois, no Senhor.\" Esperar com Deus não é ficar parado. É ser fortalecido enquanto espera.",
+   "prompt_imagem": "a quiet lake at twilight with pink and purple sky reflections",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Agora, se puder, feche os olhos. Coloque a mão no peito. Respire fundo… solte devagar. E repita comigo, no seu coração, esta oração.",
+   "prompt_imagem": "white clouds drifting slowly over green mountains",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Senhor… eu chego aqui como Ana chegou em Siló. Cansado de esperar. Com o coração apertado. Eu não vou fingir que estou bem. Tu já sabes de tudo.",
+   "prompt_imagem": "a peaceful olive grove on a hillside at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Eu Te confesso que às vezes parece que Tu não estás ouvindo. Eu oro, e o silêncio continua. Eu peço, e nada muda. E essa espera dói, Pai.",
+   "prompt_imagem": "gentle rain falling on green leaves in a forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Mas hoje, como Ana, eu quero derramar a minha alma diante de Ti. Sem palavras bonitas. Só a verdade. Eu preciso de uma resposta, Senhor.",
+   "prompt_imagem": "a turquoise tropical lagoon with calm clear water",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Tu conheces o pedido que está no meu coração agora. Aquele que eu já repeti tantas vezes. Eu coloco ele mais uma vez nas Tuas mãos.",
+   "prompt_imagem": "a sunrise over a sea of clouds seen from a mountain top",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E se eu não tiver mais força para orar, Senhor, ouve os meus suspiros. Como ouviste a oração de Ana, que não tinha voz, só lábios se movendo.",
+   "prompt_imagem": "autumn forest with orange and red leaves and soft light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Fica comigo mais um pouco. Ainda vamos chegar naquele detalhe da história de Ana, o que mudou nela antes da resposta. Mas primeiro, vamos orar pela sua mente.",
+   "prompt_imagem": "a calm desert at dusk with soft sand dunes and a pink sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Pai, a minha mente não para. À noite os pensamentos voltam. E se não der certo? E se Deus disser não? E se eu esperei à toa? Acalma esses pensamentos, Senhor.",
+   "prompt_imagem": "a lavender field under a soft evening sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "A Tua Palavra diz para lançar sobre Ti toda a ansiedade, porque Tu tens cuidado de mim. Então eu lanço agora. A ansiedade da espera. O medo do futuro.",
+   "prompt_imagem": "snow falling slowly on a quiet pine forest at night",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Tira de mim a pressa que me faz desesperar. Tira de mim a comparação. Que eu não olhe para a vida dos outros como Ana olhava para Penina.",
+   "prompt_imagem": "ocean waves crashing gently on dark rocks at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Senhor, ensina-me a esperar como quem confia, e não como quem desconfia. Que a minha espera seja cheia de oração, e não cheia de reclamação.",
+   "prompt_imagem": "a full moon rising over a calm lake with mist",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Quando alguém me provocar, quando alguém duvidar da minha fé, guarda a minha boca, Senhor. Que eu leve a dor para Ti, e não para uma briga.",
+   "prompt_imagem": "a calm ocean at sunset with gentle waves rolling onto a quiet sandy beach",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Desfaz o nó no meu peito. Põe silêncio onde há barulho. E deixa a minha respiração mais lenta… mais lenta… enquanto eu descanso em Ti.",
+   "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E daqui a pouco, preste atenção numa frase pequena do versículo 18. Ela fala de alguém que ainda estava esperando… e mesmo assim mudou.",
+   "prompt_imagem": "a starry night sky over calm mountains, milky way glowing",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Pai, agora eu Te entrego a minha família. Tu conheces cada pessoa da minha casa. As que estão dormindo aqui perto… e as que estão longe.",
+   "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist and sun rays",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Eu Te entrego os meus filhos. Os que eu já tenho e os que eu ainda espero. Se algum deles se afastou de Ti, traz de volta, Senhor. Como Ana entregou Samuel, eu entrego os meus a Ti.",
+   "prompt_imagem": "a crystal clear mountain lake reflecting snowy peaks at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Se o meu filho não fala comigo, fala Tu com ele. Se ele está num caminho errado, coloca alguém no caminho dele. E me dá paciência para esperar sem desesperar.",
+   "prompt_imagem": "golden wheat fields under a warm sunset sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Eu oro por quem está esperando um filho e ainda não conseguiu. Senhor, Tu viste as lágrimas de Ana. Vê também as lágrimas dessa mulher esta noite.",
+   "prompt_imagem": "a gentle river flowing through a green valley at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Eu oro pelos pais que esperam um filho voltar para casa. Pelas mães que deixam a luz acesa e o celular do lado da cama. Senhor, que a espera delas não seja em vão.",
+   "prompt_imagem": "a beach under a full moon with silver light on the waves",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Eu Te entrego o meu casamento. Se ele esfriou, aquece. Se há mágoa, cura. E se o meu marido ou a minha esposa não entende a minha dor, como Elcana não entendia, que eu encontre em Ti quem entende.",
+   "prompt_imagem": "rolling green hills with morning fog and soft sunlight",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E por quem está esperando alguém para amar, ou por quem mora sozinho esta noite… sê Tu a companhia, Senhor. Que ninguém aqui se sinta esquecido.",
+   "prompt_imagem": "northern lights dancing over a calm snowy landscape",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Ainda tem uma coisa que Ana fez quando saiu do templo. Uma coisa simples, que muda tudo. Fica comigo… vamos chegar nela.",
+   "prompt_imagem": "a field of colorful wildflowers in a meadow at golden hour",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Pai, eu Te entrego a minha saúde e a saúde de quem eu amo. Onde há dor, alivia. Onde há um exame esperando resultado, dá paz enquanto a resposta não chega.",
+   "prompt_imagem": "a small stream with smooth stones running through a mossy forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Tu és o Deus que abriu um ventre que todos achavam fechado. Nada é difícil demais para Ti. Toca o corpo de quem está doente agora.",
+   "prompt_imagem": "a quiet lake at twilight with pink and purple sky reflections",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Eu Te entrego as contas e o trabalho. Cada boleto em cima da mesa. Cada entrevista que não deu certo. Cada porta que eu bati e não abriu.",
+   "prompt_imagem": "white clouds drifting slowly over green mountains",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Abre portas de trabalho, Senhor. Dá sabedoria nas decisões. Multiplica o pouco que eu tenho. E livra o meu coração do medo de que amanhã vai faltar.",
+   "prompt_imagem": "a peaceful olive grove on a hillside at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E se amanhã a resposta ainda não vier, me dá a fé de Ana. Que eu continue subindo à Tua casa, ano após ano, sem deixar de crer.",
+   "prompt_imagem": "gentle rain falling on green leaves in a forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Senhor, perdoa as vezes que eu duvidei de Ti. As vezes que eu reclamei, que eu pensei que Tu tinhas me esquecido. Lava o meu coração.",
+   "prompt_imagem": "a turquoise tropical lagoon with calm clear water",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E me ajuda a perdoar quem me feriu durante essa espera. Quem fez piada. Quem disse que era falta de fé. Quem não entendeu. Eu entrego essas pessoas a Ti.",
+   "prompt_imagem": "a sunrise over a sea of clouds seen from a mountain top",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E me ajuda a me perdoar também. Pelas vezes que eu desisti por dentro. Tu não desististe de mim. Então eu também não vou desistir.",
+   "prompt_imagem": "autumn forest with orange and red leaves and soft light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Obrigado, Senhor, porque Tu te lembraste de Ana. Obrigado porque Tu não esqueces nenhum dos Teus filhos. Nem a mim.",
+   "prompt_imagem": "a calm desert at dusk with soft sand dunes and a pink sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Obrigado pelo que eu já tenho, mesmo enquanto espero o que falta. Pela casa, pela comida, pelas pessoas que eu amo. Estamos quase chegando no detalhe de Ana. Fica comigo.",
+   "prompt_imagem": "a lavender field under a soft evening sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Agora eu quero orar por você, que está esperando uma resposta. Se você tem um pedido, escreva nos comentários deste vídeo. Eu vou ler e vou orar por ele. Não tenha vergonha.",
+   "prompt_imagem": "snow falling slowly on a quiet pine forest at night",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Pode ser um nome, uma cidade, uma situação. Pode ser só a palavra \"espera\". Deus conhece a história inteira por trás de cada comentário.",
+   "prompt_imagem": "ocean waves crashing gently on dark rocks at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Senhor, eu Te apresento cada pedido escrito aqui embaixo. Cada mãe que pediu pelo filho. Cada pessoa que pediu cura, emprego, casa, paz. Responde, Pai, no Teu tempo e do Teu jeito.",
+   "prompt_imagem": "a full moon rising over a calm lake with mist",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "O Salmo 40 diz: \"Esperei com paciência no Senhor, e ele se inclinou para mim, e ouviu o meu clamor.\" Inclina-Te, Senhor, para cada um que clamou esta noite.",
+   "prompt_imagem": "a calm ocean at sunset with gentle waves rolling onto a quiet sandy beach",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E eu oro também por quem está assistindo e está longe de Deus. Talvez você ache que Deus nunca respondeu porque nunca se importou. Talvez faça anos que você não ora.",
+   "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Saiba que Deus não desistiu de você. Ele ouviu Ana quando nem a voz dela saía. Basta dizer agora, no seu coração: Jesus, eu preciso de Ti. Ele ouve.",
+   "prompt_imagem": "a starry night sky over calm mountains, milky way glowing",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Agora, ouça algumas promessas para guardar no coração antes de dormir. Deixe cada uma descer devagar.",
+   "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist and sun rays",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Isaías diz: \"Os que esperam no Senhor renovarão as forças; subirão com asas como águias.\" A espera com Deus não te esvazia. Ela renova.",
+   "prompt_imagem": "a crystal clear mountain lake reflecting snowy peaks at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "E Jesus disse: \"Vinde a mim, todos os que estais cansados e oprimidos, e eu vos aliviarei.\" Ele não disse: venham depois de resolver tudo. Ele disse: venham assim, cansados mesmo.",
+   "prompt_imagem": "golden wheat fields under a warm sunset sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Lamentações diz: \"Bom é ter esperança e aguardar em silêncio a salvação do Senhor.\" Em silêncio. Como Ana, que orava só com os lábios.",
+   "prompt_imagem": "a gentle river flowing through a green valley at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "E o Salmo 4 diz: \"Em paz também me deitarei e dormirei, porque só tu, Senhor, me fazes habitar em segurança.\" Esta é a sua promessa para esta noite.",
+   "prompt_imagem": "a beach under a full moon with silver light on the waves",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Agora vamos ficar um pouco em silêncio. Respire fundo pelo nariz… segure um instante… e solte devagar pela boca. Mais uma vez. Inspire a paz de Deus… solte a ansiedade.",
+   "prompt_imagem": "rolling green hills with morning fog and soft sunlight",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Deixe os ombros caírem. Solte a mandíbula. Abra as mãos, como quem entrega um pedido. Você não precisa segurar esse pedido esta noite. Deus está segurando.",
+   "prompt_imagem": "northern lights dancing over a calm snowy landscape",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Sinta o peso do corpo afundando no colchão. Os pés pesados. As pernas pesadas. As costas descansando. Deus está acordado esta noite. Você pode dormir.",
+   "prompt_imagem": "a field of colorful wildflowers in a meadow at golden hour",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Imagine que você está saindo do templo de Siló, como Ana. A estrada é de terra, o céu está ficando escuro, e você deixou tudo lá dentro, diante de Deus.",
+   "prompt_imagem": "a small stream with smooth stones running through a mossy forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Respire de novo… devagar. Se vier algum pensamento de medo, não brigue com ele. Só diga em silêncio: o Senhor se lembra de mim. E volte a respirar.",
+   "prompt_imagem": "a quiet lake at twilight with pink and purple sky reflections",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Fique aqui mais um pouquinho. Não há pressa. Não há nada que você precise resolver nos próximos minutos. Só descansar… diante de Deus… e deixar que Ele cuide.",
+   "prompt_imagem": "white clouds drifting slowly over green mountains",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Agora eu vou ler devagar o momento em que Ana saiu do templo. Só ouça. Eli disse: \"Vai em paz, e o Deus de Israel te conceda a tua petição que lhe pediste.\"",
+   "prompt_imagem": "a peaceful olive grove on a hillside at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "E ela disse: \"Ache a tua serva graça em teus olhos.\" E a Bíblia continua: \"Assim, a mulher se foi seu caminho, e comeu, e o seu semblante já não era triste.\"",
+   "prompt_imagem": "gentle rain falling on green leaves in a forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Você ouviu? \"E comeu, e o seu semblante já não era triste.\" Esse é o detalhe. A mulher que chorava e não comia… comeu. E o rosto dela mudou.",
+   "prompt_imagem": "a turquoise tropical lagoon with calm clear water",
+   "vazia": true,
+   "animar": false,
+   "emocao": "revelação: emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "E repare quando isso aconteceu. Antes do filho. Antes da gravidez. Antes de qualquer sinal. Ana ainda estava com as mãos vazias, e o rosto dela já tinha paz.",
+   "prompt_imagem": "a sunrise over a sea of clouds seen from a mountain top",
+   "vazia": true,
+   "animar": false,
+   "emocao": "revelação: emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "O que mudou não foi a situação. Foi onde estava o pedido. Antes, o pedido estava no peito dela, pesando. Agora, estava nas mãos de Deus. Ela deixou lá.",
+   "prompt_imagem": "autumn forest with orange and red leaves and soft light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "revelação: emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "E é isso que pode acontecer com você esta noite. A resposta pode ainda levar um tempo. Mas você não precisa carregar o peso até ela chegar. Você pode comer, dormir… e descansar.",
+   "prompt_imagem": "a calm desert at dusk with soft sand dunes and a pink sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "revelação: emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "O seu pedido não ficou para trás. Ele ficou com Deus. E o mesmo Deus que se lembrou de Ana sabe o seu nome, sabe o seu pedido e sabe a hora certa.",
+   "prompt_imagem": "a lavender field under a soft evening sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "revelação: emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "Obrigado, Pai, porque eu posso sair desta oração como Ana saiu do templo. Sem tudo resolvido… mas em paz. Eu deixo o meu pedido aqui, contigo.",
+   "prompt_imagem": "snow falling slowly on a quiet pine forest at night",
+   "vazia": true,
+   "animar": false,
+   "emocao": "paz e bênção, voz suave de despedida"
+  },
+  {
+   "trecho": "Obrigado porque amanhã, quando eu abrir os olhos, Tu já vais estar lá. E enquanto a resposta não chega, eu vou viver confiando que ela vem.",
+   "prompt_imagem": "ocean waves crashing gently on dark rocks at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "paz e bênção, voz suave de despedida"
+  },
+  {
+   "trecho": "Se esta oração te ajudou, inscreva-se no canal para orarmos juntos toda noite. E mande este vídeo para alguém que está esperando uma resposta de Deus.",
+   "prompt_imagem": "a full moon rising over a calm lake with mist",
+   "vazia": true,
+   "animar": false,
+   "emocao": "paz e bênção, voz suave de despedida"
+  },
+  {
+   "trecho": "Que o Deus de Ana se lembre de você. Que Ele tire a tristeza do seu rosto e o peso do seu peito. E que você acorde sabendo que foi ouvido.",
+   "prompt_imagem": "a calm ocean at sunset with gentle waves rolling onto a quiet sandy beach",
+   "vazia": true,
+   "animar": false,
+   "emocao": "paz e bênção, voz suave de despedida"
+  },
+  {
+   "trecho": "Durma em paz. O seu pedido está nas mãos certas. Em nome de Jesus… amém.",
+   "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
+   "vazia": true,
+   "animar": false,
+   "emocao": "paz e bênção, voz suave de despedida"
+  }
+ ]
+}
