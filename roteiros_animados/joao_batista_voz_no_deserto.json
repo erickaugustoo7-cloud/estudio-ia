@@ -1,0 +1,82 @@
+{
+  "titulo": "Séculos de silêncio. Então, uma voz gritou no deserto",
+  "gancho_tela": "Uma voz gritou no deserto",
+  "referencia": "Mateus 3:3",
+  "duracao_max": 90,
+  "volume_musica": 0.14,
+  "estilo_imagem": "cinematic photorealistic epic film still, dramatic volumetric god rays, floating dust particles, deep chiaroscuro, first century Judea, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic epic film shot, slow and subtle motion.",
+  "epoca_imagem": "Judean wilderness and the Jordan River valley, 1st century AD, barren limestone hills, desert paths, reeds, stone, clay, leather and rough cloth only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "Fazia séculos que Israel não ouvia um profeta. Até que uma voz gritou no deserto.",
+      "prompt_imagem": "wide aerial view of the vast barren Judean wilderness at dawn, rolling limestone hills, a single brilliant beam of light breaking through dark clouds onto the desert",
+      "prompt_movimento": "the beam of light slowly widens across the hills, dust swirls in the wind, slow aerial camera glide forward",
+      "vazia": true
+    },
+    {
+      "trecho": "Era João Batista, pregando no deserto da Judeia, perto do rio Jordão.",
+      "prompt_imagem": "high wide view of the green winding Jordan River cutting through the barren Judean desert, reeds along the banks, golden morning haze",
+      "prompt_movimento": "the river water flows and glitters slowly, reeds sway in the wind, haze drifts, slow camera descent",
+      "vazia": true
+    },
+    {
+      "trecho": "Ele usava roupas de pelos de camelo e um cinto de couro.",
+      "prompt_imagem": "close-up of a rough brown garment woven of camel hair and a worn leather belt lying on a sunlit desert rock, warm low light",
+      "prompt_movimento": "the coarse fibers of the garment stir in the desert breeze, fine sand drifts across the rock, very slow camera push-in",
+      "vazia": true
+    },
+    {
+      "trecho": "Igual ao profeta Elias. E comia gafanhotos e mel silvestre.",
+      "prompt_imagem": "close-up of wild honeycomb dripping golden honey in a crevice of a limestone rock, a few locusts on a dry desert shrub, a beam of sunlight",
+      "prompt_movimento": "honey drips slowly from the comb, the dry shrub trembles in the wind, dust floats in the sunbeam, static camera",
+      "vazia": true
+    },
+    {
+      "trecho": "Sua mensagem era direta: Arrependam-se, porque o Reino dos céus está próximo.",
+      "prompt_imagem": "high view of a rocky desert ridge above the Jordan valley, a tiny distant figure standing on the ridge, dramatic god rays from the clouds",
+      "prompt_movimento": "the god rays shift slowly across the ridge, the tiny robe moves in the wind, clouds drift, slow camera push-in",
+      "vazia": false
+    },
+    {
+      "trecho": "Setecentos anos antes, Isaías tinha anunciado: Voz do que clama no deserto.",
+      "prompt_imagem": "an ancient parchment scroll partly unrolled on a stone table, Hebrew script, one clay oil lamp beside it, warm light in a dark stone room",
+      "prompt_movimento": "the oil lamp flame flickers, warm light dances on the parchment, smoke rises slowly, slow camera push-in",
+      "vazia": true
+    },
+    {
+      "trecho": "Preparem o caminho para o Senhor, façam veredas retas para ele.",
+      "prompt_imagem": "a long narrow desert path winding through barren Judean hills toward a glowing horizon, low golden sunlight, long shadows",
+      "prompt_movimento": "dust drifts along the path, the horizon glows brighter, long shadows stretch slowly, slow camera glide forward along the path",
+      "vazia": true
+    },
+    {
+      "trecho": "Naquele tempo, antes da chegada de um rei, as estradas eram aplainadas.",
+      "prompt_imagem": "a straight ancient stone-paved road crossing a desert valley, wooden tools and baskets of stones resting at its edge, golden dust in the air",
+      "prompt_movimento": "golden dust floats in the light above the road, the light grows warmer, slow camera glide forward along the road",
+      "vazia": true
+    },
+    {
+      "trecho": "Gente de Jerusalém, de toda a Judeia e da região do Jordão foi até ele.",
+      "prompt_imagem": "wide high view of dusty desert roads descending from distant limestone hills toward the Jordan River, a few tiny figures far away walking, morning haze",
+      "prompt_movimento": "haze drifts across the valley, dust rises softly from the roads, slow aerial camera pull-back",
+      "vazia": false
+    },
+    {
+      "trecho": "Confessando os pecados, eram batizados por ele no rio Jordão. Mateus, capítulo três.",
+      "prompt_imagem": "high view of a calm bend of the Jordan River among reeds, a few tiny figures far away standing in the shallow water, rays of light on the surface",
+      "prompt_movimento": "the river water ripples and sparkles in the rays of light, reeds sway gently, slow camera descent",
+      "vazia": false
+    },
+    {
+      "trecho": "O Rei estava chegando. Hoje, essa voz clama a você: prepare o caminho.",
+      "prompt_imagem": "the vast Judean wilderness at sunrise seen from above, a single path leading toward a brilliant beam of heavenly light on the horizon",
+      "prompt_movimento": "the heavenly light grows brighter, dust floats in the rays, slow camera glide forward toward the light",
+      "vazia": true
+    }
+  ],
+  "legenda": "Senhor, prepara o caminho no meu coração 🙏🏜️\nMateus 3:1-6\nComente \"Amém\" se você ouviu essa voz hoje.",
+  "hashtags": ["#JoãoBatista", "#Bíblia", "#Jesus", "#fé"],
+  "fontes": ["Mateus 3:1-6", "Isaías 40:3", "2 Reis 1:8"]
+}
