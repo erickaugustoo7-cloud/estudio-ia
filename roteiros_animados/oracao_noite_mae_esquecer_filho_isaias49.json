@@ -1,0 +1,780 @@
+{
+ "formato": "horizontal",
+ "duracao_max": 999,
+ "volume_musica": 0.0,
+ "opcoes_imagem": 1,
+ "palavras_por_bloco": 600,
+ "plataformas": [
+  "youtube"
+ ],
+ "estilo_imagem": "breathtaking real-world nature landscape photography, peaceful and serene, soft natural light, rich colors, ultra detailed, horizontal 16:9 widescreen, no people, no text",
+ "prefixo_imagem": "beautiful peaceful nature landscape photo:",
+ "prefixo_video": "Peaceful nature shot, very slow and gentle motion.",
+ "epoca_imagem": "real natural landscapes of today (sea, forest, waterfalls, mountains, lakes, sky); no people, no buildings, no text",
+ "fonte_imagem": "cloudflare",
+ "estilo_voz": "emocionado e íntimo, como quem ora de verdade por alguém que sofre; voz baixa, pausada, com ternura",
+ "tipo": "oracao",
+ "fundo_video": "pixabay",
+ "titulo": "Oração para dormir: Pode uma mãe esquecer o filho? (Isaías 49:15-16)",
+ "titulo_youtube": "Pode Uma Mãe Esquecer o Filho? Deus Respondeu Isso | Oração Para Dormir",
+ "gancho_tela": "Pode uma mãe esquecer o filho?",
+ "referencia": "Isaías 49:13-16, 25",
+ "cena_capa": 82,
+ "texto_capa": [
+  "ELE NÃO",
+  "*ESQUECEU",
+  "DE VOCÊ"
+ ],
+ "selo_capa": "Oração da noite",
+ "capa_prompt": "a Brazilian mother in her forties praying with closed eyes beside her sleeping child's bed at night, one hand on the child's blanket, soft lamp light, tears of relief, cinematic photo",
+ "legenda": "\"Pode uma mulher esquecer-se do seu filho?\" Deus fez essa pergunta a um povo que se sentia esquecido no exílio da Babilônia — e a resposta dEle está em Isaías 49. Nesta oração para dormir você ouve a história completa (Jerusalém em ruínas, os muros no chão, a reconstrução) e depois ora comigo pelos seus filhos, pela sua casa, pela saúde e pelas contas. No final, a palavra do versículo 16 que quase ninguém percebe. 🙏\n\n\"Mas ainda que esta se esquecesse dele, contudo eu não me esquecerei de ti. Eis que nas palmas das minhas mãos eu te gravei\" (Isaías 49:15-16, Almeida).\n\nEscreva o seu pedido de oração e o nome do seu filho nos comentários — eu vou orar por ele. Comente \"Amém\" e inscreva-se para orarmos juntos toda noite.",
+ "hashtags": [
+  "#OraçãoParaDormir",
+  "#OraçãoPelosFilhos",
+  "#Isaías49",
+  "#OraçãoDaMãe",
+  "#Fé"
+ ],
+ "fontes": [
+  "Isaías 49:13-16, 25 — Almeida Corrigida Fiel",
+  "2 Reis 25:8-11 (queda de Jerusalém, muros derrubados)",
+  "Salmo 137:1 — Almeida",
+  "Jeremias 29:10 (setenta anos)",
+  "Neemias 6:15 (muro em 52 dias)",
+  "Isaías 66:13; Isaías 43:1; Salmo 121:4; Salmo 4:8; 1 Pedro 5:7; Lamentações 3:22-23 — Almeida",
+  "João 20:27 — Almeida",
+  "Hebraico de Isaías 49:16 ('gravar/entalhar'): UBS Handbook on Isaiah (Ogden & Sterk)"
+ ],
+ "short_isca": {
+  "cenas": [
+   24
+  ],
+  "texto_topo": "QUASE NINGUÉM PERCEBE",
+  "titulo": "A palavra de Isaías 49:16 que quase ninguém percebe",
+  "hashtags": [
+   "isaias49",
+   "oracaodamae",
+   "oracao"
+  ]
+ },
+ "capitulos": [
+  {
+   "cena": 0,
+   "titulo": "Pode uma mãe esquecer o filho?"
+  },
+  {
+   "cena": 5,
+   "titulo": "Jerusalém em ruínas e o exílio"
+  },
+  {
+   "cena": 15,
+   "titulo": "A resposta de Deus (Isaías 49:15)"
+  },
+  {
+   "cena": 21,
+   "titulo": "Os muros diante de Deus"
+  },
+  {
+   "cena": 25,
+   "titulo": "Os seus muros no chão"
+  },
+  {
+   "cena": 28,
+   "titulo": "Oração: do jeito que eu estou"
+  },
+  {
+   "cena": 34,
+   "titulo": "Pela mente e pela ansiedade"
+  },
+  {
+   "cena": 38,
+   "titulo": "Pelos filhos"
+  },
+  {
+   "cena": 49,
+   "titulo": "Pela casa e pelo casamento"
+  },
+  {
+   "cena": 54,
+   "titulo": "Pela saúde e pelas contas"
+  },
+  {
+   "cena": 60,
+   "titulo": "Perdão"
+  },
+  {
+   "cena": 64,
+   "titulo": "Pelos seus pedidos"
+  },
+  {
+   "cena": 70,
+   "titulo": "Promessas e silêncio"
+  },
+  {
+   "cena": 82,
+   "titulo": "A palavra que quase ninguém percebe"
+  },
+  {
+   "cena": 88,
+   "titulo": "Bênção final"
+  }
+ ],
+ "revelacao": {
+  "promessa_cena": 2,
+  "entrega_cena": 82,
+  "o_que": "a palavra 'te' em Isaías 49:16: Deus não gravou o seu nome, gravou VOCÊ — entalhado, não escrito, nas mãos que em Jesus ficaram marcadas (João 20:27)"
+ },
+ "cenas": [
+  {
+   "trecho": "Pode uma mãe esquecer o próprio filho? Foi o próprio Deus quem fez essa pergunta.",
+   "prompt_imagem": "a calm ocean at sunset with gentle waves rolling onto a quiet sandy beach",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+  },
+  {
+   "trecho": "Ele fez essa pergunta para um povo que tinha certeza de que tinha sido esquecido. Está no capítulo 49 de Isaías. E a resposta que Deus deu é uma das frases mais ternas de toda a Bíblia.",
+   "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist and sun rays",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+  },
+  {
+   "trecho": "Mas tem uma palavra no versículo 16 que quase ninguém percebe. Uma palavra só. E no final desta oração, eu vou te mostrar que palavra é essa… e por que você precisa ouvir ela esta noite.",
+   "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+  },
+  {
+   "trecho": "Se você é mãe, ou pai, e o coração está apertado por causa de um filho, fica comigo. Filho longe. Filho doente. Filho que parou de falar com você. Filho que você ainda espera.",
+   "prompt_imagem": "a starry night sky over calm mountains, milky way glowing",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+  },
+  {
+   "trecho": "E se você é filho ou filha e está se sentindo esquecido por todo mundo, essa história também é sua. Respire fundo. A noite pode ser longa, mas você não vai passar por ela sozinho.",
+   "prompt_imagem": "a peaceful mountain lake reflecting snowy peaks at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+  },
+  {
+   "trecho": "Para entender esse versículo, a gente precisa voltar uns dois mil e seiscentos anos. Jerusalém tinha caído. O exército da Babilônia, do rei Nabucodonosor, cercou a cidade, queimou o templo e derrubou os muros.",
+   "prompt_imagem": "a field of wildflowers swaying in the wind under a soft golden sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "A Bíblia registra isso em Segundo Reis, capítulo 25: os muros em redor de Jerusalém foram derrubados. A cidade que era o orgulho do povo virou um monte de pedras queimadas.",
+   "prompt_imagem": "a gentle river flowing through a green valley at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "E quem sobreviveu foi levado para longe. Famílias inteiras arrancadas de casa e levadas a pé para uma terra estranha, com outra língua, outros deuses, outros costumes.",
+   "prompt_imagem": "a beach under the full moon with silver light on calm water",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "O Salmo 137 guarda a voz desse povo: \"Junto dos rios de Babilônia, ali nos assentamos e choramos.\" Gente sentada na beira de um rio estrangeiro, chorando pela casa que não existia mais.",
+   "prompt_imagem": "green rolling hills covered in light morning fog",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Os anos foram passando. Os pais envelheciam no exílio. Os filhos nasciam sem nunca ter visto Jerusalém. E uma pergunta começou a crescer no coração deles, como cresce no nosso também.",
+   "prompt_imagem": "a small stream with smooth stones running through a mossy forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Os profetas tinham avisado. Jeremias tinha dito que o cativeiro duraria setenta anos. Setenta anos é uma vida inteira. Muita mãe que saiu de Jerusalém com o filho no colo nunca mais voltou para casa.",
+   "prompt_imagem": "northern lights dancing over a quiet snowy landscape",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Será que Deus ainda lembra de nós? Será que Ele simplesmente… seguiu em frente? Será que a gente ficou para trás?",
+   "prompt_imagem": "soft white clouds drifting over a blue sky at golden hour",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "E o profeta Isaías coloca essa dor em palavras. No versículo 14, a cidade de Sião fala como uma mulher abandonada: \"Já me desamparou o Senhor, e o meu Senhor se esqueceu de mim.\"",
+   "prompt_imagem": "a lavender field at dusk with a warm pink sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Repare que Deus não briga com essa frase. Ele não diz: \"Que falta de fé.\" Ele deixa a dor ser dita. A Bíblia guarda a reclamação do povo, palavra por palavra. Deus aguenta ouvir a nossa dor sincera.",
+   "prompt_imagem": "a calm turquoise lagoon surrounded by tropical palm trees, seen from far",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Antes de continuar, se esta palavra já está tocando o seu coração, inscreva-se no canal e ative o sininho. Assim a gente ora junto toda noite. Agora, veja como Deus responde.",
+   "prompt_imagem": "autumn forest with orange and red leaves by a quiet pond",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Deus responde com uma pergunta. E não é uma pergunta de teólogo. É uma pergunta de mãe. Versículo 15: \"Porventura pode uma mulher esquecer-se tanto de seu filho que cria…\"",
+   "prompt_imagem": "a vast rocky desert canyon at sunset with warm golden light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "\"…que não se compadeça dele, do filho do seu ventre?\" Pense numa mãe com o bebê no colo, de madrugada, acordada pela terceira vez. Ela pode estar exausta. Mas ela esquece que tem um filho? Não.",
+   "prompt_imagem": "ocean waves gently crashing on dark rocks at twilight",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Quem é mãe sabe. A gente esquece a chave, esquece o nome de alguém, esquece o que ia falar. Mas o filho não. O filho mora dentro da gente. Até dormindo, uma parte da mãe fica acordada.",
+   "prompt_imagem": "a frozen lake under a pale winter sunrise with soft pink light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "É por isso que a mãe acorda antes do bebê chorar. É por isso que ela ouve a tosse do filho do outro lado da casa. Esse amor não desliga. E foi esse amor que Deus escolheu para falar de Si mesmo.",
+   "prompt_imagem": "a calm ocean at sunset with gentle waves rolling onto a quiet sandy beach",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "E aí Deus vai além. Ele diz algo que surpreende: \"Mas ainda que esta se esquecesse dele, contudo eu não me esquecerei de ti.\" Mesmo que o amor mais forte da terra falhasse… o Dele não falha.",
+   "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist and sun rays",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Deus sabe que existem mães que falham. Mães que foram embora. Pais que nunca vieram. Talvez você saiba disso por experiência. E Deus diz: mesmo quando o amor humano falha, eu não esqueço você.",
+   "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "E então vem o versículo 16, o mais famoso: \"Eis que nas palmas das minhas mãos eu te gravei; os teus muros estão continuamente diante de mim.\"",
+   "prompt_imagem": "a starry night sky over calm mountains, milky way glowing",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Lembra dos muros? Estavam no chão. Eram entulho. E Deus diz: os teus muros estão diante de mim o tempo todo. Ele não estava olhando para as ruínas como quem desiste. Estava olhando como quem vai reconstruir.",
+   "prompt_imagem": "a peaceful mountain lake reflecting snowy peaks at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "E reconstruiu. Anos depois, o povo voltou. E o livro de Neemias conta que o muro de Jerusalém foi levantado de novo em cinquenta e dois dias. O que parecia esquecido estava, o tempo todo, diante dos olhos de Deus.",
+   "prompt_imagem": "a field of wildflowers swaying in the wind under a soft golden sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Deus disse: nas palmas das minhas mãos eu te gravei. Mas tem uma palavra nesse versículo que quase ninguém percebe. Ela está bem ali, na frente de todo mundo. Já vamos chegar nela.",
+   "prompt_imagem": "a gentle river flowing through a green valley at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Agora, talvez a sua vida também tenha muros no chão. Um casamento que desmoronou. Um filho que se afastou. Uma saúde que já não é a mesma. Um sonho que virou entulho.",
+   "prompt_imagem": "a beach under the full moon with silver light on calm water",
+   "vazia": true,
+   "animar": false,
+   "emocao": "íntimo e acolhedor, falando com a pessoa, convite calmo"
+  },
+  {
+   "trecho": "E talvez você esteja dizendo, baixinho, a mesma frase de Sião: \"Deus se esqueceu de mim.\" Você não precisa ter vergonha disso. Deus já ouviu essa frase antes. E Ele respondeu com amor.",
+   "prompt_imagem": "green rolling hills covered in light morning fog",
+   "vazia": true,
+   "animar": false,
+   "emocao": "íntimo e acolhedor, falando com a pessoa, convite calmo"
+  },
+  {
+   "trecho": "Então vamos orar. Feche os olhos, se puder. Coloque a mão no peito. Respire fundo… e solte o ar devagar. Mais uma vez. E repita comigo, no seu coração, do jeito que você conseguir.",
+   "prompt_imagem": "a small stream with smooth stones running through a mossy forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "íntimo e acolhedor, falando com a pessoa, convite calmo"
+  },
+  {
+   "trecho": "Senhor… eu chego aqui do jeito que eu estou. Cansado. Com a cabeça cheia. Eu não vou fingir que está tudo bem, porque Tu já sabes que não está.",
+   "prompt_imagem": "northern lights dancing over a quiet snowy landscape",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Eu passei o dia cuidando de todo mundo, Senhor. Resolvendo, correndo, segurando as pontas. E agora, no fim do dia, eu só quero alguém que cuide de mim. Cuida de mim esta noite, Pai.",
+   "prompt_imagem": "soft white clouds drifting over a blue sky at golden hour",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Tem dias em que eu sinto que o Senhor se esqueceu de mim. Eu oro, e parece que nada muda. Eu espero, e a resposta não vem. Perdoa a minha impaciência, Pai… mas eu preciso te dizer a verdade.",
+   "prompt_imagem": "a lavender field at dusk with a warm pink sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E a verdade é que eu estou com medo. Medo do amanhã. Medo de não dar conta. Medo de perder o que eu amo. Eu entrego esse medo agora nas Tuas mãos.",
+   "prompt_imagem": "a calm turquoise lagoon surrounded by tropical palm trees, seen from far",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "As mesmas mãos em que Tu disseste que me gravaste. Senhor, se eu estou nas palmas das Tuas mãos, então esta noite eu não estou solto no mundo. Eu estou seguro.",
+   "prompt_imagem": "autumn forest with orange and red leaves by a quiet pond",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E tem uma pergunta que eu quero te fazer, Senhor, sobre o que exatamente está gravado nas Tuas mãos. Daqui a pouco a gente volta a ela.",
+   "prompt_imagem": "a vast rocky desert canyon at sunset with warm golden light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Pai, agora eu Te entrego a minha mente. Os pensamentos que não param quando eu deito. As conversas que eu repito na cabeça. As preocupações que chegam todas de uma vez quando a luz apaga.",
+   "prompt_imagem": "ocean waves gently crashing on dark rocks at twilight",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Acalma a minha mente, Senhor. Como uma mãe acalma o filho que acordou assustado. Passa a mão na minha cabeça. Diz para mim que vai ficar tudo bem.",
+   "prompt_imagem": "a frozen lake under a pale winter sunrise with soft pink light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "A Tua Palavra diz em Isaías 66: \"Como alguém a quem consola sua mãe, assim eu vos consolarei.\" Então me consola, Pai. Do jeito que só o Senhor sabe consolar.",
+   "prompt_imagem": "a calm ocean at sunset with gentle waves rolling onto a quiet sandy beach",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "A ansiedade quer me convencer de que tudo depende de mim. Mas não depende. O Senhor está acordado. O Senhor está no controle. Eu posso descansar.",
+   "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist and sun rays",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Senhor, eu Te peço agora pelos meus filhos. Tu conheces cada um pelo nome. Conheces o jeito de cada um, as feridas de cada um, os segredos que eles não contam nem para mim.",
+   "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Neste momento, diga o nome do seu filho ou da sua filha, no seu coração. Devagar. Deus está ouvindo esse nome agora.",
+   "prompt_imagem": "a starry night sky over calm mountains, milky way glowing",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Pai, onde eles estiverem esta noite, guarda os meus filhos. Se estão em casa, cobre o quarto deles com a Tua paz. Se estão longe, vai até onde eu não posso ir.",
+   "prompt_imagem": "a peaceful mountain lake reflecting snowy peaks at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Livra os meus filhos das más companhias, dos caminhos perigosos, das vozes que querem afastar eles de Ti. Coloca pessoas boas no caminho deles. Amigos que levem para perto de Ti, e não para longe.",
+   "prompt_imagem": "a field of wildflowers swaying in the wind under a soft golden sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Pelo filho que está doente, eu Te peço cura. Pelo filho que está sem emprego, abre uma porta. Pelo filho que está com o coração partido, cura essa ferida, Senhor.",
+   "prompt_imagem": "a gentle river flowing through a green valley at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Pelos filhos pequenos, que ainda dormem com a luz acesa, eu Te peço sono tranquilo. Pelos filhos adolescentes, que guardam tudo dentro do quarto, eu Te peço que eles conversem com alguém de confiança. Pelos filhos adultos, eu Te peço direção.",
+   "prompt_imagem": "a beach under the full moon with silver light on calm water",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E pelo filho que se afastou de mim… ou de Ti… eu não desisto, Pai. Tu disseste no versículo 25 deste mesmo capítulo: \"os teus filhos eu remirei.\" Eu me agarro a essa promessa esta noite.",
+   "prompt_imagem": "green rolling hills covered in light morning fog",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Senhor, eu já errei como mãe. Já errei como pai. Já falei o que não devia. Já estive ausente quando eles precisaram. Perdoa os meus erros e cobre com a Tua graça o que eu não consegui fazer.",
+   "prompt_imagem": "a small stream with smooth stones running through a mossy forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Onde eu faltei, que o Senhor não falte. Onde a minha voz não chega, que a Tua voz chegue. Eu não sou uma mãe perfeita, mas o Senhor é um Pai perfeito.",
+   "prompt_imagem": "northern lights dancing over a quiet snowy landscape",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E se você não tem filhos, ou se perdeu um filho, Deus vê a sua dor também. Ele não esquece de nenhum nome. Nem do nome de quem já partiu. Ele guarda tudo.",
+   "prompt_imagem": "soft white clouds drifting over a blue sky at golden hour",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Agora vamos orar pela nossa casa. Mas antes, pense no que Deus estava vendo quando olhava para aqueles muros quebrados. Isso vai fazer sentido daqui a pouco.",
+   "prompt_imagem": "a lavender field at dusk with a warm pink sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Pai, eu Te entrego a minha casa. As paredes, a mesa, as camas, cada pessoa que dorme debaixo deste teto. Que a Tua presença seja o muro em volta de nós.",
+   "prompt_imagem": "a calm turquoise lagoon surrounded by tropical palm trees, seen from far",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Pelo meu casamento, Senhor. Se o amor esfriou, aquece de novo. Se as palavras ficaram duras, amolece o nosso coração. Se a distância cresceu, faz a gente se encontrar outra vez.",
+   "prompt_imagem": "autumn forest with orange and red leaves by a quiet pond",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Pelas brigas que ainda doem, eu Te peço paz. Pelo silêncio na hora do jantar, eu Te peço conversa. Pelo cansaço que nos separa, eu Te peço paciência um com o outro.",
+   "prompt_imagem": "a vast rocky desert canyon at sunset with warm golden light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Ensina a gente a pedir perdão primeiro. Ensina a gente a ouvir sem se defender. Que os nossos filhos vejam nesta casa um amor que não desiste, mesmo nos dias difíceis.",
+   "prompt_imagem": "ocean waves gently crashing on dark rocks at twilight",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E se eu estou sozinho nesta casa, Senhor, enche este lugar com a Tua presença. Que eu não sinta o silêncio como abandono, mas como um lugar onde o Senhor fala comigo.",
+   "prompt_imagem": "a frozen lake under a pale winter sunrise with soft pink light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Pai, eu também Te entrego a minha saúde. O exame que eu estou esperando. A dor que não passa. O remédio que eu tomo todo dia. Tu vês o meu corpo inteiro.",
+   "prompt_imagem": "a calm ocean at sunset with gentle waves rolling onto a quiet sandy beach",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Toca no que dói, Senhor. Dá sabedoria aos médicos. Dá força para os dias de tratamento. E se a cura demorar, não deixa a minha fé demorar junto.",
+   "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist and sun rays",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E eu Te entrego as contas, Pai. A conta que venceu. O dinheiro que não fecha. O trabalho que cansa, ou o trabalho que eu ainda não encontrei. Tu sabes do que esta casa precisa.",
+   "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Provê, Senhor. Do jeito que o Senhor proveu para o Teu povo no exílio. Eu não sei como, mas eu sei que Tu não esqueces de quem confia em Ti.",
+   "prompt_imagem": "a starry night sky over calm mountains, milky way glowing",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E me livra da comparação, Pai. Do medo de não ter o suficiente. Me ensina a agradecer pelo pão de hoje, pelo teto de hoje, pelo fôlego de hoje. Hoje o Senhor cuidou de mim. Amanhã também vai cuidar.",
+   "prompt_imagem": "a peaceful mountain lake reflecting snowy peaks at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Talvez você esteja pensando: e se Deus esqueceu justamente de mim? Guarda essa pergunta. A resposta está gravada num lugar que você nem imagina.",
+   "prompt_imagem": "a field of wildflowers swaying in the wind under a soft golden sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Agora, Senhor, eu preciso perdoar. Tem gente que me feriu. Tem palavra que ainda ecoa dentro de mim. Tem gente que me abandonou quando eu mais precisei.",
+   "prompt_imagem": "a gentle river flowing through a green valley at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Eu não quero mais carregar isso para a cama, Pai. Eu solto essa pessoa nas Tuas mãos. Eu não preciso concordar com o que ela fez, mas eu escolho não ficar preso a ela.",
+   "prompt_imagem": "a beach under the full moon with silver light on calm water",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E me ajuda a me perdoar também. Pelas escolhas erradas. Pelo tempo perdido. Pelas coisas que eu gostaria de ter feito diferente. Se o Senhor não se esquece de mim, também não me condena.",
+   "prompt_imagem": "green rolling hills covered in light morning fog",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "A Tua Palavra diz em Lamentações: \"As misericórdias do Senhor são a causa de não sermos consumidos.\" E ainda: \"Novas são cada manhã.\" Amanhã tem misericórdia nova para mim.",
+   "prompt_imagem": "a small stream with smooth stones running through a mossy forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Agora eu quero orar por você que está aqui comigo. Se você tem um pedido de oração, escreva nos comentários. O seu nome, o nome do seu filho, a sua dor. Eu vou orar por ele.",
+   "prompt_imagem": "northern lights dancing over a quiet snowy landscape",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Senhor, eu Te apresento cada pedido que está sendo escrito agora. A mãe que espera o filho voltar. O pai que perdeu o emprego. A avó que cria os netos sozinha. Ninguém aqui está esquecido.",
+   "prompt_imagem": "soft white clouds drifting over a blue sky at golden hour",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Pela mulher que chora escondida no banheiro para os filhos não verem. Senhor, Tu vês essas lágrimas. Nenhuma delas cai no chão sem que Tu saibas.",
+   "prompt_imagem": "a lavender field at dusk with a warm pink sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Pelo homem que não sabe chorar, mas carrega tudo calado. Pelo pai que trabalha dobrado e chega em casa sem forças para conversar. Senhor, alcança também esses corações cansados.",
+   "prompt_imagem": "a calm turquoise lagoon surrounded by tropical palm trees, seen from far",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E por quem está longe de Ti esta noite. Por quem já ouviu falar de Deus, mas acha que Ele desistiu. Pai, mostra para essa pessoa que o Senhor ainda chama pelo nome dela.",
+   "prompt_imagem": "autumn forest with orange and red leaves by a quiet pond",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Se é você, ouça: você não foi longe demais. Deus disse para um povo que tinha virado as costas para Ele: eu não me esquecerei de ti. Isso vale para você também.",
+   "prompt_imagem": "a vast rocky desert canyon at sunset with warm golden light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração sincera: ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Agora, deixa eu te dar algumas promessas para guardar debaixo do travesseiro. Ouça devagar, como quem bebe água fresca.",
+   "prompt_imagem": "ocean waves gently crashing on dark rocks at twilight",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Isaías 43: \"Não temas, porque eu te remi; chamei-te pelo teu nome, tu és meu.\" Você tem dono. Você tem nome. Você pertence a Deus.",
+   "prompt_imagem": "a frozen lake under a pale winter sunrise with soft pink light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Salmo 121: \"Eis que não tosquenejará nem dormirá o guarda de Israel.\" Você pode fechar os olhos. Ele não vai fechar os d'Ele.",
+   "prompt_imagem": "a calm ocean at sunset with gentle waves rolling onto a quiet sandy beach",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Primeira de Pedro: \"Lançando sobre ele toda a vossa ansiedade, porque ele tem cuidado de vós.\" Tudo. Não só um pouco. Toda a ansiedade.",
+   "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist and sun rays",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "E o Salmo 4: \"Em paz também me deitarei e dormirei, porque só tu, Senhor, me fazes habitar em segurança.\" Essa pode ser a sua oração agora.",
+   "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Vamos ficar um pouco em silêncio com Deus. Inspire devagar… e solte. Deixe os ombros caírem. Deixe a testa relaxar. Deixe as mãos abertas, como quem entrega alguma coisa.",
+   "prompt_imagem": "a starry night sky over calm mountains, milky way glowing",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Inspire de novo… e pense: Deus não se esqueceu de mim. Solte o ar… e pense: eu estou nas mãos d'Ele. Mais uma vez, bem devagar.",
+   "prompt_imagem": "a peaceful mountain lake reflecting snowy peaks at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Agora eu vou ler para você, bem devagar, o trecho de Isaías 49 que ouvimos. Só escute. Deixe cada palavra pousar no seu coração.",
+   "prompt_imagem": "a field of wildflowers swaying in the wind under a soft golden sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "\"Exultai, ó céus, e alegra-te, ó terra… porque o Senhor consolou o seu povo, e dos seus aflitos se compadecerá.\"",
+   "prompt_imagem": "a gentle river flowing through a green valley at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "\"Porém Sião diz: Já me desamparou o Senhor, e o meu Senhor se esqueceu de mim.\"",
+   "prompt_imagem": "a beach under the full moon with silver light on calm water",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "\"Porventura pode uma mulher esquecer-se tanto de seu filho que cria, que não se compadeça dele, do filho do seu ventre?\"",
+   "prompt_imagem": "green rolling hills covered in light morning fog",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "\"Mas ainda que esta se esquecesse dele, contudo eu não me esquecerei de ti. Eis que nas palmas das minhas mãos eu te gravei.\"",
+   "prompt_imagem": "a small stream with smooth stones running through a mossy forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Você ouviu? \"Eu te gravei.\" Não diz \"eu gravei o teu nome\". Não diz \"eu fiz uma anotação\". Diz: eu gravei você. Essa é a palavra que quase ninguém percebe: te.",
+   "prompt_imagem": "northern lights dancing over a quiet snowy landscape",
+   "vazia": true,
+   "animar": false,
+   "emocao": "revelação: emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "A gente imagina Deus com um lembrete na mão, como quem escreve um nome para não esquecer. Mas não é isso. Não é o seu nome que está lá. É você. A sua vida inteira, a sua história, as suas ruínas.",
+   "prompt_imagem": "soft white clouds drifting over a blue sky at golden hour",
+   "vazia": true,
+   "animar": false,
+   "emocao": "revelação: emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "E a palavra \"gravei\" não é escrever com tinta, que a água apaga. É gravar, entalhar, como se marca na pedra. Não sai. Não desbota. Não some com o tempo.",
+   "prompt_imagem": "a lavender field at dusk with a warm pink sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "revelação: emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "E ainda tem mais. Muitos séculos depois, numa noite de medo, Jesus apareceu aos discípulos e disse a Tomé: \"Põe aqui o teu dedo, e vê as minhas mãos.\" Mãos marcadas pelos cravos.",
+   "prompt_imagem": "a calm turquoise lagoon surrounded by tropical palm trees, seen from far",
+   "vazia": true,
+   "animar": false,
+   "emocao": "revelação: emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "Pense nisso esta noite. As mãos de Deus, em Jesus, ficaram marcadas por amor a você. Quando você achar que foi esquecido, lembre: você está gravado em mãos que carregam cicatrizes por sua causa.",
+   "prompt_imagem": "autumn forest with orange and red leaves by a quiet pond",
+   "vazia": true,
+   "animar": false,
+   "emocao": "revelação: emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "Então, mãe, quando você deitar e pensar no seu filho, lembre: ele também está gravado nessas mãos. E você está. Ninguém da sua casa foi esquecido por Deus. Ninguém.",
+   "prompt_imagem": "a vast rocky desert canyon at sunset with warm golden light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "revelação: emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "Senhor, obrigado. Obrigado porque o Senhor não esquece. Obrigado porque os meus muros estão diante de Ti. Obrigado porque eu estou gravado nas Tuas mãos.",
+   "prompt_imagem": "ocean waves gently crashing on dark rocks at twilight",
+   "vazia": true,
+   "animar": false,
+   "emocao": "paz e bênção, voz suave de despedida"
+  },
+  {
+   "trecho": "Agora eu abençoo você. Que o Senhor guarde o seu sono. Que guarde os seus filhos, onde eles estiverem. Que reconstrua os seus muros, pedra por pedra, no tempo d'Ele.",
+   "prompt_imagem": "a frozen lake under a pale winter sunrise with soft pink light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "paz e bênção, voz suave de despedida"
+  },
+  {
+   "trecho": "Que você acorde amanhã com a certeza de que não está esquecida, de que não está esquecido. Que a misericórdia nova da manhã encontre você de coração aberto.",
+   "prompt_imagem": "a calm ocean at sunset with gentle waves rolling onto a quiet sandy beach",
+   "vazia": true,
+   "animar": false,
+   "emocao": "paz e bênção, voz suave de despedida"
+  },
+  {
+   "trecho": "Se esta oração te ajudou, inscreva-se no canal e escreva \"Amém\" nos comentários, para orarmos juntos toda noite. E compartilhe com uma mãe que precisa ouvir isso hoje.",
+   "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist and sun rays",
+   "vazia": true,
+   "animar": false,
+   "emocao": "paz e bênção, voz suave de despedida"
+  },
+  {
+   "trecho": "Durma em paz. Você está nas palmas das mãos de Deus, e de lá ninguém te tira. Em nome de Jesus… amém.",
+   "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
+   "vazia": true,
+   "animar": false,
+   "emocao": "paz e bênção, voz suave de despedida"
+  }
+ ]
+}
