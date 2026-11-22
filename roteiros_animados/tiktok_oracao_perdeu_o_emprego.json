@@ -1,0 +1,68 @@
+{
+  "titulo": "Oração para quem perdeu o emprego e tem medo do fim do mês",
+  "gancho_tela": "Perdeu o emprego?",
+  "referencia": "Filipenses 4:19",
+  "serie": "Oração de 20 segundos",
+  "tipo": "tiktok",
+  "fonte_imagem": "kaggle",
+  "opcoes_imagem": 2,
+  "duracao_max": 40,
+  "volume_musica": 0.12,
+  "plataformas": [
+    "facebook"
+  ],
+  "estilo_imagem": "cinematic photorealistic epic film still, soft dawn light and warm lamplight, dramatic volumetric light, ancient Judea village, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic slow subtle motion.",
+  "epoca_imagem": "Ancient Israel village, stone house, clay jars and oil lamps, bread, linen, wool and wood only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "Perdeu o emprego e não sabe como pagar as contas? Ore comigo.",
+      "prompt_imagem": "a small clay oil lamp burning low on a rough wooden table beside an empty clay jar, dark stone room, warm flickering light",
+      "vazia": true,
+      "animar": true,
+      "prompt_movimento": "the small flame of the clay oil lamp flickers gently, soft smoke rising slowly in the warm light"
+    },
+    {
+      "trecho": "Senhor, eu perdi o trabalho e o medo tomou conta.",
+      "prompt_imagem": "carpenter tools of wood and iron resting unused on a dusty workbench in an ancient stone workshop, dim light from a small window",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Tu sabes das contas, da mesa, dos filhos.",
+      "prompt_imagem": "a simple wooden table with a few clay bowls and a woven basket holding a single loaf of bread, ancient stone house, soft evening light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Tua Palavra diz: o meu Deus, porém, segundo as suas riquezas, suprirá todas as vossas necessidades.",
+      "prompt_imagem": "an old parchment scroll partly unrolled on a wooden table beside a burning clay oil lamp, warm light falling across it",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Abre a porta certa e, até lá, não me deixes faltar o pão. Amém.",
+      "prompt_imagem": "an old wooden door of a stone house standing open at sunrise, golden light pouring in across the threshold, a basket of fresh bread beside it",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Siga o Mensageiro de Fé para orar comigo todos os dias.",
+      "prompt_imagem": "a quiet ancient village of flat-roofed stone houses at dawn, wheat fields in soft light, wide high view, peaceful sky",
+      "vazia": true,
+      "animar": false
+    }
+  ],
+  "legenda": "Para você que perdeu o emprego: \"O meu Deus, porém, segundo as suas riquezas, suprirá todas as vossas necessidades em glória, por Cristo Jesus\" (Filipenses 4:19). Quer que eu ore por você? Comente seu nome 👇",
+  "hashtags": [
+    "#Oração",
+    "#Emprego",
+    "#Fé",
+    "#Deus",
+    "#Provisão"
+  ],
+  "fontes": [
+    "Filipenses 4:19 — Almeida Corrigida Fiel: \"O meu Deus, porém, segundo as suas riquezas, suprirá todas as vossas necessidades em glória, por Cristo Jesus.\" (conferido em bibliaonline.com.br/acf/fp/4)"
+  ]
+}
