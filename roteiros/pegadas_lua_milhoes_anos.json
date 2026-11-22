@@ -1,0 +1,65 @@
+{
+  "titulo": "A pegada que pode durar cem milhões de anos",
+  "gancho_tela": "Uma pegada que não se apaga",
+  "narracao": "Existe uma pegada humana que pode durar cem milhões de anos. Ela está na Lua. E quem vai apagá-la não é o tempo, é uma chuva invisível. Entre mil novecentos e sessenta e nove e mil novecentos e setenta e dois, doze astronautas caminharam por lá. Cada passo afundou a poeira fina do chão lunar e ficou marcado. Aqui na Terra, o vento e a chuva apagariam essas marcas em poucos dias. Mas a Lua quase não tem atmosfera. Não tem vento, não tem chuva, não tem rio. Nada para varrer o chão. Por isso, cientistas estimam que as pegadas podem durar de dez a cem milhões de anos. Só que existe um inimigo. A Lua é bombardeada sem parar por micrometeoritos, grãos minúsculos a mais de cinquenta mil quilômetros por hora. É uma lixa cósmica. Mas é lenta: as rochas de lá perdem cerca de um milímetro a cada milhão de anos. E a sonda LRO, da NASA, já fotografou as trilhas que os astronautas pisotearam. Já as bandeiras não tiveram tanta sorte. A primeira caiu com o jato do módulo na decolagem, e Buzz Aldrin viu. As outras provavelmente foram desbotadas pela luz do Sol. Se você pudesse deixar uma marca na Lua, o que escreveria? Siga para descobrir uma curiosidade nova todo dia.",
+  "cenas": [
+    {
+      "trecho": "Existe uma pegada humana que pode durar cem milhões de anos.",
+      "busca_imagem": "Apollo footprint",
+      "prompt_imagem": "a single astronaut bootprint pressed into fine grey lunar dust, harsh sunlight, black sky"
+    },
+    {
+      "trecho": "Ela está na Lua. E quem vai apagá-la não é o tempo, é uma chuva invisível.",
+      "busca_imagem": "Buzz Aldrin bootprint",
+      "prompt_imagem": "close-up of a boot print in lunar regolith with long shadows, cinematic"
+    },
+    {
+      "trecho": "Entre mil novecentos e sessenta e nove e mil novecentos e setenta e dois, doze astronautas caminharam por lá. Cada passo afundou a poeira fina do chão lunar e ficou marcado.",
+      "busca_imagem": "Apollo moonwalk astronaut",
+      "prompt_imagem": "astronaut in white spacesuit walking on the grey lunar surface leaving footprints, Earth in the black sky"
+    },
+    {
+      "trecho": "Aqui na Terra, o vento e a chuva apagariam essas marcas em poucos dias. Mas a Lua quase não tem atmosfera.",
+      "busca_imagem": "Moon limb Earth",
+      "prompt_imagem": "the airless Moon horizon against black space with Earth rising in the distance"
+    },
+    {
+      "trecho": "Não tem vento, não tem chuva, não tem rio. Nada para varrer o chão. Por isso, cientistas estimam que as pegadas podem durar de dez a cem milhões de anos.",
+      "busca_imagem": "lunar surface Apollo 17",
+      "prompt_imagem": "vast silent grey lunar plain with old footprints and rover tracks, no atmosphere, stark shadows"
+    },
+    {
+      "trecho": "Só que existe um inimigo. A Lua é bombardeada sem parar por micrometeoritos, grãos minúsculos a mais de cinquenta mil quilômetros por hora.",
+      "busca_imagem": "lunar impact flash",
+      "prompt_imagem": "tiny glowing micrometeorites streaking down onto the grey lunar surface, small dust bursts"
+    },
+    {
+      "trecho": "É uma lixa cósmica. Mas é lenta: as rochas de lá perdem cerca de um milímetro a cada milhão de anos.",
+      "busca_imagem": "Apollo lunar boulder",
+      "prompt_imagem": "a large grey boulder on the Moon's surface, sunlight grazing its weathered texture"
+    },
+    {
+      "trecho": "E a sonda LRO, da NASA, já fotografou as trilhas que os astronautas pisotearam. Já as bandeiras não tiveram tanta sorte.",
+      "busca_imagem": "LRO Apollo landing site",
+      "prompt_imagem": "orbital view of an Apollo landing site on the Moon showing dark astronaut trails around a lander"
+    },
+    {
+      "trecho": "A primeira caiu com o jato do módulo na decolagem, e Buzz Aldrin viu. As outras provavelmente foram desbotadas pela luz do Sol. Se você pudesse deixar uma marca na Lua, o que escreveria? Siga para descobrir uma curiosidade nova todo dia.",
+      "busca_imagem": "Apollo 11 lunar module liftoff",
+      "prompt_imagem": "a lunar module ascent stage lifting off from the Moon in a burst of dust, a flag nearby, black sky"
+    }
+  ],
+  "legenda": "As pegadas da Apollo na Lua podem durar de 10 a 100 milhões de anos — lá não tem vento nem chuva. 👣🌕\nO que você escreveria na Lua? Comenta aqui 👇",
+  "hashtags": [
+    "#Lua",
+    "#Apollo",
+    "#astronautas",
+    "#NASA"
+  ],
+  "fontes": [
+    "Space.com/NBC News — Footprints and flags on moon won't last forever (Mark Robinson, ASU/LRO: rastros podem durar de 10 a 100 milhões de anos; micrometeoritos a mais de 33.000 mph; rochas erodem ~0,04 polegada por milhão de anos; UV deve destruir o náilon das bandeiras; LRO vê o solo pisoteado)",
+    "ESA — Ten things you did not know about the Moon: Moonwalkers (12 pessoas andaram na Lua entre 1969 e 1972)",
+    "Royal Museums Greenwich — How many people have walked on the Moon? (bandeira da Apollo 11 derrubada pelo jato do módulo na decolagem; bandeiras desbotadas pelo UV)",
+    "NASA SP-350, Apollo Expeditions to the Moon, cap. 11.6 — relato de Aldrin: 'I looked up long enough to see the flag fall over'"
+  ]
+}
