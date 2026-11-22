@@ -1,0 +1,109 @@
+{
+  "canal": "antes_de_nos",
+  "titulo": "Por que esse egípcio jogava água na areia?",
+  "gancho_tela": "Por que esse egípcio jogava água na areia?",
+  "referencia": "Short: a pintura de Djehutihotep e a areia molhada (ponte para o doc ep.2 — pirâmides)",
+  "duracao_max": 60,
+  "volume_musica": 0.1,
+  "plataformas": [
+    "youtube"
+  ],
+  "fonte_imagem": "cloudflare",
+  "fundo_video": "pixabay",
+  "opcoes_imagem": 1,
+  "estilo_imagem": "photorealistic documentary photo, National Geographic style, natural light, ultra detailed, vertical 9:16, no text",
+  "prefixo_imagem": "documentary photo:",
+  "epoca_imagem": "Ancient Egypt, around 1900 BC; only stone, mudbrick, copper, wood, linen, papyrus and clay; nothing modern, no text, no watermark",
+  "cenas": [
+    {
+      "trecho": "Por que esse egípcio jogava água na areia?",
+      "prompt_imagem": "ancient Egyptian painted tomb wall in warm torchlight, colorful mural of a giant stone statue on a wooden sledge over sand, a painted clay jar spilling water in front of it",
+      "busca_video": "egypt hieroglyphs",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "Está pintada no túmulo do governador Djehutihotep, de uns 1.800 antes de Cristo.",
+      "prompt_imagem": "dark entrance of an ancient rock-cut tomb in a desert cliff above the Nile valley at dawn, golden light",
+      "busca_video": "egypt desert cliff",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Ela mostra uma estátua gigante num trenó de madeira, arrastada sobre a areia.",
+      "prompt_imagem": "huge seated limestone statue lying on a massive wooden sledge on golden desert sand, thick ropes stretched forward, ancient Egypt, low dramatic sun",
+      "busca_video": "desert sand dunes",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Na frente do trenó, um homem derrama água no chão. Outros trazem mais jarros.",
+      "prompt_imagem": "close-up of an ancient clay water jar tipped over, water pouring onto golden desert sand in front of a wooden sledge runner, backlit by the sun",
+      "busca_video": "water pouring sand",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Por muito tempo, alguns acharam que era só um ritual.",
+      "prompt_imagem": "ancient Egyptian temple columns covered in carved hieroglyphs, shafts of volumetric light and floating dust",
+      "busca_video": "egypt temple columns",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Em 2014, físicos testaram a ideia com um trenó em miniatura sobre areia do deserto.",
+      "prompt_imagem": "macro close-up of a small wooden sledge model resting on fine desert sand, grains in sharp focus, warm side light",
+      "busca_video": "sand macro",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Com a quantidade certa de água, a força para puxar o trenó caiu quase pela metade.",
+      "prompt_imagem": "wet dark sand next to dry golden sand in the desert, a sharp line between them, wooden sledge runner tracks crossing",
+      "busca_video": "wet sand",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "A areia úmida fica firme como chão batido e não se amontoa na frente do trenó.",
+      "prompt_imagem": "close-up of firm wet sand with a smooth flat track pressed by a wooden runner, water glistening in the sunlight",
+      "busca_video": "wet sand beach texture",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Mas com água demais, o atrito voltava a subir. O segredo era a medida certa.",
+      "prompt_imagem": "muddy waterlogged sand with puddles reflecting an orange sunset sky on the bank of the Nile, papyrus reeds",
+      "busca_video": "nile river sunset",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Esse truque pode ter ajudado a mover pedras enormes no Egito Antigo.",
+      "prompt_imagem": "the Great Pyramid of Giza at sunrise covered in smooth white limestone, vast desert, tiny figures far away in the distance, golden haze",
+      "busca_video": "pyramids giza",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "O documentário das pirâmides está no canal. E foi por isso que ele jogava água na areia.",
+      "prompt_imagem": "ancient clay water jar standing on golden desert sand at sunset, the pyramids small on the horizon",
+      "busca_video": "desert sunset",
+      "vazia": true,
+      "animar": false
+    }
+  ],
+  "legenda": "Numa pintura de quase 4 mil anos, no túmulo do governador Djehutihotep, um homem derrama água na areia bem na frente de um trenó que arrasta uma estátua gigante. Ritual? Em 2014, físicos testaram: com a umidade certa, a força para puxar o trenó cai quase pela metade. Como as pedras das pirâmides chegaram a Gizé está no documentário completo do canal.\n\nVocê já sabia desse truque? Comente 👇",
+  "hashtags": [
+    "#história",
+    "#curiosidades",
+    "#egitoantigo",
+    "#pirâmides",
+    "#documentário"
+  ],
+  "fontes": [
+    "Fall, A. et al., Physical Review Letters 112, 175502 (2014), 'Sliding friction on wet and dry sand' — Universidade de Amsterdã: https://iop.uva.nl/content/news/2014/00/prl-egyptian-pyramids.html",
+    "Physics World (2014) — atrito quase pela metade com ~5% de água; acima disso volta a subir; pintura de Djehutihotep (~1880–1800 a.C.): https://physicsworld.com/a/did-slippery-sand-help-egyptians-build-the-pyramids/",
+    "Archaeology Magazine (2014): https://archaeology.org/news/2014/05/02/140502-egypt-pyramid-sand/"
+  ]
+}
