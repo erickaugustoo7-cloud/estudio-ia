@@ -1,0 +1,64 @@
+{
+  "titulo": "Preso naquela noite, Jesus ainda curou um inimigo",
+  "gancho_tela": "Preso, Jesus ainda curou alguém",
+  "estilo": "pintura",
+  "narracao": "Na noite em que foi preso, Jesus ainda curou alguém. Um dos homens que tinham ido prendê-lo. Está em Lucas e em João. Mas por que ele fez isso? Era noite, num olival depois do vale do Cedrom. Judas chegou com soldados e guardas, trazendo tochas, lanternas e armas. Jesus foi ao encontro deles e disse: sou eu. E eles recuaram e caíram por terra. Então Simão Pedro puxou uma espada e feriu o servo do sumo sacerdote. Cortou a orelha direita. O nome do servo era Malco. Jesus disse: basta! Guarde a espada. E, tocando na orelha do homem, ele o curou. Lucas, capítulo vinte e dois. Pense nisso. Malco não pediu cura. Ele estava ali para levar Jesus preso. Logo depois, amarraram aquelas mãos. Mas, antes de serem amarradas, elas tocaram a ferida de um inimigo. Se Jesus cuidou da ferida de quem veio contra ele, imagine o que faz por você, que vem até ele hoje. Comece o dia entregando a ele a sua ferida. Salve este vídeo para ouvir de novo quando precisar, e siga para receber uma palavra de fé todos os dias.",
+  "cenas": [
+    {
+      "trecho": "Na noite em que foi preso, Jesus ainda curou alguém.",
+      "busca_imagem": "torches night olive grove",
+      "prompt_imagem": "many burning torches and lanterns moving through an ancient olive grove at night, gnarled olive trunks glowing orange, deep blue sky, a single beam of golden light breaking through the branches, strong contrast"
+    },
+    {
+      "trecho": "Um dos homens que tinham ido prendê-lo. Está em Lucas e em João. Mas por que ele fez isso?",
+      "busca_imagem": "ancient scroll oil lamp",
+      "prompt_imagem": "an ancient open scroll on a rough wooden table beside a small clay oil lamp, warm flame, dark stone wall behind, dramatic chiaroscuro"
+    },
+    {
+      "trecho": "Era noite, num olival depois do vale do Cedrom. Judas chegou com soldados e guardas, trazendo tochas, lanternas e armas.",
+      "busca_imagem": "olive trees night valley",
+      "prompt_imagem": "a dark valley with ancient olive trees at night, a long line of tiny distant torch flames winding down a stone path, Jerusalem walls faintly lit on the hill above"
+    },
+    {
+      "trecho": "Jesus foi ao encontro deles e disse: sou eu. E eles recuaram e caíram por terra.",
+      "busca_imagem": "torches fallen ground night",
+      "prompt_imagem": "torches and lanterns lying fallen on the dusty ground of an olive grove at night, flames still burning, scattered spears, soft golden light coming from among the trees"
+    },
+    {
+      "trecho": "Então Simão Pedro puxou uma espada e feriu o servo do sumo sacerdote. Cortou a orelha direita. O nome do servo era Malco.",
+      "busca_imagem": "ancient sword torchlight",
+      "prompt_imagem": "close-up of a short ancient iron sword drawn from a leather sheath, a hand gripping the hilt, orange torchlight reflecting on the blade, olive leaves in the dark background"
+    },
+    {
+      "trecho": "Jesus disse: basta! Guarde a espada. E, tocando na orelha do homem, ele o curou. Lucas, capítulo vinte e dois.",
+      "busca_imagem": "hand light touch healing",
+      "prompt_imagem": "close-up of a gentle open hand reaching out in soft golden light against a dark night background, warm glow around the fingers, olive branches softly blurred"
+    },
+    {
+      "trecho": "Pense nisso. Malco não pediu cura. Ele estava ali para levar Jesus preso. Logo depois, amarraram aquelas mãos.",
+      "busca_imagem": "rope wrists ancient",
+      "prompt_imagem": "close-up of rough ancient rope coiled on a stone floor lit by a single torch, long shadows, a fallen iron sword nearby"
+    },
+    {
+      "trecho": "Mas, antes de serem amarradas, elas tocaram a ferida de um inimigo.",
+      "busca_imagem": "dawn olive grove light",
+      "prompt_imagem": "first light of dawn breaking over an ancient olive grove, golden rays through twisted branches, a burned-out torch on the ground, mist in the valley"
+    },
+    {
+      "trecho": "Se Jesus cuidou da ferida de quem veio contra ele, imagine o que faz por você, que vem até ele hoje. Comece o dia entregando a ele a sua ferida. Salve este vídeo para ouvir de novo quando precisar, e siga para receber uma palavra de fé todos os dias.",
+      "busca_imagem": "sunrise hills golden",
+      "prompt_imagem": "sunrise over the hills around ancient Jerusalem, warm golden sky, a stone path leading toward the light, olive trees in the foreground, peaceful and hopeful"
+    }
+  ],
+  "legenda": "Senhor, toca também a minha ferida 🙏\nLucas 22:47-51 · João 18:1-12\nComente \"Amém\" e salve para ouvir de novo quando precisar.",
+  "hashtags": [
+    "#Malco",
+    "#Getsêmani",
+    "#perdão",
+    "#amordeJesus"
+  ],
+  "fontes": [
+    "Lucas 22:47-51 (Judas chega com a multidão; 'Senhor, atacaremos com espadas?'; um deles fere o servo do sumo sacerdote e corta a orelha direita; Jesus: 'Basta!'; tocando na orelha do homem, o curou)",
+    "João 18:1-12 (olival além do vale do Cedrom; Judas com destacamento de soldados e guardas, tochas, lanternas e armas; Jesus sai ao encontro: 'Sou eu'; eles recuam e caem por terra; Simão Pedro fere o servo do sumo sacerdote, orelha direita, o servo se chamava Malco; 'Guarde a espada!'; prendem e amarram Jesus)"
+  ]
+}
