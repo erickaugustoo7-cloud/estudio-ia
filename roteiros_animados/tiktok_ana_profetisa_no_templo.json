@@ -1,0 +1,68 @@
+{
+  "titulo": "A viúva que não saía do templo viu Jesus bebê",
+  "gancho_tela": "Ela não saía do templo",
+  "referencia": "Lucas 2:36-38",
+  "serie": "O que quase ninguém sabe",
+  "tipo": "tiktok",
+  "fonte_imagem": "kaggle",
+  "opcoes_imagem": 2,
+  "duracao_max": 40,
+  "volume_musica": 0.12,
+  "plataformas": [
+    "facebook"
+  ],
+  "estilo_imagem": "cinematic photorealistic epic film still, dramatic volumetric light, ancient Jerusalem temple 1st century, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic slow subtle motion.",
+  "epoca_imagem": "Ancient Jerusalem temple, 1st century, stone colonnades, clay oil lamps, linen only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "Uma viúva de quase oitenta e quatro anos não saía do templo.",
+      "prompt_imagem": "a single clay oil lamp burning at night on the stone floor of an ancient temple colonnade, deep shadows, warm flame glow",
+      "vazia": true,
+      "animar": true,
+      "prompt_movimento": "the small flame flickers gently, smoke curling slowly upward in the dark"
+    },
+    {
+      "trecho": "Ana orava e jejuava ali, de noite e de dia.",
+      "prompt_imagem": "ancient temple stone courtyard at dawn after a long night, a burnt-out clay oil lamp on a stone step, soft blue light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Um dia, trouxeram um bebê ao templo. Era Jesus.",
+      "prompt_imagem": "two turtledoves in a small woven basket beside a folded linen cloth on ancient temple stone steps, golden morning light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Na mesma hora, ela deu graças a Deus e falou dele a todos.",
+      "prompt_imagem": "wide ancient Jerusalem temple courtyard bathed in golden god rays, tiny distant figures far away in the distance",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "Anos de oração no templo, e ela viu a resposta.",
+      "prompt_imagem": "sunlight pouring through a tall stone temple gateway onto worn stone floor, dust glowing in the light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Siga o Mensageiro de Fé para mais do que quase ninguém sabe.",
+      "prompt_imagem": "ancient temple stone colonnade at sunrise, warm god rays, a clay oil lamp still glowing",
+      "vazia": true,
+      "animar": false
+    }
+  ],
+  "legenda": "Ana, a profetisa, era viúva, de quase oitenta e quatro anos, e não se afastava do templo, servindo a Deus em jejuns e orações, de noite e de dia (Lucas 2:37). Você também está esperando uma resposta de Deus? Comente 👇",
+  "hashtags": [
+    "#Jesus",
+    "#Bíblia",
+    "#Fé",
+    "#OQueQuaseNinguémSabe",
+    "#Cristão"
+  ],
+  "fontes": [
+    "Lucas 2:36-38 — Almeida Revista e Corrigida (domínio público), conferido em bibliaon.com/versiculo/lucas_2_36-38/"
+  ]
+}
