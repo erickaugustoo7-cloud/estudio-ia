@@ -1,98 +1,110 @@
-# Radar — 15/11/2026
+# Radar — 22/11/2026
 
-Fonte principal: YouTube Shorts mais vistos dos últimos 7 dias (API oficial, região BR) — 196 vídeos no
-nicho de fé e 188 em curiosidades/espaço. Analisados só os em português do Brasil e dentro do nicho
-(~60 e ~30); vídeos estrangeiros citados apenas como referência de formato.
+Fonte principal: YouTube Shorts mais vistos dos últimos 7 dias (API oficial, região BR) — 199 vídeos no
+nicho de fé e 184 em curiosidades/espaço. Analisados só os em português e dentro do nicho (~56 e ~30);
+vídeos estrangeiros citados apenas como referência de formato.
 É um espelho do que viraliza no TikTok no mesmo nicho — não são dados do TikTok.
-Complemento: notícias da semana (céu de novembro, Voyager 1, Starship, Advento). Sem novos prints em `dados/metricas/`.
+Complemento: notícias da semana (Voyager 1 a 1 dia-luz, Starship voo 15, Webb em Andrômeda, céu de dezembro, Advento 29/11)
+e `dados/metricas/` (fotografias diárias do canal no YouTube; sem prints novos do Eric).
+
+**Canal (YouTube, 22/11):** 92 inscritos (eram 62 na linha de base de 16/11), 13,4 mil views totais.
+Shorts mais vistos do próprio canal: "O diabo citou o Salmo 91 para Jesus" (1.383), "Eles veem você orar" (1.202),
+"O pão dos pobres nas mãos de Jesus" (1.201) — confirma Salmo 91 + Jesus como personagem.
 
 ---
 
 ## Mensageiro de Fé
 
 ### Em alta
-1. **Curiosidade bíblica / "como era no tempo de Jesus" virou o topo em português** (subiu desde 08/11).
-   - "Por que o judeu não come porco, e o cristão come?" — 436 mil, 1,1 mil coment., 180 s (DesmontandoABíblia) — https://www.youtube.com/shorts/7mfeXC_3uRY
-   - "Como era o vinho na época de Jesus?" — 391 mil, 178 s — https://www.youtube.com/shorts/jcGXKEVh6bk ; "Por que se lavava os pés na Bíblia?" — 93 mil
-   - "Quem foi a mulher que decidiu descobrir se sua sabedoria superava a do rei Salomão?" — 246 mil, 81 s — https://www.youtube.com/shorts/Mr6oqefQLFY
-2. **Frase-recado curtíssima (7–17 s), tom de "conselho de homem"** — novo perfil no topo.
-   - "Só com jejum e oração" — 809 mil, **7 s** — https://www.youtube.com/shorts/9pSR_Gcl35c
-   - "Aprendeu recado?" — 721 mil, 8 s; "Não se engane" — 661 mil, 10 s; "Confiança é tudo" — 348 mil, 17 s (Danilo Rodrigues) — https://www.youtube.com/shorts/zFzFVxJXQjA
-3. **Salmo 91 continua (estável, não cresceu)** + Salmo 27 contra o medo.
-   - "Salmo 91 — Deus Está Lutando Por Você" — 275 mil, 3,4 mil coment. — https://www.youtube.com/shorts/q9MTvPsHObE (mesmo canal com mais 3 vídeos de 50–100 mil)
-   - "Salmo 27: oração poderosa para vencer o MEDO" — 168 mil, 1,4 mil coment. — https://www.youtube.com/shorts/sqeodsHq_VU
-4. **"Jesus no meio de nós hoje"** — reconhecer Jesus no outro.
-   - "E se Jesus aparecesse hoje? Você ia reconhecer?" — 88 mil, **1,7 mil coment.** — https://www.youtube.com/shorts/NB5V9YuvEJA
-   - Em inglês é o maior formato da semana: "Jesus Disguised as a Poor Man Rewarded a Kind Driver" — 5,1 mi (164 s) — https://www.youtube.com/shorts/4ZbaiBSfLrA . São parábolas inventadas com prêmio em dinheiro/carro — **não copiar**; adaptar pelo texto real de Mateus 25:35-40.
-5. **Cenas de série/filme de Jesus** — "JESUS É ÚNICO, VEJA O FINAL! #thechosen" — 189 mil, 178 s — https://www.youtube.com/shorts/S8MGmARrw0Y (confirma que Jesus como personagem em cena funciona; não usar trechos de série).
-6. **Mensagem/oração "para você"** segue com muitos comentários, mas perdeu views: "Mensagem de fé." — 312 mil, **11,3 mil coment.** — https://www.youtube.com/shorts/xVSZL1gZlcs
+1. **Recado/oração curtíssima (7–17 s) segue no topo** — 10 dos 30 mais vistos em português têm ≤ 20 s.
+   - "Ninguém sabe quanto tempo ele ainda tem… uma oração por ele" — 606 mil, 7 s — https://www.youtube.com/shorts/nZyQsbaoIn0 (pedido de oração por alguém doente; não usar caso real sem fonte)
+   - "Uma boa conversa" — 585 mil, 1,9 mil coment., 11 s — https://www.youtube.com/shorts/grj_wGIS8jo ; "VOCÊ AMA JESUS?" — 366 mil, 8 s
+   - "Salmo 121" — 152 mil, 9 s — https://www.youtube.com/shorts/yg5XZYi9u8Y
+2. **Salmo 91 voltou a subir** (estava estável em 15/11).
+   - "Salmos 91 pra sua vida" — 356 mil, **5,8 mil coment.**, 105 s (Pastor Jean do Fogo) — https://www.youtube.com/shorts/CnLVrwYfLRA ; mesmo pastor, "Salmos 91 pra vc" — 123 mil
+   - "Salmo que te deixa invisível para o mal" — 117 mil, 1,9 mil coment. — https://www.youtube.com/shorts/VxpJxILR2gg (promessa exagerada — não copiar o título)
+3. **"Religioso por fora, longe por dentro" — o irmão mais velho do filho pródigo** (novo).
+   - "Você pode estar longe de Deus na IGREJA" — 438 mil, 104 s — https://www.youtube.com/shorts/kfh_RRatFKU ("você nunca bebeu, nunca sumiu… e fecha a cara quando alguém volta") — tom direto, ótimo para homens.
+   - "Você está carregando peso demais para entrar no céu?" — 79 mil, 180 s
+4. **Curiosidade bíblica continua, mas mais baixa (~150–280 mil)**:
+   - "Países da Bíblia e como eles se chamam HOJE" — 283 mil, 46 s — https://www.youtube.com/shorts/PetT3BPbgQk
+   - "E se Judas se arrependesse?" (Hernandes Dias Lopes) — 277 mil, 167 s — https://www.youtube.com/shorts/ydsxgZ4Mtj4
+   - "Jesus só queria água? | A Mulher Samaritana" — 161 mil, 152 s — https://www.youtube.com/shorts/dkLneJf8jQE (já temos `samaritana`)
+5. **Oração prática para a casa e para os filhos**:
+   - "3 Lugares da Casa Onde Você Deve Orar" (porta, quarto, cozinha) — 443 mil, 2 mil coment., 139 s — https://www.youtube.com/shorts/ljkZ2byBKQg
+   - "Você tem tempo de orar para seus filhos?" — 216 mil, 2,1 mil coment., 57 s — https://www.youtube.com/shorts/Gs05Qk95AvI (voltado a mães; adaptar para o pai)
+6. **História narrada de bondade ("novela" curta)** — "O Quintal da Solidão – Um Gesto de Bondade Mudou Duas Vidas" — **2,4 mi**, 11,6 mil coment., 137 s — https://www.youtube.com/shorts/H8U5twKL4Zg . Em inglês, "The Judgment of Jesus" (kindness) 6 mi. Confirma a força da nossa novela; manter ficção claramente como ficção.
 
 ### Ganchos que estão funcionando (adaptados ao canal)
-- "Por que Jesus podia comer isso — e os judeus não? A resposta está numa frase dele."
-- "Essa espécie só sai com jejum e oração. Jesus disse isso a homens que tinham falhado." (curto 8–12 s)
-- "Eles andaram 11 km ao lado de Jesus e não perceberam. Você perceberia?"
-- "Você pode ter ajudado Jesus esta semana sem saber."
-- "Homem, não se engane:" + versículo (formato recado, 10 s)
+- "Você nunca saiu da igreja. E mesmo assim pode estar do lado de fora da festa." (irmão mais velho)
+- "Jesus parou para olhar quem dava dinheiro no templo. E elogiou quem deu menos."
+- "Homem, quando foi a última vez que você pôs a mão na cabeça do seu filho e orou?" (curto 8–12 s)
+- "Pedro e Judas falharam na mesma noite. Só um voltou." 
+- "Onde fica hoje a cidade onde Jesus cresceu?" (pergunta + mapa)
 
 ### Duração e formato
-- Mediana dos 30 mais vistos em português **subiu para ~98 s** (era ~70 s em 08/11): 19 de 30 têm ≥ 60 s, puxados pela curiosidade bíblica de ~3 min.
-- Os curtos (≤ 20 s) seguem fortes (8 no top 30), agora no estilo **recado seco de 7–17 s** em vez de "Amém?".
-- Recomendação: longos em **80–100 s** (curiosidade bíblica com Jesus no centro) + curtos de **8–15 s** (frase de Jesus + recado direto para o homem).
+- Mediana dos 30 mais vistos em português: **~82 s** (era ~98 s em 15/11); 17 de 30 têm ≥ 60 s, 10 têm ≤ 20 s.
+- Recomendação: longos de **80–110 s** (história de Jesus contada com um "recado" para o homem no fim) + curtos de **8–12 s**
+  (frase de Jesus ou versículo + pergunta direta). Formatos com mais comentários: Salmo 91 falado por pastor e pedidos de oração.
 
 ### Evitar
-- Parábolas inventadas de "Jesus disfarçado que dá carro/ouro" (prosperidade, ficção apresentada como real).
-- "Palavra profética [data]" (série forte, ~80–120 mil cada, mas profecia — divide denominações), "Clique no link do perfil".
-- Ruído: "POWER OF JESUS" e "jesus #oraçãoforte #gaming" com hashtags em massa (Índia) — dominam o topo bruto, não é nicho.
-- Conteúdo mariano/denominacional (Nossa Senhora Aparecida 934 mil) — fora da linha do canal.
+- **Profecia política** ("FORTE PROFECIA… era Lula chegando ao fim" — 262 mil) e "Palavra profética [data]" (série estável ~75–105 mil): divide o público, fora da linha.
+- Promessas mágicas ("salmo que te deixa invisível"), "círculo de oração" com bandeiras, pedidos de oração com caso real sem fonte.
+- Mariano/denominacional (Terço Mariano 388 mil; Nossa Senhora Aparecida 173 mil) e comunicados de pregadores (Miguel Oliveira).
+- Ruído: "POWER OF JESUS" com hashtags em massa (Índia, 3–14 mi) — domina o topo bruto, não é nicho.
 
-### O que perdeu força desde 08/11
-- Oração guiada "há uma oração esperando por você" saiu dos milhões (topo em português agora ~300 mil).
-- "Mulher, Deus…" caiu (125 mil). Onda do Salmo 91 parou de crescer.
-- "Moment Jesus saved them" (edições cinematográficas) saiu do topo.
+### O que perdeu força desde 15/11
+- "Como era no tempo de Jesus" (porco, vinho) saiu do topo; curiosidade bíblica caiu de ~400 mil para ~150–280 mil.
+- "E se Jesus aparecesse hoje?" e cenas de The Chosen não reapareceram.
+- "Mensagem de fé" genérica perdeu espaço para o recado de 7–11 s.
 
 ### 5 pautas sugeridas (adicionadas à fila)
-1. Emaús: dois homens andaram 11 km ao lado de Jesus e não o reconheceram — até ele partir o pão (Lucas 24:13-32)
-2. "Eu estava com fome e vocês me deram de comer": você pode ter ajudado Jesus esta semana sem saber (Mateus 25:35-40)
-3. Por que os judeus não comiam porco — e o dia em que Jesus declarou todos os alimentos puros (Marcos 7:14-19) — curiosidade bíblica
-4. A rainha que atravessou o deserto para testar Salomão — e Jesus disse: "aqui está quem é maior que Salomão" (Mateus 12:42; 1 Reis 10)
-5. "Vigiem, porque vocês não sabem quando o dono da casa vem" — o recado de Jesus para o começo do Advento, 29/11 (Marcos 13:33-37)
+1. O irmão mais velho nunca saiu de casa — e ficou do lado de fora da festa: o recado de Jesus para quem está na igreja e longe do Pai (Lucas 15:25-32)
+2. A viúva das duas moedinhas: Jesus se sentou para olhar quem dava no templo — e disse que ela deu mais que todos (Marcos 12:41-44)
+3. Pedro e Judas falharam na mesma noite — Jesus olhou para Pedro, e só um voltou (Lucas 22:61-62; Mateus 27:3-5) — sem especular sobre a salvação de Judas
+4. Onde ficam hoje os lugares por onde Jesus andou: Nazaré, Cafarnaum, Decápolis, Tiro e Sidom — curiosidade com mapa (conferir nomes atuais)
+5. Curto 8–12 s: "Deixem vir a mim as crianças" — Jesus pôs as mãos sobre elas e as abençoou. Pai, você já fez isso hoje? (Marcos 10:13-16)
 
 ---
 
 ## Curioso
 
 ### Em alta
-1. **Céu de novembro / agenda do mês** — "Eventos astronômicos mês de novembro" — 586 mil, 63 s — https://www.youtube.com/shorts/QLZoTo1Cjc8 ; em inglês "4-Planet Alignment on November 14" 819 mil e "Right Now the Moon Is Under One Percent Lit" 1,18 mi.
-   Datas (imprensa, conferir): **Leônidas pico 17–18/11** (Lua crescente, ver após ela se pôr); **Voyager 1 a 1 dia-luz em 18/11** (já temos roteiro — publicar nesta semana); superlua no fim do mês; alinhamento de Mercúrio, Vênus, Marte e Júpiter antes do amanhecer (~20/11).
-2. **"Você sabia" de física do dia a dia** — "Segundo a física quântica, nunca tocamos verdadeiramente em nada" — 338 mil, 45 s — https://www.youtube.com/shorts/TDMokPcPHSk ; "Seus dedos nunca se tocam" 94 mil; "Todas as moscas do mundo estão distorcendo o espaço-tempo" 132 mil.
-3. **Brasil + espaço** — "Há 6 milhões de anos, uma pedra do espaço caiu no Brasil" (vidro espalhado por MG, BA e PI; cratera não encontrada; estudo da Unicamp) — 168 mil, 176 s — https://www.youtube.com/shorts/cEFYywM2dkg
-4. **Comparações de escala entre planetas** (forte em inglês, quase nada em português): "All 7 Planets Fit Between Earth and the Moon" 529 mil — https://www.youtube.com/shorts/tkrj0q6SixM ; "Which planets fit between Saturn and its rings?" 526 mil; "Only ONE planet can light a birthday candle" 176 mil (11 s); "Balão de hélio em cada planeta" 237 mil (7 s).
-5. **Buracos negros seguem** — "A complexidade dos buracos negros é absurda" (corte Sergio Sacani) — 327 mil — https://www.youtube.com/shorts/Brdn1DIk1HI ; "O Monstro Acordou: Buraco Negro Desperta" 203 mil.
-6. **Notícia da semana:** Starship Flight 15 (13/11) — SpaceX lançou, mas desistiu de pegar o propulsor com os "braços" da torre; captura da nave prevista para 14/11 (resultado não confirmado). Também: Euclid (ESA) liberou mapa com mais de 1 bilhão de objetos (12/11).
+1. **Voyager 1 a 1 dia-luz (18/11) foi o maior assunto de espaço do mundo — e quase não houve vídeo em português no topo.**
+   - "Your Flashlight vs. Voyager 1" — **13,4 mi**, 66 s — https://www.youtube.com/shorts/CWiJcimMA4Q (NASA convidou o público a "piscar" três letras para o céu em 17/11)
+   - "Un día histórico para la humanidad, la NASA y la Voyager 1" — 2,2 mi (es) ; "Voyager 1 Is Now So Far, You'd See Earth as It Was 24 Hours Ago" — 1,3 mi (hi)
+   - **Já temos `voyager1_dia_luz`: publicar já / repostar com gancho "lanterna"** — o espaço em português está vazio.
+2. **Sons do espaço** — "Os Sons dos Planetas" — **1,6 mi**, 74 s (react) — https://www.youtube.com/shorts/Sdw25cRJTas
+3. **Buraco negro em formato meme** — "Este GATO tentou esconder um buraco NEGRO" — 1,5 mi, 16 s — https://www.youtube.com/shorts/hiBlLsh2v1o ; em inglês "Can You Survive A Black Hole Sun?" 1,5 mi. Mostra apetite pelo tema; o canal deve usar a pergunta, não o meme.
+4. **Céu visto de outro planeta / escala** — "O ESPETÁCULO de estrelas no céu de Marte" — 109 mil, **10 s** — https://www.youtube.com/shorts/AAMniBIr2KM ; "O Jeito Mais Aleatório de Nomear Planetas" — 251 mil, 12 s; "Who Can Build The Better Planet With $20?!" 1,6 mi (en).
+5. **Brasil + espaço** — "Por que satélites se desligam em cima do Brasil?" (Anomalia Magnética do Atlântico Sul) — 52 mil, 68 s — https://www.youtube.com/shorts/9q7oxJj0Wb0 ; "Existe um buraco no céu do Brasil" — 51 mil. Tema pequeno, mas aparece em dois canais na mesma semana.
+6. **Notícias da semana:** Starship voo 15 — pela primeira vez a torre **pegou a nave vinda da órbita**; o propulsor desistiu da captura e foi perdido no Golfo (já temos `starship_voo15_torre`: conferir se o roteiro tem o resultado). Webb confirmou uma estrela ~350× mais larga que o Sol que engoliu a companheira em Andrômeda (19/11). NASA: pistas de gelo antigo além de Netuno (18/11).
+   Próximas datas: **Geminídeas, pico 13–14/12** (conferir fase da Lua); início do Advento 29/11.
 
 ### Ganchos que estão funcionando
-- "Há 6 milhões de anos uma pedra do espaço caiu no Brasil. Até hoje ninguém achou o buraco."
-- "Você nunca tocou em nada. Nem neste celular."
-- "Todos os planetas do Sistema Solar cabem entre a Terra e a Lua. Sobra espaço."
-- "Na quarta-feira, dia 18, a Voyager 1 vai estar tão longe que a luz leva um dia inteiro para chegar."
-- "Em qual planeta dá para acender uma vela? Só em um."
+- "Se você apontar uma lanterna para a Voyager 1 agora, a luz só chega amanhã."
+- "Os planetas fazem som? A NASA gravou — mas não do jeito que você pensa."
+- "Existe um ponto em cima do Brasil onde os satélites desligam."
+- "Uma estrela 350 vezes maior que o Sol engoliu a irmã. O Webb viu o que sobrou."
+- "Como é o céu à noite em Marte?" (10 s, só imagem + uma frase)
 
 ### Duração e formato
-- Mediana dos 30 mais vistos em português: **~72 s** (estável). Virais em inglês seguem em loops de 7–20 s.
-- Manter **65–80 s**; testar 1 curto de **10–15 s** em formato "pergunta + resposta visual" (vela/balão em cada planeta).
+- Mediana dos 30 mais vistos em português: **~75 s** (era ~72 s); 20 de 30 têm ≥ 60 s.
+- Manter **65–80 s**; testar 1 curto de **10–15 s** em loop visual (céu de Marte, Terra vista de longe).
 
 ### Evitar
-- VFX alarmista "planeta da morte se aproximando" (1,2 mi, falso), "NASA está mentindo?" / negação da ida à Lua.
-- "Como funciona" de política/finanças (Petrolão, Mensalão), memes, anime, Fortnite, Simpsons.
-- Fora do nicho espacial: animais chifrudos (1,46 mi), estufa de plantas (1,3 mi) — fortes, mas não são do canal.
+- "Como funciona" fora do nicho (curral, aeroporto, banheiro na Tailândia, Sharingan, INSS, prisão) — domina a busca em português, mas não é espaço.
+- "Nem a NASA responde 😳", "Nunca iremos para Marte" em tom de desânimo/mistério vazio, "Did NASA lose the technology to go to the moon?" (negação).
+- Espiritismo/mediunidade com tag #universo (146 mil) e Roblox/memes — fora do canal.
 
-### O que perdeu força desde 08/11
-- Swift caindo na Terra e X-59 saíram do topo (notícia já passou; roteiros feitos).
-- Rankings "qual planeta tem mais luas" deram lugar a comparações de tamanho/escala.
+### O que perdeu força desde 15/11
+- "Céu de novembro" (agenda do mês) saiu do topo — volta no começo de dezembro (Geminídeas).
+- Física do dia a dia ("nunca tocamos em nada") e comparações de tamanho entre planetas caíram em português.
+- Pedra do espaço no Brasil saiu; no lugar, "Brasil + espaço" via Anomalia do Atlântico Sul.
 
 ### 5 pautas sugeridas (adicionadas à fila)
-1. Há 6 milhões de anos uma pedra do espaço caiu no Brasil — o vidro está em MG, BA e PI, mas ninguém achou a cratera (conferir o estudo da Unicamp e o nome do vidro)
-2. Você nunca tocou em nada de verdade: o que acontece entre os átomos da sua mão e do celular (conferir a explicação de repulsão eletromagnética)
-3. Todos os planetas cabem entre a Terra e a Lua — e ainda sobra espaço (conferir distância média e soma dos diâmetros)
-4. Se o universo tem trilhões de estrelas, por que a noite é escura? (paradoxo de Olbers)
-5. A SpaceX tentou pegar um foguete de 70 metros no ar com "pauzinhos" — o que aconteceu no voo 15 da Starship (conferir o resultado da captura)
+1. Os planetas fazem barulho? Os "sons" que as sondas da NASA gravaram são ondas de plasma transformadas em áudio (conferir quais missões: Voyager, Cassini, Juno)
+2. Existe um ponto em cima do Brasil onde os satélites "pifam": a Anomalia Magnética do Atlântico Sul (conferir dados da NASA/ESA e por que ela cresce)
+3. Uma estrela 350 vezes mais larga que o Sol engoliu a companheira em Andrômeda — o Webb viu o que sobrou (conferir notícia de 19/11)
+4. Geminídeas 13–14/12: a única grande chuva de meteoros que vem de um asteroide, o 3200 Faetonte (conferir horário e fase da Lua no Brasil)
+5. Curto 10–15 s: como é o céu à noite em Marte — a Terra vira uma "estrela" azulada no horizonte (conferir brilho/visibilidade)

@@ -1,18 +1,19 @@
-📡 RADAR — 15/11
+📡 RADAR — 22/11
 Base: Shorts mais vistos da semana no YouTube BR, em português + notícias.
 
 🕊️ MENSAGEIRO DE FÉ
-1. Curiosidade bíblica no topo ("por que judeu não come porco" 436 mil; vinho no tempo de Jesus 391 mil).
-2. NOVO: recado seco de 7–17 s ("Só com jejum e oração" 809 mil).
-3. Salmo 91 estável; "E se Jesus aparecesse hoje?" 1,7 mil coment.
-Longos agora ~98 s.
-Pautas: Emaús (Lc 24), "eu tinha fome" (Mt 25), alimentos puros (Mc 7), rainha de Sabá (Mt 12:42), Advento 29/11 (Mc 13:33-37).
+1. Recado/oração de 7–11 s segue no topo ("Uma boa conversa" 585 mil).
+2. Salmo 91 voltou a subir (356 mil, 5,8 mil coment.).
+3. NOVO: "longe de Deus na igreja" / irmão mais velho do pródigo (438 mil).
+Longos agora ~82 s.
+Pautas: irmão mais velho (Lc 15), viúva das 2 moedas (Mc 12), Pedro x Judas, lugares de Jesus hoje, curto "deixem vir as crianças" (Mc 10).
 
 🪐 CURIOSO
-1. Céu de novembro (586 mil): Leônidas 17–18/11, Voyager 1 a 1 dia-luz em 18/11 (roteiro pronto: publicar!).
-2. Física do dia a dia: "nunca tocamos em nada" (338 mil).
-3. Pedra do espaço que caiu no Brasil (168 mil); comparações de tamanho entre planetas.
-Pautas: pedra do espaço no Brasil, nunca tocamos em nada, planetas entre Terra e Lua, noite escura (Olbers), Starship voo 15.
+1. Voyager 1 a 1 dia-luz: 13 mi em inglês, quase nada em português — publicar/repostar nosso roteiro já!
+2. "Sons dos planetas" 1,6 mi.
+3. Céu de Marte em 10 s; satélites que desligam em cima do Brasil.
+Pautas: sons dos planetas, Anomalia do Atlântico Sul, estrela que engoliu a irmã (Webb), Geminídeas 13–14/12, curto céu de Marte.
 
-Evitar: "Jesus disfarçado dá carro", profecias com data, VFX "planeta da morte", negação da Lua.
+Canal: 92 inscritos (62 em 16/11).
+Evitar: profecia política, "salmo que deixa invisível", "como funciona" fora do nicho.
 Relatório: docs/radar/RADAR.md
