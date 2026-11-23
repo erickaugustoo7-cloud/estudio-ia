@@ -1,0 +1,91 @@
+{
+  "titulo": "Da prisão, João Batista perguntou: és tu mesmo o Cristo?",
+  "gancho_tela": "A pergunta de João na prisão",
+  "referencia": "Mateus 11:3",
+  "duracao_max": 90,
+  "volume_musica": 0.14,
+  "estilo_imagem": "cinematic photorealistic epic film still, dramatic volumetric god rays, floating dust particles, deep chiaroscuro, first century Judea and Perea, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic epic film shot, slow and subtle motion.",
+  "epoca_imagem": "First century Judea and Perea, Herodian stone fortress by the Dead Sea, stone, clay, iron, wood and cloth only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "Uma fortaleza de pedra no deserto. Lá dentro, preso, estava João Batista.",
+      "prompt_imagem": "wide aerial view of an ancient Herodian stone fortress on a steep desert mountain top at dusk, the Dead Sea shining far below, golden haze",
+      "prompt_movimento": "slow aerial camera glide toward the fortress, haze drifts, the sea glimmers",
+      "vazia": true
+    },
+    {
+      "trecho": "Ele tinha condenado o rei Herodes por tomar a mulher do próprio irmão.",
+      "prompt_imagem": "a grand Herodian palace hall at night, stone columns, a carved throne on a raised platform, oil lamps and red curtains, deep shadows",
+      "prompt_movimento": "lamp flames flicker, red curtains move gently, slow camera push-in toward the throne",
+      "vazia": true
+    },
+    {
+      "trecho": "Segundo o historiador Josefo, era Maqueronte, junto ao mar Morto.",
+      "prompt_imagem": "high-angle view of the stone walls and towers of an ancient desert fortress, the vast Dead Sea and the mountains of Judea beyond, late afternoon light",
+      "prompt_movimento": "slow camera descent along the fortress walls, dust drifts in the warm light",
+      "vazia": true
+    },
+    {
+      "trecho": "Na escuridão da cela, João ouviu falar do que Jesus estava fazendo.",
+      "prompt_imagem": "a dark ancient stone prison cell, iron chains on the rough wall, a clay water jar on the floor, one thin beam of light from a small high window",
+      "prompt_movimento": "dust floats slowly in the beam of light, the light shifts gently, slow camera push-in",
+      "vazia": true
+    },
+    {
+      "trecho": "Então mandou seus discípulos perguntarem: És tu aquele que haveria de vir, ou esperamos outro?",
+      "prompt_imagem": "wide high view of a dusty road winding down from a desert fortress toward green hills of Galilee, two tiny distant travelers on the road, morning light",
+      "prompt_movimento": "slow camera glide following the winding road, dust rises softly, morning light grows",
+      "vazia": false
+    },
+    {
+      "trecho": "Jesus respondeu: Contem a João o que vocês estão ouvindo e vendo.",
+      "prompt_imagem": "high aerial view of the shore of the Sea of Galilee, first century stone houses and olive trees, a few tiny figures far away in the distance by the water, soft volumetric light",
+      "prompt_movimento": "slow aerial camera descent, gentle waves on the shore, olive leaves move in the breeze",
+      "vazia": false
+    },
+    {
+      "trecho": "Os cegos veem, os aleijados andam, os leprosos são purificados, os mortos ressuscitam.",
+      "prompt_imagem": "a wooden walking staff and a discarded straw mat lying on a sunlit dirt road in first century Galilee, olive trees, rays of golden light",
+      "prompt_movimento": "golden light rays shimmer, dust drifts slowly, olive leaves sway, slow camera push-in",
+      "vazia": true
+    },
+    {
+      "trecho": "E as boas-novas são pregadas aos pobres. Feliz quem não se escandaliza por minha causa.",
+      "prompt_imagem": "simple loaves of bread on a rough wooden table outside a humble first century stone house, oil lamp, warm evening light over the hills",
+      "prompt_movimento": "the lamp flame flickers, warm light glows softly, slow camera push-in",
+      "vazia": true
+    },
+    {
+      "trecho": "E disse à multidão: entre os nascidos de mulher, ninguém foi maior que João Batista.",
+      "prompt_imagem": "wide view of the Jordan River winding through the desert wilderness, tall reeds bending in the wind on the riverbank, sunbeams through clouds",
+      "prompt_movimento": "the reeds sway in the wind, the river flows gently, sunbeams move across the valley",
+      "vazia": true
+    },
+    {
+      "trecho": "Jesus não repreendeu a dúvida de João: mostrou as provas e o honrou. Mateus, capítulo onze.",
+      "prompt_imagem": "inside a dark stone prison cell, a bright beam of heavenly light falling through the small high window onto the stone floor, iron chains on the wall",
+      "prompt_movimento": "the beam of light grows brighter, dust sparkles in the light, slow camera push-in",
+      "vazia": true
+    },
+    {
+      "trecho": "Se você está numa prisão de silêncio, leve sua pergunta a Jesus. Ele responde.",
+      "prompt_imagem": "view from inside a dark stone cell looking up toward a small high window full of golden sunrise light, dust floating in the beam",
+      "prompt_movimento": "slow camera rise toward the bright window, the golden light grows, dust floats in the beam",
+      "vazia": true
+    }
+  ],
+  "legenda": "Senhor, responde as minhas perguntas no escuro 🙏\nMateus 11:2-11\nComente \"Amém\" se você também já esperou uma resposta de Deus.",
+  "hashtags": [
+    "#JoãoBatista",
+    "#Jesus",
+    "#fé",
+    "#Bíblia"
+  ],
+  "fontes": [
+    "Mateus 11:2-11",
+    "Mateus 14:3-4",
+    "Flávio Josefo, Antiguidades Judaicas 18.5.2 (Maqueronte)"
+  ]
+}
