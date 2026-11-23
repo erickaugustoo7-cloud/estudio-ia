@@ -1,0 +1,66 @@
+{
+  "titulo": "Os planetas fazem barulho? A NASA gravou",
+  "gancho_tela": "O espaço é mudo. E esses sons?",
+  "narracao": "O espaço é mudo. Mesmo assim, a NASA tem gravações dos planetas. O segredo: não são sons de verdade, são ondas invisíveis viradas áudio. Mas um planeta foi gravado com microfone. No vácuo, o som não tem ar para viajar. Mas planetas e luas são cercados de plasma, um gás eletrizado cheio de ondas elétricas e magnéticas. As sondas captam essas ondas, e os cientistas mudam a frequência para a faixa que o nosso ouvido escuta. Em dois mil e vinte e um, a sonda Juno passou a pouco mais de mil quilômetros de Ganimedes, lua de Júpiter. O áudio lembra internet discada. A Cassini fez o mesmo com as ondas de rádio de Saturno. E a Voyager um, já entre as estrelas, ouviu um tom que sobe: sinal de gás cada vez mais denso. Agora a surpresa. Marte tem ar, e o robô Perseverance levou microfones. Lá, o som anda a cerca de duzentos e quarenta metros por segundo. Na Terra, são trezentos e quarenta e três. E os sons agudos correm um pouco mais rápido que os graves. Marte é tão silencioso que um som quase some depois de oito metros. Os cientistas chegaram a achar que o microfone estava quebrado. Qual planeta você queria ouvir primeiro? Siga para descobrir uma curiosidade nova todo dia.",
+  "cenas": [
+    {
+      "trecho": "O espaço é mudo. Mesmo assim, a NASA tem gravações dos planetas.",
+      "busca_imagem": "Jupiter Juno",
+      "prompt_imagem": "the planet Jupiter in deep space with glowing auroras at its pole, cinematic"
+    },
+    {
+      "trecho": "O segredo: não são sons de verdade, são ondas invisíveis viradas áudio. Mas um planeta foi gravado com microfone.",
+      "busca_imagem": "Saturn Cassini",
+      "prompt_imagem": "Saturn and its rings in deep space with faint radio wave ripples around it, cinematic"
+    },
+    {
+      "trecho": "No vácuo, o som não tem ar para viajar. Mas planetas e luas são cercados de plasma, um gás eletrizado cheio de ondas elétricas e magnéticas.",
+      "busca_imagem": "Jupiter magnetosphere",
+      "prompt_imagem": "glowing invisible magnetic field lines around a giant planet, plasma glowing blue and purple"
+    },
+    {
+      "trecho": "As sondas captam essas ondas, e os cientistas mudam a frequência para a faixa que o nosso ouvido escuta.",
+      "busca_imagem": "Juno spacecraft",
+      "prompt_imagem": "a space probe with large solar panels flying past a giant planet, cinematic"
+    },
+    {
+      "trecho": "Em dois mil e vinte e um, a sonda Juno passou a pouco mais de mil quilômetros de Ganimedes, lua de Júpiter. O áudio lembra internet discada.",
+      "busca_imagem": "Ganymede Juno",
+      "prompt_imagem": "Jupiter's icy moon Ganymede seen up close from a passing spacecraft, grey and brown cratered surface"
+    },
+    {
+      "trecho": "A Cassini fez o mesmo com as ondas de rádio de Saturno. E a Voyager um, já entre as estrelas, ouviu um tom que sobe: sinal de gás cada vez mais denso.",
+      "busca_imagem": "Voyager spacecraft",
+      "prompt_imagem": "the Voyager probe drifting alone in interstellar space, distant Sun as a bright star, cinematic"
+    },
+    {
+      "trecho": "Agora a surpresa. Marte tem ar, e o robô Perseverance levou microfones. Lá, o som anda a cerca de duzentos e quarenta metros por segundo. Na Terra, são trezentos e quarenta e três.",
+      "busca_imagem": "Perseverance rover",
+      "prompt_imagem": "a six-wheeled Mars rover on reddish rocky terrain under a dusty sky, realistic"
+    },
+    {
+      "trecho": "E os sons agudos correm um pouco mais rápido que os graves. Marte é tão silencioso que um som quase some depois de oito metros. Os cientistas chegaram a achar que o microfone estava quebrado.",
+      "busca_imagem": "Mars surface Jezero",
+      "prompt_imagem": "a vast quiet Martian landscape with a small helicopter flying in the distance, dusty pale sky"
+    },
+    {
+      "trecho": "Qual planeta você queria ouvir primeiro? Siga para descobrir uma curiosidade nova todo dia.",
+      "busca_imagem": "solar system planets",
+      "prompt_imagem": "the planets of the solar system lined up in deep space, dramatic lighting"
+    }
+  ],
+  "legenda": "No vácuo não há som — os \"sons\" dos planetas são ondas de plasma viradas áudio. Mas em Marte o som é real: anda a ~240 m/s (na Terra, 343 m/s). 🔊🪐\nQual planeta você queria ouvir? Comenta aqui 👇",
+  "hashtags": [
+    "#somdoespaço",
+    "#Marte",
+    "#Júpiter",
+    "#NASA"
+  ],
+  "fontes": [
+    "NASA/JPL — NASA's Juno Spacecraft 'Hears' Jupiter's Moon (17/12/2021): sobrevoo de Ganimedes em 7/6/2021 a 1.038 km, áudio de 50 s do instrumento Waves, frequência deslocada para a faixa audível — https://www.jpl.nasa.gov/news/nasas-juno-spacecraft-hears-jupiters-moon",
+    "Smithsonian Magazine — Jupiter's Moon Ganymede Sounds Like Dial-Up Internet — https://www.smithsonianmag.com/smart-news/jupiters-moon-ganymede-sounds-like-dial-up-internet-180979276/",
+    "Space.com — Sounds in space: What noises do planets make? (som não viaja no vácuo; Cassini: áudio das emissões de rádio de Saturno ligadas à aurora) — https://www.space.com/sounds-in-space",
+    "NASA/JPL PIA17045 — Voyager Captures Sounds of Interstellar Space (tom crescente = densidade crescente do plasma) — https://www.jpl.nasa.gov/images/pia17045-voyager-captures-sounds-of-interstellar-space",
+    "NASA/JPL — What Sounds Captured by NASA's Perseverance Rover Reveal About Mars (01/04/2022): 240 e 250 m/s, Terra 343 m/s, som some em ~8 m, 'achamos que o microfone estava quebrado' — https://www.jpl.nasa.gov/news/what-sounds-captured-by-nasas-perseverance-rover-reveal-about-mars/"
+  ]
+}
