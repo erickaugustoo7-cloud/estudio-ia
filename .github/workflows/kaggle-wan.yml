@@ -97,7 +97,7 @@ jobs:
         run: |
           echo "KAGGLE_USERNAME: ${KAGGLE_USERNAME:+definido} · KAGGLE_KEY: ${KAGGLE_KEY:+definido} · KAGGLE_API_TOKEN: ${KAGGLE_API_TOKEN:+definido}"
           [ -n "$KAGGLE_USERNAME" ] && { [ -n "$KAGGLE_KEY" ] || [ -n "$KAGGLE_API_TOKEN" ]; } || { echo "::error::Faltam os segredos do Kaggle"; exit 1; }
-          python -m kaggle kernels list --mine --page-size 1 > /tmp/kl.txt 2>&1 && echo "login no Kaggle ok" || { echo "::error::login no Kaggle falhou:"; tail -15 /tmp/kl.txt; exit 1; }
+          python -m kaggle kernels list --mine --page-size 1 > /tmp/kl.txt 2>&1 && echo "login no Kaggle ok" || { echo "::warning::login no Kaggle falhou (token vencido?) — só os vídeos que precisam de GPU vão falhar:"; tail -15 /tmp/kl.txt; }
       - name: Voz do Eric (Chatterbox) — instala só quando o roteiro pede
         run: |
           if grep -q '"voz": *"eric"' "${{ inputs.roteiro }}"; then
