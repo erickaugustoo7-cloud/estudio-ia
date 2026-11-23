@@ -1,0 +1,68 @@
+{
+  "titulo": "O primeiro milagre de Jesus foi numa festa de casamento",
+  "gancho_tela": "Não foi num templo",
+  "referencia": "João 2:1-11",
+  "serie": "O que quase ninguém sabe",
+  "tipo": "tiktok",
+  "fonte_imagem": "kaggle",
+  "opcoes_imagem": 2,
+  "duracao_max": 40,
+  "volume_musica": 0.12,
+  "plataformas": [
+    "facebook"
+  ],
+  "estilo_imagem": "cinematic photorealistic epic film still, warm oil lamp light, dramatic volumetric god rays, ancient Galilee 1st century, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic slow subtle motion.",
+  "epoca_imagem": "Ancient Galilean village of Cana, 1st century, stone house courtyard, clay, stone, wood and linen only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "O primeiro milagre de Jesus não foi num templo. Foi numa festa.",
+      "prompt_imagem": "ancient village courtyard decorated for a wedding feast at night, many clay oil lamps burning on low wooden tables, linen cloths hanging, warm glow",
+      "vazia": false,
+      "animar": true,
+      "prompt_movimento": "oil lamp flames flicker gently, linen cloths sway in the night breeze, slow push in"
+    },
+    {
+      "trecho": "Num casamento em Caná, o vinho acabou. Maria disse aos empregados: fazei tudo quanto ele vos disser.",
+      "prompt_imagem": "empty clay wine jar tipped on its side on a rough wooden table, a few drops on the wood, warm lamp light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Havia seis talhas de pedra. Jesus disse: Enchei de água essas talhas.",
+      "prompt_imagem": "six large carved stone water jars standing in a row in an ancient stone courtyard, soft morning god rays",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Encheram até em cima. E a água foi feita vinho.",
+      "prompt_imagem": "close-up of a stone jar filled to the brim with deep red wine, ripples on the surface, warm golden light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "O mestre-sala provou e disse: tu guardaste até agora o bom vinho.",
+      "prompt_imagem": "a simple clay cup of red wine resting on a linen-covered wooden table beside bread, warm lamp light, shallow depth of field",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Siga o Mensageiro de Fé: o primeiro sinal foi numa festa.",
+      "prompt_imagem": "wide view of the ancient village of Cana on a Galilean hillside at sunrise, stone houses, olive trees, warm god rays",
+      "vazia": true,
+      "animar": false
+    }
+  ],
+  "legenda": "Jesus começou seus sinais numa festa de casamento em Caná da Galileia (João 2:1-11). \"Tu guardaste até agora o bom vinho.\" Que área da sua casa precisa de um milagre assim? Comente 👇",
+  "hashtags": [
+    "#Jesus",
+    "#Bíblia",
+    "#Fé",
+    "#OQueQuaseNinguémSabe",
+    "#Cristão"
+  ],
+  "fontes": [
+    "João 2:1-11 — Almeida Revista e Corrigida (domínio público), conferido em bibliaonline.com.br/arc/jo/2"
+  ]
+}
