@@ -1,0 +1,64 @@
+{
+  "titulo": "Sorriam para Davi, mas por dentro o amaldiçoavam — o que ele fez (Salmo 62)",
+  "gancho_tela": "SORRIAM E O AMALDIÇOAVAM",
+  "referencia": "Salmos 62:1-8",
+  "serie": "Salmos narrados",
+  "tipo": "salmo",
+  "voz": "eric",
+  "fonte_imagem": "cloudflare",
+  "duracao_max": 180,
+  "volume_musica": 0.12,
+  "estilo_imagem": "cinematic photorealistic landscape, golden hour light, soft volumetric rays, peaceful and reverent, rich warm colors, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic slow subtle motion.",
+  "epoca_imagem": "untouched nature, no buildings, no modern objects",
+  "legenda": "Salmo 62 🙏 A minha alma espera somente em Deus; dele vem a minha salvação.\nSalmos 62:1-8 (Almeida)\nEscreva \"Amém\" e conte nos comentários: em que você precisa descansar hoje?",
+  "hashtags": [
+    "#Salmo62",
+    "#Salmos",
+    "#PalavraDeDeus",
+    "#Fé",
+    "#Oração"
+  ],
+  "fontes": [
+    "Salmos 62:1-8 — Almeida Revista e Corrigida (tradução de domínio público)"
+  ],
+  "cenas": [
+    {
+      "trecho": "Sorriam para Davi, mas por dentro o amaldiçoavam. Cercado assim, ele não revidou: ele escreveu este salmo. Salmo sessenta e dois. Ouça com calma.",
+      "prompt_imagem": "a dramatic storm breaking over a rugged rocky mountain, a powerful beam of golden light striking the summit through dark clouds, untouched nature",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "A minha alma espera somente em Deus; dele vem a minha salvação. Só ele é a minha rocha e a minha salvação; é a minha defesa; não serei grandemente abalado.",
+      "prompt_imagem": "a massive solid rock cliff standing firm above a calm valley at golden sunrise, soft mist below, untouched nature",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Até quando maquinareis o mal contra um homem? Sereis mortos todos vós, sereis como uma parede encurvada e uma sebe pouco segura. Eles somente consultam como o hão de derribar da sua excelência; deleitam-se em mentiras; com a boca bendizem, mas, no seu interior, maldizem.",
+      "prompt_imagem": "an ancient crumbling dry-stone wall leaning in a windswept field under heavy grey clouds, dust blowing in the wind",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Ó minha alma, espera somente em Deus, porque dele vem a minha esperança. Só ele é a minha rocha e a minha salvação; é a minha defesa; não serei abalado. Em Deus está a minha salvação e a minha glória; a rocha da minha fortaleza e o meu refúgio estão em Deus.",
+      "prompt_imagem": "a quiet sheltered cave opening in a high mountain cliff glowing with warm sunset light, overlooking a peaceful valley, untouched nature",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Confiai nele, ó povo, em todos os tempos; derramai perante ele o vosso coração; Deus é o nosso refúgio.",
+      "prompt_imagem": "a clear mountain stream pouring gently over smooth rocks into a calm pool, golden light filtering through the trees",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Quando até quem sorri para você machuca, ainda existe um lugar onde a sua alma descansa: em Deus. Se você crê, escreva Amém. E siga o Mensageiro de Fé para ouvir um salmo por dia.",
+      "prompt_imagem": "a wooden cross on a rocky hilltop silhouetted against a glowing golden sunset sky with rays of light",
+      "vazia": true,
+      "animar": false
+    }
+  ]
+}
