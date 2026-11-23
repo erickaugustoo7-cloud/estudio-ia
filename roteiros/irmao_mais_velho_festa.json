@@ -1,0 +1,65 @@
+{
+  "titulo": "Ele nunca saiu de casa e ficou fora da festa",
+  "gancho_tela": "Nunca saiu de casa. Ficou de fora.",
+  "estilo": "pintura",
+  "narracao": "Ele nunca saiu de casa e ficou do lado de fora da festa. É o irmão mais velho do filho pródigo, em Lucas, capítulo quinze. E a história termina sem final. Por quê? Jesus contou isso a religiosos que reclamavam porque ele comia com pecadores. O mais novo gastou tudo e voltou. O pai correu, abraçou e mandou matar o novilho gordo. O mais velho estava no campo. Perto de casa, ouviu música e dança. Um servo contou: seu irmão voltou. Ele ficou furioso e não quis entrar. O pai saiu e insistiu. E desabafou: há anos eu te sirvo, nunca desobedeci, e nunca ganhei nem um cabrito para festejar com meus amigos. O pai respondeu: meu filho, você está sempre comigo, e tudo o que tenho é seu. Mas seu irmão estava perdido e foi achado. E aqui Jesus para. Não diz se ele entrou. A resposta ficou com você. Dá para estar na igreja e do lado de fora, cansado, cobrando. O Pai saiu ao encontro dos dois. Hoje, entre na festa. Salve este vídeo para ouvir de novo quando precisar, e siga para receber uma palavra de fé todos os dias.",
+  "cenas": [
+    {
+      "trecho": "Ele nunca saiu de casa e ficou do lado de fora da festa.",
+      "busca_imagem": "lit doorway night feast",
+      "prompt_imagem": "an ancient stone farmhouse at dusk seen from the dark fields, its open wooden door blazing with warm golden light and lamps from a feast inside, a dusty work tool leaning against the outer wall in shadow, strong contrast between the glowing doorway and the cold blue night"
+    },
+    {
+      "trecho": "É o irmão mais velho do filho pródigo, em Lucas, capítulo quinze. E a história termina sem final. Por quê?",
+      "busca_imagem": "ancient scroll oil lamp",
+      "prompt_imagem": "an ancient open scroll on a rough wooden table beside a small clay oil lamp, the scroll's last lines fading into shadow, warm flame, dark stone wall behind, dramatic chiaroscuro"
+    },
+    {
+      "trecho": "Jesus contou isso a religiosos que reclamavam porque ele comia com pecadores. O mais novo gastou tudo e voltou.",
+      "busca_imagem": "ancient table bread lamps",
+      "prompt_imagem": "a low ancient wooden table with broken bread, clay cups and oil lamps in a simple courtyard at evening, a long dusty road beyond the open gate leading far into the hills"
+    },
+    {
+      "trecho": "O pai correu, abraçou e mandou matar o novilho gordo. O mais velho estava no campo.",
+      "busca_imagem": "wheat field sunset plough",
+      "prompt_imagem": "a wide ancient wheat field at late afternoon, a wooden plough and a clay water jar left at the edge of the furrows, the farmhouse small and far away on the hill with smoke rising from its roof, golden light"
+    },
+    {
+      "trecho": "Perto de casa, ouviu música e dança. Um servo contou: seu irmão voltou.",
+      "busca_imagem": "ancient lyre drum lamps",
+      "prompt_imagem": "an ancient lyre and a small hand drum resting on a woven rug near many burning clay lamps, garlands of leaves and a richly set table glowing inside a stone house, seen through an open doorway"
+    },
+    {
+      "trecho": "Ele ficou furioso e não quis entrar. O pai saiu e insistiu.",
+      "busca_imagem": "stone threshold night door",
+      "prompt_imagem": "close-up of a worn stone threshold at night, warm golden light spilling out from the doorway onto the dark ground outside, dust on the step, deep shadows"
+    },
+    {
+      "trecho": "E desabafou: há anos eu te sirvo, nunca desobedeci, e nunca ganhei nem um cabrito para festejar com meus amigos.",
+      "busca_imagem": "worn hands tools field",
+      "prompt_imagem": "close-up of rough calloused hands resting on the wooden handle of an ancient farm tool in the dark field, a small goat pen nearby, faint lamplight from the distant house"
+    },
+    {
+      "trecho": "O pai respondeu: meu filho, você está sempre comigo, e tudo o que tenho é seu. Mas seu irmão estava perdido e foi achado.",
+      "busca_imagem": "hand on shoulder light",
+      "prompt_imagem": "close-up of an old weathered hand gently resting on a young man's shoulder covered by a coarse wool robe, warm golden light from an open doorway behind, night sky"
+    },
+    {
+      "trecho": "E aqui Jesus para. Não diz se ele entrou. A resposta ficou com você. Dá para estar na igreja e do lado de fora, cansado, cobrando. O Pai saiu ao encontro dos dois. Hoje, entre na festa. Salve este vídeo para ouvir de novo quando precisar, e siga para receber uma palavra de fé todos os dias.",
+      "busca_imagem": "open door golden light",
+      "prompt_imagem": "a wide open ancient wooden door at dawn, warm golden light pouring out onto a stone path that leads from the dark fields straight to the doorway, olive trees on both sides, peaceful and inviting"
+    }
+  ],
+  "legenda": "Pai, me tira do lado de fora 🙏\nLucas 15:25-32\nComente \"Amém\" e salve para ouvir de novo quando precisar.",
+  "hashtags": [
+    "#filhopródigo",
+    "#irmãomaisvelho",
+    "#graça",
+    "#amordoPai"
+  ],
+  "fontes": [
+    "Lucas 15:1-3 (fariseus e mestres da lei reclamam: 'Este homem recebe pecadores e come com eles'; Jesus conta as parábolas)",
+    "Lucas 15:11-24 (o filho mais novo desperdiça tudo e volta; o pai corre, abraça e beija; manda matar o novilho gordo e festejar)",
+    "Lucas 15:25-32 NVI (o mais velho estava no campo, ouviu a música e a dança; um servo conta que o irmão voltou; ele se encheu de ira e não quis entrar; o pai saiu e insistiu; 'todos esses anos tenho trabalhado... nunca desobedeci... nunca me deste nem um cabrito para eu festejar com os meus amigos'; 'Meu filho, você está sempre comigo, e tudo o que tenho é seu'; 'tínhamos que celebrar... estava perdido e foi achado'; a parábola termina sem dizer se ele entrou)"
+  ]
+}
