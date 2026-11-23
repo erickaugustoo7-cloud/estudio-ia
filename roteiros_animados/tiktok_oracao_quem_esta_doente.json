@@ -1,0 +1,68 @@
+{
+  "titulo": "Oração para quem está doente e cansado de esperar a cura",
+  "gancho_tela": "Doente e cansado de esperar?",
+  "referencia": "Jeremias 30:17",
+  "serie": "Oração de 20 segundos",
+  "tipo": "tiktok",
+  "fonte_imagem": "kaggle",
+  "opcoes_imagem": 2,
+  "duracao_max": 40,
+  "volume_musica": 0.12,
+  "plataformas": [
+    "facebook"
+  ],
+  "estilo_imagem": "cinematic photorealistic epic film still, soft night lamplight turning into warm dawn light, dramatic volumetric light, ancient Judea village, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic slow subtle motion.",
+  "epoca_imagem": "Ancient Israel village, stone house, clay jars and oil lamps, woven mats, linen, wool and wood only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "Está doente e cansado de esperar a cura? Ore comigo.",
+      "prompt_imagem": "a small clay oil lamp burning beside a simple woven sleeping mat with a folded wool blanket, dark stone room at night, warm flickering light",
+      "vazia": true,
+      "animar": true,
+      "prompt_movimento": "the small flame of the clay oil lamp flickers gently, thin smoke rising slowly in the warm light"
+    },
+    {
+      "trecho": "Senhor, meu corpo está fraco e a noite parece não ter fim.",
+      "prompt_imagem": "a narrow window in a thick stone wall at night, deep blue moonlight falling on a clay water jug and a cup on the floor",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Tu vês a dor que eu escondo de todo mundo.",
+      "prompt_imagem": "close-up of a clay bowl of water and a folded linen cloth on a wooden stool, soft lamplight, quiet stone room",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Tua Palavra diz: porque te restaurarei a saúde, e te curarei as tuas chagas.",
+      "prompt_imagem": "an old parchment scroll partly unrolled on a wooden table beside a burning clay oil lamp, warm light falling across it",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Toca em mim, sustenta quem cuida de mim e me dá descanso esta noite. Amém.",
+      "prompt_imagem": "first golden rays of sunrise entering a stone house through an open wooden door, light spreading across a woven mat and a clay lamp gone out",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Siga o Mensageiro de Fé para orar comigo todos os dias.",
+      "prompt_imagem": "a quiet ancient village of flat-roofed stone houses at dawn, olive trees and hills in soft light, wide high view, peaceful sky",
+      "vazia": true,
+      "animar": false
+    }
+  ],
+  "legenda": "Para você que está doente: \"Porque te restaurarei a saúde, e te curarei as tuas chagas, diz o Senhor\" (Jeremias 30:17). Por quem você quer que eu ore hoje? Comente o nome 👇",
+  "hashtags": [
+    "#Oração",
+    "#Cura",
+    "#Fé",
+    "#Deus",
+    "#OraçãoDeCura"
+  ],
+  "fontes": [
+    "Jeremias 30:17 — Almeida Corrigida Fiel: \"Porque te restaurarei a saúde, e te curarei as tuas chagas, diz o Senhor; porquanto te chamaram a repudiada, dizendo: É Sião, já ninguém pergunta por ela.\" (conferido em bibliaonline.com.br/acf/jr/30)"
+  ]
+}
