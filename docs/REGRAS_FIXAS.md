@@ -48,6 +48,8 @@ Antes de produzir qualquer vídeo, confira item por item. Se algum não for cump
 16. **Primeira imagem = a mais forte** do vídeo (movimento ou rosto/emoção), nunca paisagem parada de abertura.
 17. **Entrega antes do fim:** a resposta prometida chega até ~70% do tempo; a última frase **volta para o começo**
     (loop: quem chega ao fim quer ver de novo) ou abre a pergunta que o vídeo longo responde.
-18. **Short isca:** o trecho é o LAÇO ABERTO do longo (o re-gancho que promete a revelação), 12–45 palavras,
-    com `texto_topo` de 1–4 palavras que provoque ("O QUE ELE CORTOU"). O validador recusa trecho sem pergunta/promessa.
+18. **Short isca — Mensageiro (decisão do Eric, 23/11):** o trecho é a frase de CONSOLO mais forte da oração, falando
+    direto com a pessoa ("Se você está esperando uma resposta de Deus, ouça isto…"), 12–45 palavras; título e
+    `texto_topo` no mesmo tom ("PARA QUEM ESTÁ ESPERANDO"). NADA de mistério ("o detalhe que ninguém percebe",
+    "a palavra escondida"): rendeu 10–100 views contra ~1.000 dos Shorts de consolo. Antes de Nós: continua laço aberto.
 19. **Uma chamada só no fim**, curta ("Siga para a parte 2", "A oração completa está no vídeo abaixo").

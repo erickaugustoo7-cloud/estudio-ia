@@ -72,7 +72,8 @@ Campos obrigatórios novos:
   "contador de histórias, tensão crescente"; oração = "ternura, voz embargada nas dores, frases curtas";
   relaxamento = "calmo e lento, quase sussurrado"; revelação = "emoção forte e esperança, mais firme"; bênção = "paz, voz suave".
 - Oração/estudo longo **nunca sai na voz reserva (Edge)**: sem cota da Gemini, a produção para e roda de novo depois das 05h.
-- Short isca: o trecho do LAÇO ABERTO (o re-gancho que promete a revelação), 12–45 palavras — puxa para o longo.
+- Short isca (23/11): a frase de CONSOLO mais forte, falando com a pessoa ("Se você está…", "Para quem…"), 12–45 palavras,
+  título e texto_topo no mesmo tom — NUNCA mistério ("detalhe que ninguém percebe"). Ver REGRAS_FIXAS 18.
 Modelo no formato novo: `roteiros_animados/oracao_noite_diabo_citou_salmo91.json`.
 
 ## Oração para dormir — tom HUMANO e EMOCIONAL (padrão desde 16/11, referência: canal Grace Oasis, 835 mil inscritos)
