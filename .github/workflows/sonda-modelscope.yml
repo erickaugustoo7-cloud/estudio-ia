@@ -1,0 +1,18 @@
+name: Sonda ModelScope (vídeo)
+on: workflow_dispatch
+jobs:
+  sonda:
+    runs-on: ubuntu-latest
+    env:
+      MODELSCOPE_TOKEN: ${{ secrets.MODELSCOPE_TOKEN }}
+    steps:
+      - run: |
+          B=https://api-inference.modelscope.ai
+          for M in Wan-AI/Wan2.2-TI2V-5B Wan-AI/Wan2.2-T2V-A14B Wan-AI/Wan2.1-T2V-14B Wan-AI/Wan2.2-I2V-A14B; do
+            for EP in v1/videos/generations v1/video/generations; do
+              echo "== $M $EP"
+              curl -s -m 60 -X POST "$B/$EP" -H "Authorization: Bearer $MODELSCOPE_TOKEN" -H "Content-Type: application/json" \
+                -H "X-ModelScope-Async-Mode: true" -d "{\"model\":\"$M\",\"prompt\":\"woolly mammoths walking in snow, cinematic\"}" | head -c 400; echo
+            done
+          done
+          echo "== lista de modelos"; curl -s -m 60 "$B/v1/models" -H "Authorization: Bearer $MODELSCOPE_TOKEN" | python3 -c "import sys,json;d=json.load(sys.stdin);print([m['id'] for m in d.get('data',[]) if any(k in m['id'].lower() for k in ('wan','video','t2v','i2v','hunyuan','ltx','cog'))][:40]);print(len(d.get('data',[])))" || true
