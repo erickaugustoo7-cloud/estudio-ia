@@ -152,6 +152,8 @@ def _rodar_modelscope(cenas: list, pasta: Path, etapa: str = "imagens") -> tuple
                                   json=corpo, timeout=60)
                 if r.status_code >= 400:
                     log("wan", f"ModelScope {base[-3:]}: {r.status_code} {r.text[:200]}")
+                    if r.status_code in (402, 429) or any(x in r.text.lower() for x in ("quota", "magicube", "balance", "insufficient")):
+                        os.environ["MODELSCOPE_SEM_SALDO"] = "1"  # não insiste: o resto da produção vai direto à reserva
                     continue
                 tid = r.json()["task_id"]
                 for _ in range(90):
@@ -170,9 +172,28 @@ def _rodar_modelscope(cenas: list, pasta: Path, etapa: str = "imagens") -> tuple
                 log("wan", f"ModelScope erro {c['nome']}: {e}")
         return False
 
+    def gerar_com_reserva(c):
+        # 24/11: a API de imagem do ModelScope consome "Magicubes" (~200/dia grátis). Sem saldo ou com erro,
+        # a imagem sai pela Cloudflare (cota diária própria) em vez de derrubar a produção.
+        if not os.getenv("MODELSCOPE_SEM_SALDO") and gerar(c):
+            return True
+        try:
+            from estudio.agentes import visual
+            w, h = (int(x) for x in c.get("resolucao", "768x1344").split("x"))
+            jpg = saida / f"{c['nome']}.jpg"
+            if visual._cloudflare(cena={"prompt_imagem": c["prompt"], "largura": w, "altura": h}, destino=jpg,
+                                  usados=set(), canal={}, seed=int(c.get("seed", 42))):
+                subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(jpg), str(saida / f"{c['nome']}.png")],
+                               check=True)
+                log("wan", f"{c['nome']}: ModelScope sem saldo/erro → Cloudflare")
+                return True
+        except Exception as e:  # noqa: BLE001
+            log("wan", f"reserva Cloudflare falhou {c['nome']}: {e}")
+        return False
+
     t = time.time()
     with ThreadPoolExecutor(int(os.getenv("MODELSCOPE_PARALELO", "3"))) as ex:
-        res = list(ex.map(gerar, itens))
+        res = list(ex.map(gerar_com_reserva, itens))
     rel = {"total_s": round(time.time() - t), "cenas": {i: {"ok": ok} for i, ok in enumerate(res)}}
     (saida / "relatorio.json").write_text(json.dumps(rel))
     log("wan", f"ModelScope ({etapa}): {sum(res)}/{len(itens)} imagens em {(time.time() - t) / 60:.1f} min")
