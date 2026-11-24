@@ -1,0 +1,66 @@
+{
+  "titulo": "O ponto fraco no céu do Brasil",
+  "gancho_tela": "Satélites falham em cima do Brasil",
+  "narracao": "Existe um lugar no céu do Brasil onde os satélites falham. É a Anomalia Magnética do Atlântico Sul. E ela está crescendo. O campo magnético da Terra é um escudo contra a radiação do espaço. Mas sobre a América do Sul e o Atlântico Sul, esse escudo é mais fraco. Ali, a radiação chega mais perto da Terra. Quando uma partícula atinge um satélite, pode causar uma pane ou até danificar peças. Por isso, operadores desligam equipamentos não essenciais ao passar por ali. Até o telescópio Hubble para. Em sete a nove voltas seguidas por dia, ele suspende as observações por vinte a vinte e cinco minutos a cada passagem. Astronautas contam ver clarões de luz até de olhos fechados, e essa região é apontada como uma das causas. A origem está a cerca de três mil quilômetros de profundidade, no núcleo de ferro líquido. Lá, em alguns pontos, o campo corre ao contrário: entra no núcleo em vez de sair. Desde dois mil e catorze, a anomalia cresceu uma área de quase metade da Europa continental. E a NASA acompanha ela se dividindo em duas. Aqui no chão, a Agência Espacial Europeia diz que não há motivo para alarme. Você sabia que o escudo da Terra tem um ponto fraco bem em cima de nós? Siga para descobrir uma curiosidade nova todo dia.",
+  "cenas": [
+    {
+      "trecho": "Existe um lugar no céu do Brasil onde os satélites falham.",
+      "busca_imagem": "South Atlantic Anomaly",
+      "prompt_imagem": "Earth seen from orbit over South America at night, faint glowing radiation belt above the South Atlantic"
+    },
+    {
+      "trecho": "É a Anomalia Magnética do Atlântico Sul. E ela está crescendo.",
+      "busca_imagem": "South Atlantic Anomaly Swarm",
+      "prompt_imagem": "map-like glowing view of Earth's magnetic field weak spot over South America and the South Atlantic Ocean"
+    },
+    {
+      "trecho": "O campo magnético da Terra é um escudo contra a radiação do espaço. Mas sobre a América do Sul e o Atlântico Sul, esse escudo é mais fraco.",
+      "busca_imagem": "Earth magnetosphere",
+      "prompt_imagem": "Earth surrounded by glowing magnetic field lines deflecting solar wind particles, cinematic space view"
+    },
+    {
+      "trecho": "Ali, a radiação chega mais perto da Terra. Quando uma partícula atinge um satélite, pode causar uma pane ou até danificar peças. Por isso, operadores desligam equipamentos não essenciais ao passar por ali.",
+      "busca_imagem": "satellite orbit Earth",
+      "prompt_imagem": "a small satellite orbiting above the South Atlantic Ocean, struck by bright streaks of energetic particles"
+    },
+    {
+      "trecho": "Até o telescópio Hubble para. Em sete a nove voltas seguidas por dia, ele suspende as observações por vinte a vinte e cinco minutos a cada passagem.",
+      "busca_imagem": "Hubble Space Telescope orbit",
+      "prompt_imagem": "the Hubble Space Telescope in orbit above Earth, blue planet below, dramatic lighting"
+    },
+    {
+      "trecho": "Astronautas contam ver clarões de luz até de olhos fechados, e essa região é apontada como uma das causas.",
+      "busca_imagem": "International Space Station Earth",
+      "prompt_imagem": "view from inside a space station window over Earth at night, faint flashes of light"
+    },
+    {
+      "trecho": "A origem está a cerca de três mil quilômetros de profundidade, no núcleo de ferro líquido. Lá, em alguns pontos, o campo corre ao contrário: entra no núcleo em vez de sair.",
+      "busca_imagem": "Earth core magnetic field",
+      "prompt_imagem": "cutaway of planet Earth showing a glowing molten iron outer core with swirling magnetic field lines"
+    },
+    {
+      "trecho": "Desde dois mil e catorze, a anomalia cresceu uma área de quase metade da Europa continental. E a NASA acompanha ela se dividindo em duas.",
+      "busca_imagem": "Earth magnetic field map",
+      "prompt_imagem": "glowing globe of Earth with a large dark weak region over the South Atlantic splitting into two lobes"
+    },
+    {
+      "trecho": "Aqui no chão, a Agência Espacial Europeia diz que não há motivo para alarme. Você sabia que o escudo da Terra tem um ponto fraco bem em cima de nós? Siga para descobrir uma curiosidade nova todo dia.",
+      "busca_imagem": "Brazil from space",
+      "prompt_imagem": "Brazil and the South Atlantic Ocean seen from orbit in daylight, calm and beautiful"
+    }
+  ],
+  "legenda": "Sobre o Brasil fica a Anomalia Magnética do Atlântico Sul: desde 2014 ela cresceu quase meia Europa, e o Hubble pausa até 25 min a cada passagem. 🛰️\nVocê já tinha ouvido falar dela? Comenta aqui 👇",
+  "hashtags": [
+    "#AnomaliaDoAtlânticoSul",
+    "#campomagnético",
+    "#satélites",
+    "#NASA"
+  ],
+  "fontes": [
+    "NASA — NASA Researchers Track Slowly Splitting 'Dent' in Earth's Magnetic Field (sobre a América do Sul e o Atlântico Sul; panes/SEU; operadores desligam componentes; divisão em dois lóbulos)",
+    "ESA — Swarm reveals growing weak spot in Earth's magnetic field (out/2025: cresceu quase metade da Europa continental desde 2014; núcleo a ~3000 km; reverse flux patches)",
+    "ESA — Swarm probes weakening of Earth's magnetic field (2020: 'At surface level... no cause for alarm')",
+    "STScI — HST Primer, Orbital Constraints (7 a 9 órbitas seguidas por dia; pausa de ~20 a 25 min por passagem)",
+    "Wikipedia — South Atlantic Anomaly (clarões vistos por astronautas)"
+  ]
+}
