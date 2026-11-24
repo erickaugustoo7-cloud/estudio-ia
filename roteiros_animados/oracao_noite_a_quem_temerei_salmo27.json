@@ -1,0 +1,820 @@
+{
+ "formato": "horizontal",
+ "duracao_max": 999,
+ "volume_musica": 0,
+ "opcoes_imagem": 1,
+ "palavras_por_bloco": 600,
+ "plataformas": [
+  "youtube"
+ ],
+ "estilo_imagem": "breathtaking real-world nature landscape photography, peaceful and serene, soft natural light, rich colors, ultra detailed, horizontal 16:9 widescreen, no people, no text",
+ "prefixo_imagem": "beautiful peaceful nature landscape photo:",
+ "prefixo_video": "Peaceful nature shot, very slow and gentle motion.",
+ "epoca_imagem": "real natural landscapes of today (sea, forest, waterfalls, mountains, lakes, sky); no people, no buildings, no text",
+ "fonte_imagem": "cloudflare",
+ "estilo_voz": "emocionado e íntimo, como quem ora de verdade por alguém que sofre; voz baixa, pausada, com ternura",
+ "tipo": "oracao",
+ "fundo_video": "pixabay",
+ "titulo": "Oração para dormir: o Senhor é a minha luz, a quem temerei? (Salmo 27)",
+ "titulo_youtube": "Se Hoje Você Está Com Medo, Durma Ouvindo Isto | Salmo 27",
+ "gancho_tela": "A quem temerei?",
+ "referencia": "Salmo 27",
+ "cena_capa": 30,
+ "texto_capa": [
+  "COM MEDO?",
+  "*DURMA",
+  "OUVINDO ISTO"
+ ],
+ "selo_capa": "Oração da noite",
+ "capa_prompt": "a Brazilian man in his thirties sitting on the edge of his bed at night, hands together praying, a single warm lamp lighting his face in a dark room, eyes closed, peaceful expression, cinematic photo",
+ "legenda": "\"O Senhor é a minha luz e a minha salvação; a quem temerei?\" Davi escreveu o Salmo 27 cercado de inimigos — e deixou uma frase pela metade no versículo 13. Nesta oração para dormir você ouve a história do salmo e depois ora comigo pelo medo, pela família, pela saúde, pelo sustento e por quem chora esta noite. Escreva nos comentários \"a quem temerei\" e o seu pedido de oração. 🙏",
+ "hashtags": [
+  "#Salmo27",
+  "#OraçãoParaDormir",
+  "#AQuemTemerei",
+  "#Fé",
+  "#OraçãoDaNoite"
+ ],
+ "fontes": [
+  "Salmo 27:1-14 — Almeida (texto conferido em bibliaonline.com.br, ARC)",
+  "Salmo 27:13 — לוּלֵא (lulê) com puncta extraordinaria no Texto Massorético e frase incompleta (aposiopese): psalms.scriptura.org, 'The Textual and Logical Issues with לוּלֵא in Psalm 27:13'; Sefaria, Psalm 27",
+  "1 Samuel 18–22 (Saul persegue Davi; caverna de Adulão) — paráfrase",
+  "Êxodo 16 (o maná cada manhã) — paráfrase; Marcos 4:39 (aquieta-te) — paráfrase"
+ ],
+ "capitulos": [
+  {
+   "cena": 0,
+   "titulo": "Davi e o exército em volta"
+  },
+  {
+   "cena": 14,
+   "titulo": "A única coisa que Davi pediu"
+  },
+  {
+   "cena": 24,
+   "titulo": "Quando parece que Deus se escondeu"
+  },
+  {
+   "cena": 32,
+   "titulo": "Oração pelo medo"
+  },
+  {
+   "cena": 43,
+   "titulo": "Oração pelo coração ansioso"
+  },
+  {
+   "cena": 47,
+   "titulo": "Oração pela casa e pela família"
+  },
+  {
+   "cena": 54,
+   "titulo": "Oração pelo cansaço e pela espera"
+  },
+  {
+   "cena": 61,
+   "titulo": "Oração pela saúde e pelo sustento"
+  },
+  {
+   "cena": 67,
+   "titulo": "Oração por quem chora esta noite"
+  },
+  {
+   "cena": 72,
+   "titulo": "A frase que ficou pela metade"
+  },
+  {
+   "cena": 83,
+   "titulo": "O último conselho de Davi"
+  },
+  {
+   "cena": 90,
+   "titulo": "Bênção para dormir"
+  }
+ ],
+ "revelacao": {
+  "promessa_cena": 1,
+  "entrega_cena": 74,
+  "o_que": "o versículo 13 no hebraico fica pela metade ('Se eu não cresse que veria a bondade do Senhor…'), sem 'pereceria' (acréscimo dos tradutores), e a palavra 'lulê' tem pontos especiais dos copistas"
+ },
+ "short_isca": {
+  "cenas": [
+   30
+  ],
+  "texto_topo": "SE SENTE ESQUECIDO?",
+  "titulo": "Se você se sente esquecido por quem mais amava, ouça isto 🙏",
+  "hashtags": [
+   "salmo27",
+   "oracao",
+   "consolo"
+  ]
+ },
+ "cenas": [
+  {
+   "trecho": "Davi escreveu este salmo cercado de inimigos. E começou sem medo. Talvez você esteja deitado agora com o coração apertado. Com algum medo que não contou para ninguém. Esta noite é para você.",
+   "prompt_imagem": "golden sunrise over a calm sea with gentle waves and soft clouds",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+  },
+  {
+   "trecho": "E tem uma frase neste salmo que ficou pela metade. Davi começou a escrever e não terminou. No fim desta oração, eu vou te mostrar qual é… e por que ela foi deixada assim para noites como a sua.",
+   "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+  },
+  {
+   "trecho": "Ajeite o travesseiro. Respire devagar. Deixe o celular de lado, se puder, e só escute. Nós vamos atravessar essa noite juntos, na presença de Deus.",
+   "prompt_imagem": "a calm mountain lake at night under a sky full of stars",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+  },
+  {
+   "trecho": "O Salmo vinte e sete começa assim: \"O Senhor é a minha luz e a minha salvação; a quem temerei? O Senhor é a força da minha vida; de quem me recearei?\"",
+   "prompt_imagem": "rocky desert canyon at sunset with warm orange light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+  },
+  {
+   "trecho": "Repare numa coisa. Davi não disse que não existia nada para temer. Ele perguntou: a quem temerei? Como quem olha para os perigos de frente e, mesmo assim, encontra alguém maior do que eles.",
+   "prompt_imagem": "a quiet green valley with a small stream at golden hour",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+  },
+  {
+   "trecho": "Davi sabia o que era perigo de verdade. Ele foi perseguido por um rei. Dormiu em cavernas. Fugiu para o deserto. Viu amigos virarem inimigos. E, anos depois, viu o próprio filho se levantar contra ele.",
+   "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+  },
+  {
+   "trecho": "A Bíblia não diz em que dia exato Davi escreveu este salmo. Mas diz que ele é \"de Davi\". E a vida de Davi foi uma sequência de noites difíceis.",
+   "prompt_imagem": "snowy mountain peaks reflected in a still lake at first light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+  },
+  {
+   "trecho": "Quando era jovem, depois de vencer Golias, Davi virou herói. E o rei Saul, com inveja, passou a querer matá-lo. Davi teve que fugir sem nada, deixando a casa, a esposa e os amigos para trás.",
+   "prompt_imagem": "rolling green hills under a soft pink dawn sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+  },
+  {
+   "trecho": "Ele se escondeu na caverna de Adulão. Viveu como fugitivo durante anos. Houve noites em que ele não sabia se ia ver o sol nascer de novo.",
+   "prompt_imagem": "a full moon rising over a calm ocean, silver reflections",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+  },
+  {
+   "trecho": "E mesmo assim, desse homem cansado e perseguido saiu esta frase: o Senhor é a minha luz. Não porque a vida dele estava clara. Mas porque, no escuro, ele sabia quem era a luz.",
+   "prompt_imagem": "a large rock on a hilltop above the clouds at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+  },
+  {
+   "trecho": "E foi desse lugar que ele escreveu: \"Ainda que um exército me cercasse, o meu coração não temeria; ainda que a guerra se levantasse contra mim, nele confiaria.\"",
+   "prompt_imagem": "gentle rain over a peaceful forest lake",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+  },
+  {
+   "trecho": "Talvez o seu exército não tenha espadas. Talvez ele se chame conta atrasada. Exame que ainda não saiu. Um filho longe de Deus. Um casamento frio. Uma solidão que pesa mais à noite.",
+   "prompt_imagem": "a wheat field moving in the wind at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+  },
+  {
+   "trecho": "Mas a pergunta de Davi continua valendo para você: se o Senhor é a sua luz… a quem você vai temer?",
+   "prompt_imagem": "a lighthouse beam over a calm sea at dusk, seen from far away",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+  },
+  {
+   "trecho": "Se esta oração está falando com você hoje, inscreva-se no canal. Assim você não fica sozinho nas próximas noites; todo dia tem uma oração nova aqui.",
+   "prompt_imagem": "an old olive grove on a hillside in soft evening light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+  },
+  {
+   "trecho": "Agora vem a parte mais bonita deste salmo. Cercado de inimigos, Davi podia pedir qualquer coisa. Vitória. Vingança. Uma saída rápida.",
+   "prompt_imagem": "a starry night sky over quiet mountains with the milky way",
+   "vazia": true,
+   "animar": false,
+   "emocao": "narrativo, firme e emocionado, contando a história"
+  },
+  {
+   "trecho": "Mas ele escreveu: \"Uma coisa pedi ao Senhor, e a buscarei: que possa morar na casa do Senhor todos os dias da minha vida, para contemplar a formosura do Senhor.\"",
+   "prompt_imagem": "a river winding through a misty valley at dawn",
+   "vazia": true,
+   "animar": false,
+   "emocao": "narrativo, firme e emocionado, contando a história"
+  },
+  {
+   "trecho": "Uma coisa só. Não era sair da batalha. Era estar perto de Deus no meio dela. Davi entendeu que quem está perto de Deus pode atravessar qualquer guerra.",
+   "prompt_imagem": "golden sunrise over a calm sea with gentle waves and soft clouds",
+   "vazia": true,
+   "animar": false,
+   "emocao": "narrativo, firme e emocionado, contando a história"
+  },
+  {
+   "trecho": "E ele continua: \"Porque no dia da adversidade me esconderá no seu pavilhão; no oculto do seu tabernáculo me esconderá; pôr-me-á sobre uma rocha.\"",
+   "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
+   "vazia": true,
+   "animar": false,
+   "emocao": "narrativo, firme e emocionado, contando a história"
+  },
+  {
+   "trecho": "O pavilhão era a tenda do rei. No meio da guerra, era o lugar mais protegido do acampamento. Davi está dizendo: no meu pior dia, Deus me leva para dentro da tenda dele.",
+   "prompt_imagem": "a calm mountain lake at night under a sky full of stars",
+   "vazia": true,
+   "animar": false,
+   "emocao": "narrativo, firme e emocionado, contando a história"
+  },
+  {
+   "trecho": "E a rocha é o lugar alto, firme, onde a água da enchente não alcança. Quando tudo em volta está se movendo, Deus coloca os seus pés em cima de algo que não se move.",
+   "prompt_imagem": "rocky desert canyon at sunset with warm orange light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "narrativo, firme e emocionado, contando a história"
+  },
+  {
+   "trecho": "Talvez hoje, deitado aí, você precise exatamente disso. Não de todas as respostas. Só de um lugar firme para pisar enquanto a tempestade passa.",
+   "prompt_imagem": "a quiet green valley with a small stream at golden hour",
+   "vazia": true,
+   "animar": false,
+   "emocao": "narrativo, firme e emocionado, contando a história"
+  },
+  {
+   "trecho": "E repare no que Davi queria fazer na casa de Deus: contemplar a formosura do Senhor. Não era só pedir coisas. Era olhar para Deus. Ficar perto. Admirar quem ele é.",
+   "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist",
+   "vazia": true,
+   "animar": false,
+   "emocao": "narrativo, firme e emocionado, contando a história"
+  },
+  {
+   "trecho": "Às vezes a gente ora só com uma lista de pedidos. E está tudo bem pedir. Mas tem noites em que o que mais cura é simplesmente ficar na presença de Deus, sem pressa, sem lista.",
+   "prompt_imagem": "snowy mountain peaks reflected in a still lake at first light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "narrativo, firme e emocionado, contando a história"
+  },
+  {
+   "trecho": "Então, por um momento, esqueça a lista. Pense em quem Deus é. Aquele que fez o céu que está sobre a sua casa agora. Aquele que conhece o seu nome. Aquele que está acordado enquanto você dorme.",
+   "prompt_imagem": "rolling green hills under a soft pink dawn sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "narrativo, firme e emocionado, contando a história"
+  },
+  {
+   "trecho": "Mas o salmo não fica só na coragem. No meio dele, a voz de Davi muda. Ele começa a pedir quase chorando.",
+   "prompt_imagem": "a full moon rising over a calm ocean, silver reflections",
+   "vazia": true,
+   "animar": false,
+   "emocao": "narrativo, com ternura"
+  },
+  {
+   "trecho": "\"Ouve, Senhor, a minha voz quando clamo; tem também piedade de mim e responde-me.\"",
+   "prompt_imagem": "a large rock on a hilltop above the clouds at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "narrativo, com ternura"
+  },
+  {
+   "trecho": "E depois: \"Não escondas de mim a tua face, não rejeites ao teu servo com ira; tu foste a minha ajuda, não me deixes nem me desampares, ó Deus da minha salvação.\"",
+   "prompt_imagem": "gentle rain over a peaceful forest lake",
+   "vazia": true,
+   "animar": false,
+   "emocao": "narrativo, com ternura"
+  },
+  {
+   "trecho": "Você percebe? O mesmo homem que disse a quem temerei também teve medo de que Deus estivesse longe. Fé e medo morando no mesmo coração, no mesmo salmo.",
+   "prompt_imagem": "a wheat field moving in the wind at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "narrativo, com ternura"
+  },
+  {
+   "trecho": "Então, se hoje você tem fé e medo ao mesmo tempo, você não está falhando. Você está orando como Davi orou.",
+   "prompt_imagem": "a lighthouse beam over a calm sea at dusk, seen from far away",
+   "vazia": true,
+   "animar": false,
+   "emocao": "narrativo, com ternura"
+  },
+  {
+   "trecho": "E aí vem um dos versículos mais fortes da Bíblia: \"Porque, quando meu pai e minha mãe me desampararem, o Senhor me recolherá.\"",
+   "prompt_imagem": "an old olive grove on a hillside in soft evening light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "narrativo, com ternura"
+  },
+  {
+   "trecho": "Talvez alguém que deveria ter cuidado de você não cuidou. Talvez você se sinta esquecido pelas pessoas que mais amava. Deus diz: eu te recolho. Como quem pega no colo alguém que ficou para trás.",
+   "prompt_imagem": "a starry night sky over quiet mountains with the milky way",
+   "vazia": true,
+   "animar": false,
+   "emocao": "narrativo, com ternura"
+  },
+  {
+   "trecho": "Ninguém fica de fora do abraço de Deus. Nem você. Principalmente você, esta noite.",
+   "prompt_imagem": "a river winding through a misty valley at dawn",
+   "vazia": true,
+   "animar": false,
+   "emocao": "narrativo, com ternura"
+  },
+  {
+   "trecho": "Agora vamos orar. Feche os olhos, se puder. Respire fundo, e solte o ar devagar. Eu vou orar, e você pode repetir no seu coração.",
+   "prompt_imagem": "golden sunrise over a calm sea with gentle waves and soft clouds",
+   "vazia": true,
+   "animar": false,
+   "emocao": "vulnerável, voz quase chorando, depois consolo"
+  },
+  {
+   "trecho": "Senhor, eu venho a ti nesta noite do jeito que eu estou. Cansado. Com medo de algumas coisas. Com perguntas que eu não sei responder.",
+   "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
+   "vazia": true,
+   "animar": false,
+   "emocao": "vulnerável, voz quase chorando, depois consolo"
+  },
+  {
+   "trecho": "Tu és a minha luz. Quando eu não enxergo o caminho, ilumina pelo menos o próximo passo. Eu não preciso ver a estrada inteira; eu só preciso saber que tu estás comigo.",
+   "prompt_imagem": "a calm mountain lake at night under a sky full of stars",
+   "vazia": true,
+   "animar": false,
+   "emocao": "vulnerável, voz quase chorando, depois consolo"
+  },
+  {
+   "trecho": "Tu és a minha salvação. Eu não consigo me salvar sozinho dos meus medos, das minhas culpas, das minhas ansiedades. Eu entrego tudo isso nas tuas mãos agora.",
+   "prompt_imagem": "rocky desert canyon at sunset with warm orange light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "vulnerável, voz quase chorando, depois consolo"
+  },
+  {
+   "trecho": "Senhor, eu te entrego o medo do futuro. O medo de faltar. O medo de perder alguém. O medo de não dar conta.",
+   "prompt_imagem": "a quiet green valley with a small stream at golden hour",
+   "vazia": true,
+   "animar": false,
+   "emocao": "vulnerável, voz quase chorando, depois consolo"
+  },
+  {
+   "trecho": "Tu conheces cada um deles pelo nome. Tu sabes qual deles me acordou na madrugada. Tu sabes qual deles eu escondo até de quem eu amo.",
+   "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist",
+   "vazia": true,
+   "animar": false,
+   "emocao": "vulnerável, voz quase chorando, depois consolo"
+  },
+  {
+   "trecho": "Eu declaro, como Davi: o Senhor é a força da minha vida. De quem me recearei?",
+   "prompt_imagem": "snowy mountain peaks reflected in a still lake at first light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "vulnerável, voz quase chorando, depois consolo"
+  },
+  {
+   "trecho": "Ainda que um exército me cercasse, o meu coração não temeria. Ainda que a guerra se levantasse contra mim, eu confiaria em ti.",
+   "prompt_imagem": "rolling green hills under a soft pink dawn sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "vulnerável, voz quase chorando, depois consolo"
+  },
+  {
+   "trecho": "Senhor, onde houver medo no meu coração esta noite, coloca a tua paz. Onde houver escuridão, acende a tua luz.",
+   "prompt_imagem": "a full moon rising over a calm ocean, silver reflections",
+   "vazia": true,
+   "animar": false,
+   "emocao": "vulnerável, voz quase chorando, depois consolo"
+  },
+  {
+   "trecho": "E se o medo voltar amanhã cedo, que eu lembre desta oração, e lembre que eu não estou sozinho.",
+   "prompt_imagem": "a large rock on a hilltop above the clouds at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "vulnerável, voz quase chorando, depois consolo"
+  },
+  {
+   "trecho": "E ainda falta a frase que Davi deixou pela metade. Fique comigo, nós estamos chegando nela.",
+   "prompt_imagem": "gentle rain over a peaceful forest lake",
+   "vazia": true,
+   "animar": false,
+   "emocao": "vulnerável, voz quase chorando, depois consolo"
+  },
+  {
+   "trecho": "Senhor, agora eu te entrego a minha mente. Ela não para. Fica repetindo conversas, imaginando o pior, fazendo contas, planejando o que talvez nunca aconteça.",
+   "prompt_imagem": "a wheat field moving in the wind at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração íntima, voz baixa e emocionada"
+  },
+  {
+   "trecho": "Acalma os meus pensamentos, como tu acalmaste o mar. Diz à minha mente o que disseste às ondas: aquieta-te. E que venha uma grande bonança dentro de mim.",
+   "prompt_imagem": "a lighthouse beam over a calm sea at dusk, seen from far away",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração íntima, voz baixa e emocionada"
+  },
+  {
+   "trecho": "Tira de mim a ansiedade pelo amanhã. Tu já estás lá. Tu já viste o dia de amanhã inteiro, e mesmo assim não estás preocupado. Então eu também posso descansar.",
+   "prompt_imagem": "an old olive grove on a hillside in soft evening light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração íntima, voz baixa e emocionada"
+  },
+  {
+   "trecho": "Senhor, se eu acordar no meio da noite com o coração disparado, que eu lembre desta frase: o Senhor é a força da minha vida. E que eu durma de novo, em paz.",
+   "prompt_imagem": "a starry night sky over quiet mountains with the milky way",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração íntima, voz baixa e emocionada"
+  },
+  {
+   "trecho": "Agora, Senhor, eu quero colocar diante de ti a minha casa. Eu te peço pela minha família. Pelos que dormem perto de mim e pelos que estão longe. Pelos que te conhecem e pelos que ainda não te conhecem.",
+   "prompt_imagem": "a river winding through a misty valley at dawn",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração íntima, voz baixa e emocionada"
+  },
+  {
+   "trecho": "Se existe briga na minha casa, traz reconciliação. Se existe silêncio pesado, traz conversa. Se existe frieza, aquece de novo os corações.",
+   "prompt_imagem": "golden sunrise over a calm sea with gentle waves and soft clouds",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração íntima, voz baixa e emocionada"
+  },
+  {
+   "trecho": "Eu te peço pelos meus filhos, ou pelos filhos que eu ainda espero, ou pelos filhos dos meus. Guarda cada um deles. Coloca anjos em volta das camas, das escolas, dos caminhos.",
+   "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração íntima, voz baixa e emocionada"
+  },
+  {
+   "trecho": "Senhor, como Davi pediu para morar na tua casa, eu te peço: mora tu na minha casa. Que ela seja um pavilhão, um lugar onde o teu nome é lembrado.",
+   "prompt_imagem": "a calm mountain lake at night under a sky full of stars",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração íntima, voz baixa e emocionada"
+  },
+  {
+   "trecho": "E se alguém da minha família me feriu, eu te entrego essa dor. Tu disseste que, quando pai e mãe desampararem, tu me recolherás. Então me recolhe, Senhor. Cura o que ficou aberto.",
+   "prompt_imagem": "rocky desert canyon at sunset with warm orange light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração íntima, voz baixa e emocionada"
+  },
+  {
+   "trecho": "Eu também te peço pelas pessoas que estão sozinhas esta noite. As que não têm família por perto. As viúvas, os órfãos, os idosos esquecidos. Recolhe cada um deles, Pai.",
+   "prompt_imagem": "a quiet green valley with a small stream at golden hour",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração íntima, voz baixa e emocionada"
+  },
+  {
+   "trecho": "E se você que está ouvindo é uma dessas pessoas, saiba: neste momento, alguém está orando por você. E Deus está te recolhendo.",
+   "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração íntima, voz baixa e emocionada"
+  },
+  {
+   "trecho": "Senhor, agora eu te entrego o meu cansaço. Tem dias que eu acordo cansado antes mesmo de começar. Tem orações que eu faço há meses, e parece que a resposta não chega.",
+   "prompt_imagem": "snowy mountain peaks reflected in a still lake at first light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração íntima, com ternura"
+  },
+  {
+   "trecho": "Tu conheces a minha espera. Tu sabes quanto tempo eu estou esperando aquele emprego, aquela cura, aquela porta aberta, aquela pessoa voltar.",
+   "prompt_imagem": "rolling green hills under a soft pink dawn sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração íntima, com ternura"
+  },
+  {
+   "trecho": "Eu te peço: não deixes a espera azedar o meu coração. Não deixes que eu desista de ti no meio do caminho.",
+   "prompt_imagem": "a full moon rising over a calm ocean, silver reflections",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração íntima, com ternura"
+  },
+  {
+   "trecho": "Ensina-me, Senhor, o teu caminho, e guia-me pela vereda direita. Quando eu não souber para onde ir, segura a minha mão e me mostra.",
+   "prompt_imagem": "a large rock on a hilltop above the clouds at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração íntima, com ternura"
+  },
+  {
+   "trecho": "E onde houver falsas acusações contra mim, palavras injustas, gente que fala o que não é verdade, eu te entrego tudo isso. Tu és o meu defensor.",
+   "prompt_imagem": "gentle rain over a peaceful forest lake",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração íntima, com ternura"
+  },
+  {
+   "trecho": "Eu não preciso me vingar. Eu não preciso provar nada para ninguém esta noite. Eu só preciso descansar em ti.",
+   "prompt_imagem": "a wheat field moving in the wind at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração íntima, com ternura"
+  },
+  {
+   "trecho": "Senhor, renova as minhas forças enquanto eu durmo. Que amanhã eu acorde com um pouco mais de coragem do que hoje.",
+   "prompt_imagem": "a lighthouse beam over a calm sea at dusk, seen from far away",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração íntima, com ternura"
+  },
+  {
+   "trecho": "Senhor, eu também te entrego o meu corpo esta noite. Tu conheces cada dor que eu sinto. Cada exame que eu estou esperando. Cada remédio que eu tomo. Cada noite mal dormida por causa da dor.",
+   "prompt_imagem": "an old olive grove on a hillside in soft evening light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração íntima, com ternura"
+  },
+  {
+   "trecho": "Eu te peço por cura. Para mim e para quem eu amo. Toca nos corpos doentes. Dá sabedoria aos médicos. Dá força a quem cuida de alguém que está de cama.",
+   "prompt_imagem": "a starry night sky over quiet mountains with the milky way",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração íntima, com ternura"
+  },
+  {
+   "trecho": "E se a cura demorar, Senhor, não me deixes perder a esperança. Que eu continue crendo que vou ver a tua bondade na terra dos viventes.",
+   "prompt_imagem": "a river winding through a misty valley at dawn",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração íntima, com ternura"
+  },
+  {
+   "trecho": "Agora eu te entrego o meu sustento. O meu trabalho, ou o trabalho que eu ainda procuro. As contas que estão em cima da mesa. As dívidas que tiram o meu sono.",
+   "prompt_imagem": "golden sunrise over a calm sea with gentle waves and soft clouds",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração íntima, com ternura"
+  },
+  {
+   "trecho": "Tu alimentaste o teu povo com maná todas as manhãs no deserto. Tu nunca deixaste faltar o pão de cada dia. Então eu descanso: amanhã também vai ter o suficiente.",
+   "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração íntima, com ternura"
+  },
+  {
+   "trecho": "Abre portas que ninguém pode fechar. Fecha as portas que não são para mim. E me dá paz para esperar o teu tempo.",
+   "prompt_imagem": "a calm mountain lake at night under a sky full of stars",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração íntima, com ternura"
+  },
+  {
+   "trecho": "Senhor, agora eu oro por quem está chorando enquanto ouve esta oração.",
+   "prompt_imagem": "rocky desert canyon at sunset with warm orange light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração cansada que vira esperança"
+  },
+  {
+   "trecho": "Por quem perdeu alguém e ainda não consegue acreditar. Por quem foi traído. Por quem está sozinho num quarto escuro, sem coragem de contar para ninguém o que sente.",
+   "prompt_imagem": "a quiet green valley with a small stream at golden hour",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração cansada que vira esperança"
+  },
+  {
+   "trecho": "Tu disseste que, quando pai e mãe desampararem, tu recolhes. Então recolhe agora cada pessoa que se sente abandonada. Abraça quem ninguém abraçou hoje.",
+   "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração cansada que vira esperança"
+  },
+  {
+   "trecho": "Enxuga as lágrimas. Acalma a respiração. Desfaz o nó na garganta. E faz essa pessoa sentir, de um jeito que só tu sabes fazer, que ela não está sozinha.",
+   "prompt_imagem": "snowy mountain peaks reflected in a still lake at first light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração cansada que vira esperança"
+  },
+  {
+   "trecho": "Se é você que está chorando agora, não tenha vergonha. Davi também chorou orando. Deixe as lágrimas caírem. Deus está recolhendo cada uma delas.",
+   "prompt_imagem": "rolling green hills under a soft pink dawn sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "oração cansada que vira esperança"
+  },
+  {
+   "trecho": "Agora eu vou te mostrar aquela frase que eu te prometi no começo. Ela está no versículo treze.",
+   "prompt_imagem": "a full moon rising over a calm ocean, silver reflections",
+   "vazia": true,
+   "animar": false,
+   "emocao": "revelação, voz baixa, pausada e impactante"
+  },
+  {
+   "trecho": "Na nossa Bíblia está escrito assim: \"Pereceria sem dúvida, se não cresse que veria os bens do Senhor na terra dos viventes.\"",
+   "prompt_imagem": "a large rock on a hilltop above the clouds at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "revelação, voz baixa, pausada e impactante"
+  },
+  {
+   "trecho": "Mas no hebraico, a língua em que Davi escreveu, a palavra \"pereceria\" não está lá. Os tradutores colocaram para a frase fazer sentido em português.",
+   "prompt_imagem": "gentle rain over a peaceful forest lake",
+   "vazia": true,
+   "animar": false,
+   "emocao": "revelação, voz baixa, pausada e impactante"
+  },
+  {
+   "trecho": "O que Davi escreveu, de verdade, é uma frase que começa e não termina. Algo assim: \"Se eu não cresse que veria a bondade do Senhor na terra dos viventes…\"",
+   "prompt_imagem": "a wheat field moving in the wind at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "revelação, voz baixa, pausada e impactante"
+  },
+  {
+   "trecho": "E para aí, no meio do caminho, sem ponto final. Davi não completou. É como se ele não tivesse coragem de escrever o que teria acontecido com ele sem essa fé.",
+   "prompt_imagem": "a lighthouse beam over a calm sea at dusk, seen from far away",
+   "vazia": true,
+   "animar": false,
+   "emocao": "revelação, voz baixa, pausada e impactante"
+  },
+  {
+   "trecho": "Pense nisso. Davi, o guerreiro, o rei, o homem que enfrentou um gigante, chegou num ponto em que não conseguiu nem terminar a frase.",
+   "prompt_imagem": "an old olive grove on a hillside in soft evening light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "revelação, voz baixa, pausada e impactante"
+  },
+  {
+   "trecho": "E os antigos copistas da Bíblia marcaram essa palavrinha do começo, \"se não\", com pontinhos especiais em volta dela, como quem diz: aqui tem algo diferente. Preste atenção.",
+   "prompt_imagem": "a starry night sky over quiet mountains with the milky way",
+   "vazia": true,
+   "animar": false,
+   "emocao": "revelação, voz baixa, pausada e impactante"
+  },
+  {
+   "trecho": "A frase ficou pela metade porque a fé dele segurou o resto. Ele não sabia o que seria dele sem Deus, e não quis nem imaginar.",
+   "prompt_imagem": "a river winding through a misty valley at dawn",
+   "vazia": true,
+   "animar": false,
+   "emocao": "revelação, voz baixa, pausada e impactante"
+  },
+  {
+   "trecho": "E talvez a sua vida também tenha uma frase pela metade. Uma história que você ainda não sabe como termina. Um capítulo que está em aberto.",
+   "prompt_imagem": "golden sunrise over a calm sea with gentle waves and soft clouds",
+   "vazia": true,
+   "animar": false,
+   "emocao": "revelação, voz baixa, pausada e impactante"
+  },
+  {
+   "trecho": "Mas repare no que Davi disse: na terra dos viventes. Não só no céu, um dia. Aqui. Nesta vida. Ele creu que ia ver a bondade de Deus ainda vivo.",
+   "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
+   "vazia": true,
+   "animar": false,
+   "emocao": "revelação, voz baixa, pausada e impactante"
+  },
+  {
+   "trecho": "Então eu te digo esta noite: você também vai ver a bondade do Senhor na terra dos viventes. A sua frase não acabou. Deus ainda está escrevendo.",
+   "prompt_imagem": "a calm mountain lake at night under a sky full of stars",
+   "vazia": true,
+   "animar": false,
+   "emocao": "revelação, voz baixa, pausada e impactante"
+  },
+  {
+   "trecho": "E logo depois dessa frase, Davi termina o salmo com um conselho. Só que agora ele não está falando com Deus. Ele está falando com a própria alma, e com você.",
+   "prompt_imagem": "rocky desert canyon at sunset with warm orange light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "encorajamento caloroso, como um amigo"
+  },
+  {
+   "trecho": "\"Espera no Senhor, anima-te, e ele fortalecerá o teu coração; espera, pois, no Senhor.\"",
+   "prompt_imagem": "a quiet green valley with a small stream at golden hour",
+   "vazia": true,
+   "animar": false,
+   "emocao": "encorajamento caloroso, como um amigo"
+  },
+  {
+   "trecho": "Duas vezes ele diz: espera. Como quem sabe que a gente esquece. Como quem segura o ombro de um amigo e repete: espera. Não desista agora.",
+   "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist",
+   "vazia": true,
+   "animar": false,
+   "emocao": "encorajamento caloroso, como um amigo"
+  },
+  {
+   "trecho": "Esperar no Senhor não é ficar parado. É continuar vivendo, trabalhando, amando, orando… sabendo que Deus está agindo mesmo quando eu não vejo.",
+   "prompt_imagem": "snowy mountain peaks reflected in a still lake at first light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "encorajamento caloroso, como um amigo"
+  },
+  {
+   "trecho": "E repare: não é você que tem que fortalecer o próprio coração. É ele que fortalece. A sua parte é esperar. A parte de Deus é dar a força.",
+   "prompt_imagem": "rolling green hills under a soft pink dawn sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "encorajamento caloroso, como um amigo"
+  },
+  {
+   "trecho": "Talvez você esteja esperando há muito tempo. Talvez já tenha pensado em desistir de orar. Davi sabe disso. Por isso ele não disse espera uma vez só. Ele repetiu, para você ouvir de novo: espera, pois, no Senhor.",
+   "prompt_imagem": "a full moon rising over a calm ocean, silver reflections",
+   "vazia": true,
+   "animar": false,
+   "emocao": "encorajamento caloroso, como um amigo"
+  },
+  {
+   "trecho": "E a espera tem um fim. Davi viu a bondade de Deus. Saiu das cavernas. Foi ungido rei. E o mesmo Deus que guardou Davi está guardando você nesta noite.",
+   "prompt_imagem": "a large rock on a hilltop above the clouds at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "encorajamento caloroso, como um amigo"
+  },
+  {
+   "trecho": "Então vamos terminar orando juntos mais uma vez. Senhor, obrigado porque tu és a minha luz nesta noite escura. Obrigado porque tu és a força da minha vida.",
+   "prompt_imagem": "gentle rain over a peaceful forest lake",
+   "vazia": true,
+   "animar": false,
+   "emocao": "paz e bênção, voz suave de despedida"
+  },
+  {
+   "trecho": "Eu coloco nas tuas mãos tudo o que ficou pela metade. As frases que eu não sei terminar. As histórias que ainda não fecharam.",
+   "prompt_imagem": "a wheat field moving in the wind at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "paz e bênção, voz suave de despedida"
+  },
+  {
+   "trecho": "Eu creio que vou ver a tua bondade na terra dos viventes. Na minha casa. Na minha família. Na minha saúde. No meu trabalho.",
+   "prompt_imagem": "a lighthouse beam over a calm sea at dusk, seen from far away",
+   "vazia": true,
+   "animar": false,
+   "emocao": "paz e bênção, voz suave de despedida"
+  },
+  {
+   "trecho": "Esconde-me no teu pavilhão esta noite. Coloca os meus pés sobre a rocha. E fortalece o meu coração enquanto eu durmo.",
+   "prompt_imagem": "an old olive grove on a hillside in soft evening light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "paz e bênção, voz suave de despedida"
+  },
+  {
+   "trecho": "Que nenhum pesadelo me alcance. Que nenhum medo me acorde. Que o teu anjo acampe ao redor desta casa até o amanhecer.",
+   "prompt_imagem": "a starry night sky over quiet mountains with the milky way",
+   "vazia": true,
+   "animar": false,
+   "emocao": "paz e bênção, voz suave de despedida"
+  },
+  {
+   "trecho": "Abençoa também quem está ouvindo esta oração em um hospital, num plantão de trabalho, numa estrada, ou acordado cuidando de alguém. Que a tua luz chegue onde eles estão.",
+   "prompt_imagem": "a river winding through a misty valley at dawn",
+   "vazia": true,
+   "animar": false,
+   "emocao": "paz e bênção, voz suave de despedida"
+  },
+  {
+   "trecho": "E abençoa quem está longe de ti esta noite. Que a tua bondade alcance também os que ainda não te buscam. Que amanhã eles ouçam a tua voz dizendo: buscai o meu rosto.",
+   "prompt_imagem": "golden sunrise over a calm sea with gentle waves and soft clouds",
+   "vazia": true,
+   "animar": false,
+   "emocao": "paz e bênção, voz suave de despedida"
+  },
+  {
+   "trecho": "E amanhã, quando eu abrir os olhos, que a primeira coisa que eu lembre seja esta: o Senhor é a minha luz e a minha salvação. A quem temerei?",
+   "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
+   "vazia": true,
+   "animar": false,
+   "emocao": "paz e bênção, voz suave de despedida"
+  },
+  {
+   "trecho": "Se esta oração tocou você, escreva nos comentários \"a quem temerei\" e o seu pedido de oração. Eu leio e oro por cada um.",
+   "prompt_imagem": "a calm mountain lake at night under a sky full of stars",
+   "vazia": true,
+   "animar": false,
+   "emocao": "paz e bênção, voz suave de despedida"
+  },
+  {
+   "trecho": "E inscreva-se no canal, para orarmos juntos de novo amanhã à noite.",
+   "prompt_imagem": "rocky desert canyon at sunset with warm orange light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "paz e bênção, voz suave de despedida"
+  },
+  {
+   "trecho": "Durma em paz. Espera no Senhor. Ele vai fortalecer o seu coração. Em nome de Jesus… amém.",
+   "prompt_imagem": "a quiet green valley with a small stream at golden hour",
+   "vazia": true,
+   "animar": false,
+   "emocao": "paz e bênção, voz suave de despedida"
+  }
+ ]
+}
