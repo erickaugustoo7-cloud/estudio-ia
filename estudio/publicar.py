@@ -83,8 +83,16 @@ def main():
     if str(dados.get("pasta", "")).startswith("curto_"):
         canal = {**canal, "publicar_em": [p for p in canal["publicar_em"] if p not in ("instagram", "youtube")]}
         log("publicar", "curto de versículo: fora do Instagram e do YouTube (originalidade)")
+    titulo = roteiro.get("titulo_youtube") or roteiro.get("titulo", "")
+    # Título trocado depois da produção: comentário "Título novo: ..." na Issue (vale o último)
+    for c in info.get("comments", []):
+        m = re.search(r"^\s*T[íi]tulo novo:\s*(.+?)\s*$", c.get("body", ""), re.M | re.I)
+        if m:
+            titulo = m.group(1).strip()[:100]
+    if titulo:
+        log("publicar", f"título: {titulo}")
     res = publicador.publicar(canal, video, dados["texto_post"], fb_video_id=fb_ant,
-                              titulo=roteiro.get("titulo_youtube") or roteiro.get("titulo", ""), tags=roteiro.get("hashtags"))
+                              titulo=titulo, tags=roteiro.get("hashtags"))
 
     linhas = ["## 📤 Resultado da publicação"]
     sucesso = True
