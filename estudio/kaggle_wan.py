@@ -850,8 +850,8 @@ def main():
         # desde 16/11 (decisão do Eric): o Kaggle fica só para a novela; os demais vídeos usam paisagens REAIS
         # (Pixabay) com imagens geradas fora do Kaggle apenas como reserva
         r["fundo_video"] = "pixabay"
-        if r.get("fonte_imagem", "kaggle") == "kaggle":  # 24/11: ModelScope quando houver token
-            r["fonte_imagem"] = "modelscope" if os.getenv("MODELSCOPE_TOKEN") else "cloudflare"
+        if r.get("fonte_imagem", "kaggle") == "kaggle":  # orações/Shorts: Cloudflare (ModelScope gasta Magicubes)
+            r["fonte_imagem"] = "cloudflare"
         for c in r["cenas"]:
             c["animar"] = False
     pasta = SAIDA / f"wan_{caminho.stem}_{datetime.now():%Y%m%d_%H%M%S}"

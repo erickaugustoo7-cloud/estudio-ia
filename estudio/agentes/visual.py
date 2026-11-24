@@ -19,12 +19,13 @@ from estudio.base import log
 
 UA = {"User-Agent": "estudio-ia/1.0 (https://github.com/erickaugustoo7-cloud/estudio-ia)"}
 
-ORDEM = {  # 24/11: ModelScope (Z-Image-Turbo, grátis, ~2000/dia) na frente; Cloudflare e Pollinations de reserva
-    "nasa": ["nasa", "modelscope", "cloudflare", "pollinations", "commons"],
-    "pollinations": ["modelscope", "cloudflare", "pollinations", "commons"],
+ORDEM = {  # 24/11: a imagem do ModelScope gasta Magicubes (~200/dia) — fica para documentários e capas;
+    # Shorts usam Cloudflare primeiro e o ModelScope só de reserva
+    "nasa": ["nasa", "cloudflare", "pollinations", "modelscope", "commons"],
+    "pollinations": ["cloudflare", "pollinations", "modelscope", "commons"],
     # bíblico: busca por palavra-chave no Commons trazia imagens fora do tema — melhor repetir a anterior
-    "pollinations_estrito": ["modelscope", "cloudflare", "pollinations"],
-    "commons": ["commons", "modelscope", "cloudflare", "pollinations"],
+    "pollinations_estrito": ["cloudflare", "pollinations", "modelscope"],
+    "commons": ["commons", "cloudflare", "pollinations", "modelscope"],
 }
 
 
@@ -212,7 +213,7 @@ FONTES = {"nasa": _nasa, "modelscope": _modelscope, "cloudflare": _cloudflare, "
 
 def gerar_uma(canal: dict, cena: dict, destino: Path, semente: int) -> bool:
     """Gera uma única imagem por IA (usado pelo revisor visual para refazer uma cena)."""
-    for nome in ("modelscope", "cloudflare", "pollinations"):
+    for nome in ("cloudflare", "pollinations", "modelscope"):
         if nome in FONTES and FONTES[nome](cena=cena, destino=destino, usados=set(), canal=canal, seed=semente):
             log("visual", f"imagem gerada ({nome})")
             return True
