@@ -1,0 +1,68 @@
+{
+  "titulo": "Oração para quem chora escondido para ninguém ver",
+  "gancho_tela": "Você chora escondido?",
+  "referencia": "Salmo 56:8-9",
+  "serie": "Oração de 20 segundos",
+  "tipo": "tiktok",
+  "fonte_imagem": "kaggle",
+  "opcoes_imagem": 2,
+  "duracao_max": 40,
+  "volume_musica": 0.12,
+  "plataformas": [
+    "facebook"
+  ],
+  "estilo_imagem": "cinematic photorealistic epic film still, soft night and dawn light, dramatic volumetric god rays, ancient Judea hill country, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic slow subtle motion.",
+  "epoca_imagem": "Ancient Judea, stone house, clay oil lamps, leather, linen and wood only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "Você chora escondido para ninguém ver? Ore comigo agora.",
+      "prompt_imagem": "a single drop of water falling from the edge of a rough clay bowl beside a small burning clay oil lamp on a stone table in a dark ancient room, close-up",
+      "vazia": true,
+      "animar": true,
+      "prompt_movimento": "a single water drop slowly falls and ripples in the clay bowl, the small flame flickers gently"
+    },
+    {
+      "trecho": "Senhor, tem dias em que eu seguro tudo e choro em silêncio.",
+      "prompt_imagem": "a dim ancient stone room at night, a linen curtain over a small window, faint blue moonlight, one clay oil lamp almost out",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Mas a tua Palavra diz: põe as minhas lágrimas no teu odre.",
+      "prompt_imagem": "an old leather waterskin hanging from a wooden peg on a rough stone wall, warm ray of dawn light falling across it",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Nenhuma lágrima se perde. Tu contaste as minhas aflições.",
+      "prompt_imagem": "an old parchment scroll partly unrolled on a rough wooden table, morning dew drops on the wood, soft golden light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Então eu descanso em ti, porque isto eu sei: Deus está comigo. Amém.",
+      "prompt_imagem": "golden sunrise breaking over the quiet hills of Judea, volumetric god rays through morning mist, wide high view",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Siga o Mensageiro de Fé para orar comigo todos os dias.",
+      "prompt_imagem": "ancient stone courtyard with a clay water jar in warm morning light, god rays through the dust, calm and peaceful",
+      "vazia": true,
+      "animar": false
+    }
+  ],
+  "legenda": "Para quem chora escondido: \"Põe as minhas lágrimas no teu odre; não estão elas no teu livro?\" (Salmo 56:8). Deus vê cada lágrima. Por quem você quer que a gente ore? Comente 👇",
+  "hashtags": [
+    "#Oração",
+    "#Fé",
+    "#Deus",
+    "#Bíblia",
+    "#Cristão"
+  ],
+  "fontes": [
+    "Salmo 56:8-9 — Almeida (domínio público): \"Tu contaste as minhas aflições; põe as minhas lágrimas no teu odre; não estão elas no teu livro?\" / \"isto eu sei, que Deus está comigo\""
+  ]
+}
