@@ -1141,6 +1141,10 @@ def main():
     def _zoom(i: int, seg: float) -> Path:
         """Ilustração com movimento de câmera suave (aproxima, afasta ou desliza), variando de cena para cena."""
         fixo = pasta / f"clipe_fixo_{i}.mp4"
+        if os.getenv("PROFUNDIDADE", "0") == "1":  # efeito 2.5D (profundidade) — ver estudio/agentes/profundidade.py
+            from estudio.agentes import profundidade
+            if profundidade.clipe_2d5(imgs[i], fixo, seg, W, H, mov=i):
+                return fixo
         n = max(1, int(seg * 30))
         mov = [("min(1+0.0010*on,1.15)", "iw/2-(iw/zoom/2)", "ih/2-(ih/zoom/2)"),
                ("max(1.15-0.0010*on,1.0)", "iw/2-(iw/zoom/2)", "ih/2-(ih/zoom/2)"),

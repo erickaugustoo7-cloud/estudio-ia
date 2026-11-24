@@ -1,0 +1,46 @@
+name: Demo 2.5D (profundidade)
+on: workflow_dispatch
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      MODELSCOPE_TOKEN: ${{ secrets.MODELSCOPE_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - run: bash ferramentas/instalar_ffmpeg.sh
+      - run: |
+          pip install -q torch --index-url https://download.pytorch.org/whl/cpu
+          pip install -q transformers opencv-python-headless pillow requests pyyaml numpy
+      - run: |
+          python - <<'Q'
+          import base64, json, pathlib, subprocess, sys, time
+          sys.path.insert(0, ".")
+          from estudio.kaggle_wan import _rodar_modelscope
+          from estudio.agentes import profundidade
+          p = pathlib.Path("demo"); p.mkdir()
+          itens = [{"tipo": "imagem", "nome": "a", "resolucao": "1344x768", "seed": 21, "prompt": "cinematic photorealistic film still: ancient Egyptian workers far away dragging a huge limestone block on a wooden sledge across golden sand, the Great Pyramid under construction in the background, palm trees in the foreground, morning haze, volumetric light, documentary, no text"},
+                   {"tipo": "imagem", "nome": "b", "resolucao": "1344x768", "seed": 5, "prompt": "cinematic photorealistic film still: giant ground sloth Megatherium, shaggy brown fur, huge curved claws, standing on its hind legs eating leaves from a tree, ice age grassland, distant mountains, golden hour, documentary, no text"}]
+          saida, rel = _rodar_modelscope(itens, p, "demo"); print(rel)
+          W, H = 1280, 720
+          for i, n in enumerate(("a", "b")):
+              img = saida / f"{n}.png"
+              t = time.time()
+              ok = profundidade.clipe_2d5(img, p / f"{n}_25d.mp4", 6.0, W, H, mov=i * 2)
+              print("2.5D", n, bool(ok), f"{time.time()-t:.1f}s", flush=True)
+              k = 180
+              subprocess.run(["ffmpeg","-y","-loglevel","error","-loop","1","-i",str(img),"-vf",
+                  f"scale={int(W*1.2)}:{int(H*1.2)},zoompan=z='min(1+0.0010*on,1.15)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d={k}:s={W}x{H}:fps=30",
+                  "-t","6","-c:v","libx264","-crf","20","-pix_fmt","yuv420p",str(p/f"{n}_zoom.mp4")],check=True)
+              subprocess.run(["ffmpeg","-y","-loglevel","error","-i",str(p/f"{n}_zoom.mp4"),"-i",str(p/f"{n}_25d.mp4"),"-filter_complex",
+                  "[0:v]scale=640:360,drawtext=text='ANTES (zoom)':x=20:y=20:fontsize=28:fontcolor=white:box=1:boxcolor=black@0.5[a];"
+                  "[1:v]scale=640:360,drawtext=text='DEPOIS (2.5D)':x=20:y=20:fontsize=28:fontcolor=white:box=1:boxcolor=black@0.5[b];[a][b]vstack",
+                  "-c:v","libx264","-crf","24","-pix_fmt","yuv420p",str(p/f"cmp_{n}.mp4")],check=True)
+          subprocess.run(["ffmpeg","-y","-loglevel","error","-i",str(p/"cmp_a.mp4"),"-i",str(p/"cmp_b.mp4"),"-filter_complex","[0:v][1:v]concat=n=2:v=1","-c:v","libx264","-crf","25","-pix_fmt","yuv420p",str(p/"comparacao.mp4")],check=True)
+          b = base64.b64encode((p/"comparacao.mp4").read_bytes()).decode()
+          print("TAM", len(b))
+          for i in range(0, len(b), 60000):
+              print(f"VID {b[i:i+60000]}")
+          Q
