@@ -131,6 +131,54 @@ def _rodar_modal(cenas: list, pasta: Path, etapa: str = "imagens") -> tuple[Path
     return saida, rel.read_text() if rel.exists() else ""
 
 
+def _rodar_modelscope(cenas: list, pasta: Path, etapa: str = "imagens") -> tuple[Path, str]:
+    """Mesmo contrato do _rodar_kaggle: Z-Image-Turbo pela API-Inference gratuita do ModelScope (Alibaba)."""
+    import requests
+    from concurrent.futures import ThreadPoolExecutor
+    tok = os.environ["MODELSCOPE_TOKEN"]
+    bases = [b for b in (os.getenv("MODELSCOPE_BASE"), "https://api-inference.modelscope.cn",
+                         "https://api-inference.modelscope.ai") if b]
+    saida = pasta / f"modelscope_{etapa}"
+    saida.mkdir(parents=True, exist_ok=True)
+    itens = [c for c in cenas if c.get("tipo") == "imagem"]
+    H = {"Authorization": f"Bearer {tok}", "Content-Type": "application/json"}
+
+    def gerar(c):
+        w, h = (int(x) for x in c.get("resolucao", "768x1344").split("x"))
+        corpo = {"model": os.getenv("MODELSCOPE_MODELO", "Tongyi-MAI/Z-Image-Turbo"), "prompt": c["prompt"][:2000],
+                 "size": f"{w}x{h}", "seed": int(c.get("seed", 42)), "steps": c.get("passos", 9), "guidance": 0.0}
+        for base in bases:
+            try:
+                r = requests.post(f"{base}/v1/images/generations", headers={**H, "X-ModelScope-Async-Mode": "true"},
+                                  json=corpo, timeout=60)
+                if r.status_code >= 400:
+                    log("wan", f"ModelScope {base[-3:]}: {r.status_code} {r.text[:200]}")
+                    continue
+                tid = r.json()["task_id"]
+                for _ in range(90):
+                    time.sleep(4)
+                    st = requests.get(f"{base}/v1/tasks/{tid}", headers={**H, "X-ModelScope-Task-Type": "image_generation"},
+                                      timeout=30).json()
+                    if st.get("task_status") == "SUCCEED":
+                        url = st["output_images"][0]
+                        (saida / f"{c['nome']}.png").write_bytes(requests.get(url, timeout=60).content)
+                        return True
+                    if st.get("task_status") == "FAILED":
+                        log("wan", f"ModelScope falhou {c['nome']}: {str(st)[:200]}")
+                        break
+            except Exception as e:  # noqa: BLE001
+                log("wan", f"ModelScope erro {c['nome']}: {e}")
+        return False
+
+    t = time.time()
+    with ThreadPoolExecutor(int(os.getenv("MODELSCOPE_PARALELO", "3"))) as ex:
+        res = list(ex.map(gerar, itens))
+    rel = {"total_s": round(time.time() - t), "cenas": {i: {"ok": ok} for i, ok in enumerate(res)}}
+    (saida / "relatorio.json").write_text(json.dumps(rel))
+    log("wan", f"ModelScope ({etapa}): {sum(res)}/{len(itens)} imagens em {(time.time() - t) / 60:.1f} min")
+    return saida, json.dumps(rel)
+
+
 def _kaggle(*args, check=True) -> str:
     r = subprocess.run([sys.executable, "-m", "kaggle", *args], capture_output=True, text=True)
     if check and r.returncode:
@@ -739,7 +787,7 @@ def main():
     if r.get("tipo") == "documentario":
         os.environ["SEM_PAISAGEM_RESERVA"] = "1"
         canal_img["documentario"] = True
-    if r.get("tipo") == "documentario" and r.get("fonte_imagem") in ("kaggle", "modal"):
+    if r.get("tipo") == "documentario" and r.get("fonte_imagem") in ("kaggle", "modal", "modelscope"):
         # Antes de Nós (Eric autorizou em 18/11): imagens paradas de reconstituição no Kaggle, sem animação Wan;
         # Pixabay só para paisagens puras e museus para as peças
         for c in r["cenas"]:
@@ -909,7 +957,7 @@ def main():
         log("wan", f"imagens de museu: {len(acervo_img)}/{sum(bool(c.get('acervo')) for c in r['cenas'])} cenas pedidas")
         if creditos:
             r["fontes"] = list(r.get("fontes", [])) + ["Imagens de acervo: " + "; ".join(dict.fromkeys(creditos))]
-    if fonte in ("kaggle", "modal"):
+    if fonte in ("kaggle", "modal", "modelscope"):
         from estudio.agentes.revisor_visual import _avaliar
         chave = os.getenv("GEMINI_API_KEY")
         prontas = {i: stock[i][1] for i in stock} | dict(acervo_img)  # cenas com vídeo real ou peça de museu
@@ -928,7 +976,8 @@ def main():
                                                     r.get("epoca_imagem", "Strictly first century objects of clay, stone, wood and cloth"),
                                                     moderno=bool(r.get("moderno")) or r.get("tipo") == "documentario")}
                           for k in range(opcoes if rodada == 1 else max(opcoes, 2))]
-            saida_img, rel_img = (_rodar_modal if fonte == "modal" else _rodar_kaggle)(itens, pasta, f"imagens{rodada}")
+            saida_img, rel_img = {"modal": _rodar_modal, "modelscope": _rodar_modelscope}.get(fonte, _rodar_kaggle)(
+                itens, pasta, f"imagens{rodada}")
             log("wan", f"imagens (rodada {rodada}): {rel_img[:200]}")
             def _revisar_cena(i):  # revisa as opções de uma cena (várias cenas em paralelo)
                 cand = sorted(x for x in saida_img.rglob(f"img_{i}_r{rodada}*.*")
