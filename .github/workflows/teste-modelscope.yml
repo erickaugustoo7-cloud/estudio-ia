@@ -1,11 +1,16 @@
 name: Teste ModelScope (imagens)
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+    inputs:
+      modelo:
+        default: Tongyi-MAI/Z-Image-Turbo
 jobs:
   teste:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     env:
       MODELSCOPE_TOKEN: ${{ secrets.MODELSCOPE_TOKEN }}
+      MODELSCOPE_MODELO: ${{ inputs.modelo }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -18,7 +23,7 @@ jobs:
           sys.path.insert(0, ".")
           from estudio.kaggle_wan import _rodar_modelscope
           from PIL import Image
-          itens = [{"tipo": "imagem", "nome": "t1", "resolucao": "1344x768", "seed": 7, "prompt": "cinematic photorealistic film still: a giant ground sloth the size of an elephant walking across white gypsum sand dunes at dawn, ice age landscape, volumetric light, documentary, no text"},
+          itens = [{"tipo": "imagem", "nome": "t1", "resolucao": "1344x768", "seed": 7, "prompt": "cinematic photorealistic film still: a giant ground sloth Megatherium, shaggy brown fur, huge curved claws, standing on its hind legs on white gypsum sand dunes at dawn, ice age landscape, volumetric light, documentary, no text"},
                    {"tipo": "imagem", "nome": "t2", "resolucao": "1344x768", "seed": 11, "prompt": "cinematic photorealistic film still: a herd of woolly mammoths crossing a snowy steppe under a pale winter sun, tiny distant figures of prehistoric hunters on a ridge, documentary, no text"}]
           p = pathlib.Path("teste"); p.mkdir()
           saida, rel = _rodar_modelscope(itens, p, "teste")
