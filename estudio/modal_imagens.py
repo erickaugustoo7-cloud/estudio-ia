@@ -3,6 +3,7 @@ Uso: modal run estudio/modal_imagens.py --entrada itens.json --saida pasta/
 itens.json = lista de {"nome", "prompt", "resolucao": "1344x768", "seed", "passos"} (mesmo formato do Kaggle).
 Custo: GPU L4 cobrada por segundo, dentro do crédito gratuito do Modal; pesos ficam num Volume (baixa uma vez só)."""
 import json
+import os
 import time
 from pathlib import Path
 
@@ -17,7 +18,7 @@ imagem = (modal.Image.debian_slim(python_version="3.11")
           .env({"HF_HOME": "/cache/hf", "HF_HUB_ENABLE_HF_TRANSFER": "0"}))
 
 
-@app.cls(image=imagem, gpu="L4", volumes={"/cache": pesos}, timeout=60 * 30, scaledown_window=60, max_containers=1)
+@app.cls(image=imagem, gpu=os.getenv("MODAL_GPU", "T4"), volumes={"/cache": pesos}, timeout=60 * 30, scaledown_window=60, max_containers=1)
 class ZImage:
     @modal.enter()
     def carregar(self):
