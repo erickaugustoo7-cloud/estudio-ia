@@ -15,4 +15,4 @@ jobs:
                 -H "X-ModelScope-Async-Mode: true" -d "{\"model\":\"$M\",\"prompt\":\"woolly mammoths walking in snow, cinematic\"}" | head -c 400; echo
             done
           done
-          echo "== lista de modelos"; curl -s -m 60 "$B/v1/models" -H "Authorization: Bearer $MODELSCOPE_TOKEN" | python3 -c "import sys,json;d=json.load(sys.stdin);print([m['id'] for m in d.get('data',[]) if any(k in m['id'].lower() for k in ('wan','video','t2v','i2v','hunyuan','ltx','cog'))][:40]);print(len(d.get('data',[])))" || true
+          echo "== lista de modelos"; curl -s -m 60 "$B/v1/models" -H "Authorization: Bearer $MODELSCOPE_TOKEN" | python3 -c "import sys,json;d=json.load(sys.stdin);print('MODELOS', json.dumps([m['id'] for m in d.get('data',[])]))" || true
