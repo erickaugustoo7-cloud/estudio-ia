@@ -1,0 +1,23 @@
+name: Remendar capa (tirar * da miniatura)
+on:
+  workflow_dispatch:
+    inputs:
+      run_id: {required: true}
+      video_id: {required: true}
+jobs:
+  capa:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - run: gh run download ${{ inputs.run_id }} -R ${{ github.repository }} -D art
+      - run: pip install pillow requests -q
+      - run: python ferramentas/remendar_capa.py
+        env:
+          VIDEO_ID: ${{ inputs.video_id }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN_CURIOSO }}
+      - uses: actions/upload-artifact@v4
+        with: {name: capa-corrigida, path: thumb_corrigida.jpg}
