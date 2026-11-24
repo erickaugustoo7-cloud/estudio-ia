@@ -1,0 +1,16 @@
+name: Corrigir textos do Antes de Nós
+on: workflow_dispatch
+jobs:
+  corrigir:
+    runs-on: ubuntu-latest
+    env:
+      YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+      YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+      YT_REFRESH_TOKEN_CURIOSO: ${{ secrets.YT_REFRESH_TOKEN_CURIOSO }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - run: pip install -r requirements.txt || pip install requests pyyaml pillow
+      - run: python ferramentas/corrigir_textos_antes_de_nos.py

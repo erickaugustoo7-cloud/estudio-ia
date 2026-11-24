@@ -566,10 +566,13 @@ def _short_isca(r, canal, imgs, tempos, palavras, mp3, pasta) -> None:
     montador.normalizar_volume(video)
     titulo = cfg.get("titulo") or cfg.get("texto_topo", r["titulo"]).capitalize()
     tags = cfg.get("hashtags") or r.get("hashtags", [])[:3]
-    rot = {"titulo": f"Short isca · {titulo}", "titulo_youtube": f"{titulo} 🙏 #shorts"[:100],
+    biblico = r.get("canal", "biblico") == "biblico"
+    titulo_yt = titulo if (not biblico or "🙏" in titulo) else f"{titulo} 🙏"
+    rot = {"titulo": f"Short isca · {titulo}", "titulo_youtube": f"{titulo_yt} #shorts"[:100],
            "narracao": " ".join(p["texto"] for p in pal),
-           "legenda": cfg.get("legenda") or (f"{titulo}. A oração completa para dormir está no vídeo relacionado. "
-                                             "Escreva Amém e inscreva-se para orarmos juntos toda noite."),
+           "legenda": cfg.get("legenda") or canal.get("legenda_isca", "").format(titulo=titulo) or
+                      (f"{titulo}. A oração completa para dormir está no vídeo relacionado. "
+                       "Escreva Amém e inscreva-se para orarmos juntos toda noite."),
            "hashtags": tags, "fontes": r.get("fontes", []), "plataformas": ["youtube"]}
     (out / "roteiro.json").write_text(json.dumps(rot, ensure_ascii=False, indent=2), encoding="utf-8")
     texto = montar_texto_post(canal, rot)
@@ -1272,8 +1275,8 @@ def main():
             partes.append("⏱️ Capítulos\n" + "\n".join(f"{_mmss(t)} {nome}" for t, nome in caps))
         if r.get("referencia"):
             partes.append(f"📖 Leitura bíblica: {r['referencia']}")
-        partes.append("🔔 Inscreva-se no Mensageiro de Fé e ative o sininho: toda noite uma nova oração para dormir "
-                      "e toda semana um filme bíblico completo.")
+        partes.append(canal.get("cta_descricao") or ("🔔 Inscreva-se no Mensageiro de Fé e ative o sininho: toda noite "
+                                                       "uma nova oração para dormir e toda semana um filme bíblico completo."))
         tags = [("#" + x.lstrip("#").replace(" ", "")) for x in r.get("hashtags", [])][:5]
         if tags:
             partes.append(" ".join(tags))

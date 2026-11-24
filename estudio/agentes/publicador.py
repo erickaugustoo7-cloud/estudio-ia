@@ -453,14 +453,16 @@ def _enviar_capa(auth: dict, video_id: str, capa: Path):
         log("publicador", f"miniatura do YouTube falhou ({e})")
 
 
-def _traducoes_youtube(titulo: str, descricao: str) -> dict:
+def _traducoes_youtube(titulo: str, descricao: str, cristao: bool = True) -> dict:
     """Título e descrição em espanhol e inglês (YouTube "localizations"): quem busca "oración para dormir" ou
     "prayer before sleep" também encontra o vídeo. Usa o Gemini de texto (cota separada da voz); falhou, segue sem."""
     chave = os.getenv("GEMINI_API_KEY")
     if not chave:
         return {}
-    pedido = ("Traduza este título e esta descrição de um vídeo cristão do YouTube para espanhol latino-americano (es) e "
-              "inglês (en). Tom natural, emocional, como os grandes canais de oração de cada idioma; mantenha o formato "
+    tipo_video = "um vídeo cristão" if cristao else "um documentário de história (NÃO religioso: não acrescente nada de fé)"
+    tom = "como os grandes canais de oração de cada idioma" if cristao else "como os grandes canais de documentário"
+    pedido = (f"Traduza este título e esta descrição de {tipo_video} do YouTube para espanhol latino-americano (es) e "
+              f"inglês (en). Tom natural, emocional, {tom}; mantenha o formato "
               "'[gancho] | [tipo]' no título (máx. 95 caracteres), emojis e hashtags (traduza as hashtags). Nos versículos, "
               "use a tradução bíblica tradicional de cada idioma (Reina-Valera 1960 / KJV) se reconhecer o texto. "
               "Responda SÓ JSON: {\"es\": {\"title\": \"...\", \"description\": \"...\"}, "
@@ -501,7 +503,7 @@ def youtube_upload(video: Path, titulo: str, descricao: str, tags: list[str] | N
                         "categoryId": "22", "defaultLanguage": "pt-BR", "defaultAudioLanguage": "pt-BR"},
             "status": {"privacyStatus": os.getenv("YT_PRIVACIDADE", "public"), "selfDeclaredMadeForKids": False,
                        "containsSyntheticMedia": True}}
-    loc = _traducoes_youtube(titulo, descricao) if os.getenv("YT_TRADUZIR", "1") == "1" else {}
+    loc = _traducoes_youtube(titulo, descricao, cristao="MENSAGEIRO" in marca.upper()) if os.getenv("YT_TRADUZIR", "1") == "1" else {}
     if loc:
         meta["localizations"] = loc
     desejado = meta["status"]["privacyStatus"]
