@@ -20,7 +20,7 @@
  ],
  "selo_capa": "Documentário",
  "cena_capa": 0,
- "capa_prompt": "cinematic photo of a giant ground sloth the size of an elephant rearing up on its hind legs on an Ice Age grassland at sunset, the left half of the frame dark and empty for text, realistic, documentary style, 16:9, no text, no people",
+ "capa_prompt": "cinematic photo of a giant ground sloth the size of an elephant rearing up on its hind legs on an empty Ice Age grassland at sunset, only the animal in the frame, the left half of the frame dark and empty for text, realistic, documentary style, 16:9, no text, no humans, no person, no man, no figures",
  "estilo_imagem": "photorealistic documentary reconstruction, National Geographic style, natural light, ultra detailed, horizontal 16:9, no text",
  "prefixo_imagem": "documentary photo:",
  "epoca_imagem": "Ice Age, Late Pleistocene, around 20,000 years ago; wild nature, animals, stone tools, bone; no modern objects, no buildings, no roads, no text, no watermark",
@@ -70,7 +70,7 @@
  "cenas": [
   {
    "trecho": "Seus antepassados caminharam ao lado de preguiças do tamanho de elefantes. Não é exagero e não é lenda. Num deserto de areia branca, os cientistas encontraram pegadas de uma dessas preguiças.",
-   "prompt_imagem": "a giant ground sloth the size of an elephant walking across an open grassland at dawn, Ice Age South America, mist, epic wide shot, documentary reconstruction",
+   "prompt_imagem": "a giant ground sloth the size of an elephant walking across an open grassland at dawn, Ice Age South America, mist, epic wide shot, documentary reconstruction, no people",
    "vazia": false,
    "animar": false
   },
@@ -96,10 +96,9 @@
   },
   {
    "trecho": "Imagine o Brasil há uns vinte mil anos. O mundo vivia o auge da última Era do Gelo. Grande parte do norte da Europa e da América do Norte estava coberta por geleiras enormes.",
-   "prompt_imagem": "documentary reconstruction, savanna, Ice Age, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "savanna"
+   "prompt_imagem": "tall golden grass waving in the wind under a vast sky, Ice Age South America, untouched wilderness, no people, wide shot",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "Aqui no sul, não havia gelo cobrindo tudo, mas o clima era diferente do de hoje. Em muitos lugares, as florestas davam espaço para campos abertos e cerrados.",
@@ -109,10 +108,9 @@
   },
   {
    "trecho": "E nesses campos vivia um tipo de fauna que hoje parece coisa de filme. Os cientistas chamam esses animais de megafauna, que quer dizer, simplesmente, os bichos grandes.",
-   "prompt_imagem": "documentary reconstruction, grassland, Ice Age, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "grassland"
+   "prompt_imagem": "herds of giant ground sloths and glyptodonts grazing on a wild open plain with scattered trees, Ice Age South America, no people, very wide shot",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "Muitos deles existiam só nas Américas. Eram parentes gigantes de animais que a gente ainda conhece, como o tatu, a preguiça e a onça. Para você ter uma ideia do que se perdeu, os pesquisadores estimam que a América do Sul perdeu mais de oitenta por cento dos seus gêneros de grandes mamíferos no fim da Era do Gelo.",
@@ -253,10 +251,9 @@
   },
   {
    "trecho": "Preguiças-gigantes, tatus gigantes e o próprio Smilodon populator, o dente-de-sabre. Então, em 1843, durante uma seca forte, Lund entrou fundo numa caverna que costumava ficar alagada.",
-   "prompt_imagem": "documentary reconstruction, fossil bones, Ice Age, natural light",
-   "vazia": true,
-   "animar": false,
-   "acervo": "fossil bones"
+   "prompt_imagem": "a pile of large fossil bones and skulls of extinct animals on a limestone cave floor lit by an oil lamp, 19th century excavation, no people",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "E lá encontrou restos de cerca de trinta pessoas, misturados com ossos de animais extintos havia muito tempo. Para a ciência daquela época, isso era quase impensável.",
@@ -272,10 +269,9 @@
   },
   {
    "trecho": "E a região de Lagoa Santa continua sendo um dos lugares mais importantes do mundo para estudar os primeiros americanos. Mas, na época dele, faltava uma coisa: datas precisas.",
-   "prompt_imagem": "documentary reconstruction, fossil skull animal, Ice Age, natural light",
-   "vazia": true,
-   "animar": false,
-   "acervo": "fossil skull animal"
+   "prompt_imagem": "a fossil skull of a saber-toothed cat on an old wooden table, dark background, close up, no people",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "Ninguém sabia dizer quando aquelas pessoas tinham vivido. Essa resposta só começou a chegar mais de cem anos depois.",
@@ -474,10 +470,9 @@
   },
   {
    "trecho": "Então o que aconteceu com os gigantes da América do Sul? Essa é uma das maiores discussões da ciência. De um lado, há quem defenda que o principal culpado foi o clima.",
-   "prompt_imagem": "documentary reconstruction, rain clouds, Ice Age, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "rain clouds"
+   "prompt_imagem": "dark storm clouds rolling over a wild Ice Age grassland, rain in the distance, no people, wide shot",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "O fim da Era do Gelo mudou as chuvas, as temperaturas e as plantas. Campos viraram florestas, e muitos animais perderam o tipo de comida e de ambiente de que precisavam.",
@@ -487,10 +482,10 @@
   },
   {
    "trecho": "Do outro lado, há quem aponte para nós. Em quase todos os lugares, os grandes animais começaram a sumir pouco depois da chegada dos humanos. Um estudo de 2016, que analisou ossos da Patagônia, indicou que a grande onda de extinções no sul do continente aconteceu por volta de doze mil e trezentos anos atrás.",
-   "prompt_imagem": "documentary reconstruction, megafauna fossil, Ice Age, natural light",
+   "prompt_imagem": "documentary reconstruction, megatherium skeleton, Ice Age, natural light",
    "vazia": true,
    "animar": false,
-   "acervo": "megafauna fossil"
+   "acervo": "megatherium skeleton"
   },
   {
    "trecho": "Isso foi entre mil e três mil anos depois da chegada dos humanos à região. A conclusão desses pesquisadores foi que nem o clima nem os humanos, sozinhos, explicam tudo.",
@@ -520,10 +515,9 @@
   },
   {
    "trecho": "Agora, vamos voltar ao deserto branco de White Sands. Porque é lá que está a pegada que eu te prometi no começo. Em 2018, uma equipe de pesquisadores publicou um estudo sobre uma trilha de pegadas muito especial.",
-   "prompt_imagem": "documentary reconstruction, white sand dunes, Ice Age, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "white sand dunes"
+   "prompt_imagem": "untouched white gypsum sand dunes under a clear blue sky, wild desert, no people, wide shot",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "Era a trilha de uma preguiça-gigante, atravessando a antiga margem do lago. Até aí, nada de diferente. O espantoso era o que estava dentro das pegadas da preguiça.",
@@ -564,17 +558,15 @@
   },
   {
    "trecho": "Essa trilha tem pelo menos onze mil e setecentos anos. E é considerada uma das primeiras evidências diretas de pessoas interagindo com uma preguiça-gigante.",
-   "prompt_imagem": "documentary reconstruction, white sand dunes, Ice Age, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "white sand dunes"
+   "prompt_imagem": "untouched white gypsum sand dunes under a clear blue sky, wild desert, no people, wide shot",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "Por centenas de milhares de anos, o mundo foi cheio de gigantes. E eles não sumiram num passado tão distante que não tenha nada a ver com a gente.",
-   "prompt_imagem": "documentary reconstruction, savanna sunset, Ice Age, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "savanna sunset"
+   "prompt_imagem": "a wild grassland at sunset with lone trees in silhouette, Ice Age South America, no people, very wide shot",
+   "vazia": false,
+   "animar": false
   },
   {
    "trecho": "Eles sumiram quando os nossos antepassados já estavam aqui. Pessoas que olharam nos olhos de uma preguiça de quatro toneladas, que viram um dente-de-sabre de longe e que fizeram enfeites com ossos de animais que nós nunca vamos ver vivos.",
