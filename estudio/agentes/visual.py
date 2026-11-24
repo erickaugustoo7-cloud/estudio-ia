@@ -19,12 +19,12 @@ from estudio.base import log
 
 UA = {"User-Agent": "estudio-ia/1.0 (https://github.com/erickaugustoo7-cloud/estudio-ia)"}
 
-ORDEM = {
-    "nasa": ["nasa", "cloudflare", "pollinations", "commons"],
-    "pollinations": ["cloudflare", "pollinations", "commons"],
+ORDEM = {  # 24/11: ModelScope (Z-Image-Turbo, grátis, ~2000/dia) na frente; Cloudflare e Pollinations de reserva
+    "nasa": ["nasa", "modelscope", "cloudflare", "pollinations", "commons"],
+    "pollinations": ["modelscope", "cloudflare", "pollinations", "commons"],
     # bíblico: busca por palavra-chave no Commons trazia imagens fora do tema — melhor repetir a anterior
-    "pollinations_estrito": ["cloudflare", "pollinations"],
-    "commons": ["commons", "cloudflare", "pollinations"],
+    "pollinations_estrito": ["modelscope", "cloudflare", "pollinations"],
+    "commons": ["commons", "modelscope", "cloudflare", "pollinations"],
 }
 
 
@@ -185,12 +185,34 @@ def _fundo(destino: Path, i: int) -> None:
                     "-frames:v", "1", str(destino)], check=True)
 
 
-FONTES = {"nasa": _nasa, "cloudflare": _cloudflare, "pollinations": _pollinations, "commons": _commons}
+def _modelscope(cena: dict, destino: Path, usados: set, canal: dict, seed: int) -> bool:
+    """Z-Image-Turbo pela API gratuita do ModelScope (mesmo modelo do Kaggle)."""
+    if not os.getenv("MODELSCOPE_TOKEN"):
+        return False
+    import tempfile
+    from estudio.kaggle_wan import _rodar_modelscope
+    estilo = canal.get("estilo_visual", "")
+    prompt = f"{cena.get('prompt_imagem', '')}, {estilo}".strip(", ")
+    w, h = cena.get("largura", 768), cena.get("altura", 1344)
+    w, h = (768, 1344) if h > w else (1344, 768)
+    with tempfile.TemporaryDirectory() as tmp:
+        saida, _ = _rodar_modelscope([{"tipo": "imagem", "nome": "x", "prompt": prompt, "resolucao": f"{w}x{h}",
+                                       "seed": seed}], Path(tmp), "uma")
+        png = saida / "x.png"
+        if not png.exists():
+            return False
+        import subprocess
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(png), "-q:v", "2", str(destino)], check=True)
+    return destino.exists()
+
+
+FONTES = {"nasa": _nasa, "modelscope": _modelscope, "cloudflare": _cloudflare, "pollinations": _pollinations,
+          "commons": _commons}
 
 
 def gerar_uma(canal: dict, cena: dict, destino: Path, semente: int) -> bool:
     """Gera uma única imagem por IA (usado pelo revisor visual para refazer uma cena)."""
-    for nome in ("cloudflare", "pollinations"):
+    for nome in ("modelscope", "cloudflare", "pollinations"):
         if nome in FONTES and FONTES[nome](cena=cena, destino=destino, usados=set(), canal=canal, seed=semente):
             log("visual", f"imagem gerada ({nome})")
             return True
