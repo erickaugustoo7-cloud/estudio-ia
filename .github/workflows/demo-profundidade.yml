@@ -35,8 +35,7 @@ jobs:
                   f"scale={int(W*1.2)}:{int(H*1.2)},zoompan=z='min(1+0.0010*on,1.15)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d={k}:s={W}x{H}:fps=30",
                   "-t","6","-c:v","libx264","-crf","20","-pix_fmt","yuv420p",str(p/f"{n}_zoom.mp4")],check=True)
               subprocess.run(["ffmpeg","-y","-loglevel","error","-i",str(p/f"{n}_zoom.mp4"),"-i",str(p/f"{n}_25d.mp4"),"-filter_complex",
-                  "[0:v]scale=640:360,drawtext=text='ANTES (zoom)':x=20:y=20:fontsize=28:fontcolor=white:box=1:boxcolor=black@0.5[a];"
-                  "[1:v]scale=640:360,drawtext=text='DEPOIS (2.5D)':x=20:y=20:fontsize=28:fontcolor=white:box=1:boxcolor=black@0.5[b];[a][b]vstack",
+                  "[0:v]scale=640:360[a];[1:v]scale=640:360[b];[a][b]vstack",
                   "-c:v","libx264","-crf","24","-pix_fmt","yuv420p",str(p/f"cmp_{n}.mp4")],check=True)
           subprocess.run(["ffmpeg","-y","-loglevel","error","-i",str(p/"cmp_a.mp4"),"-i",str(p/"cmp_b.mp4"),"-filter_complex","[0:v][1:v]concat=n=2:v=1","-c:v","libx264","-crf","25","-pix_fmt","yuv420p",str(p/"comparacao.mp4")],check=True)
           b = base64.b64encode((p/"comparacao.mp4").read_bytes()).decode()
