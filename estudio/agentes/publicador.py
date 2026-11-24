@@ -263,7 +263,7 @@ def capa_youtube(origem: Path, linhas: list[str], destino: Path, segundo: float 
         # faixa escura à esquerda (some até o meio) + vinheta leve
         grad = Image.linear_gradient("L").rotate(90).resize((1280, 720)).point(lambda v: int(max(0, v - 40) * 1.05))
         img = Image.composite(Image.new("RGB", img.size, (8, 6, 4)), img, grad)
-        linhas = [x.upper() for x in linhas if x][:3]
+        linhas = [x.lstrip("*").strip().upper() for x in linhas if x.strip("*").strip()][:3]
         larg_max, x0 = 700, 56
         tam = 172 if max(len(x) for x in linhas) <= 8 else 150 if max(len(x) for x in linhas) <= 11 else 118
         fonte = _fonte("Anton-Regular.ttf", tam)
