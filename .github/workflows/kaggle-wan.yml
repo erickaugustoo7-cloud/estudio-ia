@@ -46,6 +46,8 @@ jobs:
       KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
       KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
       KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_TOKEN }}
+      MODAL_TOKEN_ID: ${{ secrets.MODAL_TOKEN_ID }}
+      MODAL_TOKEN_SECRET: ${{ secrets.MODAL_TOKEN_SECRET }}
       KAGGLE_MAQUINA: ${{ inputs.maquina }}
       WAN_LIMITE_MIN: "170"
     steps:
@@ -85,7 +87,7 @@ jobs:
       - if: steps.ff.outcome == 'failure' && steps.ff2.outcome == 'failure'
         timeout-minutes: 15   # build estático primeiro; apt só como reserva
         run: bash ferramentas/instalar_ffmpeg.sh
-      - run: pip install -r requirements.txt kaggle six
+      - run: pip install -r requirements.txt kaggle six modal
       - name: Fontes
         run: |
           fc-list | grep -qi dejavu || (sudo apt-get update -qq && sudo apt-get install -y -qq fonts-dejavu-core)

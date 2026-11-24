@@ -115,6 +115,22 @@ print("FIM", json.dumps(rel), flush=True)
 '''
 
 
+def _rodar_modal(cenas: list, pasta: Path, etapa: str = "imagens") -> tuple[Path, str]:
+    """Mesmo contrato do _rodar_kaggle, só para imagens (Z-Image Turbo no Modal — Kaggle suspenso em 21/11)."""
+    itens = [c for c in cenas if c.get("tipo") == "imagem"]
+    entrada = pasta / f"modal_{etapa}.json"
+    entrada.write_text(json.dumps(itens))
+    saida = pasta / f"modal_{etapa}"
+    t = time.time()
+    r = subprocess.run([sys.executable, "-m", "modal", "run", str(Path(__file__).parent / "modal_imagens.py"),
+                        "--entrada", str(entrada), "--saida", str(saida)], capture_output=True, text=True)
+    print((r.stdout + r.stderr)[-3000:])
+    log("wan", f"Modal ({etapa}): {len(list(saida.glob('*.png'))) if saida.exists() else 0}/{len(itens)} imagens "
+               f"em {(time.time() - t) / 60:.1f} min (código {r.returncode})")
+    rel = saida / "relatorio.json"
+    return saida, rel.read_text() if rel.exists() else ""
+
+
 def _kaggle(*args, check=True) -> str:
     r = subprocess.run([sys.executable, "-m", "kaggle", *args], capture_output=True, text=True)
     if check and r.returncode:
@@ -723,7 +739,7 @@ def main():
     if r.get("tipo") == "documentario":
         os.environ["SEM_PAISAGEM_RESERVA"] = "1"
         canal_img["documentario"] = True
-    if r.get("tipo") == "documentario" and r.get("fonte_imagem") == "kaggle":
+    if r.get("tipo") == "documentario" and r.get("fonte_imagem") in ("kaggle", "modal"):
         # Antes de Nós (Eric autorizou em 18/11): imagens paradas de reconstituição no Kaggle, sem animação Wan;
         # Pixabay só para paisagens puras e museus para as peças
         for c in r["cenas"]:
@@ -893,7 +909,7 @@ def main():
         log("wan", f"imagens de museu: {len(acervo_img)}/{sum(bool(c.get('acervo')) for c in r['cenas'])} cenas pedidas")
         if creditos:
             r["fontes"] = list(r.get("fontes", [])) + ["Imagens de acervo: " + "; ".join(dict.fromkeys(creditos))]
-    if fonte == "kaggle":
+    if fonte in ("kaggle", "modal"):
         from estudio.agentes.revisor_visual import _avaliar
         chave = os.getenv("GEMINI_API_KEY")
         prontas = {i: stock[i][1] for i in stock} | dict(acervo_img)  # cenas com vídeo real ou peça de museu
@@ -912,7 +928,7 @@ def main():
                                                     r.get("epoca_imagem", "Strictly first century objects of clay, stone, wood and cloth"),
                                                     moderno=bool(r.get("moderno")) or r.get("tipo") == "documentario")}
                           for k in range(opcoes if rodada == 1 else max(opcoes, 2))]
-            saida_img, rel_img = _rodar_kaggle(itens, pasta, f"imagens{rodada}")
+            saida_img, rel_img = (_rodar_modal if fonte == "modal" else _rodar_kaggle)(itens, pasta, f"imagens{rodada}")
             log("wan", f"imagens (rodada {rodada}): {rel_img[:200]}")
             def _revisar_cena(i):  # revisa as opções de uma cena (várias cenas em paralelo)
                 cand = sorted(x for x in saida_img.rglob(f"img_{i}_r{rodada}*.*")

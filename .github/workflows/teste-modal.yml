@@ -1,0 +1,30 @@
+name: Teste Modal (imagens)
+on: workflow_dispatch
+jobs:
+  teste:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      MODAL_TOKEN_ID: ${{ secrets.MODAL_TOKEN_ID }}
+      MODAL_TOKEN_SECRET: ${{ secrets.MODAL_TOKEN_SECRET }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - run: pip install -q modal pillow
+      - run: |
+          echo "MODAL_TOKEN_ID: ${MODAL_TOKEN_ID:+definido} · MODAL_TOKEN_SECRET: ${MODAL_TOKEN_SECRET:+definido}"
+          cat > itens.json <<'J'
+          [{"nome":"t1","prompt":"cinematic photorealistic film still: a giant ground sloth the size of an elephant walking across white gypsum sand dunes at dawn, ice age landscape, volumetric light, documentary, no text","resolucao":"1344x768","seed":7},
+           {"nome":"t2","prompt":"cinematic photorealistic film still: a herd of woolly mammoths crossing a snowy steppe under a pale winter sun, tiny distant figures of prehistoric hunters on a ridge, documentary, no text","resolucao":"1344x768","seed":11}]
+          J
+          python -m modal run estudio/modal_imagens.py --entrada itens.json --saida saida_teste
+          python - <<'Q'
+          import base64, pathlib
+          from PIL import Image
+          for f in sorted(pathlib.Path("saida_teste").glob("*.png")):
+              Image.open(f).convert("RGB").save(f.with_suffix(".jpg"), quality=80)
+              b = base64.b64encode(f.with_suffix(".jpg").read_bytes()).decode()
+              for i in range(0, len(b), 60000):
+                  print(f"IMG {f.stem} {b[i:i+60000]}")
+          Q
