@@ -1,0 +1,94 @@
+{
+  "canal": "antes_de_nos",
+  "titulo": "Ainda existiam mamutes quando a Grande Pirâmide ficou pronta",
+  "gancho_tela": "Quando a Grande Pirâmide ficou pronta, ainda existiam mamutes",
+  "referencia": "Short: os últimos mamutes da Ilha Wrangel viveram depois da Grande Pirâmide (ponte para o doc ep.2 — pirâmides; prepara o ep.3 — animais gigantes)",
+  "duracao_max": 60,
+  "volume_musica": 0.1,
+  "plataformas": ["youtube"],
+  "fonte_imagem": "cloudflare",
+  "fundo_video": "pixabay",
+  "opcoes_imagem": 1,
+  "estilo_imagem": "photorealistic documentary photo, National Geographic style, natural light, ultra detailed, vertical 9:16, no text",
+  "prefixo_imagem": "documentary photo:",
+  "epoca_imagem": "wild Arctic tundra of the Ice Age and Ancient Egypt around 2500 BC; only nature, stone, mudbrick, wood; nothing modern, no text, no watermark",
+  "cenas": [
+    {
+      "trecho": "Quando a Grande Pirâmide ficou pronta, ainda existiam mamutes.",
+      "prompt_imagem": "a huge woolly mammoth walking through a snowy Arctic tundra at dawn, long curved tusks, breath steaming in the cold air, low golden sun",
+      "busca_video": "mammoth",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "Não em todo lugar. Numa ilha gelada do Ártico, chamada Wrangel, perto da Sibéria.",
+      "prompt_imagem": "remote rocky Arctic island with snowy mountains surrounded by drifting sea ice under a pale sky",
+      "busca_video": "arctic island",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Há uns dez mil anos, o mar subiu e separou a ilha do continente.",
+      "prompt_imagem": "cold grey Arctic sea with waves breaking on an icy shoreline, mist over the water",
+      "busca_video": "arctic sea ice",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Ficaram presos lá, no máximo, oito mamutes.",
+      "prompt_imagem": "ancient fossil woolly mammoth tooth and tusk displayed on a dark museum background, dramatic side light",
+      "acervo": "mammoth",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Deles nasceu uma manada de duzentos a trezentos animais, que durou seis mil anos.",
+      "prompt_imagem": "a small herd of woolly mammoths far away crossing a vast snowy tundra valley, soft blue light",
+      "busca_video": "snowy tundra",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "Enquanto isso, no Egito, os faraós erguiam pirâmides de pedra.",
+      "prompt_imagem": "the pyramids of Giza at sunrise in golden haze over the vast desert",
+      "busca_video": "pyramids giza",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "A Grande Pirâmide ficou pronta há uns quatro mil e quinhentos anos.",
+      "prompt_imagem": "the Great Pyramid of Giza covered in smooth white limestone shining in the sun, desert, tiny figures far away",
+      "busca_video": "pyramid desert",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "E os últimos mamutes só sumiram há cerca de quatro mil anos. Quinhentos anos depois.",
+      "prompt_imagem": "lonely snowy Arctic tundra in a blizzard at dusk, wind blowing snow over the ground",
+      "busca_video": "snow storm tundra",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "O DNA deles indica um fim repentino. E a causa ainda é um mistério.",
+      "prompt_imagem": "thick fog over frozen Arctic hills, faint pale light, eerie silence",
+      "busca_video": "arctic fog",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "O documentário das pirâmides está no canal. Porque, quando ela ficou pronta, ainda existiam mamutes.",
+      "prompt_imagem": "the pyramids of Giza at sunset, golden sky, vast desert, seen from far away",
+      "busca_video": "pyramids sunset",
+      "vazia": true,
+      "animar": false
+    }
+  ],
+  "legenda": "Os últimos mamutes do mundo viveram na Ilha Wrangel, no Ártico, isolada pelo mar há uns 10 mil anos. Começaram com no máximo 8 animais, chegaram a 200–300 e duraram 6 mil anos — até sumirem há cerca de 4 mil anos, uns 500 anos depois de a Grande Pirâmide de Gizé ficar pronta. O DNA sugere um fim repentino, de causa ainda desconhecida. Como as pirâmides foram construídas está no documentário completo do canal.\n\nVocê sabia disso? Comente 👇",
+  "hashtags": ["#história", "#curiosidades", "#mamute", "#pirâmides", "#documentário"],
+  "fontes": [
+    "Dehasque, M. et al., 'Temporal dynamics of woolly mammoth genome erosion prior to extinction', Cell (27/06/2024), DOI 10.1016/j.cell.2024.05.033 — release Cell Press: https://www.eurekalert.org/news-releases/1048810",
+    "Science News (27/06/2024) — último mamute há 4 mil anos; no máximo 8 fundadores, 200–300 animais: https://sciencenews.org/article/last-woolly-mammoths-species-extinct",
+    "Grande Pirâmide de Khufu, há cerca de 4.500 anos — ver fontes do documentário ep.2 (roteiros_documentario/ep02_meta.json)"
+  ]
+}
