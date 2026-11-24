@@ -1,0 +1,67 @@
+{
+  "titulo": "Pedro e Judas falharam na mesma noite. Só um voltou",
+  "gancho_tela": "Os dois falharam na mesma noite",
+  "estilo": "pintura",
+  "narracao": "Pedro e Judas falharam com Jesus na mesma noite. Só um voltou. A diferença não foi o tamanho do erro. Foi para onde cada um levou a culpa. Judas chegou com uma multidão armada e beijou Jesus para entregá-lo. E Jesus o chamou de amigo. Mateus, vinte e seis. Antes, Jesus tinha dito a Pedro: eu orei por você, para que a sua fé não acabe. Mas, perto de uma fogueira, Pedro negou três vezes. O galo cantou. Jesus se virou e olhou para ele. E Pedro saiu e chorou amargamente. Lucas, vinte e dois. Judas sentiu o peso. Devolveu as trinta moedas de prata e disse: pequei, traí sangue inocente. E ouviu: isso é problema seu. Ele atirou as moedas no templo e foi embora sozinho. Seu fim foi trágico. Mateus, vinte e sete. Pedro voltou para perto dos discípulos. E Jesus ressuscitado foi ao encontro dele e devolveu a sua missão. Culpa longe de Jesus afunda. Levada até ele, vira recomeço. Se você falhou, não fuja. Volte. Ele ainda chama você de amigo. Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias.",
+  "cenas": [
+    {
+      "trecho": "Pedro e Judas falharam com Jesus na mesma noite. Só um voltou.",
+      "busca_imagem": "silver coins fire night",
+      "prompt_imagem": "a small fire burning in an ancient stone courtyard at night, thirty scattered silver coins glinting on the stone floor in front of the flames, deep shadows and strong golden contrast, dramatic"
+    },
+    {
+      "trecho": "A diferença não foi o tamanho do erro. Foi para onde cada um levou a culpa.",
+      "busca_imagem": "olive garden night torches",
+      "prompt_imagem": "an ancient olive garden at night on a hillside, gnarled olive trees, distant torches glowing between the trunks, moonlit Jerusalem walls far away"
+    },
+    {
+      "trecho": "Judas chegou com uma multidão armada e beijou Jesus para entregá-lo. E Jesus o chamou de amigo. Mateus, vinte e seis.",
+      "busca_imagem": "torches swords night garden",
+      "prompt_imagem": "burning torches, wooden clubs and short swords raised among the olive trees of an ancient garden at night, seen from high and far away, orange firelight against deep blue darkness"
+    },
+    {
+      "trecho": "Antes, Jesus tinha dito a Pedro: eu orei por você, para que a sua fé não acabe.",
+      "busca_imagem": "oil lamp table bread",
+      "prompt_imagem": "an ancient wooden supper table lit by clay oil lamps, broken bread and a clay cup of wine, warm golden light, quiet and solemn"
+    },
+    {
+      "trecho": "Mas, perto de uma fogueira, Pedro negou três vezes. O galo cantou. Jesus se virou e olhou para ele. E Pedro saiu e chorou amargamente. Lucas, vinte e dois.",
+      "busca_imagem": "rooster stone wall dawn",
+      "prompt_imagem": "a rooster crowing on top of an ancient stone wall at the first light of dawn, a dying courtyard fire with smoke below, cold blue sky turning gold"
+    },
+    {
+      "trecho": "Judas sentiu o peso. Devolveu as trinta moedas de prata e disse: pequei, traí sangue inocente. E ouviu: isso é problema seu.",
+      "busca_imagem": "silver coins stone floor",
+      "prompt_imagem": "thirty silver coins spilled across the polished stone floor of an ancient temple, tall stone columns and a shaft of pale light, cold and empty atmosphere"
+    },
+    {
+      "trecho": "Ele atirou as moedas no templo e foi embora sozinho. Seu fim foi trágico. Mateus, vinte e sete.",
+      "busca_imagem": "empty road dusk desert",
+      "prompt_imagem": "a lonely dusty road leading away from ancient Jerusalem at dusk, dark heavy clouds, a single withered tree by the roadside, somber"
+    },
+    {
+      "trecho": "Pedro voltou para perto dos discípulos. E Jesus ressuscitado foi ao encontro dele e devolveu a sua missão.",
+      "busca_imagem": "sea of galilee sunrise fire",
+      "prompt_imagem": "a small charcoal fire with fish and bread on the shore of the Sea of Galilee at sunrise, a wooden fishing boat pulled onto the pebbles, calm water shining gold"
+    },
+    {
+      "trecho": "Culpa longe de Jesus afunda. Levada até ele, vira recomeço. Se você falhou, não fuja. Volte. Ele ainda chama você de amigo. Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias.",
+      "busca_imagem": "sunrise hills path light",
+      "prompt_imagem": "an ancient stone path winding up green hills toward a radiant golden sunrise, morning mist in the valleys, hopeful and warm"
+    }
+  ],
+  "legenda": "Senhor, eu falhei, mas estou voltando para ti 🙏😭\nLucas 22:61-62 · Mateus 27:3-5\nComente \"Amém\" e envie para alguém que precisa recomeçar.",
+  "hashtags": [
+    "#Pedro",
+    "#Judas",
+    "#recomeço",
+    "#perdão"
+  ],
+  "fontes": [
+    "Mateus 26:47-50",
+    "Lucas 22:31-34",
+    "Lucas 22:54-62",
+    "Mateus 27:3-5",
+    "João 21:1-17"
+  ]
+}
