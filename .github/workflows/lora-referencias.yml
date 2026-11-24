@@ -1,11 +1,16 @@
 name: Referências do LoRA (Antes de Nós)
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+    inputs:
+      canal:
+        default: antes_de_nos
 jobs:
   ref:
     runs-on: ubuntu-latest
     timeout-minutes: 40
     env:
       MODELSCOPE_TOKEN: ${{ secrets.MODELSCOPE_TOKEN }}
+      LORA_CANAL: ${{ inputs.canal }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
