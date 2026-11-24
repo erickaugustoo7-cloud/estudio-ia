@@ -11,8 +11,9 @@ import modal
 app = modal.App("estudio-imagens")
 pesos = modal.Volume.from_name("estudio-hf-cache", create_if_missing=True)
 imagem = (modal.Image.debian_slim(python_version="3.11")
-          .pip_install("torch==2.5.1", "transformers>=4.51", "accelerate", "sentencepiece", "safetensors", "pillow",
-                       "git+https://github.com/huggingface/diffusers")
+          .apt_install("git")
+          .pip_install("torch==2.7.1", "transformers>=4.51", "accelerate", "sentencepiece", "safetensors", "pillow",
+                       "diffusers>=0.36")
           .env({"HF_HOME": "/cache/hf", "HF_HUB_ENABLE_HF_TRANSFER": "0"}))
 
 
