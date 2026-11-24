@@ -12,6 +12,10 @@ on:
         description: "GPU do Kaggle (NvidiaTeslaT4 ou NvidiaTeslaP100)"
         required: false
         default: NvidiaTeslaT4
+      cache_voz:
+        description: "chave (ou prefixo) de um cache de narração antigo para reaproveitar"
+        required: false
+        default: ""
       so_isca:
         description: "1 = refazer só o Short isca (voz do cache, sem Kaggle)"
         required: false
@@ -116,7 +120,12 @@ jobs:
         with:
           path: ~/.cache/estudio-voz
           key: voz-${{ hashFiles(inputs.roteiro) }}-${{ github.run_id }}
-          restore-keys: voz-${{ hashFiles(inputs.roteiro) }}-
+          # os arquivos do cache têm o hash do TEXTO de cada bloco: dá para reaproveitar o cache do mesmo roteiro
+          # mesmo depois de editar só o Short isca/título (antes isso re-narrava tudo e gastava a cota da Gemini)
+          restore-keys: |
+            voz-${{ hashFiles(inputs.roteiro) }}-
+            voznome-${{ inputs.roteiro }}-
+            ${{ inputs.cache_voz || 'voz-sem-cache-extra' }}
       - name: Animar
         run: python -m estudio.kaggle_wan ${{ inputs.roteiro }}
         env:
@@ -127,6 +136,13 @@ jobs:
         with:
           path: ~/.cache/estudio-voz
           key: voz-${{ hashFiles(inputs.roteiro) }}-${{ github.run_id }}
+        continue-on-error: true
+      - name: Guardar a narração no cache (pelo nome do roteiro)
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: ~/.cache/estudio-voz
+          key: voznome-${{ inputs.roteiro }}-${{ github.run_id }}
         continue-on-error: true
       - name: Guardar prévias (branch previas)
         if: always()
