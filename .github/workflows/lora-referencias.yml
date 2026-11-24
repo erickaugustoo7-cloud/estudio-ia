@@ -1,0 +1,14 @@
+name: Referências do LoRA (Antes de Nós)
+on: workflow_dispatch
+jobs:
+  ref:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      MODELSCOPE_TOKEN: ${{ secrets.MODELSCOPE_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - run: pip install -q -r requirements.txt pillow
+      - run: python ferramentas/lora_referencias.py
