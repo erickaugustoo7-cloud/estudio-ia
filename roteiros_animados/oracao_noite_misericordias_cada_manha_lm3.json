@@ -1,766 +1,766 @@
 {
- "formato": "horizontal",
- "duracao_max": 999,
- "volume_musica": 0,
- "opcoes_imagem": 1,
- "palavras_por_bloco": 600,
- "plataformas": [
-  "youtube"
- ],
- "estilo_imagem": "breathtaking real-world nature landscape photography, peaceful and serene, soft natural light, rich colors, ultra detailed, horizontal 16:9 widescreen, no people, no text",
- "prefixo_imagem": "beautiful peaceful nature landscape photo:",
- "prefixo_video": "Peaceful nature shot, very slow and gentle motion.",
- "epoca_imagem": "real natural landscapes of today (sea, forest, waterfalls, mountains, lakes, sky); no people, no buildings, no text",
- "fonte_imagem": "cloudflare",
- "estilo_voz": "emocionado e íntimo, como quem ora de verdade por alguém que sofre; voz baixa, pausada, com ternura",
- "tipo": "oracao",
- "fundo_video": "pixabay",
- "titulo": "Oração para dormir: as misericórdias que se renovam cada manhã (Lamentações 3:22-23)",
- "titulo_youtube": "Amanhã a Misericórdia de Deus Recomeça Com Você | Lamentações 3:22-23",
- "gancho_tela": "A misericórdia que recomeça toda manhã",
- "referencia": "Lamentações 3:1-33",
- "cena_capa": 23,
- "texto_capa": [
-  "AMANHÃ",
-  "*RECOMEÇA",
-  "COM DEUS"
- ],
- "selo_capa": "Oração da noite",
- "capa_prompt": "a tired Brazilian woman in her forties praying with closed eyes at a kitchen table at dawn, first golden sunlight coming through the window, hands on an open Bible, a soft hopeful smile, cinematic photo",
- "legenda": "\"Novas são cada manhã; grande é a tua fidelidade.\" Essa frase foi escrita no meio das ruínas de Jerusalém, por alguém que tinha perdido quase tudo. Nesta oração para dormir você ouve a história de Lamentações 3 — da dor mais funda até a virada da esperança — e depois ora comigo por recomeço: pela mente cansada, pela família e pelos filhos, pela saúde, pelas contas e pelo perdão. No final, a frase escondida bem no centro do livro. 🙏\n\n(Vídeo sem Short de origem: pauta da série de orações para dormir.)\n\n\"As misericórdias do Senhor são a causa de não sermos consumidos; porque as suas misericórdias não têm fim\" (Lamentações 3:22, Almeida).\n\nEscreva o seu pedido de oração nos comentários — eu vou orar por ele. Comente \"Amém\" e inscreva-se para orarmos juntos toda noite.",
- "hashtags": [
-  "#Lamentações3",
-  "#OraçãoParaDormir",
-  "#Misericórdia",
-  "#Recomeço",
-  "#Fé"
- ],
- "fontes": [
-  "Lamentações 3:1, 17-26, 31-33, 57 — Almeida (texto conferido em bibliaonline.com.br, ARC)",
-  "Lamentações 1 (a cidade solitária, como viúva) — paráfrase",
-  "2 Reis 25:1-11 (cerco, fome e incêndio de Jerusalém por Nabucodonosor) — paráfrase",
-  "Êxodo 16:19-21 (o maná recolhido cada manhã) — paráfrase",
-  "Salmo 30:5; Salmo 4:8 — Almeida",
-  "Estrutura acróstica de Lamentações 1–4 (22 letras; cap. 3 com 66 versículos, 3 por letra); total de 154 versículos, centro em 3:33"
- ],
- "capitulos": [
-  {
-   "cena": 0,
-   "titulo": "Uma frase nascida nas ruínas"
-  },
-  {
-   "cena": 5,
-   "titulo": "Jerusalém em chamas"
-  },
-  {
-   "cena": 12,
-   "titulo": "O poema de A a Z"
-  },
-  {
-   "cena": 19,
-   "titulo": "A virada: Disso me recordarei"
-  },
-  {
-   "cena": 29,
-   "titulo": "O que isso significa para você"
-  },
-  {
-   "cena": 33,
-   "titulo": "Oração: do jeito que eu estou"
-  },
-  {
-   "cena": 40,
-   "titulo": "Pela mente cansada"
-  },
-  {
-   "cena": 46,
-   "titulo": "Pela família e pelos filhos"
-  },
-  {
-   "cena": 54,
-   "titulo": "Saúde, contas e perdão"
-  },
-  {
-   "cena": 64,
-   "titulo": "Seus pedidos e promessas"
-  },
-  {
-   "cena": 81,
-   "titulo": "A frase no centro do livro"
-  },
-  {
-   "cena": 87,
-   "titulo": "Gratidão e bênção final"
-  }
- ],
- "revelacao": {
-  "promessa_cena": 2,
-  "entrega_cena": 81,
-  "o_que": "o centro exato de Lamentações (154 versículos → 3:33): 'não aflige nem entristece de bom grado os filhos dos homens' — a misericórdia está no meio da dor, não só no fim"
- },
- "short_isca": {
-  "cenas": [
-   28
+  "formato": "horizontal",
+  "duracao_max": 999,
+  "volume_musica": 0,
+  "opcoes_imagem": 1,
+  "palavras_por_bloco": 600,
+  "plataformas": [
+    "youtube"
   ],
-  "texto_topo": "O CENTRO DO LIVRO",
-  "titulo": "A frase escondida no centro do livro mais triste da Bíblia",
+  "estilo_imagem": "breathtaking real-world nature landscape photography, peaceful and serene, soft natural light, rich colors, ultra detailed, horizontal 16:9 widescreen, no people, no text",
+  "prefixo_imagem": "beautiful peaceful nature landscape photo:",
+  "prefixo_video": "Peaceful nature shot, very slow and gentle motion.",
+  "epoca_imagem": "real natural landscapes of today (sea, forest, waterfalls, mountains, lakes, sky); no people, no buildings, no text",
+  "fonte_imagem": "cloudflare",
+  "estilo_voz": "emocionado e íntimo, como quem ora de verdade por alguém que sofre; voz baixa, pausada, com ternura",
+  "tipo": "oracao",
+  "fundo_video": "pixabay",
+  "titulo": "Oração para dormir: as misericórdias que se renovam cada manhã (Lamentações 3:22-23)",
+  "titulo_youtube": "Amanhã a Misericórdia de Deus Recomeça Com Você | Lamentações 3:22-23",
+  "gancho_tela": "A misericórdia que recomeça toda manhã",
+  "referencia": "Lamentações 3:1-33",
+  "cena_capa": 23,
+  "texto_capa": [
+    "AMANHÃ",
+    "*RECOMEÇA",
+    "COM DEUS"
+  ],
+  "selo_capa": "Oração da noite",
+  "capa_prompt": "a tired Brazilian woman in her forties praying with closed eyes at a kitchen table at dawn, first golden sunlight coming through the window, hands on an open Bible, a soft hopeful smile, cinematic photo",
+  "legenda": "\"Novas são cada manhã; grande é a tua fidelidade.\" Essa frase foi escrita no meio das ruínas de Jerusalém, por alguém que tinha perdido quase tudo. Nesta oração para dormir você ouve a história de Lamentações 3 — da dor mais funda até a virada da esperança — e depois ora comigo por recomeço: pela mente cansada, pela família e pelos filhos, pela saúde, pelas contas e pelo perdão. No final, a frase escondida bem no centro do livro. 🙏\n\n(Vídeo sem Short de origem: pauta da série de orações para dormir.)\n\n\"As misericórdias do Senhor são a causa de não sermos consumidos; porque as suas misericórdias não têm fim\" (Lamentações 3:22, Almeida).\n\nEscreva o seu pedido de oração nos comentários — eu vou orar por ele. Comente \"Amém\" e inscreva-se para orarmos juntos toda noite.",
   "hashtags": [
-   "lamentacoes",
-   "misericordia",
-   "oracao"
+    "#Lamentações3",
+    "#OraçãoParaDormir",
+    "#Misericórdia",
+    "#Recomeço",
+    "#Fé"
+  ],
+  "fontes": [
+    "Lamentações 3:1, 17-26, 31-33, 57 — Almeida (texto conferido em bibliaonline.com.br, ARC)",
+    "Lamentações 1 (a cidade solitária, como viúva) — paráfrase",
+    "2 Reis 25:1-11 (cerco, fome e incêndio de Jerusalém por Nabucodonosor) — paráfrase",
+    "Êxodo 16:19-21 (o maná recolhido cada manhã) — paráfrase",
+    "Salmo 30:5; Salmo 4:8 — Almeida",
+    "Estrutura acróstica de Lamentações 1–4 (22 letras; cap. 3 com 66 versículos, 3 por letra); total de 154 versículos, centro em 3:33"
+  ],
+  "capitulos": [
+    {
+      "cena": 0,
+      "titulo": "Uma frase nascida nas ruínas"
+    },
+    {
+      "cena": 5,
+      "titulo": "Jerusalém em chamas"
+    },
+    {
+      "cena": 12,
+      "titulo": "O poema de A a Z"
+    },
+    {
+      "cena": 19,
+      "titulo": "A virada: Disso me recordarei"
+    },
+    {
+      "cena": 29,
+      "titulo": "O que isso significa para você"
+    },
+    {
+      "cena": 33,
+      "titulo": "Oração: do jeito que eu estou"
+    },
+    {
+      "cena": 40,
+      "titulo": "Pela mente cansada"
+    },
+    {
+      "cena": 46,
+      "titulo": "Pela família e pelos filhos"
+    },
+    {
+      "cena": 54,
+      "titulo": "Saúde, contas e perdão"
+    },
+    {
+      "cena": 64,
+      "titulo": "Seus pedidos e promessas"
+    },
+    {
+      "cena": 81,
+      "titulo": "A frase no centro do livro"
+    },
+    {
+      "cena": 87,
+      "titulo": "Gratidão e bênção final"
+    }
+  ],
+  "revelacao": {
+    "promessa_cena": 2,
+    "entrega_cena": 81,
+    "o_que": "o centro exato de Lamentações (154 versículos → 3:33): 'não aflige nem entristece de bom grado os filhos dos homens' — a misericórdia está no meio da dor, não só no fim"
+  },
+  "short_isca": {
+    "cenas": [
+      3
+    ],
+    "texto_topo": "SE HOJE FOI UM DIA RUIM",
+    "titulo": "Se hoje foi um dia ruim, ouça isto antes de dormir 🙏",
+    "hashtags": [
+      "lamentacoes",
+      "misericordia",
+      "oracao"
+    ]
+  },
+  "cenas": [
+    {
+      "trecho": "Toda manhã, a misericórdia de Deus recomeça. E essa frase foi escrita no meio de ruínas.",
+      "prompt_imagem": "golden sunrise over a calm sea with gentle waves and soft clouds",
+      "vazia": true,
+      "animar": false,
+      "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+    },
+    {
+      "trecho": "Não foi escrita num dia bonito. Foi escrita por alguém que tinha perdido a casa, a cidade e quase toda a esperança. Talvez você conheça um pouco esse sentimento hoje.",
+      "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
+      "vazia": true,
+      "animar": false,
+      "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+    },
+    {
+      "trecho": "E tem uma coisa nesse livro que quase ninguém percebe. No final desta oração, eu vou te mostrar o que está escrito bem no centro exato dele… e por que essa frase foi guardada para noites como a sua.",
+      "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist and sun rays",
+      "vazia": true,
+      "animar": false,
+      "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+    },
+    {
+      "trecho": "Se hoje foi um dia ruim, fica comigo. Se você errou, se brigou, se chorou escondido no banheiro, se a conta não fechou… esta noite não precisa ser o fim da história.",
+      "prompt_imagem": "a starry night sky over calm mountains, milky way glowing",
+      "vazia": true,
+      "animar": false,
+      "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+    },
+    {
+      "trecho": "Talvez você esteja deitado agora pensando: amanhã vai ser igual. O mesmo peso, o mesmo cansaço, a mesma luta. Primeiro, eu vou te contar onde nasceu essa promessa. Depois, vamos orar juntos.",
+      "prompt_imagem": "a quiet lake reflecting snowy mountains at first light",
+      "vazia": true,
+      "animar": false,
+      "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+    },
+    {
+      "trecho": "O livro se chama Lamentações. Fica logo depois de Jeremias, e a tradição antiga diz que foi o próprio Jeremias, o profeta chorão, quem escreveu esses cinco poemas de dor.",
+      "prompt_imagem": "a field of wildflowers swaying in the morning breeze at sunrise",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias, tensão crescente"
+    },
+    {
+      "trecho": "Para entender, volte uns seiscentos anos antes de Cristo. Jerusalém, a cidade de Davi, a cidade do templo, estava cercada pelo exército da Babilônia, do rei Nabucodonosor.",
+      "prompt_imagem": "a slow river winding through a green valley under morning fog",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias, tensão crescente"
+    },
+    {
+      "trecho": "O cerco durou muito tempo. A Bíblia conta, em Segundo Reis, que a fome tomou conta da cidade. Não havia pão para o povo. As mães não tinham o que dar aos filhos.",
+      "prompt_imagem": "ocean waves rolling onto a quiet sandy beach at sunset",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias, tensão crescente"
+    },
+    {
+      "trecho": "Até que os muros caíram. O exército entrou, queimou o templo, queimou a casa do rei e as casas de Jerusalém. E levou boa parte do povo como prisioneiro para a Babilônia.",
+      "prompt_imagem": "soft rain falling on green leaves in a peaceful forest",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias, tensão crescente"
+    },
+    {
+      "trecho": "Pense no que isso significava. O templo era o lugar onde o povo sentia que Deus morava no meio deles. E agora era só fumaça, pedra quebrada e silêncio.",
+      "prompt_imagem": "rolling green hills covered in morning mist with the sun rising",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias, tensão crescente"
+    },
+    {
+      "trecho": "O livro começa com um grito de luto: a cidade que antes era cheia de gente agora está sozinha, como uma viúva. E o poeta chora pelas ruas vazias que ele conhecia tão bem.",
+      "prompt_imagem": "a moonlit beach with calm silver water at night",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias, tensão crescente"
+    },
+    {
+      "trecho": "Antes de seguirmos, se esta história já tocou você, inscreva-se no canal e fique até o fim. O que vem agora é a parte mais bonita.",
+      "prompt_imagem": "a small stream with smooth stones running through a mossy forest",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias, mais íntimo e próximo"
+    },
+    {
+      "trecho": "Um detalhe que quase ninguém sabe: Lamentações foi escrito com cuidado de artesão. Quatro dos cinco poemas seguem as letras do alfabeto hebraico, uma letra abrindo cada estrofe.",
+      "prompt_imagem": "northern lights dancing over a calm snowy landscape",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias, tensão crescente"
+    },
+    {
+      "trecho": "O capítulo três vai além: são sessenta e seis versículos, três para cada uma das vinte e duas letras. Como se o poeta dissesse: vou chorar de A a Z diante de Deus. Nenhuma dor vai ficar escondida.",
+      "prompt_imagem": "sunbeams breaking through clouds over a wide golden wheat field",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias, tensão crescente"
+    },
+    {
+      "trecho": "E o capítulo três começa assim: \"Eu sou o homem que viu a aflição pela vara do seu furor.\" Não é teoria. É alguém falando em primeira pessoa, com a ferida aberta.",
+      "prompt_imagem": "a calm turquoise lagoon surrounded by tropical cliffs at dawn",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias, tensão crescente"
+    },
+    {
+      "trecho": "Ele diz coisas que muita gente tem vergonha de dizer em voz alta. Que se sentiu cercado. Que orava e parecia que o céu estava fechado. Que andava no escuro, sem luz.",
+      "prompt_imagem": "a lavender field glowing in warm evening light",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias, tensão crescente"
+    },
+    {
+      "trecho": "E então ele chega ao fundo do poço: \"E afastaste da paz a minha alma; esqueci-me do bem.\" Ele esqueceu como era um dia bom. Você já se sentiu assim?",
+      "prompt_imagem": "a mountain valley with a gentle river at sunrise, birds flying",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias, tensão crescente"
+    },
+    {
+      "trecho": "E logo depois: \"Já pereceu a minha força, como também a minha esperança no Senhor.\" Repare: até a esperança em Deus tinha acabado. Isso está na Bíblia. Deus deixou isso escrito.",
+      "prompt_imagem": "autumn forest with golden leaves and soft morning light",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias, tensão crescente"
+    },
+    {
+      "trecho": "Sabe por quê? Porque Deus não tem medo da sua sinceridade. Ele não pede que você finja força. Ele deixou espaço na Bíblia para quem chegou no limite.",
+      "prompt_imagem": "clouds moving slowly over a quiet mountain peak at dawn",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias, mais íntimo e próximo"
+    },
+    {
+      "trecho": "E aí, no versículo vinte e um, acontece a virada. Nada mudou do lado de fora. Os muros continuavam no chão. A cidade continuava queimada. Mas alguma coisa mudou do lado de dentro.",
+      "prompt_imagem": "a peaceful lake at twilight with calm water and soft pink sky",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias, tensão crescente"
+    },
+    {
+      "trecho": "Ele diz: \"Disso me recordarei no meu coração; por isso, tenho esperança.\" Ele não esperou a situação melhorar para ter esperança. Ele escolheu se lembrar de uma coisa.",
+      "prompt_imagem": "a gentle waterfall flowing into a clear pool surrounded by ferns",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias, tensão crescente"
+    },
+    {
+      "trecho": "E do que ele se lembrou? \"As misericórdias do Senhor são a causa de não sermos consumidos; porque as suas misericórdias não têm fim.\"",
+      "prompt_imagem": "sunrise light spreading over a calm desert with soft dunes",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias, tensão crescente"
+    },
+    {
+      "trecho": "Repare no que ele está dizendo. Nós perdemos muito… mas não fomos consumidos. Ainda estamos aqui. Ainda estamos de pé. E isso não é sorte. É misericórdia.",
+      "prompt_imagem": "golden sunrise over a calm sea with gentle waves and soft clouds",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias, mais íntimo e próximo"
+    },
+    {
+      "trecho": "E então vem a frase que atravessou os séculos: \"Novas são cada manhã; grande é a tua fidelidade.\" A misericórdia de Deus não é velha, reaproveitada, cansada. Ela é nova. Todo dia.",
+      "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
+      "vazia": true,
+      "animar": false,
+      "emocao": "emoção forte e esperança, mais firme"
+    },
+    {
+      "trecho": "Isso lembra o maná no deserto. Lá no livro de Êxodo, o pão do céu caía toda manhã, e não dava para guardar para o dia seguinte. Cada dia tinha a sua porção.",
+      "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist and sun rays",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias, mais íntimo e próximo"
+    },
+    {
+      "trecho": "Deus não te dá hoje a força de amanhã. Ele te dá a força de hoje. E amanhã cedo, quando você abrir os olhos, a misericórdia de amanhã já vai estar lá, novinha, esperando você.",
+      "prompt_imagem": "a starry night sky over calm mountains, milky way glowing",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias, mais íntimo e próximo"
+    },
+    {
+      "trecho": "Ele continua: \"A minha porção é o Senhor, diz a minha alma; portanto, esperarei nele.\" Ele perdeu a terra, a casa, o templo. Mas descobriu que a parte dele, a herança dele, era o próprio Deus.",
+      "prompt_imagem": "a quiet lake reflecting snowy mountains at first light",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias, tensão crescente"
+    },
+    {
+      "trecho": "E diz mais: \"Bom é ter esperança e aguardar em silêncio a salvação do Senhor.\" Em silêncio. Sem desespero. Como quem se deita para dormir sabendo que alguém está acordado cuidando da casa.",
+      "prompt_imagem": "a field of wildflowers swaying in the morning breeze at sunrise",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias, mais íntimo e próximo"
+    },
+    {
+      "trecho": "Mas guarde isto: essa não é a frase mais escondida do livro. Existe outra, bem no centro exato de Lamentações, que quase ninguém percebe. Já vamos chegar nela.",
+      "prompt_imagem": "a slow river winding through a green valley under morning fog",
+      "vazia": true,
+      "animar": false,
+      "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+    },
+    {
+      "trecho": "Talvez a sua vida também esteja com alguns muros no chão. Um casamento que esfriou. Um filho que se afastou. Um emprego que acabou. Um diagnóstico que mudou tudo.",
+      "prompt_imagem": "ocean waves rolling onto a quiet sandy beach at sunset",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias, mais íntimo e próximo"
+    },
+    {
+      "trecho": "E talvez você esteja esperando tudo se resolver para conseguir respirar. Mas o poeta de Lamentações nos ensina outra coisa: a esperança pode começar antes de a reconstrução começar.",
+      "prompt_imagem": "soft rain falling on green leaves in a peaceful forest",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias, mais íntimo e próximo"
+    },
+    {
+      "trecho": "Você não precisa ter as respostas hoje. Você só precisa fazer o que ele fez: se lembrar. Lembrar de quem Deus é. Lembrar das vezes em que Ele já cuidou de você.",
+      "prompt_imagem": "rolling green hills covered in morning mist with the sun rising",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias, mais íntimo e próximo"
+    },
+    {
+      "trecho": "Hoje à noite, a misericórdia de Deus vai cobrir o que você não conseguiu resolver. E amanhã, quando o sol nascer, você não vai recomeçar sozinho. Vai recomeçar com uma misericórdia nova.",
+      "prompt_imagem": "a moonlit beach with calm silver water at night",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias, mais íntimo e próximo"
+    },
+    {
+      "trecho": "Agora, se puder, feche os olhos. Coloque a mão no peito. Respire fundo… e solte devagar. E repita comigo, no seu coração, esta oração.",
+      "prompt_imagem": "a small stream with smooth stones running through a mossy forest",
+      "vazia": true,
+      "animar": false,
+      "emocao": "calmo e lento, quase sussurrado"
+    },
+    {
+      "trecho": "Senhor… eu chego aqui no fim deste dia do jeito que eu estou. Cansado. Com o coração pesado. Eu não vou fingir que estou bem. Tu já sabes de tudo.",
+      "prompt_imagem": "northern lights dancing over a calm snowy landscape",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Hoje teve coisa que deu errado. Teve palavra que eu não devia ter dito. Teve choro que ninguém viu. Teve preocupação que me acompanhou do café da manhã até agora.",
+      "prompt_imagem": "sunbeams breaking through clouds over a wide golden wheat field",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "E às vezes, Senhor, eu me sinto como o homem de Lamentações. Esqueci como é um dia bom. A minha força acabou. E até a minha esperança ficou fraquinha.",
+      "prompt_imagem": "a calm turquoise lagoon surrounded by tropical cliffs at dawn",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Mas esta noite eu escolho fazer o que ele fez. Eu escolho me lembrar. Eu me lembro de que Tu já me tiraste de lugares piores. Eu me lembro de que Tu nunca me abandonaste.",
+      "prompt_imagem": "a lavender field glowing in warm evening light",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "A Tua Palavra diz que as Tuas misericórdias não têm fim. Então elas não acabaram hoje, Senhor. Nem com os meus erros, nem com o meu cansaço. Elas ainda estão aqui comigo.",
+      "prompt_imagem": "a mountain valley with a gentle river at sunrise, birds flying",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Eu Te entrego este dia inteiro. O que foi bom e o que foi ruim. E enquanto oramos, guarde no coração: tem uma frase no centro deste livro que foi escrita para você. No final, eu vou te mostrar.",
+      "prompt_imagem": "autumn forest with golden leaves and soft morning light",
+      "vazia": true,
+      "animar": false,
+      "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+    },
+    {
+      "trecho": "Senhor, agora eu Te entrego a minha mente. Os pensamentos que giram e não param. As conversas que eu fico repetindo. Os medos do que pode acontecer amanhã.",
+      "prompt_imagem": "clouds moving slowly over a quiet mountain peak at dawn",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Quando a minha cabeça disser que amanhã vai ser igual, me lembra: novas são cada manhã. Amanhã não é uma cópia de hoje. Amanhã tem uma misericórdia que eu ainda nem conheço.",
+      "prompt_imagem": "a peaceful lake at twilight with calm water and soft pink sky",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Acalma a ansiedade que aperta o meu peito. Desfaz o nó na minha garganta. Põe silêncio onde há barulho. Ensina-me a aguardar em silêncio, como o poeta aguardou.",
+      "prompt_imagem": "a gentle waterfall flowing into a clear pool surrounded by ferns",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Eu não preciso resolver tudo esta noite. Eu não consigo, Senhor. Então eu solto. Eu abro as mãos. O que é grande demais para mim não é grande demais para Ti.",
+      "prompt_imagem": "sunrise light spreading over a calm desert with soft dunes",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "E se eu acordar de madrugada com o coração acelerado, que eu me lembre: grande é a Tua fidelidade. Tu estavas acordado antes de mim, e vais continuar acordado depois.",
+      "prompt_imagem": "golden sunrise over a calm sea with gentle waves and soft clouds",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Respire fundo mais uma vez. Estamos chegando perto. A frase escondida no meio de Lamentações responde uma pergunta que talvez você tenha feito hoje: Deus gosta de me ver sofrer? Já, já você vai ouvir a resposta.",
+      "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
+      "vazia": true,
+      "animar": false,
+      "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+    },
+    {
+      "trecho": "Pai, eu Te entrego a minha família. A minha casa, mesmo simples. As pessoas que dormem debaixo deste teto. E também as que estão longe, que eu não consigo abraçar esta noite.",
+      "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist and sun rays",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Eu Te entrego os meus filhos. Tu sabes o que cada um está vivendo, até o que eles não me contam. Cobre cada um com a Tua misericórdia nova de amanhã.",
+      "prompt_imagem": "a starry night sky over calm mountains, milky way glowing",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Se algum deles está se afastando de Ti, Senhor, não desiste dele. Traz de volta. Fala com o coração dele de um jeito que eu não consigo falar. E me dá paciência para esperar.",
+      "prompt_imagem": "a quiet lake reflecting snowy mountains at first light",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Perdoa-me pelas vezes em que perdi a paciência com eles. Pelas palavras duras de hoje. Amanhã é um dia novo, Senhor. Me dá a chance de recomeçar como pai, como mãe.",
+      "prompt_imagem": "a field of wildflowers swaying in the morning breeze at sunrise",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Eu Te entrego o meu casamento. Se ele esfriou, aquece. Se há muros caídos entre nós, reconstrói pedra por pedra. Se há silêncio, devolve as palavras e o carinho.",
+      "prompt_imagem": "a slow river winding through a green valley under morning fog",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "E por quem está sozinho esta noite, Senhor… pela viúva, pelo filho que perdeu a mãe, por quem mora longe da família… sê Tu a companhia. Que ninguém se sinta esquecido.",
+      "prompt_imagem": "ocean waves rolling onto a quiet sandy beach at sunset",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Eu oro também pelas mães que estão no hospital ao lado de um filho, pelos avós que oram pelos netos, por quem trabalha a noite inteira. Guarda cada um deles.",
+      "prompt_imagem": "soft rain falling on green leaves in a peaceful forest",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Fique comigo. Daqui a pouco vamos chegar ao centro exato de Lamentações. É ali que está a frase que muda a forma como você vai olhar para o seu sofrimento.",
+      "prompt_imagem": "rolling green hills covered in morning mist with the sun rising",
+      "vazia": true,
+      "animar": false,
+      "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+    },
+    {
+      "trecho": "Pai, eu Te entrego a minha saúde e a saúde de quem eu amo. Tu conheces cada dor no corpo, cada exame esperando resultado, cada remédio em cima da mesa.",
+      "prompt_imagem": "a moonlit beach with calm silver water at night",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Onde há dor, alivia. Onde há doença, toca. Onde há medo de uma notícia ruim, dá paz enquanto a resposta não chega. Tu és o Deus que não nos deixou ser consumidos.",
+      "prompt_imagem": "a small stream with smooth stones running through a mossy forest",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Eu Te entrego também as contas e o trabalho. Cada boleto atrasado. Cada dívida que tira o meu sono. Cada porta que se fechou este mês. Tu vês tudo isso.",
+      "prompt_imagem": "northern lights dancing over a calm snowy landscape",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Assim como davas o maná a cada manhã, dá o pão de cada dia na minha casa. Abre portas de trabalho. Dá sabedoria nas decisões. Multiplica o pouco que eu tenho.",
+      "prompt_imagem": "sunbeams breaking through clouds over a wide golden wheat field",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "E se a resposta ainda não vier amanhã, Senhor, me ensina a dizer como o poeta: a minha porção é o Senhor. Mesmo que falte muita coisa, Tu não vais faltar.",
+      "prompt_imagem": "a calm turquoise lagoon surrounded by tropical cliffs at dawn",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Pai, eu preciso também de perdão. Pelos meus pecados de hoje, pelas vezes em que duvidei de Ti, pelas coisas que só Tu viste. Eu não quero esconder nada.",
+      "prompt_imagem": "a lavender field glowing in warm evening light",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Obrigado porque o Teu perdão não é de ontem. É novo hoje. Eu posso deitar esta noite limpo, e acordar amanhã sem carregar o peso do que já foi perdoado.",
+      "prompt_imagem": "a mountain valley with a gentle river at sunrise, birds flying",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "E me ajuda a perdoar quem me feriu. Eu não sei fazer isso sozinho. Mas eu escolho entregar essa pessoa nas Tuas mãos. Tira de mim o peso da mágoa.",
+      "prompt_imagem": "autumn forest with golden leaves and soft morning light",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "E me ajuda a me perdoar também. Pelo que eu não consegui fazer, pelas escolhas que doeram. Se Tu ainda tens misericórdia de mim, eu não preciso continuar me condenando.",
+      "prompt_imagem": "clouds moving slowly over a quiet mountain peak at dawn",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Estamos quase lá. Antes de eu te mostrar a frase do centro do livro, eu quero orar por você de um jeito especial.",
+      "prompt_imagem": "a peaceful lake at twilight with calm water and soft pink sky",
+      "vazia": true,
+      "animar": false,
+      "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+    },
+    {
+      "trecho": "Se você tem um pedido de oração, escreva nos comentários deste vídeo. Eu vou ler e vou orar por ele. Pode ser um nome, uma cidade, uma situação. Pode ser só a palavra: recomeço.",
+      "prompt_imagem": "a gentle waterfall flowing into a clear pool surrounded by ferns",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias, mais íntimo e próximo"
+    },
+    {
+      "trecho": "Senhor, eu Te apresento cada pedido escrito aqui embaixo. Cada mãe que pediu pelo filho. Cada pessoa que pediu cura. Cada um que pediu emprego, casa, paz. Tu conheces a história por trás de cada nome.",
+      "prompt_imagem": "sunrise light spreading over a calm desert with soft dunes",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "A Tua Palavra diz, em Lamentações: \"Tu te aproximaste no dia em que te invoquei; disseste: Não temas.\" Então eu creio que nesta noite Tu te aproximas de cada pessoa que clamou.",
+      "prompt_imagem": "golden sunrise over a calm sea with gentle waves and soft clouds",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "E eu oro por quem está longe de Deus. Talvez você nem saiba por que clicou neste vídeo. Talvez faça anos que você não ora. Saiba: a misericórdia de Deus ainda não acabou para você.",
+      "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias, mais íntimo e próximo"
+    },
+    {
+      "trecho": "Basta dizer agora, no seu coração: Senhor, eu quero recomeçar. Ele não está esperando você ficar perfeito. Ele está esperando você voltar para casa.",
+      "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist and sun rays",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias, mais íntimo e próximo"
+    },
+    {
+      "trecho": "Agora ouça algumas promessas para guardar no coração antes de dormir. Deixe cada uma descer devagar, como a chuva fina na terra seca.",
+      "prompt_imagem": "a starry night sky over calm mountains, milky way glowing",
+      "vazia": true,
+      "animar": false,
+      "emocao": "calmo e lento, quase sussurrado"
+    },
+    {
+      "trecho": "\"Bom é o Senhor para os que se atêm a ele, para a alma que o busca.\" Você buscou o Senhor esta noite. Ele é bom para você.",
+      "prompt_imagem": "a quiet lake reflecting snowy mountains at first light",
+      "vazia": true,
+      "animar": false,
+      "emocao": "calmo e lento, quase sussurrado"
+    },
+    {
+      "trecho": "No Salmo trinta, Davi escreveu: \"o choro pode durar uma noite, mas a alegria vem pela manhã.\" A noite não é o fim. A manhã está vindo.",
+      "prompt_imagem": "a field of wildflowers swaying in the morning breeze at sunrise",
+      "vazia": true,
+      "animar": false,
+      "emocao": "calmo e lento, quase sussurrado"
+    },
+    {
+      "trecho": "E o Salmo quatro diz: \"Em paz também me deitarei e dormirei, porque só tu, Senhor, me fazes habitar em segurança.\" Esta é a sua promessa para hoje.",
+      "prompt_imagem": "a slow river winding through a green valley under morning fog",
+      "vazia": true,
+      "animar": false,
+      "emocao": "calmo e lento, quase sussurrado"
+    },
+    {
+      "trecho": "Agora vamos ficar um pouco em silêncio. Respire fundo pelo nariz… segure um instante… e solte devagar pela boca. Mais uma vez. Inspire a paz de Deus… solte o peso do dia.",
+      "prompt_imagem": "ocean waves rolling onto a quiet sandy beach at sunset",
+      "vazia": true,
+      "animar": false,
+      "emocao": "calmo e lento, quase sussurrado"
+    },
+    {
+      "trecho": "Deixe os ombros caírem. Solte a mandíbula. Abra as mãos, como quem entrega alguma coisa. Você não precisa segurar mais nada hoje. Deus está segurando.",
+      "prompt_imagem": "soft rain falling on green leaves in a peaceful forest",
+      "vazia": true,
+      "animar": false,
+      "emocao": "calmo e lento, quase sussurrado"
+    },
+    {
+      "trecho": "Imagine o primeiro raio de sol de amanhã entrando pela janela. Ele ainda não chegou… mas já está a caminho. Assim é a misericórdia de Deus. Ela já está vindo.",
+      "prompt_imagem": "rolling green hills covered in morning mist with the sun rising",
+      "vazia": true,
+      "animar": false,
+      "emocao": "calmo e lento, quase sussurrado"
+    },
+    {
+      "trecho": "Respire de novo… devagar. Se vier algum pensamento, não brigue com ele. Só diga em silêncio: as Tuas misericórdias não têm fim. E volte a respirar.",
+      "prompt_imagem": "a moonlit beach with calm silver water at night",
+      "vazia": true,
+      "animar": false,
+      "emocao": "calmo e lento, quase sussurrado"
+    },
+    {
+      "trecho": "Fique aqui mais um pouquinho. Não há pressa. Não há nada que você precise resolver nos próximos minutos. Só descansar… diante de Deus… e deixar que Ele cuide de você.",
+      "prompt_imagem": "a small stream with smooth stones running through a mossy forest",
+      "vazia": true,
+      "animar": false,
+      "emocao": "calmo e lento, quase sussurrado"
+    },
+    {
+      "trecho": "Agora eu vou ler devagar a parte mais bonita de Lamentações. Só ouça. \"Disso me recordarei no meu coração; por isso, tenho esperança.\"",
+      "prompt_imagem": "northern lights dancing over a calm snowy landscape",
+      "vazia": true,
+      "animar": false,
+      "emocao": "calmo e lento, quase sussurrado"
+    },
+    {
+      "trecho": "\"As misericórdias do Senhor são a causa de não sermos consumidos; porque as suas misericórdias não têm fim. Novas são cada manhã; grande é a tua fidelidade.\"",
+      "prompt_imagem": "sunbeams breaking through clouds over a wide golden wheat field",
+      "vazia": true,
+      "animar": false,
+      "emocao": "calmo e lento, quase sussurrado"
+    },
+    {
+      "trecho": "\"A minha porção é o Senhor, diz a minha alma; portanto, esperarei nele. Bom é o Senhor para os que se atêm a ele, para a alma que o busca.\"",
+      "prompt_imagem": "a calm turquoise lagoon surrounded by tropical cliffs at dawn",
+      "vazia": true,
+      "animar": false,
+      "emocao": "calmo e lento, quase sussurrado"
+    },
+    {
+      "trecho": "E agora, a promessa que eu te fiz no começo. Lamentações tem cento e cinquenta e quatro versículos. Se você contar todos, o centro exato do livro cai no capítulo três, versículo trinta e três.",
+      "prompt_imagem": "a lavender field glowing in warm evening light",
+      "vazia": true,
+      "animar": false,
+      "emocao": "emoção forte e esperança, mais firme"
+    },
+    {
+      "trecho": "E sabe o que está escrito ali, bem perto do meio? Escute: \"Porque o Senhor não rejeitará para sempre. Pois, ainda que entristeça a alguém, usará de compaixão segundo a grandeza das suas misericórdias.\"",
+      "prompt_imagem": "a mountain valley with a gentle river at sunrise, birds flying",
+      "vazia": true,
+      "animar": false,
+      "emocao": "emoção forte e esperança, mais firme"
+    },
+    {
+      "trecho": "\"Porque não aflige nem entristece de bom grado os filhos dos homens.\" No coração do livro mais triste da Bíblia, Deus deixou escrito: Ele não sente prazer na sua dor.",
+      "prompt_imagem": "autumn forest with golden leaves and soft morning light",
+      "vazia": true,
+      "animar": false,
+      "emocao": "emoção forte e esperança, mais firme"
+    },
+    {
+      "trecho": "O livro começa em ruínas e termina com uma pergunta, sem final feliz. Mas no meio, bem no centro, está o coração de Deus. Quem lê com atenção encontra a misericórdia no meio da dor.",
+      "prompt_imagem": "clouds moving slowly over a quiet mountain peak at dawn",
+      "vazia": true,
+      "animar": false,
+      "emocao": "emoção forte e esperança, mais firme"
+    },
+    {
+      "trecho": "Então, esta noite, entenda: você não precisa esperar o fim da sua história para encontrar a misericórdia de Deus. Ela está no meio. Bem no meio do que você está vivendo agora.",
+      "prompt_imagem": "a peaceful lake at twilight with calm water and soft pink sky",
+      "vazia": true,
+      "animar": false,
+      "emocao": "emoção forte e esperança, mais firme"
+    },
+    {
+      "trecho": "O Senhor não vai rejeitar você para sempre. Ele não está se divertindo com as suas lágrimas. Ele está perto, cheio de compaixão. E amanhã cedo, Ele vai recomeçar com você.",
+      "prompt_imagem": "a gentle waterfall flowing into a clear pool surrounded by ferns",
+      "vazia": true,
+      "animar": false,
+      "emocao": "emoção forte e esperança, mais firme"
+    },
+    {
+      "trecho": "Obrigado, Pai, porque as Tuas misericórdias não acabaram hoje. Obrigado porque eu não fui consumido. Obrigado por este dia, mesmo difícil, que agora fica nas Tuas mãos.",
+      "prompt_imagem": "sunrise light spreading over a calm desert with soft dunes",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Obrigado porque amanhã, quando eu abrir os olhos, a Tua misericórdia já vai estar lá. Antes do primeiro boleto, antes da primeira notícia, antes da primeira preocupação. Grande é a Tua fidelidade.",
+      "prompt_imagem": "golden sunrise over a calm sea with gentle waves and soft clouds",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Se esta oração te ajudou, comente Amém e mande este vídeo para alguém que precisa recomeçar. Talvez seja a resposta que essa pessoa pediu hoje.",
+      "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
+      "vazia": true,
+      "animar": false,
+      "emocao": "paz e bênção, voz suave de despedida"
+    },
+    {
+      "trecho": "Que o Deus de toda misericórdia cubra você e a sua casa esta noite. Que Ele guarde os seus filhos e o seu sono. E que amanhã você acorde com uma esperança nova.",
+      "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist and sun rays",
+      "vazia": true,
+      "animar": false,
+      "emocao": "paz e bênção, voz suave de despedida"
+    },
+    {
+      "trecho": "Inscreva-se no canal para orarmos juntos toda noite. Amanhã eu vou estar aqui de novo, orando com você.",
+      "prompt_imagem": "a starry night sky over calm mountains, milky way glowing",
+      "vazia": true,
+      "animar": false,
+      "emocao": "paz e bênção, voz suave de despedida"
+    },
+    {
+      "trecho": "Durma em paz. A noite vai passar. A misericórdia de amanhã já está a caminho. Em nome de Jesus… amém.",
+      "prompt_imagem": "a quiet lake reflecting snowy mountains at first light",
+      "vazia": true,
+      "animar": false,
+      "emocao": "paz e bênção, voz suave de despedida"
+    }
   ]
- },
- "cenas": [
-  {
-   "trecho": "Toda manhã, a misericórdia de Deus recomeça. E essa frase foi escrita no meio de ruínas.",
-   "prompt_imagem": "golden sunrise over a calm sea with gentle waves and soft clouds",
-   "vazia": true,
-   "animar": false,
-   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
-  },
-  {
-   "trecho": "Não foi escrita num dia bonito. Foi escrita por alguém que tinha perdido a casa, a cidade e quase toda a esperança. Talvez você conheça um pouco esse sentimento hoje.",
-   "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
-   "vazia": true,
-   "animar": false,
-   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
-  },
-  {
-   "trecho": "E tem uma coisa nesse livro que quase ninguém percebe. No final desta oração, eu vou te mostrar o que está escrito bem no centro exato dele… e por que essa frase foi guardada para noites como a sua.",
-   "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist and sun rays",
-   "vazia": true,
-   "animar": false,
-   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
-  },
-  {
-   "trecho": "Se hoje foi um dia ruim, fica comigo. Se você errou, se brigou, se chorou escondido no banheiro, se a conta não fechou… esta noite não precisa ser o fim da história.",
-   "prompt_imagem": "a starry night sky over calm mountains, milky way glowing",
-   "vazia": true,
-   "animar": false,
-   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
-  },
-  {
-   "trecho": "Talvez você esteja deitado agora pensando: amanhã vai ser igual. O mesmo peso, o mesmo cansaço, a mesma luta. Primeiro, eu vou te contar onde nasceu essa promessa. Depois, vamos orar juntos.",
-   "prompt_imagem": "a quiet lake reflecting snowy mountains at first light",
-   "vazia": true,
-   "animar": false,
-   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
-  },
-  {
-   "trecho": "O livro se chama Lamentações. Fica logo depois de Jeremias, e a tradição antiga diz que foi o próprio Jeremias, o profeta chorão, quem escreveu esses cinco poemas de dor.",
-   "prompt_imagem": "a field of wildflowers swaying in the morning breeze at sunrise",
-   "vazia": true,
-   "animar": false,
-   "emocao": "contador de histórias, tensão crescente"
-  },
-  {
-   "trecho": "Para entender, volte uns seiscentos anos antes de Cristo. Jerusalém, a cidade de Davi, a cidade do templo, estava cercada pelo exército da Babilônia, do rei Nabucodonosor.",
-   "prompt_imagem": "a slow river winding through a green valley under morning fog",
-   "vazia": true,
-   "animar": false,
-   "emocao": "contador de histórias, tensão crescente"
-  },
-  {
-   "trecho": "O cerco durou muito tempo. A Bíblia conta, em Segundo Reis, que a fome tomou conta da cidade. Não havia pão para o povo. As mães não tinham o que dar aos filhos.",
-   "prompt_imagem": "ocean waves rolling onto a quiet sandy beach at sunset",
-   "vazia": true,
-   "animar": false,
-   "emocao": "contador de histórias, tensão crescente"
-  },
-  {
-   "trecho": "Até que os muros caíram. O exército entrou, queimou o templo, queimou a casa do rei e as casas de Jerusalém. E levou boa parte do povo como prisioneiro para a Babilônia.",
-   "prompt_imagem": "soft rain falling on green leaves in a peaceful forest",
-   "vazia": true,
-   "animar": false,
-   "emocao": "contador de histórias, tensão crescente"
-  },
-  {
-   "trecho": "Pense no que isso significava. O templo era o lugar onde o povo sentia que Deus morava no meio deles. E agora era só fumaça, pedra quebrada e silêncio.",
-   "prompt_imagem": "rolling green hills covered in morning mist with the sun rising",
-   "vazia": true,
-   "animar": false,
-   "emocao": "contador de histórias, tensão crescente"
-  },
-  {
-   "trecho": "O livro começa com um grito de luto: a cidade que antes era cheia de gente agora está sozinha, como uma viúva. E o poeta chora pelas ruas vazias que ele conhecia tão bem.",
-   "prompt_imagem": "a moonlit beach with calm silver water at night",
-   "vazia": true,
-   "animar": false,
-   "emocao": "contador de histórias, tensão crescente"
-  },
-  {
-   "trecho": "Antes de seguirmos, se esta história já tocou você, inscreva-se no canal e fique até o fim. O que vem agora é a parte mais bonita.",
-   "prompt_imagem": "a small stream with smooth stones running through a mossy forest",
-   "vazia": true,
-   "animar": false,
-   "emocao": "contador de histórias, mais íntimo e próximo"
-  },
-  {
-   "trecho": "Um detalhe que quase ninguém sabe: Lamentações foi escrito com cuidado de artesão. Quatro dos cinco poemas seguem as letras do alfabeto hebraico, uma letra abrindo cada estrofe.",
-   "prompt_imagem": "northern lights dancing over a calm snowy landscape",
-   "vazia": true,
-   "animar": false,
-   "emocao": "contador de histórias, tensão crescente"
-  },
-  {
-   "trecho": "O capítulo três vai além: são sessenta e seis versículos, três para cada uma das vinte e duas letras. Como se o poeta dissesse: vou chorar de A a Z diante de Deus. Nenhuma dor vai ficar escondida.",
-   "prompt_imagem": "sunbeams breaking through clouds over a wide golden wheat field",
-   "vazia": true,
-   "animar": false,
-   "emocao": "contador de histórias, tensão crescente"
-  },
-  {
-   "trecho": "E o capítulo três começa assim: \"Eu sou o homem que viu a aflição pela vara do seu furor.\" Não é teoria. É alguém falando em primeira pessoa, com a ferida aberta.",
-   "prompt_imagem": "a calm turquoise lagoon surrounded by tropical cliffs at dawn",
-   "vazia": true,
-   "animar": false,
-   "emocao": "contador de histórias, tensão crescente"
-  },
-  {
-   "trecho": "Ele diz coisas que muita gente tem vergonha de dizer em voz alta. Que se sentiu cercado. Que orava e parecia que o céu estava fechado. Que andava no escuro, sem luz.",
-   "prompt_imagem": "a lavender field glowing in warm evening light",
-   "vazia": true,
-   "animar": false,
-   "emocao": "contador de histórias, tensão crescente"
-  },
-  {
-   "trecho": "E então ele chega ao fundo do poço: \"E afastaste da paz a minha alma; esqueci-me do bem.\" Ele esqueceu como era um dia bom. Você já se sentiu assim?",
-   "prompt_imagem": "a mountain valley with a gentle river at sunrise, birds flying",
-   "vazia": true,
-   "animar": false,
-   "emocao": "contador de histórias, tensão crescente"
-  },
-  {
-   "trecho": "E logo depois: \"Já pereceu a minha força, como também a minha esperança no Senhor.\" Repare: até a esperança em Deus tinha acabado. Isso está na Bíblia. Deus deixou isso escrito.",
-   "prompt_imagem": "autumn forest with golden leaves and soft morning light",
-   "vazia": true,
-   "animar": false,
-   "emocao": "contador de histórias, tensão crescente"
-  },
-  {
-   "trecho": "Sabe por quê? Porque Deus não tem medo da sua sinceridade. Ele não pede que você finja força. Ele deixou espaço na Bíblia para quem chegou no limite.",
-   "prompt_imagem": "clouds moving slowly over a quiet mountain peak at dawn",
-   "vazia": true,
-   "animar": false,
-   "emocao": "contador de histórias, mais íntimo e próximo"
-  },
-  {
-   "trecho": "E aí, no versículo vinte e um, acontece a virada. Nada mudou do lado de fora. Os muros continuavam no chão. A cidade continuava queimada. Mas alguma coisa mudou do lado de dentro.",
-   "prompt_imagem": "a peaceful lake at twilight with calm water and soft pink sky",
-   "vazia": true,
-   "animar": false,
-   "emocao": "contador de histórias, tensão crescente"
-  },
-  {
-   "trecho": "Ele diz: \"Disso me recordarei no meu coração; por isso, tenho esperança.\" Ele não esperou a situação melhorar para ter esperança. Ele escolheu se lembrar de uma coisa.",
-   "prompt_imagem": "a gentle waterfall flowing into a clear pool surrounded by ferns",
-   "vazia": true,
-   "animar": false,
-   "emocao": "contador de histórias, tensão crescente"
-  },
-  {
-   "trecho": "E do que ele se lembrou? \"As misericórdias do Senhor são a causa de não sermos consumidos; porque as suas misericórdias não têm fim.\"",
-   "prompt_imagem": "sunrise light spreading over a calm desert with soft dunes",
-   "vazia": true,
-   "animar": false,
-   "emocao": "contador de histórias, tensão crescente"
-  },
-  {
-   "trecho": "Repare no que ele está dizendo. Nós perdemos muito… mas não fomos consumidos. Ainda estamos aqui. Ainda estamos de pé. E isso não é sorte. É misericórdia.",
-   "prompt_imagem": "golden sunrise over a calm sea with gentle waves and soft clouds",
-   "vazia": true,
-   "animar": false,
-   "emocao": "contador de histórias, mais íntimo e próximo"
-  },
-  {
-   "trecho": "E então vem a frase que atravessou os séculos: \"Novas são cada manhã; grande é a tua fidelidade.\" A misericórdia de Deus não é velha, reaproveitada, cansada. Ela é nova. Todo dia.",
-   "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
-   "vazia": true,
-   "animar": false,
-   "emocao": "emoção forte e esperança, mais firme"
-  },
-  {
-   "trecho": "Isso lembra o maná no deserto. Lá no livro de Êxodo, o pão do céu caía toda manhã, e não dava para guardar para o dia seguinte. Cada dia tinha a sua porção.",
-   "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist and sun rays",
-   "vazia": true,
-   "animar": false,
-   "emocao": "contador de histórias, mais íntimo e próximo"
-  },
-  {
-   "trecho": "Deus não te dá hoje a força de amanhã. Ele te dá a força de hoje. E amanhã cedo, quando você abrir os olhos, a misericórdia de amanhã já vai estar lá, novinha, esperando você.",
-   "prompt_imagem": "a starry night sky over calm mountains, milky way glowing",
-   "vazia": true,
-   "animar": false,
-   "emocao": "contador de histórias, mais íntimo e próximo"
-  },
-  {
-   "trecho": "Ele continua: \"A minha porção é o Senhor, diz a minha alma; portanto, esperarei nele.\" Ele perdeu a terra, a casa, o templo. Mas descobriu que a parte dele, a herança dele, era o próprio Deus.",
-   "prompt_imagem": "a quiet lake reflecting snowy mountains at first light",
-   "vazia": true,
-   "animar": false,
-   "emocao": "contador de histórias, tensão crescente"
-  },
-  {
-   "trecho": "E diz mais: \"Bom é ter esperança e aguardar em silêncio a salvação do Senhor.\" Em silêncio. Sem desespero. Como quem se deita para dormir sabendo que alguém está acordado cuidando da casa.",
-   "prompt_imagem": "a field of wildflowers swaying in the morning breeze at sunrise",
-   "vazia": true,
-   "animar": false,
-   "emocao": "contador de histórias, mais íntimo e próximo"
-  },
-  {
-   "trecho": "Mas guarde isto: essa não é a frase mais escondida do livro. Existe outra, bem no centro exato de Lamentações, que quase ninguém percebe. Já vamos chegar nela.",
-   "prompt_imagem": "a slow river winding through a green valley under morning fog",
-   "vazia": true,
-   "animar": false,
-   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
-  },
-  {
-   "trecho": "Talvez a sua vida também esteja com alguns muros no chão. Um casamento que esfriou. Um filho que se afastou. Um emprego que acabou. Um diagnóstico que mudou tudo.",
-   "prompt_imagem": "ocean waves rolling onto a quiet sandy beach at sunset",
-   "vazia": true,
-   "animar": false,
-   "emocao": "contador de histórias, mais íntimo e próximo"
-  },
-  {
-   "trecho": "E talvez você esteja esperando tudo se resolver para conseguir respirar. Mas o poeta de Lamentações nos ensina outra coisa: a esperança pode começar antes de a reconstrução começar.",
-   "prompt_imagem": "soft rain falling on green leaves in a peaceful forest",
-   "vazia": true,
-   "animar": false,
-   "emocao": "contador de histórias, mais íntimo e próximo"
-  },
-  {
-   "trecho": "Você não precisa ter as respostas hoje. Você só precisa fazer o que ele fez: se lembrar. Lembrar de quem Deus é. Lembrar das vezes em que Ele já cuidou de você.",
-   "prompt_imagem": "rolling green hills covered in morning mist with the sun rising",
-   "vazia": true,
-   "animar": false,
-   "emocao": "contador de histórias, mais íntimo e próximo"
-  },
-  {
-   "trecho": "Hoje à noite, a misericórdia de Deus vai cobrir o que você não conseguiu resolver. E amanhã, quando o sol nascer, você não vai recomeçar sozinho. Vai recomeçar com uma misericórdia nova.",
-   "prompt_imagem": "a moonlit beach with calm silver water at night",
-   "vazia": true,
-   "animar": false,
-   "emocao": "contador de histórias, mais íntimo e próximo"
-  },
-  {
-   "trecho": "Agora, se puder, feche os olhos. Coloque a mão no peito. Respire fundo… e solte devagar. E repita comigo, no seu coração, esta oração.",
-   "prompt_imagem": "a small stream with smooth stones running through a mossy forest",
-   "vazia": true,
-   "animar": false,
-   "emocao": "calmo e lento, quase sussurrado"
-  },
-  {
-   "trecho": "Senhor… eu chego aqui no fim deste dia do jeito que eu estou. Cansado. Com o coração pesado. Eu não vou fingir que estou bem. Tu já sabes de tudo.",
-   "prompt_imagem": "northern lights dancing over a calm snowy landscape",
-   "vazia": true,
-   "animar": false,
-   "emocao": "ternura, voz embargada nas dores, frases curtas"
-  },
-  {
-   "trecho": "Hoje teve coisa que deu errado. Teve palavra que eu não devia ter dito. Teve choro que ninguém viu. Teve preocupação que me acompanhou do café da manhã até agora.",
-   "prompt_imagem": "sunbeams breaking through clouds over a wide golden wheat field",
-   "vazia": true,
-   "animar": false,
-   "emocao": "ternura, voz embargada nas dores, frases curtas"
-  },
-  {
-   "trecho": "E às vezes, Senhor, eu me sinto como o homem de Lamentações. Esqueci como é um dia bom. A minha força acabou. E até a minha esperança ficou fraquinha.",
-   "prompt_imagem": "a calm turquoise lagoon surrounded by tropical cliffs at dawn",
-   "vazia": true,
-   "animar": false,
-   "emocao": "ternura, voz embargada nas dores, frases curtas"
-  },
-  {
-   "trecho": "Mas esta noite eu escolho fazer o que ele fez. Eu escolho me lembrar. Eu me lembro de que Tu já me tiraste de lugares piores. Eu me lembro de que Tu nunca me abandonaste.",
-   "prompt_imagem": "a lavender field glowing in warm evening light",
-   "vazia": true,
-   "animar": false,
-   "emocao": "ternura, voz embargada nas dores, frases curtas"
-  },
-  {
-   "trecho": "A Tua Palavra diz que as Tuas misericórdias não têm fim. Então elas não acabaram hoje, Senhor. Nem com os meus erros, nem com o meu cansaço. Elas ainda estão aqui comigo.",
-   "prompt_imagem": "a mountain valley with a gentle river at sunrise, birds flying",
-   "vazia": true,
-   "animar": false,
-   "emocao": "ternura, voz embargada nas dores, frases curtas"
-  },
-  {
-   "trecho": "Eu Te entrego este dia inteiro. O que foi bom e o que foi ruim. E enquanto oramos, guarde no coração: tem uma frase no centro deste livro que foi escrita para você. No final, eu vou te mostrar.",
-   "prompt_imagem": "autumn forest with golden leaves and soft morning light",
-   "vazia": true,
-   "animar": false,
-   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
-  },
-  {
-   "trecho": "Senhor, agora eu Te entrego a minha mente. Os pensamentos que giram e não param. As conversas que eu fico repetindo. Os medos do que pode acontecer amanhã.",
-   "prompt_imagem": "clouds moving slowly over a quiet mountain peak at dawn",
-   "vazia": true,
-   "animar": false,
-   "emocao": "ternura, voz embargada nas dores, frases curtas"
-  },
-  {
-   "trecho": "Quando a minha cabeça disser que amanhã vai ser igual, me lembra: novas são cada manhã. Amanhã não é uma cópia de hoje. Amanhã tem uma misericórdia que eu ainda nem conheço.",
-   "prompt_imagem": "a peaceful lake at twilight with calm water and soft pink sky",
-   "vazia": true,
-   "animar": false,
-   "emocao": "ternura, voz embargada nas dores, frases curtas"
-  },
-  {
-   "trecho": "Acalma a ansiedade que aperta o meu peito. Desfaz o nó na minha garganta. Põe silêncio onde há barulho. Ensina-me a aguardar em silêncio, como o poeta aguardou.",
-   "prompt_imagem": "a gentle waterfall flowing into a clear pool surrounded by ferns",
-   "vazia": true,
-   "animar": false,
-   "emocao": "ternura, voz embargada nas dores, frases curtas"
-  },
-  {
-   "trecho": "Eu não preciso resolver tudo esta noite. Eu não consigo, Senhor. Então eu solto. Eu abro as mãos. O que é grande demais para mim não é grande demais para Ti.",
-   "prompt_imagem": "sunrise light spreading over a calm desert with soft dunes",
-   "vazia": true,
-   "animar": false,
-   "emocao": "ternura, voz embargada nas dores, frases curtas"
-  },
-  {
-   "trecho": "E se eu acordar de madrugada com o coração acelerado, que eu me lembre: grande é a Tua fidelidade. Tu estavas acordado antes de mim, e vais continuar acordado depois.",
-   "prompt_imagem": "golden sunrise over a calm sea with gentle waves and soft clouds",
-   "vazia": true,
-   "animar": false,
-   "emocao": "ternura, voz embargada nas dores, frases curtas"
-  },
-  {
-   "trecho": "Respire fundo mais uma vez. Estamos chegando perto. A frase escondida no meio de Lamentações responde uma pergunta que talvez você tenha feito hoje: Deus gosta de me ver sofrer? Já, já você vai ouvir a resposta.",
-   "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
-   "vazia": true,
-   "animar": false,
-   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
-  },
-  {
-   "trecho": "Pai, eu Te entrego a minha família. A minha casa, mesmo simples. As pessoas que dormem debaixo deste teto. E também as que estão longe, que eu não consigo abraçar esta noite.",
-   "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist and sun rays",
-   "vazia": true,
-   "animar": false,
-   "emocao": "ternura, voz embargada nas dores, frases curtas"
-  },
-  {
-   "trecho": "Eu Te entrego os meus filhos. Tu sabes o que cada um está vivendo, até o que eles não me contam. Cobre cada um com a Tua misericórdia nova de amanhã.",
-   "prompt_imagem": "a starry night sky over calm mountains, milky way glowing",
-   "vazia": true,
-   "animar": false,
-   "emocao": "ternura, voz embargada nas dores, frases curtas"
-  },
-  {
-   "trecho": "Se algum deles está se afastando de Ti, Senhor, não desiste dele. Traz de volta. Fala com o coração dele de um jeito que eu não consigo falar. E me dá paciência para esperar.",
-   "prompt_imagem": "a quiet lake reflecting snowy mountains at first light",
-   "vazia": true,
-   "animar": false,
-   "emocao": "ternura, voz embargada nas dores, frases curtas"
-  },
-  {
-   "trecho": "Perdoa-me pelas vezes em que perdi a paciência com eles. Pelas palavras duras de hoje. Amanhã é um dia novo, Senhor. Me dá a chance de recomeçar como pai, como mãe.",
-   "prompt_imagem": "a field of wildflowers swaying in the morning breeze at sunrise",
-   "vazia": true,
-   "animar": false,
-   "emocao": "ternura, voz embargada nas dores, frases curtas"
-  },
-  {
-   "trecho": "Eu Te entrego o meu casamento. Se ele esfriou, aquece. Se há muros caídos entre nós, reconstrói pedra por pedra. Se há silêncio, devolve as palavras e o carinho.",
-   "prompt_imagem": "a slow river winding through a green valley under morning fog",
-   "vazia": true,
-   "animar": false,
-   "emocao": "ternura, voz embargada nas dores, frases curtas"
-  },
-  {
-   "trecho": "E por quem está sozinho esta noite, Senhor… pela viúva, pelo filho que perdeu a mãe, por quem mora longe da família… sê Tu a companhia. Que ninguém se sinta esquecido.",
-   "prompt_imagem": "ocean waves rolling onto a quiet sandy beach at sunset",
-   "vazia": true,
-   "animar": false,
-   "emocao": "ternura, voz embargada nas dores, frases curtas"
-  },
-  {
-   "trecho": "Eu oro também pelas mães que estão no hospital ao lado de um filho, pelos avós que oram pelos netos, por quem trabalha a noite inteira. Guarda cada um deles.",
-   "prompt_imagem": "soft rain falling on green leaves in a peaceful forest",
-   "vazia": true,
-   "animar": false,
-   "emocao": "ternura, voz embargada nas dores, frases curtas"
-  },
-  {
-   "trecho": "Fique comigo. Daqui a pouco vamos chegar ao centro exato de Lamentações. É ali que está a frase que muda a forma como você vai olhar para o seu sofrimento.",
-   "prompt_imagem": "rolling green hills covered in morning mist with the sun rising",
-   "vazia": true,
-   "animar": false,
-   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
-  },
-  {
-   "trecho": "Pai, eu Te entrego a minha saúde e a saúde de quem eu amo. Tu conheces cada dor no corpo, cada exame esperando resultado, cada remédio em cima da mesa.",
-   "prompt_imagem": "a moonlit beach with calm silver water at night",
-   "vazia": true,
-   "animar": false,
-   "emocao": "ternura, voz embargada nas dores, frases curtas"
-  },
-  {
-   "trecho": "Onde há dor, alivia. Onde há doença, toca. Onde há medo de uma notícia ruim, dá paz enquanto a resposta não chega. Tu és o Deus que não nos deixou ser consumidos.",
-   "prompt_imagem": "a small stream with smooth stones running through a mossy forest",
-   "vazia": true,
-   "animar": false,
-   "emocao": "ternura, voz embargada nas dores, frases curtas"
-  },
-  {
-   "trecho": "Eu Te entrego também as contas e o trabalho. Cada boleto atrasado. Cada dívida que tira o meu sono. Cada porta que se fechou este mês. Tu vês tudo isso.",
-   "prompt_imagem": "northern lights dancing over a calm snowy landscape",
-   "vazia": true,
-   "animar": false,
-   "emocao": "ternura, voz embargada nas dores, frases curtas"
-  },
-  {
-   "trecho": "Assim como davas o maná a cada manhã, dá o pão de cada dia na minha casa. Abre portas de trabalho. Dá sabedoria nas decisões. Multiplica o pouco que eu tenho.",
-   "prompt_imagem": "sunbeams breaking through clouds over a wide golden wheat field",
-   "vazia": true,
-   "animar": false,
-   "emocao": "ternura, voz embargada nas dores, frases curtas"
-  },
-  {
-   "trecho": "E se a resposta ainda não vier amanhã, Senhor, me ensina a dizer como o poeta: a minha porção é o Senhor. Mesmo que falte muita coisa, Tu não vais faltar.",
-   "prompt_imagem": "a calm turquoise lagoon surrounded by tropical cliffs at dawn",
-   "vazia": true,
-   "animar": false,
-   "emocao": "ternura, voz embargada nas dores, frases curtas"
-  },
-  {
-   "trecho": "Pai, eu preciso também de perdão. Pelos meus pecados de hoje, pelas vezes em que duvidei de Ti, pelas coisas que só Tu viste. Eu não quero esconder nada.",
-   "prompt_imagem": "a lavender field glowing in warm evening light",
-   "vazia": true,
-   "animar": false,
-   "emocao": "ternura, voz embargada nas dores, frases curtas"
-  },
-  {
-   "trecho": "Obrigado porque o Teu perdão não é de ontem. É novo hoje. Eu posso deitar esta noite limpo, e acordar amanhã sem carregar o peso do que já foi perdoado.",
-   "prompt_imagem": "a mountain valley with a gentle river at sunrise, birds flying",
-   "vazia": true,
-   "animar": false,
-   "emocao": "ternura, voz embargada nas dores, frases curtas"
-  },
-  {
-   "trecho": "E me ajuda a perdoar quem me feriu. Eu não sei fazer isso sozinho. Mas eu escolho entregar essa pessoa nas Tuas mãos. Tira de mim o peso da mágoa.",
-   "prompt_imagem": "autumn forest with golden leaves and soft morning light",
-   "vazia": true,
-   "animar": false,
-   "emocao": "ternura, voz embargada nas dores, frases curtas"
-  },
-  {
-   "trecho": "E me ajuda a me perdoar também. Pelo que eu não consegui fazer, pelas escolhas que doeram. Se Tu ainda tens misericórdia de mim, eu não preciso continuar me condenando.",
-   "prompt_imagem": "clouds moving slowly over a quiet mountain peak at dawn",
-   "vazia": true,
-   "animar": false,
-   "emocao": "ternura, voz embargada nas dores, frases curtas"
-  },
-  {
-   "trecho": "Estamos quase lá. Antes de eu te mostrar a frase do centro do livro, eu quero orar por você de um jeito especial.",
-   "prompt_imagem": "a peaceful lake at twilight with calm water and soft pink sky",
-   "vazia": true,
-   "animar": false,
-   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
-  },
-  {
-   "trecho": "Se você tem um pedido de oração, escreva nos comentários deste vídeo. Eu vou ler e vou orar por ele. Pode ser um nome, uma cidade, uma situação. Pode ser só a palavra: recomeço.",
-   "prompt_imagem": "a gentle waterfall flowing into a clear pool surrounded by ferns",
-   "vazia": true,
-   "animar": false,
-   "emocao": "contador de histórias, mais íntimo e próximo"
-  },
-  {
-   "trecho": "Senhor, eu Te apresento cada pedido escrito aqui embaixo. Cada mãe que pediu pelo filho. Cada pessoa que pediu cura. Cada um que pediu emprego, casa, paz. Tu conheces a história por trás de cada nome.",
-   "prompt_imagem": "sunrise light spreading over a calm desert with soft dunes",
-   "vazia": true,
-   "animar": false,
-   "emocao": "ternura, voz embargada nas dores, frases curtas"
-  },
-  {
-   "trecho": "A Tua Palavra diz, em Lamentações: \"Tu te aproximaste no dia em que te invoquei; disseste: Não temas.\" Então eu creio que nesta noite Tu te aproximas de cada pessoa que clamou.",
-   "prompt_imagem": "golden sunrise over a calm sea with gentle waves and soft clouds",
-   "vazia": true,
-   "animar": false,
-   "emocao": "ternura, voz embargada nas dores, frases curtas"
-  },
-  {
-   "trecho": "E eu oro por quem está longe de Deus. Talvez você nem saiba por que clicou neste vídeo. Talvez faça anos que você não ora. Saiba: a misericórdia de Deus ainda não acabou para você.",
-   "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
-   "vazia": true,
-   "animar": false,
-   "emocao": "contador de histórias, mais íntimo e próximo"
-  },
-  {
-   "trecho": "Basta dizer agora, no seu coração: Senhor, eu quero recomeçar. Ele não está esperando você ficar perfeito. Ele está esperando você voltar para casa.",
-   "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist and sun rays",
-   "vazia": true,
-   "animar": false,
-   "emocao": "contador de histórias, mais íntimo e próximo"
-  },
-  {
-   "trecho": "Agora ouça algumas promessas para guardar no coração antes de dormir. Deixe cada uma descer devagar, como a chuva fina na terra seca.",
-   "prompt_imagem": "a starry night sky over calm mountains, milky way glowing",
-   "vazia": true,
-   "animar": false,
-   "emocao": "calmo e lento, quase sussurrado"
-  },
-  {
-   "trecho": "\"Bom é o Senhor para os que se atêm a ele, para a alma que o busca.\" Você buscou o Senhor esta noite. Ele é bom para você.",
-   "prompt_imagem": "a quiet lake reflecting snowy mountains at first light",
-   "vazia": true,
-   "animar": false,
-   "emocao": "calmo e lento, quase sussurrado"
-  },
-  {
-   "trecho": "No Salmo trinta, Davi escreveu: \"o choro pode durar uma noite, mas a alegria vem pela manhã.\" A noite não é o fim. A manhã está vindo.",
-   "prompt_imagem": "a field of wildflowers swaying in the morning breeze at sunrise",
-   "vazia": true,
-   "animar": false,
-   "emocao": "calmo e lento, quase sussurrado"
-  },
-  {
-   "trecho": "E o Salmo quatro diz: \"Em paz também me deitarei e dormirei, porque só tu, Senhor, me fazes habitar em segurança.\" Esta é a sua promessa para hoje.",
-   "prompt_imagem": "a slow river winding through a green valley under morning fog",
-   "vazia": true,
-   "animar": false,
-   "emocao": "calmo e lento, quase sussurrado"
-  },
-  {
-   "trecho": "Agora vamos ficar um pouco em silêncio. Respire fundo pelo nariz… segure um instante… e solte devagar pela boca. Mais uma vez. Inspire a paz de Deus… solte o peso do dia.",
-   "prompt_imagem": "ocean waves rolling onto a quiet sandy beach at sunset",
-   "vazia": true,
-   "animar": false,
-   "emocao": "calmo e lento, quase sussurrado"
-  },
-  {
-   "trecho": "Deixe os ombros caírem. Solte a mandíbula. Abra as mãos, como quem entrega alguma coisa. Você não precisa segurar mais nada hoje. Deus está segurando.",
-   "prompt_imagem": "soft rain falling on green leaves in a peaceful forest",
-   "vazia": true,
-   "animar": false,
-   "emocao": "calmo e lento, quase sussurrado"
-  },
-  {
-   "trecho": "Imagine o primeiro raio de sol de amanhã entrando pela janela. Ele ainda não chegou… mas já está a caminho. Assim é a misericórdia de Deus. Ela já está vindo.",
-   "prompt_imagem": "rolling green hills covered in morning mist with the sun rising",
-   "vazia": true,
-   "animar": false,
-   "emocao": "calmo e lento, quase sussurrado"
-  },
-  {
-   "trecho": "Respire de novo… devagar. Se vier algum pensamento, não brigue com ele. Só diga em silêncio: as Tuas misericórdias não têm fim. E volte a respirar.",
-   "prompt_imagem": "a moonlit beach with calm silver water at night",
-   "vazia": true,
-   "animar": false,
-   "emocao": "calmo e lento, quase sussurrado"
-  },
-  {
-   "trecho": "Fique aqui mais um pouquinho. Não há pressa. Não há nada que você precise resolver nos próximos minutos. Só descansar… diante de Deus… e deixar que Ele cuide de você.",
-   "prompt_imagem": "a small stream with smooth stones running through a mossy forest",
-   "vazia": true,
-   "animar": false,
-   "emocao": "calmo e lento, quase sussurrado"
-  },
-  {
-   "trecho": "Agora eu vou ler devagar a parte mais bonita de Lamentações. Só ouça. \"Disso me recordarei no meu coração; por isso, tenho esperança.\"",
-   "prompt_imagem": "northern lights dancing over a calm snowy landscape",
-   "vazia": true,
-   "animar": false,
-   "emocao": "calmo e lento, quase sussurrado"
-  },
-  {
-   "trecho": "\"As misericórdias do Senhor são a causa de não sermos consumidos; porque as suas misericórdias não têm fim. Novas são cada manhã; grande é a tua fidelidade.\"",
-   "prompt_imagem": "sunbeams breaking through clouds over a wide golden wheat field",
-   "vazia": true,
-   "animar": false,
-   "emocao": "calmo e lento, quase sussurrado"
-  },
-  {
-   "trecho": "\"A minha porção é o Senhor, diz a minha alma; portanto, esperarei nele. Bom é o Senhor para os que se atêm a ele, para a alma que o busca.\"",
-   "prompt_imagem": "a calm turquoise lagoon surrounded by tropical cliffs at dawn",
-   "vazia": true,
-   "animar": false,
-   "emocao": "calmo e lento, quase sussurrado"
-  },
-  {
-   "trecho": "E agora, a promessa que eu te fiz no começo. Lamentações tem cento e cinquenta e quatro versículos. Se você contar todos, o centro exato do livro cai no capítulo três, versículo trinta e três.",
-   "prompt_imagem": "a lavender field glowing in warm evening light",
-   "vazia": true,
-   "animar": false,
-   "emocao": "emoção forte e esperança, mais firme"
-  },
-  {
-   "trecho": "E sabe o que está escrito ali, bem perto do meio? Escute: \"Porque o Senhor não rejeitará para sempre. Pois, ainda que entristeça a alguém, usará de compaixão segundo a grandeza das suas misericórdias.\"",
-   "prompt_imagem": "a mountain valley with a gentle river at sunrise, birds flying",
-   "vazia": true,
-   "animar": false,
-   "emocao": "emoção forte e esperança, mais firme"
-  },
-  {
-   "trecho": "\"Porque não aflige nem entristece de bom grado os filhos dos homens.\" No coração do livro mais triste da Bíblia, Deus deixou escrito: Ele não sente prazer na sua dor.",
-   "prompt_imagem": "autumn forest with golden leaves and soft morning light",
-   "vazia": true,
-   "animar": false,
-   "emocao": "emoção forte e esperança, mais firme"
-  },
-  {
-   "trecho": "O livro começa em ruínas e termina com uma pergunta, sem final feliz. Mas no meio, bem no centro, está o coração de Deus. Quem lê com atenção encontra a misericórdia no meio da dor.",
-   "prompt_imagem": "clouds moving slowly over a quiet mountain peak at dawn",
-   "vazia": true,
-   "animar": false,
-   "emocao": "emoção forte e esperança, mais firme"
-  },
-  {
-   "trecho": "Então, esta noite, entenda: você não precisa esperar o fim da sua história para encontrar a misericórdia de Deus. Ela está no meio. Bem no meio do que você está vivendo agora.",
-   "prompt_imagem": "a peaceful lake at twilight with calm water and soft pink sky",
-   "vazia": true,
-   "animar": false,
-   "emocao": "emoção forte e esperança, mais firme"
-  },
-  {
-   "trecho": "O Senhor não vai rejeitar você para sempre. Ele não está se divertindo com as suas lágrimas. Ele está perto, cheio de compaixão. E amanhã cedo, Ele vai recomeçar com você.",
-   "prompt_imagem": "a gentle waterfall flowing into a clear pool surrounded by ferns",
-   "vazia": true,
-   "animar": false,
-   "emocao": "emoção forte e esperança, mais firme"
-  },
-  {
-   "trecho": "Obrigado, Pai, porque as Tuas misericórdias não acabaram hoje. Obrigado porque eu não fui consumido. Obrigado por este dia, mesmo difícil, que agora fica nas Tuas mãos.",
-   "prompt_imagem": "sunrise light spreading over a calm desert with soft dunes",
-   "vazia": true,
-   "animar": false,
-   "emocao": "ternura, voz embargada nas dores, frases curtas"
-  },
-  {
-   "trecho": "Obrigado porque amanhã, quando eu abrir os olhos, a Tua misericórdia já vai estar lá. Antes do primeiro boleto, antes da primeira notícia, antes da primeira preocupação. Grande é a Tua fidelidade.",
-   "prompt_imagem": "golden sunrise over a calm sea with gentle waves and soft clouds",
-   "vazia": true,
-   "animar": false,
-   "emocao": "ternura, voz embargada nas dores, frases curtas"
-  },
-  {
-   "trecho": "Se esta oração te ajudou, comente Amém e mande este vídeo para alguém que precisa recomeçar. Talvez seja a resposta que essa pessoa pediu hoje.",
-   "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
-   "vazia": true,
-   "animar": false,
-   "emocao": "paz e bênção, voz suave de despedida"
-  },
-  {
-   "trecho": "Que o Deus de toda misericórdia cubra você e a sua casa esta noite. Que Ele guarde os seus filhos e o seu sono. E que amanhã você acorde com uma esperança nova.",
-   "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist and sun rays",
-   "vazia": true,
-   "animar": false,
-   "emocao": "paz e bênção, voz suave de despedida"
-  },
-  {
-   "trecho": "Inscreva-se no canal para orarmos juntos toda noite. Amanhã eu vou estar aqui de novo, orando com você.",
-   "prompt_imagem": "a starry night sky over calm mountains, milky way glowing",
-   "vazia": true,
-   "animar": false,
-   "emocao": "paz e bênção, voz suave de despedida"
-  },
-  {
-   "trecho": "Durma em paz. A noite vai passar. A misericórdia de amanhã já está a caminho. Em nome de Jesus… amém.",
-   "prompt_imagem": "a quiet lake reflecting snowy mountains at first light",
-   "vazia": true,
-   "animar": false,
-   "emocao": "paz e bênção, voz suave de despedida"
-  }
- ]
 }
