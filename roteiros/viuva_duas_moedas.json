@@ -1,0 +1,33 @@
+{
+  "titulo": "Jesus sentou para olhar quem dava no templo",
+  "gancho_tela": "Jesus sentou para olhar quem dava.",
+  "estilo": "pintura",
+  "narracao": "Jesus sentou para olhar quem dava dinheiro no templo. E elogiou quem deu menos. Está em Marcos, capítulo doze. Mas por que justo ela? Eram os últimos dias de Jesus em Jerusalém. Ele tinha acabado de avisar contra mestres da lei que devoravam as casas das viúvas. Então se sentou diante do lugar das ofertas e ficou observando. Muitos ricos lançavam grandes quantias. Aí chegou uma viúva pobre. Colocou duas moedinhas de cobre, de muito pouco valor. Para quem olhava de fora, não era nada. Jesus reparou. Chamou os discípulos e disse: esta viúva pobre deu mais do que todos os outros. Todos deram do que lhes sobrava. Mas ela, da sua pobreza, deu tudo o que tinha para viver. Jesus não contou moedas. Contou o coração. Talvez ninguém veja o que você carrega. O turno extra, a conta paga em silêncio, o cansaço que você esconde da família. Ninguém aplaude. Mas Jesus continua sentado, olhando. E ele vê o quanto isso custou para você. Salve este vídeo para ouvir de novo quando precisar, e siga para receber uma palavra de fé todos os dias.",
+  "cenas": [
+    {"trecho": "Jesus sentou para olhar quem dava dinheiro no templo.", "busca_imagem": "copper coins palm light",
+     "prompt_imagem": "extreme close-up of a weathered, work-worn open palm holding two tiny ancient copper coins, a single shaft of golden sunlight falling on the coins so they glow, deep dark shadows of a massive stone temple colonnade behind, strong contrast"},
+    {"trecho": "E elogiou quem deu menos. Está em Marcos, capítulo doze. Mas por que justo ela?", "busca_imagem": "temple courtyard Jerusalem",
+     "prompt_imagem": "the vast sunlit stone courtyard of the ancient temple in Jerusalem seen from high above, tall columns and golden light, tiny distant figures far away, morning haze"},
+    {"trecho": "Eram os últimos dias de Jesus em Jerusalém. Ele tinha acabado de avisar contra mestres da lei que devoravam as casas das viúvas.", "busca_imagem": "ancient scrolls tassels robes",
+     "prompt_imagem": "rich ornate scrolls and fine embroidered tasseled robes laid on a polished stone bench in a temple portico, a humble clay house with a closed wooden door visible far below in the city, dramatic light and shadow"},
+    {"trecho": "Então se sentou diante do lugar das ofertas e ficou observando. Muitos ricos lançavam grandes quantias.", "busca_imagem": "offering chest coins temple",
+     "prompt_imagem": "ancient bronze trumpet-shaped offering chests along a stone temple wall, heaps of silver and gold coins spilling and glittering in warm light, a simple stone step in the foreground where someone could sit"},
+    {"trecho": "Aí chegou uma viúva pobre. Colocou duas moedinhas de cobre, de muito pouco valor.", "busca_imagem": "two copper coins falling",
+     "prompt_imagem": "close-up of a thin hand wrapped in a frayed dark wool sleeve letting two tiny copper coins fall into the bronze mouth of an ancient offering chest, golden light, motion of the falling coins"},
+    {"trecho": "Para quem olhava de fora, não era nada. Jesus reparou. Chamou os discípulos e disse: esta viúva pobre deu mais do que todos os outros.", "busca_imagem": "two coins stone floor light",
+     "prompt_imagem": "two small worn copper coins resting alone on a vast polished stone floor of the temple, a beam of golden light falling directly on them, everything else in shadow"},
+    {"trecho": "Todos deram do que lhes sobrava. Mas ela, da sua pobreza, deu tudo o que tinha para viver.", "busca_imagem": "empty purse bread clay",
+     "prompt_imagem": "an empty small leather pouch lying open on a bare wooden table in a poor stone house, a single piece of bread and a clay cup beside it, an oil lamp casting soft warm light"},
+    {"trecho": "Jesus não contou moedas. Contou o coração. Talvez ninguém veja o que você carrega. O turno extra, a conta paga em silêncio, o cansaço que você esconde da família.", "busca_imagem": "calloused hands tools lamp",
+     "prompt_imagem": "close-up of rough calloused hands resting on a carpenter's wooden workbench at night, ancient tools and wood shavings around, a small clay oil lamp burning low, quiet and tired atmosphere"},
+    {"trecho": "Ninguém aplaude. Mas Jesus continua sentado, olhando. E ele vê o quanto isso custou para você. Salve este vídeo para ouvir de novo quando precisar, e siga para receber uma palavra de fé todos os dias.", "busca_imagem": "temple steps dawn light",
+     "prompt_imagem": "ancient stone temple steps at dawn, warm golden light pouring down the steps toward the viewer, two small copper coins shining on the lowest step, peaceful and hopeful"}
+  ],
+  "legenda": "Senhor, obrigado por ver o que ninguém vê 🙏\nMarcos 12:41-44\nComente \"Amém\" e salve para ouvir de novo quando precisar.",
+  "hashtags": ["#Jesus", "#viúvapobre", "#Jesusvê", "#fé"],
+  "fontes": [
+    "Marcos 12:38-40 NVI (Jesus adverte contra os mestres da lei que 'devoram as casas das viúvas')",
+    "Marcos 12:41-44 NVI (Jesus sentou-se em frente do lugar das contribuições e observava; muitos ricos lançavam grandes quantias; uma viúva pobre colocou duas pequeninas moedas de cobre, de muito pouco valor; Jesus chama os discípulos: ela colocou mais do que todos; todos deram do que lhes sobrava, mas ela, da sua pobreza, deu tudo o que possuía para viver)",
+    "Marcos 11:11-13:1 (cenário: o templo em Jerusalém, nos dias antes da Páscoa e da crucificação)"
+  ]
+}
