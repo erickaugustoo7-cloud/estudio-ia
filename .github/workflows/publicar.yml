@@ -29,6 +29,7 @@ jobs:
       YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
       YT_REFRESH_TOKEN_CURIOSO: ${{ secrets.YT_REFRESH_TOKEN_CURIOSO }}
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      MODELSCOPE_TOKEN: ${{ secrets.MODELSCOPE_TOKEN }}
       IG_MAXRATE: ${{ vars.IG_MAXRATE || '2500k' }}
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}

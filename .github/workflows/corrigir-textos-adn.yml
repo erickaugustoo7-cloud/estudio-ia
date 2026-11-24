@@ -8,6 +8,7 @@ jobs:
       YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
       YT_REFRESH_TOKEN_CURIOSO: ${{ secrets.YT_REFRESH_TOKEN_CURIOSO }}
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      MODELSCOPE_TOKEN: ${{ secrets.MODELSCOPE_TOKEN }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

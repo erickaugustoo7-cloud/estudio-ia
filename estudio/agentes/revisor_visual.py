@@ -127,7 +127,36 @@ def _avaliar(chave, canal, cena, img, rigoroso=False) -> dict:
                 return v
             if r.status_code not in (429, 500, 503):
                 break
+    reserva = _avaliar_modelscope(texto, img, rigoroso)  # Gemini sem cota/fora do ar: revisor reserva (24/11)
+    if reserva is not None:
+        return reserva
     raise RuntimeError(f"HTTP {r.status_code}" if r is not None else "sem resposta do Gemini")
+
+
+def _avaliar_modelscope(texto: str, img, rigoroso: bool = False):
+    """Revisor reserva: Qwen3.5 (vê imagens) pela API gratuita do ModelScope. Devolve None se não der."""
+    tok = os.getenv("MODELSCOPE_TOKEN")
+    if not tok:
+        return None
+    url = f"data:image/jpeg;base64,{_miniatura(img, 896 if rigoroso else 512)}"
+    for modelo in ("Qwen/Qwen3.5-35B-A3B", "Qwen/Qwen3.5-27B", "Qwen/Qwen3.5-122B-A10B"):
+        try:
+            r = requests.post("https://api-inference.modelscope.ai/v1/chat/completions", timeout=120,
+                              headers={"Authorization": f"Bearer {tok}"},
+                              json={"model": modelo, "temperature": 0.1, "messages": [{"role": "user", "content": [
+                                  {"type": "image_url", "image_url": {"url": url}},
+                                  {"type": "text", "text": texto + "\n\nResponda SÓ o objeto JSON pedido, sem ``` nem texto extra."}]}]})
+            if not r.ok:
+                continue
+            bruto = r.json()["choices"][0]["message"]["content"]
+            m = re.search(r"\{.*\}", bruto, re.S)
+            v = json.loads(m.group(0)) if m else None
+            if isinstance(v, dict) and "ok" in v:
+                v["_revisor"] = modelo
+                return v
+        except Exception:  # noqa: BLE001
+            continue
+    return None
 
 
 def revisar(canal: dict, cenas: list[dict], imagens: list[Path]) -> list[str]:

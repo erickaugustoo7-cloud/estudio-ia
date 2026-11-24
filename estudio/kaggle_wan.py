@@ -161,6 +161,7 @@ def _rodar_modelscope(cenas: list, pasta: Path, etapa: str = "imagens") -> tuple
                     if st.get("task_status") == "SUCCEED":
                         url = st["output_images"][0]
                         (saida / f"{c['nome']}.png").write_bytes(requests.get(url, timeout=60).content)
+                        (saida / f"{c['nome']}.url").write_text(url)  # para consertar com o Qwen-Image-Edit
                         return True
                     if st.get("task_status") == "FAILED":
                         log("wan", f"ModelScope falhou {c['nome']}: {str(st)[:200]}")
@@ -176,6 +177,39 @@ def _rodar_modelscope(cenas: list, pasta: Path, etapa: str = "imagens") -> tuple
     (saida / "relatorio.json").write_text(json.dumps(rel))
     log("wan", f"ModelScope ({etapa}): {sum(res)}/{len(itens)} imagens em {(time.time() - t) / 60:.1f} min")
     return saida, json.dumps(rel)
+
+
+def _editar_modelscope(url: str, instrucao: str, destino: Path, W: int, H: int) -> Path | None:
+    """Conserta uma imagem reprovada com o Qwen-Image-Edit (API gratuita do ModelScope) em vez de gerar outra."""
+    import requests
+    tok = os.getenv("MODELSCOPE_TOKEN")
+    if not tok or not url:
+        return None
+    H_ = {"Authorization": f"Bearer {tok}", "Content-Type": "application/json"}
+    base = "https://api-inference.modelscope.ai"
+    try:
+        r = requests.post(f"{base}/v1/images/generations", headers={**H_, "X-ModelScope-Async-Mode": "true"}, timeout=60,
+                          json={"model": "Qwen/Qwen-Image-Edit", "prompt": instrucao[:800], "image_url": [url]})
+        if not r.ok:
+            log("wan", f"Qwen-Image-Edit recusou: {r.status_code} {r.text[:150]}")
+            return None
+        tid = r.json()["task_id"]
+        for _ in range(75):
+            time.sleep(4)
+            st = requests.get(f"{base}/v1/tasks/{tid}", headers={**H_, "X-ModelScope-Task-Type": "image_generation"},
+                              timeout=30).json()
+            if st.get("task_status") == "SUCCEED":
+                bruto = destino.with_suffix(".edit.png")
+                bruto.write_bytes(requests.get(st["output_images"][0], timeout=60).content)
+                subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(bruto), "-vf",
+                                f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H}", "-q:v", "2",
+                                str(destino)], check=True)  # a edição devolve outra proporção: volta ao quadro da cena
+                return destino
+            if st.get("task_status") == "FAILED":
+                return None
+    except Exception as e:  # noqa: BLE001
+        log("wan", f"Qwen-Image-Edit falhou: {e}")
+    return None
 
 
 def _kaggle(*args, check=True) -> str:
@@ -962,6 +996,7 @@ def main():
         prontas = {i: stock[i][1] for i in stock} | dict(acervo_img)  # cenas com vídeo real ou peça de museu
         escolhidas, pendentes, prompts, motivos = {}, [i for i in range(len(cenas_img)) if i not in prontas], {}, {}
         reserva = {}  # só imagens que ficaram SEM revisão (Gemini fora do ar), nunca as reprovadas
+        a_consertar = {}  # cena -> (URL da melhor reprovada, motivo) para o Qwen-Image-Edit
         for rodada in (1, 2, 3):  # rodadas extras só para as cenas reprovadas, com o prompt corrigido pelo revisor
             if not pendentes:
                 break
@@ -1011,6 +1046,28 @@ def main():
                     motivos[i] = v.get("motivo", "")
                     if v.get("novo_prompt"):
                         prompts[i] = f"{prefixo_img} {v['novo_prompt']}"
+                    orig = next(saida_img.glob(f"img_{i}_{jpg.stem.split('_')[-1]}.url"), None)
+                    if orig and not v.get("_sem_revisao"):
+                        a_consertar[i] = (orig.read_text().strip(), v.get("motivo", ""))
+        if fonte == "modelscope" and pendentes:  # 24/11: conserta a reprovada com o Qwen-Image-Edit antes de desistir
+            for i in list(pendentes):
+                if i not in a_consertar:
+                    continue
+                url, motivo = a_consertar[i]
+                instr = (f"Fix this documentary still: {motivo}. Remove or replace only what is wrong, keep the rest of "
+                         f"the scene, light and composition the same. Nothing modern, no text. Scene: {cenas_img[i]['prompt_imagem'][:300]}")
+                jpg = _editar_modelscope(url, instr, pasta / f"cena_{i}_editada.jpg", *((1344, 768) if horiz else (768, 1344)))
+                if not jpg:
+                    continue
+                try:
+                    v = _avaliar(chave, canal_img, cenas_img[i], jpg, rigoroso=True) if chave else {"ok": True}
+                except Exception as e:  # noqa: BLE001
+                    v = {"ok": False, "motivo": str(e)}
+                log("wan", f"cena {i + 1} consertada com Qwen-Image-Edit: {'ok' if v.get('ok') else 'ainda reprovada'} "
+                           f"{v.get('motivo', '')}")
+                if v.get("ok"):
+                    escolhidas[i] = jpg
+                    pendentes.remove(i)
         if not escolhidas:
             raise SystemExit("nenhuma imagem passou na revisão — produção interrompida para não sair com erros")
         for i in range(len(cenas_img)):

@@ -5,6 +5,7 @@
 - TikTok: o vídeo + legenda chegam no seu Telegram, prontos para salvar e postar no app (≈30 s).
 """
 import json
+import re
 import os
 import subprocess
 import time
@@ -455,37 +456,54 @@ def _enviar_capa(auth: dict, video_id: str, capa: Path):
 
 def _traducoes_youtube(titulo: str, descricao: str, cristao: bool = True) -> dict:
     """Título e descrição em espanhol e inglês (YouTube "localizations"): quem busca "oración para dormir" ou
-    "prayer before sleep" também encontra o vídeo. Usa o Gemini de texto (cota separada da voz); falhou, segue sem."""
-    chave = os.getenv("GEMINI_API_KEY")
-    if not chave:
-        return {}
+    "prayer before sleep" também encontra o vídeo. Desde 24/11: Qwen pela API gratuita do ModelScope primeiro
+    (a cota de texto do Gemini acabava); Gemini fica de reserva. Falhou tudo, segue sem tradução."""
     tipo_video = "um vídeo cristão" if cristao else "um documentário de história (NÃO religioso: não acrescente nada de fé)"
     tom = "como os grandes canais de oração de cada idioma" if cristao else "como os grandes canais de documentário"
     pedido = (f"Traduza este título e esta descrição de {tipo_video} do YouTube para espanhol latino-americano (es) e "
               f"inglês (en). Tom natural, emocional, {tom}; mantenha o formato "
-              "'[gancho] | [tipo]' no título (máx. 95 caracteres), emojis e hashtags (traduza as hashtags). Nos versículos, "
-              "use a tradução bíblica tradicional de cada idioma (Reina-Valera 1960 / KJV) se reconhecer o texto. "
+              "'[gancho] | [tipo]' no título (máx. 95 caracteres), emojis e hashtags (traduza as hashtags). "
+              "NUNCA traduza nomes de canal (\"Antes de Nós\", \"Mensageiro de Fé\"), links e marcadores de tempo. "
+              "Nos versículos, use a tradução bíblica tradicional de cada idioma (Reina-Valera 1960 / KJV) se reconhecer o texto. "
               "Responda SÓ JSON: {\"es\": {\"title\": \"...\", \"description\": \"...\"}, "
               "\"en\": {\"title\": \"...\", \"description\": \"...\"}}\n\n"
               f"TÍTULO: {titulo}\n\nDESCRIÇÃO:\n{descricao[:3000]}")
-    for modelo in ("gemini-flash-latest", "gemini-flash-lite-latest"):
+
+    def _montar(txt: str, quem: str) -> dict:
+        m = re.search(r"\{.*\}", txt, re.S)
+        dados = json.loads(m.group(0) if m else txt)
+        loc = {}
+        for lg in ("es", "en"):
+            t = (dados.get(lg) or {})
+            if t.get("title") and t.get("description"):
+                loc[lg] = {"title": t["title"][:100], "description": t["description"][:4900]}
+        if loc:
+            log("publicador", f"YouTube: título e descrição traduzidos ({', '.join(loc)}) via {quem}")
+        return loc
+
+    tok = os.getenv("MODELSCOPE_TOKEN")
+    for modelo in (("Qwen/Qwen3.8-27B", "Qwen/Qwen3.5-122B-A10B") if tok else ()):
+        try:
+            r = requests.post("https://api-inference.modelscope.ai/v1/chat/completions", timeout=120,
+                              headers={"Authorization": f"Bearer {tok}"},
+                              json={"model": modelo, "temperature": 0.4, "messages": [{"role": "user", "content": pedido}]})
+            if r.ok:
+                loc = _montar(r.json()["choices"][0]["message"]["content"], modelo)
+                if loc:
+                    return loc
+        except Exception as e:  # noqa: BLE001
+            log("publicador", f"tradução do YouTube falhou ({modelo}): {e}")
+    chave = os.getenv("GEMINI_API_KEY")
+    for modelo in (("gemini-flash-latest", "gemini-flash-lite-latest") if chave else ()):
         try:
             r = requests.post(f"https://generativelanguage.googleapis.com/v1beta/models/{modelo}:generateContent",
                               params={"key": chave}, timeout=90,
                               json={"contents": [{"parts": [{"text": pedido}]}],
                                     "generationConfig": {"responseMimeType": "application/json", "temperature": 0.4}})
-            if not r.ok:
-                continue
-            txt = r.json()["candidates"][0]["content"]["parts"][0]["text"]
-            dados = json.loads(txt)
-            loc = {}
-            for lg in ("es", "en"):
-                t = (dados.get(lg) or {})
-                if t.get("title") and t.get("description"):
-                    loc[lg] = {"title": t["title"][:100], "description": t["description"][:4900]}
-            if loc:
-                log("publicador", f"YouTube: título e descrição traduzidos ({', '.join(loc)})")
-                return loc
+            if r.ok:
+                loc = _montar(r.json()["candidates"][0]["content"]["parts"][0]["text"], modelo)
+                if loc:
+                    return loc
         except Exception as e:  # noqa: BLE001
             log("publicador", f"tradução do YouTube falhou ({modelo}): {e}")
     return {}

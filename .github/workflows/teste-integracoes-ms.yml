@@ -1,0 +1,15 @@
+name: Teste integrações ModelScope
+on: workflow_dispatch
+jobs:
+  t:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      MODELSCOPE_TOKEN: ${{ secrets.MODELSCOPE_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - run: bash ferramentas/instalar_ffmpeg.sh
+      - run: pip install -q -r requirements.txt
+      - run: python ferramentas/teste_integracoes_ms.py
