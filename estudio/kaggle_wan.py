@@ -811,7 +811,9 @@ def _imagem_capa(r, canal, pasta):
     chave = os.getenv("GEMINI_API_KEY")
     for tent in range(3):
         bruta = pasta / f"capa_t{tent}.png"
-        if not visual.gerar_uma(canal_c, cena, bruta, 777 + tent):
+        # capa (dos dois canais): ModelScope primeiro — é a imagem que mais pesa no clique; Cloudflare de reserva
+        if not (visual._modelscope(cena=cena, destino=bruta, usados=set(), canal=canal_c, seed=777 + tent)
+                or visual.gerar_uma(canal_c, cena, bruta, 777 + tent)):
             continue
         jpg = pasta / f"capa_t{tent}.jpg"
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(bruta), "-q:v", "2", str(jpg)], check=True)
