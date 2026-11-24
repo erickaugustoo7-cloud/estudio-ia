@@ -1,0 +1,74 @@
+{
+  "titulo": "Jesus ficou olhando quanto cada um dava no templo",
+  "gancho_tela": "Jesus estava olhando",
+  "referencia": "Marcos 12:41-44",
+  "serie": "O que quase ninguém sabe",
+  "tipo": "tiktok",
+  "fonte_imagem": "kaggle",
+  "opcoes_imagem": 2,
+  "duracao_max": 40,
+  "volume_musica": 0.12,
+  "plataformas": [
+    "facebook"
+  ],
+  "estilo_imagem": "cinematic photorealistic epic film still, golden hour, dramatic volumetric god rays, ancient Judea 1st century, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic slow subtle motion.",
+  "epoca_imagem": "Ancient Jerusalem temple, 1st century, stone colonnades, bronze, clay and linen only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "Jesus sentou no templo e ficou olhando quanto cada um dava.",
+      "prompt_imagem": "close-up of two tiny worn copper coins falling from an open hand into an ancient bronze offering chest, warm temple light",
+      "vazia": false,
+      "animar": true,
+      "prompt_movimento": "the two small coins slowly fall and glint in a beam of golden light, fine dust drifting"
+    },
+    {
+      "trecho": "Muitos ricos deitavam muito na arca do tesouro.",
+      "prompt_imagem": "heavy linen pouches spilling many silver coins onto ancient stone steps, rich golden light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Então veio uma viúva pobre com duas pequenas moedas.",
+      "prompt_imagem": "two tiny worn copper coins resting on a rough linen cloth, close-up, soft warm light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Jesus chamou os discípulos: esta pobre viúva deitou mais do que todos.",
+      "prompt_imagem": "wide ancient Jerusalem temple court with stone colonnades at golden hour, tiny distant figures far away in the distance",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "Eles deram do que sobrava. Ela, da sua pobreza, deu tudo.",
+      "prompt_imagem": "an empty small clay bowl on a worn wooden table in a humble stone house, single oil lamp glowing",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Ele ainda está olhando o que você entrega em silêncio.",
+      "prompt_imagem": "golden god rays falling through ancient stone temple columns onto a bronze offering chest, calm and quiet",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Siga o Mensageiro de Fé para mais do que quase ninguém sabe.",
+      "prompt_imagem": "ancient temple courtyard empty at sunrise, warm volumetric light through the dust",
+      "vazia": true,
+      "animar": false
+    }
+  ],
+  "legenda": "Jesus sentou diante da arca do tesouro e ficou olhando o que cada um dava. Duas moedinhas valeram mais que tudo (Marcos 12:41-44). Você já entregou algo a Deus que ninguém viu? Comente 👇",
+  "hashtags": [
+    "#Jesus",
+    "#Bíblia",
+    "#Fé",
+    "#OQueQuaseNinguémSabe",
+    "#Cristão"
+  ],
+  "fontes": [
+    "Marcos 12:41-44 — Almeida Revista e Corrigida (domínio público)"
+  ]
+}
