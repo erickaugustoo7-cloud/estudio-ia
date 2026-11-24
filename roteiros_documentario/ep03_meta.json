@@ -1,0 +1,70 @@
+{
+ "canal": "antes_de_nos",
+ "titulo": "Os Animais Gigantes Que Viveram Com os Primeiros Humanos",
+ "titulo_youtube": "Os Animais Gigantes Que Viveram Com os Primeiros Humanos | Documentário",
+ "tipo": "documentario",
+ "formato": "horizontal",
+ "duracao_max": 999,
+ "volume_musica": 0.0,
+ "opcoes_imagem": 1,
+ "palavras_por_bloco": 600,
+ "plataformas": [
+  "youtube"
+ ],
+ "fonte_imagem": "cloudflare",
+ "fundo_video": "pixabay",
+ "texto_capa": [
+  "ELES VIRAM",
+  "*GIGANTES",
+  "DE VERDADE"
+ ],
+ "selo_capa": "Documentário",
+ "cena_capa": 0,
+ "capa_prompt": "cinematic photo of a giant ground sloth the size of an elephant rearing up on its hind legs on an Ice Age grassland at sunset, the left half of the frame dark and empty for text, realistic, documentary style, 16:9, no text, no people",
+ "estilo_imagem": "photorealistic documentary reconstruction, National Geographic style, natural light, ultra detailed, horizontal 16:9, no text",
+ "prefixo_imagem": "documentary photo:",
+ "epoca_imagem": "Ice Age, Late Pleistocene, around 20,000 years ago; wild nature, animals, stone tools, bone; no modern objects, no buildings, no roads, no text, no watermark",
+ "epoca_curta": "Ice Age",
+ "estilo_voz": "narrador de documentário, calmo, caloroso e curioso",
+ "legenda": "Preguiças do tamanho de elefantes, tatus do tamanho de um carro, tigres-dentes-de-sabre de mais de 400 quilos — e os primeiros humanos das Américas conheceram todos eles. Neste documentário, vamos às cavernas de Lagoa Santa, onde Peter Lund achou gente junto com animais extintos; aos enfeites feitos de osso de preguiça-gigante em Santa Elina, no Mato Grosso; ao tatu gigante com marcas de corte na Argentina; às pegadas de White Sands; aos últimos mamutes e às moas da Nova Zelândia — e à trilha onde um ser humano pisou dentro das pegadas de uma preguiça-gigante.\n\nDe qual desses gigantes você gostaria de ver um de perto? Escreva nos comentários.",
+ "hashtags": [
+  "#história",
+  "#documentário",
+  "#megafauna",
+  "#preguiçagigante",
+  "#eradogelo",
+  "#históriaantiga",
+  "#curiosidades"
+ ],
+ "fontes": [
+  "Bustos, D. et al., Science Advances (2018), pegadas humanas dentro das de preguiça-gigante em White Sands: https://news.arizona.edu/news/footprints-provide-first-evidence-humans-interacting-sloths",
+  "Pigati, J. et al., Science (2023), idade de 21–23 mil anos das pegadas humanas de White Sands (pólen e luminescência): https://www.usgs.gov/news/national-news-release/study-confirms-age-oldest-fossil-human-footprints-north-america",
+  "Pacheco, M. et al., Proc. R. Soc. B (2023), osteodermos de preguiça-gigante perfurados e polidos em Santa Elina (MT), 27–25 mil anos: https://archaeology.org/news/2023/07/12/230713-brazil-sloth-pendant/",
+  "Del Papa, M. et al., PLOS ONE (2024), marcas de corte em Neosclerocalyptus, rio Reconquista, ~21 mil anos: https://phys.org/news/2024-07-evidence-butchery-giant-armadillo-mammals.html",
+  "Eremotherium (tamanho, peso, Jirau, distribuição no Brasil): https://en.wikipedia.org/wiki/Eremotherium",
+  "Guinness World Records — Smilodon populator (436 kg, caninos de 28 cm, 1 milhão a 10 mil anos atrás): https://guinnessworldrecords.com/world-records/93329-largest-sabre-toothed-cat",
+  "AMNH — gliptodontes (até ~3 m, carapaça de mais de 500 kg): https://amnh.org/exhibitions/permanent/primitive-mammals/glyptodonts",
+  "Peter Wilhelm Lund (Lagoa Santa, 1835–1844; 1843: ~30 humanos com fauna extinta): https://en.wikipedia.org/wiki/Peter_Wilhelm_Lund",
+  "Dehasque, M. et al., Cell (2024), mamutes de Wrangel: https://www.eurekalert.org/news-releases/1048810",
+  "Holdaway, R. et al., Nature Communications (2014), extinção das moas em <150 anos, ~2.500 pessoas: https://news.mongabay.com/2014/11/it-only-took-2500-people-to-kill-off-the-worlds-biggest-birds ; Te Ara: https://teara.govt.nz/en/extinctions/page-3",
+  "Barnosky (2008) via Our World in Data — 83% dos gêneros de megafauna perdidos na América do Sul, 21% na África: https://ourworldindata.org/quaternary-megafauna-extinction",
+  "Metcalf, J. et al., Science Advances (2016), pulso de extinção ~12.280 anos na Patagônia, clima + humanos: https://www.scientificamerican.com/blog/laelaps/what-killed-south-america-s-megamammals/"
+ ],
+ "short_isca": {
+  "texto_topo": "A PEGADA DENTRO DA OUTRA",
+  "titulo": "Acharam pegadas humanas dentro das pegadas de uma preguiça gigante",
+  "hashtags": [
+   "historia",
+   "megafauna",
+   "documentario"
+  ],
+  "cenas": [
+   0
+  ]
+ },
+ "revelacao": {
+  "promessa_cena": 1,
+  "entrega_cena": 71,
+  "o_que": "O que havia dentro das pegadas da preguiça-gigante em White Sands: pegadas humanas, de alguém que seguia o animal pisando nas marcas dele, enquanto a preguiça se erguia para se defender"
+ }
+}
