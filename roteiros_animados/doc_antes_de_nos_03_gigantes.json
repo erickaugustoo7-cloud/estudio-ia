@@ -1,656 +1,634 @@
 {
- "canal": "antes_de_nos",
- "titulo": "Os Animais Gigantes Que Viveram Com os Primeiros Humanos",
- "titulo_youtube": "Os Animais Gigantes Que Viveram Com os Primeiros Humanos | Documentário",
- "tipo": "documentario",
- "formato": "horizontal",
- "duracao_max": 999,
- "volume_musica": 0.0,
- "opcoes_imagem": 1,
- "palavras_por_bloco": 600,
- "plataformas": [
-  "youtube"
- ],
- "fonte_imagem": "cloudflare",
- "fundo_video": "pixabay",
- "texto_capa": [
-  "ELES VIRAM",
-  "*GIGANTES",
-  "DE VERDADE"
- ],
- "selo_capa": "Documentário",
- "cena_capa": 0,
- "capa_prompt": "cinematic photo of a giant ground sloth the size of an elephant rearing up on its hind legs on an empty Ice Age grassland at sunset, only the animal in the frame, the left half of the frame dark and empty for text, realistic, documentary style, 16:9, no text, no humans, no person, no man, no figures",
- "estilo_imagem": "photorealistic documentary reconstruction, National Geographic style, natural light, ultra detailed, horizontal 16:9, no text",
- "prefixo_imagem": "documentary photo:",
- "epoca_imagem": "Ice Age, Late Pleistocene, around 20,000 years ago; wild nature, animals, stone tools, bone; no modern objects, no buildings, no roads, no text, no watermark",
- "epoca_curta": "Ice Age",
- "estilo_voz": "narrador de documentário, calmo, caloroso e curioso",
- "legenda": "Preguiças do tamanho de elefantes, tatus do tamanho de um carro, tigres-dentes-de-sabre de mais de 400 quilos — e os primeiros humanos das Américas conheceram todos eles. Neste documentário, vamos às cavernas de Lagoa Santa, onde Peter Lund achou gente junto com animais extintos; aos enfeites feitos de osso de preguiça-gigante em Santa Elina, no Mato Grosso; ao tatu gigante com marcas de corte na Argentina; às pegadas de White Sands; aos últimos mamutes e às moas da Nova Zelândia — e à trilha onde um ser humano pisou dentro das pegadas de uma preguiça-gigante.\n\nDe qual desses gigantes você gostaria de ver um de perto? Escreva nos comentários.",
- "hashtags": [
-  "#história",
-  "#documentário",
-  "#megafauna",
-  "#preguiçagigante",
-  "#eradogelo",
-  "#históriaantiga",
-  "#curiosidades"
- ],
- "fontes": [
-  "Bustos, D. et al., Science Advances (2018), pegadas humanas dentro das de preguiça-gigante em White Sands: https://news.arizona.edu/news/footprints-provide-first-evidence-humans-interacting-sloths",
-  "Pigati, J. et al., Science (2023), idade de 21–23 mil anos das pegadas humanas de White Sands (pólen e luminescência): https://www.usgs.gov/news/national-news-release/study-confirms-age-oldest-fossil-human-footprints-north-america",
-  "Pacheco, M. et al., Proc. R. Soc. B (2023), osteodermos de preguiça-gigante perfurados e polidos em Santa Elina (MT), 27–25 mil anos: https://archaeology.org/news/2023/07/12/230713-brazil-sloth-pendant/",
-  "Del Papa, M. et al., PLOS ONE (2024), marcas de corte em Neosclerocalyptus, rio Reconquista, ~21 mil anos: https://phys.org/news/2024-07-evidence-butchery-giant-armadillo-mammals.html",
-  "Eremotherium (tamanho, peso, Jirau, distribuição no Brasil): https://en.wikipedia.org/wiki/Eremotherium",
-  "Guinness World Records — Smilodon populator (436 kg, caninos de 28 cm, 1 milhão a 10 mil anos atrás): https://guinnessworldrecords.com/world-records/93329-largest-sabre-toothed-cat",
-  "AMNH — gliptodontes (até ~3 m, carapaça de mais de 500 kg): https://amnh.org/exhibitions/permanent/primitive-mammals/glyptodonts",
-  "Peter Wilhelm Lund (Lagoa Santa, 1835–1844; 1843: ~30 humanos com fauna extinta): https://en.wikipedia.org/wiki/Peter_Wilhelm_Lund",
-  "Dehasque, M. et al., Cell (2024), mamutes de Wrangel: https://www.eurekalert.org/news-releases/1048810",
-  "Holdaway, R. et al., Nature Communications (2014), extinção das moas em <150 anos, ~2.500 pessoas: https://news.mongabay.com/2014/11/it-only-took-2500-people-to-kill-off-the-worlds-biggest-birds ; Te Ara: https://teara.govt.nz/en/extinctions/page-3",
-  "Barnosky (2008) via Our World in Data — 83% dos gêneros de megafauna perdidos na América do Sul, 21% na África: https://ourworldindata.org/quaternary-megafauna-extinction",
-  "Metcalf, J. et al., Science Advances (2016), pulso de extinção ~12.280 anos na Patagônia, clima + humanos: https://www.scientificamerican.com/blog/laelaps/what-killed-south-america-s-megamammals/"
- ],
- "short_isca": {
-  "texto_topo": "A PEGADA DENTRO DA OUTRA",
-  "titulo": "Acharam pegadas humanas dentro das pegadas de uma preguiça gigante",
-  "hashtags": [
-   "historia",
-   "megafauna",
-   "documentario"
+  "canal": "antes_de_nos",
+  "titulo": "Os Animais Gigantes Que Viveram Com os Primeiros Humanos",
+  "titulo_youtube": "Os Animais Gigantes Que Viveram Com os Primeiros Humanos | Documentário",
+  "tipo": "documentario",
+  "formato": "horizontal",
+  "duracao_max": 999,
+  "volume_musica": 0.0,
+  "opcoes_imagem": 2,
+  "palavras_por_bloco": 600,
+  "plataformas": [
+    "youtube"
   ],
+  "fonte_imagem": "modelscope",
+  "fundo_video": "pixabay",
+  "texto_capa": [
+    "ELES VIRAM",
+    "*GIGANTES",
+    "DE VERDADE"
+  ],
+  "selo_capa": "Documentário",
+  "cena_capa": 0,
+  "capa_prompt": "cinematic documentary photo of a giant ground sloth Megatherium, shaggy brown fur, huge curved claws, standing on its hind legs on an empty Ice Age grassland at sunset, only the animal in the frame, the left half of the frame dark and empty for text, realistic, 16:9, no text, no humans, no person",
+  "estilo_imagem": "photorealistic documentary reconstruction, National Geographic style, natural light, ultra detailed, horizontal 16:9, no text",
+  "prefixo_imagem": "documentary photo:",
+  "epoca_imagem": "Ice Age, Late Pleistocene, around 20,000 years ago; wild nature, animals, stone tools, bone; no modern objects, no buildings, no roads, no text, no watermark",
+  "epoca_curta": "Ice Age",
+  "estilo_voz": "narrador de documentário, calmo, caloroso e curioso",
+  "legenda": "Preguiças do tamanho de elefantes, tatus do tamanho de um carro, tigres-dentes-de-sabre de mais de 400 quilos — e os primeiros humanos das Américas conheceram todos eles. Neste documentário, vamos às cavernas de Lagoa Santa, onde Peter Lund achou gente junto com animais extintos; aos enfeites feitos de osso de preguiça-gigante em Santa Elina, no Mato Grosso; ao tatu gigante com marcas de corte na Argentina; às pegadas de White Sands; aos últimos mamutes e às moas da Nova Zelândia — e à trilha onde um ser humano pisou dentro das pegadas de uma preguiça-gigante.\n\nDe qual desses gigantes você gostaria de ver um de perto? Escreva nos comentários.",
+  "hashtags": [
+    "#história",
+    "#documentário",
+    "#megafauna",
+    "#preguiçagigante",
+    "#eradogelo",
+    "#históriaantiga",
+    "#curiosidades"
+  ],
+  "fontes": [
+    "Bustos, D. et al., Science Advances (2018), pegadas humanas dentro das de preguiça-gigante em White Sands: https://news.arizona.edu/news/footprints-provide-first-evidence-humans-interacting-sloths",
+    "Pigati, J. et al., Science (2023), idade de 21–23 mil anos das pegadas humanas de White Sands (pólen e luminescência): https://www.usgs.gov/news/national-news-release/study-confirms-age-oldest-fossil-human-footprints-north-america",
+    "Pacheco, M. et al., Proc. R. Soc. B (2023), osteodermos de preguiça-gigante perfurados e polidos em Santa Elina (MT), 27–25 mil anos: https://archaeology.org/news/2023/07/12/230713-brazil-sloth-pendant/",
+    "Del Papa, M. et al., PLOS ONE (2024), marcas de corte em Neosclerocalyptus, rio Reconquista, ~21 mil anos: https://phys.org/news/2024-07-evidence-butchery-giant-armadillo-mammals.html",
+    "Eremotherium (tamanho, peso, Jirau, distribuição no Brasil): https://en.wikipedia.org/wiki/Eremotherium",
+    "Guinness World Records — Smilodon populator (436 kg, caninos de 28 cm, 1 milhão a 10 mil anos atrás): https://guinnessworldrecords.com/world-records/93329-largest-sabre-toothed-cat",
+    "AMNH — gliptodontes (até ~3 m, carapaça de mais de 500 kg): https://amnh.org/exhibitions/permanent/primitive-mammals/glyptodonts",
+    "Peter Wilhelm Lund (Lagoa Santa, 1835–1844; 1843: ~30 humanos com fauna extinta): https://en.wikipedia.org/wiki/Peter_Wilhelm_Lund",
+    "Dehasque, M. et al., Cell (2024), mamutes de Wrangel: https://www.eurekalert.org/news-releases/1048810",
+    "Holdaway, R. et al., Nature Communications (2014), extinção das moas em <150 anos, ~2.500 pessoas: https://news.mongabay.com/2014/11/it-only-took-2500-people-to-kill-off-the-worlds-biggest-birds ; Te Ara: https://teara.govt.nz/en/extinctions/page-3",
+    "Barnosky (2008) via Our World in Data — 83% dos gêneros de megafauna perdidos na América do Sul, 21% na África: https://ourworldindata.org/quaternary-megafauna-extinction",
+    "Metcalf, J. et al., Science Advances (2016), pulso de extinção ~12.280 anos na Patagônia, clima + humanos: https://www.scientificamerican.com/blog/laelaps/what-killed-south-america-s-megamammals/"
+  ],
+  "short_isca": {
+    "texto_topo": "A PEGADA DENTRO DA OUTRA",
+    "titulo": "Acharam pegadas humanas dentro das pegadas de uma preguiça gigante",
+    "hashtags": [
+      "historia",
+      "megafauna",
+      "documentario"
+    ],
+    "cenas": [
+      0
+    ]
+  },
+  "revelacao": {
+    "promessa_cena": 1,
+    "entrega_cena": 71,
+    "o_que": "O que havia dentro das pegadas da preguiça-gigante em White Sands: pegadas humanas, de alguém que seguia o animal pisando nas marcas dele, enquanto a preguiça se erguia para se defender"
+  },
   "cenas": [
-   0
+    {
+      "trecho": "Seus antepassados caminharam ao lado de preguiças do tamanho de elefantes. Não é exagero e não é lenda. Num deserto de areia branca, os cientistas encontraram pegadas de uma dessas preguiças.",
+      "prompt_imagem": "a giant ground sloth Megatherium, shaggy brown fur, huge curved claws walking across an open grassland at dawn, Ice Age South America, mist, epic wide shot, documentary reconstruction, no people",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "E, dentro delas, encontraram outra coisa. No final deste documentário, eu vou te mostrar o que estava dentro dessas pegadas, e o que elas contam sobre um encontro de milhares de anos atrás.",
+      "prompt_imagem": "large fossil footprints of a giant ground sloth pressed into pale dried mud on a white gypsum sand plain, close up, natural light",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "Hoje nós vamos voltar ao tempo em que a América do Sul era a terra dos gigantes. Tatus do tamanho de um carro. Felinos com dentes de quase trinta centímetros.",
+      "prompt_imagem": "documentary reconstruction, white sand dunes, Ice Age, natural light",
+      "vazia": true,
+      "animar": false,
+      "busca_video": "white sand dunes"
+    },
+    {
+      "trecho": "Preguiças que, de pé, passavam de quatro metros de altura. E vamos descobrir algo que muita gente não sabe: os primeiros humanos que chegaram aqui conheceram esses animais. Viram, enfrentaram, comeram e até usaram os ossos deles como enfeite.",
+      "prompt_imagem": "documentary reconstruction, giant ground sloth, Ice Age, natural light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Imagine o Brasil há uns vinte mil anos. O mundo vivia o auge da última Era do Gelo. Grande parte do norte da Europa e da América do Norte estava coberta por geleiras enormes.",
+      "prompt_imagem": "tall golden grass waving in the wind under a vast sky, Ice Age South America, untouched wilderness, no people, wide shot",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "Aqui no sul, não havia gelo cobrindo tudo, mas o clima era diferente do de hoje. Em muitos lugares, as florestas davam espaço para campos abertos e cerrados.",
+      "prompt_imagem": "vast open grassland and scattered trees in Ice Age South America with distant herds of giant animals, golden light, very wide shot",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "E nesses campos vivia um tipo de fauna que hoje parece coisa de filme. Os cientistas chamam esses animais de megafauna, que quer dizer, simplesmente, os bichos grandes.",
+      "prompt_imagem": "herds of giant ground sloths and glyptodonts grazing on a wild open plain with scattered trees, Ice Age South America, no people, very wide shot",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "Muitos deles existiam só nas Américas. Eram parentes gigantes de animais que a gente ainda conhece, como o tatu, a preguiça e a onça. Para você ter uma ideia do que se perdeu, os pesquisadores estimam que a América do Sul perdeu mais de oitenta por cento dos seus gêneros de grandes mamíferos no fim da Era do Gelo.",
+      "prompt_imagem": "a huge glacier and snowy mountains under a cold sky, Ice Age landscape, no people",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "Na África, essa perda foi de cerca de vinte por cento. Por isso, quando a gente vai a um zoológico e vê elefantes e girafas, está vendo um pedaço do mundo antigo que sobreviveu lá.",
+      "prompt_imagem": "documentary reconstruction, fossil skeleton, Ice Age, natural light",
+      "vazia": true,
+      "animar": false,
+      "acervo": "fossil skeleton"
+    },
+    {
+      "trecho": "Aqui, quase tudo desapareceu. Mas antes de desaparecer, esses gigantes dividiram o chão com gente como nós. E as provas disso estão espalhadas pelo continente. Se você gosta de descobrir como era o mundo antes de nós, inscreva-se no canal e ative o sininho. Toda semana tem um documentário novo por aqui.",
+      "prompt_imagem": "documentary reconstruction, cerrado, Ice Age, natural light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Vamos começar pela mais impressionante de todas. Hoje, quando a gente pensa em preguiça, pensa num bichinho lento, pendurado num galho. Mas a preguiça-gigante Eremotherium, que viveu também aqui no Brasil, tinha cerca de seis metros de comprimento.",
+      "prompt_imagem": "a giant ground sloth Eremotherium standing on its hind legs and tail, reaching high tree leaves with long claws, Ice Age South America, documentary reconstruction",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "As estimativas mais aceitas falam em um peso de três a quatro toneladas e meia. É o peso de um elefante. Ela não vivia em árvores.",
+      "prompt_imagem": "documentary reconstruction, megatherium, Ice Age, natural light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Andava pelo chão, sobre quatro patas, e tinha garras enormes nas mãos. Os cientistas acreditam que ela podia se erguer nas patas de trás, apoiada na cauda, para alcançar folhas altas.",
+      "prompt_imagem": "close up of the huge curved claws of a giant ground sloth on its front foot, fur, natural light",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "De pé, ela podia chegar perto de quatro metros de altura. Mais alta do que o teto de uma casa. Fósseis dessa preguiça já foram encontrados em vários estados brasileiros, do Nordeste até o Rio Grande do Sul.",
+      "prompt_imagem": "documentary reconstruction, forest, Ice Age, natural light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Num único sítio do Nordeste, conhecido como Jirau, os paleontólogos acharam restos de dezenove indivíduos. E apesar do tamanho assustador, ela era herbívora. Passava o dia comendo folhas, brotos e frutos.",
+      "prompt_imagem": "fossil bones of several giant ground sloths in a dry limestone sinkhole, paleontology dig with brushes and trowels, no people",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "Agora pense: um animal desse tamanho, lento e cheio de carne, andando por campos abertos. Para os primeiros caçadores que chegaram ao continente, isso era uma oportunidade. E também um enorme perigo.",
+      "prompt_imagem": "documentary reconstruction, sloth claw, Ice Age, natural light",
+      "vazia": true,
+      "animar": false,
+      "acervo": "sloth claw"
+    },
+    {
+      "trecho": "O segundo gigante parece um tanque de guerra da natureza. Os gliptodontes eram parentes dos tatus de hoje. Mas alguns tinham o tamanho de um carro pequeno, com até três metros de comprimento.",
+      "prompt_imagem": "a glyptodont with a massive domed bony shell walking across a grassy plain, Ice Age South America, side view, documentary reconstruction",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "O corpo era coberto por uma carapaça feita de centenas de plaquinhas de osso, encaixadas como um mosaico. Segundo o Museu Americano de História Natural, essa armadura sozinha podia pesar mais de quinhentos quilos.",
+      "prompt_imagem": "documentary reconstruction, glyptodont, Ice Age, natural light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Alguns tinham ainda uma cauda coberta de anéis de osso, que provavelmente servia de defesa. Um golpe dela devia ser algo difícil de esquecer. Eles comiam plantas e viviam em campos e áreas abertas, do sul do Brasil até a Argentina e o Uruguai.",
+      "prompt_imagem": "close up of the mosaic of hexagonal bony plates on a glyptodont shell, texture detail, natural light",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "Durante milhões de anos, os gliptodontes andaram pelas Américas quase sem ameaças. Com aquela armadura, poucos predadores conseguiam fazer alguma coisa contra um adulto. Quase nenhum. Porque havia um predador que tinha a arma certa para isso.",
+      "prompt_imagem": "documentary reconstruction, pampas grassland, Ice Age, natural light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Ele é chamado de tigre-dentes-de-sabre, mas não era um tigre. Era um felino de outra linhagem, chamado Smilodon. E a espécie que vivia na América do Sul, o Smilodon populator, foi a maior de todas.",
+      "prompt_imagem": "a huge saber-toothed cat Smilodon populator walking through tall grass, muscular, long flat fangs, Ice Age South America, documentary reconstruction",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "Um crânio excepcionalmente grande, encontrado no Uruguai, indica um animal que pode ter chegado a mais de quatrocentos quilos. Mais pesado do que um leão ou um tigre de hoje.",
+      "prompt_imagem": "documentary reconstruction, smilodon skull, Ice Age, natural light",
+      "vazia": true,
+      "animar": false,
+      "acervo": "smilodon skull"
+    },
+    {
+      "trecho": "Os dois dentes de cima, achatados como lâminas, podiam medir até vinte e oito centímetros. É do tamanho de uma régua escolar. Os cientistas acreditam que ele caçava animais grandes, como os herbívoros gigantes que viviam nos campos.",
+      "prompt_imagem": "close up portrait of a saber-toothed cat with long blade-like upper canines, dramatic side light",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "Ele não era um corredor de longa distância. Era um predador de emboscada, forte e pesado. Essa espécie viveu na América do Sul desde cerca de um milhão de anos atrás até uns dez mil anos atrás.",
+      "prompt_imagem": "documentary reconstruction, grassland sunset, Ice Age, natural light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Ou seja, por milhares de anos, ela dividiu o território com os primeiros humanos. E o nome dela tem uma ligação direta com o Brasil. Quem descreveu essa espécie pela primeira vez foi um naturalista que viveu em Minas Gerais.",
+      "prompt_imagem": "a saber-toothed cat crouching in ambush behind bushes watching a distant herd of giant herbivores, Ice Age",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "E foi ele também quem fez uma das descobertas mais importantes da nossa história.",
+      "prompt_imagem": "documentary reconstruction, smilodon, Ice Age, natural light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Em 1835, um naturalista dinamarquês chamado Peter Wilhelm Lund viajava pelo interior de Minas Gerais. Perto de uma cidadezinha chamada Lagoa Santa, ele encontrou cavernas cheias de ossos fossilizados.",
+      "prompt_imagem": "documentary reconstruction, cave, Ice Age, natural light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Lund ficou encantado. Decidiu morar ali e passou os oito anos seguintes escavando, organizando e estudando mais de vinte mil ossos. Nessas cavernas, ele descreveu dezenas de espécies de animais extintos.",
+      "prompt_imagem": "the entrance of a limestone cave among green hills in Minas Gerais, Brazil, morning mist, no people",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "Preguiças-gigantes, tatus gigantes e o próprio Smilodon populator, o dente-de-sabre. Então, em 1843, durante uma seca forte, Lund entrou fundo numa caverna que costumava ficar alagada.",
+      "prompt_imagem": "a pile of large fossil bones and skulls of extinct animals on a limestone cave floor lit by an oil lamp, 19th century excavation, no people",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "E lá encontrou restos de cerca de trinta pessoas, misturados com ossos de animais extintos havia muito tempo. Para a ciência daquela época, isso era quase impensável.",
+      "prompt_imagem": "a 19th century naturalist's wooden desk in a cave with fossil bones, oil lamp, notebook and ink, still life",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "A descoberta indicava que humanos e animais pré-históricos tinham convivido nas Américas. Lund viveu em Lagoa Santa até morrer, em 1880. Hoje ele é considerado o pai da paleontologia e da arqueologia no Brasil.",
+      "prompt_imagem": "a dark flooded limestone cave with still water and stalactites, faint light from the entrance, no people",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "E a região de Lagoa Santa continua sendo um dos lugares mais importantes do mundo para estudar os primeiros americanos. Mas, na época dele, faltava uma coisa: datas precisas.",
+      "prompt_imagem": "a fossil skull of a saber-toothed cat on an old wooden table, dark background, close up, no people",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "Ninguém sabia dizer quando aquelas pessoas tinham vivido. Essa resposta só começou a chegar mais de cem anos depois.",
+      "prompt_imagem": "a quiet lake surrounded by green hills and limestone outcrops in Brazil at sunset, no buildings",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "Agora vamos para o Mato Grosso, num abrigo de pedra chamado Santa Elina. Os arqueólogos estudam esse lugar há décadas. Ali, junto com ferramentas de pedra, foram encontrados ossinhos de uma preguiça-gigante.",
+      "prompt_imagem": "a sandstone rock shelter in the Brazilian cerrado with an archaeological excavation grid on the floor, natural light, no people",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "Não eram ossos do esqueleto. Eram osteodermos, pequenas placas de osso que cresciam dentro da pele do animal, como uma armadura escondida. O que chamou a atenção foi que três dessas plaquinhas tinham furos.",
+      "prompt_imagem": "documentary reconstruction, stone tool, Ice Age, natural light",
+      "vazia": true,
+      "animar": false,
+      "acervo": "stone tool"
+    },
+    {
+      "trecho": "E não eram furos quaisquer. Eram perfurados e polidos. Em 2023, uma equipe liderada pela pesquisadora Mírian Pacheco, da Universidade Federal de São Carlos, publicou um estudo sobre essas peças na revista Proceedings of the Royal Society B.",
+      "prompt_imagem": "three small round bony osteoderms with drilled holes lying on a dark museum background, close up",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "A conclusão foi que os furos tinham sido feitos por mãos humanas, possivelmente para pendurar as plaquinhas como enfeites, talvez num colar. E a camada onde elas estavam foi datada entre vinte e sete mil e vinte e cinco mil anos atrás.",
+      "prompt_imagem": "documentary reconstruction, bone pendant, Ice Age, natural light",
+      "vazia": true,
+      "animar": false,
+      "acervo": "bone pendant"
+    },
+    {
+      "trecho": "Pense no que isso significa. Muito tempo antes do que se imaginava, alguém aqui, no coração do Brasil, segurou um pedaço de uma preguiça-gigante e decidiu transformá-lo em algo para usar no corpo.",
+      "prompt_imagem": "a simple ancient necklace of polished bone plates on a cord resting on a stone, prehistoric, still life",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "Essa data ainda é debatida pelos especialistas, como quase toda descoberta sobre a chegada dos humanos às Américas. Mas ela se soma a outras pistas que vêm aparecendo pelo continente.",
+      "prompt_imagem": "documentary reconstruction, cerrado, Ice Age, natural light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Uma dessas pistas apareceu na Argentina, às margens do rio Reconquista, na região dos pampas. Lá, os pesquisadores estudaram os ossos de um gliptodonte do gênero Neosclerocalyptus.",
+      "prompt_imagem": "documentary reconstruction, river grassland, Ice Age, natural light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Um daqueles tatus gigantes com carapaça. Na bacia, na cauda e na própria armadura do animal, eles encontraram marcas finas e repetidas. Marcas que combinam com cortes feitos por ferramentas de pedra.",
+      "prompt_imagem": "fossil glyptodont pelvis and shell fragments exposed in the muddy bank of a river, paleontology dig, natural light",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "Os cortes estavam justamente nas partes com mais carne, numa sequência que parece a de quem sabia exatamente o que estava fazendo. O estudo, liderado por Mariano Del Papa, da Universidade Nacional de La Plata, foi publicado em 2024 na revista PLOS ONE.",
+      "prompt_imagem": "documentary reconstruction, stone scraper, Ice Age, natural light",
+      "vazia": true,
+      "animar": false,
+      "acervo": "stone scraper"
+    },
+    {
+      "trecho": "E a datação por radiocarbono deu cerca de vinte e um mil anos. Ou seja, quase seis mil anos antes de outras evidências conhecidas de pessoas naquela parte da América do Sul.",
+      "prompt_imagem": "close up of fine straight cut marks on an ancient fossil bone, macro photo, museum",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "Aquele gigante de armadura, que quase nenhum predador conseguia vencer, tinha encontrado um adversário diferente. Um que não usava garras nem dentes, mas pedras afiadas e trabalho em grupo.",
+      "prompt_imagem": "documentary reconstruction, glyptodont, Ice Age, natural light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Agora vamos subir até a América do Norte, para um lugar com uma paisagem quase irreal: as dunas de areia branca de White Sands, no Novo México, nos Estados Unidos.",
+      "prompt_imagem": "documentary reconstruction, white sand dunes, Ice Age, natural light",
+      "vazia": true,
+      "animar": false,
+      "busca_video": "white sand dunes"
+    },
+    {
+      "trecho": "Hoje é um deserto. Mas, na Era do Gelo, ali havia um grande lago, com margens de lama úmida. E lama úmida é perfeita para guardar pegadas.",
+      "prompt_imagem": "an Ice Age lake shore with wet mud flats, mammoths drinking in the distance, New Mexico, wide shot, documentary reconstruction",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "Com o tempo, a lama secou, foi coberta por camadas de sedimento, e as pegadas ficaram guardadas por milhares de anos. São pegadas de mamutes, de camelos antigos, de lobos e de preguiças-gigantes.",
+      "prompt_imagem": "a fossil trackway of many human footprints of adults and children in pale hardened mud, white sand around, close up",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "E também de gente. Muitas pegadas humanas, de adultos e de crianças. Em 2021, os cientistas anunciaram que algumas dessas pegadas humanas tinham entre vinte e um mil e vinte e três mil anos.",
+      "prompt_imagem": "documentary reconstruction, mammoth, Ice Age, natural light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "A data surpreendeu tanto que muitos colegas duvidaram. Então, em 2023, outra equipe repetiu a datação com dois métodos diferentes. Um usou dezenas de milhares de grãos de pólen da mesma camada.",
+      "prompt_imagem": "scientists' measuring tape and small flags beside fossil footprints on a white gypsum plain, no people, natural light",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "O outro mediu a luz guardada nos grãos de quartzo. E os resultados confirmaram a idade. Essas pegadas são algumas das provas mais diretas de que havia pessoas nas Américas no auge da Era do Gelo.",
+      "prompt_imagem": "documentary reconstruction, desert dunes, Ice Age, natural light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E, como a gente vai ver daqui a pouco, elas guardam um encontro muito especial.",
+      "prompt_imagem": "microscope view of ancient pollen grains, scientific photo",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "Enquanto isso, do outro lado do mundo, os mamutes-lanosos ainda andavam pela tundra gelada da Europa, da Ásia e da América do Norte. Os humanos da Era do Gelo conviveram com eles por dezenas de milhares de anos.",
+      "prompt_imagem": "a herd of woolly mammoths crossing a snowy tundra under a low sun, Ice Age, wide shot",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "Usaram seus ossos, suas presas e sua carne. E também os desenharam nas paredes das cavernas. Com o fim da Era do Gelo, os mamutes foram sumindo do continente.",
+      "prompt_imagem": "documentary reconstruction, mammoth tusk, Ice Age, natural light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Mas um pequeno grupo sobreviveu num lugar improvável. Há uns dez mil anos, o mar subiu e separou do continente uma ilha do Ártico, perto da Sibéria, chamada Wrangel.",
+      "prompt_imagem": "ancient cave wall painting of a woolly mammoth in red and black pigment, torch light, close up",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "Presos ali ficaram, no máximo, oito mamutes. Desse grupo minúsculo nasceu uma população de duzentos a trezentos animais, que sobreviveu por cerca de seis mil anos.",
+      "prompt_imagem": "documentary reconstruction, snowy tundra, Ice Age, natural light",
+      "vazia": true,
+      "animar": false,
+      "busca_video": "snowy tundra"
+    },
+    {
+      "trecho": "Os últimos mamutes de Wrangel desapareceram há cerca de quatro mil anos. Isso é uns quinhentos anos depois de os egípcios terminarem a Grande Pirâmide de Gizé.",
+      "prompt_imagem": "a remote rocky Arctic island with snowy hills surrounded by drifting sea ice, no people",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "O DNA desses animais indica um fim repentino. E a causa exata ainda é um mistério.",
+      "prompt_imagem": "documentary reconstruction, mammoth tooth, Ice Age, natural light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E existe um caso ainda mais recente. Tão recente que aconteceu quando já existiam castelos na Europa. A Nova Zelândia foi uma das últimas grandes terras do planeta a receber seres humanos.",
+      "prompt_imagem": "documentary reconstruction, new zealand mountains, Ice Age, natural light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Antes deles, as ilhas eram dominadas por aves. As mais famosas eram as moas. Eram nove espécies de aves que não voavam. A maior delas podia chegar a três metros e meio de altura.",
+      "prompt_imagem": "a giant moa, a huge flightless bird over three meters tall, walking through a misty New Zealand forest of ferns, documentary reconstruction",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "Os primeiros polinésios chegaram às ilhas por volta do ano 1300. Eram navegadores incríveis, que cruzaram o Pacífico em canoas. Lá, encontraram aves enormes que nunca tinham visto um ser humano e não sabiam fugir dele.",
+      "prompt_imagem": "documentary reconstruction, moa, Ice Age, natural light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E começaram a caçá-las e a recolher seus ovos. Segundo um estudo de 2014, em menos de cento e cinquenta anos todas as espécies de moa tinham desaparecido.",
+      "prompt_imagem": "a Polynesian voyaging double canoe with woven sails on the open Pacific ocean at dawn, tiny distant figures, wide shot",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "A última sumiu, no máximo, por volta de 1435. E o detalhe mais impressionante é este: a população humana nas ilhas era pequena. Os pesquisadores estimam que não passava de cerca de dois mil e quinhentos habitantes quando as moas acabaram.",
+      "prompt_imagem": "documentary reconstruction, fern forest, Ice Age, natural light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Então o que aconteceu com os gigantes da América do Sul? Essa é uma das maiores discussões da ciência. De um lado, há quem defenda que o principal culpado foi o clima.",
+      "prompt_imagem": "dark storm clouds rolling over a wild Ice Age grassland, rain in the distance, no people, wide shot",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "O fim da Era do Gelo mudou as chuvas, as temperaturas e as plantas. Campos viraram florestas, e muitos animais perderam o tipo de comida e de ambiente de que precisavam.",
+      "prompt_imagem": "an Ice Age grassland slowly turning into dense forest, giant animals at the edge, time-lapse feeling, wide shot",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "Do outro lado, há quem aponte para nós. Em quase todos os lugares, os grandes animais começaram a sumir pouco depois da chegada dos humanos. Um estudo de 2016, que analisou ossos da Patagônia, indicou que a grande onda de extinções no sul do continente aconteceu por volta de doze mil e trezentos anos atrás.",
+      "prompt_imagem": "documentary reconstruction, megatherium skeleton, Ice Age, natural light",
+      "vazia": true,
+      "animar": false,
+      "acervo": "megatherium skeleton"
+    },
+    {
+      "trecho": "Isso foi entre mil e três mil anos depois da chegada dos humanos à região. A conclusão desses pesquisadores foi que nem o clima nem os humanos, sozinhos, explicam tudo.",
+      "prompt_imagem": "a windswept Patagonian plain with a fossil dig of large bones, no people, cold light",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "O aquecimento mudou o ambiente, e a caça pesou muito mais sobre animais que já estavam em dificuldade. É a mesma ideia defendida por muitos especialistas para o resto do mundo.",
+      "prompt_imagem": "documentary reconstruction, patagonia, Ice Age, natural light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "O clima pode ter enfraquecido as populações, e a pressão humana pode ter impedido que elas se recuperassem. Mas a ilha das moas mostra uma coisa que vale a pena lembrar.",
+      "prompt_imagem": "a lone giant ground sloth walking away into the dusk across a dry plain, melancholic, wide shot",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "Lá não houve fim de Era do Gelo. Houve só a chegada das pessoas. E isso bastou.",
+      "prompt_imagem": "documentary reconstruction, fossil skeleton, Ice Age, natural light",
+      "vazia": true,
+      "animar": false,
+      "acervo": "fossil skeleton"
+    },
+    {
+      "trecho": "Agora, vamos voltar ao deserto branco de White Sands. Porque é lá que está a pegada que eu te prometi no começo. Em 2018, uma equipe de pesquisadores publicou um estudo sobre uma trilha de pegadas muito especial.",
+      "prompt_imagem": "untouched white gypsum sand dunes under a clear blue sky, wild desert, no people, wide shot",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "Era a trilha de uma preguiça-gigante, atravessando a antiga margem do lago. Até aí, nada de diferente. O espantoso era o que estava dentro das pegadas da preguiça.",
+      "prompt_imagem": "a fossil trackway of giant ground sloth footprints crossing a pale mud flat, aerial view, white sand around",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "Eram pegadas humanas. Alguém tinha caminhado atrás do animal, colocando os pés exatamente onde a preguiça tinha pisado. Passo por passo. E a trilha continua. Em certo ponto, as marcas da preguiça mudam.",
+      "prompt_imagem": "a human footprint pressed inside a large giant sloth footprint in hardened mud, close up, natural light",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "Aparecem círculos, como se o animal tivesse girado o corpo. Os pesquisadores interpretam esses círculos como o registro de um momento muito preciso: a preguiça se ergueu nas patas de trás e balançou os braços com as garras, provavelmente para se defender.",
+      "prompt_imagem": "documentary reconstruction, giant ground sloth, Ice Age, natural light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Ao redor, há outras pegadas humanas, a uma distância segura. Para os cientistas, elas sugerem um grupo. Uma pessoa seguia o animal, e outras tentavam distraí-lo.",
+      "prompt_imagem": "circular flailing marks of giant sloth tracks in pale hardened mud, close up, natural light",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "O próprio líder da pesquisa, o pesquisador Matthew Bennett, acredita que aquele humano estava perseguindo a preguiça. Muitas pegadas estão na ponta dos pés, como as de alguém que tenta se aproximar sem ser percebido.",
+      "prompt_imagem": "a giant ground sloth rearing up on its hind legs on a lake shore with claws raised, dust in the air, Ice Age, tiny distant hunters far away, wide shot",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "A gente não sabe como essa história terminou. As pegadas não contam o final. Mas elas congelaram, na lama, alguns segundos de um encontro entre um ser humano e um gigante.",
+      "prompt_imagem": "footprints on tiptoe in hardened mud leading toward large animal tracks, close up, low sun",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "Essa trilha tem pelo menos onze mil e setecentos anos. E é considerada uma das primeiras evidências diretas de pessoas interagindo com uma preguiça-gigante.",
+      "prompt_imagem": "untouched white gypsum sand dunes under a clear blue sky, wild desert, no people, wide shot",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "Por centenas de milhares de anos, o mundo foi cheio de gigantes. E eles não sumiram num passado tão distante que não tenha nada a ver com a gente.",
+      "prompt_imagem": "a wild grassland at sunset with lone trees in silhouette, Ice Age South America, no people, very wide shot",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "Eles sumiram quando os nossos antepassados já estavam aqui. Pessoas que olharam nos olhos de uma preguiça de quatro toneladas, que viram um dente-de-sabre de longe e que fizeram enfeites com ossos de animais que nós nunca vamos ver vivos.",
+      "prompt_imagem": "a giant ground sloth and a glyptodont near a river at golden hour, Ice Age South America, epic wide shot",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "Quando você vê um tatu atravessando uma estrada, ou uma preguiça pendurada numa árvore, está vendo os primos pequenos dos gigantes que sobreviveram. E a história das moas, na Nova Zelândia, lembra que basta pouco tempo e pouca gente para apagar uma espécie inteira da face da Terra.",
+      "prompt_imagem": "documentary reconstruction, forest river, Ice Age, natural light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Os gigantes não deixaram livros nem palavras. Deixaram ossos, carapaças, plaquinhas furadas e pegadas na lama. E é com essas pistas que a ciência continua montando a história do mundo antes de nós.",
+      "prompt_imagem": "documentary reconstruction, sloth claw, Ice Age, natural light",
+      "vazia": true,
+      "animar": false,
+      "acervo": "sloth claw"
+    },
+    {
+      "trecho": "Se você gostou dessa viagem, inscreva-se no Antes de Nós. Toda semana tem um documentário novo por aqui. E me conta nos comentários: de qual desses gigantes você gostaria de ver um de perto? A preguiça, o tatu gigante, o dente-de-sabre ou o mamute?",
+      "prompt_imagem": "fossil footprints in pale mud under a starry night sky, white sand, no people",
+      "vazia": false,
+      "animar": false
+    }
+  ],
+  "capitulos": [
+    {
+      "cena": 0,
+      "titulo": "Uma pegada dentro da outra"
+    },
+    {
+      "cena": 4,
+      "titulo": "O mundo antes de nós"
+    },
+    {
+      "cena": 10,
+      "titulo": "A preguiça do tamanho de um elefante"
+    },
+    {
+      "cena": 16,
+      "titulo": "Um tatu do tamanho de um carro"
+    },
+    {
+      "cena": 20,
+      "titulo": "O dente-de-sabre dos pampas"
+    },
+    {
+      "cena": 26,
+      "titulo": "O dinamarquês das cavernas"
+    },
+    {
+      "cena": 33,
+      "titulo": "Enfeites feitos de preguiça"
+    },
+    {
+      "cena": 39,
+      "titulo": "O tatu gigante do rio Reconquista"
+    },
+    {
+      "cena": 44,
+      "titulo": "As pegadas no deserto branco"
+    },
+    {
+      "cena": 51,
+      "titulo": "Os últimos mamutes"
+    },
+    {
+      "cena": 57,
+      "titulo": "A ave de três metros e meio"
+    },
+    {
+      "cena": 62,
+      "titulo": "Para onde foram os gigantes"
+    },
+    {
+      "cena": 69,
+      "titulo": "A preguiça e o caçador"
+    },
+    {
+      "cena": 77,
+      "titulo": "O que os gigantes nos ensinam"
+    }
   ]
- },
- "revelacao": {
-  "promessa_cena": 1,
-  "entrega_cena": 71,
-  "o_que": "O que havia dentro das pegadas da preguiça-gigante em White Sands: pegadas humanas, de alguém que seguia o animal pisando nas marcas dele, enquanto a preguiça se erguia para se defender"
- },
- "cenas": [
-  {
-   "trecho": "Seus antepassados caminharam ao lado de preguiças do tamanho de elefantes. Não é exagero e não é lenda. Num deserto de areia branca, os cientistas encontraram pegadas de uma dessas preguiças.",
-   "prompt_imagem": "a giant ground sloth the size of an elephant walking across an open grassland at dawn, Ice Age South America, mist, epic wide shot, documentary reconstruction, no people",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "E, dentro delas, encontraram outra coisa. No final deste documentário, eu vou te mostrar o que estava dentro dessas pegadas, e o que elas contam sobre um encontro de milhares de anos atrás.",
-   "prompt_imagem": "large fossil footprints of a giant ground sloth pressed into pale dried mud on a white gypsum sand plain, close up, natural light",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "Hoje nós vamos voltar ao tempo em que a América do Sul era a terra dos gigantes. Tatus do tamanho de um carro. Felinos com dentes de quase trinta centímetros.",
-   "prompt_imagem": "documentary reconstruction, white sand dunes, Ice Age, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "white sand dunes"
-  },
-  {
-   "trecho": "Preguiças que, de pé, passavam de quatro metros de altura. E vamos descobrir algo que muita gente não sabe: os primeiros humanos que chegaram aqui conheceram esses animais. Viram, enfrentaram, comeram e até usaram os ossos deles como enfeite.",
-   "prompt_imagem": "documentary reconstruction, giant ground sloth, Ice Age, natural light",
-   "vazia": true,
-   "animar": false,
-   "acervo": "giant ground sloth"
-  },
-  {
-   "trecho": "Imagine o Brasil há uns vinte mil anos. O mundo vivia o auge da última Era do Gelo. Grande parte do norte da Europa e da América do Norte estava coberta por geleiras enormes.",
-   "prompt_imagem": "tall golden grass waving in the wind under a vast sky, Ice Age South America, untouched wilderness, no people, wide shot",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "Aqui no sul, não havia gelo cobrindo tudo, mas o clima era diferente do de hoje. Em muitos lugares, as florestas davam espaço para campos abertos e cerrados.",
-   "prompt_imagem": "vast open grassland and scattered trees in Ice Age South America with distant herds of giant animals, golden light, very wide shot",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "E nesses campos vivia um tipo de fauna que hoje parece coisa de filme. Os cientistas chamam esses animais de megafauna, que quer dizer, simplesmente, os bichos grandes.",
-   "prompt_imagem": "herds of giant ground sloths and glyptodonts grazing on a wild open plain with scattered trees, Ice Age South America, no people, very wide shot",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "Muitos deles existiam só nas Américas. Eram parentes gigantes de animais que a gente ainda conhece, como o tatu, a preguiça e a onça. Para você ter uma ideia do que se perdeu, os pesquisadores estimam que a América do Sul perdeu mais de oitenta por cento dos seus gêneros de grandes mamíferos no fim da Era do Gelo.",
-   "prompt_imagem": "a huge glacier and snowy mountains under a cold sky, Ice Age landscape, no people",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "Na África, essa perda foi de cerca de vinte por cento. Por isso, quando a gente vai a um zoológico e vê elefantes e girafas, está vendo um pedaço do mundo antigo que sobreviveu lá.",
-   "prompt_imagem": "documentary reconstruction, fossil skeleton, Ice Age, natural light",
-   "vazia": true,
-   "animar": false,
-   "acervo": "fossil skeleton"
-  },
-  {
-   "trecho": "Aqui, quase tudo desapareceu. Mas antes de desaparecer, esses gigantes dividiram o chão com gente como nós. E as provas disso estão espalhadas pelo continente. Se você gosta de descobrir como era o mundo antes de nós, inscreva-se no canal e ative o sininho. Toda semana tem um documentário novo por aqui.",
-   "prompt_imagem": "documentary reconstruction, cerrado, Ice Age, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "cerrado"
-  },
-  {
-   "trecho": "Vamos começar pela mais impressionante de todas. Hoje, quando a gente pensa em preguiça, pensa num bichinho lento, pendurado num galho. Mas a preguiça-gigante Eremotherium, que viveu também aqui no Brasil, tinha cerca de seis metros de comprimento.",
-   "prompt_imagem": "a giant ground sloth Eremotherium standing on its hind legs and tail, reaching high tree leaves with long claws, Ice Age South America, documentary reconstruction",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "As estimativas mais aceitas falam em um peso de três a quatro toneladas e meia. É o peso de um elefante. Ela não vivia em árvores.",
-   "prompt_imagem": "documentary reconstruction, megatherium, Ice Age, natural light",
-   "vazia": true,
-   "animar": false,
-   "acervo": "megatherium"
-  },
-  {
-   "trecho": "Andava pelo chão, sobre quatro patas, e tinha garras enormes nas mãos. Os cientistas acreditam que ela podia se erguer nas patas de trás, apoiada na cauda, para alcançar folhas altas.",
-   "prompt_imagem": "close up of the huge curved claws of a giant ground sloth on its front foot, fur, natural light",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "De pé, ela podia chegar perto de quatro metros de altura. Mais alta do que o teto de uma casa. Fósseis dessa preguiça já foram encontrados em vários estados brasileiros, do Nordeste até o Rio Grande do Sul.",
-   "prompt_imagem": "documentary reconstruction, forest, Ice Age, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "forest"
-  },
-  {
-   "trecho": "Num único sítio do Nordeste, conhecido como Jirau, os paleontólogos acharam restos de dezenove indivíduos. E apesar do tamanho assustador, ela era herbívora. Passava o dia comendo folhas, brotos e frutos.",
-   "prompt_imagem": "fossil bones of several giant ground sloths in a dry limestone sinkhole, paleontology dig with brushes and trowels, no people",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "Agora pense: um animal desse tamanho, lento e cheio de carne, andando por campos abertos. Para os primeiros caçadores que chegaram ao continente, isso era uma oportunidade. E também um enorme perigo.",
-   "prompt_imagem": "documentary reconstruction, sloth claw, Ice Age, natural light",
-   "vazia": true,
-   "animar": false,
-   "acervo": "sloth claw"
-  },
-  {
-   "trecho": "O segundo gigante parece um tanque de guerra da natureza. Os gliptodontes eram parentes dos tatus de hoje. Mas alguns tinham o tamanho de um carro pequeno, com até três metros de comprimento.",
-   "prompt_imagem": "a glyptodont with a massive domed bony shell walking across a grassy plain, Ice Age South America, side view, documentary reconstruction",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "O corpo era coberto por uma carapaça feita de centenas de plaquinhas de osso, encaixadas como um mosaico. Segundo o Museu Americano de História Natural, essa armadura sozinha podia pesar mais de quinhentos quilos.",
-   "prompt_imagem": "documentary reconstruction, glyptodont, Ice Age, natural light",
-   "vazia": true,
-   "animar": false,
-   "acervo": "glyptodont"
-  },
-  {
-   "trecho": "Alguns tinham ainda uma cauda coberta de anéis de osso, que provavelmente servia de defesa. Um golpe dela devia ser algo difícil de esquecer. Eles comiam plantas e viviam em campos e áreas abertas, do sul do Brasil até a Argentina e o Uruguai.",
-   "prompt_imagem": "close up of the mosaic of hexagonal bony plates on a glyptodont shell, texture detail, natural light",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "Durante milhões de anos, os gliptodontes andaram pelas Américas quase sem ameaças. Com aquela armadura, poucos predadores conseguiam fazer alguma coisa contra um adulto. Quase nenhum. Porque havia um predador que tinha a arma certa para isso.",
-   "prompt_imagem": "documentary reconstruction, pampas grassland, Ice Age, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "pampas grassland"
-  },
-  {
-   "trecho": "Ele é chamado de tigre-dentes-de-sabre, mas não era um tigre. Era um felino de outra linhagem, chamado Smilodon. E a espécie que vivia na América do Sul, o Smilodon populator, foi a maior de todas.",
-   "prompt_imagem": "a huge saber-toothed cat Smilodon populator walking through tall grass, muscular, long flat fangs, Ice Age South America, documentary reconstruction",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "Um crânio excepcionalmente grande, encontrado no Uruguai, indica um animal que pode ter chegado a mais de quatrocentos quilos. Mais pesado do que um leão ou um tigre de hoje.",
-   "prompt_imagem": "documentary reconstruction, smilodon skull, Ice Age, natural light",
-   "vazia": true,
-   "animar": false,
-   "acervo": "smilodon skull"
-  },
-  {
-   "trecho": "Os dois dentes de cima, achatados como lâminas, podiam medir até vinte e oito centímetros. É do tamanho de uma régua escolar. Os cientistas acreditam que ele caçava animais grandes, como os herbívoros gigantes que viviam nos campos.",
-   "prompt_imagem": "close up portrait of a saber-toothed cat with long blade-like upper canines, dramatic side light",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "Ele não era um corredor de longa distância. Era um predador de emboscada, forte e pesado. Essa espécie viveu na América do Sul desde cerca de um milhão de anos atrás até uns dez mil anos atrás.",
-   "prompt_imagem": "documentary reconstruction, grassland sunset, Ice Age, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "grassland sunset"
-  },
-  {
-   "trecho": "Ou seja, por milhares de anos, ela dividiu o território com os primeiros humanos. E o nome dela tem uma ligação direta com o Brasil. Quem descreveu essa espécie pela primeira vez foi um naturalista que viveu em Minas Gerais.",
-   "prompt_imagem": "a saber-toothed cat crouching in ambush behind bushes watching a distant herd of giant herbivores, Ice Age",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "E foi ele também quem fez uma das descobertas mais importantes da nossa história.",
-   "prompt_imagem": "documentary reconstruction, smilodon, Ice Age, natural light",
-   "vazia": true,
-   "animar": false,
-   "acervo": "smilodon"
-  },
-  {
-   "trecho": "Em 1835, um naturalista dinamarquês chamado Peter Wilhelm Lund viajava pelo interior de Minas Gerais. Perto de uma cidadezinha chamada Lagoa Santa, ele encontrou cavernas cheias de ossos fossilizados.",
-   "prompt_imagem": "documentary reconstruction, cave, Ice Age, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "cave"
-  },
-  {
-   "trecho": "Lund ficou encantado. Decidiu morar ali e passou os oito anos seguintes escavando, organizando e estudando mais de vinte mil ossos. Nessas cavernas, ele descreveu dezenas de espécies de animais extintos.",
-   "prompt_imagem": "the entrance of a limestone cave among green hills in Minas Gerais, Brazil, morning mist, no people",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "Preguiças-gigantes, tatus gigantes e o próprio Smilodon populator, o dente-de-sabre. Então, em 1843, durante uma seca forte, Lund entrou fundo numa caverna que costumava ficar alagada.",
-   "prompt_imagem": "a pile of large fossil bones and skulls of extinct animals on a limestone cave floor lit by an oil lamp, 19th century excavation, no people",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "E lá encontrou restos de cerca de trinta pessoas, misturados com ossos de animais extintos havia muito tempo. Para a ciência daquela época, isso era quase impensável.",
-   "prompt_imagem": "a 19th century naturalist's wooden desk in a cave with fossil bones, oil lamp, notebook and ink, still life",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "A descoberta indicava que humanos e animais pré-históricos tinham convivido nas Américas. Lund viveu em Lagoa Santa até morrer, em 1880. Hoje ele é considerado o pai da paleontologia e da arqueologia no Brasil.",
-   "prompt_imagem": "a dark flooded limestone cave with still water and stalactites, faint light from the entrance, no people",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "E a região de Lagoa Santa continua sendo um dos lugares mais importantes do mundo para estudar os primeiros americanos. Mas, na época dele, faltava uma coisa: datas precisas.",
-   "prompt_imagem": "a fossil skull of a saber-toothed cat on an old wooden table, dark background, close up, no people",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "Ninguém sabia dizer quando aquelas pessoas tinham vivido. Essa resposta só começou a chegar mais de cem anos depois.",
-   "prompt_imagem": "a quiet lake surrounded by green hills and limestone outcrops in Brazil at sunset, no buildings",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "Agora vamos para o Mato Grosso, num abrigo de pedra chamado Santa Elina. Os arqueólogos estudam esse lugar há décadas. Ali, junto com ferramentas de pedra, foram encontrados ossinhos de uma preguiça-gigante.",
-   "prompt_imagem": "a sandstone rock shelter in the Brazilian cerrado with an archaeological excavation grid on the floor, natural light, no people",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "Não eram ossos do esqueleto. Eram osteodermos, pequenas placas de osso que cresciam dentro da pele do animal, como uma armadura escondida. O que chamou a atenção foi que três dessas plaquinhas tinham furos.",
-   "prompt_imagem": "documentary reconstruction, stone tool, Ice Age, natural light",
-   "vazia": true,
-   "animar": false,
-   "acervo": "stone tool"
-  },
-  {
-   "trecho": "E não eram furos quaisquer. Eram perfurados e polidos. Em 2023, uma equipe liderada pela pesquisadora Mírian Pacheco, da Universidade Federal de São Carlos, publicou um estudo sobre essas peças na revista Proceedings of the Royal Society B.",
-   "prompt_imagem": "three small round bony osteoderms with drilled holes lying on a dark museum background, close up",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "A conclusão foi que os furos tinham sido feitos por mãos humanas, possivelmente para pendurar as plaquinhas como enfeites, talvez num colar. E a camada onde elas estavam foi datada entre vinte e sete mil e vinte e cinco mil anos atrás.",
-   "prompt_imagem": "documentary reconstruction, bone pendant, Ice Age, natural light",
-   "vazia": true,
-   "animar": false,
-   "acervo": "bone pendant"
-  },
-  {
-   "trecho": "Pense no que isso significa. Muito tempo antes do que se imaginava, alguém aqui, no coração do Brasil, segurou um pedaço de uma preguiça-gigante e decidiu transformá-lo em algo para usar no corpo.",
-   "prompt_imagem": "a simple ancient necklace of polished bone plates on a cord resting on a stone, prehistoric, still life",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "Essa data ainda é debatida pelos especialistas, como quase toda descoberta sobre a chegada dos humanos às Américas. Mas ela se soma a outras pistas que vêm aparecendo pelo continente.",
-   "prompt_imagem": "documentary reconstruction, cerrado, Ice Age, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "cerrado"
-  },
-  {
-   "trecho": "Uma dessas pistas apareceu na Argentina, às margens do rio Reconquista, na região dos pampas. Lá, os pesquisadores estudaram os ossos de um gliptodonte do gênero Neosclerocalyptus.",
-   "prompt_imagem": "documentary reconstruction, river grassland, Ice Age, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "river grassland"
-  },
-  {
-   "trecho": "Um daqueles tatus gigantes com carapaça. Na bacia, na cauda e na própria armadura do animal, eles encontraram marcas finas e repetidas. Marcas que combinam com cortes feitos por ferramentas de pedra.",
-   "prompt_imagem": "fossil glyptodont pelvis and shell fragments exposed in the muddy bank of a river, paleontology dig, natural light",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "Os cortes estavam justamente nas partes com mais carne, numa sequência que parece a de quem sabia exatamente o que estava fazendo. O estudo, liderado por Mariano Del Papa, da Universidade Nacional de La Plata, foi publicado em 2024 na revista PLOS ONE.",
-   "prompt_imagem": "documentary reconstruction, stone scraper, Ice Age, natural light",
-   "vazia": true,
-   "animar": false,
-   "acervo": "stone scraper"
-  },
-  {
-   "trecho": "E a datação por radiocarbono deu cerca de vinte e um mil anos. Ou seja, quase seis mil anos antes de outras evidências conhecidas de pessoas naquela parte da América do Sul.",
-   "prompt_imagem": "close up of fine straight cut marks on an ancient fossil bone, macro photo, museum",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "Aquele gigante de armadura, que quase nenhum predador conseguia vencer, tinha encontrado um adversário diferente. Um que não usava garras nem dentes, mas pedras afiadas e trabalho em grupo.",
-   "prompt_imagem": "documentary reconstruction, glyptodont, Ice Age, natural light",
-   "vazia": true,
-   "animar": false,
-   "acervo": "glyptodont"
-  },
-  {
-   "trecho": "Agora vamos subir até a América do Norte, para um lugar com uma paisagem quase irreal: as dunas de areia branca de White Sands, no Novo México, nos Estados Unidos.",
-   "prompt_imagem": "documentary reconstruction, white sand dunes, Ice Age, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "white sand dunes"
-  },
-  {
-   "trecho": "Hoje é um deserto. Mas, na Era do Gelo, ali havia um grande lago, com margens de lama úmida. E lama úmida é perfeita para guardar pegadas.",
-   "prompt_imagem": "an Ice Age lake shore with wet mud flats, mammoths drinking in the distance, New Mexico, wide shot, documentary reconstruction",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "Com o tempo, a lama secou, foi coberta por camadas de sedimento, e as pegadas ficaram guardadas por milhares de anos. São pegadas de mamutes, de camelos antigos, de lobos e de preguiças-gigantes.",
-   "prompt_imagem": "a fossil trackway of many human footprints of adults and children in pale hardened mud, white sand around, close up",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "E também de gente. Muitas pegadas humanas, de adultos e de crianças. Em 2021, os cientistas anunciaram que algumas dessas pegadas humanas tinham entre vinte e um mil e vinte e três mil anos.",
-   "prompt_imagem": "documentary reconstruction, mammoth, Ice Age, natural light",
-   "vazia": true,
-   "animar": false,
-   "acervo": "mammoth"
-  },
-  {
-   "trecho": "A data surpreendeu tanto que muitos colegas duvidaram. Então, em 2023, outra equipe repetiu a datação com dois métodos diferentes. Um usou dezenas de milhares de grãos de pólen da mesma camada.",
-   "prompt_imagem": "scientists' measuring tape and small flags beside fossil footprints on a white gypsum plain, no people, natural light",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "O outro mediu a luz guardada nos grãos de quartzo. E os resultados confirmaram a idade. Essas pegadas são algumas das provas mais diretas de que havia pessoas nas Américas no auge da Era do Gelo.",
-   "prompt_imagem": "documentary reconstruction, desert dunes, Ice Age, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "desert dunes"
-  },
-  {
-   "trecho": "E, como a gente vai ver daqui a pouco, elas guardam um encontro muito especial.",
-   "prompt_imagem": "microscope view of ancient pollen grains, scientific photo",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "Enquanto isso, do outro lado do mundo, os mamutes-lanosos ainda andavam pela tundra gelada da Europa, da Ásia e da América do Norte. Os humanos da Era do Gelo conviveram com eles por dezenas de milhares de anos.",
-   "prompt_imagem": "a herd of woolly mammoths crossing a snowy tundra under a low sun, Ice Age, wide shot",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "Usaram seus ossos, suas presas e sua carne. E também os desenharam nas paredes das cavernas. Com o fim da Era do Gelo, os mamutes foram sumindo do continente.",
-   "prompt_imagem": "documentary reconstruction, mammoth tusk, Ice Age, natural light",
-   "vazia": true,
-   "animar": false,
-   "acervo": "mammoth tusk"
-  },
-  {
-   "trecho": "Mas um pequeno grupo sobreviveu num lugar improvável. Há uns dez mil anos, o mar subiu e separou do continente uma ilha do Ártico, perto da Sibéria, chamada Wrangel.",
-   "prompt_imagem": "ancient cave wall painting of a woolly mammoth in red and black pigment, torch light, close up",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "Presos ali ficaram, no máximo, oito mamutes. Desse grupo minúsculo nasceu uma população de duzentos a trezentos animais, que sobreviveu por cerca de seis mil anos.",
-   "prompt_imagem": "documentary reconstruction, snowy tundra, Ice Age, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "snowy tundra"
-  },
-  {
-   "trecho": "Os últimos mamutes de Wrangel desapareceram há cerca de quatro mil anos. Isso é uns quinhentos anos depois de os egípcios terminarem a Grande Pirâmide de Gizé.",
-   "prompt_imagem": "a remote rocky Arctic island with snowy hills surrounded by drifting sea ice, no people",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "O DNA desses animais indica um fim repentino. E a causa exata ainda é um mistério.",
-   "prompt_imagem": "documentary reconstruction, mammoth tooth, Ice Age, natural light",
-   "vazia": true,
-   "animar": false,
-   "acervo": "mammoth tooth"
-  },
-  {
-   "trecho": "E existe um caso ainda mais recente. Tão recente que aconteceu quando já existiam castelos na Europa. A Nova Zelândia foi uma das últimas grandes terras do planeta a receber seres humanos.",
-   "prompt_imagem": "documentary reconstruction, new zealand mountains, Ice Age, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "new zealand mountains"
-  },
-  {
-   "trecho": "Antes deles, as ilhas eram dominadas por aves. As mais famosas eram as moas. Eram nove espécies de aves que não voavam. A maior delas podia chegar a três metros e meio de altura.",
-   "prompt_imagem": "a giant moa, a huge flightless bird over three meters tall, walking through a misty New Zealand forest of ferns, documentary reconstruction",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "Os primeiros polinésios chegaram às ilhas por volta do ano 1300. Eram navegadores incríveis, que cruzaram o Pacífico em canoas. Lá, encontraram aves enormes que nunca tinham visto um ser humano e não sabiam fugir dele.",
-   "prompt_imagem": "documentary reconstruction, moa, Ice Age, natural light",
-   "vazia": true,
-   "animar": false,
-   "acervo": "moa"
-  },
-  {
-   "trecho": "E começaram a caçá-las e a recolher seus ovos. Segundo um estudo de 2014, em menos de cento e cinquenta anos todas as espécies de moa tinham desaparecido.",
-   "prompt_imagem": "a Polynesian voyaging double canoe with woven sails on the open Pacific ocean at dawn, tiny distant figures, wide shot",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "A última sumiu, no máximo, por volta de 1435. E o detalhe mais impressionante é este: a população humana nas ilhas era pequena. Os pesquisadores estimam que não passava de cerca de dois mil e quinhentos habitantes quando as moas acabaram.",
-   "prompt_imagem": "documentary reconstruction, fern forest, Ice Age, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "fern forest"
-  },
-  {
-   "trecho": "Então o que aconteceu com os gigantes da América do Sul? Essa é uma das maiores discussões da ciência. De um lado, há quem defenda que o principal culpado foi o clima.",
-   "prompt_imagem": "dark storm clouds rolling over a wild Ice Age grassland, rain in the distance, no people, wide shot",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "O fim da Era do Gelo mudou as chuvas, as temperaturas e as plantas. Campos viraram florestas, e muitos animais perderam o tipo de comida e de ambiente de que precisavam.",
-   "prompt_imagem": "an Ice Age grassland slowly turning into dense forest, giant animals at the edge, time-lapse feeling, wide shot",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "Do outro lado, há quem aponte para nós. Em quase todos os lugares, os grandes animais começaram a sumir pouco depois da chegada dos humanos. Um estudo de 2016, que analisou ossos da Patagônia, indicou que a grande onda de extinções no sul do continente aconteceu por volta de doze mil e trezentos anos atrás.",
-   "prompt_imagem": "documentary reconstruction, megatherium skeleton, Ice Age, natural light",
-   "vazia": true,
-   "animar": false,
-   "acervo": "megatherium skeleton"
-  },
-  {
-   "trecho": "Isso foi entre mil e três mil anos depois da chegada dos humanos à região. A conclusão desses pesquisadores foi que nem o clima nem os humanos, sozinhos, explicam tudo.",
-   "prompt_imagem": "a windswept Patagonian plain with a fossil dig of large bones, no people, cold light",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "O aquecimento mudou o ambiente, e a caça pesou muito mais sobre animais que já estavam em dificuldade. É a mesma ideia defendida por muitos especialistas para o resto do mundo.",
-   "prompt_imagem": "documentary reconstruction, patagonia, Ice Age, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "patagonia"
-  },
-  {
-   "trecho": "O clima pode ter enfraquecido as populações, e a pressão humana pode ter impedido que elas se recuperassem. Mas a ilha das moas mostra uma coisa que vale a pena lembrar.",
-   "prompt_imagem": "a lone giant ground sloth walking away into the dusk across a dry plain, melancholic, wide shot",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "Lá não houve fim de Era do Gelo. Houve só a chegada das pessoas. E isso bastou.",
-   "prompt_imagem": "documentary reconstruction, fossil skeleton, Ice Age, natural light",
-   "vazia": true,
-   "animar": false,
-   "acervo": "fossil skeleton"
-  },
-  {
-   "trecho": "Agora, vamos voltar ao deserto branco de White Sands. Porque é lá que está a pegada que eu te prometi no começo. Em 2018, uma equipe de pesquisadores publicou um estudo sobre uma trilha de pegadas muito especial.",
-   "prompt_imagem": "untouched white gypsum sand dunes under a clear blue sky, wild desert, no people, wide shot",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "Era a trilha de uma preguiça-gigante, atravessando a antiga margem do lago. Até aí, nada de diferente. O espantoso era o que estava dentro das pegadas da preguiça.",
-   "prompt_imagem": "a fossil trackway of giant ground sloth footprints crossing a pale mud flat, aerial view, white sand around",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "Eram pegadas humanas. Alguém tinha caminhado atrás do animal, colocando os pés exatamente onde a preguiça tinha pisado. Passo por passo. E a trilha continua. Em certo ponto, as marcas da preguiça mudam.",
-   "prompt_imagem": "a human footprint pressed inside a large giant sloth footprint in hardened mud, close up, natural light",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "Aparecem círculos, como se o animal tivesse girado o corpo. Os pesquisadores interpretam esses círculos como o registro de um momento muito preciso: a preguiça se ergueu nas patas de trás e balançou os braços com as garras, provavelmente para se defender.",
-   "prompt_imagem": "documentary reconstruction, giant ground sloth, Ice Age, natural light",
-   "vazia": true,
-   "animar": false,
-   "acervo": "giant ground sloth"
-  },
-  {
-   "trecho": "Ao redor, há outras pegadas humanas, a uma distância segura. Para os cientistas, elas sugerem um grupo. Uma pessoa seguia o animal, e outras tentavam distraí-lo.",
-   "prompt_imagem": "circular flailing marks of giant sloth tracks in pale hardened mud, close up, natural light",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "O próprio líder da pesquisa, o pesquisador Matthew Bennett, acredita que aquele humano estava perseguindo a preguiça. Muitas pegadas estão na ponta dos pés, como as de alguém que tenta se aproximar sem ser percebido.",
-   "prompt_imagem": "a giant ground sloth rearing up on its hind legs on a lake shore with claws raised, dust in the air, Ice Age, tiny distant hunters far away, wide shot",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "A gente não sabe como essa história terminou. As pegadas não contam o final. Mas elas congelaram, na lama, alguns segundos de um encontro entre um ser humano e um gigante.",
-   "prompt_imagem": "footprints on tiptoe in hardened mud leading toward large animal tracks, close up, low sun",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "Essa trilha tem pelo menos onze mil e setecentos anos. E é considerada uma das primeiras evidências diretas de pessoas interagindo com uma preguiça-gigante.",
-   "prompt_imagem": "untouched white gypsum sand dunes under a clear blue sky, wild desert, no people, wide shot",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "Por centenas de milhares de anos, o mundo foi cheio de gigantes. E eles não sumiram num passado tão distante que não tenha nada a ver com a gente.",
-   "prompt_imagem": "a wild grassland at sunset with lone trees in silhouette, Ice Age South America, no people, very wide shot",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "Eles sumiram quando os nossos antepassados já estavam aqui. Pessoas que olharam nos olhos de uma preguiça de quatro toneladas, que viram um dente-de-sabre de longe e que fizeram enfeites com ossos de animais que nós nunca vamos ver vivos.",
-   "prompt_imagem": "a giant ground sloth and a glyptodont near a river at golden hour, Ice Age South America, epic wide shot",
-   "vazia": false,
-   "animar": false
-  },
-  {
-   "trecho": "Quando você vê um tatu atravessando uma estrada, ou uma preguiça pendurada numa árvore, está vendo os primos pequenos dos gigantes que sobreviveram. E a história das moas, na Nova Zelândia, lembra que basta pouco tempo e pouca gente para apagar uma espécie inteira da face da Terra.",
-   "prompt_imagem": "documentary reconstruction, forest river, Ice Age, natural light",
-   "vazia": true,
-   "animar": false,
-   "busca_video": "forest river"
-  },
-  {
-   "trecho": "Os gigantes não deixaram livros nem palavras. Deixaram ossos, carapaças, plaquinhas furadas e pegadas na lama. E é com essas pistas que a ciência continua montando a história do mundo antes de nós.",
-   "prompt_imagem": "documentary reconstruction, sloth claw, Ice Age, natural light",
-   "vazia": true,
-   "animar": false,
-   "acervo": "sloth claw"
-  },
-  {
-   "trecho": "Se você gostou dessa viagem, inscreva-se no Antes de Nós. Toda semana tem um documentário novo por aqui. E me conta nos comentários: de qual desses gigantes você gostaria de ver um de perto? A preguiça, o tatu gigante, o dente-de-sabre ou o mamute?",
-   "prompt_imagem": "fossil footprints in pale mud under a starry night sky, white sand, no people",
-   "vazia": false,
-   "animar": false
-  }
- ],
- "capitulos": [
-  {
-   "cena": 0,
-   "titulo": "Uma pegada dentro da outra"
-  },
-  {
-   "cena": 4,
-   "titulo": "O mundo antes de nós"
-  },
-  {
-   "cena": 10,
-   "titulo": "A preguiça do tamanho de um elefante"
-  },
-  {
-   "cena": 16,
-   "titulo": "Um tatu do tamanho de um carro"
-  },
-  {
-   "cena": 20,
-   "titulo": "O dente-de-sabre dos pampas"
-  },
-  {
-   "cena": 26,
-   "titulo": "O dinamarquês das cavernas"
-  },
-  {
-   "cena": 33,
-   "titulo": "Enfeites feitos de preguiça"
-  },
-  {
-   "cena": 39,
-   "titulo": "O tatu gigante do rio Reconquista"
-  },
-  {
-   "cena": 44,
-   "titulo": "As pegadas no deserto branco"
-  },
-  {
-   "cena": 51,
-   "titulo": "Os últimos mamutes"
-  },
-  {
-   "cena": 57,
-   "titulo": "A ave de três metros e meio"
-  },
-  {
-   "cena": 62,
-   "titulo": "Para onde foram os gigantes"
-  },
-  {
-   "cena": 69,
-   "titulo": "A preguiça e o caçador"
-  },
-  {
-   "cena": 77,
-   "titulo": "O que os gigantes nos ensinam"
-  }
- ]
 }
