@@ -136,8 +136,7 @@ def _rodar_modelscope(cenas: list, pasta: Path, etapa: str = "imagens") -> tuple
     import requests
     from concurrent.futures import ThreadPoolExecutor
     tok = os.environ["MODELSCOPE_TOKEN"]
-    bases = [b for b in (os.getenv("MODELSCOPE_BASE"), "https://api-inference.modelscope.cn",
-                         "https://api-inference.modelscope.ai") if b]
+    bases = [b for b in (os.getenv("MODELSCOPE_BASE"), "https://api-inference.modelscope.ai") if b]  # conta é do .ai
     saida = pasta / f"modelscope_{etapa}"
     saida.mkdir(parents=True, exist_ok=True)
     itens = [c for c in cenas if c.get("tipo") == "imagem"]
@@ -146,7 +145,7 @@ def _rodar_modelscope(cenas: list, pasta: Path, etapa: str = "imagens") -> tuple
     def gerar(c):
         w, h = (int(x) for x in c.get("resolucao", "768x1344").split("x"))
         corpo = {"model": os.getenv("MODELSCOPE_MODELO", "Tongyi-MAI/Z-Image-Turbo"), "prompt": c["prompt"][:2000],
-                 "size": f"{w}x{h}", "seed": int(c.get("seed", 42)), "steps": c.get("passos", 9), "guidance": 0.0}
+                 "size": f"{w}x{h}", "seed": int(c.get("seed", 42)), "steps": c.get("passos", 9)}
         for base in bases:
             try:
                 r = requests.post(f"{base}/v1/images/generations", headers={**H, "X-ModelScope-Async-Mode": "true"},
