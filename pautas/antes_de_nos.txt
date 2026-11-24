@@ -1,5 +1,3 @@
 # Pautas do Antes de Nós — o Radar semanal acrescenta temas em alta; a rotina usa a 1ª linha não comentada e a remove.
 # Formato: DOC | tema  ou  SHORT | tema
-DOC | Os animais gigantes que viveram junto com os humanos (ep03 — em produção)
 DOC | A primeira cidade do mundo
-SHORT | O mamute ainda vivia quando as pirâmides foram construídas
