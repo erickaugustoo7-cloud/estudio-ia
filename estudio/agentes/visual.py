@@ -82,7 +82,7 @@ def _sem_marca(img_path: Path) -> None:
 
 
 def _pollinations(cena: dict, destino: Path, usados: set, canal: dict, seed: int) -> bool:
-    prompt = f"{cena['prompt_imagem']}. {canal.get('regra_visual_pessoas', '')}. {canal['estilo_visual'].strip()}"
+    prompt = f"{cena['prompt_imagem']}. {canal.get('regra_visual_pessoas', '')}. {canal.get('estilo_visual', '').strip()}"
     q = urllib.parse.quote(prompt[:900])
     chave = os.getenv("POLLINATIONS_API_KEY")
     params = f"width={cena.get('largura', 1080)}&height={cena.get('altura', 1920)}&seed={seed}&nologo=true&model=flux"
@@ -120,7 +120,7 @@ def _cloudflare(cena: dict, destino: Path, usados: set, canal: dict, seed: int) 
         return False
     if _CF_ESGOTADO:
         return False
-    prompt = f"{cena['prompt_imagem']}. {canal.get('regra_visual_pessoas', '')}. {canal['estilo_visual'].strip()}"
+    prompt = f"{cena['prompt_imagem']}. {canal.get('regra_visual_pessoas', '')}. {canal.get('estilo_visual', '').strip()}"
     modelo = os.getenv("CF_MODELO", "@cf/black-forest-labs/flux-2-klein-4b")
     url = f"https://api.cloudflare.com/client/v4/accounts/{conta}/ai/run/{modelo}"
     try:
