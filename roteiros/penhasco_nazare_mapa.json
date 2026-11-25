@@ -1,0 +1,65 @@
+{
+  "titulo": "A cidade de Jesus tentou jogá-lo de um penhasco",
+  "gancho_tela": "Tentaram jogar Jesus de um penhasco",
+  "estilo": "pintura",
+  "narracao": "A cidade onde Jesus cresceu tentou jogá-lo de um penhasco. Essa cidade existe até hoje: é Nazaré, no norte de Israel. Lucas, capítulo quatro. Mas para onde Jesus foi depois? Num sábado, Jesus falou na sinagoga da sua terra. Todos se encheram de ira e o levaram ao alto do monte para atirá-lo de lá. Mas ele passou pelo meio deles e foi embora. Desceu para Cafarnaum, à beira do mar da Galileia. Hoje, Cafarnaum é só ruína de pedra, em Israel, à beira do mesmo lago. Depois, Jesus foi mais longe: Tiro e Sidom, terra estrangeira. Hoje, Sur e Saida, no Líbano. E voltou pela Decápolis, as dez cidades gregas, a maioria hoje na Jordânia. Uma virou Amã, a capital. Marcos, capítulo sete. Repare no caminho. Rejeitado em casa, Jesus não se fechou. Foi até quem estava longe: pescadores, estrangeiros, gente de fora. Se a sua própria casa já fechou a porta para você, ele sabe como é. O penhasco não parou Jesus. E nenhuma distância vai impedi-lo de chegar até você. Salve este vídeo para ouvir de novo quando precisar, e siga para receber uma palavra de fé todos os dias.",
+  "cenas": [
+    {
+      "trecho": "A cidade onde Jesus cresceu tentou jogá-lo de um penhasco.",
+      "busca_imagem": "cliff hill town sunset",
+      "prompt_imagem": "the edge of a steep rocky cliff high above an ancient hillside town of small stone houses at golden sunset, loose stones falling into the deep valley below, dramatic contrast of fiery sky and dark rock"
+    },
+    {
+      "trecho": "Essa cidade existe até hoje: é Nazaré, no norte de Israel. Lucas, capítulo quatro. Mas para onde Jesus foi depois?",
+      "busca_imagem": "nazareth hills ancient village",
+      "prompt_imagem": "an ancient village of flat-roofed stone houses spread over green Galilean hills at dawn, olive trees and terraces, soft golden light and morning haze"
+    },
+    {
+      "trecho": "Num sábado, Jesus falou na sinagoga da sua terra. Todos se encheram de ira e o levaram ao alto do monte para atirá-lo de lá.",
+      "busca_imagem": "ancient synagogue scroll lamp",
+      "prompt_imagem": "an open parchment scroll resting on a wooden reading stand inside an ancient stone synagogue, clay oil lamps glowing, beams of light through a small window"
+    },
+    {
+      "trecho": "Mas ele passou pelo meio deles e foi embora. Desceu para Cafarnaum, à beira do mar da Galileia.",
+      "busca_imagem": "sea of galilee fishing boat",
+      "prompt_imagem": "a wooden fishing boat pulled onto the pebbly shore of the Sea of Galilee at sunrise, fishing nets drying on the stones, calm golden water and distant hills"
+    },
+    {
+      "trecho": "Hoje, Cafarnaum é só ruína de pedra, em Israel, à beira do mesmo lago.",
+      "busca_imagem": "capernaum ruins stone",
+      "prompt_imagem": "ancient dark basalt stone ruins and foundations of a small town beside a calm lake, low walls and broken columns, warm late afternoon light"
+    },
+    {
+      "trecho": "Depois, Jesus foi mais longe: Tiro e Sidom, terra estrangeira. Hoje, Sur e Saida, no Líbano.",
+      "busca_imagem": "ancient phoenician harbor sea",
+      "prompt_imagem": "an ancient Phoenician stone harbor on the Mediterranean coast, wooden merchant ships with furled sails, waves breaking on the sea wall, golden evening light"
+    },
+    {
+      "trecho": "E voltou pela Decápolis, as dez cidades gregas, a maioria hoje na Jordânia. Uma virou Amã, a capital. Marcos, capítulo sete.",
+      "busca_imagem": "roman columns jordan ruins",
+      "prompt_imagem": "a long colonnaded street of tall Greco-Roman stone columns on a dry hillside east of the Jordan river, warm desert sunset, long shadows on the paving stones"
+    },
+    {
+      "trecho": "Repare no caminho. Rejeitado em casa, Jesus não se fechou. Foi até quem estava longe: pescadores, estrangeiros, gente de fora.",
+      "busca_imagem": "dusty road hills sunset",
+      "prompt_imagem": "an ancient dusty road winding through rocky hills toward a distant sea, small stone milestones along the way, warm golden sunset sky"
+    },
+    {
+      "trecho": "Se a sua própria casa já fechou a porta para você, ele sabe como é. O penhasco não parou Jesus. E nenhuma distância vai impedi-lo de chegar até você. Salve este vídeo para ouvir de novo quando precisar, e siga para receber uma palavra de fé todos os dias.",
+      "busca_imagem": "open wooden door light",
+      "prompt_imagem": "an old wooden door standing open in a stone wall, warm golden light pouring out onto a dusty path at dusk, a clay oil lamp on the threshold"
+    }
+  ],
+  "legenda": "Senhor, mesmo rejeitado, eu sei que tu vens até mim 🙏\nLucas 4:16-30 · Marcos 7:24-31\nComente \"Amém\" e salve para ouvir de novo.",
+  "hashtags": [
+    "#Nazaré",
+    "#Cafarnaum",
+    "#TerraSanta",
+    "#amordeDeus"
+  ],
+  "fontes": [
+    "Lucas 4:16-31",
+    "Marcos 7:24",
+    "Marcos 7:31"
+  ]
+}
