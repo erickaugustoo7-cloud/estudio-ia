@@ -1,0 +1,82 @@
+{
+  "titulo": "Mar na frente, exército atrás. Deus abriu caminho 🙏",
+  "gancho_tela": "Mar na frente, exército atrás",
+  "referencia": "Êxodo 14:13-14",
+  "duracao_max": 90,
+  "volume_musica": 0.14,
+  "estilo_imagem": "cinematic photorealistic epic film still, dramatic volumetric god rays, floating dust particles, deep chiaroscuro, ancient Egypt and the Sinai desert by the Red Sea, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic epic film shot, slow and subtle motion.",
+  "epoca_imagem": "Late Bronze Age Egypt and the Sinai shore of the Red Sea, ancient Egyptian war chariots, goat-hair tents, stone, clay, bronze, wood and cloth only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "Mar na frente, exército atrás. Assim estava Israel, recém-saído da escravidão no Egito.",
+      "prompt_imagem": "epic high aerial view at dusk of a vast desert shore, a dark stormy sea in front, a wide camp of tiny distant tents by the water, a long cloud of dust rising from approaching chariots on the horizon behind",
+      "prompt_movimento": "slow aerial camera glide over the shore, waves roll, the dust cloud on the horizon drifts closer",
+      "vazia": false
+    },
+    {
+      "trecho": "Faraó mandou seiscentos carros escolhidos atrás deles, para trazer seus escravos de volta.",
+      "prompt_imagem": "wide high view of rows of ancient Egyptian war chariots with bronze fittings and painted wooden wheels on a desert plain, Egyptian temple pylons far behind, golden dust in the air",
+      "prompt_movimento": "golden dust swirls in the light, banners flutter in the wind, slow camera push-in",
+      "vazia": true
+    },
+    {
+      "trecho": "Acampados junto ao mar, os israelitas viram os egípcios chegando e ficaram apavorados.",
+      "prompt_imagem": "high-angle view of goat-hair tents and small campfires on a narrow beach between rugged mountains and the sea at nightfall, torches glowing far away in the distance on the desert",
+      "prompt_movimento": "campfire flames flicker, tent cloth moves in the wind, distant torches shimmer, slow camera descent",
+      "vazia": true
+    },
+    {
+      "trecho": "Disseram a Moisés: Era melhor servir aos egípcios do que morrer no deserto.",
+      "prompt_imagem": "abandoned clay bricks and a straw mold lying on cracked dry earth in the desert at sunset, broken clay pots, long shadows",
+      "prompt_movimento": "dry dust blows slowly across the bricks, sunset light glows, slow camera push-in",
+      "vazia": true
+    },
+    {
+      "trecho": "Moisés respondeu: Não tenham medo. Fiquem firmes. O Senhor lutará por vocês.",
+      "prompt_imagem": "a weathered wooden shepherd's staff planted upright in the sand on a desert shore, the dark sea beyond, a single beam of light breaking through storm clouds",
+      "prompt_movimento": "the beam of light grows stronger, clouds move slowly, waves roll behind, slow camera push-in",
+      "vazia": true
+    },
+    {
+      "trecho": "A coluna de nuvem passou para trás, entre os dois acampamentos, durante a noite.",
+      "prompt_imagem": "epic wide night view of a towering column of dark cloud glowing from within, standing between a desert camp with tiny distant campfires and the plain behind, moonlit sea",
+      "prompt_movimento": "the cloud column churns slowly, inner light pulses gently, campfires flicker, slow camera rise",
+      "vazia": true
+    },
+    {
+      "trecho": "Moisés estendeu a mão sobre o mar. Um forte vento oriental soprou a noite inteira.",
+      "prompt_imagem": "a hand holding a wooden staff stretched out over a wild dark sea at night, strong wind whipping the waves and sea spray, storm clouds",
+      "prompt_movimento": "strong wind blows the sea spray, waves churn, clouds race across the sky, slow camera push-in",
+      "vazia": false
+    },
+    {
+      "trecho": "As águas se abriram. Israel passou em terra seca, entre paredes de água.",
+      "prompt_imagem": "epic high aerial view of a dry seabed path through the middle of the sea, towering walls of water on both sides glowing in moonlight, a long line of tiny distant travelers crossing",
+      "prompt_movimento": "the water walls ripple and shimmer, spray drifts in the wind, slow aerial camera glide forward along the path",
+      "vazia": false
+    },
+    {
+      "trecho": "Os carros egípcios entraram atrás, mas as rodas emperraram. Ao amanhecer, o mar voltou.",
+      "prompt_imagem": "a broken wooden chariot wheel stuck in wet mud on the seabed at dawn, towering walls of water starting to collapse in the background, pale golden light",
+      "prompt_movimento": "the walls of water crash slowly, spray fills the air, dawn light grows, slow camera pull-back",
+      "vazia": true
+    },
+    {
+      "trecho": "Naquele dia o Senhor salvou Israel. E o povo creu. Êxodo, capítulo catorze.",
+      "prompt_imagem": "wide view of a calm sea at sunrise from a desert shore, golden god rays through the clouds, gentle waves on the sand, tiny distant tents on the beach",
+      "prompt_movimento": "golden sunrise light spreads over the water, gentle waves wash the sand, slow camera rise",
+      "vazia": true
+    },
+    {
+      "trecho": "Mar na frente, exército atrás? Fique firme. O Senhor ainda luta por você.",
+      "prompt_imagem": "a path of wet sand leading from the sea toward bright sunrise light over the desert mountains, the shepherd's staff lying on the sand, volumetric golden light",
+      "prompt_movimento": "the golden light grows brighter, waves wash softly over the path, slow camera push-in toward the light",
+      "vazia": true
+    }
+  ],
+  "legenda": "Senhor, abre caminho onde eu não vejo saída 🙏🌊\nÊxodo 14:10-31\nComente \"Amém\" se você precisa que Deus lute por você hoje.",
+  "hashtags": ["#Moisés", "#MarVermelho", "#fé", "#Bíblia"],
+  "fontes": ["Êxodo 14:5-31 (NVI)", "Êxodo 14:7 (seiscentos carros escolhidos)", "Êxodo 14:13-14", "Êxodo 14:19-31"]
+}
