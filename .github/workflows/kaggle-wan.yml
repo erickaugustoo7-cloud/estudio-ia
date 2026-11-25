@@ -20,6 +20,10 @@ on:
         description: "1 = refazer só o Short isca (voz do cache, sem Kaggle)"
         required: false
         default: ""
+      so_loops:
+        description: "1 = gerar só os Reels de 15 s em loop do roteiro (voz do cache)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -53,7 +57,7 @@ jobs:
       WAN_LIMITE_MIN: "170"
     steps:
       - name: Fila (uma produção por vez no Kaggle)
-        if: ${{ !inputs.so_isca }}
+        if: ${{ !inputs.so_isca && !inputs.so_loops }}
         env:
           GH_REPO: ${{ github.repository }}
         run: |
@@ -147,6 +151,7 @@ jobs:
           python -m estudio.kaggle_wan ${{ inputs.roteiro }}
         env:
           SO_ISCA: ${{ inputs.so_isca }}
+          SO_LOOPS: ${{ inputs.so_loops }}
       - name: Guardar a narração no cache
         if: always()
         uses: actions/cache/save@v4

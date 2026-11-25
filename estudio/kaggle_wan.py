@@ -595,13 +595,15 @@ def _pixabay_video(prompt: str, seg: float, destino: Path, usados: set, horizont
     return None
 
 
-def _short_isca(r, canal, imgs, tempos, palavras, mp3, pasta) -> None:
+def _short_isca(r, canal, imgs, tempos, palavras, mp3, pasta, cfg=None, sufixo="") -> None:
     """Short vertical de 8–20 s com o trecho mais forte da oração longa (mesma voz, mesmas ilustrações),
     para ser ligado à oração pelo "Vídeo relacionado" do YouTube: o Short traz gente, a oração gera as horas."""
     from estudio.produzir import abrir_issue, montar_texto_post
     from estudio.agentes import montador
     from estudio.agentes.montador_hf import _preparar_musica
-    cfg = r["short_isca"]
+    cfg = cfg or r["short_isca"]
+    loop = bool(cfg.get("loop"))  # Reel de ~15 s que "dá a volta" (Facebook, 25/11): sem respiro e sem convite no fim
+    cauda_s = 0.0 if loop else 1.2
     cenas = [int(c) for c in cfg["cenas"]]
     a, b = min(cenas), max(cenas)
     ini, fim = sum(tempos[:a]), sum(tempos[:b + 1])
@@ -616,8 +618,8 @@ def _short_isca(r, canal, imgs, tempos, palavras, mp3, pasta) -> None:
         else:
             log("wan", "short isca: trecho não encontrado na fala; usando as cenas inteiras")
     ini = max(0.0, ini)
-    dur = fim - ini + 1.2  # respiro no fim (ajuda o vídeo a "dar a volta")
-    out = pasta / f"isca_{pasta.name}"
+    dur = fim - ini + cauda_s  # respiro no fim (ajuda o vídeo a "dar a volta")
+    out = pasta / f"isca_{pasta.name}{sufixo}"
     out.mkdir(exist_ok=True)
     W2, H2 = 1080, 1920
     # imagem VERTICAL de tela cheia (9:16): gera uma versão em pé de cada cena; se falhar, recorta o centro da horizontal
@@ -637,7 +639,7 @@ def _short_isca(r, canal, imgs, tempos, palavras, mp3, pasta) -> None:
     for i in range(a, b + 1):
         seg = min(sum(tempos[:i + 1]), fim) - max(sum(tempos[:i]), ini)
         if i == b:
-            seg += 1.2
+            seg += cauda_s
         if seg <= 0.2:
             continue
         n, pt = int(seg * 30) + 1, out / f"p{i}.mp4"
@@ -677,13 +679,15 @@ def _short_isca(r, canal, imgs, tempos, palavras, mp3, pasta) -> None:
     tx = ass.read_text().replace("\n[Events]", extra + "\n[Events]", 1)
     tx += f"Dialogue: 1,{_ts(0)},{_ts(dur)},Topo,,0,0,0,,{cfg.get('texto_topo', r['titulo']).upper()}\n"
     tx += f"Dialogue: 2,{_ts(0)},{_ts(dur)},Sig,,0,0,0,,{canal['nome'].upper()}\n"
-    tx += f"Dialogue: 3,{_ts(max(0, dur - 3.5))},{_ts(dur)},Cta,,0,0,0,,{cfg.get('cta') or canal.get('cta_isca', '▶ ORAÇÃO COMPLETA NO VÍDEO ABAIXO')}\n"
+    if not loop:
+        tx += f"Dialogue: 3,{_ts(max(0, dur - 3.5))},{_ts(dur)},Cta,,0,0,0,,{cfg.get('cta') or canal.get('cta_isca', '▶ ORAÇÃO COMPLETA NO VÍDEO ABAIXO')}\n"
     ass.write_text(tx, encoding="utf-8")
     musica = out / "musica.mp3"
     tem_musica = _preparar_musica(canal, musica, dur)
     vol = r.get("volume_musica", 0.12)
     cmd = ["ffmpeg", "-y", "-loglevel", "error", "-i", str(base), "-ss", f"{ini:.3f}", "-t", f"{dur:.3f}", "-i", str(mp3)]
-    aud = f"[1:a]aresample=48000,apad,afade=t=out:st={max(0, dur - 0.6):.2f}:d=0.6[voz]"
+    fade = 0.15 if loop else 0.6
+    aud = f"[1:a]aresample=48000,apad,afade=t=out:st={max(0, dur - fade):.2f}:d={fade}[voz]"
     if tem_musica:
         cmd += ["-i", str(musica)]
         aud += (f";[2:a]aresample=48000,volume={vol},afade=t=in:d=0.5,afade=t=out:st={max(0, dur - 1):.2f}:d=1[mus]"
@@ -700,12 +704,13 @@ def _short_isca(r, canal, imgs, tempos, palavras, mp3, pasta) -> None:
     tags = cfg.get("hashtags") or r.get("hashtags", [])[:3]
     biblico = r.get("canal", "biblico") == "biblico"
     titulo_yt = titulo if (not biblico or "🙏" in titulo) else f"{titulo} 🙏"
-    rot = {"titulo": f"Short isca · {titulo}", "titulo_youtube": f"{titulo_yt} #shorts"[:100],
+    rot = {"titulo": f"{'Loop' if loop else 'Short isca'} · {titulo}", "titulo_youtube": f"{titulo_yt} #shorts"[:100],
            "narracao": " ".join(p["texto"] for p in pal),
            "legenda": cfg.get("legenda") or canal.get("legenda_isca", "").format(titulo=titulo) or
                       (f"{titulo}. A oração completa para dormir está no vídeo relacionado. "
                        "Escreva Amém e inscreva-se para orarmos juntos toda noite."),
-           "hashtags": tags, "fontes": r.get("fontes", []), "plataformas": ["youtube"]}
+           "hashtags": tags, "fontes": r.get("fontes", []),
+           "plataformas": cfg.get("plataformas") or (["facebook"] if loop else ["youtube"])}
     (out / "roteiro.json").write_text(json.dumps(rot, ensure_ascii=False, indent=2), encoding="utf-8")
     texto = montar_texto_post(canal, rot)
     (out / "post.txt").write_text(texto, encoding="utf-8")
@@ -719,7 +724,7 @@ def _short_isca(r, canal, imgs, tempos, palavras, mp3, pasta) -> None:
     for k, tq in enumerate(momentos):  # prévias para revisão (vão para a branch previas), com legenda na tela
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{tq:.2f}", "-i", str(video), "-frames:v", "1",
                         "-vf", "scale=540:-1", str(pasta / f"previa_isca_{k}.jpg")], check=False)
-    no_tg = publicador.telegram_video(video, f"🎯 [Short isca] {titulo} · {d:.0f}s", texto)
+    no_tg = publicador.telegram_video(video, f"🎯 [{'Loop 15 s' if loop else 'Short isca'}] {titulo} · {d:.0f}s", texto)
     aviso = (f"Depois de publicar, no YouTube Studio: Editar este Short → Vídeo relacionado → escolha a oração "
              f"\"{r.get('titulo_youtube', r['titulo'])}\". É isso que leva quem assistiu o Short para as horas.")
     link = abrir_issue({**canal, "estilo_nome": "short isca da oração"}, rot, texto, out, d, [aviso],
@@ -979,6 +984,13 @@ def main():
         tempos[-1] += 0.8  # respiro no fim
     # orações para dormir: só música no final — feita à parte (imagem parada), não esticando a última cena
     cauda = float(r.get("cauda_musical_min", 0) or 0) * 60
+    if os.getenv("SO_LOOPS"):  # só os Reels de 15 s em loop (voz do cache: não gasta a cota da Gemini)
+        if not (r.get("loops") and mp3):
+            raise SystemExit("roteiro sem loops")
+        for k, cfg_l in enumerate(r["loops"]):
+            _short_isca(r, canal, [None] * len(r["cenas"]), tempos, palavras, mp3, pasta, {**cfg_l, "loop": True}, f"_loop{k}")
+        log("wan", f"só os loops: {len(r['loops'])} concluídos")
+        return
     if os.getenv("SO_ISCA"):  # refaz só o Short isca (voz do cache, imagens verticais novas, sem Kaggle)
         if not (r.get("short_isca") and mp3):
             raise SystemExit("roteiro sem short_isca")
@@ -1465,6 +1477,11 @@ def main():
         except Exception as e:  # noqa: BLE001 — o Short é um extra: nunca derruba a oração já entregue
             log("wan", f"short isca falhou: {e}")
             publicador.telegram_mensagem(f"⚠️ O Short isca de \"{r['titulo']}\" falhou: {str(e)[:200]}")
+    for k, cfg_l in enumerate(r.get("loops", []) if mp3 else []):
+        try:
+            _short_isca(r, canal, imgs, tempos, palavras, mp3, pasta, {**cfg_l, "loop": True}, f"_loop{k}")
+        except Exception as e:  # noqa: BLE001
+            log("wan", f"loop {k} falhou: {e}")
 
 
 if __name__ == "__main__":

@@ -816,5 +816,49 @@
    "animar": false,
    "emocao": "paz e bênção, voz suave de despedida"
   }
+ ],
+ "loops": [
+  {
+   "cenas": [
+    11
+   ],
+   "texto_topo": "QUAL É O SEU EXÉRCITO?",
+   "titulo": "Talvez o seu exército se chame conta atrasada 🙏"
+  },
+  {
+   "cenas": [
+    20
+   ],
+   "texto_topo": "SÓ UM LUGAR FIRME",
+   "titulo": "Você não precisa de todas as respostas hoje 🙏"
+  },
+  {
+   "cenas": [
+    45
+   ],
+   "texto_topo": "ANSIEDADE PELO AMANHÃ?",
+   "titulo": "Deus já viu o seu amanhã. E não está preocupado 🙏"
+  },
+  {
+   "cenas": [
+    65
+   ],
+   "texto_topo": "AS CONTAS NA MESA",
+   "titulo": "Amanhã também vai ter o suficiente 🙏"
+  },
+  {
+   "cenas": [
+    71
+   ],
+   "texto_topo": "ESTÁ CHORANDO AGORA?",
+   "titulo": "Se você está chorando agora, não tenha vergonha 🙏"
+  },
+  {
+   "cenas": [
+    46
+   ],
+   "texto_topo": "ACORDOU DE MADRUGADA?",
+   "titulo": "Se você acordar de madrugada com o coração disparado 🙏"
+  }
  ]
 }
