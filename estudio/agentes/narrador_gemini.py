@@ -82,6 +82,11 @@ def sintetizar(texto: str, cfg: dict, destino_wav: Path) -> None:
                 _ffmpeg("-i", str(bruto), "-ac", "1", str(destino_wav))
             return
         ultimo = f"HTTP {r.status_code}: {r.text[:200]}"
+        if r.status_code == 429 and "per day" in r.text and novo:
+            # cota diária do modelo 3.x acabou: mesma voz no modelo 2.5 (cota separada) em vez de cair para o Edge
+            reserva = dict(cfg, modelo=os.getenv("GEMINI_TTS_RESERVA", "gemini-2.5-flash-preview-tts"))
+            print(f"[narrador] cota diária de {cfg['modelo']} esgotada → {reserva['modelo']} (mesma voz)", flush=True)
+            return sintetizar(texto, reserva, destino_wav)
         if r.status_code not in (429, 500, 503):
             break
     raise RuntimeError(f"Gemini TTS falhou ({ultimo})")
