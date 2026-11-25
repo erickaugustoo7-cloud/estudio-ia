@@ -1,0 +1,64 @@
+{
+  "titulo": "Uma estrela gigante engoliu outra estrela inteira",
+  "gancho_tela": "Uma estrela engoliu a outra",
+  "narracao": "Uma estrela gigante engoliu outra estrela inteira. Aconteceu na galáxia de Andrômeda, e o telescópio James Webb flagrou o que sobrou. Mas o mais estranho foi a pressa. A gigante tinha um raio trezentas e cinquenta vezes maior que o do Sol. No lugar do Sol, chegaria perto da órbita de Marte. E tinha cerca de sete vezes a massa dele. A companheira tinha uns setenta por cento da massa do Sol. Girava tão perto que começou a raspar na atmosfera da gigante. Os astrônomos achavam que uma fusão assim levava milhares de voltas. Essa levou cerca de sete voltas, uns sete anos. Em outubro de dois mil e vinte e cinco, veio a explosão de luz. Em uma semana, chegou ao pico. Um pesquisador comparou a uma bomba explodindo dentro de uma estrela viva. Quarenta e sete dias depois do pico, o Webb apontou para lá. Foi o acompanhamento mais rápido já feito de um caso assim. Ele viu a poeira que a gigante soltou por centenas de anos. E um detalhe de arrepiar. Andrômeda fica a cerca de dois milhões e meio de anos-luz. Então tudo isso aconteceu há milhões de anos. A luz só chegou agora. É o primeiro caso desse tipo já identificado. Você imaginava que uma estrela podia engolir outra? Siga para descobrir uma curiosidade nova todo dia.",
+  "cenas": [
+    {
+      "trecho": "Uma estrela gigante engoliu outra estrela inteira.",
+      "busca_imagem": "red supergiant star",
+      "prompt_imagem": "a huge glowing red supergiant star engulfing a smaller yellow star, streams of glowing gas, deep space"
+    },
+    {
+      "trecho": "Aconteceu na galáxia de Andrômeda, e o telescópio James Webb flagrou o que sobrou. Mas o mais estranho foi a pressa.",
+      "busca_imagem": "Andromeda galaxy M31",
+      "prompt_imagem": "the Andromeda spiral galaxy glowing in deep space, millions of stars, cinematic"
+    },
+    {
+      "trecho": "A gigante tinha um raio trezentas e cinquenta vezes maior que o do Sol. No lugar do Sol, chegaria perto da órbita de Marte. E tinha cerca de sete vezes a massa dele.",
+      "busca_imagem": "Betelgeuse size comparison",
+      "prompt_imagem": "size comparison of a gigantic red star next to our tiny yellow Sun and the orbits of the inner planets"
+    },
+    {
+      "trecho": "A companheira tinha uns setenta por cento da massa do Sol. Girava tão perto que começou a raspar na atmosfera da gigante.",
+      "busca_imagem": "binary star system illustration",
+      "prompt_imagem": "a small yellow star orbiting dangerously close to a giant red star, skimming its glowing outer atmosphere"
+    },
+    {
+      "trecho": "Os astrônomos achavam que uma fusão assim levava milhares de voltas. Essa levou cerca de sete voltas, uns sete anos.",
+      "busca_imagem": "stellar merger illustration",
+      "prompt_imagem": "two stars spiraling into each other inside a shared glowing envelope of gas, spiral trails"
+    },
+    {
+      "trecho": "Em outubro de dois mil e vinte e cinco, veio a explosão de luz. Em uma semana, chegou ao pico. Um pesquisador comparou a uma bomba explodindo dentro de uma estrela viva.",
+      "busca_imagem": "nova outburst star",
+      "prompt_imagem": "a sudden brilliant explosion of light bursting from inside a giant red star, shockwave of glowing gas"
+    },
+    {
+      "trecho": "Quarenta e sete dias depois do pico, o Webb apontou para lá. Foi o acompanhamento mais rápido já feito de um caso assim. Ele viu a poeira que a gigante soltou por centenas de anos.",
+      "busca_imagem": "James Webb Space Telescope",
+      "prompt_imagem": "the James Webb Space Telescope with golden mirrors floating in space, a glowing dusty red point of light in the distance"
+    },
+    {
+      "trecho": "E um detalhe de arrepiar. Andrômeda fica a cerca de dois milhões e meio de anos-luz. Então tudo isso aconteceu há milhões de anos. A luz só chegou agora.",
+      "busca_imagem": "Andromeda galaxy Milky Way",
+      "prompt_imagem": "view of the Andromeda galaxy rising above Earth's night sky, faint beam of ancient light crossing the darkness"
+    },
+    {
+      "trecho": "É o primeiro caso desse tipo já identificado. Você imaginava que uma estrela podia engolir outra? Siga para descobrir uma curiosidade nova todo dia.",
+      "busca_imagem": "infrared dust shell star",
+      "prompt_imagem": "a single glowing red star surrounded by a shell of dark dust in infrared colors, deep space"
+    }
+  ],
+  "legenda": "Uma estrela 350 vezes mais larga que o Sol engoliu a companheira em só ~7 anos, em Andrômeda — e o James Webb viu o que sobrou 47 dias depois. 🌌\nVocê imaginava isso? Comenta aqui 👇",
+  "hashtags": [
+    "#JamesWebb",
+    "#Andrômeda",
+    "#estrelas",
+    "#astronomia"
+  ],
+  "fontes": [
+    "NASA via ScienceDaily (21/11/2026) — A giant star swallowed another star. James Webb reveals the aftermath: AT 2025abao 'Bao', raio ~350x o do Sol, ~7 massas solares, companheira ~70% da massa do Sol, ~7 órbitas (~7 anos) contra milhares, erupção detectada em 17/10/2025 e pico em uma semana, Webb 47 dias após o pico (acompanhamento mais precoce), poeira expelida ao longo de centenas de anos, citação de Kishalay De ('bomba explodindo dentro de uma estrela viva'), 'primeiro do tipo identificado' — https://www.sciencedaily.com/releases/2026/11/261120075556.htm",
+    "Nature World News (20/11/2026) — Webb Watches a Giant Star Swallow Its Companion in the Andromeda Galaxy: Andrômeda a ~2,5 milhões de anos-luz; artigo na Nature (Karambelkar et al., 18/11/2026, DOI 10.1038/s41586-026-11221-z) — https://www.natureworldnews.com/articles/73964/20261120/webb-watches-giant-star-swallow-its-companion-andromeda-galaxy.htm",
+    "Cálculo: 350 raios solares × 696 mil km ≈ 244 milhões de km (~1,6 UA), perto da órbita de Marte (~228 milhões de km, 1,52 UA) — NASA Sun/Mars fact sheets"
+  ]
+}
