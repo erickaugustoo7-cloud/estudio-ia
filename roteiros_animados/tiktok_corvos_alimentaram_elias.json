@@ -1,0 +1,75 @@
+{
+  "titulo": "Por que Deus mandou corvos alimentar Elias?",
+  "gancho_tela": "Corvos levavam pão",
+  "referencia": "1 Reis 17:1-7",
+  "serie": "O que quase ninguém sabe",
+  "tipo": "tiktok",
+  "fonte_imagem": "kaggle",
+  "opcoes_imagem": 2,
+  "duracao_max": 40,
+  "volume_musica": 0.12,
+  "plataformas": [
+    "facebook"
+  ],
+  "estilo_imagem": "cinematic photorealistic epic film still, dramatic volumetric god rays, ancient Israel 9th century BC, rocky desert ravine, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic slow subtle motion.",
+  "epoca_imagem": "Ancient Israel, Iron Age, rocky ravine east of the Jordan, stone, clay and linen only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "Deus mandou corvos alimentarem um profeta. Duas vezes por dia.",
+      "prompt_imagem": "a black raven flying low through a rocky desert ravine carrying a piece of flat bread in its beak, morning god rays",
+      "vazia": false,
+      "animar": true,
+      "prompt_movimento": "the raven glides slowly through the ravine, wings beating gently, dust floating in the light"
+    },
+    {
+      "trecho": "Era seca. Elias se escondeu junto ao ribeiro de Querite.",
+      "prompt_imagem": "a thin stream of water running between dry rocks in a deep desert ravine, parched cracked land around, harsh light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E Deus disse: eu tenho ordenado aos corvos que ali te sustentem.",
+      "prompt_imagem": "several black ravens perched on a rocky cliff edge above a desert ravine at dawn, dramatic sky",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Os corvos traziam pão e carne pela manhã e à tarde.",
+      "prompt_imagem": "flat bread and a piece of meat resting on a flat stone beside a small stream, a black raven feather nearby, golden evening light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "O detalhe: pela Lei, o corvo era ave imunda.",
+      "prompt_imagem": "a single black raven standing on a weathered rock, close-up, strong side light, dark dramatic background",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Deus usou quem ninguém queria para cuidar de quem Ele ama.",
+      "prompt_imagem": "wide desert ravine at sunrise, warm god rays falling on a small stream, a raven flying far in the distance",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Siga o Mensageiro de Fé. Amanhã, os corvos voltam com o pão.",
+      "prompt_imagem": "a black raven flying high against a golden sunrise sky above rocky desert cliffs, wide shot",
+      "vazia": true,
+      "animar": false
+    }
+  ],
+  "legenda": "Deus mandou corvos, aves que a Lei chamava de imundas (Levítico 11:15), levar pão e carne a Elias de manhã e à tarde (1 Reis 17:4-6). Quem Deus já usou para cuidar de você quando você menos esperava? Comente 👇",
+  "hashtags": [
+    "#Bíblia",
+    "#Elias",
+    "#Fé",
+    "#OQueQuaseNinguémSabe",
+    "#Cristão"
+  ],
+  "fontes": [
+    "1 Reis 17:1-7 — Almeida (domínio público)",
+    "Levítico 11:13-15 — Almeida (domínio público)"
+  ]
+}
