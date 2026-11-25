@@ -148,6 +148,10 @@ def _rodar_modelscope(cenas: list, pasta: Path, etapa: str = "imagens") -> tuple
         w, h = (int(x) for x in c.get("resolucao", "768x1344").split("x"))
         corpo = {"model": os.getenv("MODELSCOPE_MODELO", "Tongyi-MAI/Z-Image-Turbo"), "prompt": c["prompt"][:2000],
                  "size": f"{w}x{h}", "seed": int(c.get("seed", 42)), "steps": c.get("passos", 9)}
+        if os.getenv("MODELSCOPE_LORA"):
+            corpo["loras"] = os.environ["MODELSCOPE_LORA"]
+            if os.getenv("MODELSCOPE_GATILHO") and not corpo["prompt"].startswith(os.environ["MODELSCOPE_GATILHO"]):
+                corpo["prompt"] = f"{os.environ['MODELSCOPE_GATILHO']}, {corpo['prompt']}"[:2000]
         for base in bases:
             try:
                 r = requests.post(f"{base}/v1/images/generations", headers={**H, "X-ModelScope-Async-Mode": "true"},
@@ -846,6 +850,9 @@ def main():
     caminho = Path(sys.argv[1])
     r = json.loads(caminho.read_text(encoding="utf-8"))
     canal = carregar_canal(r.get("canal", "biblico"))
+    if canal.get("lora_modelscope"):  # estilo próprio do canal treinado no Civision (25/11)
+        os.environ.setdefault("MODELSCOPE_LORA", canal["lora_modelscope"])
+        os.environ.setdefault("MODELSCOPE_GATILHO", canal.get("lora_gatilho", ""))
     canal_img = {**canal, "estilo_visual": r.get("estilo_imagem", ESTILO), "regra_visual_pessoas": REGRA,
                  "epoca_imagem": r.get("epoca_imagem", "")}
     if r.get("moderno"):  # novela cristã de hoje: rostos permitidos, personagens fixos, ambiente moderno

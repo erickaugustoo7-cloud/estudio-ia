@@ -85,3 +85,7 @@ musica_volume: 0.3          # trilha ~16 dB abaixo da voz (faixas normalizadas a
 publicar_em: [instagram, facebook, youtube]   # youtube só publica com os segredos YT_* configurados
 secret_token_meta: META_TOKEN_BIBLICO
 secret_token_instagram: IG_TOKEN_BIBLICO   # reserva (chave antiga só do Instagram)
+
+# Estilo próprio treinado no Civision (25/11) — usado nas imagens do ModelScope (capas e reserva)
+lora_modelscope: EricIA/mensageiro-estilo
+lora_gatilho: mensageiro_fe

@@ -40,3 +40,7 @@ cta_isca: "▶ DOCUMENTÁRIO COMPLETO NO VÍDEO ABAIXO"
 # textos da descrição do YouTube (nunca herdar os do Mensageiro — o Eric viu "oração" na descrição do doc, 24/11)
 cta_descricao: "🔔 Inscreva-se no Antes de Nós e ative o sininho: documentários sobre o mundo antes de nós — pré-história, primeiras civilizações e os mistérios da história humana."
 legenda_isca: "{titulo}. O documentário completo está no vídeo relacionado. Inscreva-se no Antes de Nós para não perder os próximos."
+
+# Estilo próprio treinado no Civision (25/11) — usado nas imagens do ModelScope (cenas dos docs e capas)
+lora_modelscope: EricIA/antes-de-nos-estilo
+lora_gatilho: antesdenos_doc
