@@ -1,0 +1,879 @@
+{
+ "formato": "horizontal",
+ "duracao_max": 999,
+ "volume_musica": 0.0,
+ "opcoes_imagem": 1,
+ "palavras_por_bloco": 600,
+ "plataformas": [
+  "youtube"
+ ],
+ "estilo_imagem": "breathtaking real-world nature landscape photography, peaceful and serene, soft natural light, rich colors, ultra detailed, horizontal 16:9 widescreen, no people, no text",
+ "prefixo_imagem": "beautiful peaceful nature landscape photo:",
+ "prefixo_video": "Peaceful nature shot, very slow and gentle motion.",
+ "epoca_imagem": "real natural landscapes of today (sea, forest, waterfalls, mountains, lakes, sky); no people, no buildings, no text",
+ "fonte_imagem": "cloudflare",
+ "estilo_voz": "emocionado e íntimo, como quem ora de verdade por alguém que sofre; voz baixa, pausada, com ternura",
+ "tipo": "oracao",
+ "fundo_video": "pixabay",
+ "titulo": "Oração para dormir: se o Senhor não edificar a casa (Salmo 127) — pela família, casamento e filhos",
+ "titulo_youtube": "Senhor, Edifica a Minha Casa Esta Noite | Oração Para Dormir Salmo 127",
+ "gancho_tela": "Sem Deus, a casa é em vão",
+ "referencia": "Salmo 127; 2 Samuel 7 e 12:24-25",
+ "cena_capa": 89,
+ "texto_capa": [
+  "NÃO CARREGUE",
+  "*SOZINHA",
+  "SUA CASA"
+ ],
+ "selo_capa": "Oração da noite",
+ "capa_prompt": "a tired Brazilian mother in her forties praying with closed eyes at a kitchen table at night, hands resting on an open Bible, a single warm lamp, quiet house, soft tears of relief, cinematic photo",
+ "legenda": "\"Se o Senhor não edificar a casa, em vão trabalham os que edificam\" (Salmo 127:1). Salomão, o homem que construiu o templo, escreveu este salmo — e no versículo 2 deixou uma palavra que era o nome que o próprio Deus deu a ele quando nasceu. Nesta oração para dormir você ouve a história do Salmo 127 e depois ora comigo pela sua casa, pelo casamento, pelos filhos, pelo sustento e pela mente que não desliga. 🙏\n\n\"…pois assim dá ele aos seus amados o sono.\" (Salmo 127:2)\n\nEscreva nos comentários \"Amém\" e o nome de quem mora na sua casa — eu vou orar por cada pedido. Se esta oração te ajudou, inscreva-se no canal para orarmos juntos toda noite.",
+ "hashtags": [
+  "#Salmo127",
+  "#OraçãoParaDormir",
+  "#OraçãoPelaFamília",
+  "#OraçãoPeloCasamento",
+  "#Fé"
+ ],
+ "fontes": [
+  "Salmo 127:1-5 — Almeida Revista e Corrigida (texto conferido em bibliaonline.com.br/arc/sl/127)",
+  "2 Samuel 12:24-25 — Salomão chamado Jedidias por Natã (conferido em bibliaonline.com.br, NAA)",
+  "2 Samuel 7:1-16 — Davi quer construir a casa de Deus; Deus promete fazer casa para Davi (paráfrase)",
+  "1 Reis 6:7, 6:38 e 7:1 — pedras preparadas na pedreira, templo em sete anos, palácio em treze anos (paráfrase)",
+  "Iedidô (v. 2) e Jedidias: D. Guzik, Enduring Word, Salmo 127, citando Trapp e J. M. Boice",
+  "Josué 24:15; Salmo 121:4; Salmo 4:8; Deuteronômio 33:12; Mateus 11:28; Mateus 7:24-25 — Almeida"
+ ],
+ "ponte_short": null,
+ "short_isca": {
+  "cenas": [
+   89
+  ],
+  "texto_topo": "PARA QUEM CARREGA TUDO",
+  "titulo": "Se você está carregando a sua casa nas costas, ouça isto 🙏",
+  "hashtags": [
+   "salmo127",
+   "oracao",
+   "familia"
+  ]
+ },
+ "capitulos": [
+  {
+   "cena": 0,
+   "titulo": "O salmo do homem que construiu o templo"
+  },
+  {
+   "cena": 5,
+   "titulo": "Davi, Natã e a casa de Deus"
+  },
+  {
+   "cena": 12,
+   "titulo": "O Salmo 127 e a sentinela"
+  },
+  {
+   "cena": 25,
+   "titulo": "Oração: do jeito que eu estou"
+  },
+  {
+   "cena": 31,
+   "titulo": "Pela casa e pelo casamento"
+  },
+  {
+   "cena": 40,
+   "titulo": "Pelos filhos"
+  },
+  {
+   "cena": 50,
+   "titulo": "Pelas contas e pelo trabalho"
+  },
+  {
+   "cena": 58,
+   "titulo": "Pela mente que não desliga"
+  },
+  {
+   "cena": 70,
+   "titulo": "Perdão dentro de casa"
+  },
+  {
+   "cena": 80,
+   "titulo": "O nome que Deus deu a Salomão"
+  },
+  {
+   "cena": 90,
+   "titulo": "Promessas para a noite"
+  },
+  {
+   "cena": 100,
+   "titulo": "Salmo 127 lido devagar e bênção"
+  }
+ ],
+ "revelacao": {
+  "promessa_cena": 2,
+  "entrega_cena": 80,
+  "o_que": "a palavra 'amados' do v. 2 (iedidô, 'o seu amado') tem a mesma raiz de Jedidias, 'amado do Senhor', o nome que Deus deu a Salomão por meio de Natã ao nascer (2 Samuel 12:24-25)"
+ },
+ "cenas": [
+  {
+   "trecho": "Salomão ergueu o templo de Deus. E depois escreveu: sem Deus, a casa é em vão.",
+   "prompt_imagem": "a calm ocean at sunset with gentle waves on a quiet sandy beach",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+  },
+  {
+   "trecho": "Ele sabia o que estava dizendo. Passou anos com pedra, madeira e ouro nas mãos. E mesmo assim deixou para você um aviso: quem edifica a casa é o Senhor.",
+   "prompt_imagem": "a field of wildflowers swaying under a soft golden evening sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+  },
+  {
+   "trecho": "Mas tem mais. No versículo dois deste salmo existe uma palavra que era o nome que Deus deu ao próprio Salomão quando ele era um bebê. No final desta oração, eu vou te mostrar qual é… e por que ela também fala de você.",
+   "prompt_imagem": "autumn forest with orange leaves and a calm river",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+  },
+  {
+   "trecho": "Se hoje você deitou com a sua casa pesando no peito, fica comigo. O casamento que esfriou. O filho que não conversa mais. A conta que não fecha. O cansaço de segurar tudo sozinho.",
+   "prompt_imagem": "a starry night sky over calm mountains with the milky way glowing",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+  },
+  {
+   "trecho": "Primeiro eu vou te contar a história desse salmo. Depois, vamos orar juntos pela sua casa, pela sua família e pelo seu sono. Fique confortável. Respire fundo… e venha comigo.",
+   "prompt_imagem": "golden wheat fields under a warm sunset sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+  },
+  {
+   "trecho": "Tudo começa com o pai de Salomão, o rei Davi. Davi morava num palácio de cedro, e a arca de Deus ainda ficava numa tenda.",
+   "prompt_imagem": "rain falling softly on green leaves in a forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Isso incomodava Davi. Ele disse ao profeta Natã: eu moro em casa de cedro, e a arca de Deus mora entre cortinas. Eu quero construir uma casa para o Senhor.",
+   "prompt_imagem": "a beach under a full moon with silver light on the waves",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "E naquela mesma noite, Deus mandou uma resposta que ninguém esperava. Está em segundo Samuel, capítulo sete.",
+   "prompt_imagem": "tropical turquoise sea with calm waves and palm trees at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Deus disse, em outras palavras: Davi, não é você que vai fazer uma casa para mim. Sou Eu que vou fazer uma casa para você. Uma família, uma descendência, um reino.",
+   "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Repare na ordem. O homem queria construir para Deus. Mas Deus disse: primeiro, deixa que Eu construo você.",
+   "prompt_imagem": "a small stream with smooth stones running through a mossy forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Quem construiu o templo foi o filho, Salomão. A Bíblia conta que a obra durou sete anos. Pedras cortadas longe, para que não se ouvisse martelo dentro da casa de Deus.",
+   "prompt_imagem": "a valley of lavender fields at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "E depois Salomão levou treze anos construindo o próprio palácio. Vinte anos da vida dele em obras. Ninguém em Israel entendia mais de construir do que ele.",
+   "prompt_imagem": "a gentle river flowing through a green valley at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "E é exatamente esse homem que escreve o Salmo cento e vinte e sete. O título diz: Cântico dos degraus, de Salomão.",
+   "prompt_imagem": "a quiet lake at twilight with mist on the water",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Salomão tinha tudo o que um homem podia querer: sabedoria, riqueza, um reino em paz. Muros altos, palácio de cedro, carros e cavalos. E mesmo assim, foi ele quem escreveu que nada disso segura uma casa sem Deus.",
+   "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Os cânticos dos degraus eram cantados pelos peregrinos subindo para Jerusalém. Famílias inteiras na estrada, pais, mães e crianças, cantando enquanto subiam o monte.",
+   "prompt_imagem": "northern lights dancing over a calm snowy landscape",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Imagine uma mãe cansada da viagem, com o filho no colo, cantando baixinho: Se o Senhor não edificar a casa, em vão trabalham os que edificam.",
+   "prompt_imagem": "snow falling gently on a silent pine forest at night",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "E a frase continua: se o Senhor não guardar a cidade, em vão vigia a sentinela. Naquele tempo, a sentinela passava a noite em cima do muro, olhando o escuro, sem poder dormir.",
+   "prompt_imagem": "a crystal clear mountain lake reflecting snowy peaks at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Era um trabalho solitário. Frio, sono, olhos ardendo. Se a sentinela cochilasse, a cidade podia ser atacada. Então ela não se permitia descansar. Nem um minuto.",
+   "prompt_imagem": "soft clouds drifting over green rolling hills at dawn",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Talvez você seja essa sentinela. A última a dormir e a primeira a acordar. Vigiando a porta, o celular, a respiração do filho, o dinheiro do mês.",
+   "prompt_imagem": "a calm ocean at sunset with gentle waves on a quiet sandy beach",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "E o salmo continua com o versículo dois: Inútil vos será levantar de madrugada, repousar tarde, comer o pão de dores, pois assim dá ele aos seus amados o sono.",
+   "prompt_imagem": "a field of wildflowers swaying under a soft golden evening sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias: intimidade, tensão crescente, voz que prende"
+  },
+  {
+   "trecho": "Se este salmo já está falando com você, inscreva-se no canal e ative o sininho, para orarmos juntos todas as noites. Agora vamos entender o que ele está dizendo.",
+   "prompt_imagem": "autumn forest with orange leaves and a calm river",
+   "vazia": true,
+   "animar": false,
+   "emocao": "encorajamento caloroso, como um amigo"
+  },
+  {
+   "trecho": "Pão de dores é o pão comido com ansiedade. Aquela comida engolida em pé, pensando na próxima conta, no próximo problema, na próxima briga.",
+   "prompt_imagem": "a starry night sky over calm mountains with the milky way glowing",
+   "vazia": true,
+   "animar": false,
+   "emocao": "encorajamento caloroso, como um amigo"
+  },
+  {
+   "trecho": "Salomão não está dizendo que trabalhar é errado. Está dizendo que trabalhar sem Deus é carregar sozinho um peso que nunca foi seu.",
+   "prompt_imagem": "golden wheat fields under a warm sunset sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "encorajamento caloroso, como um amigo"
+  },
+  {
+   "trecho": "A sua casa não se sustenta porque você não dorme. Ela se sustenta porque Deus não dorme.",
+   "prompt_imagem": "rain falling softly on green leaves in a forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "encorajamento caloroso, como um amigo"
+  },
+  {
+   "trecho": "E guarda a palavra que eu te mostrei agora: amados. Assim dá ele aos seus amados o sono. É dentro dessa palavra que está o nome que Deus deu a Salomão. Já vamos chegar lá.",
+   "prompt_imagem": "a beach under a full moon with silver light on the waves",
+   "vazia": true,
+   "animar": false,
+   "emocao": "encorajamento caloroso, como um amigo"
+  },
+  {
+   "trecho": "Agora vamos orar. Feche os olhos. Coloque a mão no peito. Respire fundo… solte devagar. E repita comigo, no seu coração.",
+   "prompt_imagem": "tropical turquoise sea with calm waves and palm trees at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Senhor, eu não vou fingir que está tudo bem. A minha casa está pesada. E eu estou cansado de segurar as paredes sozinho.",
+   "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Eu tentei consertar tudo com as minhas mãos. Trabalhei, me preocupei, perdi o sono. E mesmo assim, muita coisa continua rachada.",
+   "prompt_imagem": "a small stream with smooth stones running through a mossy forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Então hoje eu faço o que Salomão escreveu. Eu Te entrego a obra. Edifica Tu a minha casa, Senhor. Porque sem Ti, eu estou trabalhando em vão.",
+   "prompt_imagem": "a valley of lavender fields at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Tira de mim a ideia de que tudo depende de mim. Eu sou só a sentinela cansada. O guarda verdadeiro és Tu.",
+   "prompt_imagem": "a gentle river flowing through a green valley at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E se você está orando junto agora, respire mais uma vez. Já já vamos orar pelo seu casamento… e depois eu te conto o nome que Deus colocou naquela palavra do versículo dois.",
+   "prompt_imagem": "a quiet lake at twilight with mist on the water",
+   "vazia": true,
+   "animar": false,
+   "emocao": "encorajamento caloroso, como um amigo"
+  },
+  {
+   "trecho": "Senhor, eu Te apresento o meu casamento. Ou a falta dele. Ou o que sobrou depois de tanta coisa.",
+   "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Tu conheces as palavras duras que foram ditas nesta casa. E também as que nunca foram ditas, e ficaram engasgadas.",
+   "prompt_imagem": "northern lights dancing over a calm snowy landscape",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Onde há frieza, coloca calor. Onde há silêncio de mágoa, coloca conversa. Onde há orgulho, me dá coragem de ser o primeiro a pedir perdão.",
+   "prompt_imagem": "snow falling gently on a silent pine forest at night",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Se o meu cônjuge está longe de Ti, Senhor, eu não vou tentar mudar ele com a minha força. Eu entrego nas Tuas mãos. Tu sabes alcançar um coração.",
+   "prompt_imagem": "a crystal clear mountain lake reflecting snowy peaks at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E se eu estou sozinho, se a casa ficou vazia, se o casamento acabou… edifica a minha casa assim mesmo. Uma casa com um só morador também pode ser casa de Deus.",
+   "prompt_imagem": "soft clouds drifting over green rolling hills at dawn",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Josué disse diante de todo o povo: eu e a minha casa serviremos ao Senhor. Eu quero dizer isso hoje, mesmo com a voz fraca.",
+   "prompt_imagem": "a calm ocean at sunset with gentle waves on a quiet sandy beach",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Eu e a minha casa serviremos ao Senhor. Com as nossas falhas, com as nossas brigas, com os nossos recomeços.",
+   "prompt_imagem": "a field of wildflowers swaying under a soft golden evening sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Guarda a nossa porta esta noite. Que nada entre nesta casa que não venha de Ti.",
+   "prompt_imagem": "autumn forest with orange leaves and a calm river",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E fica comigo. O próximo versículo do salmo fala dos filhos. E o que ele diz sobre eles pode mudar a forma como você vai dormir hoje.",
+   "prompt_imagem": "a starry night sky over calm mountains with the milky way glowing",
+   "vazia": true,
+   "animar": false,
+   "emocao": "encorajamento caloroso, como um amigo"
+  },
+  {
+   "trecho": "Eis que os filhos são herança do Senhor, e o fruto do ventre, o seu galardão. Herança não é peso. Herança é presente que alguém deixa nas suas mãos.",
+   "prompt_imagem": "golden wheat fields under a warm sunset sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Senhor, eu Te agradeço pelos meus filhos. Até nos dias em que eles me cansam. Até nos dias em que eu não sei mais o que fazer com eles.",
+   "prompt_imagem": "rain falling softly on green leaves in a forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Tu me emprestaste essas vidas. Elas são Tuas antes de serem minhas. Então eu Te devolvo cada uma delas esta noite.",
+   "prompt_imagem": "a beach under a full moon with silver light on the waves",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Pelo filho que está perto, eu peço: guarda o coração dele. Pelo filho que está longe, eu peço: vai aonde eu não posso ir.",
+   "prompt_imagem": "tropical turquoise sea with calm waves and palm trees at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Pelo filho que se afastou de Ti, pelo que está calado no quarto, pelo que anda com quem não devia… Senhor, eu não desisto dele. Porque Tu não desististe de mim.",
+   "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "O salmo diz: como flechas na mão do valente, assim são os filhos da mocidade. Uma flecha não fica guardada para sempre. Ela é preparada… e um dia é lançada.",
+   "prompt_imagem": "a small stream with smooth stones running through a mossy forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Então me ensina a preparar os meus filhos e depois a soltar. Que eles vão longe, mas na direção certa. Na Tua direção.",
+   "prompt_imagem": "a valley of lavender fields at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E se você ainda espera um filho, se o ventre está vazio, se a espera dói… Senhor, Tu vês essa lágrima. Consola esse coração esta noite.",
+   "prompt_imagem": "a gentle river flowing through a green valley at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E se você é avó, tia, madrinha, quem cria o filho de outra pessoa como se fosse seu… essa herança também é sua. Deus vê o seu amor.",
+   "prompt_imagem": "a quiet lake at twilight with mist on the water",
+   "vazia": true,
+   "animar": false,
+   "emocao": "encorajamento caloroso, como um amigo"
+  },
+  {
+   "trecho": "Respire. Solte os seus filhos nas mãos de Deus. E fica comigo, porque agora vamos orar por aquilo que mais tira o seu sono: o sustento da casa.",
+   "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist",
+   "vazia": true,
+   "animar": false,
+   "emocao": "encorajamento caloroso, como um amigo"
+  },
+  {
+   "trecho": "Senhor, Tu conheces as contas em cima da mesa. Os números que não fecham. O medo do fim do mês.",
+   "prompt_imagem": "northern lights dancing over a calm snowy landscape",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Eu tenho levantado de madrugada e deitado tarde, como diz o salmo. E tenho comido o pão de dores, Senhor. Pão com ansiedade.",
+   "prompt_imagem": "snow falling gently on a silent pine forest at night",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Hoje eu Te peço: abençoa o trabalho das minhas mãos. Abre uma porta de emprego para quem está desempregado nesta casa.",
+   "prompt_imagem": "a crystal clear mountain lake reflecting snowy peaks at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Dá sabedoria para cada decisão. Livra a minha família das dívidas que nos prendem. E me ensina a viver com o que Tu me dás.",
+   "prompt_imagem": "soft clouds drifting over green rolling hills at dawn",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Mas, acima de tudo, tira o pão de dores da minha mesa. Que eu volte a comer em paz. Que o meu trabalho não seja mais medo, e sim confiança.",
+   "prompt_imagem": "a calm ocean at sunset with gentle waves on a quiet sandy beach",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Se o Senhor não edificar, em vão trabalham os que edificam. Então edifica Tu, Senhor, o meu sustento. Eu faço a minha parte… e descanso na Tua.",
+   "prompt_imagem": "a field of wildflowers swaying under a soft golden evening sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Se você está desempregado, ou endividado, ou trabalhando até a exaustão, ouça: Deus não te mede pelo seu salário. Você é amado do mesmo jeito.",
+   "prompt_imagem": "autumn forest with orange leaves and a calm river",
+   "vazia": true,
+   "animar": false,
+   "emocao": "encorajamento caloroso, como um amigo"
+  },
+  {
+   "trecho": "E esta palavra, amado, é a chave do salmo. Daqui a pouco, quando eu te contar o nome que Deus deu a Salomão, você vai entender por quê.",
+   "prompt_imagem": "a starry night sky over calm mountains with the milky way glowing",
+   "vazia": true,
+   "animar": false,
+   "emocao": "encorajamento caloroso, como um amigo"
+  },
+  {
+   "trecho": "Agora vamos orar pela mente que não desliga. Aquela que vigia a noite inteira, como a sentinela no muro.",
+   "prompt_imagem": "golden wheat fields under a warm sunset sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Senhor, a minha cabeça está cheia. Pensamentos que voltam, conversas que eu repito, problemas que eu tento resolver deitado.",
+   "prompt_imagem": "rain falling softly on green leaves in a forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Eu desço do muro agora, Senhor. Eu entrego o posto de vigia para Ti. Tu não dormes. Tu não cochilas. Então eu posso dormir.",
+   "prompt_imagem": "a beach under a full moon with silver light on the waves",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "O Salmo cento e vinte e um diz: não dormitará nem dormirá o guarda de Israel. Se Ele está acordado, você não precisa ficar.",
+   "prompt_imagem": "tropical turquoise sea with calm waves and palm trees at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Desliga, coração. Uma preocupação por vez… coloque cada uma nas mãos de Deus. A conta. A notícia. A pessoa. O medo de amanhã.",
+   "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Respire fundo… segure um pouco… e solte. A sentinela pode descansar. Quem guarda a sua cidade esta noite é o Senhor.",
+   "prompt_imagem": "a small stream with smooth stones running through a mossy forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Agora vamos orar pela saúde de quem mora na sua casa. Talvez exista um exame esperando resultado, uma dor que não passa, um remédio na cabeceira.",
+   "prompt_imagem": "a valley of lavender fields at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Senhor, eu Te apresento o corpo cansado de quem eu amo. O meu também. Tu conheces cada célula, cada órgão, cada noite mal dormida.",
+   "prompt_imagem": "a gentle river flowing through a green valley at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Toca onde dói. Dá sabedoria aos médicos. Dá força para quem cuida de um doente em casa, e às vezes chora escondido no banheiro para ninguém ver.",
+   "prompt_imagem": "a quiet lake at twilight with mist on the water",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E se a cura não vier do jeito que eu quero, Senhor, não me deixa perder a fé. Fica dentro desta casa, no quarto do hospital, na fila do posto de saúde. Fica com a gente.",
+   "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Se você está cuidando de alguém doente esta noite, ouça: o seu cuidado é visto por Deus. Você também pode descansar um pouco. Ele vigia junto com você.",
+   "prompt_imagem": "northern lights dancing over a calm snowy landscape",
+   "vazia": true,
+   "animar": false,
+   "emocao": "encorajamento caloroso, como um amigo"
+  },
+  {
+   "trecho": "Respire… e fica comigo. Antes do nome que eu te prometi, ainda tem uma coisa que pesa em muitas casas e precisa ser entregue.",
+   "prompt_imagem": "snow falling gently on a silent pine forest at night",
+   "vazia": true,
+   "animar": false,
+   "emocao": "encorajamento caloroso, como um amigo"
+  },
+  {
+   "trecho": "Antes de dormir, tem mais uma coisa que pesa nas casas: a mágoa. Vamos entregar isso também.",
+   "prompt_imagem": "a crystal clear mountain lake reflecting snowy peaks at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Senhor, tem gente dentro da minha própria casa que me feriu. E eu também feri pessoas que eu amo.",
+   "prompt_imagem": "soft clouds drifting over green rolling hills at dawn",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Eu escolho perdoar. Não porque a dor sumiu, mas porque eu não quero mais carregar essa pedra. Tira ela do meu peito.",
+   "prompt_imagem": "a calm ocean at sunset with gentle waves on a quiet sandy beach",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E me perdoa também, Senhor. Pelas palavras ásperas, pela paciência que acabou, pelas vezes em que eu fui duro com quem mais precisava de carinho.",
+   "prompt_imagem": "a field of wildflowers swaying under a soft golden evening sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E me ensina a me perdoar. Eu não sou o pai perfeito, a mãe perfeita, o filho perfeito. Mas sou Teu. E isso basta para começar de novo amanhã.",
+   "prompt_imagem": "autumn forest with orange leaves and a calm river",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Fica comigo mais um pouco. Agora sim chegou a hora do nome que eu te prometi no começo.",
+   "prompt_imagem": "a starry night sky over calm mountains with the milky way glowing",
+   "vazia": true,
+   "animar": false,
+   "emocao": "encorajamento caloroso, como um amigo"
+  },
+  {
+   "trecho": "Mas antes, se você tem um pedido pela sua casa, escreva nos comentários. O nome do seu filho, do seu marido, da sua esposa, da sua família. Eu vou orar por ele.",
+   "prompt_imagem": "golden wheat fields under a warm sunset sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "encorajamento caloroso, como um amigo"
+  },
+  {
+   "trecho": "Senhor, eu Te apresento cada pedido que vai ser escrito aqui. Cada casa, cada nome, cada lágrima. Tu conheces todos.",
+   "prompt_imagem": "rain falling softly on green leaves in a forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E se alguém está ouvindo esta oração longe de Ti, cansado de tentar construir a vida sem Deus… Senhor, chama essa pessoa de volta para casa esta noite.",
+   "prompt_imagem": "a beach under a full moon with silver light on the waves",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Você não precisa estar com a casa em ordem para voltar para Deus. Ele é quem coloca a casa em ordem.",
+   "prompt_imagem": "tropical turquoise sea with calm waves and palm trees at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "encorajamento caloroso, como um amigo"
+  },
+  {
+   "trecho": "Agora, a palavra do versículo dois. Assim dá ele aos seus amados o sono.",
+   "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "No hebraico, a palavra amados é uma só: iedidô. O seu amado. Ela vem da mesma raiz de um nome que você conhece pouco.",
+   "prompt_imagem": "a small stream with smooth stones running through a mossy forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "Quando Salomão nasceu, a Bíblia diz que o Senhor o amou. E Deus mandou o profeta Natã até a casa de Davi.",
+   "prompt_imagem": "a valley of lavender fields at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "E Natã deu ao menino um segundo nome: Jedidias. Está em segundo Samuel, capítulo doze. Jedidias quer dizer: amado do Senhor.",
+   "prompt_imagem": "a gentle river flowing through a green valley at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "Você entende? O homem que escreveu: Deus dá o sono aos seus amados… tinha recebido, ainda bebê, o nome de amado de Deus. Muitos estudiosos veem aqui a assinatura de Salomão.",
+   "prompt_imagem": "a quiet lake at twilight with mist on the water",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "E repare de onde veio esse bebê. Salomão nasceu depois da maior queda de Davi, depois de um luto terrível naquela casa. No meio dos escombros de uma família, Deus disse: este menino é meu amado.",
+   "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "É isso que Deus faz. Ele não espera a sua casa ficar perfeita para te chamar de amado. Ele começa a edificar justamente no lugar que caiu.",
+   "prompt_imagem": "northern lights dancing over a calm snowy landscape",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "E o presente que Ele dá aos amados não é mais trabalho, nem mais preocupação. É sono. Descanso. A noite em paz enquanto Ele trabalha.",
+   "prompt_imagem": "snow falling gently on a silent pine forest at night",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "Então esta noite, ouça o seu nome novo. Você não é só a sentinela cansada. Você é amado do Senhor. E aos amados, Ele dá o sono.",
+   "prompt_imagem": "a crystal clear mountain lake reflecting snowy peaks at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "Se você está carregando a sua casa nas costas, ouça isto: você não precisa vigiar a noite inteira. Deus dá aos seus amados o sono. E você é amado. Pode descansar.",
+   "prompt_imagem": "soft clouds drifting over green rolling hills at dawn",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "Agora, algumas promessas da Palavra para você levar para o travesseiro esta noite. Ouça devagar, sem pressa.",
+   "prompt_imagem": "a calm ocean at sunset with gentle waves on a quiet sandy beach",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Em paz também me deitarei e dormirei, porque só tu, Senhor, me fazes habitar em segurança. Salmo quatro, versículo oito.",
+   "prompt_imagem": "a field of wildflowers swaying under a soft golden evening sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "O amado do Senhor habitará seguro com ele. Deuteronômio trinta e três. Amado… outra vez a mesma palavra.",
+   "prompt_imagem": "autumn forest with orange leaves and a calm river",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Vinde a mim, todos os que estais cansados e oprimidos, e eu vos aliviarei. Palavras de Jesus, em Mateus onze.",
+   "prompt_imagem": "a starry night sky over calm mountains with the milky way glowing",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "E Jesus também disse: quem ouve as minhas palavras e as pratica é como o homem prudente que edificou a sua casa sobre a rocha. Veio a chuva, vieram os ventos… e a casa não caiu.",
+   "prompt_imagem": "golden wheat fields under a warm sunset sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Deixe essas palavras ficarem na sua casa esta noite. Respire fundo… e solte devagar.",
+   "prompt_imagem": "rain falling softly on green leaves in a forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Agora, um momento de silêncio com Deus. Solte os ombros. Solte o rosto. Deixe as mãos pesadas em cima da cama.",
+   "prompt_imagem": "a beach under a full moon with silver light on the waves",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Inspire devagar, contando até quatro… segure… e solte bem devagar. Mais uma vez. Inspire… e solte. A casa está nas mãos de Deus.",
+   "prompt_imagem": "tropical turquoise sea with calm waves and palm trees at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Pense em cada cômodo da sua casa. A cozinha, a sala, o quarto dos filhos. E diga em silêncio: Senhor, este lugar é Teu. Guarda este lugar.",
+   "prompt_imagem": "a misty pine forest at dawn with golden light between the trees",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Você não precisa resolver mais nada hoje. O que não foi feito, Deus sabe. O que deu errado, Deus vê. Amanhã as misericórdias dEle serão novas outra vez.",
+   "prompt_imagem": "a small stream with smooth stones running through a mossy forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Agora eu vou ler o salmo inteiro, bem devagar. Só ouça. Deixe cada frase cair no seu coração.",
+   "prompt_imagem": "a valley of lavender fields at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Se o Senhor não edificar a casa, em vão trabalham os que edificam; se o Senhor não guardar a cidade, em vão vigia a sentinela.",
+   "prompt_imagem": "a gentle river flowing through a green valley at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Inútil vos será levantar de madrugada, repousar tarde, comer o pão de dores, pois assim dá ele aos seus amados o sono.",
+   "prompt_imagem": "a quiet lake at twilight with mist on the water",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Eis que os filhos são herança do Senhor, e o fruto do ventre, o seu galardão. Como flechas na mão do valente, assim são os filhos da mocidade.",
+   "prompt_imagem": "a tall waterfall in a lush green rainforest with soft mist",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Bem-aventurado o homem que enche deles a sua aljava; não serão confundidos, quando falarem com os seus inimigos à porta.",
+   "prompt_imagem": "northern lights dancing over a calm snowy landscape",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "E por quem está ouvindo isto sozinho, numa casa silenciosa, sentindo que ninguém se importa… Senhor, seja Tu a companhia dessa pessoa esta noite. Que ela sinta que não está só.",
+   "prompt_imagem": "snow falling gently on a silent pine forest at night",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Obrigado, Senhor, pela minha casa, do jeito que ela está. Pelas pessoas que dormem debaixo deste teto. E por me chamar de amado. Edifica Tu o que eu não consigo.",
+   "prompt_imagem": "a crystal clear mountain lake reflecting snowy peaks at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Se esta oração te ajudou, inscreva-se no canal para orarmos juntos toda noite. E mande este vídeo para alguém que está segurando a casa sozinho.",
+   "prompt_imagem": "soft clouds drifting over green rolling hills at dawn",
+   "vazia": true,
+   "animar": false,
+   "emocao": "paz e bênção, voz suave de despedida"
+  },
+  {
+   "trecho": "Que o Senhor edifique a sua casa, guarde a sua porta e cuide dos seus filhos. Durma em paz, amado do Senhor. Em nome de Jesus… amém.",
+   "prompt_imagem": "a calm ocean at sunset with gentle waves on a quiet sandy beach",
+   "vazia": true,
+   "animar": false,
+   "emocao": "paz e bênção, voz suave de despedida"
+  }
+ ]
+}
