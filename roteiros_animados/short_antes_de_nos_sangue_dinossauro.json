@@ -1,0 +1,111 @@
+{
+  "canal": "antes_de_nos",
+  "titulo": "Acharam vestígios de sangue de dinossauro no Brasil",
+  "gancho_tela": "VESTÍGIOS DE SANGUE DE DINOSSAURO NO BRASIL",
+  "referencia": "Short: possíveis glóbulos vermelhos e heme no Aratasaurus museunacionali, 115 milhões de anos, Ceará (PNAS, nov/2026) — CTA para o doc ep.3 (animais gigantes)",
+  "duracao_max": 60,
+  "volume_musica": 0.1,
+  "plataformas": [
+    "youtube"
+  ],
+  "fonte_imagem": "modelscope",
+  "fundo_video": "pixabay",
+  "opcoes_imagem": 1,
+  "estilo_imagem": "photorealistic documentary photo, National Geographic style, natural light, ultra detailed, vertical 9:16, no text",
+  "prefixo_imagem": "documentary photo:",
+  "epoca_imagem": "wild Early Cretaceous northeastern Brazil, 115 million years ago: shallow lagoons, dry forest, rock and fossils; nothing modern, no people, no text, no watermark",
+  "cenas": [
+    {
+      "trecho": "Acharam vestígios de sangue de dinossauro no Brasil.",
+      "prompt_imagem": "extinct theropod dinosaur Aratasaurus, slender two-legged carnivorous dinosaur, long stiff tail, narrow head with sharp teeth, three-clawed hands, scaly brown and grey skin, close up, roaring at the edge of a shallow lagoon, dramatic morning light",
+      "vazia": false,
+      "reconstituicao": true,
+      "animar": false
+    },
+    {
+      "trecho": "Era o Aratassauro, um carnívoro de três metros que viveu no Ceará há 115 milhões de anos.",
+      "prompt_imagem": "extinct theropod dinosaur Aratasaurus, slender two-legged carnivorous dinosaur, long stiff tail, narrow head with sharp teeth, three-clawed hands, scaly brown and grey skin, walking along a muddy shallow lagoon shore in a dry Cretaceous forest, full body",
+      "vazia": false,
+      "reconstituicao": true,
+      "animar": false
+    },
+    {
+      "trecho": "Os ossos da pata dele foram achados em 2008, numa mina de Santana do Cariri.",
+      "prompt_imagem": "fossilized dinosaur leg bone lying on pale layered limestone rock, macro photo, dramatic side light",
+      "acervo": "dinosaur bone",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Dentro desses ossos havia bolinhas microscópicas, do tamanho de glóbulos vermelhos.",
+      "prompt_imagem": "microscope image of tiny dark reddish oval cells packed inside a narrow channel in fossil bone, scientific micrograph, high magnification",
+      "vazia": true,
+      "reconstituicao": true,
+      "animar": false
+    },
+    {
+      "trecho": "E nelas acharam o heme, a parte do sangue que carrega o ferro.",
+      "prompt_imagem": "macro photo of dark red iron-rich mineral crystals inside cracked fossil bone, glowing rim light",
+      "vazia": true,
+      "reconstituicao": true,
+      "animar": false
+    },
+    {
+      "trecho": "São os indícios de glóbulos vermelhos de dinossauro mais antigos já vistos.",
+      "prompt_imagem": "extinct theropod dinosaur Aratasaurus, slender two-legged carnivorous dinosaur, long stiff tail, narrow head with sharp teeth, three-clawed hands, scaly brown and grey skin, standing still in the rain at dusk in a Cretaceous forest, steam rising",
+      "vazia": false,
+      "reconstituicao": true,
+      "animar": false
+    },
+    {
+      "trecho": "Não é sangue líquido: um mineral virou cápsula do tempo e guardou a química.",
+      "prompt_imagem": "dark black manganese mineral crust on ancient layered rock, macro, dramatic light",
+      "busca_video": "rock minerals macro",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "O estudo saiu neste mês, na PNAS, e ainda precisa ser confirmado.",
+      "prompt_imagem": "ancient fossil bone fragments on dark stone, museum display lighting",
+      "acervo": "fossil bone",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "O nome quer dizer nascido do fogo: o fóssil escapou do incêndio do Museu Nacional, em 2018.",
+      "prompt_imagem": "glowing embers and flames in total darkness, close up",
+      "busca_video": "flames dark",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Os animais gigantes que viveram com os primeiros humanos estão no documentário do canal.",
+      "prompt_imagem": "vast prehistoric landscape with shallow lagoons and forested plateau under dramatic clouds, seen from above",
+      "busca_video": "lagoon aerial",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "E dentro de um osso do Ceará, acharam vestígios de sangue de dinossauro.",
+      "prompt_imagem": "extinct theropod dinosaur Aratasaurus, slender two-legged carnivorous dinosaur, long stiff tail, narrow head with sharp teeth, three-clawed hands, scaly brown and grey skin, close up of its head and eye, drinking at a misty lagoon at dawn",
+      "vazia": false,
+      "reconstituicao": true,
+      "animar": false
+    }
+  ],
+  "legenda": "Dentro dos ossos da pata do Aratasaurus museunacionali, um dinossauro carnívoro de uns 3 metros que viveu no Ceará há cerca de 115 milhões de anos, cientistas encontraram estruturas microscópicas com o formato e o tamanho de glóbulos vermelhos — e nelas, o heme, a molécula que prende o ferro na hemoglobina. Não é sangue líquido: minerais de manganês teriam funcionado como cápsula do tempo. O estudo, liderado pela Curtin University (Austrália) com o Museu Nacional e a URCA, saiu em novembro de 2026 na PNAS e ainda precisa ser confirmado por outros laboratórios. O fóssil foi achado em 2008 na Mina Pedra Branca, em Santana do Cariri, e escapou do incêndio do Museu Nacional em 2018 — por isso o nome, 'nascido do fogo'. Os animais gigantes que viveram com os primeiros humanos estão no documentário completo do canal.\n\nVocê sabia disso? Comente 👇",
+  "hashtags": [
+    "#dinossauros",
+    "#paleontologia",
+    "#ciência",
+    "#história",
+    "#documentário"
+  ],
+  "fontes": [
+    "Grice, K. et al., 'Heme signatures in mineralized red blood cells within vascular canals of a 115-million-year-old dinosaur bone', PNAS 123(46) e2614248123 (nov/2026), DOI 10.1073/pnas.2614248123",
+    "Curtin University (03/11/2026): https://www.curtin.edu.au/research/news/dinosaur-blood-oldest-discovery-rewrites-what-fossils-can-reveal-about-the-past?type=media",
+    "ScienceAlert (03/11/2026): https://www.sciencealert.com/dinosaur-blood-cells-detected-in-115-million-year-old-fossil",
+    "Sci.News (02/11/2026): https://www.sci.news/paleontology/cretaceous-dinosaur-red-blood-cells-15169.html",
+    "Olhar Digital (13/07/2020) — nome 'nascido do fogo', Museu Nacional, Mina Pedra Branca, 2008, ~3,12 m: https://olhardigital.com.br/2020/07/13/noticias/dinossauro-carnivoro-nascido-do-fogo-e-descoberto-no-ceara/"
+  ]
+}
