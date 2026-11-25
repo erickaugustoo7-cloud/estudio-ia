@@ -1,0 +1,76 @@
+{
+  "titulo": "Ele fugiu de Deus. No fundo do mar, Deus ainda ouviu",
+  "gancho_tela": "Fugiu de Deus e afundou",
+  "referencia": "Jonas 2:2",
+  "duracao_max": 90,
+  "volume_musica": 0.14,
+  "estilo_imagem": "cinematic photorealistic epic film still, dramatic volumetric god rays, floating dust particles, deep chiaroscuro, ancient Near East and the Mediterranean Sea in the Iron Age, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic epic film shot, slow and subtle motion.",
+  "epoca_imagem": "Iron Age Mediterranean, eighth century BC, the ancient port of Joppa, Phoenician wooden sailing ships, Assyrian Nineveh with massive mud-brick walls, stone, clay, wood, rope and cloth only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "Ele fugiu de Deus e foi parar no fundo do mar. Seu nome era Jonas.",
+      "prompt_imagem": "deep underwater view in the dark sea, faint god rays falling from the stormy surface far above, the immense dark shadow of a great fish gliding through the deep blue",
+      "prompt_movimento": "the light rays waver slowly, particles drift in the water, the great shadow glides forward, slow camera descent",
+      "vazia": true
+    },
+    {
+      "trecho": "Deus o mandou a Nínive, capital da Assíria, o império inimigo de Israel.",
+      "prompt_imagem": "epic high aerial view of the ancient Assyrian city of Nineveh by the Tigris river, massive mud-brick walls and monumental gates, palace terraces, golden dusty haze",
+      "prompt_movimento": "slow aerial camera glide toward the city walls, haze drifts, the river glimmers",
+      "vazia": true
+    },
+    {
+      "trecho": "Jonas desceu a Jope e embarcou num navio para Társis, na direção oposta.",
+      "prompt_imagem": "high-angle view of the ancient stone harbor of Joppa at sunset, wooden Phoenician sailing ships moored at the quay, clay amphorae stacked on the stones, the open sea beyond",
+      "prompt_movimento": "sails move gently in the breeze, the water ripples, sunset light glows, slow camera push-in",
+      "vazia": true
+    },
+    {
+      "trecho": "Veio uma grande tempestade. Os marinheiros, a pedido dele, o lançaram ao mar.",
+      "prompt_imagem": "wide view of a small ancient wooden sailing ship tossed by huge dark waves in a violent storm at night, torn sail, lightning in the clouds",
+      "prompt_movimento": "huge waves rise and crash, the torn sail whips in the wind, lightning flashes, slow camera pull-back",
+      "vazia": true
+    },
+    {
+      "trecho": "E o mar se acalmou. Mas Deus fez um grande peixe engolir Jonas.",
+      "prompt_imagem": "a calm silver sea at dawn after the storm, a lone wooden ship far away on the horizon, soft rays of light breaking through the clouds onto the still water",
+      "prompt_movimento": "the still water shimmers, light rays spread slowly through the clouds, slow camera rise",
+      "vazia": true
+    },
+    {
+      "trecho": "Três dias e três noites no ventre do peixe, no escuro do mar.",
+      "prompt_imagem": "deep dark ocean abyss, a single faint beam of light from far above, the vast shadow of a great fish against the deep blue, drifting seaweed",
+      "prompt_movimento": "the faint beam wavers, seaweed drifts slowly, the shadow moves softly, slow camera push-in",
+      "vazia": true
+    },
+    {
+      "trecho": "Ali ele orou: Em meu desespero clamei ao Senhor, e ele me respondeu.",
+      "prompt_imagem": "underwater view looking up from the deep toward the distant bright surface, columns of golden light piercing the dark water, tiny rising bubbles",
+      "prompt_movimento": "bubbles rise slowly toward the light, the light columns shimmer, slow camera rise",
+      "vazia": true
+    },
+    {
+      "trecho": "Quando a minha vida já se apagava, eu me lembrei de ti, Senhor.",
+      "prompt_imagem": "long strands of seaweed swaying in the dark deep sea, a brightening ray of light reaching down from far above through the water",
+      "prompt_movimento": "the seaweed sways gently, the ray of light grows brighter, slow camera push-in toward the light",
+      "vazia": true
+    },
+    {
+      "trecho": "Então o Senhor deu ordens ao peixe, e ele vomitou Jonas em terra firme. Jonas, capítulo dois.",
+      "prompt_imagem": "an empty sandy beach at sunrise, gentle foamy waves washing ashore, footprints in the wet sand leading inland toward desert hills, golden light",
+      "prompt_movimento": "waves wash slowly over the sand, golden light spreads across the beach, slow camera glide along the footprints",
+      "vazia": true
+    },
+    {
+      "trecho": "Se você fugiu e afundou, clame de onde está. Deus ainda ouve do fundo do mar.",
+      "prompt_imagem": "underwater view from the deep sea looking up at a bright golden sunrise above the surface, god rays streaming down through the clear water",
+      "prompt_movimento": "the god rays shimmer and grow brighter, particles float upward, slow camera rise toward the surface",
+      "vazia": true
+    }
+  ],
+  "legenda": "Senhor, mesmo no fundo, eu clamo a ti 🙏🌊\nJonas 1:1–2:10\nComente \"Amém\" se Deus já te tirou do fundo do poço.",
+  "hashtags": ["#Jonas", "#Bíblia", "#fé", "#oração"],
+  "fontes": ["Jonas 1:1-17 (NVI)", "Jonas 2:1-10 (NVI)", "Mateus 12:40"]
+}
