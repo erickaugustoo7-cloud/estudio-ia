@@ -46,7 +46,7 @@ elif r.get("tipo") == "historia":  # história narrada com a voz do Eric, sem GP
 elif r.get("tipo") == "salmo":  # Salmos narrados: texto bíblico corrido sobre poucas imagens (1–2 min)
     lim_c, lim_p, lim_t = (3, 8), (120, 420), (8, 120)
 elif r.get("formato") == "horizontal":  # vídeo longo do YouTube (docs/MANUAL_LONGOS.md)
-    lim_c, lim_p, lim_t, max_anim = ((50, 110), (2700, 3300), (12, 70), 6) if oracao else \
+    lim_c, lim_p, lim_t, max_anim = ((30, 70), (1450, 1800), (12, 70), 6) if oracao else \
                                     ((60, 160), (2600, 6000), (12, 90), 0) if estudo else \
                                     ((60, 110), (900, 1400), (3, 30), 10)
     if estudo:
@@ -62,7 +62,7 @@ elif r.get("formato") == "horizontal":  # vídeo longo do YouTube (docs/MANUAL_L
         if not r.get(campo) and r.get(campo) != 0:
             erros.append(f"falta o campo {campo}")
     if oracao and r.get("cauda_musical_min"):
-        erros.append("oração: sem cauda de música (desde 16/11 o vídeo é ~22 min de oração falada); apague cauda_musical_min")
+        erros.append("oração: sem cauda de música (desde 16/11 o vídeo é 10–13 min de oração falada (decisão do Eric, 25/11)); apague cauda_musical_min")
     if oracao and len(r.get("capitulos", [])) < 4:
         erros.append("oração: faltam capitulos (4–8 partes, ex.: Acolhida, Pela mente, Pela família, Promessas, Bênção)")
     if not oracao and not estudo and len(r.get("capitulos", [])) < 3:

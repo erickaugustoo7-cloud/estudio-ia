@@ -11,7 +11,7 @@ orando aparecem com mais frequência, sem excluir homens.
 ## Qual vídeo fazer hoje
 - **Quarta e sábado: FILME bíblico** (12–20 min). Pauta: primeira linha não comentada de `pautas/filmes.txt`.
   Modelo aprovado: `roteiros_animados/jose_do_egito.json`.
-- **Demais dias: ORAÇÃO PARA DORMIR** (~20–22 min de oração FALADA, sem cauda de música — decisão do Eric em 16/11: a música de 20 min não segurava o público). Pauta: primeira linha não comentada de
+- **Demais dias: ORAÇÃO PARA DORMIR** (**10–13 min** de oração FALADA, 1450–1800 palavras, 30–70 cenas, sem cauda de música — decisão do Eric em 25/11: 20 min era longo demais; em 16/11 a música de 20 min já não segurava o público). Pauta: primeira linha não comentada de
   `pautas/oracoes_longas.txt`. Modelo aprovado (tom humano, 16/11): `roteiros_animados/oracao_noite_refugio_salmo46.json`.
 - Remova a linha usada da pauta. Se a pauta acabar, escolha um tema novo que ainda não exista em `roteiros_animados/`.
 
@@ -92,8 +92,8 @@ O que os grandes canais de oração fazem e nós não fazíamos:
   (vai como metadado da voz Gemini; não é narrado).
 
 ### Duração e estrutura (padrão desde 16/11)
-- `"tipo": "oracao"`, **2700–3300 palavras, 50–110 cenas** (~20 s cada), `"palavras_por_bloco": 600`, SEM `cauda_musical_min`.
-  (Medido em 16/11: a voz fala ~135 palavras/min; 2.000 palavras deram só 14,6 min. Para ~22 min: ~2.900 palavras.)
+- `"tipo": "oracao"`, **1450–1800 palavras, 30–70 cenas** (~20 s cada), `"palavras_por_bloco": 600`, SEM `cauda_musical_min`.
+  (Medido em 16/11: a voz fala ~135 palavras/min; 2.000 palavras deram só 14,6 min. Para 10–13 min: ~1.450–1.800 palavras — decisão do Eric em 25/11.)
 - Sem música (`volume_musica`: 0) desde 16/11.
 - `capitulos` obrigatórios (4–12), para o público pular para a parte que precisa. Sequência que funciona:
   Acolhida → o salmo/promessa do dia → oração "do jeito que eu estou" → pela mente/ansiedade → pela família e filhos →
