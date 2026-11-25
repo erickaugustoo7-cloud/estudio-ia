@@ -1,0 +1,109 @@
+{
+  "canal": "antes_de_nos",
+  "titulo": "Um roedor de 30 quilos viveu na Tailândia — e só sobraram 2 dentes",
+  "gancho_tela": "UM ROEDOR DE 30 QUILOS VIVEU NA TAILÂNDIA",
+  "referencia": "Short: Yakamys sirindhornae, roedor gigante de ~34 milhões de anos achado na mina de Krabi (Scientific Reports, nov/2026) — CTA para o doc ep.3 (animais gigantes)",
+  "duracao_max": 60,
+  "volume_musica": 0.1,
+  "plataformas": [
+    "youtube"
+  ],
+  "fonte_imagem": "modelscope",
+  "fundo_video": "pixabay",
+  "opcoes_imagem": 1,
+  "estilo_imagem": "photorealistic documentary photo, National Geographic style, natural light, ultra detailed, vertical 9:16, no text",
+  "prefixo_imagem": "documentary photo:",
+  "epoca_imagem": "wild prehistoric tropical Southeast Asia around 34 million years ago: lakes, swamps, dense forest; only nature, rock, coal and fossils; nothing modern, no text, no watermark",
+  "cenas": [
+    {
+      "trecho": "Um roedor de trinta quilos viveu na Tailândia.",
+      "prompt_imagem": "a giant extinct prehistoric rodent, Yakamys, heavy stocky body, thick brown fur, big orange front incisors, short legs, long tail, standing on a muddy lake shore in a tropical forest, close up, morning mist",
+      "busca_video": "tropical lake forest",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "Foi há uns trinta e quatro milhões de anos, perto de um lago no sul do país.",
+      "prompt_imagem": "a calm prehistoric lake surrounded by dense tropical swamp forest at sunrise, mist over the water, no animals",
+      "busca_video": "swamp lake mist",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Em 2004, uma geóloga viu algo cor de creme no carvão de uma mina.",
+      "prompt_imagem": "a small cream-colored fossil tooth embedded in a dark lump of lignite coal, macro photo, dramatic side light",
+      "busca_video": "coal",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Achou que era um osso. Era o dente de um roedor gigante.",
+      "prompt_imagem": "a large curved fossil rodent incisor tooth on a dark museum background, dramatic light",
+      "acervo": "fossil tooth",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "No total, acharam só dois dentes: um molar e um pedaço de incisivo.",
+      "prompt_imagem": "two ancient fossil teeth, a molar and a broken incisor, lying side by side on dark stone, museum display lighting",
+      "acervo": "fossil teeth",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Com eles, os cientistas estimaram o peso do animal: cerca de trinta quilos.",
+      "prompt_imagem": "a giant extinct prehistoric rodent, stocky body, thick brown fur, big front teeth, walking along the edge of a tropical lake among reeds",
+      "busca_video": "reeds lake",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "É o dobro dos outros roedores conhecidos daquela época.",
+      "prompt_imagem": "a giant extinct prehistoric rodent with thick brown fur sniffing the ground in a misty tropical forest, a tiny squirrel on a branch above it",
+      "busca_video": "tropical forest mist",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "Hoje, o maior roedor vivo é a capivara, que vive na América do Sul.",
+      "prompt_imagem": "a capybara resting at the edge of a river in the Brazilian Pantanal, golden afternoon light",
+      "busca_video": "capybara",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "A descoberta mostra que roedores gigantes surgiram antes, e em mais lugares, do que se pensava.",
+      "prompt_imagem": "vast prehistoric tropical landscape with lakes and forested hills under dramatic clouds, seen from above",
+      "busca_video": "tropical landscape aerial",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "O nome dele é Yakamys: \"yak\" é gigante em tailandês; \"mys\", rato em grego.",
+      "prompt_imagem": "a giant extinct prehistoric rodent with thick brown fur sitting on a rock at a jungle lake at dusk, glowing orange sky",
+      "busca_video": "jungle sunset",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "O documentário dos animais gigantes está no canal. Muito antes deles, vivia um roedor de trinta quilos.",
+      "prompt_imagem": "a giant extinct prehistoric rodent drinking from a misty tropical lake at dawn, reflection on the water",
+      "busca_video": "lake dawn",
+      "vazia": false,
+      "animar": false
+    }
+  ],
+  "legenda": "Yakamys sirindhornae, um roedor de cerca de 30 kg, viveu há uns 34 milhões de anos perto de um lago onde hoje fica a mina de Krabi, no sul da Tailândia. Só sobraram dois dentes: em 2004, a geóloga Pannipa Tian achou o primeiro no meio do carvão. O estudo, publicado em novembro de 2026 na Scientific Reports, estima que ele pesava o dobro dos outros roedores da época — e mostra que roedores gigantes surgiram antes e em mais lugares do que se pensava. Hoje, o maior roedor vivo é a capivara. Os animais gigantes que viveram com os primeiros humanos estão no documentário completo do canal.\n\nVocê sabia disso? Comente 👇",
+  "hashtags": [
+    "#história",
+    "#curiosidades",
+    "#préhistória",
+    "#fósseis",
+    "#documentário"
+  ],
+  "fontes": [
+    "Chaimanee, Y., Marivaux, L., Millien, V., Yamee, C., Tian, P., Jaeger, J.-J., Scientific Reports 16 (2026), DOI 10.1038/s41598-026-76711-6",
+    "ScienceDaily (10/11/2026), release da McGill University — 'Scientists discover a giant 66-pound rodent that lived 34 million years ago': https://www.sciencedaily.com/releases/2026/11/261110042532.htm",
+    "Gizmodo (09/11/2026) — geóloga Pannipa Tian, mina de Krabi (Bang Mark Pit), 2004; dois dentes; nome 'yak' (tailandês, gigante) + 'mys' (grego, rato): https://gizmodo.com/a-geologist-thought-she-found-a-bone-it-belonged-to-a-rodent-of-unusual-size-2000836807"
+  ]
+}
