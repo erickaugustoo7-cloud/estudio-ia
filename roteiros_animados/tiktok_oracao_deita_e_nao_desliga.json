@@ -1,0 +1,68 @@
+{
+  "titulo": "Oração para quem deita e não consegue desligar a cabeça",
+  "gancho_tela": "Deitou e não desliga?",
+  "referencia": "Salmo 4:8",
+  "serie": "Oração de 20 segundos",
+  "tipo": "tiktok",
+  "fonte_imagem": "kaggle",
+  "opcoes_imagem": 2,
+  "duracao_max": 40,
+  "volume_musica": 0.12,
+  "plataformas": [
+    "facebook"
+  ],
+  "estilo_imagem": "cinematic photorealistic epic film still, soft night and dawn light, dramatic volumetric god rays, ancient Judea hill country, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic slow subtle motion.",
+  "epoca_imagem": "Ancient Judea, stone house, clay oil lamps, wool blankets, linen and wood only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "Você deita, mas a cabeça não desliga? Ore comigo agora.",
+      "prompt_imagem": "a small clay oil lamp burning on a stone ledge beside a folded wool blanket in a dark ancient room at night, close-up",
+      "vazia": true,
+      "animar": true,
+      "prompt_movimento": "the small flame flickers slowly, thin smoke curling upward in the dark"
+    },
+    {
+      "trecho": "Senhor, são os filhos, as contas, a casa, o dia de amanhã.",
+      "prompt_imagem": "a dim ancient stone room at night, clay jars and a rolled sleeping mat, faint blue moonlight through a small window",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Eu entrego tudo isso nas tuas mãos, porque a tua Palavra diz:",
+      "prompt_imagem": "an old parchment scroll partly unrolled on a rough wooden table beside a clay oil lamp, warm soft light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Em paz também me deitarei e dormirei, porque só tu, Senhor, me fazes habitar em segurança.",
+      "prompt_imagem": "a quiet ancient stone village under a starry night sky, tiny warm lights in the windows, wide high view",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Então hoje eu deito em paz e durmo, porque tu cuidas de nós. Amém.",
+      "prompt_imagem": "soft golden dawn breaking over the quiet hills of Judea, volumetric god rays through morning mist, wide high view",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Siga o Mensageiro de Fé para orar comigo todas as noites.",
+      "prompt_imagem": "ancient stone courtyard with a clay water jar in warm morning light, god rays through the dust, calm and peaceful",
+      "vazia": true,
+      "animar": false
+    }
+  ],
+  "legenda": "Para quem deita e a cabeça não desliga: \"Em paz também me deitarei e dormirei, porque só tu, Senhor, me fazes habitar em segurança\" (Salmo 4:8). O que mais tira o seu sono hoje? Comente 👇",
+  "hashtags": [
+    "#Oração",
+    "#Fé",
+    "#Deus",
+    "#Bíblia",
+    "#Cristão"
+  ],
+  "fontes": [
+    "Salmo 4:8 — Almeida Revista e Corrigida: \"Em paz também me deitarei e dormirei, porque só tu, Senhor, me fazes habitar em segurança.\" (conferido em bibliaonline.com.br/arc/sl/4)"
+  ]
+}
