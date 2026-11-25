@@ -136,8 +136,15 @@ jobs:
             voz-${{ hashFiles(inputs.roteiro) }}-
             voznome-${{ inputs.roteiro }}-
             ${{ inputs.cache_voz || 'voz-sem-cache-extra' }}
+      - name: Memória extra (swap de 8 GB) e monitor de memória
+        run: |
+          sudo swapoff -a || true
+          sudo fallocate -l 8G /mnt/swapfile2 && sudo chmod 600 /mnt/swapfile2 && sudo mkswap /mnt/swapfile2 >/dev/null && sudo swapon /mnt/swapfile2 || true
+          free -m; df -h / /mnt | tail -2
       - name: Animar
-        run: python -m estudio.kaggle_wan ${{ inputs.roteiro }}
+        run: |
+          ( while true; do sleep 120; echo "[mem] $(date +%H:%M) usada $(free -m | awk '/Mem/{print $3"/"$2}') MB, swap $(free -m | awk '/Swap/{print $3}') MB, disco livre $(df -h / | awk 'NR==2{print $4}')"; done ) &
+          python -m estudio.kaggle_wan ${{ inputs.roteiro }}
         env:
           SO_ISCA: ${{ inputs.so_isca }}
       - name: Guardar a narração no cache
