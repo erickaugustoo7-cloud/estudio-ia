@@ -183,12 +183,18 @@ def _rodar_modelscope(cenas: list, pasta: Path, etapa: str = "imagens") -> tuple
             from estudio.agentes import visual
             w, h = (int(x) for x in c.get("resolucao", "768x1344").split("x"))
             jpg = saida / f"{c['nome']}.jpg"
-            if visual._cloudflare(cena={"prompt_imagem": c["prompt"], "largura": w, "altura": h}, destino=jpg,
-                                  usados=set(), canal={}, seed=int(c.get("seed", 42))):
-                subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(jpg), str(saida / f"{c['nome']}.png")],
-                               check=True)
-                log("wan", f"{c['nome']}: ModelScope sem saldo/erro → Cloudflare")
-                return True
+            for nome, fonte in (("Cloudflare", visual._cloudflare), ("Pollinations", visual._pollinations)):
+                try:
+                    ok = fonte(cena={"prompt_imagem": c["prompt"], "largura": w, "altura": h}, destino=jpg,
+                               usados=set(), canal={}, seed=int(c.get("seed", 42)))
+                except Exception as e:  # noqa: BLE001
+                    log("wan", f"reserva {nome} falhou {c['nome']}: {e}")
+                    ok = False
+                if ok:
+                    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(jpg), str(saida / f"{c['nome']}.png")],
+                                   check=True)
+                    log("wan", f"{c['nome']}: ModelScope sem saldo/erro → {nome}")
+                    return True
         except Exception as e:  # noqa: BLE001
             log("wan", f"reserva Cloudflare falhou {c['nome']}: {e}")
         return False
