@@ -1,0 +1,70 @@
+{
+  "titulo": "Chorando longe de casa, ele ouvia: \"Onde está o teu Deus?\" (Salmo 42)",
+  "gancho_tela": "ONDE ESTÁ O TEU DEUS?",
+  "referencia": "Salmos 42:1-11",
+  "serie": "Salmos narrados",
+  "tipo": "salmo",
+  "voz": "eric",
+  "fonte_imagem": "cloudflare",
+  "duracao_max": 180,
+  "volume_musica": 0.12,
+  "estilo_imagem": "cinematic photorealistic landscape, golden hour light, soft volumetric rays, peaceful and reverent, rich warm colors, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic slow subtle motion.",
+  "epoca_imagem": "untouched nature, no buildings, no modern objects",
+  "legenda": "Salmo 42 🙏 Por que estás abatida, ó minha alma? Espera em Deus.\nSalmos 42:1-11 (Almeida)\nEscreva \"Amém\" e conte nos comentários: o que tem deixado a sua alma abatida?",
+  "hashtags": [
+    "#Salmo42",
+    "#Salmos",
+    "#PalavraDeDeus",
+    "#Fé",
+    "#Esperança"
+  ],
+  "fontes": [
+    "Salmos 42:1-11 — Almeida Revista e Corrigida (tradução de domínio público)"
+  ],
+  "cenas": [
+    {
+      "trecho": "Longe de casa, chorando, ele ouvia todo dia: onde está o teu Deus? Salmo quarenta e dois.",
+      "prompt_imagem": "a lone deer standing at the edge of a dry rocky riverbed under a dramatic stormy sky, a single beam of golden light breaking through the clouds, untouched nature",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Como o cervo brama pelas correntes das águas, assim suspira a minha alma por ti, ó Deus! A minha alma tem sede de Deus, do Deus vivo; quando entrarei e me apresentarei ante a face de Deus? As minhas lágrimas servem-me de mantimento de dia e de noite, porquanto me dizem constantemente: Onde está o teu Deus?",
+      "prompt_imagem": "a deer drinking from a clear forest stream at misty dawn, soft golden rays through the trees, ripples on the water, untouched nature",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Quando me lembro disto, dentro de mim derramo a minha alma; pois eu havia ido com a multidão; fui com eles à Casa de Deus, com voz de alegria e louvor, com a multidão que festejava. Por que estás abatida, ó minha alma, e por que te perturbas em mim? Espera em Deus, pois ainda o louvarei na salvação da sua presença.",
+      "prompt_imagem": "an ancient dirt road winding through golden hills toward a distant hilltop of stone at sunrise, warm light and long shadows, untouched nature",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Ó meu Deus, dentro de mim a minha alma está abatida; portanto, lembro-me de ti desde a terra do Jordão, e desde o Hermom, e desde o pequeno monte. Um abismo chama outro abismo, ao ruído das tuas catadupas; todas as tuas ondas e vagas têm passado sobre mim.",
+      "prompt_imagem": "a powerful waterfall pouring down from snowy mountain slopes into a deep rushing river gorge, mist rising, dramatic light, untouched nature",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Contudo, o Senhor mandará de dia a sua misericórdia, e de noite a sua canção estará comigo: a oração ao Deus da minha vida. Direi a Deus, a minha Rocha: Por que te esqueceste de mim? Por que ando angustiado por causa da opressão do inimigo?",
+      "prompt_imagem": "a deep starry night sky over a massive solid rock cliff beside a quiet river, soft silver moonlight on the water, untouched nature",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Como com ferida mortal em meus ossos, me afrontam os meus adversários, quando todo o dia me dizem: Onde está o teu Deus? Por que estás abatida, ó minha alma, e por que te perturbas dentro de mim? Espera em Deus, pois ainda o louvarei. Ele é a salvação da minha face e o meu Deus.",
+      "prompt_imagem": "first golden sunrise light breaking over a calm river valley after a storm, mist lifting from the water, rays of light, untouched nature",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Se hoje perguntarem onde está o seu Deus, responda à sua alma: espera em Deus. Se você crê, escreva Amém. E siga o Mensageiro de Fé para ouvir um salmo por dia.",
+      "prompt_imagem": "a wooden cross on a rocky hilltop silhouetted against a glowing golden sunset sky with rays of light",
+      "vazia": true,
+      "animar": false
+    }
+  ]
+}
