@@ -998,6 +998,8 @@ def main():
                 continue
             if r.get("tipo") == "documentario" and not c.get("busca_video"):  # cena de reconstituição (imagem IA)
                 continue
+            if c.get("reconstituicao"):  # Short: o animal extinto vem da imagem IA, não de vídeo de paisagem
+                continue
             v = _pixabay_video(c["prompt_imagem"], min(tempos[i], 10), pasta / f"stock_{i}.mp4", usados_st, horizontal=horiz,
                                busca=c.get("busca_video"))
             if v:
@@ -1101,7 +1103,7 @@ def main():
                 if v.get("ok"):
                     escolhidas[i] = jpg
                     pendentes.remove(i)
-        if not escolhidas:
+        if not escolhidas and not prontas:  # todas as cenas com vídeo real/museu também valem
             raise SystemExit("nenhuma imagem passou na revisão — produção interrompida para não sair com erros")
         for i in range(len(cenas_img)):
             if i in prontas:
@@ -1113,8 +1115,9 @@ def main():
             if i not in escolhidas and escolhida:
                 avisos.append(f"Cena {i + 1}: imagem sem revisão (Gemini indisponível) — confira antes de aprovar.")
             if not escolhida:  # reprovada em todas as rodadas: repete a cena aprovada mais próxima (com outro movimento)
-                j = min(escolhidas, key=lambda k: (abs(k - i), k > i))
-                escolhida = escolhidas[j]
+                pool = escolhidas or prontas  # sem nenhuma IA aprovada: repete o vídeo real/peça de museu mais próxima
+                j = min(pool, key=lambda k: (abs(k - i), k > i))
+                escolhida = pool[j]
                 cenas_img[i]["animar_bloqueado"] = True
                 avisos.append(f"Cena {i + 1}: nenhuma imagem passou ({motivos.get(i, '')}); usei a imagem da cena {j + 1}.")
                 log("wan", f"cena {i + 1}: reprovada em todas as rodadas → reaproveita a cena {j + 1}")

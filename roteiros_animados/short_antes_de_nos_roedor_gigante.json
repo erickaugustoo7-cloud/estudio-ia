@@ -17,10 +17,10 @@
   "cenas": [
     {
       "trecho": "Um roedor de trinta quilos viveu na Tailândia.",
-      "prompt_imagem": "a giant extinct prehistoric rodent, Yakamys, heavy stocky body, thick brown fur, big orange front incisors, short legs, long tail, standing on a muddy lake shore in a tropical forest, close up, morning mist",
-      "busca_video": "tropical lake forest",
+      "prompt_imagem": "extinct prehistoric giant rodent Yakamys, heavy barrel-shaped body like a huge cane rat, coarse brown fur, large orange front incisors, small round ears, short thick legs, long scaly tail, standing on a muddy lake shore in a tropical forest, close up, morning mist",
       "vazia": false,
-      "animar": false
+      "animar": false,
+      "reconstituicao": true
     },
     {
       "trecho": "Foi há uns trinta e quatro milhões de anos, perto de um lago no sul do país.",
@@ -52,17 +52,17 @@
     },
     {
       "trecho": "Com eles, os cientistas estimaram o peso do animal: cerca de trinta quilos.",
-      "prompt_imagem": "a giant extinct prehistoric rodent, stocky body, thick brown fur, big front teeth, walking along the edge of a tropical lake among reeds",
-      "busca_video": "reeds lake",
+      "prompt_imagem": "extinct prehistoric giant rodent Yakamys, heavy barrel-shaped body like a huge cane rat, coarse brown fur, large orange front incisors, small round ears, short thick legs, long scaly tail, walking along the edge of a tropical lake among reeds",
       "vazia": false,
-      "animar": false
+      "animar": false,
+      "reconstituicao": true
     },
     {
       "trecho": "É o dobro dos outros roedores conhecidos daquela época.",
-      "prompt_imagem": "a giant extinct prehistoric rodent with thick brown fur sniffing the ground in a misty tropical forest, a tiny squirrel on a branch above it",
-      "busca_video": "tropical forest mist",
+      "prompt_imagem": "extinct prehistoric giant rodent Yakamys, heavy barrel-shaped body like a huge cane rat, coarse brown fur, large orange front incisors, small round ears, short thick legs, long scaly tail, sniffing the ground in a misty tropical forest, a tiny squirrel on a branch above it",
       "vazia": false,
-      "animar": false
+      "animar": false,
+      "reconstituicao": true
     },
     {
       "trecho": "Hoje, o maior roedor vivo é a capivara, que vive na América do Sul.",
@@ -80,17 +80,17 @@
     },
     {
       "trecho": "O nome dele é Yakamys: \"yak\" é gigante em tailandês; \"mys\", rato em grego.",
-      "prompt_imagem": "a giant extinct prehistoric rodent with thick brown fur sitting on a rock at a jungle lake at dusk, glowing orange sky",
-      "busca_video": "jungle sunset",
+      "prompt_imagem": "extinct prehistoric giant rodent Yakamys, heavy barrel-shaped body like a huge cane rat, coarse brown fur, large orange front incisors, small round ears, short thick legs, long scaly tail, sitting on a rock at a jungle lake at dusk, glowing orange sky",
       "vazia": false,
-      "animar": false
+      "animar": false,
+      "reconstituicao": true
     },
     {
       "trecho": "O documentário dos animais gigantes está no canal. Muito antes deles, vivia um roedor de trinta quilos.",
-      "prompt_imagem": "a giant extinct prehistoric rodent drinking from a misty tropical lake at dawn, reflection on the water",
-      "busca_video": "lake dawn",
+      "prompt_imagem": "extinct prehistoric giant rodent Yakamys, heavy barrel-shaped body like a huge cane rat, coarse brown fur, large orange front incisors, small round ears, short thick legs, long scaly tail, drinking from a misty tropical lake at dawn, reflection on the water",
       "vazia": false,
-      "animar": false
+      "animar": false,
+      "reconstituicao": true
     }
   ],
   "legenda": "Yakamys sirindhornae, um roedor de cerca de 30 kg, viveu há uns 34 milhões de anos perto de um lago onde hoje fica a mina de Krabi, no sul da Tailândia. Só sobraram dois dentes: em 2004, a geóloga Pannipa Tian achou o primeiro no meio do carvão. O estudo, publicado em novembro de 2026 na Scientific Reports, estima que ele pesava o dobro dos outros roedores da época — e mostra que roedores gigantes surgiram antes e em mais lugares do que se pensava. Hoje, o maior roedor vivo é a capivara. Os animais gigantes que viveram com os primeiros humanos estão no documentário completo do canal.\n\nVocê sabia disso? Comente 👇",
