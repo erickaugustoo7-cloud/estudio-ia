@@ -1,0 +1,3 @@
+Magicubes do ModelScope reservados para o treino dos estilos (LoRA) do Mensageiro e do Antes de Nós.
+Enquanto este arquivo existir, as produções não usam o ModelScope (vão direto à Cloudflare/Pollinations).
+Apagar depois que os dois treinos começarem.

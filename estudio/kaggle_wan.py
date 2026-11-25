@@ -133,6 +133,8 @@ def _rodar_modal(cenas: list, pasta: Path, etapa: str = "imagens") -> tuple[Path
 
 def _rodar_modelscope(cenas: list, pasta: Path, etapa: str = "imagens") -> tuple[Path, str]:
     """Mesmo contrato do _rodar_kaggle: Z-Image-Turbo pela API-Inference gratuita do ModelScope (Alibaba)."""
+    if (Path(__file__).resolve().parents[1] / "dados" / "modelscope_pausado.txt").exists():
+        os.environ["MODELSCOPE_SEM_SALDO"] = "1"  # Magicubes reservados (ex.: treino de estilo) — vai direto à reserva
     import requests
     from concurrent.futures import ThreadPoolExecutor
     tok = os.environ["MODELSCOPE_TOKEN"]
@@ -202,9 +204,11 @@ def _rodar_modelscope(cenas: list, pasta: Path, etapa: str = "imagens") -> tuple
 
 def _editar_modelscope(url: str, instrucao: str, destino: Path, W: int, H: int) -> Path | None:
     """Conserta uma imagem reprovada com o Qwen-Image-Edit (API gratuita do ModelScope) em vez de gerar outra."""
+    if (Path(__file__).resolve().parents[1] / "dados" / "modelscope_pausado.txt").exists():
+        os.environ["MODELSCOPE_SEM_SALDO"] = "1"  # Magicubes reservados (ex.: treino de estilo) — vai direto à reserva
     import requests
     tok = os.getenv("MODELSCOPE_TOKEN")
-    if not tok or not url:
+    if not tok or not url or os.getenv("MODELSCOPE_SEM_SALDO"):
         return None
     H_ = {"Authorization": f"Bearer {tok}", "Content-Type": "application/json"}
     base = "https://api-inference.modelscope.ai"
