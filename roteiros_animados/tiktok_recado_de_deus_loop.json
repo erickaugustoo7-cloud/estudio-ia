@@ -1,0 +1,55 @@
+{
+ "tipo": "tiktok",
+ "duracao_max": 40,
+ "volume_musica": 0.12,
+ "plataformas": [
+  "facebook"
+ ],
+ "estilo_imagem": "cinematic photorealistic epic film still, soft night and dawn light, dramatic volumetric god rays, ancient Judea hill country, muted earthy tones, vertical 9:16",
+ "prefixo_imagem": "cinematic photorealistic film still:",
+ "prefixo_video": "Cinematic slow subtle motion.",
+ "epoca_imagem": "Ancient Judea, stone house, clay oil lamps, wool blankets, linen and wood only, nothing modern",
+ "titulo": "Deus tem um recado para você hoje 🙏",
+ "gancho_tela": "Deus tem um recado",
+ "referencia": "Salmo 56:8; Salmo 34:15",
+ "serie": "Recado de Deus (loop)",
+ "opcoes_imagem": 2,
+ "legenda": "Deus tem um recado para você hoje. Ele viu cada lágrima que você escondeu e ouviu cada oração que parecia sem resposta (Salmo 56:8; Salmo 34:15). Ouça mais uma vez, com calma, e envie para alguém que precisa receber esse recado hoje. 🙏",
+ "hashtags": [
+  "#Oração",
+  "#Fé",
+  "#Deus",
+  "#RecadoDeDeus",
+  "#Cristão"
+ ],
+ "fontes": [
+  "Salmo 56:8 (ARC): \"Põe as minhas lágrimas no teu odre\"",
+  "Salmo 34:15 (ARC): \"Os olhos do Senhor estão sobre os justos, e os seus ouvidos atentos ao seu clamor\""
+ ],
+ "cenas": [
+  {
+   "trecho": "Deus tem um recado para você hoje.",
+   "prompt_imagem": "golden first light breaking through clouds over quiet ancient Judean hills at dawn, wide shot, god rays",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Ele viu cada lágrima que você escondeu. Ouviu cada oração que parecia sem resposta.",
+   "prompt_imagem": "a single small clay oil lamp glowing on a stone windowsill at night, soft warm light, ancient stone room",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Quanto mais você confia, mais vai ver a mão dele na sua vida.",
+   "prompt_imagem": "a narrow ancient stone path climbing toward a hilltop bathed in warm sunrise light, olive trees, wide shot",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Ouça de novo… e envie para quem precisa ouvir isso hoje.",
+   "prompt_imagem": "vast calm sea of Galilee at sunrise, golden reflections, small wooden boat far away, peaceful wide shot",
+   "vazia": true,
+   "animar": false
+  }
+ ]
+}
