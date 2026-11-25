@@ -1,0 +1,63 @@
+{
+  "titulo": "Os discípulos afastaram as crianças. Jesus ficou indignado",
+  "gancho_tela": "Jesus ficou indignado com os discípulos",
+  "estilo": "pintura",
+  "narracao": "Os discípulos tentaram afastar alguém de Jesus. E Jesus ficou indignado. Eram crianças. Está em Marcos, capítulo dez. Mas o que Jesus fez depois mostra como ele recebe você. Algumas pessoas traziam crianças para que Jesus tocasse nelas. Mas os discípulos repreendiam quem as trazia. Talvez achassem que o Mestre tinha coisas mais importantes. Quando Jesus viu isso, ficou indignado. E disse: deixem vir a mim as crianças, não as impeçam. O Reino de Deus pertence aos que são como elas. E foi além: quem não receber o Reino de Deus como uma criança, nunca entrará nele. Uma criança não chega com currículo. Não prova que merece. Só chega, de mãos vazias, e confia. Então Jesus tomou as crianças nos braços, pôs as mãos sobre elas e as abençoou. Pediram um toque. Ele deu um abraço. Talvez você se sinta pequeno ou errado demais para chegar perto dele. Ninguém pode te afastar dele. Os braços dele continuam abertos. E pai, hoje à noite, ponha a mão na cabeça do seu filho e abençoe, como Jesus fez. Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias.",
+  "cenas": [
+    {
+      "trecho": "Os discípulos tentaram afastar alguém de Jesus. E Jesus ficou indignado.",
+      "busca_imagem": "small child hands reaching light",
+      "prompt_imagem": "small child's hands reaching up toward a pair of strong open hands in a beam of golden sunset light, ancient robes, dusty road, warm glowing contrast against deep shadow, dramatic and tender"
+    },
+    {
+      "trecho": "Eram crianças. Está em Marcos, capítulo dez. Mas o que Jesus fez depois mostra como ele recebe você.",
+      "busca_imagem": "children village dusty road",
+      "prompt_imagem": "a few small children in simple ancient tunics seen from behind walking hand in hand along a dusty road toward a crowd in a Judean village, golden afternoon light"
+    },
+    {
+      "trecho": "Algumas pessoas traziam crianças para que Jesus tocasse nelas. Mas os discípulos repreendiam quem as trazia.",
+      "busca_imagem": "crowd ancient village children",
+      "prompt_imagem": "a crowd in ancient robes in a stone village square, adults in silhouette holding small children, a few men in front raising their arms to block the way, long shadows, warm dusty light"
+    },
+    {
+      "trecho": "Talvez achassem que o Mestre tinha coisas mais importantes.",
+      "busca_imagem": "men robes arguing shadow",
+      "prompt_imagem": "a group of bearded men in ancient robes seen from behind standing in a doorway, arms crossed, blocking the light, a child waiting outside in the sun, strong contrast"
+    },
+    {
+      "trecho": "Quando Jesus viu isso, ficou indignado. E disse: deixem vir a mim as crianças, não as impeçam. O Reino de Deus pertence aos que são como elas.",
+      "busca_imagem": "man robe open arms light",
+      "prompt_imagem": "a man in a simple ancient robe seen from behind with arms open wide, small children running toward him across a sunlit courtyard, golden backlight, faces not visible"
+    },
+    {
+      "trecho": "E foi além: quem não receber o Reino de Deus como uma criança, nunca entrará nele. Uma criança não chega com currículo. Não prova que merece. Só chega, de mãos vazias, e confia.",
+      "busca_imagem": "child open empty hands",
+      "prompt_imagem": "the small open empty hands of a child held up in warm golden light, ancient linen sleeve, soft dark background, peaceful and humble"
+    },
+    {
+      "trecho": "Então Jesus tomou as crianças nos braços, pôs as mãos sobre elas e as abençoou. Pediram um toque. Ele deu um abraço.",
+      "busca_imagem": "man embracing children silhouette",
+      "prompt_imagem": "silhouette of a man in an ancient robe holding small children in his arms, one hand resting on a child's head, against a glowing golden sunset over Judean hills"
+    },
+    {
+      "trecho": "Talvez você se sinta pequeno ou errado demais para chegar perto dele. Ninguém pode te afastar dele. Os braços dele continuam abertos.",
+      "busca_imagem": "lone man path sunset hills",
+      "prompt_imagem": "a lone man in ancient clothes seen from behind standing at the start of a stone path that leads up toward a radiant light on a hill at dusk, hopeful"
+    },
+    {
+      "trecho": "E pai, hoje à noite, ponha a mão na cabeça do seu filho e abençoe, como Jesus fez. Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias.",
+      "busca_imagem": "father hand child head lamp",
+      "prompt_imagem": "a father seen from behind gently resting his hand on a sleeping child's head beside a small clay oil lamp in a simple ancient house at night, warm amber glow"
+    }
+  ],
+  "legenda": "Senhor, eu chego de mãos vazias, me recebe 🙏😭\nMarcos 10:13-16\nComente \"Amém\" e envie para um pai que precisa ouvir isso.",
+  "hashtags": [
+    "#crianças",
+    "#pai",
+    "#abençoar",
+    "#amordeDeus"
+  ],
+  "fontes": [
+    "Marcos 10:13-16"
+  ]
+}
