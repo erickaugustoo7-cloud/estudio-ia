@@ -1,0 +1,68 @@
+{
+  "titulo": "Ele só estava passando e carregou a cruz de Jesus",
+  "gancho_tela": "Ele só passava e carregou a cruz",
+  "estilo": "pintura",
+  "narracao": "Ele só estava passando. E acabou carregando a cruz de Jesus. Seu nome era Simão, de Cirene. Está em Marcos, capítulo quinze. Mas por que a Bíblia guardou até o nome dos filhos dele? Naquela manhã, Jesus já tinha sido açoitado. Saiu carregando a própria cruz, a caminho do Calvário. Simão vinha do campo. Os soldados o agarraram e o forçaram a levar a cruz. Lucas conta um detalhe: ele carregou a cruz atrás de Jesus. No mesmo caminho. No meio da multidão, mulheres choravam. E Jesus, ferido, se virou para elas: Filhas de Jerusalém, não chorem por mim. Mesmo a caminho da morte, ele ainda pensava nelas. Marcos até registra: Simão era pai de Alexandre e Rufo. Muitos estudiosos acreditam que os primeiros cristãos conheciam essa família. Simão não escolheu aquela cruz. Mas naquele dia, andou atrás de Jesus. Talvez você também carregue um peso que não escolheu. A doença, a dívida, a casa nas costas. Você não está andando sozinho. Jesus vai na frente. Ele já passou por esse caminho. Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias.",
+  "cenas": [
+    {
+      "trecho": "Ele só estava passando. E acabou carregando a cruz de Jesus.",
+      "busca_imagem": "heavy wooden cross dusty road",
+      "prompt_imagem": "a rough heavy wooden crossbeam lying across a narrow dusty stone street of ancient Jerusalem, a single blazing shaft of golden morning sunlight cutting through dark shadows of the old city walls, dust glowing in the air, strong contrast"
+    },
+    {
+      "trecho": "Seu nome era Simão, de Cirene. Está em Marcos, capítulo quinze. Mas por que a Bíblia guardou até o nome dos filhos dele?",
+      "busca_imagem": "ancient scroll oil lamp",
+      "prompt_imagem": "an old parchment scroll partly unrolled on a rough wooden table beside a small clay oil lamp, warm flickering light, stone wall in deep shadow"
+    },
+    {
+      "trecho": "Naquela manhã, Jesus já tinha sido açoitado. Saiu carregando a própria cruz, a caminho do Calvário.",
+      "busca_imagem": "Jerusalem gate road hill",
+      "prompt_imagem": "high wide view of an ancient stone city gate of Jerusalem opening onto a dusty road that climbs toward a bare rocky hill under a heavy grey sky, tiny distant crowd far away on the road, volumetric light breaking through clouds"
+    },
+    {
+      "trecho": "Simão vinha do campo. Os soldados o agarraram e o forçaram a levar a cruz.",
+      "busca_imagem": "field path sunrise farmland",
+      "prompt_imagem": "a dirt path through stone-walled fields and olive trees leading to the walls of an ancient city at early morning, a farmer's wooden tool and a woven basket left at the roadside, golden low sunlight"
+    },
+    {
+      "trecho": "Lucas conta um detalhe: ele carregou a cruz atrás de Jesus. No mesmo caminho.",
+      "busca_imagem": "footprints dust stone street",
+      "prompt_imagem": "close-up of footprints of sandals pressed into the dust of an ancient stone street, a trail of drag marks from heavy wood beside them, long morning shadows, warm light"
+    },
+    {
+      "trecho": "No meio da multidão, mulheres choravam. E Jesus, ferido, se virou para elas: Filhas de Jerusalém, não chorem por mim.",
+      "busca_imagem": "crowd narrow street Jerusalem",
+      "prompt_imagem": "high view of a narrow ancient Jerusalem street packed with a tiny distant crowd in simple robes, dark woven shawls and fabrics moving in the wind, stone arches, dramatic shafts of light through dust"
+    },
+    {
+      "trecho": "Mesmo a caminho da morte, ele ainda pensava nelas. Marcos até registra: Simão era pai de Alexandre e Rufo.",
+      "busca_imagem": "two small sandals doorway",
+      "prompt_imagem": "two pairs of small worn leather sandals beside a larger pair at the doorway of a humble stone house, a wooden door half open, soft warm evening light falling on them"
+    },
+    {
+      "trecho": "Muitos estudiosos acreditam que os primeiros cristãos conheciam essa família. Simão não escolheu aquela cruz. Mas naquele dia, andou atrás de Jesus.",
+      "busca_imagem": "strong hands rough wood",
+      "prompt_imagem": "close-up of strong work-worn hands gripping a rough wooden beam, splinters and dust on the skin, golden sunlight on the wood, background softly blurred"
+    },
+    {
+      "trecho": "Talvez você também carregue um peso que não escolheu. A doença, a dívida, a casa nas costas. Você não está andando sozinho. Jesus vai na frente. Ele já passou por esse caminho. Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias.",
+      "busca_imagem": "road hill sunset light",
+      "prompt_imagem": "a dusty ancient road winding up a hill at sunset, the path ahead glowing in warm golden light breaking through dark clouds, olive trees moving in the wind, peaceful and hopeful"
+    }
+  ],
+  "legenda": "Senhor, me ajuda a carregar o que eu não escolhi 🙏\nMarcos 15:21 · Lucas 23:26-28\nComente \"Amém\" e envie para alguém que está carregando um peso sozinho.",
+  "hashtags": [
+    "#SimãodeCirene",
+    "#cruz",
+    "#Jesus",
+    "#força"
+  ],
+  "fontes": [
+    "Marcos 15:15 (Pilatos manda açoitar Jesus e o entrega para ser crucificado)",
+    "João 19:17 (Jesus sai carregando a própria cruz rumo ao lugar da Caveira)",
+    "Marcos 15:21 NVI (Simão de Cirene, pai de Alexandre e Rufo, vindo do campo, forçado a carregar a cruz)",
+    "Lucas 23:26 (levar a cruz atrás de Jesus)",
+    "Lucas 23:27-28 (mulheres choravam; 'Filhas de Jerusalém, não chorem por mim; chorem por vocês mesmas e por seus filhos')",
+    "Lucas 23:33 (o lugar chamado Calvário/Caveira)"
+  ]
+}
