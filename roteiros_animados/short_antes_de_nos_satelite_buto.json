@@ -1,0 +1,110 @@
+{
+  "canal": "antes_de_nos",
+  "titulo": "Um satélite achou um prédio egípcio enterrado na lama",
+  "gancho_tela": "UM SATÉLITE ACHOU UM PRÉDIO EGÍPCIO ENTERRADO NA LAMA",
+  "referencia": "Short: radar do Sentinel-1 + tomografia elétrica revelaram um complexo de tijolos de barro da época saíta (~2.600 anos) sob o Kom C de Buto, no delta do Nilo, sobre uma cama de areia posta de propósito (Acta Geophysica, 2026; notícia de 23–26/11/2026) — CTA para o doc ep.4 (primeira cidade)",
+  "duracao_max": 60,
+  "volume_musica": 0.1,
+  "plataformas": [
+    "youtube"
+  ],
+  "fonte_imagem": "modelscope",
+  "fundo_video": "pixabay",
+  "opcoes_imagem": 1,
+  "estilo_imagem": "photorealistic documentary photo, National Geographic style, natural light, ultra detailed, vertical 9:16, no text",
+  "prefixo_imagem": "documentary photo:",
+  "epoca_imagem": "Ancient Egypt, Nile Delta, around 600 BC and its buried ruins: mudbrick, dark Nile clay, sand, reeds, palm trees; nothing modern, no people, no text, no watermark",
+  "cenas": [
+    {
+      "trecho": "Um satélite achou um prédio egípcio enterrado na lama.",
+      "prompt_imagem": "thick ancient Egyptian mudbrick walls emerging from dark wet Nile clay at the bottom of a deep square pit, groundwater glistening, dramatic low golden light, close up",
+      "vazia": false,
+      "animar": false,
+      "reconstituicao": true
+    },
+    {
+      "trecho": "Fica em Buto, no delta do Nilo, uma das cidades mais antigas do Egito.",
+      "prompt_imagem": "the green Nile Delta at sunrise, slow river channel lined with palm trees and papyrus reeds, mist over the water",
+      "busca_video": "nile river palm",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "O radar viu, debaixo de um morro, uma mancha oval de cento e vinte e oito metros.",
+      "prompt_imagem": "a low brown earthen mound rising from flat green marshland in the Nile Delta, seen from high above, morning haze, no buildings",
+      "vazia": true,
+      "animar": false,
+      "reconstituicao": true
+    },
+    {
+      "trecho": "Os cientistas passaram corrente elétrica pelo solo para enxergar lá embaixo.",
+      "prompt_imagem": "layers of dark clay, mud and buried broken mudbricks seen in the vertical wall of a deep excavation trench, dramatic side light, no people",
+      "vazia": true,
+      "animar": false,
+      "reconstituicao": true
+    },
+    {
+      "trecho": "Depois cavaram. Entre três e seis metros de fundo, apareceram paredes de tijolo de barro.",
+      "prompt_imagem": "rows of ancient sun-dried mudbricks forming a thick buried wall, half covered in damp dark earth, warm light from above",
+      "vazia": false,
+      "animar": false,
+      "reconstituicao": true
+    },
+    {
+      "trecho": "Têm uns dois mil e seiscentos anos, do fim do Egito antigo.",
+      "prompt_imagem": "ancient Egyptian mudbrick complex with an enclosure wall beside a Nile Delta canal, palm trees, golden evening light, reconstruction, no people",
+      "vazia": false,
+      "animar": false,
+      "reconstituicao": true
+    },
+    {
+      "trecho": "Talvez fosse um túmulo ou um templo. Ainda não se sabe.",
+      "prompt_imagem": "small ancient Egyptian ushabti figurines on a dark museum background, dramatic light",
+      "acervo": "ushabti",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Mas a surpresa estava embaixo: uma camada grossa de areia limpa.",
+      "prompt_imagem": "a thick clean layer of pale yellow sand beneath dark clay and mudbrick in the wall of a deep excavation, sharp boundary between the layers, side light",
+      "vazia": true,
+      "animar": false,
+      "reconstituicao": true
+    },
+    {
+      "trecho": "A areia natural só aparece muito mais fundo. Essa foi posta ali de propósito.",
+      "prompt_imagem": "close up of fine pale desert sand being poured and spread in a shallow pit next to stacked mudbricks, warm light, no people",
+      "busca_video": "sand",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "A hipótese: espalhar o peso e drenar a água, para a lama não engolir as paredes.",
+      "prompt_imagem": "ancient Egyptian mudbrick walls standing on a pale sand foundation above dark wet clay, cutaway view, soft light, reconstruction",
+      "vazia": false,
+      "animar": false,
+      "reconstituicao": true
+    },
+    {
+      "trecho": "As primeiras cidades do mundo estão no documentário do canal. E essa, um satélite achou na lama.",
+      "prompt_imagem": "the Nile Delta seen from very high above at dusk, river branches glowing in the last light, dark green fields",
+      "busca_video": "nile delta aerial",
+      "vazia": true,
+      "animar": false
+    }
+  ],
+  "legenda": "Imagens de radar do satélite Sentinel-1 mostraram uma anomalia oval de 128 por 62 metros sob o Kom C, um dos morros de Buto (Tell el-Fara'in), no noroeste do delta do Nilo. A tomografia de resistividade elétrica, em 15 linhas, e uma escavação de 10 por 10 metros confirmaram paredes de tijolo de barro entre 3 e 6 metros de profundidade, da época saíta (26ª dinastia, há uns 2.600 anos). Embaixo delas, a 6–7 metros, há uma camada grossa de areia limpa — a areia natural só aparece bem mais fundo, por isso os pesquisadores acham que ela foi posta de propósito, talvez para distribuir o peso e drenar a água. A função do prédio (túmulo, templo ou outra coisa) ainda é incerta. As primeiras cidades do mundo estão no documentário completo do canal.\n\nVocê sabia disso? Comente 👇",
+  "hashtags": [
+    "#história",
+    "#curiosidades",
+    "#egitoantigo",
+    "#arqueologia",
+    "#documentário"
+  ],
+  "fontes": [
+    "Abouarab, M. A. R., Elfadaly, A. et al., Acta Geophysica 74(2), 2026, DOI 10.1007/s11600-026-01809-4 (radar Sentinel-1 + tomografia de resistividade elétrica em Buto)",
+    "Live Science (nov/2026) — anomalia de 128 x 62 m, 15 linhas de ERT, paredes saítas a 3–6 m, areia a 6–7 m: https://www.livescience.com/archaeology/ancient-egyptians/buried-for-2-600-years-beneath-nile-mud-a-massive-ancient-egyptian-complex-was-just-found-from-space",
+    "Futura-Sciences (23/11/2026) — areia natural só a ~14 m; função da areia (peso/drenagem) é interpretação; uso ainda incerto: https://www.futura-sciences.com/en/satellite-radar-spotted-an-anomaly-under-a-mound-in-egypts-nile-delta-beneath-it-lay-a-2600-year-old-mudbrick-complex-built-on-a-deliberately-laid-bed-of-sand_903150/",
+    "Buto como um dos assentamentos mais antigos do Egito (ocupação pré-dinástica) — Britannica, 'Buto'"
+  ]
+}
