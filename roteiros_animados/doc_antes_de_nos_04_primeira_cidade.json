@@ -1,0 +1,628 @@
+{
+ "canal": "antes_de_nos",
+ "titulo": "Qual Foi a Primeira Cidade do Mundo?",
+ "titulo_youtube": "Qual Foi a Primeira Cidade do Mundo? A Resposta Surpreende | Documentário",
+ "tipo": "documentario",
+ "formato": "horizontal",
+ "duracao_max": 999,
+ "volume_musica": 0.0,
+ "opcoes_imagem": 2,
+ "palavras_por_bloco": 600,
+ "plataformas": [
+  "youtube"
+ ],
+ "fonte_imagem": "modelscope",
+ "fundo_video": "pixabay",
+ "texto_capa": [
+  "A PRIMEIRA",
+  "*CIDADE",
+  "DO MUNDO"
+ ],
+ "selo_capa": "Documentário",
+ "cena_capa": 0,
+ "capa_prompt": "cinematic documentary photo of the ancient mud-brick city of Uruk at golden hour seen from above, monumental building on a high platform in the center, palm groves and canals, dramatic sky, the left half of the frame dark and empty for text, realistic, 16:9, no text, no people, no person",
+ "estilo_imagem": "photorealistic documentary reconstruction, National Geographic style, natural light, ultra detailed, horizontal 16:9, no text",
+ "prefixo_imagem": "documentary photo:",
+ "epoca_imagem": "Neolithic and early Bronze Age Near East, 11,000 to 5,000 years ago; mud brick, stone, clay, reeds, wood; no modern objects, no metal machines, no roads, no electric lights, no text, no watermark",
+ "epoca_curta": "ancient Near East",
+ "estilo_voz": "narrador de documentário, calmo, caloroso e curioso",
+ "legenda": "Qual foi a primeira cidade do mundo? Neste documentário, vamos à torre de pedra de Tell es-Sultan, em Jericó, erguida uns 10 mil anos atrás; a Çatalhöyük, na Turquia, a cidade sem ruas onde se entrava pelo telhado e onde pode estar o mapa mais antigo do mundo; às aldeias gigantes da cultura Cucuteni-Trypillia, na Ucrânia, que queimavam as próprias casas; e a Uruk, no Iraque, a cidade que a maioria dos arqueólogos considera a primeira de verdade — e onde nasceu a escrita, para controlar cevada e cerveja.\n\nQual desses lugares merece o título de primeira cidade do mundo? Escreva nos comentários.",
+ "hashtags": [
+  "#história",
+  "#documentário",
+  "#primeiracidade",
+  "#mesopotâmia",
+  "#arqueologia",
+  "#históriaantiga",
+  "#curiosidades"
+ ],
+ "fontes": [
+  "World History Encyclopedia — Early Jericho (Tell es-Sultan; muro de 3,6 m; torre de 8,5 m, 9 m de base, 22 degraus; 300 a 3.000 habitantes): https://www.worldhistory.org/article/951/early-jericho",
+  "Liran, R. & Barkai, R., Antiquity (2011), a torre de Jericó e a sombra do solstício de verão (hipótese)",
+  "National Geographic (2019) — Çatalhöyük: até 8.000 moradores, entrada pelo teto, mortos sob o piso, mural do Hasan Dağı (Schmitt 2013), Mellaart anos 1960, Hodder 1993–2018, 4% escavado, Unesco 2012: https://www.nationalgeographic.com/history/magazine/2019/03-04/early-agricultural-settlement-catalhoyuk-turkey/",
+  "TheCollector — Por que Çatalhöyük não tinha ruas (7100–5700 a.C., 3.000–8.000 pessoas, ~13 ha): https://www.thecollector.com/why-did-catalhoyuk-have-no-streets",
+  "Bower, B., Science News (2020) — megassítios Trypillia, Nebelivka (>1 km², 1.445 casas, 24 casas de reunião, ~2/3 queimadas), estimativas de Durham; Tell Brak segundo Monica Smith: https://www.sciencenews.org/article/ancient-urban-megasites-may-reshape-history-first-cities",
+  "Gaydarska, B., Nebbia, M. & Chapman, J., Cambridge Archaeological Journal 30 (2020), doi:10.1017/S0959774319000301",
+  "Wikipedia — Settlements of the Cucuteni–Trypillia culture (fotos aéreas dos anos 1960, anéis concêntricos, casas queimadas): https://en.wikipedia.org/wiki/Settlements_of_the_Cucuteni%E2%80%93Trypillia_culture",
+  "World History Encyclopedia — Uruk (Período de Uruk, escrita c. 3200 a.C., Loftus 1853, abandono c. 700 d.C.): https://www.worldhistory.org/uruk",
+  "Musacchio, F. (2025) — Uruk: 40.000–80.000 habitantes c. 3100 a.C., ~6 km²: https://www.fabriziomusacchio.com/weekend_stories/told/2025/2025-01-01-uruk/",
+  "TheCollector — Eridu e Uruk (muralha de ~9 km c. 3000 a.C., Jordan 1912–13; Eridu abandonada c. 600 a.C.): https://www.thecollector.com/ancient-cities-sumeria-uruk-eridu/"
+ ],
+ "short_isca": {
+  "texto_topo": "A CIDADE SEM PORTAS",
+  "titulo": "Existiu uma cidade onde ninguém entrava pela porta",
+  "hashtags": [
+   "historia",
+   "arqueologia",
+   "documentario"
+  ],
+  "cenas": [
+   0
+  ]
+ },
+ "revelacao": {
+  "promessa_cena": 1,
+  "entrega_cena": 71,
+  "o_que": "Qual foi a primeira cidade de verdade (Uruk) e o que ela inventou que usamos agora mesmo: a escrita, criada para fazer contas de cevada e cerveja"
+ },
+ "cenas": [
+  {
+   "trecho": "Existiu uma cidade onde ninguém entrava pela porta. As casas eram coladas umas nas outras. Não havia ruas. E, para chegar em casa, as pessoas andavam por cima dos telhados e desciam por uma escada.",
+   "prompt_imagem": "aerial view of a dense neolithic town of flat-roofed mud-brick houses packed wall to wall with no streets, wooden ladders sticking out of square holes in the roofs, Anatolian plain at dawn, no people, documentary reconstruction",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "No final deste documentário, eu vou te mostrar qual lugar a maioria dos arqueólogos chama de primeira cidade de verdade. E vou te contar o que ela inventou, uma coisa que você está usando agora mesmo.",
+   "prompt_imagem": "a wooden ladder rising out of a square opening in a flat mud roof, neolithic Anatolia, warm morning light, close up, no people",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Mas antes, nós vamos fazer uma viagem de mais de dez mil anos. Vamos passar por uma torre de pedra mais velha que as pirâmides, por uma cidade de telhados e por aldeias gigantes que eram queimadas de propósito.",
+   "prompt_imagem": "clay tablets with ancient wedge-shaped cuneiform signs lying on a wooden table, warm light, close up, no people",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Porque a pergunta parece simples, mas não é. Qual foi a primeira cidade do mundo?",
+   "prompt_imagem": "a round stone tower beside a stone wall of a neolithic village near a spring, Jordan valley, golden hour, no people, documentary reconstruction",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Durante quase toda a história humana, ninguém morou em cidade. Nem em vila. Nossos antepassados viviam em pequenos grupos, de algumas dezenas de pessoas, que se mudavam conforme as estações.",
+   "prompt_imagem": "a small prehistoric camp of hide tents beside a river under a vast sky, smoke from a campfire, tiny distant figures, Stone Age, very wide shot",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Seguiam os animais, as frutas, a água. Carregavam pouca coisa, porque tudo o que tinham precisava caber nas costas. Então, há uns doze mil anos, algo começou a mudar no Oriente Médio, numa faixa de terra fértil que os historiadores chamam de Crescente Fértil.",
+   "prompt_imagem": "wild wheat and barley swaying in the wind on rolling hills of the Fertile Crescent, golden light, no people, wide shot",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "O clima tinha esquentado depois da última Era do Gelo. Cereais selvagens, como o trigo e a cevada, cresciam em grandes quantidades. E alguns grupos perceberam que, se ficassem num lugar só, podiam colher, guardar e, aos poucos, plantar.",
+   "prompt_imagem": "documentary reconstruction, river sunrise, ancient Near East, natural light",
+   "vazia": true,
+   "animar": false,
+   "busca_video": "river sunrise"
+  },
+  {
+   "trecho": "Os arqueólogos chamam essa virada de Revolução Neolítica. Não aconteceu de uma hora para outra. Levou milhares de anos, e em vários lugares do mundo, de forma independente.",
+   "prompt_imagem": "a stone sickle with flint blades lying on a pile of wild barley ears, close up, still life, natural light",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Ficar parado mudou tudo. Com comida guardada, as famílias cresceram. As casas deixaram de ser cabanas de passagem e viraram construções de pedra e barro. E, pela primeira vez, centenas de pessoas passaram a viver lado a lado, o ano inteiro, com vizinhos que não eram da própria família.",
+   "prompt_imagem": "early round stone and mud houses of a neolithic village among hills, smoke rising, tiny distant figures, Levant, wide shot",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Foi aí que nasceu um problema novo, que acompanha a gente até hoje: como viver junto com tanta gente? Se você gosta de descobrir como era o mundo antes de nós, inscreva-se no canal e ative o sininho. Toda semana tem documentário novo por aqui.",
+   "prompt_imagem": "documentary reconstruction, flint tool, ancient Near East, natural light",
+   "vazia": true,
+   "animar": false,
+   "acervo": "flint tool"
+  },
+  {
+   "trecho": "A nossa primeira parada é um morro perto de uma fonte de água no vale do rio Jordão. Os arqueólogos chamam esse lugar de Tell es-Sultan, o morro do sultão.",
+   "prompt_imagem": "a desert oasis spring with palm trees at the foot of a dry hill in the Jordan valley, ancient landscape, no buildings, no people, wide shot",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "É a parte antiga de Jericó. A fonte nunca secou, e por isso gente vem morando ali há mais de dez mil anos. Há uns onze mil anos, já havia casas redondas de barro, com uns cinco metros de largura.",
+   "prompt_imagem": "a cluster of round mud houses about five meters wide in a neolithic village, Jordan valley, morning light, no people, documentary reconstruction",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Há uns dez mil anos, o povoado ocupava uns quatro hectares e estava cercado por um muro de pedra de mais de três metros e meio de altura.",
+   "prompt_imagem": "a thick stone wall about four meters high surrounding a neolithic village of round huts, Jordan valley, wide shot, no people, documentary reconstruction",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "E, encostada nesse muro, havia uma torre. Uma torre de pedra com oito metros e meio de altura e nove metros de largura na base. Dentro dela, uma escada com vinte e dois degraus levava até o topo.",
+   "prompt_imagem": "a massive round stone tower eight meters tall built against a village wall, neolithic Jericho, golden hour, no people, documentary reconstruction",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Ela foi encontrada na década de 1950 pela arqueóloga britânica Kathleen Kenyon. E deixou os pesquisadores de boca aberta, porque foi erguida milhares de anos antes da primeira pirâmide do Egito.",
+   "prompt_imagem": "a narrow stone staircase climbing inside a dark ancient stone tower, light from above, no people",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "A pergunta que todo mundo faz é: por que um povoado de agricultores construiria uma torre dessas? A primeira ideia foi defesa. Um muro e uma torre parecem coisa de guerra.",
+   "prompt_imagem": "the ruins of an ancient round stone tower at sunset in a dusty excavation, Jordan valley, no people",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Mas não se encontrou sinal de ataques naquela época, e a torre fica do lado de dentro do muro. Outros pesquisadores acham que o muro protegia o povoado das enchentes e da lama que descia dos morros.",
+   "prompt_imagem": "a neolithic stone wall at the foot of hills with a muddy flood stream after rain, Jordan valley, no people, documentary reconstruction",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "E, em 2011, dois arqueólogos de Israel propuseram uma ideia curiosa. No dia mais longo do ano, a sombra de uma montanha próxima, ao pôr do sol, cai exatamente sobre a torre e cobre o povoado.",
+   "prompt_imagem": "the long shadow of a mountain falling over a neolithic village and its round stone tower at sunset, Jordan valley, wide shot, no people",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Pode ser coincidência. Pode ser que a torre marcasse esse dia. A verdade é que ninguém sabe, e isso é uma hipótese. Mas uma coisa os arqueólogos concordam: erguer uma torre assim exigiu muita gente trabalhando junto, por muito tempo, com alguém organizando o trabalho.",
+   "prompt_imagem": "a sun setting behind a dark mountain ridge seen from an ancient stone tower, dramatic sky, no people",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Quantas pessoas moravam lá? As estimativas variam muito, de umas trezentas até umas três mil. E é por isso que Jericó, apesar de ser um dos lugares habitados mais antigos do planeta, geralmente não é chamada de cidade. Era um grande povoado. A cidade ainda estava por vir.",
+   "prompt_imagem": "tiny distant figures carrying stones toward a half-built round stone tower in a neolithic village, wide shot, dusty light, documentary reconstruction",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Agora vamos para o planalto da Anatólia, no centro da Turquia. Ali existe um morro chamado Çatalhöyük. Os arqueólogos estimam que o lugar foi ocupado mais ou menos entre nove mil e cem e sete mil e setecentos anos atrás.",
+   "prompt_imagem": "documentary reconstruction, sunrise mountains, ancient Near East, natural light",
+   "vazia": true,
+   "animar": false,
+   "busca_video": "sunrise mountains"
+  },
+  {
+   "trecho": "Foram mais de mil anos de casas construídas sobre casas. No auge, Çatalhöyük pode ter tido entre três mil e oito mil moradores, numa área de uns treze hectares.",
+   "prompt_imagem": "an aerial view of a neolithic town of hundreds of rectangular mud-brick houses packed together like a honeycomb with no streets, Anatolian plain, no people, documentary reconstruction",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Para a época, era uma multidão. E é aqui que está a cidade sem portas do começo do vídeo. As casas de tijolo de barro eram construídas encostadas umas nas outras, parede com parede, como um grande favo de mel.",
+   "prompt_imagem": "flat mud rooftops of a neolithic town connected like terraces, ladders and roof openings, distant volcano on the horizon, tiny distant figures, wide shot",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Não havia ruas entre elas. Para entrar, as pessoas subiam até os telhados, abriam uma passagem no teto e desciam por uma escada de madeira até o cômodo principal.",
+   "prompt_imagem": "the interior of a neolithic mud-brick house with white plastered walls, a clay oven, raised sleeping platforms and a wooden ladder to a roof hole, light beam from above, no people",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Os telhados funcionavam como as calçadas. Era por cima deles que as pessoas andavam, conversavam e trabalhavam nos dias de sol. Dentro das casas havia um forno, plataformas para dormir e paredes rebocadas de branco, que eram pintadas de novo muitas e muitas vezes.",
+   "prompt_imagem": "a clay oven glowing inside a dim white plastered neolithic room, still life, no people",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Quando uma casa ficava velha demais, os moradores não a derrubavam. Enchiam o cômodo de terra e construíam a casa nova em cima. Geração após geração, a cidade foi subindo, até formar o morro que existe hoje.",
+   "prompt_imagem": "layers of ancient mud-brick walls built on top of older walls in an archaeological mound, cross-section, no people, natural light",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Algumas paredes de Çatalhöyük tinham pinturas. Animais, figuras geométricas e cenas de caça. Uma delas chamou atenção de um jeito especial. Ela mostra fileiras de pequenos retângulos, como casas vistas de cima.",
+   "prompt_imagem": "a neolithic wall painting in red ochre of wild bulls and deer on a white plastered wall, dim light, close up, no people",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "E, acima delas, uma forma que parece uma montanha com dois picos soltando fumaça. A uns cento e trinta quilômetros dali existe um vulcão de dois picos, o Hasan Dağı.",
+   "prompt_imagem": "an ancient red ochre wall painting of rows of small rectangles like houses seen from above with a two-peaked mountain above them, white plaster wall, close up",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Em 2013, um grupo de geólogos analisou rochas do vulcão e concluiu que ele entrou em erupção há quase nove mil anos. Ou seja, os moradores de Çatalhöyük podem ter visto essa erupção.",
+   "prompt_imagem": "a twin-peaked volcano erupting with a column of smoke over a wide plain at dusk, central Anatolia, prehistoric, no people, wide shot",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "E alguém pode ter pintado a cena na parede. Se essa leitura estiver certa, essa pintura é uma das representações de paisagem mais antigas que se conhece.",
+   "prompt_imagem": "a distant snowy twin-peaked volcano over the dry Anatolian plateau, clear sky, no buildings, no people, wide shot",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Alguns pesquisadores chegam a chamá-la de o mapa mais antigo do mundo. Mas atenção: outros acham que os retângulos são só um desenho geométrico, e que a montanha pode ser outra coisa.",
+   "prompt_imagem": "a neolithic artist's ochre pigments, shells and brushes on a mud floor beside a painted white wall, still life, no people",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "É uma hipótese, e uma das mais bonitas da arqueologia. Do vulcão, aliás, vinha uma riqueza: a obsidiana, um vidro vulcânico negro e afiado, usado para fazer lâminas e até espelhos polidos.",
+   "prompt_imagem": "documentary reconstruction, obsidian, ancient Near East, natural light",
+   "vazia": true,
+   "animar": false,
+   "acervo": "obsidian"
+  },
+  {
+   "trecho": "Havia mais uma coisa estranha em Çatalhöyük. Os moradores enterravam seus mortos debaixo do piso das próprias casas. A família literalmente vivia em cima dos seus antepassados.",
+   "prompt_imagem": "a dim neolithic room with a plastered floor and a low raised platform, quiet atmosphere, no people, no bones",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "E quando os arqueólogos compararam as casas, tiveram uma surpresa. Elas eram muito parecidas entre si. Não apareceu um palácio, nem um bairro rico, nem uma casa muito maior que as outras.",
+   "prompt_imagem": "rows of identical rectangular mud-brick houses of the same size in a neolithic town, aerial view, no palace, no people",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "O lugar foi escavado primeiro pelo britânico James Mellaart, nos anos 1960. Depois, entre 1993 e 2018, uma equipe liderada pelo arqueólogo Ian Hodder estudou o sítio por vinte e cinco anos.",
+   "prompt_imagem": "archaeologists' brushes, trowels and a measuring grid on an excavated mud-brick wall, no people, natural light",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "E, mesmo assim, só cerca de quatro por cento do morro foi escavado. Ainda há muito por baixo da terra. Desde 2012, Çatalhöyük é Patrimônio Mundial da Unesco.",
+   "prompt_imagem": "excavated walls of neolithic mud-brick houses packed side by side on an archaeological mound, aerial view, no people, natural light",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Mas era uma cidade? Muitos arqueólogos dizem que não. Era uma aldeia enorme, onde todo mundo fazia mais ou menos as mesmas coisas: plantava, criava animais, fazia ferramentas. Faltava algo que toda cidade tem.",
+   "prompt_imagem": "an untouched grassy archaeological mound on a flat plain under a cloudy sky, central Turkey, no people, wide shot",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Antes de seguir viagem, vale a pena pensar nessa pergunta. Muita gente acredita que uma cidade é só um lugar com muita gente. Mas, para os arqueólogos, não basta tamanho.",
+   "prompt_imagem": "an ancient potter's wheel with a half-made clay jar in a mud-brick workshop, still life, no people",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Uma cidade costuma ter algumas marcas. Gente que não planta a própria comida, porque trabalha em outras coisas, como ferreiros, oleiros, tecelões e administradores. Construções públicas grandes, que servem a toda a comunidade.",
+   "prompt_imagem": "an ancient weaving loom with wool cloth in a mud-brick room, still life, no people",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Alguma forma de governo, que organiza o trabalho e guarda os recursos. E comércio com lugares distantes. Em outras palavras, uma cidade é um lugar onde as pessoas dependem umas das outras para sobreviver.",
+   "prompt_imagem": "a large monumental mud-brick building on a raised platform at the center of an ancient Mesopotamian town, golden light, tiny distant figures, documentary reconstruction",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Repare que nenhuma dessas marcas fala de muralhas ou de tamanho. O que define a cidade é a dependência. Guarde isso, porque essa definição vai ser importante no final.",
+   "prompt_imagem": "donkeys loaded with bundles walking along a dusty caravan route between hills, ancient times, tiny distant figures, wide shot",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "E, antes de chegar lá, vamos visitar um dos casos mais estranhos e menos conhecidos dessa história.",
+   "prompt_imagem": "documentary reconstruction, cylinder seal, ancient Near East, natural light",
+   "vazia": true,
+   "animar": false,
+   "acervo": "cylinder seal"
+  },
+  {
+   "trecho": "Em 1960 e poucos, fotos aéreas tiradas sobre os campos da Ucrânia mostraram algo que ninguém esperava. Marcas no solo, formando enormes anéis ovais, um dentro do outro.",
+   "prompt_imagem": "aerial view of a vast green steppe with faint oval rings of crop marks in the soil, Ukraine, no buildings, no people",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Eram os restos de povoados de uma cultura que os arqueólogos chamam de Cucuteni-Trypillia. Esses lugares foram ocupados entre uns seis mil e cem e cinco mil e quatrocentos anos atrás.",
+   "prompt_imagem": "aerial view of a prehistoric settlement of more than a thousand wooden and clay houses arranged in huge concentric oval rings around an empty central plaza, Eastern European steppe, 4000 BC, documentary reconstruction, no people",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Ou seja, antes das cidades da Mesopotâmia. Um deles, Nebelivka, ocupava mais de um quilômetro quadrado. Com fotos e aparelhos que leem o subsolo, os pesquisadores mapearam mais de mil e quatrocentas casas, além de vinte e quatro grandes edifícios de reunião.",
+   "prompt_imagem": "documentary reconstruction, dry grassland, ancient Near East, natural light",
+   "vazia": true,
+   "animar": false,
+   "busca_video": "dry grassland"
+  },
+  {
+   "trecho": "As casas ficavam arrumadas em anéis, ao redor de um grande espaço aberto no meio. E aqui vem o mistério. Cerca de dois terços das casas de Nebelivka foram queimadas.",
+   "prompt_imagem": "a large prehistoric clay and timber assembly house with a thatched roof in an open plaza, steppe, golden light, no people, documentary reconstruction",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Não por acidente, nem por inimigos. Tudo indica que foram queimadas de propósito, pelos próprios moradores. Por quê? Ninguém sabe com certeza. Talvez fosse um jeito de encerrar a vida de uma casa antes de construir outra.",
+   "prompt_imagem": "a prehistoric clay house with painted walls burning at night, flames and sparks, steppe, no people",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Durante anos, se falou que esses lugares tinham dez, quinze, até vinte mil moradores. Se fosse verdade, seriam maiores que as primeiras cidades da Mesopotâmia. Mas, em 2020, uma equipe da Universidade de Durham, na Inglaterra, revisou os números de Nebelivka e chegou a uma conclusão bem diferente.",
+   "prompt_imagem": "a ring of prehistoric clay houses on a quiet steppe at dawn, mist, no people, wide shot",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Para eles, o lugar talvez tivesse só alguns milhares de pessoas morando o ano todo. Ou então funcionasse como um ponto de encontro, que enchia de gente em certas épocas do ano e esvaziava depois.",
+   "prompt_imagem": "faint oval rings of buried houses visible as darker lines in a green field at sunset, aerial view, no buildings, no people",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Outros arqueólogos discordam e defendem números maiores. A discussão continua aberta. O mais interessante é que esses povoados gigantes parecem não ter tido reis nem palácios.",
+   "prompt_imagem": "many small campfires glowing at night in a huge prehistoric oval settlement on the steppe, aerial view, tiny distant figures",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "As grandes casas de reunião sugerem que as decisões eram tomadas em grupo. Alguns pesquisadores dizem que foram as primeiras cidades do mundo, só que de um tipo diferente, sem chefes.",
+   "prompt_imagem": "a large prehistoric meeting house with a wide open door facing an empty plaza, timber and clay, no people",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Outros dizem que eram aldeias muito grandes. E por volta de cinco mil e quatrocentos anos atrás, esses povoados foram abandonados. As famílias se espalharam em lugares menores.",
+   "prompt_imagem": "documentary reconstruction, grassland sunset, ancient Near East, natural light",
+   "vazia": true,
+   "animar": false,
+   "busca_video": "grassland sunset"
+  },
+  {
+   "trecho": "Agora sim, chegamos ao lugar onde quase todos os livros de história começam: a Mesopotâmia. O nome quer dizer terra entre rios. É a planície entre o Tigre e o Eufrates, onde hoje fica o Iraque.",
+   "prompt_imagem": "documentary reconstruction, river sunset, ancient Near East, natural light",
+   "vazia": true,
+   "animar": false,
+   "busca_video": "river sunset"
+  },
+  {
+   "trecho": "Parece um lugar ruim para começar uma civilização. Chove pouco, o verão é escaldante e não há pedra nem muita madeira. Mas os rios traziam água e lodo fértil.",
+   "prompt_imagem": "a wide river flowing through a flat desert plain with green reed marshes, ancient Mesopotamia, no buildings, no people, wide shot",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "E os moradores aprenderam a cavar canais para levar essa água até os campos. Com irrigação, a cevada crescia em quantidades enormes. Os próprios sumérios, o povo que vivia no sul da Mesopotâmia, contavam que a primeira cidade do mundo tinha sido Eridu, perto do antigo litoral.",
+   "prompt_imagem": "ancient irrigation canals carrying water from a river to green barley fields on a flat desert plain, Mesopotamia, tiny distant figures, wide shot, documentary reconstruction",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Ela foi habitada por milhares de anos e só foi abandonada há uns dois mil e seiscentos anos. Mais ao norte, na Síria, outro lugar disputa o título: Tell Brak.",
+   "prompt_imagem": "tall green reed marshes and still water at sunrise in southern Iraq, no buildings, no people",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Uma arqueóloga americana defende que ele foi a cidade mais antiga conhecida, com uns seis mil anos. Mas existe uma cidade que, para a maioria dos arqueólogos, passou na frente de todas.",
+   "prompt_imagem": "the low eroded mud-brick ruins of an ancient city mound in the desert of southern Iraq, golden hour, no people",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Ela se chamava Uruk. Hoje é um campo de ruínas no deserto do sul do Iraque, num lugar chamado Warka. Uruk foi habitada por milhares de anos.",
+   "prompt_imagem": "vast eroded mud-brick ruins of the ancient city of Uruk in the desert of southern Iraq, aerial view, no people",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Mas o seu grande momento veio entre uns seis mil e cinco mil e cem anos atrás, um período tão importante que os arqueólogos deram a ele o nome da cidade: o Período de Uruk.",
+   "prompt_imagem": "the ancient city of Uruk seen from above, a dense city of mud-brick houses surrounded by palm groves and canals, monumental buildings in the center, 3100 BC, documentary reconstruction, tiny distant figures",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "As primeiras escavações sérias por lá começaram em 1850 e poucos, com o britânico William Loftus. Depois, equipes alemãs trabalharam no lugar por muitas décadas, e ainda trabalham.",
+   "prompt_imagem": "a monumental mud-brick building on a high platform in the center of an ancient Mesopotamian city, golden light, documentary reconstruction, no people",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Há uns cinco mil e cem anos, os pesquisadores estimam que Uruk tinha dezenas de milhares de moradores, talvez entre quarenta e oitenta mil, numa área de uns seis quilômetros quadrados.",
+   "prompt_imagem": "a wall decorated with a mosaic of thousands of small colored clay cones in red, black and white zigzag patterns, close up",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Nenhum lugar do mundo tinha reunido tanta gente até então. E Uruk tinha tudo aquilo que faltava nas aldeias gigantes. No centro, havia enormes edifícios de tijolo, decorados com mosaicos feitos de milhares de pequenos cones de barro coloridos.",
+   "prompt_imagem": "documentary reconstruction, beveled rim bowl, ancient Near East, natural light",
+   "vazia": true,
+   "animar": false,
+   "acervo": "beveled rim bowl"
+  },
+  {
+   "trecho": "Havia oleiros, tecelões, cervejeiros, pedreiros, comerciantes e administradores. Muita gente que não plantava a própria comida e dependia do trabalho dos outros. Os arqueólogos também encontraram ali milhares de tigelas de barro grosseiras, todas quase do mesmo tamanho, feitas em série.",
+   "prompt_imagem": "hundreds of identical coarse clay bowls stacked in an ancient storeroom, still life, no people",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Uma hipótese é que elas serviam para medir as rações de comida dadas aos trabalhadores. Há uns cinco mil anos, a cidade foi cercada por uma muralha de uns nove quilômetros de comprimento.",
+   "prompt_imagem": "a huge ancient mud-brick city wall with towers stretching into the distance across the desert, Mesopotamia, no people, documentary reconstruction",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Mais tarde, as histórias dos sumérios diriam que ela tinha sido construída pelo lendário rei Gilgamesh.",
+   "prompt_imagem": "an ancient Mesopotamian brewery with large clay jars of beer and barley sacks, still life, no people",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "E agora eu vou te mostrar a revelação que prometi no começo. Imagine administrar uma cidade de dezenas de milhares de pessoas. Quantos sacos de cevada entraram no depósito?",
+   "prompt_imagem": "documentary reconstruction, cuneiform tablet, ancient Near East, natural light",
+   "vazia": true,
+   "animar": false,
+   "acervo": "cuneiform tablet"
+  },
+  {
+   "trecho": "Quantos jarros de cerveja foram dados a cada trabalhador? Quem ainda está devendo? Nenhuma memória humana dá conta disso. Então, os administradores de Uruk começaram a fazer marcas em pequenas placas de argila molhada, com a ponta de um caniço.",
+   "prompt_imagem": "an ancient storehouse full of barley sacks and clay beer jars, warm lamp light, still life, no people",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Antes disso, segundo uma hipótese muito conhecida da arqueóloga Denise Schmandt-Besserat, os povos da região já usavam pequenas fichas de barro, de formatos diferentes, para representar mercadorias.",
+   "prompt_imagem": "a reed stylus pressing marks into a small wet clay tablet, extreme close up, warm light, only the stylus and clay",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Uma bolinha podia valer uma medida de grão. Um cone, outra coisa. Com o tempo, em vez de guardar as fichas, os administradores passaram a desenhar as marcas direto na argila.",
+   "prompt_imagem": "a small clay tablet with simple pictographs of a barley ear, a sheep and a beer jar and round number marks, close up",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Um desenho para cevada. Outro para ovelha. Outro para cerveja. E marcas para os números. Há uns cinco mil e duzentos anos, essas marcas viraram um sistema.",
+   "prompt_imagem": "documentary reconstruction, proto-cuneiform tablet, ancient Near East, natural light",
+   "vazia": true,
+   "animar": false,
+   "acervo": "proto-cuneiform tablet"
+  },
+  {
+   "trecho": "Foi o começo da escrita, que mais tarde ficaria conhecida como escrita cuneiforme. E aqui está a parte que pouca gente sabe. A maioria das primeiras tábuas escritas de Uruk não conta histórias, nem poemas, nem leis.",
+   "prompt_imagem": "rows of clay tablets with wedge-shaped cuneiform signs drying in the sun on a mud-brick ledge, still life, no people",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "São contas. Listas de cevada, de cerveja, de animais e de trabalhadores. A escrita, a invenção que você está usando agora mesmo para ler a legenda, a mensagem do celular ou o nome deste canal, nasceu para controlar o estoque de uma cidade.",
+   "prompt_imagem": "an ancient scribe's workspace with clay tablets, reed styluses and a water bowl, still life, no people",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Os poemas e as histórias, como a de Gilgamesh, só vieram séculos depois. Por isso a maioria dos arqueólogos diz que Uruk foi a primeira cidade de verdade.",
+   "prompt_imagem": "documentary reconstruction, cylinder seal, ancient Near East, natural light",
+   "vazia": true,
+   "animar": false,
+   "acervo": "cylinder seal"
+  },
+  {
+   "trecho": "Não foi a mais antiga a ter casas, nem a primeira a ter muita gente. Foi a primeira em que tanta gente passou a depender uma da outra, a ponto de precisar inventar a escrita.",
+   "prompt_imagem": "the sun rising over the ruins of an ancient Mesopotamian city, dramatic light, no people, wide shot",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Uruk continuou habitada por milhares de anos, sob vários reinos e impérios. Mas o rio Eufrates, que dava vida à cidade, mudou de curso. A terra foi ficando salgada por causa de tanta irrigação.",
+   "prompt_imagem": "an ancient river slowly changing course across a flat desert plain, dry riverbed beside a city mound, aerial view, no people",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "E, aos poucos, as pessoas foram embora. Há uns mil e trezentos anos, Uruk já estava abandonada. A areia cobriu os tijolos, e a primeira grande cidade do mundo virou um conjunto de morros no deserto.",
+   "prompt_imagem": "white salt crust cracking on a dry abandoned field in the desert of southern Iraq, close up, no people",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Hoje, mais da metade da humanidade vive em cidades. Moramos em prédios, andamos por ruas, compramos comida que outras pessoas plantaram e usamos a escrita o dia inteiro.",
+   "prompt_imagem": "sand drifting over buried mud-brick walls of an abandoned ancient city, wind, no people",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Pense nisso da próxima vez que você anotar uma conta, mandar uma mensagem ou andar por uma rua cheia de gente. Tudo isso começou em lugares como Jericó, com sua torre misteriosa.",
+   "prompt_imagem": "documentary reconstruction, desert sand, ancient Near East, natural light",
+   "vazia": true,
+   "animar": false,
+   "busca_video": "desert sand"
+  },
+  {
+   "trecho": "Como Çatalhöyük, a cidade dos telhados. Como as aldeias gigantes da Ucrânia, que queimavam as próprias casas. E como Uruk, onde alguém, um dia, fez as primeiras marcas numa placa de argila para não esquecer quanta cerveja tinha no depósito.",
+   "prompt_imagem": "low ruin mounds of an ancient city in the desert under a starry night sky, no people, wide shot",
+   "vazia": false,
+   "animar": false
+  },
+  {
+   "trecho": "Agora eu quero saber de você. Qual desses lugares você acha que merece o título de primeira cidade do mundo? Jericó, Çatalhöyük, Nebelivka ou Uruk? Escreva nos comentários.",
+   "prompt_imagem": "documentary reconstruction, cuneiform tablet, ancient Near East, natural light",
+   "vazia": true,
+   "animar": false,
+   "acervo": "cuneiform tablet"
+  },
+  {
+   "trecho": "E se você gostou dessa viagem, inscreva-se no Antes de Nós. Toda semana tem um documentário novo sobre o mundo antes de nós.",
+   "prompt_imagem": "the eroded ruins of an ancient mud-brick city at sunset, long shadows, epic wide shot, no people",
+   "vazia": false,
+   "animar": false
+  }
+ ],
+ "capitulos": [
+  {
+   "cena": 0,
+   "titulo": "Uma cidade sem portas"
+  },
+  {
+   "cena": 4,
+   "titulo": "O mundo antes das cidades"
+  },
+  {
+   "cena": 10,
+   "titulo": "A torre mais velha do mundo"
+  },
+  {
+   "cena": 15,
+   "titulo": "Para que servia a torre?"
+  },
+  {
+   "cena": 20,
+   "titulo": "A cidade dos telhados"
+  },
+  {
+   "cena": 26,
+   "titulo": "O mapa mais antigo do mundo"
+  },
+  {
+   "cena": 32,
+   "titulo": "Uma cidade sem chefes?"
+  },
+  {
+   "cena": 37,
+   "titulo": "O que faz uma cidade ser cidade?"
+  },
+  {
+   "cena": 42,
+   "titulo": "As aldeias gigantes que pegavam fogo"
+  },
+  {
+   "cena": 47,
+   "titulo": "Quanta gente morava lá?"
+  },
+  {
+   "cena": 52,
+   "titulo": "A terra entre os rios"
+  },
+  {
+   "cena": 57,
+   "titulo": "Uruk, a primeira cidade de verdade"
+  },
+  {
+   "cena": 65,
+   "titulo": "A invenção que nasceu da cerveja"
+  },
+  {
+   "cena": 74,
+   "titulo": "O que ficou de Uruk"
+  }
+ ]
+}

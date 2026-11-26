@@ -1,0 +1,68 @@
+{
+ "canal": "antes_de_nos",
+ "titulo": "Qual Foi a Primeira Cidade do Mundo?",
+ "titulo_youtube": "Qual Foi a Primeira Cidade do Mundo? A Resposta Surpreende | Documentário",
+ "tipo": "documentario",
+ "formato": "horizontal",
+ "duracao_max": 999,
+ "volume_musica": 0.0,
+ "opcoes_imagem": 2,
+ "palavras_por_bloco": 600,
+ "plataformas": [
+  "youtube"
+ ],
+ "fonte_imagem": "modelscope",
+ "fundo_video": "pixabay",
+ "texto_capa": [
+  "A PRIMEIRA",
+  "*CIDADE",
+  "DO MUNDO"
+ ],
+ "selo_capa": "Documentário",
+ "cena_capa": 0,
+ "capa_prompt": "cinematic documentary photo of the ancient mud-brick city of Uruk at golden hour seen from above, monumental building on a high platform in the center, palm groves and canals, dramatic sky, the left half of the frame dark and empty for text, realistic, 16:9, no text, no people, no person",
+ "estilo_imagem": "photorealistic documentary reconstruction, National Geographic style, natural light, ultra detailed, horizontal 16:9, no text",
+ "prefixo_imagem": "documentary photo:",
+ "epoca_imagem": "Neolithic and early Bronze Age Near East, 11,000 to 5,000 years ago; mud brick, stone, clay, reeds, wood; no modern objects, no metal machines, no roads, no electric lights, no text, no watermark",
+ "epoca_curta": "ancient Near East",
+ "estilo_voz": "narrador de documentário, calmo, caloroso e curioso",
+ "legenda": "Qual foi a primeira cidade do mundo? Neste documentário, vamos à torre de pedra de Tell es-Sultan, em Jericó, erguida uns 10 mil anos atrás; a Çatalhöyük, na Turquia, a cidade sem ruas onde se entrava pelo telhado e onde pode estar o mapa mais antigo do mundo; às aldeias gigantes da cultura Cucuteni-Trypillia, na Ucrânia, que queimavam as próprias casas; e a Uruk, no Iraque, a cidade que a maioria dos arqueólogos considera a primeira de verdade — e onde nasceu a escrita, para controlar cevada e cerveja.\n\nQual desses lugares merece o título de primeira cidade do mundo? Escreva nos comentários.",
+ "hashtags": [
+  "#história",
+  "#documentário",
+  "#primeiracidade",
+  "#mesopotâmia",
+  "#arqueologia",
+  "#históriaantiga",
+  "#curiosidades"
+ ],
+ "fontes": [
+  "World History Encyclopedia — Early Jericho (Tell es-Sultan; muro de 3,6 m; torre de 8,5 m, 9 m de base, 22 degraus; 300 a 3.000 habitantes): https://www.worldhistory.org/article/951/early-jericho",
+  "Liran, R. & Barkai, R., Antiquity (2011), a torre de Jericó e a sombra do solstício de verão (hipótese)",
+  "National Geographic (2019) — Çatalhöyük: até 8.000 moradores, entrada pelo teto, mortos sob o piso, mural do Hasan Dağı (Schmitt 2013), Mellaart anos 1960, Hodder 1993–2018, 4% escavado, Unesco 2012: https://www.nationalgeographic.com/history/magazine/2019/03-04/early-agricultural-settlement-catalhoyuk-turkey/",
+  "TheCollector — Por que Çatalhöyük não tinha ruas (7100–5700 a.C., 3.000–8.000 pessoas, ~13 ha): https://www.thecollector.com/why-did-catalhoyuk-have-no-streets",
+  "Bower, B., Science News (2020) — megassítios Trypillia, Nebelivka (>1 km², 1.445 casas, 24 casas de reunião, ~2/3 queimadas), estimativas de Durham; Tell Brak segundo Monica Smith: https://www.sciencenews.org/article/ancient-urban-megasites-may-reshape-history-first-cities",
+  "Gaydarska, B., Nebbia, M. & Chapman, J., Cambridge Archaeological Journal 30 (2020), doi:10.1017/S0959774319000301",
+  "Wikipedia — Settlements of the Cucuteni–Trypillia culture (fotos aéreas dos anos 1960, anéis concêntricos, casas queimadas): https://en.wikipedia.org/wiki/Settlements_of_the_Cucuteni%E2%80%93Trypillia_culture",
+  "World History Encyclopedia — Uruk (Período de Uruk, escrita c. 3200 a.C., Loftus 1853, abandono c. 700 d.C.): https://www.worldhistory.org/uruk",
+  "Musacchio, F. (2025) — Uruk: 40.000–80.000 habitantes c. 3100 a.C., ~6 km²: https://www.fabriziomusacchio.com/weekend_stories/told/2025/2025-01-01-uruk/",
+  "TheCollector — Eridu e Uruk (muralha de ~9 km c. 3000 a.C., Jordan 1912–13; Eridu abandonada c. 600 a.C.): https://www.thecollector.com/ancient-cities-sumeria-uruk-eridu/"
+ ],
+ "short_isca": {
+  "texto_topo": "A CIDADE SEM PORTAS",
+  "titulo": "Existiu uma cidade onde ninguém entrava pela porta",
+  "hashtags": [
+   "historia",
+   "arqueologia",
+   "documentario"
+  ],
+  "cenas": [
+   0
+  ]
+ },
+ "revelacao": {
+  "promessa_cena": 1,
+  "entrega_cena": 71,
+  "o_que": "Qual foi a primeira cidade de verdade (Uruk) e o que ela inventou que usamos agora mesmo: a escrita, criada para fazer contas de cevada e cerveja"
+ }
+}

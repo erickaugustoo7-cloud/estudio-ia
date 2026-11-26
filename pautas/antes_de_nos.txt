@@ -1,3 +1,2 @@
 # Pautas do Antes de Nós — o Radar semanal acrescenta temas em alta; a rotina usa a 1ª linha não comentada e a remove.
 # Formato: DOC | tema  ou  SHORT | tema
-DOC | A primeira cidade do mundo
