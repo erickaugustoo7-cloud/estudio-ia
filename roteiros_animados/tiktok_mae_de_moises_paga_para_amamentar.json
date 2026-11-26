@@ -1,0 +1,75 @@
+{
+  "titulo": "A mãe que soltou o filho no rio e o recebeu de volta",
+  "gancho_tela": "Soltou o filho no rio",
+  "referencia": "Êxodo 1:22; 2:1-10",
+  "serie": "O que quase ninguém sabe",
+  "tipo": "tiktok",
+  "fonte_imagem": "kaggle",
+  "opcoes_imagem": 2,
+  "duracao_max": 40,
+  "volume_musica": 0.12,
+  "plataformas": [
+    "facebook"
+  ],
+  "estilo_imagem": "cinematic photorealistic epic film still, golden hour, dramatic volumetric god rays, ancient Egypt Nile delta, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic slow subtle motion.",
+  "epoca_imagem": "Ancient Egypt, Nile river banks, papyrus reeds, mud brick, woven reed, clay and linen only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "Uma mãe soltou o bebê no rio. E Deus o devolveu.",
+      "prompt_imagem": "a small woven papyrus reed basket sealed with dark pitch floating among tall reeds on the Nile river, golden morning light, mist on the water",
+      "vazia": true,
+      "animar": true,
+      "prompt_movimento": "the reed basket gently drifts on the water, reeds sway in the wind, soft ripples catch the light"
+    },
+    {
+      "trecho": "O Faraó mandou jogar no rio os meninos hebreus.",
+      "prompt_imagem": "the wide Nile river at dusk seen from above, ancient Egyptian mud brick city on the far bank, dramatic clouds",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Ela o escondeu três meses e fez um cesto de juncos.",
+      "prompt_imagem": "close-up of hands weaving papyrus reeds into a small basket beside a clay pot of dark pitch, warm oil lamp light",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "A filha do Faraó achou o cesto e teve compaixão.",
+      "prompt_imagem": "a reed basket resting among papyrus reeds at the river edge, linen cloth inside, soft god rays through the reeds",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "A irmã ofereceu uma ama. E chamou a própria mãe.",
+      "prompt_imagem": "a narrow dirt path between papyrus reeds along the Nile, tiny distant figure running far away, golden light",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "E ouviu: leva este menino e cria-mo; eu te darei teu salário.",
+      "prompt_imagem": "a simple clay house interior with a woven cradle and a linen blanket, warm sunlight through a small window",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Nada entregue a Deus se perde. Siga o Mensageiro de Fé.",
+      "prompt_imagem": "the Nile river at sunrise, tall reeds in the foreground, warm volumetric god rays over the water",
+      "vazia": true,
+      "animar": false
+    }
+  ],
+  "legenda": "A mãe de Moisés entregou o filho ao rio e foi paga para criá-lo (Êxodo 2:9). Você já entregou alguém nas mãos de Deus? Comente 👇",
+  "hashtags": [
+    "#Moisés",
+    "#Bíblia",
+    "#Fé",
+    "#OQueQuaseNinguémSabe",
+    "#Mãe"
+  ],
+  "fontes": [
+    "Êxodo 1:22 e 2:1-10 — Almeida (domínio público)",
+    "https://www.bibliaonline.com.br/arc/ex/2"
+  ]
+}
