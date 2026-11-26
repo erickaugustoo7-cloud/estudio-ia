@@ -1,0 +1,508 @@
+{
+ "formato": "horizontal",
+ "duracao_max": 999,
+ "volume_musica": 0,
+ "opcoes_imagem": 1,
+ "palavras_por_bloco": 600,
+ "plataformas": [
+  "youtube"
+ ],
+ "estilo_imagem": "breathtaking real-world nature landscape photography, peaceful and serene, soft natural light, rich colors, ultra detailed, horizontal 16:9 widescreen, no people, no text",
+ "prefixo_imagem": "beautiful peaceful nature landscape photo:",
+ "prefixo_video": "Peaceful nature shot, very slow and gentle motion.",
+ "epoca_imagem": "real natural landscapes of today (sea, forest, waterfalls, mountains, lakes, sky); no people, no buildings, no text",
+ "fonte_imagem": "cloudflare",
+ "estilo_voz": "emocionado e íntimo, como quem ora de verdade por alguém que sofre; voz baixa, pausada, com ternura",
+ "tipo": "oracao",
+ "fundo_video": "pixabay",
+ "titulo": "Oração para dormir: Pedro e Judas falharam na mesma noite. Só um voltou (Lucas 22; João 21)",
+ "titulo_youtube": "Se Você Sente Que Falhou Com Deus, Ore Isto Antes de Dormir | Pedro e Judas",
+ "gancho_tela": "Os dois falharam. Só um voltou",
+ "referencia": "Lucas 22:31-62; Mateus 26:47-50; 27:3-5; João 21:1-17",
+ "cena_capa": 46,
+ "texto_capa": [
+  "SENTE QUE",
+  "*FALHOU",
+  "COM DEUS?"
+ ],
+ "selo_capa": "Oração da noite",
+ "capa_prompt": "a tired Brazilian woman in her forties sitting on the edge of her bed at night, hands together praying, tears on her cheeks, a single warm lamp lighting the dark room, eyes closed, hopeful expression, cinematic photo",
+ "legenda": "Pedro e Judas falharam com Jesus na mesma noite. Só um voltou. Esta oração para dormir é a versão completa da animação \"Pedro e Judas falharam na mesma noite. Só um voltou\": a história da negação de Pedro e do arrependimento de Judas (Lucas 22; Mateus 27), o fogo de brasas que Jesus acendeu na praia (João 21) e uma oração para quem sente que falhou com Deus — pela culpa, pela família e pelo recomeço. \"Mas eu roguei por ti, para que a tua fé não desfaleça\" (Lucas 22:32). Escreva nos comentários \"eu voltei\" e o seu pedido de oração. 🙏",
+ "hashtags": [
+  "#PedroEJudas",
+  "#OraçãoParaDormir",
+  "#Perdão",
+  "#Fé",
+  "#OraçãoDaNoite"
+ ],
+ "fontes": [
+  "Lucas 22:31-34, 54-62 — Almeida (ARC/AA, conferido em bibliaonline.com.br e biblestudytools.com)",
+  "Mateus 26:47-50; 27:3-5 — Almeida ARC (bibliaonline.com.br)",
+  "Marcos 16:7 — Almeida ARC (bibliaonline.com.br)",
+  "João 18:18; 21:1-17 — Almeida ARC (bibliaonline.com.br)",
+  "ἀνθρακιά (anthrakiá, Strong G439) só em João 18:18 e 21:9 — blueletterbible.org/lexicon/G0439",
+  "1 João 1:9; Salmo 103:12; Romanos 8:1; Isaías 1:18 — Almeida ARC; Lamentações 3:22-23 — paráfrase"
+ ],
+ "capitulos": [
+  {
+   "cena": 0,
+   "titulo": "Dois homens, uma noite"
+  },
+  {
+   "cena": 8,
+   "titulo": "O fogo do pátio e o galo"
+  },
+  {
+   "cena": 13,
+   "titulo": "Judas e as trinta moedas"
+  },
+  {
+   "cena": 19,
+   "titulo": "Oração de quem falhou"
+  },
+  {
+   "cena": 25,
+   "titulo": "Pela culpa que não deixa dormir"
+  },
+  {
+   "cena": 30,
+   "titulo": "Pela família que eu feri"
+  },
+  {
+   "cena": 34,
+   "titulo": "Quando parece tarde demais"
+  },
+  {
+   "cena": 38,
+   "titulo": "O fogo que Jesus acendeu na praia"
+  },
+  {
+   "cena": 47,
+   "titulo": "Promessas para esta noite"
+  },
+  {
+   "cena": 51,
+   "titulo": "Bênção para dormir"
+  }
+ ],
+ "revelacao": {
+  "promessa_cena": 1,
+  "entrega_cena": 41,
+  "o_que": "o 'fogo de brasas' (ἀνθρακιά) aparece só duas vezes no Novo Testamento: no pátio onde Pedro negou Jesus (João 18:18) e na praia onde Jesus o restaurou com três perguntas (João 21:9)"
+ },
+ "short_isca": {
+  "cenas": [
+   46
+  ],
+  "texto_topo": "SENTE QUE FALHOU?",
+  "titulo": "Se você sente que falhou com Deus, ouça isto 🙏",
+  "hashtags": [
+   "perdao",
+   "oracao",
+   "consolo"
+  ]
+ },
+ "loops": [
+  {
+   "cenas": [
+    23
+   ],
+   "texto_topo": "ELE OROU POR VOCÊ",
+   "titulo": "Jesus orou por você antes de você cair 🙏"
+  },
+  {
+   "cenas": [
+    36
+   ],
+   "texto_topo": "AINDA NÃO É TARDE",
+   "titulo": "Você não é o seu pior dia 🙏"
+  },
+  {
+   "cenas": [
+    31
+   ],
+   "texto_topo": "PELA SUA CASA",
+   "titulo": "Se você feriu quem mais ama, ore isto 🙏"
+  }
+ ],
+ "cenas": [
+  {
+   "trecho": "Pedro e Judas falharam com Jesus na mesma noite. Só um voltou. E talvez você esteja deitado agora sentindo que também falhou com Deus. Que errou de novo. Que não tem mais jeito.",
+   "prompt_imagem": "glowing embers of a campfire on a sandy beach at night",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+  },
+  {
+   "trecho": "Fica comigo esta noite. Primeiro eu vou te contar o que aconteceu com esses dois homens. Depois vamos orar juntos. E no final desta oração eu vou te mostrar um detalhe do Evangelho de João que quase ninguém percebe… um detalhe que Jesus preparou para quem falhou.",
+   "prompt_imagem": "misty pine forest at dawn with golden light between the trees",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+  },
+  {
+   "trecho": "Ajeite o travesseiro. Respire devagar. Você não precisa estar bem para ouvir isto. Só precisa vir do jeito que está, com a culpa, com a vergonha, com o cansaço. Deus não tem medo da sua história.",
+   "prompt_imagem": "a calm mountain lake at night under a sky full of stars",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+  },
+  {
+   "trecho": "Era a noite da última ceia, em Jerusalém. Antes de sair para o jardim, Jesus olhou para Pedro e disse: \"Simão, Simão, eis que Satanás vos pediu para vos cirandar como trigo.\"",
+   "prompt_imagem": "olive grove on a hillside at dusk with soft golden light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "E logo em seguida: \"Mas eu roguei por ti, para que a tua fé não desfaleça.\" Repare… Jesus já sabia que Pedro ia cair. E orou por ele antes da queda.",
+   "prompt_imagem": "full moon over a quiet sea with silver reflections",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "Pedro respondeu com coragem. Disse que estava pronto para ir com Jesus até a prisão e até a morte. Mas Jesus avisou: antes que o galo cante hoje, você vai me negar três vezes.",
+   "prompt_imagem": "glowing embers of a campfire on a sandy beach at night",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "Horas depois, no jardim das oliveiras, chegou Judas com uma multidão armada de espadas e varapaus. Ele se aproximou e beijou Jesus. Era o sinal combinado para entregá-lo.",
+   "prompt_imagem": "waterfall in a green forest with soft morning mist",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "E sabe o que Jesus respondeu a esse beijo? Não foi um grito. Não foi uma maldição. Mateus registrou assim: \"Amigo, a que vieste?\" Jesus chamou de amigo quem o estava traindo.",
+   "prompt_imagem": "gentle ocean waves on a sandy beach at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "Jesus foi preso e levado para a casa do sumo sacerdote. Pedro seguiu de longe. No meio do pátio acenderam um fogo, e Pedro se sentou com os outros para se aquentar.",
+   "prompt_imagem": "campfire glowing at night under a starry sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "Uma criada olhou para ele à luz do fogo e disse: este também estava com ele. Pedro negou: mulher, não o conheço. Pouco depois, outro insistiu. E Pedro negou de novo.",
+   "prompt_imagem": "field of wildflowers under a soft evening sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "Passada quase uma hora, um terceiro afirmou: com certeza este também estava com ele. Pedro disse: homem, não sei o que dizes. E enquanto ainda falava… o galo cantou.",
+   "prompt_imagem": "fishing boat resting on a calm lake at dawn with mist",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "Lucas conta o que veio depois numa frase que dói: \"E, virando-se o Senhor, olhou para Pedro.\" Imagine aquele olhar atravessando o pátio. Eu creio que não era desprezo. Era o olhar de quem tinha orado por ele.",
+   "prompt_imagem": "full moon over a quiet sea with silver reflections",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "Pedro lembrou da palavra de Jesus. \"E, saindo Pedro para fora, chorou amargamente.\" Lucas, capítulo vinte e dois.",
+   "prompt_imagem": "northern lights over a calm lake at night",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "Na manhã seguinte, Judas viu que Jesus tinha sido condenado. E se arrependeu. Devolveu as trinta moedas de prata aos sacerdotes e disse: \"Pequei, traindo sangue inocente.\"",
+   "prompt_imagem": "rain falling on green leaves in a quiet forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "E a resposta que ouviu foi esta: \"Que nos importa? Isso é contigo.\" Ele levou a culpa às pessoas erradas. E ouviu o que a culpa sempre diz: você está sozinho nisso.",
+   "prompt_imagem": "calm lake at blue hour with a small campfire glowing on the shore",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "Judas atirou as moedas no templo e foi embora sozinho. O fim dele foi trágico. Mateus, capítulo vinte e sete. Os dois falharam. Os dois sentiram o peso. Mas só um voltou.",
+   "prompt_imagem": "misty pine forest at dawn with golden light between the trees",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "A diferença não foi o tamanho do erro. Pedro negou três vezes, até com juramento. A diferença foi para onde cada um levou a culpa. Judas a levou para longe de Jesus. Pedro chorou… e continuou perto dos discípulos.",
+   "prompt_imagem": "a calm mountain lake at night under a sky full of stars",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "E quando Jesus ressuscitou, o anjo deu um recado às mulheres no túmulo: \"Ide, dizei a seus discípulos e a Pedro.\" E a Pedro. Pelo nome. Ninguém tinha esquecido dele no céu.",
+   "prompt_imagem": "olive grove on a hillside at dusk with soft golden light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "Se essa história está falando com você, inscreva-se no canal agora, para orarmos juntos toda noite. E fica comigo, porque a parte mais bonita ainda vem. Ela começa com um fogo.",
+   "prompt_imagem": "full moon over a quiet sea with silver reflections",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "Agora feche os olhos. Coloque a mão no peito. Respire fundo… solte o ar devagar. E repita comigo, no seu coração, do jeito que você conseguir.",
+   "prompt_imagem": "glowing embers of a campfire on a sandy beach at night",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Senhor… eu não vou fingir que estou bem. Eu falhei. Tem coisas que eu fiz, e coisas que deixei de fazer, que pesam no meu peito esta noite. E Tu viste tudo.",
+   "prompt_imagem": "waterfall in a green forest with soft morning mist",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Eu prometi que seria diferente. Como Pedro, eu disse que estava pronto. E na hora da pressão, eu caí. Neguei com as minhas escolhas aquilo que eu digo que creio.",
+   "prompt_imagem": "gentle ocean waves on a sandy beach at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Mas eu não quero fazer como Judas. Não quero carregar isso sozinho, longe de Ti. Eu trago a minha culpa para o único lugar onde ela pode ser tratada… as Tuas mãos.",
+   "prompt_imagem": "snowy mountains under a pink sunset sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Tu oraste por Pedro antes da queda dele. Então eu creio que Tu também oraste por mim antes de eu cair. Obrigado por não desistir de mim.",
+   "prompt_imagem": "field of wildflowers under a soft evening sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Guarde aquela fogueira do pátio na sua memória… porque Jesus vai acender outra. E quando chegarmos nela, você vai entender. Mas antes, vamos continuar orando.",
+   "prompt_imagem": "fishing boat resting on a calm lake at dawn with mist",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Senhor, tem noites em que a culpa fala mais alto que tudo. Ela repete o meu erro como um filme. Ela me diz que eu sou aquilo que eu fiz. Cala essa voz esta noite.",
+   "prompt_imagem": "quiet river flowing through a valley at golden hour",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "A Tua Palavra diz: \"Se confessarmos os nossos pecados, ele é fiel e justo para nos perdoar.\" Primeira de João, um, nove. Então eu confesso agora… sem desculpas, sem esconder nada.",
+   "prompt_imagem": "northern lights over a calm lake at night",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Eu Te entrego aquele erro que só eu sei. Aquela palavra que eu não devia ter dito. Aquela porta que eu abri. Aquela pessoa que eu feri. Eu solto isso agora nas Tuas mãos.",
+   "prompt_imagem": "rain falling on green leaves in a quiet forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E se a acusação vier esta noite, eu vou lembrar: Jesus chamou de amigo até quem o traía. Se Ele ainda me chama, eu não preciso fugir.",
+   "prompt_imagem": "calm lake at blue hour with a small campfire glowing on the shore",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Respire fundo mais uma vez. Pedro chorou amargamente naquela noite… mas aquele choro não foi o fim da história dele. Daqui a pouco você vai ver como Jesus respondeu.",
+   "prompt_imagem": "misty pine forest at dawn with golden light between the trees",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Senhor, às vezes as minhas falhas não ficaram só comigo. Atingiram quem eu mais amo. Meu marido, minha esposa, meus filhos, minha mãe. Eu Te peço: cura o que eu quebrei.",
+   "prompt_imagem": "a calm mountain lake at night under a sky full of stars",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Se eu fui duro demais com os meus filhos… se estive ausente quando precisavam… se deixei o cansaço falar mais alto que o amor… restaura, Senhor. Me dá a chance de recomeçar dentro de casa.",
+   "prompt_imagem": "olive grove on a hillside at dusk with soft golden light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E se alguém da minha família está longe de Ti hoje, achando que falhou demais para voltar, faz com ele o que fizeste com Pedro. Manda um recado com o nome dele.",
+   "prompt_imagem": "full moon over a quiet sea with silver reflections",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Se você tem alguém assim no coração, escreva o nome dessa pessoa nos comentários. Eu vou orar por ela. E pelo seu pedido de oração também, seja ele qual for.",
+   "prompt_imagem": "glowing embers of a campfire on a sandy beach at night",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Senhor, a culpa me diz que já é tarde. Que errei vezes demais. Que já pedi perdão por isso antes, e caí de novo. Mas Pedro também negou três vezes seguidas… e Tu não desististe dele.",
+   "prompt_imagem": "waterfall in a green forest with soft morning mist",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "As Tuas misericórdias não têm fim. Elas se renovam a cada manhã, como diz Lamentações, capítulo três. Amanhã cedo vai ter misericórdia nova esperando por mim.",
+   "prompt_imagem": "gentle ocean waves on a sandy beach at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Eu não sou o meu pior dia. Eu sou alguém por quem Jesus orou. Alguém que Ele chama pelo nome. E se Ele ainda está chamando, então ainda não é tarde.",
+   "prompt_imagem": "snowy mountains under a pink sunset sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Agora presta atenção, porque nós vamos para uma praia da Galileia… e para um fogo que não estava ali por acaso.",
+   "prompt_imagem": "field of wildflowers under a soft evening sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Depois da ressurreição, Pedro voltou ao mar da Galileia e disse: \"Vou pescar.\" Os outros foram com ele. E naquela noite, nada apanharam.",
+   "prompt_imagem": "fishing boat resting on a calm lake at dawn with mist",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "De manhã, alguém na praia mandou lançar a rede à direita do barco. A rede encheu de peixes. João disse: \"É o Senhor.\" E Pedro se lançou ao mar para chegar até Ele.",
+   "prompt_imagem": "quiet river flowing through a valley at golden hour",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "Quando chegaram à terra, João escreveu: \"viram ali brasas, e um peixe posto em cima, e pão.\" Brasas. Jesus tinha acendido um fogo de brasas.",
+   "prompt_imagem": "glowing embers of a campfire on a sandy beach at dawn by a calm sea",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "Aqui está o detalhe que eu prometi. A palavra grega para esse fogo de brasas, anthrakiá, aparece só duas vezes em todo o Novo Testamento. A primeira é em João dezoito… o fogo do pátio onde Pedro negou Jesus.",
+   "prompt_imagem": "rain falling on green leaves in a quiet forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "A segunda é aqui, na praia. Jesus acendeu o mesmo tipo de fogo do lugar onde Pedro tinha caído. O calor, a fumaça, o cheiro… tudo lembrava a pior noite da vida dele. Eu não creio que foi por acaso.",
+   "prompt_imagem": "calm lake at blue hour with a small campfire glowing on the shore",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "E ao lado daquele fogo, Jesus perguntou três vezes: \"Simão, filho de Jonas, amas-me?\" Três negações perto de um fogo. Três perguntas perto de outro fogo.",
+   "prompt_imagem": "misty pine forest at dawn with golden light between the trees",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "Pedro se entristeceu e respondeu: \"Senhor, tu sabes tudo; tu sabes que eu te amo.\" E Jesus não disse: você me decepcionou. Ele disse: \"Apascenta as minhas ovelhas.\"",
+   "prompt_imagem": "a calm mountain lake at night under a sky full of stars",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "Jesus não apagou a memória de Pedro. Ele a curou. Voltou com ele ao lugar da queda e escreveu ali uma história nova. E Ele quer fazer o mesmo com você.",
+   "prompt_imagem": "olive grove on a hillside at dusk with soft golden light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "Se você sente que falhou com Deus, ouça isto: Jesus não está esperando você com uma lista dos seus erros. Ele está na praia, com o fogo aceso e o pão pronto, chamando você pelo nome.",
+   "prompt_imagem": "golden sunrise over a calm sea with gentle waves and soft clouds",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "Agora respire devagar e só escute. \"Quanto está longe o Oriente do Ocidente, assim afasta de nós as nossas transgressões.\" Salmo cento e três.",
+   "prompt_imagem": "glowing embers of a campfire on a sandy beach at night",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "\"Portanto, agora, nenhuma condenação há para os que estão em Cristo Jesus.\" Romanos, oito, um. Nenhuma. Nem aquela que você está carregando esta noite.",
+   "prompt_imagem": "waterfall in a green forest with soft morning mist",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "\"Ainda que os vossos pecados sejam como a escarlata, eles se tornarão brancos como a neve.\" Isaías, um, dezoito. Inspire… e solte. Deixe o peso sair junto com o ar.",
+   "prompt_imagem": "gentle ocean waves on a sandy beach at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Obrigado, Senhor, porque o meu erro não foi a última palavra. Obrigado porque oraste por mim, me chamaste pelo nome e acendeste um fogo para eu voltar. Eu volto esta noite.",
+   "prompt_imagem": "snowy mountains under a pink sunset sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Se esta oração tocou você, escreva nos comentários \"eu voltei\" e o seu pedido de oração. Eu leio e oro por cada um. E envie para alguém que sente que falhou.",
+   "prompt_imagem": "field of wildflowers under a soft evening sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "paz e bênção, voz suave de despedida"
+  },
+  {
+   "trecho": "Inscreva-se no canal, para orarmos juntos de novo amanhã à noite. Você não precisa ser perfeito para voltar. Só precisa voltar.",
+   "prompt_imagem": "fishing boat resting on a calm lake at dawn with mist",
+   "vazia": true,
+   "animar": false,
+   "emocao": "paz e bênção, voz suave de despedida"
+  },
+  {
+   "trecho": "Durma em paz. O mesmo Jesus que restaurou Pedro está cuidando de você esta noite. Você não está sozinho. Em nome de Jesus… amém.",
+   "prompt_imagem": "quiet river flowing through a valley at golden hour",
+   "vazia": true,
+   "animar": false,
+   "emocao": "paz e bênção, voz suave de despedida"
+  }
+ ]
+}
