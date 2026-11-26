@@ -1,0 +1,64 @@
+{
+  "titulo": "Jesus olhou para ele e o amou. Ele foi embora",
+  "gancho_tela": "Jesus o amou. Mesmo assim, foi embora",
+  "estilo": "pintura",
+  "narracao": "Jesus olhou para um homem e o amou. E o homem foi embora. Está em Marcos, capítulo dez. Mas por que alguém daria as costas a um amor assim? Ele chegou correndo, ajoelhou-se diante de Jesus e perguntou: o que devo fazer para herdar a vida eterna? Jesus lembrou os mandamentos. E ele respondeu: tudo isso eu tenho obedecido desde a minha juventude. Então vem uma das frases mais bonitas dos Evangelhos: Jesus olhou para ele e o amou. Antes de qualquer resposta. E disse: falta uma coisa para você. Venda tudo, dê aos pobres, e terá um tesouro no céu. Depois, venha e siga-me. Ele ficou abatido e se afastou triste, porque tinha muitas riquezas. Jesus disse aos discípulos: para o homem é impossível, mas não para Deus. Repare: o amor veio primeiro. O que pesou foi aquilo que ele segurava com mais força. Talvez seja o trabalho, o dinheiro, o orgulho ou uma mágoa. Jesus olha para você do mesmo jeito. Desta vez, não vá embora. Salve este vídeo para ouvir de novo quando precisar, e siga para receber uma palavra de fé todos os dias.",
+  "cenas": [
+    {
+      "trecho": "Jesus olhou para um homem e o amou. E o homem foi embora.",
+      "busca_imagem": "kneeling man road dawn",
+      "prompt_imagem": "a man in rich ancient robes kneeling in the dust of a country road at sunrise, seen from behind, a long road stretching ahead into blazing golden light, strong contrast of dark figure against bright sky"
+    },
+    {
+      "trecho": "Está em Marcos, capítulo dez. Mas por que alguém daria as costas a um amor assim?",
+      "busca_imagem": "ancient scroll lamp",
+      "prompt_imagem": "an open ancient parchment scroll on a rough wooden table beside a glowing clay oil lamp, warm golden light in a dark stone room"
+    },
+    {
+      "trecho": "Ele chegou correndo, ajoelhou-se diante de Jesus e perguntou: o que devo fazer para herdar a vida eterna?",
+      "busca_imagem": "man running dusty road",
+      "prompt_imagem": "a man in fine embroidered ancient robes seen from behind running along a dusty Galilean road toward a small crowd in the distance, morning light, dust rising"
+    },
+    {
+      "trecho": "Jesus lembrou os mandamentos. E ele respondeu: tudo isso eu tenho obedecido desde a minha juventude.",
+      "busca_imagem": "stone tablets light",
+      "prompt_imagem": "old stone tablets with carved ancient letters resting in a sunlit stone niche, soft golden dust in the light beams"
+    },
+    {
+      "trecho": "Então vem uma das frases mais bonitas dos Evangelhos: Jesus olhou para ele e o amou. Antes de qualquer resposta.",
+      "busca_imagem": "two figures road sunlight",
+      "prompt_imagem": "two figures in ancient robes standing face to face on a quiet road at golden hour, seen from far behind and in silhouette, warm sunlight between them, olive trees around"
+    },
+    {
+      "trecho": "E disse: falta uma coisa para você. Venda tudo, dê aos pobres, e terá um tesouro no céu. Depois, venha e siga-me.",
+      "busca_imagem": "gold coins open hand",
+      "prompt_imagem": "a heap of ancient gold coins and fine jewelry on a dark wooden chest, beside it an empty open hand reaching toward warm light, dramatic chiaroscuro"
+    },
+    {
+      "trecho": "Ele ficou abatido e se afastou triste, porque tinha muitas riquezas.",
+      "busca_imagem": "man walking away sunset",
+      "prompt_imagem": "a lone man in rich robes seen from behind walking away slowly down a long empty road toward a large estate, heavy shoulders, long shadow at sunset"
+    },
+    {
+      "trecho": "Jesus disse aos discípulos: para o homem é impossível, mas não para Deus. Repare: o amor veio primeiro. O que pesou foi aquilo que ele segurava com mais força.",
+      "busca_imagem": "clenched fist coins",
+      "prompt_imagem": "a tightly clenched hand holding gold coins in the shadows, a single beam of golden light falling across it, ancient setting, deep contrast"
+    },
+    {
+      "trecho": "Talvez seja o trabalho, o dinheiro, o orgulho ou uma mágoa. Jesus olha para você do mesmo jeito. Desta vez, não vá embora. Salve este vídeo para ouvir de novo quando precisar, e siga para receber uma palavra de fé todos os dias.",
+      "busca_imagem": "road toward light",
+      "prompt_imagem": "an ancient road at dawn leading toward a hill bathed in golden light, a man seen from behind turning back toward the light, footprints in the dust"
+    }
+  ],
+  "legenda": "Senhor, não quero ir embora de perto de ti 🙏\nMarcos 10:17-27\nComente \"Amém\" e salve para ouvir de novo.",
+  "hashtags": [
+    "#JovemRico",
+    "#AmorDeJesus",
+    "#Marcos10",
+    "#recomeço"
+  ],
+  "fontes": [
+    "Marcos 10:17-22 (correu, ajoelhou-se; 'que farei para herdar a vida eterna'; mandamentos; 'tudo isso tenho obedecido desde a minha juventude'; Jesus olhou para ele e o amou; 'falta uma coisa'; vender, dar aos pobres, tesouro no céu, seguir; afastou-se triste, tinha muitas riquezas)",
+    "Marcos 10:23-27 ('para o homem é impossível, mas não para Deus')"
+  ]
+}
