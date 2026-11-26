@@ -1,0 +1,542 @@
+{
+  "titulo": "As Cartas de Paulo — Ep. 3: 2 Coríntios 12, a minha graça te basta",
+  "serie": "As Cartas de Paulo",
+  "parte": 3,
+  "titulo_youtube": "As Cartas de Paulo — Ep. 3: Quando Deus Não Tira a Sua Dor (2 Coríntios 12)",
+  "gancho_tela": "Paulo orou 3 vezes pela cura",
+  "referencia": "2 Coríntios 12:1-10; 2 Coríntios 4:7-18",
+  "tipo": "estudo",
+  "formato": "horizontal",
+  "duracao_max": 999,
+  "volume_musica": 0,
+  "opcoes_imagem": 1,
+  "palavras_por_bloco": 600,
+  "plataformas": [
+    "youtube"
+  ],
+  "cena_capa": 34,
+  "texto_capa": [
+    "PAULO OROU",
+    "*3 VEZES",
+    "PELA CURA"
+  ],
+  "selo_capa": "As Cartas de Paulo",
+  "capa_prompt": "cinematic photo of a woven desert tent glowing warm from inside under a starry night sky, a dry thorny branch in the foreground, one soft beam of golden light on the right, the left two thirds dark and empty for text, shallow depth of field, 16:9, no people, no text",
+  "estilo_imagem": "cinematic real photography, warm natural light, ultra detailed, horizontal 16:9, no people, no text",
+  "prefixo_imagem": "cinematic photo:",
+  "prefixo_video": "Slow gentle cinematic motion.",
+  "epoca_imagem": "real objects and natural landscapes; no people, no modern things, no text",
+  "fonte_imagem": "cloudflare",
+  "fundo_video": "pixabay",
+  "estilo_voz": "maduro, acolhedor, firme e contemplativo, como um professor que ama a Bíblia e fala com carinho a quem está sofrendo; ritmo calmo, com pausas",
+  "legenda": "Paulo pediu três vezes a Deus que tirasse o espinho na carne — e o espinho ficou. Neste terceiro episódio da série As Cartas de Paulo, estudamos 2 Coríntios 12: a carta que Paulo escreveu da Macedônia, por volta dos anos 55–56, a uma igreja de Corinto que estava sendo levada a desprezá-lo; a lista das suas fraquezas (2Co 11); o arrebatamento ao terceiro céu; o espinho e o \"mensageiro de Satanás\"; as três orações; a resposta de Deus; e a palavra grega do versículo 9 que liga a promessa à profissão de Paulo, fazedor de tendas.\n\n\"A minha graça te basta, porque o meu poder se aperfeiçoa na fraqueza.\" — 2 Coríntios 12:9 (Almeida Revista e Corrigida)\n\nSe você tem um espinho hoje, escreva \"basta\" nos comentários: vamos orar por você. Inscreva-se e ative o sininho para acompanhar toda a série.",
+  "hashtags": [
+    "#2Corintios12",
+    "#ApostoloPaulo",
+    "#EstudoBiblico",
+    "#CartasDePaulo",
+    "#BibliaSagrada"
+  ],
+  "fontes": [
+    "2 Coríntios 12:1-10 — Almeida Revista e Corrigida (conferido em bibliaonline.com.br/arc/2co/12 e bible.com/bible/212/2CO.12.9.ARC)",
+    "2 Coríntios 4:7-9, 16-18 — Almeida Revista e Corrigida (bibliaonline.com.br/arc/2co/4)",
+    "2 Coríntios 11:5, 21-28, 32-33; 10:10; 2:4 — sofrimentos de Paulo, críticas dos rivais, carta com lágrimas (bibliaonline.com.br/arc/2co/11)",
+    "2 Coríntios 2:13; 7:5; 8:1 — a carta escrita da Macedônia; datação c. 55–56 d.C. (consenso de introduções ao Novo Testamento)",
+    "Atos 18:1-11 — Paulo em Corinto por um ano e meio, ofício de fazer tendas (v. 3)",
+    "Mateus 26:39-44 — Jesus ora três vezes no Getsêmani",
+    "Êxodo 16 — o maná diário",
+    "João 1:14 (ARC) — \"habitou entre nós\" (grego eskénosen, mesma raiz de episkenóse em 2Co 12:9, de skené = tenda)",
+    "Grego de 2Co 12:7-9: skólops (estaca, ponta afiada), kolaphízo (esbofetear), arkeî (basta), teleîtai (se aperfeiçoa), episkenóse (habite/arme tenda)"
+  ],
+  "capitulos": [
+    {
+      "cena": 0,
+      "titulo": "Paulo orou três vezes pela cura"
+    },
+    {
+      "cena": 4,
+      "titulo": "Corinto e os falsos superapóstolos"
+    },
+    {
+      "cena": 9,
+      "titulo": "A lista das fraquezas de Paulo (2Co 11)"
+    },
+    {
+      "cena": 14,
+      "titulo": "Arrebatado ao terceiro céu (2Co 12:1-6)"
+    },
+    {
+      "cena": 16,
+      "titulo": "O espinho na carne (2Co 12:7)"
+    },
+    {
+      "cena": 21,
+      "titulo": "Três vezes orei (2Co 12:8)"
+    },
+    {
+      "cena": 23,
+      "titulo": "A minha graça te basta (2Co 12:9)"
+    },
+    {
+      "cena": 28,
+      "titulo": "Tesouro em vasos de barro (2Co 4)"
+    },
+    {
+      "cena": 33,
+      "titulo": "A palavra que Paulo escolheu: tenda"
+    },
+    {
+      "cena": 38,
+      "titulo": "Quando estou fraco, então sou forte (2Co 12:10)"
+    },
+    {
+      "cena": 43,
+      "titulo": "Oração"
+    },
+    {
+      "cena": 46,
+      "titulo": "Bênção"
+    }
+  ],
+  "revelacao": {
+    "promessa_cena": 2,
+    "entrega_cena": 34,
+    "o_que": "a palavra 'habite' de 2Co 12:9 (grego episkenóse, de skené = tenda): o poder de Cristo 'arma a tenda' sobre a fraqueza — e Paulo era fazedor de tendas (Atos 18:3); mesma raiz de João 1:14"
+  },
+  "short_isca": {
+    "cenas": [
+      32
+    ],
+    "texto_topo": "SE VOCÊ NÃO AGUENTA",
+    "titulo": "Se hoje você não aguenta mais, ouça isto 🙏",
+    "hashtags": [
+      "2corintios12",
+      "apostolopaulo",
+      "estudobiblico"
+    ]
+  },
+  "loops": [
+    {
+      "cenas": [
+        25
+      ],
+      "texto_topo": "A GRAÇA DE HOJE",
+      "titulo": "Deus tem graça para a dor de hoje 🙏"
+    },
+    {
+      "cenas": [
+        47
+      ],
+      "texto_topo": "A GRAÇA TE BASTA",
+      "titulo": "A sua fraqueza não é o fim 🙏"
+    },
+    {
+      "cenas": [
+        37
+      ],
+      "texto_topo": "VOCÊ ESTÁ COBERTO",
+      "titulo": "Deus arma a tenda sobre a sua fraqueza 🙏"
+    },
+    {
+      "cenas": [
+        40
+      ],
+      "texto_topo": "SE A RESPOSTA DEMORA",
+      "titulo": "Quando a resposta de Deus é \"ainda não\" 🙏"
+    }
+  ],
+  "cenas": [
+    {
+      "trecho": "Paulo pediu três vezes a Deus que tirasse a sua dor. E a dor ficou. O homem que escreveu treze cartas do Novo Testamento orou, insistiu, implorou… e a resposta não foi a que ele queria.",
+      "busca_video": "storm clouds",
+      "prompt_imagem": "dark storm clouds over a rough sea at dusk",
+      "vazia": true,
+      "animar": false,
+      "emocao": "misterioso e baixo, depois íntimo"
+    },
+    {
+      "trecho": "Talvez você conheça essa sensação. Você orou pela cura, pelo filho, pelo casamento, pelo emprego. Orou de novo. E nada mudou. E no silêncio vem a pergunta: será que Deus não me ouviu?",
+      "busca_video": "rain window",
+      "prompt_imagem": "rain drops running down rough stone wall at night with a small oil lamp",
+      "vazia": true,
+      "animar": false,
+      "emocao": "misterioso e baixo, depois íntimo"
+    },
+    {
+      "trecho": "Em 2 Coríntios 12, Deus responde a Paulo com uma frase que atravessou dois mil anos. E dentro dessa resposta tem uma palavra que Paulo escolheu de propósito, ligada ao trabalho das mãos dele. No final deste estudo, eu vou te mostrar qual é… e o que ela promete para você.",
+      "busca_video": "candle flame dark",
+      "prompt_imagem": "a single candle flame glowing in a dark stone room",
+      "vazia": true,
+      "animar": false,
+      "emocao": "misterioso e baixo, depois íntimo"
+    },
+    {
+      "trecho": "Este é o terceiro episódio da série As Cartas de Paulo. Hoje vamos entender por que Paulo escreveu esta carta, o que foi o espinho na carne, e o que significa, de verdade, \"a minha graça te basta\".",
+      "busca_video": "old paper",
+      "prompt_imagem": "an old parchment letter with a feather quill on a rough wooden table in warm light",
+      "vazia": true,
+      "animar": false,
+      "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+    },
+    {
+      "trecho": "Para começar, precisamos conhecer Corinto. Era uma cidade grega rica, entre dois mares, com dois portos, muito comércio, templos pagãos e gente do mundo inteiro passando pelas ruas.",
+      "busca_video": "ancient ruins sunset",
+      "prompt_imagem": "ancient greek stone columns and ruins at golden hour by the sea",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias, tensão crescente"
+    },
+    {
+      "trecho": "Paulo chegou lá por volta do ano cinquenta. Ficou um ano e meio, trabalhando com as próprias mãos. O livro de Atos conta que o ofício dele era fazer tendas. Guarde esse detalhe.",
+      "busca_video": "tent desert",
+      "prompt_imagem": "a woven goat hair tent in the desert at sunset",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias, tensão crescente"
+    },
+    {
+      "trecho": "Ali nasceu uma igreja amada, mas complicada. Anos depois, chegaram homens que se apresentavam como apóstolos superiores. Eles falavam bonito, contavam visões, e começaram a diminuir Paulo diante da igreja. Se este estudo está te ajudando, inscreva-se no canal e ative o sininho para acompanhar toda a série.",
+      "busca_video": "ancient road",
+      "prompt_imagem": "an ancient stone road between olive trees at dawn",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias, tensão crescente"
+    },
+    {
+      "trecho": "O que eles diziam? A própria carta registra: as cartas de Paulo eram duras e fortes, mas a presença dele era fraca, e a palavra dele, desprezível. Em outras palavras: esse homem é pequeno demais para ser apóstolo.",
+      "busca_video": "wind wheat",
+      "prompt_imagem": "wind moving through a golden wheat field under grey clouds",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias, tensão crescente"
+    },
+    {
+      "trecho": "Paulo responde escrevendo da Macedônia, por volta do ano cinquenta e cinco ou cinquenta e seis. É a carta mais pessoal que ele escreveu. Ele mesmo diz que já tinha escrito antes à igreja com muitas lágrimas.",
+      "busca_video": "mountains mist",
+      "prompt_imagem": "misty green mountains of northern greece at dawn",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias, tensão crescente"
+    },
+    {
+      "trecho": "E aqui ele faz algo inesperado. Em vez de provar que é forte, ele começa a contar as próprias fraquezas. Ele chama isso de falar como louco, porque ninguém se defende assim.",
+      "busca_video": "clay jar",
+      "prompt_imagem": "an old clay jar on a rough stone shelf in soft window light",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias, tensão crescente"
+    },
+    {
+      "trecho": "No capítulo onze, Paulo faz uma lista. Recebeu cinco vezes trinta e nove chicotadas. Três vezes foi açoitado com varas. Uma vez foi apedrejado. Três vezes sofreu naufrágio. Passou fome, frio, noites sem dormir.",
+      "busca_video": "stormy sea waves",
+      "prompt_imagem": "huge stormy waves crashing against dark rocks",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias, tensão crescente"
+    },
+    {
+      "trecho": "E conta um momento humilhante: em Damasco, para fugir dos guardas do governador do rei Aretas, ele \"foi descido num cesto por uma janela da muralha\". O grande apóstolo, escondido num cesto.",
+      "busca_video": "ancient wall",
+      "prompt_imagem": "an old stone city wall with a small window and a woven basket hanging on a rope at night",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias, tensão crescente"
+    },
+    {
+      "trecho": "E além de tudo isso, ele escreve: \"me oprime cada dia o cuidado de todas as igrejas.\" Paulo carregava no peito a preocupação com cada pessoa. Ele sabia o que é ir dormir preocupado.",
+      "busca_video": "night sky stars",
+      "prompt_imagem": "a quiet starry night over dark hills",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias, tensão crescente"
+    },
+    {
+      "trecho": "É depois dessa lista que chega o capítulo doze. E Paulo começa falando da experiência mais alta da vida dele, para depois falar da mais dolorosa.",
+      "busca_video": "sunrise clouds",
+      "prompt_imagem": "golden sunrise breaking through clouds over hills",
+      "vazia": true,
+      "animar": false,
+      "emocao": "contador de histórias, tensão crescente"
+    },
+    {
+      "trecho": "Ele escreve sobre si mesmo como se fosse outra pessoa: \"Conheço um homem em Cristo que, há catorze anos\", \"foi arrebatado até ao terceiro céu.\" Ele não sabe dizer se foi no corpo ou fora do corpo.",
+      "busca_video": "clouds light",
+      "prompt_imagem": "beams of light through towering white clouds",
+      "vazia": true,
+      "animar": false,
+      "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+    },
+    {
+      "trecho": "E diz que esse homem \"foi arrebatado ao paraíso e ouviu palavras inefáveis, de que ao homem não é lícito falar.\" Catorze anos guardando isso em silêncio. Os rivais se gabavam de credenciais; Paulo tinha uma muito maior, e nunca usou para se exaltar.",
+      "busca_video": "aurora sky",
+      "prompt_imagem": "green aurora lights over a silent snowy valley",
+      "vazia": true,
+      "animar": false,
+      "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+    },
+    {
+      "trecho": "Então vem o versículo sete: \"E, para que me não exaltasse pelas excelências das revelações, foi-me dado um espinho na carne, a saber, um mensageiro de Satanás, para me esbofetear, a fim de não me exaltar.\"",
+      "busca_video": "thorn bush",
+      "prompt_imagem": "a dry thorny bush on a rocky hillside in harsh light",
+      "vazia": true,
+      "animar": false,
+      "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+    },
+    {
+      "trecho": "Repare na palavra \"espinho\". No grego, é uma ponta afiada, uma estaca. Não é um incômodo pequeno. É uma dor que fura, que fica, que acompanha a pessoa no dia a dia.",
+      "busca_video": "thorns close up",
+      "prompt_imagem": "close up of sharp thorns on a dry branch with morning dew",
+      "vazia": true,
+      "animar": false,
+      "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+    },
+    {
+      "trecho": "O que era esse espinho? A verdade é que ninguém sabe. Alguns pensam numa doença dos olhos, outros em dores fortes, outros na perseguição constante. Paulo não disse. E talvez isso seja um presente.",
+      "busca_video": "fog lake",
+      "prompt_imagem": "thick fog drifting over a still lake at dawn",
+      "vazia": true,
+      "animar": false,
+      "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+    },
+    {
+      "trecho": "Porque, como ele não deu nome, cada pessoa que sofre consegue se ver ali. O seu espinho pode ser um diagnóstico, um filho que se afastou, uma depressão que volta, um casamento ferido, uma conta que não fecha.",
+      "busca_video": "rain leaves",
+      "prompt_imagem": "gentle rain falling on green leaves",
+      "vazia": true,
+      "animar": false,
+      "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+    },
+    {
+      "trecho": "E repare no verbo: \"para me esbofetear\". É a imagem de um soco que se repete. Não foi uma vez só. Era algo que voltava, dia após dia. Paulo sabia o que é acordar e a dor estar lá de novo.",
+      "busca_video": "waves rocks",
+      "prompt_imagem": "waves hitting the same dark rock again and again",
+      "vazia": true,
+      "animar": false,
+      "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+    },
+    {
+      "trecho": "Agora o versículo oito, que eu acho um dos mais humanos da Bíblia: \"Acerca do qual três vezes orei ao Senhor, para que se desviasse de mim.\" O apóstolo não fingiu força. Ele pediu. E pediu de novo.",
+      "busca_video": "olive trees night",
+      "prompt_imagem": "ancient olive trees in a garden under moonlight",
+      "vazia": true,
+      "animar": false,
+      "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+    },
+    {
+      "trecho": "Três vezes. Isso lembra Jesus no Getsêmani, que também orou três vezes para que o cálice passasse. Então, se você já pediu muitas vezes a mesma coisa, saiba: pedir de novo não é falta de fé. Jesus fez isso. Paulo fez isso.",
+      "busca_video": "moon night",
+      "prompt_imagem": "a full moon over calm dark water at night",
+      "vazia": true,
+      "animar": false,
+      "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+    },
+    {
+      "trecho": "E a resposta veio. Só que não foi a que Paulo esperava. Versículo nove: \"E disse-me: A minha graça te basta, porque o meu poder se aperfeiçoa na fraqueza.\"",
+      "busca_video": "light beam forest",
+      "prompt_imagem": "a strong beam of sunlight breaking into a dark forest",
+      "vazia": true,
+      "animar": false,
+      "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+    },
+    {
+      "trecho": "Deus não tirou o espinho. Mas também não ficou em silêncio. Ele respondeu. Às vezes, a gente acha que Deus não respondeu, porque a resposta não veio em forma de \"sim\". Mas uma resposta diferente ainda é resposta.",
+      "busca_video": "forest path",
+      "prompt_imagem": "a sunlit forest path with ferns and soft mist",
+      "vazia": true,
+      "animar": false,
+      "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+    },
+    {
+      "trecho": "Olhe a palavra \"basta\". Deus não disse \"a minha graça vai bastar um dia\", nem \"bastou no passado\". Ele disse \"te basta\", agora, hoje. Para o tamanho exato da dor de hoje, existe graça suficiente.",
+      "busca_video": "bread table",
+      "prompt_imagem": "a loaf of bread and a clay cup of water on a wooden table in morning light",
+      "vazia": true,
+      "animar": false,
+      "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+    },
+    {
+      "trecho": "É como o maná no deserto: vinha para cada dia, não para estocar. A graça de amanhã chega amanhã. Por isso você não precisa ter forças hoje para aguentar o mês inteiro. Só precisa da graça de hoje.",
+      "busca_video": "desert dunes morning",
+      "prompt_imagem": "golden desert dunes in soft morning light",
+      "vazia": true,
+      "animar": false,
+      "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+    },
+    {
+      "trecho": "E a segunda parte: \"o meu poder se aperfeiçoa na fraqueza\". A palavra quer dizer chegar ao ponto completo. O poder de Deus não aparece apesar da sua fraqueza; ele aparece por inteiro justamente ali.",
+      "busca_video": "sunrise ocean",
+      "prompt_imagem": "sunrise over a calm ocean with golden light on the water",
+      "vazia": true,
+      "animar": false,
+      "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+    },
+    {
+      "trecho": "Paulo já tinha explicado isso no capítulo quatro: \"Temos, porém, esse tesouro em vasos de barro, para que a excelência do poder seja de Deus e não de nós.\" O barro rachado deixa a luz sair.",
+      "busca_video": "clay pottery",
+      "prompt_imagem": "a cracked clay oil lamp with a warm flame glowing through the crack",
+      "vazia": true,
+      "animar": false,
+      "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+    },
+    {
+      "trecho": "E logo depois ele diz que vivia atribulado, mas não angustiado; perseguido, mas não desamparado; abatido, mas não destruído. Repare: ele não nega a tribulação. Ele só diz que ela não tem a última palavra.",
+      "busca_video": "river stones",
+      "prompt_imagem": "a clear river flowing over smooth stones in a forest",
+      "vazia": true,
+      "animar": false,
+      "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+    },
+    {
+      "trecho": "Talvez você esteja aí se sentindo fraca, fraco, sem fé nenhuma. Talvez você ache que Deus está decepcionado com o seu cansaço. Ouça o que esta passagem diz: a sua fraqueza não afasta Deus. É exatamente onde Ele decide morar.",
+      "busca_video": "candle flame",
+      "prompt_imagem": "a small oil lamp burning in a dark room with soft warm light",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Você não precisa fingir que está bem para ser amado por Deus. Paulo não fingiu. Ele escreveu as suas dores numa carta que a igreja leria em voz alta. E foi ali que ele encontrou a força que procurava.",
+      "busca_video": "lake mountains",
+      "prompt_imagem": "a calm lake reflecting mountains at sunrise",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Se hoje você não aguenta mais, ouça isto: Deus não está esperando você ficar forte para te ajudar. A graça dele já basta para hoje, e o poder dele se completa justamente na sua fraqueza.",
+      "busca_video": "sunrise field flowers",
+      "prompt_imagem": "a field of wildflowers glowing at sunrise",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "E agora a resposta de Paulo. Ele não reclama. Ele diz: \"De boa vontade, pois, me gloriarei nas minhas fraquezas, para que em mim habite o poder de Cristo.\" Lembra da palavra que eu prometi no começo? Ela está aqui, nessa frase.",
+      "busca_video": "old paper candle",
+      "prompt_imagem": "an old parchment scroll beside a lit clay lamp on a wooden table",
+      "vazia": true,
+      "animar": false,
+      "emocao": "professor que ama a Bíblia: calmo, firme e acolhedor, com pausas"
+    },
+    {
+      "trecho": "A palavra é \"habite\". No grego que Paulo escreveu, o verbo é episkenóo. Ele vem de \"skené\", que quer dizer… tenda. Literalmente, Paulo diz: para que o poder de Cristo arme a sua tenda sobre mim.",
+      "busca_video": "tent desert night",
+      "prompt_imagem": "a woven tent glowing from inside under a starry desert sky",
+      "vazia": true,
+      "animar": false,
+      "emocao": "emoção forte e esperança, mais firme"
+    },
+    {
+      "trecho": "Agora lembre quem é Paulo. Um fazedor de tendas. Ele passou anos costurando tecido e couro com as próprias mãos. Ele sabia, melhor que ninguém, o que é uma tenda: um abrigo no meio do deserto, contra o sol, o vento e o frio da noite.",
+      "busca_video": "leather tools",
+      "prompt_imagem": "old leather pieces, a bronze needle and thread on a wooden workbench",
+      "vazia": true,
+      "animar": false,
+      "emocao": "emoção forte e esperança, mais firme"
+    },
+    {
+      "trecho": "E a mesma raiz aparece no evangelho de João: \"E o Verbo se fez carne e habitou entre nós.\" Habitou é armou a tenda. O Deus que armou tenda no meio do seu povo quer armar tenda sobre a sua fraqueza.",
+      "busca_video": "stars milky way",
+      "prompt_imagem": "the milky way over a quiet desert valley",
+      "vazia": true,
+      "animar": false,
+      "emocao": "emoção forte e esperança, mais firme"
+    },
+    {
+      "trecho": "Então a sua fraqueza não é o lugar onde Deus te abandona. É o terreno onde Ele levanta a tenda. O espinho talvez continue. Mas você não fica mais sozinho debaixo do sol. Você fica coberto.",
+      "busca_video": "desert oasis",
+      "prompt_imagem": "a small oasis with palm trees in the desert at sunset",
+      "vazia": true,
+      "animar": false,
+      "emocao": "emoção forte e esperança, mais firme"
+    },
+    {
+      "trecho": "É por isso que Paulo termina com a frase mais estranha e mais linda do capítulo: \"Porque, quando estou fraco, então, sou forte.\" Não é força dele. É a tenda de Cristo em cima dele.",
+      "busca_video": "sunrise clouds light",
+      "prompt_imagem": "golden light breaking through dark clouds over a valley",
+      "vazia": true,
+      "animar": false,
+      "emocao": "emoção forte e esperança, mais firme"
+    },
+    {
+      "trecho": "Ele diz no versículo dez que sente prazer nas fraquezas, nas necessidades, nas perseguições, nas angústias, \"por amor de Cristo\". Não porque goste de sofrer, mas porque descobriu que, em cada uma delas, Cristo chega mais perto.",
+      "busca_video": "morning dew grass",
+      "prompt_imagem": "morning dew on green grass with sunrise light",
+      "vazia": true,
+      "animar": false,
+      "emocao": "emoção forte e esperança, mais firme"
+    },
+    {
+      "trecho": "Talvez Deus ainda vá tirar o seu espinho. Ele cura, Ele restaura, Ele abre portas. Mas, se a resposta for \"espera\" ou \"ainda não\", você não está sem resposta. A resposta é: a minha graça te basta.",
+      "busca_video": "forest sunbeams",
+      "prompt_imagem": "sunbeams through tall trees in a misty forest",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "E Paulo escreveu no capítulo quatro: \"a nossa leve e momentânea tribulação produz para nós um peso eterno de glória mui excelente\". A sua dor é real, mas ela não é eterna. A glória é.",
+      "busca_video": "sunset ocean",
+      "prompt_imagem": "sunset over the ocean with gentle waves",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Por isso, \"não desfalecemos\", ele diz. Mesmo que o corpo canse, \"o interior, contudo, se renova de dia em dia\". Deus renova você por dentro, um dia de cada vez, uma manhã de cada vez.",
+      "busca_video": "sunrise mountains",
+      "prompt_imagem": "sunrise over misty mountains",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, voz embargada nas dores, frases curtas"
+    },
+    {
+      "trecho": "Agora, se puder, feche os olhos por um instante e ore comigo. Senhor, Tu sabes qual é o meu espinho. Eu já pedi muitas vezes. Eu não vou fingir que estou bem.",
+      "busca_video": "candle flame dark",
+      "prompt_imagem": "a single candle flame glowing in a dark stone room",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, oração lenta e sincera, voz baixa"
+    },
+    {
+      "trecho": "Se for da Tua vontade, tira esta dor. Mas, se ela ficar, arma a Tua tenda sobre mim. Que a Tua graça me baste hoje, só por hoje. E amanhã eu volto a Ti para pedir a graça de amanhã.",
+      "busca_video": "tent night stars",
+      "prompt_imagem": "a lit woven tent under a starry night sky",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, oração lenta e sincera, voz baixa"
+    },
+    {
+      "trecho": "Onde eu sou fraco, sê Tu a minha força. Cobre a minha casa, a minha família, os meus filhos. Em nome de Jesus. Amém.",
+      "busca_video": "moon lake",
+      "prompt_imagem": "a full moon reflecting on a calm lake",
+      "vazia": true,
+      "animar": false,
+      "emocao": "ternura, oração lenta e sincera, voz baixa"
+    },
+    {
+      "trecho": "Se você tem um espinho hoje, escreva nos comentários só uma palavra: \"basta\". Eu e muitos irmãos vamos orar por você. No próximo episódio, vamos abrir a última carta de Paulo, escrita da prisão, perto da morte.",
+      "busca_video": "river forest",
+      "prompt_imagem": "a gentle river in a green forest with soft light",
+      "vazia": true,
+      "animar": false,
+      "emocao": "paz, voz suave"
+    },
+    {
+      "trecho": "Que você termine este estudo sabendo disto: a sua fraqueza não é o fim. É o lugar onde Cristo arma a tenda. A graça dele te basta, hoje.",
+      "busca_video": "clouds sky",
+      "prompt_imagem": "white clouds moving slowly across a blue sky",
+      "vazia": true,
+      "animar": false,
+      "emocao": "paz, voz suave"
+    },
+    {
+      "trecho": "Se este estudo falou ao seu coração, inscreva-se no canal e ative o sininho para não perder a próxima carta. Até o próximo estudo. MENSAGEIRO DE FÉ.",
+      "busca_video": "sunrise clouds",
+      "prompt_imagem": "golden sunrise breaking through clouds over green hills",
+      "vazia": true,
+      "animar": false,
+      "emocao": "paz, voz suave"
+    }
+  ]
+}

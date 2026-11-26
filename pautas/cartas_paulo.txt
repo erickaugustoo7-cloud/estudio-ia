@@ -1,6 +1,5 @@
 # Série "As Cartas de Paulo" — ordem aprovada pelo Eric em 26/11 (consolo primeiro). Use a 1ª linha não comentada e remova-a.
-# Feitos: ep01 Filipenses (estudo_cartas_paulo_01_filipenses), ep02 Romanos 8 (estudo_cartas_paulo_02_romanos8)
-03 | 2 Coríntios 12 — "A minha graça te basta": o espinho na carne e a força na fraqueza (2Co 12:7-10; 2Co 4:7-9)
+# Feitos: ep01 Filipenses (estudo_cartas_paulo_01_filipenses), ep02 Romanos 8 (estudo_cartas_paulo_02_romanos8), ep03 2 Coríntios 12 (estudo_cartas_paulo_03_graca_te_basta)
 04 | 2 Timóteo — a última carta de Paulo, preso, perto da morte: "combati o bom combate" (2Tm 4:6-18; 2Tm 1:7)
 05 | Efésios 6 — a armadura de Deus (Ef 6:10-18; Ef 3:20)
 06 | Filemom — o escravo que fugiu e a carta que pediu perdão e segunda chance (Filemom 1-25)
