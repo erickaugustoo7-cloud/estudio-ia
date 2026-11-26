@@ -1,0 +1,20 @@
+name: Comentários do YouTube (listar/responder)
+on:
+  workflow_dispatch:
+    inputs:
+      token: {description: "YT_REFRESH_TOKEN (Mensageiro) ou YT_REFRESH_TOKEN_CURIOSO (Antes de Nós)", default: YT_REFRESH_TOKEN_CURIOSO}
+      responder_id: {required: false, default: ""}
+      resposta: {required: false, default: ""}
+jobs:
+  c:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q requests
+      - run: python ferramentas/comentarios.py
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_TOKEN: ${{ secrets[inputs.token] }}
+          RESPONDER_ID: ${{ inputs.responder_id }}
+          RESPOSTA: ${{ inputs.resposta }}
