@@ -1,0 +1,63 @@
+{
+ "tipo": "tiktok",
+ "duracao_max": 40,
+ "volume_musica": 0.12,
+ "plataformas": [
+  "facebook"
+ ],
+ "estilo_imagem": "cinematic photorealistic epic film still, soft night and dawn light, dramatic volumetric god rays, ancient Judea hill country, muted earthy tones, vertical 9:16",
+ "prefixo_imagem": "cinematic photorealistic film still:",
+ "prefixo_video": "Cinematic slow subtle motion.",
+ "serie": "Os apóstolos",
+ "fonte_imagem": "modelscope",
+ "fundo_video": "imagens",
+ "opcoes_imagem": 1,
+ "titulo": "Todos odiavam esse homem. Jesus disse: segue-me 🙏",
+ "gancho_tela": "O HOMEM QUE TODOS ODIAVAM",
+ "referencia": "Mateus 9:9-13; Lucas 5:27-32",
+ "epoca_imagem": "Capernaum by the Sea of Galilee, first century, basalt stone houses, wooden tables, clay lamps, linen and wool, nothing modern",
+ "legenda": "Mateus cobrava impostos para Roma e o povo o via como traidor. Jesus passou pela coletoria e disse: \"Segue-me.\" \"E ele, deixando tudo, levantou-se e o seguiu\" (Lucas 5:28). Quando criticaram, Jesus respondeu: \"Não necessitam de médico os sãos, mas sim, os doentes\" (Mateus 9:12). Ninguém foi longe demais para ele. 🙏",
+ "hashtags": [
+  "#Apóstolos",
+  "#Mateus",
+  "#Jesus",
+  "#Fé",
+  "#Bíblia"
+ ],
+ "fontes": [
+  "Mateus 9:9-13 e Lucas 5:27-32 — Almeida Revista e Corrigida (domínio público), conferidos em bibliaonline.com.br/arc",
+  "Publicanos: cobradores de impostos a serviço de Roma, malvistos pelo povo (contexto dos próprios evangelhos, ex.: Mt 9:11; Lc 19:7)"
+ ],
+ "cenas": [
+  {
+   "trecho": "Todo mundo odiava aquele homem. Jesus disse a ele: segue-me.",
+   "prompt_imagem": "a lonely wooden tax collector's table with stacks of ancient coins and a scale under a cloth awning in an ancient stone town street, dramatic side light, no people",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Mateus cobrava impostos para Roma. O povo o via como um traidor.",
+   "prompt_imagem": "ancient Capernaum by the Sea of Galilee, basalt stone houses and a small harbor, morning haze, seen from a hill, tiny distant figures",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Jesus viu Mateus na coletoria e disse: \"Segue-me.\" E ele, deixando tudo, levantou-se e o seguiu.",
+   "prompt_imagem": "ancient coins scattered and left behind on an empty wooden table, a stool pushed back, warm sunlight through a doorway, no people",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Os religiosos criticaram. Jesus respondeu: \"Não necessitam de médico os sãos, mas sim, os doentes.\"",
+   "prompt_imagem": "a long simple wooden table set with bread, olives and clay cups in an ancient stone courtyard at dusk, oil lamps glowing, no people",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Se você acha que foi longe demais, ele ainda está chamando. Siga para mais.",
+   "prompt_imagem": "a dirt road leading out of an ancient Galilean town toward hills at golden sunrise, one tiny distant figure walking, wide shot",
+   "vazia": true,
+   "animar": false
+  }
+ ]
+}
