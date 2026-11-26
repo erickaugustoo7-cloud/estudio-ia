@@ -1,0 +1,104 @@
+{
+ "duracao_max": 90,
+ "volume_musica": 0.14,
+ "estilo_imagem": "cinematic photorealistic epic film still, dramatic volumetric god rays, floating dust particles, deep chiaroscuro, ancient Galilee in the time of Herod, muted earthy tones, vertical 9:16",
+ "prefixo_imagem": "cinematic photorealistic film still:",
+ "prefixo_video": "Cinematic epic film shot, slow and subtle motion.",
+ "titulo": "Deus escolheu a vila que ninguém lembrava",
+ "titulo_youtube": "Deus escolheu a vila que ninguém lembrava | A História de Jesus, Parte 1",
+ "serie": "A História de Jesus",
+ "parte": 1,
+ "gancho_tela": "A vila que ninguém lembrava",
+ "referencia": "Lucas 1:26-38",
+ "fonte_imagem": "modelscope",
+ "fundo_video": "imagens",
+ "epoca_imagem": "Galilee in the first century BC, the small village of Nazareth, simple stone houses, clay, wood, wool and linen only, nothing modern; holy figures never show their face (seen from behind, silhouettes or hands only)",
+ "legenda": "A História de Jesus — Parte 1. Nazaré era tão pequena que nem aparece no Antigo Testamento. Foi ali que o anjo Gabriel disse a Maria: \"Não temas, porque achaste graça diante de Deus\" (Lucas 1:30). E ela respondeu: \"Eis aqui a serva do Senhor; cumpra-se em mim segundo a tua palavra\" (Lucas 1:38). Amanhã, a parte 2: o sonho de José. 🙏",
+ "hashtags": [
+  "#HistóriaDeJesus",
+  "#Natal",
+  "#Maria",
+  "#AnjoGabriel",
+  "#Bíblia"
+ ],
+ "fontes": [
+  "Lucas 1:26-38 — Almeida Revista e Corrigida (domínio público)",
+  "Nazaré não é citada no Antigo Testamento (nem em Josefo ou no Talmude): consenso de dicionários bíblicos, ex. verbete 'Nazareth', Easton's Bible Dictionary"
+ ],
+ "cenas": [
+  {
+   "trecho": "Uma vila tão pequena que nem aparece no Antigo Testamento. Ali tudo começou.",
+   "prompt_imagem": "a tiny humble village of small stone houses on a rocky Galilean hillside seen from high above at dawn, olive trees, thin smoke from one roof, golden god rays",
+   "prompt_movimento": "slow aerial drift toward the village, smoke rises gently",
+   "vazia": true
+  },
+  {
+   "trecho": "Em Nazaré vivia Maria, prometida em casamento a José, da casa de Davi.",
+   "prompt_imagem": "a clay water jar and a folded blue linen veil resting on a stone well in an ancient village at sunrise, morning haze",
+   "prompt_movimento": "slow push toward the well, haze drifts",
+   "vazia": true
+  },
+  {
+   "trecho": "O anjo Gabriel entrou onde ela estava: \"Salve, agraciada; o Senhor é contigo.\"",
+   "prompt_imagem": "inside a humble stone room, a tall column of soft white heavenly light pouring through a small window onto a simple wool mat and a clay lamp",
+   "prompt_movimento": "light intensifies slowly, dust sparkles",
+   "vazia": true
+  },
+  {
+   "trecho": "Maria se turbou muito. Por que um anjo viria até ela?",
+   "prompt_imagem": "a spindle with wool thread dropped on a stone floor beside a small wooden stool, warm window light",
+   "prompt_movimento": "light flickers softly, dust floats",
+   "vazia": true
+  },
+  {
+   "trecho": "\"Maria, não temas, porque achaste graça diante de Deus.\"",
+   "prompt_imagem": "radiant soft golden light filling a simple stone room, dust floating in the light beams, peaceful",
+   "prompt_movimento": "light beams shimmer slowly",
+   "vazia": true
+  },
+  {
+   "trecho": "\"Darás à luz um filho, e pôr-lhe-ás o nome de Jesus.\"",
+   "prompt_imagem": "a single bright star appearing over dark Galilean hills at twilight, deep blue sky, tiny village lights below",
+   "prompt_movimento": "star brightens slowly, clouds drift",
+   "vazia": true
+  },
+  {
+   "trecho": "Ela perguntou: \"Como se fará isto?\" E ouviu: \"Para Deus nada é impossível.\"",
+   "prompt_imagem": "a soft beam of white light descending from parted clouds onto a tiny village on a hill, wide shot, majestic",
+   "prompt_movimento": "light beam grows, clouds part slowly",
+   "vazia": true
+  },
+  {
+   "trecho": "Maria podia temer o que iam dizer. Mas respondeu:",
+   "prompt_imagem": "an open wooden door of a stone house at dusk with warm lamplight spilling onto the dusty path",
+   "prompt_movimento": "slow push toward the doorway",
+   "vazia": true
+  },
+  {
+   "trecho": "\"Eis aqui a serva do Senhor; cumpra-se em mim segundo a tua palavra.\"",
+   "prompt_imagem": "a small clay oil lamp burning on a stone window ledge at night, the dark hills beyond, calm",
+   "prompt_movimento": "flame flickers, slow push in",
+   "vazia": true
+  },
+  {
+   "trecho": "Deus escolheu uma vila esquecida e uma moça simples. Ele também enxerga você.",
+   "prompt_imagem": "sunrise over the Galilean hills with a small village glowing in warm light, wide peaceful shot",
+   "prompt_movimento": "slow sunrise light spreads",
+   "vazia": true
+  },
+  {
+   "trecho": "Amanhã, na parte 2: o sonho que mudou a vida de José. Siga para não perder.",
+   "prompt_imagem": "a carpenter's wooden workbench with simple tools in a dim stone workshop at night, an oil lamp glowing",
+   "prompt_movimento": "lamp flame flickers, slow push toward the bench",
+   "vazia": true
+  }
+ ],
+ "texto_capa": [
+  "DEUS ESCOLHEU",
+  "A VILA",
+  "*ESQUECIDA"
+ ],
+ "cena_capa": 0,
+ "selo_capa": "A História de Jesus · Parte 1",
+ "capa_prompt": "a tiny humble ancient stone village on a Galilean hill at night under a sky full of stars, one brilliant beam of heavenly light falling on a single small house, cinematic, majestic, no people"
+}
