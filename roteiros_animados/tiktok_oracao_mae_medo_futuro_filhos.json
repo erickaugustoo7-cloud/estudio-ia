@@ -1,0 +1,68 @@
+{
+  "titulo": "Oração da mãe com medo do futuro dos filhos",
+  "gancho_tela": "Medo do futuro dos filhos?",
+  "referencia": "Isaías 41:10",
+  "serie": "Oração de 20 segundos",
+  "tipo": "tiktok",
+  "fonte_imagem": "kaggle",
+  "opcoes_imagem": 2,
+  "duracao_max": 40,
+  "volume_musica": 0.12,
+  "plataformas": [
+    "facebook"
+  ],
+  "estilo_imagem": "cinematic photorealistic epic film still, soft night lamplight turning into warm dawn light, dramatic volumetric light, ancient Judea village, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic slow subtle motion.",
+  "epoca_imagem": "Ancient Israel village, stone house, clay jars and oil lamps, woven mats, linen, wool and wood only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "Mãe, tem medo do que vai ser dos seus filhos? Ore comigo.",
+      "prompt_imagem": "two small woven sleeping mats with folded wool blankets side by side in a dark stone room, a small clay oil lamp burning on the floor beside them, warm flickering light",
+      "vazia": true,
+      "animar": true,
+      "prompt_movimento": "the small flame of the clay oil lamp flickers gently, warm light trembling softly over the wool blankets"
+    },
+    {
+      "trecho": "Senhor, eu não sei o caminho que eles vão seguir.",
+      "prompt_imagem": "a dusty stone road winding through olive trees and hills at dusk, wide high view, long soft shadows",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Não consigo protegê-los de tudo, e isso tira o meu sono.",
+      "prompt_imagem": "a narrow window in a thick stone wall at night, deep blue moonlight falling on a clay water jug and a folded linen cloth",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Mas Tu disseste: não temas, porque eu sou contigo. Eu te fortaleço, e te ajudo.",
+      "prompt_imagem": "an old parchment scroll partly unrolled on a wooden table beside a burning clay oil lamp, warm light falling across it",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Vai na frente deles, guarda cada passo e me dá paz para descansar. Amém.",
+      "prompt_imagem": "first golden rays of sunrise entering a stone house through an open wooden door, light spreading across two woven mats",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Siga o Mensageiro de Fé para orar comigo todos os dias.",
+      "prompt_imagem": "a quiet ancient village of flat-roofed stone houses at dawn, olive trees and hills in soft light, wide high view, peaceful sky",
+      "vazia": true,
+      "animar": false
+    }
+  ],
+  "legenda": "Para a mãe com medo do amanhã: \"Não temas, porque eu sou contigo; não te assombres, porque eu sou teu Deus\" (Isaías 41:10). Quais são os nomes dos seus filhos? Comente que eu oro por eles 👇",
+  "hashtags": [
+    "#Oração",
+    "#OraçãoDeMãe",
+    "#Filhos",
+    "#Fé",
+    "#Deus"
+  ],
+  "fontes": [
+    "Isaías 41:10 — Almeida: \"Não temas, porque eu sou contigo; não te assombres, porque eu sou teu Deus; eu te fortaleço, e te ajudo, e te sustento com a destra da minha justiça.\" (conferido em bibliaonline.com.br/acf/is/41/10 e biblestudytools.com/aa/isaias/41-10.html, Almeida Atualizada, domínio público)"
+  ]
+}
