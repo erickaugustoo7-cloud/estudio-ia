@@ -1,0 +1,85 @@
+{
+  "titulo": "Seis dias em silêncio. No sétimo, a muralha caiu",
+  "gancho_tela": "Seis dias. Nenhuma pedra caiu.",
+  "referencia": "Josué 6:20",
+  "duracao_max": 90,
+  "volume_musica": 0.14,
+  "estilo_imagem": "cinematic photorealistic epic film still, dramatic volumetric god rays, floating dust particles, deep chiaroscuro, ancient Canaan Late Bronze Age, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic epic film shot, slow and subtle motion.",
+  "epoca_imagem": "Late Bronze Age Canaan, the walled city of Jericho on a mound in a palm oasis near the Jordan river, mud-brick walls on stone foundations, stone, clay, wood, bronze and cloth only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "Seis dias marchando em volta de um muro. Calados. E nenhuma pedra caiu.",
+      "prompt_imagem": "massive ancient mud-brick city walls on a stone mound seen from high above at dawn, a thin line of tiny figures far away in the distance circling the base, dust glowing in golden god rays",
+      "prompt_movimento": "slow aerial camera descending toward the walls, dust drifts in the light beams, long shadows stretch",
+      "vazia": false
+    },
+    {
+      "trecho": "Era Jericó, a cidade das palmeiras. Trancada: ninguém saía, nem entrava.",
+      "prompt_imagem": "huge closed wooden city gate reinforced with bronze in a towering mud-brick wall, date palm trees around, evening light and haze",
+      "prompt_movimento": "slow camera push toward the gate, palm leaves sway in the wind, haze moves",
+      "vazia": true
+    },
+    {
+      "trecho": "Era a primeira cidade depois do rio Jordão, a porta da terra prometida.",
+      "prompt_imagem": "wide high view of the Jordan river valley at sunrise, a green palm oasis and a walled city on a mound in the distance, desert mountains behind",
+      "prompt_movimento": "slow aerial glide forward over the river, water shimmers, morning mist drifts",
+      "vazia": true
+    },
+    {
+      "trecho": "Seis dias, uma volta por dia. Sete trombetas de chifre de carneiro diante da arca.",
+      "prompt_imagem": "close-up of seven curved ram's horn trumpets held up by hands in front of a golden ark of the covenant with winged cherubim, dusty golden light",
+      "prompt_movimento": "slow camera slide along the horns, gold reflections flicker, dust floats in the light",
+      "vazia": false
+    },
+    {
+      "trecho": "E Josué ordenou: não gritem, nem digam uma palavra, até o dia em que eu disser.",
+      "prompt_imagem": "silent desert plain beside towering city walls at dusk, a long line of tiny figures far away in the distance, dust hanging in still air",
+      "prompt_movimento": "very slow camera pull back, dust hangs in the air, light fades softly",
+      "vazia": false
+    },
+    {
+      "trecho": "No sétimo dia, madrugaram e rodearam a cidade sete vezes.",
+      "prompt_imagem": "first light of dawn over the walled city of Jericho seen from very high, a circle of tiny figures around the base of the walls, mist on the palm groves",
+      "prompt_movimento": "slow aerial camera circling around the city, mist drifts, sunrise light grows",
+      "vazia": false
+    },
+    {
+      "trecho": "Então Josué disse: Gritem, porque o Senhor está entregando a cidade a vocês!",
+      "prompt_imagem": "a raised ram's horn trumpet held by hands against a blazing sunrise sky, massive city walls below, strong volumetric light",
+      "prompt_movimento": "slow camera tilt up toward the sun, light rays intensify, dust swirls",
+      "vazia": false
+    },
+    {
+      "trecho": "As trombetas soaram, o povo gritou, e a muralha caiu.",
+      "prompt_imagem": "massive ancient mud-brick city wall collapsing outward, huge clouds of dust and falling stone blocks lit by golden god rays, seen from far away",
+      "prompt_movimento": "slow motion dust clouds billow outward, stones tumble, camera shakes gently",
+      "vazia": true
+    },
+    {
+      "trecho": "Dentro da cidade, Raabe e toda a sua casa foram salvas, como Deus prometeu.",
+      "prompt_imagem": "a scarlet cord hanging from a small window in an ancient mud-brick wall, dust in the air around it, warm morning light",
+      "prompt_movimento": "the scarlet cord sways gently in the wind, dust drifts through the light",
+      "vazia": true
+    },
+    {
+      "trecho": "Josué, capítulo seis. Talvez você esteja no sexto dia, rodeando o mesmo muro.",
+      "prompt_imagem": "a dusty path worn in a circle around the foot of a huge ancient wall, footprints in the sand, late afternoon golden light",
+      "prompt_movimento": "slow camera glide along the path, sand blows lightly, shadows lengthen",
+      "vazia": true
+    },
+    {
+      "trecho": "Não pare de andar. Deus conta até sete. Siga para a próxima história.",
+      "prompt_imagem": "fallen ruins of ancient city walls at sunrise with a radiant beam of light from the sky, palm trees, dust settling, seen from high above",
+      "prompt_movimento": "slow aerial camera rising, light beam glows, dust settles softly",
+      "vazia": true
+    }
+  ],
+  "legenda": "Senhor, me dá fé para não parar no sexto dia 🙏🎺\nJosué 6:15-20\nComente \"Amém\" se você está esperando um muro cair.",
+  "hashtags": ["#Jericó", "#Josué", "#fé", "#Bíblia"],
+  "fontes": [
+    "Josué 6:1-5, 6:10, 6:15-20, 6:25 — NAA (bibliaonline.com.br/naa/js/6) e NVI (bibliaon.com/versiculo/josue_6_15-20/)",
+    "Josué 2:18-21 (cordão de fio escarlate de Raabe); Deuteronômio 34:3 (Jericó, cidade das palmeiras); Josué 3:16; 4:19 (Jordão e Gilgal, a leste de Jericó)"
+  ]
+}
