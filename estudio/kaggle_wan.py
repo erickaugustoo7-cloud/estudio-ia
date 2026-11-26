@@ -873,7 +873,8 @@ def main():
     elif r.get("tipo") != "novela" and not os.getenv("USAR_KAGGLE"):
         # desde 16/11 (decisão do Eric): o Kaggle fica só para a novela; os demais vídeos usam paisagens REAIS
         # (Pixabay) com imagens geradas fora do Kaggle apenas como reserva
-        r["fundo_video"] = "pixabay"
+        if r.get("fundo_video") != "imagens":  # "imagens" = só imagens próprias (estilo do canal), sem banco de vídeos (teste 26/11)
+            r["fundo_video"] = "pixabay"
         if r.get("fonte_imagem", "kaggle") == "kaggle":  # orações/Shorts: Cloudflare (ModelScope gasta Magicubes)
             r["fonte_imagem"] = "cloudflare"
         for c in r["cenas"]:
