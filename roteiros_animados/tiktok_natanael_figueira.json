@@ -1,0 +1,62 @@
+{
+ "tipo": "tiktok",
+ "duracao_max": 40,
+ "volume_musica": 0.12,
+ "plataformas": [
+  "facebook"
+ ],
+ "estilo_imagem": "cinematic photorealistic epic film still, soft night and dawn light, dramatic volumetric god rays, ancient Judea hill country, muted earthy tones, vertical 9:16",
+ "prefixo_imagem": "cinematic photorealistic film still:",
+ "prefixo_video": "Cinematic slow subtle motion.",
+ "epoca_imagem": "Ancient Galilee, first century, stone villages, dirt roads, fig and olive trees, linen and wool, nothing modern",
+ "titulo": "Antes de alguém te chamar, Jesus já tinha te visto 🙏",
+ "gancho_tela": "JESUS JÁ TINHA TE VISTO",
+ "referencia": "João 1:45-51",
+ "serie": "Os apóstolos",
+ "fonte_imagem": "modelscope",
+ "opcoes_imagem": 1,
+ "legenda": "Natanael duvidou: \"Pode vir alguma coisa boa de Nazaré?\" Mesmo assim foi ver. E ouviu de Jesus: \"Antes que Filipe te chamasse, te vi eu, estando tu debaixo da figueira\" (João 1:48). Ele se tornou apóstolo. O mesmo Jesus vê o que você vive em segredo. 🙏",
+ "hashtags": [
+  "#Apóstolos",
+  "#Natanael",
+  "#Jesus",
+  "#Fé",
+  "#Bíblia"
+ ],
+ "fontes": [
+  "João 1:45-51 — Almeida Revista e Corrigida (domínio público), conferido em bibliaonline.com.br/arc/jo/1",
+  "Natanael identificado como Bartolomeu pela tradição cristã (nome junto de Filipe nas listas de Mt 10:3, Mc 3:18, Lc 6:14) — não afirmado no texto"
+ ],
+ "cenas": [
+  {
+   "trecho": "Antes de alguém te chamar, Jesus já tinha visto você.",
+   "prompt_imagem": "a lone fig tree on a quiet hillside in ancient Galilee at dawn, golden god rays through the leaves, wide shot, no people",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Natanael duvidava. Quando ouviu falar de Jesus, zombou: \"Pode vir alguma coisa boa de Nazaré?\"",
+   "prompt_imagem": "a small humble stone village of Nazareth on a rocky hill in the first century, morning haze, seen from far away",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Mesmo assim, foi ver. E Jesus disse: \"Antes que Filipe te chamasse, te vi eu, estando tu debaixo da figueira.\"",
+   "prompt_imagem": "two tiny distant figures in linen robes walking on a dusty road toward a crowd on a Galilean hillside, wide aerial shot, warm light",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Ninguém sabia o que ele tinha vivido debaixo daquela figueira. Jesus sabia.",
+   "prompt_imagem": "close-up of the trunk and broad leaves of an old fig tree, deep shadow underneath, single beam of sunlight, no people",
+   "vazia": true,
+   "animar": false
+  },
+  {
+   "trecho": "Natanael virou apóstolo. E o mesmo Jesus vê o que você vive em segredo. Siga para mais.",
+   "prompt_imagem": "sunrise over the Sea of Galilee seen from a hill with a fig tree in the foreground, peaceful, wide shot, no people",
+   "vazia": true,
+   "animar": false
+  }
+ ]
+}
