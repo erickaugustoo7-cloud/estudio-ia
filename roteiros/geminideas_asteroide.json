@@ -1,0 +1,66 @@
+{
+  "titulo": "A chuva de meteoros que vem de uma pedra",
+  "gancho_tela": "Esta estrela cadente não vem de cometa",
+  "narracao": "Quase toda estrela cadente vem de um cometa. Esta não. São as Geminídeas, que voltam ao céu em dezembro. E a rocha por trás delas é muito estranha. Elas vêm de um asteroide, o três mil e duzentos Faetonte, uma rocha com cerca de cinco quilômetros de largura. Ele dá uma volta no Sol a cada um ano e cinco meses, mais ou menos. E chega mais perto do Sol do que qualquer outro asteroide com nome, a menos da metade da distância de Mercúrio. Ali, a superfície pode chegar a setecentos e cinquenta graus. Por isso ganhou o nome de Faetonte, o filho do deus Sol na mitologia grega. E os cientistas ainda discutem como uma pedra solta tanto material. Alguns chamam ele de cometa de pedra. Quando a Terra cruza esse rastro, os grãos entram na atmosfera a trinta e cinco quilômetros por segundo. Nessa velocidade, daria para ir de São Paulo ao Rio em uns dez segundos. No pico, com céu perfeito, dá para ver até cento e vinte meteoros por hora. O pico é na noite de treze para quatorze de dezembro. Daqui do Brasil aparecem menos, e o melhor horário é depois da meia-noite. E a Lua, fininha, se põe cedo e não vai atrapalhar. Você vai ficar acordado para ver? Siga para descobrir uma curiosidade nova todo dia.",
+  "cenas": [
+    {
+      "trecho": "Quase toda estrela cadente vem de um cometa. Esta não.",
+      "busca_imagem": "Geminid meteor",
+      "prompt_imagem": "a bright yellow meteor streaking across a dark starry night sky, long glowing trail"
+    },
+    {
+      "trecho": "São as Geminídeas, que voltam ao céu em dezembro. E a rocha por trás delas é muito estranha.",
+      "busca_imagem": "Geminids meteor shower",
+      "prompt_imagem": "many meteors radiating from the constellation Gemini over a dark landscape at night"
+    },
+    {
+      "trecho": "Elas vêm de um asteroide, o três mil e duzentos Faetonte, uma rocha com cerca de cinco quilômetros de largura. Ele dá uma volta no Sol a cada um ano e cinco meses, mais ou menos.",
+      "busca_imagem": "asteroid Phaethon",
+      "prompt_imagem": "a dark irregular rocky asteroid tumbling in space with the Sun glowing in the distance"
+    },
+    {
+      "trecho": "E chega mais perto do Sol do que qualquer outro asteroide com nome, a menos da metade da distância de Mercúrio. Ali, a superfície pode chegar a setecentos e cinquenta graus.",
+      "busca_imagem": "Phaethon radar Arecibo",
+      "prompt_imagem": "a rocky asteroid glowing red hot as it passes very close to the blazing Sun"
+    },
+    {
+      "trecho": "Por isso ganhou o nome de Faetonte, o filho do deus Sol na mitologia grega. E os cientistas ainda discutem como uma pedra solta tanto material. Alguns chamam ele de cometa de pedra.",
+      "busca_imagem": "Sun solar flare",
+      "prompt_imagem": "a rocky asteroid near the Sun shedding a faint thin trail of dust and gas"
+    },
+    {
+      "trecho": "Quando a Terra cruza esse rastro, os grãos entram na atmosfera a trinta e cinco quilômetros por segundo. Nessa velocidade, daria para ir de São Paulo ao Rio em uns dez segundos.",
+      "busca_imagem": "meteor atmosphere Earth",
+      "prompt_imagem": "a meteor burning up in Earth's atmosphere seen from orbit, glowing streak above the curved planet"
+    },
+    {
+      "trecho": "No pico, com céu perfeito, dá para ver até cento e vinte meteoros por hora. O pico é na noite de treze para quatorze de dezembro.",
+      "busca_imagem": "Geminids night sky",
+      "prompt_imagem": "dozens of meteors crossing a pristine dark sky full of stars above mountains"
+    },
+    {
+      "trecho": "Daqui do Brasil aparecem menos, e o melhor horário é depois da meia-noite. E a Lua, fininha, se põe cedo e não vai atrapalhar.",
+      "busca_imagem": "crescent Moon night",
+      "prompt_imagem": "a thin crescent moon setting over a quiet countryside horizon under a starry sky"
+    },
+    {
+      "trecho": "Você vai ficar acordado para ver? Siga para descobrir uma curiosidade nova todo dia.",
+      "busca_imagem": "meteor shower stargazing",
+      "prompt_imagem": "a person silhouette lying on grass watching a meteor shower under the Milky Way, no recognizable face"
+    }
+  ],
+  "legenda": "As Geminídeas vêm de um asteroide, não de um cometa: até 120 meteoros por hora no pico, na noite de 13 para 14 de dezembro. ☄️\nVocê vai ficar acordado para ver? Comenta aqui 👇",
+  "hashtags": [
+    "#Geminídeas",
+    "#chuvademeteoros",
+    "#estrelacadente",
+    "#NASA"
+  ],
+  "fontes": [
+    "NASA Science — Geminids (origem em asteroide, 3200 Faetonte descoberto em 1983 pelo IRAS, órbita de 1,4 ano, 'rock comet', 35 km/s, até 120 meteoros/h em condições perfeitas, pico 13–14/12/2026)",
+    "Wikipedia — 3200 Phaethon (periélio 0,14 UA, menos da metade do de Mercúrio; ~750 °C no periélio; mais perto do Sol que qualquer outro asteroide com nome; nome do filho de Hélio; diâmetro ~5,1–5,8 km)",
+    "EarthSky — Geminid meteor shower 2026 (pico 13–14/12; Lua crescente não atrapalha; menos meteoros no Hemisfério Sul)",
+    "Star Walk (pt) — Geminídeas 2026 (Lua crescente ~20%; no Hemisfério Sul o radiante surge por volta da meia-noite)",
+    "NASA Watch the Skies (2024) — Phaethon como 'rock-comet'/asteroide ativo"
+  ]
+}
