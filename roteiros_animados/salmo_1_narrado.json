@@ -1,0 +1,64 @@
+{
+  "titulo": "Árvore ou palha? A pergunta que abre o livro dos Salmos (Salmo 1)",
+  "gancho_tela": "ÁRVORE OU PALHA?",
+  "referencia": "Salmos 1:1-6",
+  "serie": "Salmos narrados",
+  "tipo": "salmo",
+  "voz": "eric",
+  "fonte_imagem": "cloudflare",
+  "duracao_max": 180,
+  "volume_musica": 0.12,
+  "estilo_imagem": "cinematic photorealistic landscape, golden hour light, soft volumetric rays, peaceful and reverent, rich warm colors, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic slow subtle motion.",
+  "epoca_imagem": "untouched nature, no buildings, no modern objects",
+  "legenda": "Salmo 1 🙏 Pois será como a árvore plantada junto a ribeiros de águas, a qual dá o seu fruto na estação própria.\nSalmos 1:1-6 (Almeida)\nEscreva \"Amém\" se você quer ter raízes firmes na Palavra de Deus.",
+  "hashtags": [
+    "#Salmo1",
+    "#Salmos",
+    "#PalavraDeDeus",
+    "#Fé",
+    "#Oração"
+  ],
+  "fontes": [
+    "Salmos 1:1-6 — Almeida Revista e Corrigida (tradução de domínio público)"
+  ],
+  "cenas": [
+    {
+      "trecho": "Árvore ou palha? É com essa pergunta que começa todo o livro dos Salmos. Salmo um. Ouça com calma.",
+      "prompt_imagem": "a majestic lone green tree beside a flowing river at golden sunrise, strong wind carrying golden chaff through the glowing air, untouched nature",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Bem-aventurado o varão que não anda segundo o conselho dos ímpios, nem se detém no caminho dos pecadores, nem se assenta na roda dos escarnecedores. Antes, tem o seu prazer na lei do Senhor, e na sua lei medita de dia e de noite.",
+      "prompt_imagem": "a narrow ancient dirt path winding through quiet green hills at dawn, soft mist and warm light, untouched nature",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Pois será como a árvore plantada junto a ribeiros de águas, a qual dá o seu fruto na estação própria, e cujas folhas não caem, e tudo quanto fizer prosperará.",
+      "prompt_imagem": "a large fruit tree with lush green leaves and ripe fruit planted beside clear streams of water, golden light through the branches, untouched nature",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Naquele tempo, o trigo era lançado ao vento na eira: o grão caía no chão, e a palha voava para longe. Não são assim os ímpios; mas são como a moinha que o vento espalha. Pelo que os ímpios não subsistirão no juízo, nem os pecadores na congregação dos justos.",
+      "prompt_imagem": "an ancient round stone threshing floor on a windy hilltop at sunset, a heap of golden grain, light chaff blowing away in the wind, a wooden winnowing fork resting on a stone",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Porque o Senhor conhece o caminho dos justos; mas o caminho dos ímpios perecerá.",
+      "prompt_imagem": "two paths parting in a wide valley, one leading toward a green sunlit river, the other fading into a dry dusty desert, dramatic evening light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "A palha voa com qualquer vento. A árvore fica, porque tem raízes perto da água. Se você quer ser árvore plantada na Palavra, escreva Amém. E siga o Mensageiro de Fé para ouvir um salmo por dia.",
+      "prompt_imagem": "a wooden cross on a rocky hilltop silhouetted against a glowing golden sunset sky with rays of light",
+      "vazia": true,
+      "animar": false
+    }
+  ]
+}
