@@ -1,0 +1,109 @@
+{
+  "canal": "antes_de_nos",
+  "titulo": "O fóssil do “primeiro réptil” do mundo tinha guelras",
+  "gancho_tela": "O “PRIMEIRO RÉPTIL” DO MUNDO TINHA GUELRAS",
+  "referencia": "Short: Westlothiana lizziae (“Lizzie”), fóssil escocês de ~345 milhões de anos tido como um dos primeiros répteis, revelou guelras ossificadas e boca de peixe em escaneamento no síncrotron ESRF (Igielman et al., Nature, 2026; release do AMNH, notícia de 25–26/11/2026) — CTA para o documentário mais recente do canal",
+  "duracao_max": 60,
+  "volume_musica": 0.1,
+  "plataformas": ["youtube"],
+  "fonte_imagem": "modelscope",
+  "fundo_video": "pixabay",
+  "opcoes_imagem": 1,
+  "estilo_imagem": "photorealistic documentary photo, National Geographic style, natural light, ultra detailed, vertical 9:16, no text",
+  "prefixo_imagem": "documentary photo:",
+  "epoca_imagem": "Early Carboniferous period, about 345 million years ago, tropical lakes and swamps of what is now Scotland: volcanic hills, ferns, horsetails, primitive clubmoss trees, shallow freshwater; only nature, rock and fossils; nothing modern, no people, no text, no watermark",
+  "cenas": [
+    {
+      "trecho": "O fóssil do primeiro réptil do mundo tinha guelras.",
+      "prompt_imagem": "extinct early tetrapod Westlothiana, small slender salamander-like animal with a very long thin body, tiny short legs with five-toed feet, long tail, small flat head, smooth dark olive skin, resting half submerged in clear shallow lake water, extreme close up, dramatic light",
+      "vazia": false,
+      "animar": false,
+      "reconstituicao": true
+    },
+    {
+      "trecho": "Ele foi achado numa pedreira da Escócia, há umas quatro décadas.",
+      "prompt_imagem": "green rolling hills and old grey limestone rock outcrop in the Scottish lowlands under a cloudy sky, no buildings, no people",
+      "busca_video": "scotland hills",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "O bicho tinha menos de vinte centímetros, corpo comprido e cara de lagarto.",
+      "prompt_imagem": "extinct early tetrapod Westlothiana, small slender salamander-like animal with a very long thin body, tiny short legs with five-toed feet, long tail, small flat head, smooth dark olive skin, crawling on a wet mossy rock beside a fern, side view",
+      "vazia": false,
+      "animar": false,
+      "reconstituicao": true
+    },
+    {
+      "trecho": "Por isso ganhou o apelido de Lizzie, de lagarto em inglês.",
+      "prompt_imagem": "a small fossil skeleton of an early four-legged animal with a long spine and long tail pressed into a dark grey stone slab, museum display lighting",
+      "acervo": "fossil tetrapod",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Durante décadas, foi chamado de um dos primeiros répteis da Terra.",
+      "prompt_imagem": "a crushed fossil skeleton of a tiny long-bodied four-legged animal split across two dark rock slabs, macro photo, dramatic side light, black background",
+      "vazia": true,
+      "animar": false,
+      "reconstituicao": true
+    },
+    {
+      "trecho": "Agora, cientistas examinaram a pedra com raios X muito poderosos, na França.",
+      "prompt_imagem": "a dark fossil rock slab glowing with a thin beam of bright blue light across its surface, black background, macro photo, no machines, no people",
+      "vazia": true,
+      "animar": false,
+      "reconstituicao": true
+    },
+    {
+      "trecho": "Dentro do crânio, apareceram guelras com osso.",
+      "prompt_imagem": "close up of a tiny fossil skull in grey rock showing delicate curved bony gill arches behind the head, macro photo, dramatic light, black background",
+      "vazia": true,
+      "animar": false,
+      "reconstituicao": true
+    },
+    {
+      "trecho": "E uma boca de peixe, forrada de milhares de dentinhos.",
+      "prompt_imagem": "extinct early tetrapod Westlothiana, small slender salamander-like animal with a long body and small flat head, smooth dark olive skin, mouth slightly open showing many tiny pointed teeth, underwater close up, green filtered light",
+      "vazia": false,
+      "animar": false,
+      "reconstituicao": true
+    },
+    {
+      "trecho": "Lizzie não era réptil. Vivia na água, ou entre a água e a terra.",
+      "prompt_imagem": "extinct early tetrapod Westlothiana, small slender salamander-like animal with a very long thin body, tiny short legs, long tail, smooth dark olive skin, swimming like an eel through shallow freshwater among water plants, sunlight from above",
+      "vazia": false,
+      "animar": false,
+      "reconstituicao": true
+    },
+    {
+      "trecho": "Ela vem de um ramo mais antigo, de antes da separação entre anfíbios e répteis.",
+      "prompt_imagem": "Early Carboniferous tropical lake landscape with volcanic hills, giant ferns, horsetails and tall primitive clubmoss trees, mist over still water, no animals",
+      "busca_video": "swamp lake mist",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "O estudo saiu na Nature. Ela viveu há uns trezentos e quarenta e cinco milhões de anos.",
+      "prompt_imagem": "extinct early tetrapod Westlothiana, small slender salamander-like animal with a very long thin body, tiny short legs with five-toed feet, long tail, smooth dark olive skin, resting on a muddy lake shore under giant ferns at dusk, orange sky",
+      "vazia": false,
+      "animar": false,
+      "reconstituicao": true
+    },
+    {
+      "trecho": "Tem documentário novo no canal. E aquele primeiro réptil do mundo tinha guelras.",
+      "prompt_imagem": "extinct early tetrapod Westlothiana, small slender salamander-like animal with a long body and small flat head, smooth dark olive skin, slipping into dark lake water at night, ripples, moonlight reflection",
+      "vazia": false,
+      "animar": false,
+      "reconstituicao": true
+    }
+  ],
+  "legenda": "Westlothiana lizziae, a “Lizzie”, é um fóssil de uns 345 milhões de anos achado na pedreira de East Kirkton, perto de Bathgate, na Escócia. Por décadas ela foi citada como um dos répteis (amniotas) mais antigos da Terra. Um novo estudo na revista Nature escaneou o esqueleto no síncrotron europeu ESRF, em Grenoble, e encontrou um crânio primitivo, guelras internas com osso e uma boca de peixe com milhares de dentinhos. Conclusão: Lizzie não era réptil — era um tetrápode-tronco, de um ramo que surgiu antes da separação entre anfíbios e amniotas, e vivia na água ou entre a água e a terra. O documentário mais recente do Antes de Nós já está no canal.\n\nVocê sabia disso? Comente 👇",
+  "hashtags": ["#história", "#curiosidades", "#préhistória", "#fósseis", "#documentário"],
+  "fontes": [
+    "Igielman, B., Jenkins, X., Head, J., Fernandez, V., Roberts, L., Smithson, T., Benson, R., 'Evolution of terrestrial anatomy revealed by a derived stem tetrapod', Nature 659 (8140), 2026, DOI 10.1038/s41586-026-11090-6",
+    "AMNH (nov/2026) — 'Fossil Long Known as World's Oldest Reptile Dethroned': guelras ossificadas, boca de peixe com milhares de dentinhos, aquático ou anfíbio, fóssil de 345 milhões de anos: https://www.amnh.org/about/press-center/oldest-reptile-fossil",
+    "ScienceDaily (26/11/2026) — 'This 345-million-year-old fossil had scientists fooled for decades': https://www.sciencedaily.com/releases/2026/11/261125045307.htm",
+    "Wikipedia, 'Westlothiana' — East Kirkton Quarry (West Lothian), apelido 'Lizzie the lizard', menos de 20 cm de comprimento adulto: https://en.wikipedia.org/wiki/Westlothiana"
+  ]
+}
