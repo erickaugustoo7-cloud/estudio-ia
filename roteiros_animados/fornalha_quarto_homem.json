@@ -1,0 +1,91 @@
+{
+  "titulo": "Eles não se ajoelharam. No fogo, eram quatro",
+  "gancho_tela": "Jogaram três. O rei viu quatro.",
+  "referencia": "Daniel 3:25",
+  "duracao_max": 90,
+  "volume_musica": 0.14,
+  "estilo_imagem": "cinematic photorealistic epic film still, dramatic volumetric god rays, floating dust particles, deep chiaroscuro, ancient Neo-Babylonian empire, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic epic film shot, slow and subtle motion.",
+  "epoca_imagem": "Neo-Babylonian empire in the 6th century BC, the plain of Dura near Babylon, mud-brick walls, blue glazed bricks, ziggurat, a huge brick furnace, stone, clay, gold, bronze, wood and cloth only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "Três homens amarrados, jogados no fogo. Mas o rei viu quatro.",
+      "prompt_imagem": "the glowing open mouth of a huge ancient brick furnace roaring with fire at night, four tiny distant figures standing inside the flames, sparks rising",
+      "prompt_movimento": "flames roar and swirl slowly, sparks rise, camera pushes in very slowly",
+      "vazia": false
+    },
+    {
+      "trecho": "Babilônia. Na planície de Dura, uma estátua de ouro de sessenta côvados.",
+      "prompt_imagem": "a colossal golden statue standing on a vast desert plain seen from high above, the mud-brick walls and ziggurat of Babylon far in the distance, golden god rays",
+      "prompt_movimento": "slow aerial camera descending toward the statue, dust drifts in the light beams",
+      "vazia": true
+    },
+    {
+      "trecho": "Quem não se ajoelhasse seria lançado numa fornalha de fogo ardente.",
+      "prompt_imagem": "a massive ancient brick furnace with a glowing arched opening on a desert plain at dusk, thick smoke rising into the sky",
+      "prompt_movimento": "smoke billows upward slowly, fire glow flickers, camera pulls back",
+      "vazia": true
+    },
+    {
+      "trecho": "A multidão se prostrou. Sadraque, Mesaque e Abede-Nego ficaram de pé.",
+      "prompt_imagem": "a vast plain seen from very high in front of a colossal golden statue, a huge crowd of tiny distant figures bowed to the ground, three tiny figures still standing",
+      "prompt_movimento": "very slow aerial camera glide forward, dust floats in the golden light",
+      "vazia": false
+    },
+    {
+      "trecho": "Disseram ao rei: nosso Deus pode nos livrar. E, se não, não serviremos aos teus deuses.",
+      "prompt_imagem": "a grand Babylonian palace hall with blue glazed brick walls and golden lions, an empty golden throne lit by a beam of light, incense smoke",
+      "prompt_movimento": "incense smoke curls slowly, light beam shimmers, camera slides slowly forward",
+      "vazia": true
+    },
+    {
+      "trecho": "Nabucodonosor, furioso, mandou aquecer a fornalha sete vezes mais que o costume.",
+      "prompt_imagem": "close view of the arched mouth of an ancient brick furnace blazing white-hot, flames bursting out, heat haze and flying embers",
+      "prompt_movimento": "flames surge outward, embers fly, heat haze ripples the air",
+      "vazia": true
+    },
+    {
+      "trecho": "Amarrados, com mantos e turbantes, foram lançados. O fogo matou quem os levou.",
+      "prompt_imagem": "thick ropes and a fallen cloth turban lying on scorched ground before a roaring furnace opening, flames and smoke pouring out",
+      "prompt_movimento": "smoke pours out slowly, the cloth stirs in the hot wind, embers drift",
+      "vazia": true
+    },
+    {
+      "trecho": "Então o rei se levantou, espantado: não lançamos três homens amarrados?",
+      "prompt_imagem": "a high stone terrace overlooking a blazing furnace at night, a golden royal canopy and an empty throne lit by the orange glow",
+      "prompt_movimento": "fire glow flickers on the canopy, cloth sways in the hot wind, camera pushes in",
+      "vazia": true
+    },
+    {
+      "trecho": "Eu vejo quatro homens soltos, andando no meio do fogo, sem nenhum dano.",
+      "prompt_imagem": "inside a huge furnace seen from far away, four tiny distant figures walking calmly among the flames, a radiant white light around the fourth",
+      "prompt_movimento": "flames swirl gently around, the white light glows softly, slow camera push in",
+      "vazia": false
+    },
+    {
+      "trecho": "Saíram sem um fio de cabelo queimado, nem cheiro de fogo. Daniel, capítulo três.",
+      "prompt_imagem": "the open mouth of an ancient brick furnace with fire dying down at dawn, three tiny distant figures walking out into the morning light, smoke thinning",
+      "prompt_movimento": "smoke thins and drifts away, embers fade, dawn light grows slowly",
+      "vazia": false
+    },
+    {
+      "trecho": "Talvez você esteja no fogo agora. Mas não está sozinho lá dentro.",
+      "prompt_imagem": "glowing embers and warm firelight inside an ancient furnace with a soft beam of white light shining down through the smoke",
+      "prompt_movimento": "embers pulse softly, the light beam shimmers through drifting smoke",
+      "vazia": true
+    },
+    {
+      "trecho": "No fogo, eles eram três. Deus fez quatro. Siga para a próxima história.",
+      "prompt_imagem": "the plain of Dura at sunrise seen from high above, a cooling brick furnace with a thin column of smoke rising into a beam of golden light",
+      "prompt_movimento": "slow aerial camera rising, smoke drifts upward into the light",
+      "vazia": true
+    }
+  ],
+  "legenda": "Senhor, no meio do fogo, fica comigo 🙏🔥\nDaniel 3:19-27\nComente \"Amém\" se você está passando pelo fogo e crê que não está sozinho.",
+  "hashtags": ["#Daniel", "#fornalha", "#fé", "#Bíblia"],
+  "fontes": [
+    "Daniel 3:1, 3:6, 3:7, 3:12, 3:16-18, 3:19-27 — NAA (bibliaonline.com.br/naa/dn/3) e NVI (bibleserver.com/NVIP/Daniel3)",
+    "Daniel 3:25 — 'Eu vejo quatro homens soltos, que andam passeando dentro do fogo, sem sofrer nenhum dano' (NAA/ARA)"
+  ]
+}
