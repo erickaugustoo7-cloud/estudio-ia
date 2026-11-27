@@ -1,0 +1,63 @@
+{
+  "titulo": "Pedro pediu para Jesus se afastar",
+  "gancho_tela": "A noite inteira. A rede vazia.",
+  "estilo": "pintura",
+  "narracao": "Ele trabalhou a noite inteira e voltou com a rede vazia. Era Simão Pedro. Está em Lucas, capítulo cinco. E o que Jesus fez depois mudou a vida dele. Pedro já estava na praia, lavando as redes. Jesus entrou no barco dele e ensinou a multidão dali. Depois disse: vá para o fundo e lance as redes. Pedro respondeu: Mestre, trabalhamos a noite toda e não pegamos nada. Mas, porque você diz, eu vou lançar. A rede encheu tanto que começou a se romper. Dois barcos ficaram tão cheios que quase afundavam. E Pedro não comemorou. Caiu aos pés de Jesus e disse: Senhor, afasta-te de mim, porque sou pecador. Jesus não se afastou. Respondeu: não tenha medo. De agora em diante, você vai pescar gente. Eles deixaram tudo e seguiram Jesus. Pedro pediu distância. Jesus deu um chamado. Se você começa o dia carregando uma noite que não deu certo, ele não te manda embora. A rede vazia foi justamente onde Jesus entrou. Salve este vídeo para ouvir de novo quando precisar, e siga para receber uma palavra de fé todos os dias.",
+  "cenas": [
+    {
+      "trecho": "Ele trabalhou a noite inteira e voltou com a rede vazia.",
+      "busca_imagem": "",
+      "prompt_imagem": "an empty wet fishing net draped over the side of an ancient wooden fishing boat pulled onto a pebble shore at first light, the first golden ray of sunrise breaking over the dark Sea of Galilee and lighting the drops on the net, strong contrast between deep blue shadow and gold"
+    },
+    {
+      "trecho": "Era Simão Pedro. Está em Lucas, capítulo cinco. E o que Jesus fez depois mudou a vida dele.",
+      "busca_imagem": "Sea of Galilee shore boats",
+      "prompt_imagem": "two ancient wooden fishing boats resting on the shore of the Lake of Gennesaret seen from high above, calm water, green hills, morning haze, tiny distant figures far away on the beach"
+    },
+    {
+      "trecho": "Pedro já estava na praia, lavando as redes. Jesus entrou no barco dele e ensinou a multidão dali.",
+      "busca_imagem": "washing nets shore water",
+      "prompt_imagem": "close-up of rough calloused hands rinsing a tangled fishing net in clear shallow lake water at the shore, a wooden boat hull beside, soft morning light sparkling on the water"
+    },
+    {
+      "trecho": "Depois disse: vá para o fundo e lance as redes. Pedro respondeu: Mestre, trabalhamos a noite toda e não pegamos nada. Mas, porque você diz, eu vou lançar.",
+      "busca_imagem": "net thrown deep water",
+      "prompt_imagem": "a fishing net spreading wide in the air above deep dark blue water, thrown from the edge of an ancient wooden boat far from shore, sunlight catching the falling net, slow motion"
+    },
+    {
+      "trecho": "A rede encheu tanto que começou a se romper. Dois barcos ficaram tão cheios que quase afundavam.",
+      "busca_imagem": "net full of fish breaking",
+      "prompt_imagem": "an ancient fishing net bursting with hundreds of silver fish being hauled over the side of a wooden boat, ropes straining and strands tearing, splashing water glittering in golden light, a second boat low in the water nearby"
+    },
+    {
+      "trecho": "E Pedro não comemorou. Caiu aos pés de Jesus e disse: Senhor, afasta-te de mim, porque sou pecador.",
+      "busca_imagem": "fish boat floor kneeling",
+      "prompt_imagem": "the floor of an ancient wooden fishing boat heaped with shining fish, two rough hands pressed flat on the wet planks among the fish in a gesture of surrender, the hem of a simple linen robe and sandaled feet just in front of them, warm light"
+    },
+    {
+      "trecho": "Jesus não se afastou. Respondeu: não tenha medo. De agora em diante, você vai pescar gente.",
+      "busca_imagem": "calm sea golden light",
+      "prompt_imagem": "the calm Sea of Galilee at morning seen from a wooden boat bow, a wide path of golden sunlight across the water toward the hills, peaceful and luminous"
+    },
+    {
+      "trecho": "Eles deixaram tudo e seguiram Jesus. Pedro pediu distância. Jesus deu um chamado.",
+      "busca_imagem": "boats left on beach footprints",
+      "prompt_imagem": "two wooden fishing boats left on the sand full of fish and nets, a line of fresh footprints leading away from them along the shore toward the sunlit hills, golden morning light"
+    },
+    {
+      "trecho": "Se você começa o dia carregando uma noite que não deu certo, ele não te manda embora. A rede vazia foi justamente onde Jesus entrou. Salve este vídeo para ouvir de novo quando precisar, e siga para receber uma palavra de fé todos os dias.",
+      "busca_imagem": "empty net sunrise boat",
+      "prompt_imagem": "an ancient wooden fishing boat floating on still water at sunrise, an empty folded net in the stern bathed in warm golden light, a single oil lamp still glowing on the bench, hopeful dawn sky"
+    }
+  ],
+  "legenda": "Senhor, entra no meu barco hoje 🙏\nLucas 5:1-11\nComente \"Amém\" e salve para ouvir de novo quando precisar.",
+  "hashtags": [
+    "#Jesus",
+    "#Pedro",
+    "#recomeço",
+    "#pescadordehomens"
+  ],
+  "fontes": [
+    "Lucas 5:1-11 NAA (junto ao lago de Genesaré, a multidão apertava Jesus para ouvir a palavra; dois barcos na praia, os pescadores lavavam as redes; Jesus entra no barco de Simão, pede que o afaste um pouco da terra e ensina a multidão do barco; 'vá para águas mais fundas e lancem as redes'; Simão: 'Mestre, trabalhamos a noite toda e não pegamos nada, mas, porque o senhor diz, lançarei as redes'; tantos peixes que as redes começaram a se romper; fizeram sinal aos sócios do outro barco; os dois barcos ficaram tão cheios que quase afundavam; Simão Pedro prostra-se aos pés de Jesus: 'Senhor, afasta-te de mim, porque sou pecador'; espanto dele, de Tiago e de João, filhos de Zebedeu, sócios de Simão; Jesus: 'Não tenha medo; de agora em diante você será pescador de gente'; levaram os barcos para a terra, deixaram tudo e o seguiram)"
+  ]
+}
