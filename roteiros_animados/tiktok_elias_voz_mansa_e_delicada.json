@@ -1,0 +1,68 @@
+{
+  "titulo": "Deus não estava no fogo. Onde Ele estava?",
+  "gancho_tela": "Deus não estava no fogo",
+  "referencia": "1 Reis 19:9-13",
+  "serie": "O que quase ninguém sabe",
+  "tipo": "tiktok",
+  "fonte_imagem": "kaggle",
+  "opcoes_imagem": 2,
+  "duracao_max": 40,
+  "volume_musica": 0.12,
+  "plataformas": [
+    "facebook"
+  ],
+  "estilo_imagem": "cinematic photorealistic epic film still, dramatic volumetric light, ancient Sinai desert mountains, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic slow subtle motion.",
+  "epoca_imagem": "Mount Horeb, ancient desert, rock, caves and sand only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "Deus passou diante de Elias. E não estava no fogo.",
+      "prompt_imagem": "a great wall of fire sweeping across a rocky desert mountainside at night, embers flying, epic wide high shot",
+      "vazia": true,
+      "animar": true,
+      "prompt_movimento": "flames roll slowly across the rocks, embers drifting upward into the dark sky"
+    },
+    {
+      "trecho": "Elias fugiu com medo e se escondeu numa caverna no monte Horebe.",
+      "prompt_imagem": "dark mouth of a rock cave high on a barren desert mountain at dusk, a tiny oil lamp glowing inside",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Veio um vento que fendia os montes. Mas o Senhor não estava no vento.",
+      "prompt_imagem": "violent wind tearing dust and rocks off jagged desert cliffs, dramatic storm light, wide high shot",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Depois, um terremoto. Depois, o fogo. Deus não estava em nenhum.",
+      "prompt_imagem": "cracked rocky ground with a deep fissure on a desert mountain, smoke and dust rising, orange glow",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Depois do fogo, veio uma voz mansa e delicada: Que fazes aqui, Elias?",
+      "prompt_imagem": "calm entrance of a rock cave at dawn, a woven wool cloak resting on the stone, soft golden light and stillness",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Às vezes Ele não vem no barulho. Vem baixinho. Siga o Mensageiro de Fé.",
+      "prompt_imagem": "quiet desert mountain at sunrise after the storm, thin smoke fading, gentle god rays over the rocks",
+      "vazia": true,
+      "animar": false
+    }
+  ],
+  "legenda": "Deus não estava no vento, nem no terremoto, nem no fogo — mas numa \"voz mansa e delicada\" (1 Reis 19:11-12). Você já sentiu Deus falando baixinho com você? Comente 👇",
+  "hashtags": [
+    "#Deus",
+    "#Bíblia",
+    "#Fé",
+    "#OQueQuaseNinguémSabe",
+    "#Cristão"
+  ],
+  "fontes": [
+    "1 Reis 19:9-13 — Almeida Revista e Corrigida, conferida em https://www.bibliaonline.com.br/arc/1rs/19"
+  ]
+}
