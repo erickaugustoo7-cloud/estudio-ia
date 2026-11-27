@@ -1,0 +1,515 @@
+{
+ "formato": "horizontal",
+ "duracao_max": 999,
+ "volume_musica": 0,
+ "opcoes_imagem": 1,
+ "palavras_por_bloco": 600,
+ "plataformas": [
+  "youtube"
+ ],
+ "estilo_imagem": "breathtaking real-world nature landscape photography, peaceful and serene, soft natural light, rich colors, ultra detailed, horizontal 16:9 widescreen, no people, no text",
+ "prefixo_imagem": "beautiful peaceful nature landscape photo:",
+ "prefixo_video": "Peaceful nature shot, very slow and gentle motion.",
+ "epoca_imagem": "real natural landscapes of today (sea, forest, waterfalls, mountains, lakes, sky); no people, no buildings, no text",
+ "fonte_imagem": "cloudflare",
+ "estilo_voz": "emocionado e íntimo, como quem ora de verdade por alguém que sofre; voz baixa, pausada, com ternura",
+ "tipo": "oracao",
+ "fundo_video": "pixabay",
+ "titulo": "Oração para dormir: deixo-vos a paz, não se turbe o vosso coração (João 14:27)",
+ "titulo_youtube": "Se o Seu Coração Está Perturbado Hoje, Receba Esta Paz | João 14:27",
+ "gancho_tela": "A paz que Jesus deixou",
+ "referencia": "João 14:27",
+ "cena_capa": 43,
+ "texto_capa": [
+  "CORAÇÃO",
+  "*PERTURBADO?",
+  "RECEBA ESTA PAZ"
+ ],
+ "selo_capa": "Oração da noite",
+ "capa_prompt": "a tired Brazilian woman in her forties sitting on her bed at night, hands together praying, a single warm lamp lighting her face in a dark room, eyes closed, peaceful expression, cinematic photo",
+ "legenda": "\"Deixo-vos a paz, a minha paz vos dou; não vo-la dou como o mundo a dá. Não se turbe o vosso coração, nem se atemorize\" (João 14:27). Jesus disse essa frase na última noite antes da cruz, com Judas saindo pela porta e os discípulos com medo. Nesta oração para dormir você ouve a história daquela noite, descobre a palavra que mostra que Jesus sabe exatamente como é ter o coração perturbado, e ora comigo pela mente ansiosa, pela família, pela saúde e pelo sustento. Escreva nos comentários \"eu recebo a tua paz\" e o seu pedido de oração. 🙏",
+ "hashtags": [
+  "#João14",
+  "#OraçãoParaDormir",
+  "#PazDeDeus",
+  "#Fé",
+  "#OraçãoDaNoite"
+ ],
+ "fontes": [
+  "João 13:1-38; 14:1-31 — Almeida (ARC, texto conferido em bibliaonline.com.br)",
+  "ταράσσω (tarassō, Strong G5015) em João 11:33; 12:27; 13:21; 14:1; 14:27 — blueletterbible.org/lexicon/G5015; biblehub.com",
+  "João 19:23-24 (roupas repartidas); João 20:19 (\"Paz seja convosco\"); João 16:33 — Almeida",
+  "Filipenses 4:6-7; Isaías 26:3; Salmo 4:8 — Almeida (ARC)"
+ ],
+ "capitulos": [
+  {
+   "cena": 0,
+   "titulo": "A última noite antes da cruz"
+  },
+  {
+   "cena": 10,
+   "titulo": "Deixo-vos a paz"
+  },
+  {
+   "cena": 14,
+   "titulo": "A paz que o mundo não dá"
+  },
+  {
+   "cena": 18,
+   "titulo": "Oração pelo coração perturbado"
+  },
+  {
+   "cena": 24,
+   "titulo": "Oração pelo perdão"
+  },
+  {
+   "cena": 27,
+   "titulo": "Oração pela casa e pelos filhos"
+  },
+  {
+   "cena": 31,
+   "titulo": "Oração pela saúde e pelo sustento"
+  },
+  {
+   "cena": 36,
+   "titulo": "Pedidos e quem está longe"
+  },
+  {
+   "cena": 38,
+   "titulo": "A palavra que muda tudo"
+  },
+  {
+   "cena": 47,
+   "titulo": "Respiração e promessas para a noite"
+  },
+  {
+   "cena": 52,
+   "titulo": "Gratidão e bênção para dormir"
+  }
+ ],
+ "revelacao": {
+  "promessa_cena": 1,
+  "entrega_cena": 40,
+  "o_que": "a palavra 'turbar' (grego tarassō) de 'não se turbe o vosso coração' (Jo 14:1,27) é a mesma usada para o próprio Jesus naquela noite ('turbou-se em espírito', Jo 13:21) e em Jo 12:27 ('a minha alma está perturbada'): Ele deu a paz sentindo a mesma perturbação"
+ },
+ "short_isca": {
+  "cenas": [
+   43
+  ],
+  "texto_topo": "CORAÇÃO PERTURBADO?",
+  "titulo": "Se o seu coração está perturbado esta noite, ouça isto 🙏",
+  "hashtags": [
+   "joao14",
+   "oracao",
+   "consolo"
+  ]
+ },
+ "cenas": [
+  {
+   "trecho": "Jesus deixou a sua paz na noite mais escura da vida dele. E talvez esta noite também esteja escura para você. O coração apertado, a cabeça cheia, o sono longe.",
+   "prompt_imagem": "golden sunset over a calm ocean with soft clouds",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+  },
+  {
+   "trecho": "Tem uma palavra nessa frase de Jesus que quase ninguém percebe. No fim desta oração, eu vou te mostrar qual é… e por que ela muda o jeito de você deitar a cabeça no travesseiro hoje.",
+   "prompt_imagem": "misty pine forest at dawn with light rays between the trees",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+  },
+  {
+   "trecho": "Então fica comigo. Ajeite o travesseiro. Respire devagar. Você não precisa fazer nada agora. Só escutar, e deixar Deus falar com o seu coração.",
+   "prompt_imagem": "calm mountain lake at night under a starry sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+  },
+  {
+   "trecho": "Era a última noite de Jesus com os discípulos antes da cruz. Eles estavam reunidos num cenáculo, numa sala no andar de cima, em Jerusalém, para a ceia da Páscoa.",
+   "prompt_imagem": "old olive trees on a hillside at dusk with warm light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "Naquela noite, Jesus tinha lavado os pés deles, um por um. Depois disse uma frase que gelou a mesa: \"Na verdade, na verdade vos digo que um de vós me há de trair.\"",
+   "prompt_imagem": "gentle waterfall in a green rainforest with soft mist",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "Judas se levantou e saiu. E o evangelho de João registra um detalhe curto: \"e era já noite.\" Lá fora estava escuro. E dentro daquela sala, o coração de todos também.",
+   "prompt_imagem": "full moon over a quiet sea with silver reflections",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "Logo depois, Jesus disse a Pedro, o mais corajoso deles, que antes de o galo cantar ele o negaria três vezes. Imagine o silêncio. O medo. A pergunta no olhar de cada um.",
+   "prompt_imagem": "rolling green hills under a pink dawn sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "Jesus ia embora. O mestre que eles tinham seguido por três anos estava se despedindo. E eles não entendiam para onde.",
+   "prompt_imagem": "snowy mountain peaks reflected in a still lake",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "Tomé chegou a dizer: \"Senhor, nós não sabemos para onde vais.\" É a mesma frase que muita gente diz hoje, deitada no escuro: eu não sei para onde a minha vida está indo.",
+   "prompt_imagem": "foggy river winding through a valley at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "E foi exatamente nessa hora, com o traidor saindo pela porta e os amigos com medo, que Jesus disse: \"Não se turbe o vosso coração; credes em Deus, crede também em mim.\"",
+   "prompt_imagem": "wildflower meadow moving in the wind at golden hour",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "E um pouco depois, Ele deixou a frase desta noite: \"Deixo-vos a paz, a minha paz vos dou; não vo-la dou como o mundo a dá. Não se turbe o vosso coração, nem se atemorize.\"",
+   "prompt_imagem": "lighthouse beam over a calm sea at dusk seen from far away",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "Repare na palavra deixo. É palavra de quem faz um testamento. De quem está partindo e deixa uma herança para quem ama.",
+   "prompt_imagem": "tall cliffs above a turquoise sea with gentle waves",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "E Jesus não tinha casa, nem terra, nem dinheiro para deixar. As roupas dele, os soldados repartiram ao pé da cruz. A única herança que Ele deixou nas mãos dos amigos foi esta: a paz dele.",
+   "prompt_imagem": "autumn forest with golden leaves and a small stream",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "Se esta oração está falando com você, inscreva-se no canal. Assim, todas as noites, você tem um lugar para orar e não fica sozinho.",
+   "prompt_imagem": "starry night sky over a desert with soft blue light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Naquele tempo, paz, shalom, era o jeito comum de cumprimentar e de se despedir. O mundo dizia paz e ia embora. Jesus disse: a minha paz eu não dou como o mundo dá.",
+   "prompt_imagem": "quiet beach at sunrise with small waves on the sand",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "A paz do mundo depende de tudo estar bem. Conta paga. Exame normal. Família em harmonia. Quando alguma coisa sai do lugar, ela vai embora.",
+   "prompt_imagem": "green tea plantation hills covered in morning mist",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "A paz de Jesus é diferente. Ela chega quando nada está resolvido ainda. Ela fica no meio da tempestade. É paz de quem sabe que não está sozinho.",
+   "prompt_imagem": "calm lagoon surrounded by palm trees at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Talvez você esteja aí com o coração perturbado por uma conta atrasada. Por um filho longe de Deus. Por um diagnóstico. Por um casamento que esfriou. Por uma saudade que aperta mais à noite.",
+   "prompt_imagem": "gentle rain falling on a forest lake",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Então vamos orar. Feche os olhos, se puder. Coloque a mão no peito. Respire fundo… e solte devagar. Eu vou orar, e você repete comigo no seu coração.",
+   "prompt_imagem": "mountain valley with a river under soft morning light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Senhor Jesus, eu venho do jeito que eu estou. Eu não vou fingir que estou bem. O meu coração está perturbado, e tu sabes por quê.",
+   "prompt_imagem": "sunrise over the clouds seen from a mountain top",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Tu disseste: não se turbe o vosso coração. Então eu te entrego agora o que está me tirando o sono. Eu solto isso nas tuas mãos.",
+   "prompt_imagem": "peaceful pond with water lilies at dawn",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Acalma a minha mente, Senhor. Ela não para. Repete conversas, imagina o pior, faz contas de madrugada. Diz a ela o que disseste ao mar: aquieta-te.",
+   "prompt_imagem": "ocean waves rolling gently onto rocks at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Eu não preciso resolver tudo hoje à noite. Tu já estás no dia de amanhã. E quem está lá me pediu para descansar aqui.",
+   "prompt_imagem": "lavender field under a soft evening sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Senhor, eu também estou cansado. Cansado de ser forte para todo mundo. Cansado de esperar. Hoje eu não preciso ser forte. Hoje eu só preciso descansar em ti.",
+   "prompt_imagem": "sea cliffs with soft fog at dawn",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E eu te entrego a minha culpa. As palavras que eu disse e não devia. As que eu devia ter dito e calei. Tu oraste por Pedro antes mesmo de ele cair. Ora por mim também, e me perdoa.",
+   "prompt_imagem": "quiet forest path with morning sun rays",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E me ajuda a perdoar quem me feriu. Eu não quero dormir mais uma noite carregando essa mágoa. Eu solto essa pessoa nas tuas mãos, e solto o meu coração também.",
+   "prompt_imagem": "calm lake with mountains at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E se você acha que já não tem mais força nem para orar, espere. Ainda falta aquela palavra que eu te prometi. Nós estamos chegando nela.",
+   "prompt_imagem": "waterfall flowing into a clear blue pool in the forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Senhor, agora eu coloco diante de ti a minha casa. Os que dormem perto de mim e os que estão longe. Guarda cada um, onde estiver esta noite.",
+   "prompt_imagem": "snow covered forest under a starry night sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Pelos meus filhos, eu te peço. Os pequenos e os que já cresceram. Os que estão perto de ti e os que se afastaram. Tu conheces o caminho até o coração deles.",
+   "prompt_imagem": "sunlit wheat field with a single tree at golden hour",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Se existe briga na minha casa, traz reconciliação. Se existe silêncio pesado, traz conversa. Se existe frieza no meu casamento, acende de novo o amor.",
+   "prompt_imagem": "misty lake with mountains at blue hour",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Deixa a tua paz na minha casa, Senhor, como deixaste naquela sala. Que ela entre pelas portas e fique. E fica comigo: a palavra que eu te prometi está quase chegando.",
+   "prompt_imagem": "calm river reflecting a pink sunset sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Agora, Senhor, eu te entrego o meu corpo. Tu conheces cada dor, cada exame que eu espero, cada noite de remédio. Toca em mim e em quem eu amo.",
+   "prompt_imagem": "green hills with a gentle stream and morning fog",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E eu te entrego o meu sustento. O trabalho que eu tenho ou o que eu procuro. As contas em cima da mesa. Tu nunca deixaste faltar o pão de cada dia ao teu povo.",
+   "prompt_imagem": "quiet bay with small boats at sunrise seen from far away",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Abre portas que ninguém pode fechar. Fecha as portas que não são para mim. E me dá paz para esperar o teu tempo, mesmo quando ele parece demorar.",
+   "prompt_imagem": "green valley with a winding river at golden hour",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Paulo escreveu da prisão: \"Não estejais inquietos por coisa alguma.\" E prometeu que a paz de Deus, que excede todo o entendimento, guardaria os nossos corações.",
+   "prompt_imagem": "aurora borealis over a frozen lake",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Então guarda o meu coração esta noite, Senhor. Como um soldado guarda a porta. Que nenhum medo entre sem passar por ti. E já, já eu te mostro aquela palavra de Jesus.",
+   "prompt_imagem": "bamboo forest with soft light and gentle wind",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Se você tem um pedido, escreva nos comentários. Pode ser uma palavra só. Eu leio e oro por ele. Você não precisa carregar isso sozinho.",
+   "prompt_imagem": "peaceful mountain meadow with wildflowers at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E se hoje você está longe de Deus, se você nem sabe por que começou a ouvir esta oração, saiba: Jesus deixou a paz também para você. A porta não está fechada.",
+   "prompt_imagem": "sunbeams through clouds over a calm sea",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Agora vem a palavra que eu te prometi. Ela está na frase: não se turbe o vosso coração.",
+   "prompt_imagem": "starry sky over a quiet forest lake",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "No grego, a língua em que João escreveu, turbar é a mesma palavra usada para água agitada. Coração perturbado é coração com ondas por dentro.",
+   "prompt_imagem": "ocean waves at twilight under a purple sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "Agora repare. Naquela mesma noite, um pouco antes, quando Jesus falou do traidor, João escreveu que Ele turbou-se em espírito. É a mesmíssima palavra.",
+   "prompt_imagem": "dense forest with fog and soft golden light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "E dias antes, Jesus já tinha dito: \"Agora a minha alma está perturbada.\" Ele não falou de coração perturbado de longe. Ele sentiu isso por dentro.",
+   "prompt_imagem": "sunrise over rolling desert dunes",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "Quando Jesus disse não se turbe o vosso coração, Ele não estava falando como quem nunca sofreu. Ele estava com a alma agitada pela traição e pela cruz que vinha. E mesmo assim, deu a paz aos outros.",
+   "prompt_imagem": "mountain lake at sunrise with soft mist",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "Se o seu coração está perturbado esta noite, Jesus sabe como é. Ele também sentiu. E foi dessa noite que Ele te deixou a paz dele. Não a paz que o mundo dá. A dele.",
+   "prompt_imagem": "calm sea under a starry sky with a soft horizon glow",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "E Ele cumpriu. Três dias depois, os discípulos estavam trancados numa sala, com medo. Jesus ressuscitado chegou, pôs-se no meio deles e disse: \"Paz seja convosco.\"",
+   "prompt_imagem": "first light of dawn over green mountains",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "A primeira palavra dele, depois da cruz, foi a mesma da despedida. Paz. Ele não esqueceu a promessa. E não vai esquecer de você.",
+   "prompt_imagem": "golden morning light over a quiet river valley",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "Então, quando o seu coração ficar agitado de novo, lembre: Jesus conhece essa onda por dentro. E é Ele quem diz a ela: aquieta-te.",
+   "prompt_imagem": "gentle waves on a quiet lake at dusk",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "Agora respire comigo. Puxe o ar devagar… segure um pouco… e solte. Mais uma vez. Deixe os ombros caírem. Deixe o corpo pesar na cama.",
+   "prompt_imagem": "still lake at night reflecting the moon",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Escute de novo, bem devagar: Deixo-vos a paz. A minha paz vos dou. Não se turbe o vosso coração. Nem se atemorize.",
+   "prompt_imagem": "soft clouds over a calm sea at blue hour",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "O profeta Isaías escreveu: \"Tu conservarás em paz aquele cuja mente está firme em ti; porque ele confia em ti.\"",
+   "prompt_imagem": "quiet pine forest under a starry night",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "E Davi disse: \"Em paz também me deitarei e dormirei, porque só tu, Senhor, me fazes habitar em segurança.\"",
+   "prompt_imagem": "gentle river flowing through a moonlit valley",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "E Jesus disse naquela mesma noite: \"No mundo tereis aflições, mas tende bom ânimo; eu venci o mundo.\"",
+   "prompt_imagem": "calm beach at night with soft waves and stars",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Senhor, obrigado por este dia, mesmo com o que pesou. Obrigado porque a tua paz não depende de tudo estar resolvido. Eu recebo a tua herança esta noite.",
+   "prompt_imagem": "misty meadow at dawn with soft golden light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "paz, voz suave"
+  },
+  {
+   "trecho": "Obrigado pelas pessoas que eu amo. Pelo ar que eu respiro. Pela cama onde eu vou deitar. Pelas vezes em que tu me guardaste e eu nem percebi.",
+   "prompt_imagem": "field of sunflowers under a soft evening sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "paz, voz suave"
+  },
+  {
+   "trecho": "Abençoa quem está ouvindo num hospital, num plantão, numa estrada, ou acordado sozinho. Coloca a tua paz em cada quarto, em cada cama, em cada coração.",
+   "prompt_imagem": "starry sky over snowy mountains",
+   "vazia": true,
+   "animar": false,
+   "emocao": "paz, voz suave"
+  },
+  {
+   "trecho": "Se esta oração te trouxe paz, escreva nos comentários \"eu recebo a tua paz\" e o seu pedido. Eu vou orar por você.",
+   "prompt_imagem": "calm lake at night with soft reflections of stars",
+   "vazia": true,
+   "animar": false,
+   "emocao": "paz, voz suave"
+  },
+  {
+   "trecho": "E inscreva-se no canal, para orarmos juntos de novo amanhã à noite.",
+   "prompt_imagem": "quiet ocean horizon under a deep blue night sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "paz, voz suave"
+  },
+  {
+   "trecho": "Durma em paz. Seu coração não precisa ficar perturbado. Jesus deixou a paz dele com você. Em nome de Jesus… amém.",
+   "prompt_imagem": "gentle moonlight over a peaceful forest lake",
+   "vazia": true,
+   "animar": false,
+   "emocao": "paz, voz suave"
+  }
+ ]
+}
