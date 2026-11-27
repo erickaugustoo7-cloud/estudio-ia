@@ -1,0 +1,66 @@
+{
+  "titulo": "Em Marte, a Terra é uma estrela no céu",
+  "gancho_tela": "Em Marte, a Terra vira estrela",
+  "narracao": "Em Marte, a Terra vira uma estrela no céu. Ela aparece logo depois do pôr do sol. E o pôr do sol de lá é azul. Em trinta e um de janeiro de dois mil e catorze, o robô Curiosity apontou a câmera para o horizonte, cerca de oitenta minutos depois do pôr do sol. Lá estava a Terra, a cento e sessenta milhões de quilômetros, mais brilhante que qualquer estrela de lá. E logo abaixo dela, um pontinho mais fraco: a nossa Lua. Tudo o que você já conheceu cabia naquele ponto de luz. A primeira foto da Terra tirada da superfície de outro planeta foi em dois mil e quatro, pelo robô Spirit, uma hora antes do nascer do sol. Lá, a Terra faz o papel de Vênus no nosso céu. Como fica mais perto do Sol, ela só aparece no oeste depois do entardecer ou no leste antes do amanhecer. No melhor momento, segundo astrônomos, ela brilharia mais ou menos como Júpiter brilha no nosso céu. Em abril de dois mil e quinze, o Curiosity fotografou o pôr do sol azulado. A poeira finíssima de Marte deixa a luz azul atravessar o ar um pouco melhor, e ela se concentra perto do Sol. Você ficaria emocionado de ver a Terra como uma estrela? Siga para descobrir uma curiosidade nova todo dia.",
+  "cenas": [
+    {
+      "trecho": "Em Marte, a Terra vira uma estrela no céu.",
+      "busca_imagem": "Earth from Mars",
+      "prompt_imagem": "a tiny bright star-like dot of light low above the dusky horizon of Mars at twilight"
+    },
+    {
+      "trecho": "Ela aparece logo depois do pôr do sol. E o pôr do sol de lá é azul.",
+      "busca_imagem": "Mars sunset Gale",
+      "prompt_imagem": "a blue-glowing sunset over a rocky Martian crater rim, dusky orange sky"
+    },
+    {
+      "trecho": "Em trinta e um de janeiro de dois mil e catorze, o robô Curiosity apontou a câmera para o horizonte, cerca de oitenta minutos depois do pôr do sol.",
+      "busca_imagem": "Curiosity rover Mastcam",
+      "prompt_imagem": "a six-wheeled Mars rover on reddish terrain pointing its mast camera toward a twilight sky"
+    },
+    {
+      "trecho": "Lá estava a Terra, a cento e sessenta milhões de quilômetros, mais brilhante que qualquer estrela de lá. E logo abaixo dela, um pontinho mais fraco: a nossa Lua.",
+      "busca_imagem": "Earth Moon Curiosity",
+      "prompt_imagem": "two tiny points of light, one brighter above one fainter, in a dark Martian night sky"
+    },
+    {
+      "trecho": "Tudo o que você já conheceu cabia naquele ponto de luz.",
+      "busca_imagem": "Earth blue marble",
+      "prompt_imagem": "planet Earth glowing in black space, blue oceans and white clouds, cinematic"
+    },
+    {
+      "trecho": "A primeira foto da Terra tirada da superfície de outro planeta foi em dois mil e quatro, pelo robô Spirit, uma hora antes do nascer do sol.",
+      "busca_imagem": "Spirit rover Earth",
+      "prompt_imagem": "a small rover on the dusty surface of Mars before dawn, faint star near the eastern horizon"
+    },
+    {
+      "trecho": "Lá, a Terra faz o papel de Vênus no nosso céu. Como fica mais perto do Sol, ela só aparece no oeste depois do entardecer ou no leste antes do amanhecer.",
+      "busca_imagem": "Mars horizon twilight",
+      "prompt_imagem": "the glowing twilight horizon of Mars with one bright evening star above the hills"
+    },
+    {
+      "trecho": "No melhor momento, segundo astrônomos, ela brilharia mais ou menos como Júpiter brilha no nosso céu. Em abril de dois mil e quinze, o Curiosity fotografou o pôr do sol azulado.",
+      "busca_imagem": "Sunset Mars Curiosity",
+      "prompt_imagem": "a small pale sun setting over Mars surrounded by a cool blue glow, rest of the sky dusty orange"
+    },
+    {
+      "trecho": "A poeira finíssima de Marte deixa a luz azul atravessar o ar um pouco melhor, e ela se concentra perto do Sol. Você ficaria emocionado de ver a Terra como uma estrela? Siga para descobrir uma curiosidade nova todo dia.",
+      "busca_imagem": "Mars dust atmosphere",
+      "prompt_imagem": "fine reddish dust hanging in the thin Martian atmosphere at dusk, soft blue light near the setting sun"
+    }
+  ],
+  "legenda": "Em 2014, o Curiosity fotografou a Terra no céu de Marte, a 160 milhões de km — e ainda deu para ver a Lua. 🌍✨\nVocê ficaria emocionado de ver a Terra assim? Comenta aqui 👇",
+  "hashtags": [
+    "#Marte",
+    "#Curiosity",
+    "#planetaTerra",
+    "#NASA"
+  ],
+  "fontes": [
+    "NASA/JPL — NASA Mars Rover Curiosity Sees 'Evening Star' Earth (31/01/2014, sol 529, ~80 min após o pôr do sol, ~160 milhões de km, Lua logo abaixo da Terra, mais brilhante que qualquer estrela)",
+    "NASA/JPL — PIA05547 You are here: Earth as seen from Mars (Spirit, sol 63, uma hora antes do nascer do sol, 2004; primeira imagem da Terra da superfície de um planeta além da Lua)",
+    "EarthSky — Here's Earth shining in the Mars sky (Terra sempre perto do Sol: oeste após o pôr do sol ou leste antes do amanhecer, como Vênus no nosso céu)",
+    "Scientific American — Can You See the Earth and Moon from Mars? (magnitude estimada −1 a −2, como Júpiter no nosso céu; Lua visível como ponto separado)",
+    "NASA/JPL — NASA's Curiosity Rover Views Serene Sundown on Mars (15/04/2015, sol 956; poeira fina deixa a luz azul penetrar melhor e ficar perto do Sol)"
+  ]
+}
