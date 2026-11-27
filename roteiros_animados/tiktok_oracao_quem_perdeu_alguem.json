@@ -1,0 +1,62 @@
+{
+  "titulo": "Oração para quem perdeu alguém que amava",
+  "gancho_tela": "Você perdeu alguém?",
+  "referencia": "Salmo 34:18",
+  "serie": "Oração de 20 segundos",
+  "tipo": "tiktok",
+  "fonte_imagem": "kaggle",
+  "opcoes_imagem": 2,
+  "duracao_max": 40,
+  "volume_musica": 0.12,
+  "plataformas": [
+    "facebook"
+  ],
+  "estilo_imagem": "cinematic photorealistic epic film still, soft evening and dawn light, dramatic volumetric god rays, ancient Judea hill country, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic slow subtle motion.",
+  "epoca_imagem": "Ancient Judea, stone house, clay oil lamps, linen and wood only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "Se você perdeu alguém que amava, ore comigo agora.",
+      "prompt_imagem": "close-up of a small clay oil lamp flame burning beside an empty wooden stool in a dim ancient stone room, a folded linen shawl resting on the stool",
+      "vazia": true,
+      "animar": true,
+      "prompt_movimento": "the small flame flickers gently, thin smoke rising slowly, soft light moving over the linen"
+    },
+    {
+      "trecho": "Senhor, a saudade aperta e a casa ficou em silêncio.",
+      "prompt_imagem": "a quiet ancient stone house at dusk, a wooden door half open, a clay water jar by the threshold, long soft shadows",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Mas a tua Palavra diz: perto está o Senhor dos que têm o coração quebrantado.",
+      "prompt_imagem": "an old parchment scroll partly unrolled on a rough wooden table, a warm ray of dawn light falling across it",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Fica perto de mim hoje. Segura o que eu não consigo segurar. Amém.",
+      "prompt_imagem": "golden sunrise breaking over the quiet hills of Judea, volumetric god rays through morning mist, wide high view",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Siga o Mensageiro de Fé para orar comigo todos os dias.",
+      "prompt_imagem": "ancient stone courtyard with an olive tree in warm morning light, god rays through the dust, calm and peaceful",
+      "vazia": true,
+      "animar": false
+    }
+  ],
+  "legenda": "Para quem perdeu alguém que amava: \"Perto está o Senhor dos que têm o coração quebrantado\" (Salmo 34:18). Você não está sozinho na saudade. Por quem você sente saudade hoje? Comente 👇",
+  "hashtags": [
+    "#Oração",
+    "#Fé",
+    "#Deus",
+    "#Bíblia",
+    "#Cristão"
+  ],
+  "fontes": [
+    "Salmo 34:18 — Almeida (domínio público): \"Perto está o Senhor dos que têm o coração quebrantado, e salva os contritos de espírito.\""
+  ]
+}
