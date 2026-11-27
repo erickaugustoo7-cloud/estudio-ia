@@ -1,0 +1,117 @@
+{
+  "canal": "antes_de_nos",
+  "titulo": "Esse dinossauro tinha um bico igual ao de um pássaro",
+  "gancho_tela": "ESSE DINOSSAURO TINHA BICO DE PÁSSARO",
+  "referencia": "Short: Tethyshadros insularis (“Antonio”), hadrossauroide de ~81 milhões de anos de Villaggio del Pescatore (Trieste, Itália); micro-tomografia de 3 indivíduos mostrou que o “pente de dentes” do focinho é osso cheio de vasos e nervos que nutria um bico grande, complexo como o das aves (Muscioni et al., Royal Society Open Science, 11/11/2026; Sci.News 18/11/2026) — CTA para o documentário mais recente do canal",
+  "duracao_max": 60,
+  "volume_musica": 0.1,
+  "plataformas": [
+    "youtube"
+  ],
+  "fonte_imagem": "modelscope",
+  "fundo_video": "pixabay",
+  "opcoes_imagem": 1,
+  "estilo_imagem": "photorealistic documentary photo, National Geographic style, natural light, ultra detailed, vertical 9:16, no text",
+  "prefixo_imagem": "documentary photo:",
+  "epoca_imagem": "Late Cretaceous period, about 81 million years ago, warm tropical coast of the Tethys Ocean in what is now northeastern Italy: white limestone shores, shallow turquoise lagoons, palms, cycads and ferns; only nature, rock and fossils; nothing modern, no people, no text, no watermark",
+  "cenas": [
+    {
+      "trecho": "Esse dinossauro tinha um bico igual ao de um pássaro.",
+      "prompt_imagem": "extinct duck-billed dinosaur Tethyshadros, slender hadrosaur with no head crest, long narrow snout ending in a large smooth keratin beak like a bird's beak, scaly grey-green skin, extreme close up of the head and beak in profile, dramatic warm light",
+      "vazia": false,
+      "animar": false,
+      "reconstituicao": true
+    },
+    {
+      "trecho": "Ele se chama Tethyshadros. Viveu onde hoje é a Itália, há uns oitenta milhões de anos.",
+      "prompt_imagem": "extinct duck-billed dinosaur Tethyshadros, slender hadrosaur with no head crest, bird-like beak, short neck, long stiff tail, three-toed feet, scaly grey-green skin, walking on a white limestone beach beside a turquoise lagoon, full body side view",
+      "vazia": false,
+      "animar": false,
+      "reconstituicao": true
+    },
+    {
+      "trecho": "O esqueleto mais famoso ganhou o apelido de Antonio.",
+      "prompt_imagem": "an almost complete fossil skeleton of a medium-sized duck-billed dinosaur lying on its side embedded in a pale limestone slab, museum display lighting, dark background",
+      "acervo": "hadrosaur skeleton",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Foi achado em mil novecentos e noventa e quatro, numa pedreira perto de Trieste.",
+      "prompt_imagem": "an abandoned pale limestone quarry wall overgrown with green bushes under a blue sky, no buildings, no machines, no people",
+      "busca_video": "limestone quarry",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Tinha uns quatro metros e meio, contando a cauda, e comia plantas.",
+      "prompt_imagem": "extinct duck-billed dinosaur Tethyshadros, slender hadrosaur with no head crest, bird-like beak, short neck, long stiff tail, scaly grey-green skin, standing on all fours and biting leaves from a low cycad, side view, soft morning light",
+      "vazia": false,
+      "animar": false,
+      "reconstituicao": true
+    },
+    {
+      "trecho": "Na ponta do focinho, umas hastes de osso pareciam um pente de dentes.",
+      "prompt_imagem": "macro photo of the front tip of a fossil dinosaur snout in pale rock, showing a row of thin bony rod-like projections like the teeth of a comb, dramatic side light, black background",
+      "vazia": true,
+      "animar": false,
+      "reconstituicao": true
+    },
+    {
+      "trecho": "Agora, cientistas olharam essas mandíbulas por dentro, com raios X.",
+      "prompt_imagem": "a fossil dinosaur jaw bone glowing with a thin beam of bright blue light across its surface, black background, macro photo, no machines, no people",
+      "vazia": true,
+      "animar": false,
+      "reconstituicao": true
+    },
+    {
+      "trecho": "Não eram dentes. Era osso cheio de vasos de sangue e nervos.",
+      "prompt_imagem": "close up of a fossil bone surface covered in a dense network of tiny branching channels and pores, like roots, macro photo, warm light, black background",
+      "vazia": true,
+      "animar": false,
+      "reconstituicao": true
+    },
+    {
+      "trecho": "Essa rede alimentava um bico grande e vivo, complexo como o das aves.",
+      "prompt_imagem": "extinct duck-billed dinosaur Tethyshadros, slender hadrosaur with no head crest, large smooth dark keratin beak like a bird's beak, scaly grey-green skin, head turned toward the camera, close up, golden light, ferns behind",
+      "vazia": false,
+      "animar": false,
+      "reconstituicao": true
+    },
+    {
+      "trecho": "Talvez ajudasse a soltar calor, como o do tucano, e a sentir a comida.",
+      "prompt_imagem": "a toco toucan with its huge bright orange beak perched on a branch in a tropical forest, close up, natural light",
+      "busca_video": "toucan",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "O estudo saiu em novembro, numa revista científica britânica.",
+      "prompt_imagem": "two extinct duck-billed dinosaurs Tethyshadros, slender hadrosaurs with no head crest, bird-like beaks, long stiff tails, scaly grey-green skin, wading through a shallow lagoon at sunset, orange sky, wide shot",
+      "vazia": false,
+      "animar": false,
+      "reconstituicao": true
+    },
+    {
+      "trecho": "Tem documentário novo no canal. E esse dinossauro tinha um bico igual ao de um pássaro.",
+      "prompt_imagem": "extinct duck-billed dinosaur Tethyshadros, slender hadrosaur with no head crest, large bird-like beak, scaly grey-green skin, extreme close up of the head and beak in profile at dusk, moonlight reflection on lagoon water",
+      "vazia": false,
+      "animar": false,
+      "reconstituicao": true
+    }
+  ],
+  "legenda": "Tethyshadros insularis é um dinossauro herbívoro, parente dos “bicos de pato”, que viveu há uns 81 milhões de anos onde hoje fica o nordeste da Itália. O esqueleto mais famoso, apelidado de “Antonio”, foi achado em 1994 numa pedreira abandonada em Villaggio del Pescatore, perto de Trieste, e está no Museu Cívico de História Natural de Trieste. As hastes de osso na ponta do focinho eram vistas como um “pente de dentes”. Um estudo publicado em novembro na Royal Society Open Science escaneou as mandíbulas de três indivíduos e mostrou que é osso cheio de vasos de sangue e nervos, que nutria um bico grande e complexo como o das aves — que talvez ajudasse a perder calor, como o do tucano, e a sentir o alimento. O documentário mais recente do Antes de Nós já está no canal.\n\nVocê sabia disso? Comente 👇",
+  "hashtags": [
+    "#história",
+    "#curiosidades",
+    "#dinossauros",
+    "#préhistória",
+    "#documentário"
+  ],
+  "fontes": [
+    "Muscioni, M. et al., 'The bird-like complexity of hadrosauroid beaks', Royal Society Open Science 13 (11): 260392, publicado em 11/11/2026, DOI 10.1098/rsos.260392",
+    "Sci.News (18/11/2026) — 'Duck-Billed Dinosaur's Beak was as Complex as Bird's': micro-CT de 3 indivíduos, 81 milhões de anos, 'pente' reinterpretado como osso com rede de vasos e nervos de um bico de ave; possível troca de calor como no tucano e função sensorial: https://www.sci.news/paleontology/duck-billed-dinosaurs-beak-15206.html",
+    "Wikipedia, 'Tethyshadros' — esqueleto achado em 1994 em pedreira abandonada de Villaggio del Pescatore (Trieste), apelido 'Antonio', comprimento total estimado de 4,5 m com a cauda, idade revista para 81,5–80,5 milhões de anos, Museo Civico di Storia Naturale di Trieste: https://en.wikipedia.org/wiki/Tethyshadros",
+    "Universidade de Bolonha (02/12/2021) — 'Italy's first herd of dinosaurs': https://magazine.unibo.it/en/articles/italys-first-herd-of-dinosaurs"
+  ]
+}
