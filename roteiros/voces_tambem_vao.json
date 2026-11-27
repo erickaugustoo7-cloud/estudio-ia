@@ -1,0 +1,67 @@
+{
+  "titulo": "Muitos deixaram Jesus. Ele perguntou: vocês também vão?",
+  "gancho_tela": "Muitos deixaram Jesus no mesmo dia",
+  "estilo": "pintura",
+  "narracao": "Num único dia, muitos deixaram Jesus e foram embora. Está em João, capítulo seis. Então ele perguntou aos doze se também iam embora. E a resposta que ouviu vale para você. Um dia antes, Jesus tinha alimentado cinco mil homens com cinco pães e dois peixes. A multidão queria fazer dele rei à força. Depois, em Cafarnaum, eles foram atrás dele de novo. E Jesus disse: vocês me procuram porque comeram pão até ficar satisfeitos. E falou: eu sou o pão da vida. Muitos discípulos reclamaram: essa palavra é dura. Quem consegue ouvir? E daquele dia em diante, voltaram atrás e não andavam mais com ele. Então Jesus perguntou aos doze: vocês também querem ir embora? Pedro respondeu: Senhor, para quem iremos? Tu tens as palavras da vida eterna. Pedro não disse que era fácil. Disse que não havia outro lugar para ir. Se hoje a fé ficou pesada e muita gente foi embora, você não precisa entender tudo. Basta saber para quem ir. Muitos foram embora naquele dia. Pedro ficou. Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias.",
+  "cenas": [
+    {
+      "trecho": "Num único dia, muitos deixaram Jesus e foram embora.",
+      "busca_imagem": "",
+      "prompt_imagem": "a long ancient dusty road leaving a small stone town by the Sea of Galilee at golden sunset, countless fresh sandal footprints in the dust all heading away from the town, a single oil lamp still burning in a stone doorway behind, dramatic contrast of warm gold and deep shadow"
+    },
+    {
+      "trecho": "Está em João, capítulo seis. Então ele perguntou aos doze se também iam embora. E a resposta que ouviu vale para você.",
+      "busca_imagem": "ancient stone road sunset",
+      "prompt_imagem": "an ancient stone synagogue doorway in Capernaum at dusk, black basalt walls, the door half open with warm lamplight spilling onto the empty street, wide high view"
+    },
+    {
+      "trecho": "Um dia antes, Jesus tinha alimentado cinco mil homens com cinco pães e dois peixes. A multidão queria fazer dele rei à força.",
+      "busca_imagem": "bread fish basket grass",
+      "prompt_imagem": "five round barley loaves and two small dried fish in a woven basket resting on green grass on a hillside above a lake, warm afternoon light, distant hills"
+    },
+    {
+      "trecho": "Depois, em Cafarnaum, eles foram atrás dele de novo. E Jesus disse: vocês me procuram porque comeram pão até ficar satisfeitos.",
+      "busca_imagem": "fishing village lake boats",
+      "prompt_imagem": "an ancient fishing village of black basalt houses on the shore of the Sea of Galilee seen from high above, wooden boats pulled onto the beach, tiny distant figures far away, morning haze"
+    },
+    {
+      "trecho": "E falou: eu sou o pão da vida.",
+      "busca_imagem": "bread loaf warm light",
+      "prompt_imagem": "close-up of two hands breaking a round loaf of flatbread over a rough wooden table, a clay oil lamp glowing beside, crumbs in warm golden light"
+    },
+    {
+      "trecho": "Muitos discípulos reclamaram: essa palavra é dura. Quem consegue ouvir? E daquele dia em diante, voltaram atrás e não andavam mais com ele.",
+      "busca_imagem": "empty road dust wind",
+      "prompt_imagem": "an empty winding dirt road through dry hills at dusk, wind blowing dust across it, a dropped cloth bundle lying alone at the roadside, long shadows"
+    },
+    {
+      "trecho": "Então Jesus perguntou aos doze: vocês também querem ir embora?",
+      "busca_imagem": "lake evening calm",
+      "prompt_imagem": "the calm Sea of Galilee at twilight seen from the shore, twelve small wooden stools left in a loose circle on the pebbles around a small fire, soft orange glow on the water"
+    },
+    {
+      "trecho": "Pedro respondeu: Senhor, para quem iremos? Tu tens as palavras da vida eterna.",
+      "busca_imagem": "fire night embers",
+      "prompt_imagem": "a small campfire burning on a stone shore at night, sparks rising into a starry sky, an ancient fisherman's rope and net coiled beside the fire, warm light against deep blue darkness"
+    },
+    {
+      "trecho": "Pedro não disse que era fácil. Disse que não havia outro lugar para ir. Se hoje a fé ficou pesada e muita gente foi embora, você não precisa entender tudo. Basta saber para quem ir. Muitos foram embora naquele dia. Pedro ficou. Envie para alguém que precisa ouvir isso, e siga para receber uma palavra de fé todos os dias.",
+      "busca_imagem": "sunrise path hills",
+      "prompt_imagem": "a narrow ancient path leading up a hill toward a bright golden sunrise, a single set of sandal footprints going toward the light while the dust behind is still, hopeful warm sky"
+    }
+  ],
+  "legenda": "Senhor, para quem eu iria? Eu fico com o Senhor 🙏\nJoão 6:66-69\nComente \"Amém\" e envie para alguém que está pensando em desistir.",
+  "hashtags": [
+    "#Jesus",
+    "#Pedro",
+    "#nãodesista",
+    "#vidaeterna"
+  ],
+  "fontes": [
+    "João 6:1-15 (do outro lado do mar da Galileia; cinco pães de cevada e dois peixes; cerca de cinco mil homens; queriam fazê-lo rei à força, Jesus se retira ao monte)",
+    "João 6:22-26 (no dia seguinte a multidão vai a Cafarnaum procurar Jesus; 'vocês me procuram... porque comeram dos pães e ficaram satisfeitos')",
+    "João 6:35 ('Eu sou o pão da vida')",
+    "João 6:59-60 (na sinagoga de Cafarnaum; muitos discípulos: 'Duro é este discurso; quem pode suportá-lo?')",
+    "João 6:66-69 (desde então muitos discípulos voltaram atrás e já não andavam com ele; Jesus pergunta aos doze se também querem se retirar; Simão Pedro: 'Senhor, para quem iremos? O senhor tem as palavras da vida eterna')"
+  ]
+}
