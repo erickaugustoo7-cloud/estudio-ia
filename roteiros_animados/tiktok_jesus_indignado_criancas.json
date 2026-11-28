@@ -1,0 +1,70 @@
+{
+  "titulo": "Jesus ficou indignado com os próprios discípulos. Por quê?",
+  "gancho_tela": "Jesus ficou indignado",
+  "referencia": "Marcos 10:13-16",
+  "serie": "O que quase ninguém sabe",
+  "tipo": "tiktok",
+  "fonte_imagem": "kaggle",
+  "opcoes_imagem": 2,
+  "duracao_max": 40,
+  "volume_musica": 0.12,
+  "plataformas": [
+    "facebook"
+  ],
+  "estilo_imagem": "cinematic photorealistic epic film still, golden hour, dramatic volumetric god rays, ancient Judea 1st century, muted earthy tones, vertical 9:16",
+  "prefixo_imagem": "cinematic photorealistic film still:",
+  "prefixo_video": "Cinematic slow subtle motion.",
+  "epoca_imagem": "Ancient Judea beyond the Jordan, 1st century, dusty stone paths, clay, wood and linen only, nothing modern",
+  "cenas": [
+    {
+      "trecho": "Jesus ficou indignado. E foi com os próprios discípulos.",
+      "prompt_imagem": "dramatic low angle of a dusty ancient stone path at golden hour, a linen cloth hanging from a wooden post snapping in strong wind, dust swirling in volumetric light",
+      "vazia": true,
+      "animar": true,
+      "prompt_movimento": "strong wind whips the linen cloth, dust swirls through the golden light rays"
+    },
+    {
+      "trecho": "Traziam crianças para Jesus tocar nelas. E os discípulos repreendiam quem as trazia.",
+      "prompt_imagem": "a pair of tiny worn leather sandals and a small woven basket on a dusty ancient road, long dramatic shadows, warm light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Jesus disse: Deixai vir os pequeninos a mim e não os impeçais.",
+      "prompt_imagem": "an open wooden gate of an ancient stone courtyard, warm god rays pouring through, dust floating in the light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Então tomou as crianças nos braços, impôs as mãos e as abençoou.",
+      "prompt_imagem": "close-up of open adult hands raised in blessing in warm golden light, soft dust in the air, ancient linen sleeve",
+      "vazia": false,
+      "animar": false
+    },
+    {
+      "trecho": "Só Marcos conta essa indignação. O seu filho nunca é interrupção para Jesus.",
+      "prompt_imagem": "a small clay oil lamp glowing on a wooden table inside a humble ancient stone house at dusk, warm light",
+      "vazia": true,
+      "animar": false
+    },
+    {
+      "trecho": "Siga o Mensageiro de Fé para mais do que quase ninguém sabe.",
+      "prompt_imagem": "wide high view of ancient Judean hills beyond the Jordan river at sunrise, golden god rays through the morning mist",
+      "vazia": true,
+      "animar": false
+    }
+  ],
+  "legenda": "Só o Evangelho de Marcos conta que Jesus ficou indignado quando impediram as crianças de chegar até Ele (Marcos 10:14). Por qual filho ou criança você quer que Ele estenda as mãos hoje? Comente 👇",
+  "hashtags": [
+    "#Jesus",
+    "#Bíblia",
+    "#Fé",
+    "#OQueQuaseNinguémSabe",
+    "#Mãe"
+  ],
+  "fontes": [
+    "Marcos 10:13-16 — Almeida Revista e Corrigida (citação curta)",
+    "Paralelos sem a menção à indignação: Mateus 19:13-15; Lucas 18:15-17",
+    "Conferido em https://www.bibliaon.com/versiculo/marcos_10_13-17/"
+  ]
+}
