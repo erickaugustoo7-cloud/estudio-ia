@@ -1,0 +1,509 @@
+{
+ "formato": "horizontal",
+ "duracao_max": 999,
+ "volume_musica": 0,
+ "opcoes_imagem": 1,
+ "palavras_por_bloco": 600,
+ "plataformas": [
+  "youtube"
+ ],
+ "estilo_imagem": "breathtaking real-world nature landscape photography, peaceful and serene, soft natural light, rich colors, ultra detailed, horizontal 16:9 widescreen, no people, no text",
+ "prefixo_imagem": "beautiful peaceful nature landscape photo:",
+ "prefixo_video": "Peaceful nature shot, very slow and gentle motion.",
+ "epoca_imagem": "real natural landscapes of today (sea, forest, waterfalls, mountains, lakes, sky); no people, no buildings, no text",
+ "fonte_imagem": "cloudflare",
+ "estilo_voz": "emocionado e íntimo, como quem ora de verdade por alguém que sofre; voz baixa, pausada, com ternura",
+ "tipo": "oracao",
+ "fundo_video": "pixabay",
+ "titulo": "Oração para dormir: agradecer mesmo no dia difícil (Salmo 34)",
+ "titulo_youtube": "Se Hoje Foi Um Dia Pesado, Agradeça Comigo Antes de Dormir | Salmo 34",
+ "gancho_tela": "Davi agradeceu no pior dia",
+ "referencia": "Salmo 34",
+ "cena_capa": 45,
+ "texto_capa": [
+  "HOJE FOI",
+  "*PESADO?",
+  "AGRADEÇA COMIGO"
+ ],
+ "selo_capa": "Oração da noite",
+ "capa_prompt": "a tired Brazilian mother in her forties sitting at a kitchen table at night with hands together praying, a small warm lamp lighting her face, eyes closed, a faint grateful smile, cinematic photo",
+ "legenda": "\"Louvarei ao Senhor em todo o tempo; o seu louvor estará continuamente na minha boca\" (Salmo 34:1). Davi escreveu o Salmo 34 depois do dia mais humilhante da vida dele: fugindo de Saul, foi reconhecido em Gate e precisou se fingir de louco diante do rei Aquis (1 Samuel 21). Nesta oração para dormir você ouve essa história, agradece a Deus pelo seu dia, mesmo que tenha sido pesado, e descobre a palavra que aparece duas vezes no salmo e se cumpriu na cruz (João 19:36). Escreva nos comentários \"obrigado, Senhor\" e o seu pedido de oração. 🙏",
+ "hashtags": [
+  "#Salmo34",
+  "#OraçãoParaDormir",
+  "#Gratidão",
+  "#Fé",
+  "#OraçãoDaNoite"
+ ],
+ "fontes": [
+  "Salmo 34 (título e vv. 1, 4-8, 18-20) — Almeida (ARC), conferido em bibliaonline.com.br/arc/sl/34",
+  "1 Samuel 21:1-15; 22:1-2 — Almeida (ARC), bibliaonline.com.br/arc/1sm/21 (espada de Golias, Aquis de Gate, 'fez-se como doido', 'Faltam-me a mim doidos'); 1 Samuel 17:4 (Golias de Gate)",
+  "שָׁבַר (shabar, Strong H7665) em Sl 34:18 (lĕnišbĕrê-lēb) e 34:20 (nišbārâ) — textusreceptusbibles.com/Strongs/19034020/H7665; thehistoricfaith.com interlinear Salmo 34; biblehub.com/hebrew/nishbarah_7665.htm",
+  "João 19:31-36 (pernas não quebradas, lança, 'Nenhum dos seus ossos será quebrado') — Almeida",
+  "Isaías 26:3; Salmo 4:8 — Almeida (ARC)"
+ ],
+ "capitulos": [
+  {
+   "cena": 0,
+   "titulo": "O dia mais humilhante de Davi"
+  },
+  {
+   "cena": 6,
+   "titulo": "Fingindo-se de louco em Gate"
+  },
+  {
+   "cena": 13,
+   "titulo": "Louvarei ao Senhor em todo o tempo"
+  },
+  {
+   "cena": 18,
+   "titulo": "Gratidão pelo dia, mesmo pesado"
+  },
+  {
+   "cena": 24,
+   "titulo": "Oração pelos medos e pela mente"
+  },
+  {
+   "cena": 29,
+   "titulo": "Oração pela casa e pelos filhos"
+  },
+  {
+   "cena": 33,
+   "titulo": "Saúde, sustento e perdão"
+  },
+  {
+   "cena": 36,
+   "titulo": "Pedidos e quem está longe"
+  },
+  {
+   "cena": 38,
+   "titulo": "A palavra que aparece duas vezes"
+  },
+  {
+   "cena": 47,
+   "titulo": "Respiração e promessas para a noite"
+  },
+  {
+   "cena": 52,
+   "titulo": "Bênção para dormir"
+  }
+ ],
+ "revelacao": {
+  "promessa_cena": 1,
+  "entrega_cena": 40,
+  "o_que": "a palavra 'quebrar' (hebraico shabar, H7665) aparece no v.18 ('coração quebrantado') e no v.20 ('nem um deles se quebra'); o v.20 é citado em João 19:36 quando os soldados não quebraram as pernas de Jesus: Deus está perto do coração partido e guarda o que resta"
+ },
+ "short_isca": {
+  "cenas": [
+   45
+  ],
+  "texto_topo": "CORAÇÃO PARTIDO?",
+  "titulo": "Se o seu coração está partido esta noite, Deus está perto de você 🙏",
+  "hashtags": [
+   "salmo34",
+   "oracao",
+   "consolo"
+  ]
+ },
+ "cenas": [
+  {
+   "trecho": "Davi agradeceu a Deus no dia mais humilhante da vida dele. E talvez o seu dia também tenha sido pesado. Você chegou à noite cansado, com coisas que não deram certo.",
+   "prompt_imagem": "golden sunset over a calm ocean with soft pink clouds",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+  },
+  {
+   "trecho": "Neste salmo existe uma palavra que aparece duas vezes. No final desta oração, eu vou te mostrar qual é… e onde ela apareceu de novo, mil anos depois, ao pé da cruz.",
+   "prompt_imagem": "misty pine forest at dawn with light rays between the trees",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+  },
+  {
+   "trecho": "Então fica comigo. Ajeite o travesseiro. Respire devagar. Você não precisa ter um dia perfeito para agradecer. Só precisa estar aqui.",
+   "prompt_imagem": "calm mountain lake at night under a starry sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "misterioso e baixo no começo, depois íntimo e acolhedor"
+  },
+  {
+   "trecho": "Davi ainda não era rei. Era um fugitivo. O rei Saul queria matá-lo, e ele saiu correndo sem soldados, sem casa, quase sem nada.",
+   "prompt_imagem": "dry desert valley with rocky hills at dusk",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "Passou pela cidade de Nobe e pediu uma arma ao sacerdote. Só havia uma ali: a espada de Golias, o gigante que ele mesmo tinha derrubado.",
+   "prompt_imagem": "ancient stone hills under a cloudy evening sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "E com essa espada na mão, Davi fez uma coisa estranha. Fugiu para Gate, a terra dos filisteus. A cidade de onde Golias tinha vindo.",
+   "prompt_imagem": "wide golden wheat field at sunset with long shadows",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "Ele foi reconhecido na hora. Os servos do rei Aquis disseram: não é este o Davi, de quem cantavam nas danças que matou dez milhares?",
+   "prompt_imagem": "stormy sky over a rugged coastline with crashing waves",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "A Bíblia diz que Davi temeu muito. Sozinho, em terra inimiga, cercado pelos parentes dos homens que ele tinha vencido.",
+   "prompt_imagem": "dark clouds rolling over mountains with a thin ray of light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "E então o herói que derrubou o gigante fez-se como doido. Riscava as portas da cidade. Deixava a saliva escorrer pela barba.",
+   "prompt_imagem": "rain falling on a quiet forest stream",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "O rei Aquis olhou e disse, com desprezo: faltam-me a mim doidos? Mandou que o tirassem dali. Davi saiu vivo… mas humilhado.",
+   "prompt_imagem": "foggy valley at dawn with soft grey light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "Ele se escondeu numa caverna, a caverna de Adulão. E foi para lá que vieram os que estavam em aperto, endividados, com a alma amargurada.",
+   "prompt_imagem": "rocky canyon with a small stream at golden hour",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "E o título deste salmo diz que Davi o escreveu justamente sobre esse dia. O dia em que ele precisou se fingir de louco para sobreviver.",
+   "prompt_imagem": "calm river winding through green hills at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "Se esta oração está tocando o seu coração, inscreva-se no canal. Assim você tem um lugar para orar comigo todas as noites.",
+   "prompt_imagem": "peaceful lavender field under a soft evening sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E sabe qual é a primeira frase que Davi escreveu depois daquele dia? Não foi uma reclamação. Foi esta: \"Louvarei ao Senhor em todo o tempo.\"",
+   "prompt_imagem": "sunrise over a sea of clouds seen from a mountain top",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "Em todo o tempo. No dia bom e no dia humilhante. E em hebraico ele organizou o salmo letra por letra, seguindo o alfabeto, como quem arruma a vida de novo diante de Deus.",
+   "prompt_imagem": "clear mountain lake reflecting snowy peaks",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "Ele escreveu: \"Busquei ao Senhor, e ele me respondeu; livrou-me de todos os meus temores.\" E logo depois: \"Clamou este pobre, e o Senhor o ouviu.\"",
+   "prompt_imagem": "waterfall in a lush green forest with soft light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "contador de histórias, tensão crescente"
+  },
+  {
+   "trecho": "Este pobre era ele. Sem coroa, sem dignidade, com a barba suja. E mesmo assim, Deus ouviu. Gratidão não é fingir que o dia foi bom. É lembrar que Deus estava lá.",
+   "prompt_imagem": "wildflower meadow with gentle morning light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Talvez o seu dia tenha tido uma conta que não fechou. Uma palavra dura. Um filho que não ligou. Um exame. Um cansaço que não passa nem dormindo.",
+   "prompt_imagem": "calm beach at twilight with gentle waves",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Então vamos orar. Feche os olhos, se puder. Coloque a mão no peito. Respire fundo… e solte devagar. Eu vou orar, e você repete comigo no seu coração.",
+   "prompt_imagem": "starry night sky over a quiet desert",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Senhor, eu venho do jeito que eu estou. Hoje não foi um dia fácil. Eu não vou fingir. Mas eu quero terminar este dia com a minha boca te agradecendo.",
+   "prompt_imagem": "soft clouds drifting over green rolling hills",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Obrigado porque eu acordei hoje. Obrigado pelo ar que entrou no meu peito, pelo pão que estava na mesa, pelo teto em cima da minha cabeça.",
+   "prompt_imagem": "morning mist over a calm lake with lily pads",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Obrigado pelas coisas que deram certo e eu nem reparei. Pelo perigo que passou longe de mim e eu nem vi. Tu me guardaste sem eu saber.",
+   "prompt_imagem": "autumn forest with golden leaves and soft sunlight",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E mesmo pelo que doeu hoje, Senhor, eu te agradeço. Porque tu estavas comigo também nessa parte. Como estavas com Davi na porta de Gate.",
+   "prompt_imagem": "gentle river flowing through a quiet valley at dusk",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E escuta: tem uma palavra deste salmo que vai mudar o jeito de você olhar para a sua dor. Fica comigo, que nós vamos chegar nela.",
+   "prompt_imagem": "full moon rising over calm ocean water",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Senhor, agora eu te entrego os meus temores. Davi disse que tu o livraste de todos. Não de alguns. De todos.",
+   "prompt_imagem": "snowy mountain peaks glowing at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Tu conheces o medo que deita comigo. O medo do amanhã, da conta, da notícia ruim. Eu não consigo carregar isso sozinho esta noite.",
+   "prompt_imagem": "quiet pine forest under falling snow",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Acalma a minha mente, Senhor. Ela repete conversas, imagina o pior, faz contas de madrugada. Diz a ela que eu posso descansar.",
+   "prompt_imagem": "calm lake at blue hour with soft reflections",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Davi escreveu: \"Olharam para ele, e foram iluminados.\" Então eu tiro os olhos do problema e olho para ti. Ilumina o meu rosto cansado.",
+   "prompt_imagem": "sun rays breaking through clouds over a green valley",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E se você está com vergonha de algo que aconteceu hoje, como Davi estava, segure firme. A palavra que eu te prometi foi escrita para quem se sente assim.",
+   "prompt_imagem": "tropical beach at sunset with palm trees swaying",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Senhor, agora eu coloco diante de ti a minha casa. Os que dormem perto de mim e os que estão longe. Guarda cada um, onde estiver esta noite.",
+   "prompt_imagem": "cozy mountain valley under a starry sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "O salmo diz: \"O anjo do Senhor acampa-se ao redor dos que o temem, e os livra.\" Então acampa ao redor da minha casa, Senhor. Da porta, das janelas, das camas.",
+   "prompt_imagem": "quiet forest clearing with fireflies at night",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Pelos meus filhos, eu te peço. Os pequenos e os que já cresceram. Os que estão perto de ti e os que se afastaram. Tu sabes o caminho até o coração deles.",
+   "prompt_imagem": "gentle waterfall flowing into a clear pool",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Se existe briga na minha casa, traz paz. Se existe silêncio pesado, traz conversa. Se o meu casamento esfriou, acende de novo o amor.",
+   "prompt_imagem": "rose colored sunset over calm sea",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Agora eu te entrego o meu corpo, Senhor. Cada dor, cada exame que espero, cada remédio. Toca em mim e em quem eu amo.",
+   "prompt_imagem": "morning dew on green grass in a sunny meadow",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E te entrego o meu sustento. O trabalho que eu tenho ou o que eu procuro. As contas em cima da mesa. Davi escreveu que quem busca ao Senhor não fica sem o bem.",
+   "prompt_imagem": "wide river delta seen from above at golden hour",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E me ajuda a perdoar quem me feriu hoje. E a me perdoar também. Eu não quero dormir carregando mágoa. Eu solto isso nas tuas mãos.",
+   "prompt_imagem": "calm lake surrounded by forest at sunrise",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Se você tem um pedido, escreva nos comentários. Pode ser uma palavra só. Eu leio e oro por ele. Você não está sozinho nessa caverna.",
+   "prompt_imagem": "starry sky over a calm mountain lake",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "E se hoje você está longe de Deus, se nem sabe por que começou a ouvir esta oração, saiba: o salmo diz que este pobre clamou, e foi ouvido. Você também pode.",
+   "prompt_imagem": "aurora borealis over a snowy forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "ternura, voz embargada nas dores, frases curtas"
+  },
+  {
+   "trecho": "Agora vem a palavra que eu te prometi. Ela está no versículo dezoito: \"Perto está o Senhor dos que têm o coração quebrantado.\"",
+   "prompt_imagem": "golden light over a misty river at dawn",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "Em hebraico, quebrantado vem de uma palavra que quer dizer quebrar, partir em pedaços. Shabar. É coração partido mesmo.",
+   "prompt_imagem": "ocean waves breaking softly on rocks at sunset",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "Agora repare. Dois versículos depois, Davi escreve: \"Ele lhe guarda todos os seus ossos; nem sequer um deles se quebra.\" E aqui aparece a mesmíssima palavra.",
+   "prompt_imagem": "dramatic clouds over a quiet plain with a beam of light",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "Deus deixou o coração de Davi ser quebrado naquele dia em Gate. Mas não deixou que ele fosse destruído. Ele estava perto. E guardou cada osso.",
+   "prompt_imagem": "sunlight through tall redwood trees",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "E mil anos depois, na cruz, os soldados quebraram as pernas dos dois homens crucificados ao lado de Jesus. Mas quando chegaram a Ele, já estava morto, e não quebraram.",
+   "prompt_imagem": "quiet hills under a dark sky with the first light of dawn",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "O evangelho de João diz que isso aconteceu para cumprir a Escritura: \"Nenhum dos seus ossos será quebrado.\" A frase deste salmo. Do dia mais humilhante de Davi.",
+   "prompt_imagem": "calm sea at sunrise with golden reflections",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "Nenhum osso de Jesus foi quebrado. Mas o lado dele foi aberto por uma lança. Ele deixou o próprio coração ser ferido para ficar perto do seu coração partido.",
+   "prompt_imagem": "soft sunrise over a misty lake with mountains",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "Se o seu coração está partido esta noite, Deus não está longe de você. O salmo diz que Ele está perto. Bem perto. E Ele vai guardar o que sobrou de você.",
+   "prompt_imagem": "field of white flowers glowing in morning sun",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "Por isso Davi conseguiu escrever, logo depois de ser humilhado: \"Muitas são as aflições do justo, mas o Senhor o livra de todas.\"",
+   "prompt_imagem": "bright rainbow over green hills after rain",
+   "vazia": true,
+   "animar": false,
+   "emocao": "emoção forte e esperança, mais firme"
+  },
+  {
+   "trecho": "Agora respire comigo. Puxe o ar devagar… segure um pouco… e solte. Mais uma vez. Deixe os ombros caírem. Deixe o corpo pesar na cama.",
+   "prompt_imagem": "calm lake at night with soft reflections of stars",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Escute de novo, bem devagar: Perto está o Senhor dos que têm o coração quebrantado. Perto. Ele está perto de você agora.",
+   "prompt_imagem": "moonlight over a quiet forest",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "\"Provai e vede que o Senhor é bom; bem-aventurado o homem que nele confia.\" Você provou hoje, mesmo no dia difícil. Ele foi bom.",
+   "prompt_imagem": "gentle snowfall over a frozen lake at dusk",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "O profeta Isaías escreveu: \"Tu conservarás em paz aquele cuja mente está firme em ti; porque ele confia em ti.\"",
+   "prompt_imagem": "soft waves on a moonlit beach",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "E o mesmo Davi disse: \"Em paz também me deitarei e dormirei, porque só tu, Senhor, me fazes habitar em segurança.\"",
+   "prompt_imagem": "starry night over a calm mountain valley",
+   "vazia": true,
+   "animar": false,
+   "emocao": "calmo e lento, quase sussurrado"
+  },
+  {
+   "trecho": "Senhor, obrigado por este dia, com tudo o que ele teve. Obrigado porque tu estás perto de quem tem o coração partido. Eu termino este dia te louvando.",
+   "prompt_imagem": "pastel sunset over a peaceful lake",
+   "vazia": true,
+   "animar": false,
+   "emocao": "paz, voz suave"
+  },
+  {
+   "trecho": "Abençoa quem está ouvindo num hospital, num plantão, numa estrada, ou acordado sozinho. Acampa ao redor de cada casa, de cada cama, de cada coração.",
+   "prompt_imagem": "quiet ocean horizon under a deep blue night sky",
+   "vazia": true,
+   "animar": false,
+   "emocao": "paz, voz suave"
+  },
+  {
+   "trecho": "Se esta oração te ajudou, escreva nos comentários \"obrigado, Senhor\" e o seu pedido. Eu vou orar por você.",
+   "prompt_imagem": "calm lake at night with soft reflections of stars",
+   "vazia": true,
+   "animar": false,
+   "emocao": "paz, voz suave"
+  },
+  {
+   "trecho": "E inscreva-se no canal, para orarmos juntos de novo amanhã à noite.",
+   "prompt_imagem": "gentle moonlight over a peaceful forest lake",
+   "vazia": true,
+   "animar": false,
+   "emocao": "paz, voz suave"
+  },
+  {
+   "trecho": "Durma em paz. Mesmo que o dia tenha sido pesado, o Senhor está perto, e guarda você. Em nome de Jesus… amém.",
+   "prompt_imagem": "milky way over a still mountain lake",
+   "vazia": true,
+   "animar": false,
+   "emocao": "paz, voz suave"
+  }
+ ]
+}
